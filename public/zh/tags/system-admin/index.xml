@@ -1,224 +1,224 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>BigLedger 文档 – System-Admin</title><link>https://www.bigledger.com/zh/tags/system-admin/</link><description>Recent content in System-Admin on BigLedger 文档</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://www.bigledger.com/zh/tags/system-admin/index.xml" rel="self" type="application/rss+xml"/><item><title>管理</title><link>https://www.bigledger.com/zh/user-guide/administration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/user-guide/administration/</guid><description>
-&lt;p>BigLedger管理员的综合系统管理和配置工具。本节涵盖用户管理、系统设置、安全性和组织结构。&lt;/p>
-&lt;h2>用户和团队管理&lt;span class="hx:absolute hx:-mt-20" id="用户和团队管理">&lt;/span>
-&lt;a href="#%e7%94%a8%e6%88%b7%e5%92%8c%e5%9b%a2%e9%98%9f%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>管理您组织的用户和团队结构：&lt;/p>
-&lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&lt;p&gt;BigLedger管理员的综合系统管理和配置工具。本节涵盖用户管理、系统设置、安全性和组织结构。&lt;/p&gt;
+&lt;h2&gt;用户和团队管理&lt;span class="hx:absolute hx:-mt-20" id="用户和团队管理"&gt;&lt;/span&gt;
+&lt;a href="#%e7%94%a8%e6%88%b7%e5%92%8c%e5%9b%a2%e9%98%9f%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;管理您组织的用户和团队结构：&lt;/p&gt;
+&lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 3;"&gt;
 &lt;a
 class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/zh/user-guide/administration/member-listing"
->&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50">用户管理&lt;/span>&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2">添加、编辑和管理用户账户和权限&lt;/div>&lt;/a>
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;用户管理&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;添加、编辑和管理用户账户和权限&lt;/div&gt;&lt;/a&gt;
 &lt;a
 class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/zh/user-guide/administration/team"
->&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50">团队配置&lt;/span>&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2">设置部门、角色和组织结构&lt;/div>&lt;/a>
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;团队配置&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;设置部门、角色和组织结构&lt;/div&gt;&lt;/a&gt;
 &lt;a
 class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/zh/user-guide/administration/member-class"
->&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50">成员分类&lt;/span>&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2">用户角色、权限和访问控制系统&lt;/div>&lt;/a>
-&lt;/div>
-&lt;h2>组织和结构&lt;span class="hx:absolute hx:-mt-20" id="组织和结构">&lt;/span>
-&lt;a href="#%e7%bb%84%e7%bb%87%e5%92%8c%e7%bb%93%e6%9e%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>配置您的业务组织和数据结构：&lt;/p>
-&lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 3;">
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;成员分类&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;用户角色、权限和访问控制系统&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;h2&gt;组织和结构&lt;span class="hx:absolute hx:-mt-20" id="组织和结构"&gt;&lt;/span&gt;
+&lt;a href="#%e7%bb%84%e7%bb%87%e5%92%8c%e7%bb%93%e6%9e%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;配置您的业务组织和数据结构：&lt;/p&gt;
+&lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 3;"&gt;
 &lt;a
 class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/zh/user-guide/administration/group-listing"
->&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50">组管理&lt;/span>&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2">管理组、类别和组织结构&lt;/div>&lt;/a>
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;组管理&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;管理组、类别和组织结构&lt;/div&gt;&lt;/a&gt;
 &lt;a
 class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/zh/user-guide/administration/member-label"
->&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50">标签配置&lt;/span>&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2">用于更好组织的高级标签和标记系统&lt;/div>&lt;/a>
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;标签配置&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;用于更好组织的高级标签和标记系统&lt;/div&gt;&lt;/a&gt;
 &lt;a
 class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/zh/user-guide/administration/member-label-list"
->&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50">标签管理&lt;/span>&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2">创建和管理用于分类和报告的标签&lt;/div>&lt;/a>
-&lt;/div>
-&lt;h2>关键管理职责&lt;span class="hx:absolute hx:-mt-20" id="关键管理职责">&lt;/span>
-&lt;a href="#%e5%85%b3%e9%94%ae%e7%ae%a1%e7%90%86%e8%81%8c%e8%b4%a3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>用户管理&lt;span class="hx:absolute hx:-mt-20" id="用户管理">&lt;/span>
-&lt;a href="#%e7%94%a8%e6%88%b7%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>✅ 创建和维护用户账户&lt;/li>
-&lt;li>✅ 分配适当的角色和权限&lt;/li>
-&lt;li>✅ 监控用户活动和安全性&lt;/li>
-&lt;li>✅ 处理密码重置和访问问题&lt;/li>
-&lt;li>✅ 管理团队结构和报告关系&lt;/li>
-&lt;/ul>
-&lt;h3>系统配置&lt;span class="hx:absolute hx:-mt-20" id="系统配置">&lt;/span>
-&lt;a href="#%e7%b3%bb%e7%bb%9f%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>✅ 配置业务规则和工作流程&lt;/li>
-&lt;li>✅ 设置组织层次结构&lt;/li>
-&lt;li>✅ 管理系统集成&lt;/li>
-&lt;li>✅ 配置安全设置和策略&lt;/li>
-&lt;li>✅ 维护数据备份和恢复程序&lt;/li>
-&lt;/ul>
-&lt;h3>数据治理&lt;span class="hx:absolute hx:-mt-20" id="数据治理">&lt;/span>
-&lt;a href="#%e6%95%b0%e6%8d%ae%e6%b2%bb%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>✅ 建立数据质量标准&lt;/li>
-&lt;li>✅ 配置验证规则&lt;/li>
-&lt;li>✅ 管理主数据一致性&lt;/li>
-&lt;li>✅ 实施审计控制&lt;/li>
-&lt;li>✅ 确保合规要求&lt;/li>
-&lt;/ul>
-&lt;h2>管理任务清单&lt;span class="hx:absolute hx:-mt-20" id="管理任务清单">&lt;/span>
-&lt;a href="#%e7%ae%a1%e7%90%86%e4%bb%bb%e5%8a%a1%e6%b8%85%e5%8d%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>日常管理&lt;span class="hx:absolute hx:-mt-20" id="日常管理">&lt;/span>
-&lt;a href="#%e6%97%a5%e5%b8%b8%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> 监控系统性能和用户活动&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> 审查安全警报和通知&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> 处理用户访问请求和问题&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> 处理待审批和工作流程&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> 检查系统备份和集成&lt;/li>
-&lt;/ul>
-&lt;h3>周度管理&lt;span class="hx:absolute hx:-mt-20" id="周度管理">&lt;/span>
-&lt;a href="#%e5%91%a8%e5%ba%a6%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> 审查用户权限和访问级别&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> 分析系统使用报告&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> 根据需要更新系统配置&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> 进行安全审查&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> 计划即将到来的维护窗口&lt;/li>
-&lt;/ul>
-&lt;h3>月度管理&lt;span class="hx:absolute hx:-mt-20" id="月度管理">&lt;/span>
-&lt;a href="#%e6%9c%88%e5%ba%a6%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> 综合安全审计&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> 用户访问认证审查&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> 系统性能分析&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> 数据质量评估&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> 业务规则有效性审查&lt;/li>
-&lt;/ul>
-&lt;h2>安全最佳实践&lt;span class="hx:absolute hx:-mt-20" id="安全最佳实践">&lt;/span>
-&lt;a href="#%e5%ae%89%e5%85%a8%e6%9c%80%e4%bd%b3%e5%ae%9e%e8%b7%b5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>访问控制&lt;span class="hx:absolute hx:-mt-20" id="访问控制">&lt;/span>
-&lt;a href="#%e8%ae%bf%e9%97%ae%e6%8e%a7%e5%88%b6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>最小权限原则&lt;/strong>：授予最少必要的访问权限&lt;/li>
-&lt;li>&lt;strong>基于角色的安全&lt;/strong>：使用角色而不是单独权限&lt;/li>
-&lt;li>&lt;strong>定期审查&lt;/strong>：每季度审计用户访问&lt;/li>
-&lt;li>&lt;strong>职责分离&lt;/strong>：防止利益冲突&lt;/li>
-&lt;li>&lt;strong>强身份验证&lt;/strong>：强制复杂密码和2FA&lt;/li>
-&lt;/ul>
-&lt;h3>数据保护&lt;span class="hx:absolute hx:-mt-20" id="数据保护">&lt;/span>
-&lt;a href="#%e6%95%b0%e6%8d%ae%e4%bf%9d%e6%8a%a4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>加密&lt;/strong>：确保静态和传输中的数据加密&lt;/li>
-&lt;li>&lt;strong>备份策略&lt;/strong>：维护定期、经过测试的备份&lt;/li>
-&lt;li>&lt;strong>变更管理&lt;/strong>：记录所有系统变更&lt;/li>
-&lt;li>&lt;strong>合规性&lt;/strong>：满足监管要求（PDPA等）&lt;/li>
-&lt;li>&lt;strong>事件响应&lt;/strong>：制定安全事件程序&lt;/li>
-&lt;/ul>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';">⚠️&lt;/div>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;strong>安全警报&lt;/strong>：管理员拥有强大权限。始终遵循最小权限原则并维护管理操作的详细审计日志。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>系统集成管理&lt;span class="hx:absolute hx:-mt-20" id="系统集成管理">&lt;/span>
-&lt;a href="#%e7%b3%bb%e7%bb%9f%e9%9b%86%e6%88%90%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>待办：添加综合系统集成指南&lt;/strong>&lt;/p>
-&lt;h3>常见集成区域&lt;span class="hx:absolute hx:-mt-20" id="常见集成区域">&lt;/span>
-&lt;a href="#%e5%b8%b8%e8%a7%81%e9%9b%86%e6%88%90%e5%8c%ba%e5%9f%9f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>银行系统&lt;/strong> - 银行对账单导入和对账&lt;/li>
-&lt;li>&lt;strong>电子商务平台&lt;/strong> - 在线商店同步&lt;/li>
-&lt;li>&lt;strong>支付网关&lt;/strong> - 支付处理集成&lt;/li>
-&lt;li>&lt;strong>第三方API&lt;/strong> - 外部服务连接&lt;/li>
-&lt;li>&lt;strong>报告工具&lt;/strong> - 商业智能集成&lt;/li>
-&lt;/ul>
-&lt;h3>集成最佳实践&lt;span class="hx:absolute hx:-mt-20" id="集成最佳实践">&lt;/span>
-&lt;a href="#%e9%9b%86%e6%88%90%e6%9c%80%e4%bd%b3%e5%ae%9e%e8%b7%b5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>测试&lt;/strong>：始终在预发布环境中测试集成&lt;/li>
-&lt;li>&lt;strong>监控&lt;/strong>：为集成失败设置警报&lt;/li>
-&lt;li>&lt;strong>文档&lt;/strong>：维护集成文档&lt;/li>
-&lt;li>&lt;strong>安全&lt;/strong>：保护API凭据和访问令牌&lt;/li>
-&lt;li>&lt;strong>性能&lt;/strong>：监控集成性能影响&lt;/li>
-&lt;/ul>
-&lt;h2>常见问题故障排除&lt;span class="hx:absolute hx:-mt-20" id="常见问题故障排除">&lt;/span>
-&lt;a href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98%e6%95%85%e9%9a%9c%e6%8e%92%e9%99%a4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>用户访问问题&lt;span class="hx:absolute hx:-mt-20" id="用户访问问题">&lt;/span>
-&lt;a href="#%e7%94%a8%e6%88%b7%e8%ae%bf%e9%97%ae%e9%97%ae%e9%a2%98" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>无法登录&lt;/strong>：检查用户状态、密码和权限&lt;/li>
-&lt;li>&lt;strong>缺少功能&lt;/strong>：验证角色分配和applet访问&lt;/li>
-&lt;li>&lt;strong>性能问题&lt;/strong>：审查用户的浏览器和网络连接&lt;/li>
-&lt;li>&lt;strong>数据不可见&lt;/strong>：检查记录级安全和过滤器&lt;/li>
-&lt;/ul>
-&lt;h3>系统性能问题&lt;span class="hx:absolute hx:-mt-20" id="系统性能问题">&lt;/span>
-&lt;a href="#%e7%b3%bb%e7%bb%9f%e6%80%a7%e8%83%bd%e9%97%ae%e9%a2%98" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>响应慢&lt;/strong>：监控服务器资源和数据库性能&lt;/li>
-&lt;li>&lt;strong>集成失败&lt;/strong>：检查API凭据和网络连接&lt;/li>
-&lt;li>&lt;strong>备份失败&lt;/strong>：验证备份存储和计划配置&lt;/li>
-&lt;li>&lt;strong>报告错误&lt;/strong>：审查报告参数和数据访问权限&lt;/li>
-&lt;/ul>
-&lt;h2>合规和治理&lt;span class="hx:absolute hx:-mt-20" id="合规和治理">&lt;/span>
-&lt;a href="#%e5%90%88%e8%a7%84%e5%92%8c%e6%b2%bb%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>监管合规&lt;span class="hx:absolute hx:-mt-20" id="监管合规">&lt;/span>
-&lt;a href="#%e7%9b%91%e7%ae%a1%e5%90%88%e8%a7%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>待办：添加详细合规管理程序&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>数据隐私（PDPA）&lt;/strong>：个人数据保护程序&lt;/li>
-&lt;li>&lt;strong>财务合规&lt;/strong>：税务和会计法规遵循&lt;/li>
-&lt;li>&lt;strong>行业标准&lt;/strong>：特定行业合规要求&lt;/li>
-&lt;li>&lt;strong>审计要求&lt;/strong>：文档和证据维护&lt;/li>
-&lt;/ul>
-&lt;h3>内部治理&lt;span class="hx:absolute hx:-mt-20" id="内部治理">&lt;/span>
-&lt;a href="#%e5%86%85%e9%83%a8%e6%b2%bb%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>变更控制&lt;/strong>：系统变更的正式流程&lt;/li>
-&lt;li>&lt;strong>文档标准&lt;/strong>：维护当前系统文档&lt;/li>
-&lt;li>&lt;strong>培训计划&lt;/strong>：保持用户对系统变更的培训&lt;/li>
-&lt;li>&lt;strong>性能指标&lt;/strong>：监控系统和用户有效性&lt;/li>
-&lt;/ul>
-&lt;h2>高级配置&lt;span class="hx:absolute hx:-mt-20" id="高级配置">&lt;/span>
-&lt;a href="#%e9%ab%98%e7%ba%a7%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>待办：添加高级系统配置指南&lt;/strong>&lt;/p>
-&lt;h3>工作流程管理&lt;span class="hx:absolute hx:-mt-20" id="工作流程管理">&lt;/span>
-&lt;a href="#%e5%b7%a5%e4%bd%9c%e6%b5%81%e7%a8%8b%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>审批链&lt;/strong>：多级审批流程&lt;/li>
-&lt;li>&lt;strong>业务规则&lt;/strong>：自动化业务逻辑执行&lt;/li>
-&lt;li>&lt;strong>通知&lt;/strong>：邮件和短信警报配置&lt;/li>
-&lt;li>&lt;strong>升级程序&lt;/strong>：处理过期任务和异常&lt;/li>
-&lt;/ul>
-&lt;h3>自定义选项&lt;span class="hx:absolute hx:-mt-20" id="自定义选项">&lt;/span>
-&lt;a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e9%80%89%e9%a1%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>自定义字段&lt;/strong>：添加业务特定数据字段&lt;/li>
-&lt;li>&lt;strong>报告构建&lt;/strong>：创建自定义报告和仪表板&lt;/li>
-&lt;li>&lt;strong>用户界面&lt;/strong>：自定义屏幕和布局&lt;/li>
-&lt;li>&lt;strong>集成开发&lt;/strong>：构建自定义集成&lt;/li>
-&lt;/ul>
-&lt;h2>性能监控&lt;span class="hx:absolute hx:-mt-20" id="性能监控">&lt;/span>
-&lt;a href="#%e6%80%a7%e8%83%bd%e7%9b%91%e6%8e%a7" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>跟踪关键管理指标：&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>指标&lt;/th>
-&lt;th>目标&lt;/th>
-&lt;th>监控方法&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;strong>系统正常运行时间&lt;/strong>&lt;/td>
-&lt;td>&amp;gt; 99.5%&lt;/td>
-&lt;td>自动监控&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>用户登录问题&lt;/strong>&lt;/td>
-&lt;td>&amp;lt; 2%的尝试&lt;/td>
-&lt;td>访问日志分析&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>数据备份成功&lt;/strong>&lt;/td>
-&lt;td>100%&lt;/td>
-&lt;td>备份验证&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>安全事件&lt;/strong>&lt;/td>
-&lt;td>每月0起&lt;/td>
-&lt;td>安全日志审查&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>用户满意度&lt;/strong>&lt;/td>
-&lt;td>&amp;gt; 90%&lt;/td>
-&lt;td>定期用户调查&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2>管理员下一步&lt;span class="hx:absolute hx:-mt-20" id="管理员下一步">&lt;/span>
-&lt;a href="#%e7%ae%a1%e7%90%86%e5%91%98%e4%b8%8b%e4%b8%80%e6%ad%a5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>&lt;strong>&lt;a href="https://www.bigledger.com/zh/user-guide/reports-analytics/" >报表和分析&lt;/a>&lt;/strong> - 学习创建管理报告&lt;/li>
-&lt;li>&lt;strong>&lt;a href="https://www.bigledger.com/zh/user-guide/troubleshooting/" >故障排除&lt;/a>&lt;/strong> - 掌握问题解决技术&lt;/li>
-&lt;li>&lt;strong>&lt;a href="https://www.bigledger.com/zh/user-guide/best-practices/" >最佳实践&lt;/a>&lt;/strong> - 实施优化策略&lt;/li>
-&lt;li>&lt;strong>&lt;a href="https://www.bigledger.com/zh/developers/" >开发者资源&lt;/a>&lt;/strong> - 高级自定义选项&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;strong>管理卓越&lt;/strong>：成功的管理员在安全性、可用性和业务需求之间保持平衡，同时确保系统可靠性和合规性。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>获得管理帮助&lt;span class="hx:absolute hx:-mt-20" id="获得管理帮助">&lt;/span>
-&lt;a href="#%e8%8e%b7%e5%be%97%e7%ae%a1%e7%90%86%e5%b8%ae%e5%8a%a9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;strong>📧 技术支持&lt;/strong>：vincent@bigledger.com 系统管理问题&lt;/li>
-&lt;li>&lt;strong>📚 管理文档&lt;/strong>：详细的管理程序和指南&lt;/li>
-&lt;li>&lt;strong>👥 管理社区&lt;/strong>：与其他BigLedger管理员联系&lt;/li>
-&lt;li>&lt;strong>🎓 管理培训&lt;/strong>：系统管理员专业培训&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;标签管理&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;创建和管理用于分类和报告的标签&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;h2&gt;关键管理职责&lt;span class="hx:absolute hx:-mt-20" id="关键管理职责"&gt;&lt;/span&gt;
+&lt;a href="#%e5%85%b3%e9%94%ae%e7%ae%a1%e7%90%86%e8%81%8c%e8%b4%a3" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;用户管理&lt;span class="hx:absolute hx:-mt-20" id="用户管理"&gt;&lt;/span&gt;
+&lt;a href="#%e7%94%a8%e6%88%b7%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;✅ 创建和维护用户账户&lt;/li&gt;
+&lt;li&gt;✅ 分配适当的角色和权限&lt;/li&gt;
+&lt;li&gt;✅ 监控用户活动和安全性&lt;/li&gt;
+&lt;li&gt;✅ 处理密码重置和访问问题&lt;/li&gt;
+&lt;li&gt;✅ 管理团队结构和报告关系&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;系统配置&lt;span class="hx:absolute hx:-mt-20" id="系统配置"&gt;&lt;/span&gt;
+&lt;a href="#%e7%b3%bb%e7%bb%9f%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;✅ 配置业务规则和工作流程&lt;/li&gt;
+&lt;li&gt;✅ 设置组织层次结构&lt;/li&gt;
+&lt;li&gt;✅ 管理系统集成&lt;/li&gt;
+&lt;li&gt;✅ 配置安全设置和策略&lt;/li&gt;
+&lt;li&gt;✅ 维护数据备份和恢复程序&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;数据治理&lt;span class="hx:absolute hx:-mt-20" id="数据治理"&gt;&lt;/span&gt;
+&lt;a href="#%e6%95%b0%e6%8d%ae%e6%b2%bb%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;✅ 建立数据质量标准&lt;/li&gt;
+&lt;li&gt;✅ 配置验证规则&lt;/li&gt;
+&lt;li&gt;✅ 管理主数据一致性&lt;/li&gt;
+&lt;li&gt;✅ 实施审计控制&lt;/li&gt;
+&lt;li&gt;✅ 确保合规要求&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;管理任务清单&lt;span class="hx:absolute hx:-mt-20" id="管理任务清单"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ae%a1%e7%90%86%e4%bb%bb%e5%8a%a1%e6%b8%85%e5%8d%95" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;日常管理&lt;span class="hx:absolute hx:-mt-20" id="日常管理"&gt;&lt;/span&gt;
+&lt;a href="#%e6%97%a5%e5%b8%b8%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 监控系统性能和用户活动&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 审查安全警报和通知&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 处理用户访问请求和问题&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 处理待审批和工作流程&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 检查系统备份和集成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;周度管理&lt;span class="hx:absolute hx:-mt-20" id="周度管理"&gt;&lt;/span&gt;
+&lt;a href="#%e5%91%a8%e5%ba%a6%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 审查用户权限和访问级别&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 分析系统使用报告&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 根据需要更新系统配置&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 进行安全审查&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 计划即将到来的维护窗口&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;月度管理&lt;span class="hx:absolute hx:-mt-20" id="月度管理"&gt;&lt;/span&gt;
+&lt;a href="#%e6%9c%88%e5%ba%a6%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 综合安全审计&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 用户访问认证审查&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 系统性能分析&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 数据质量评估&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 业务规则有效性审查&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;安全最佳实践&lt;span class="hx:absolute hx:-mt-20" id="安全最佳实践"&gt;&lt;/span&gt;
+&lt;a href="#%e5%ae%89%e5%85%a8%e6%9c%80%e4%bd%b3%e5%ae%9e%e8%b7%b5" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;访问控制&lt;span class="hx:absolute hx:-mt-20" id="访问控制"&gt;&lt;/span&gt;
+&lt;a href="#%e8%ae%bf%e9%97%ae%e6%8e%a7%e5%88%b6" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;最小权限原则&lt;/strong&gt;：授予最少必要的访问权限&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基于角色的安全&lt;/strong&gt;：使用角色而不是单独权限&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;定期审查&lt;/strong&gt;：每季度审计用户访问&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;职责分离&lt;/strong&gt;：防止利益冲突&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;强身份验证&lt;/strong&gt;：强制复杂密码和2FA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;数据保护&lt;span class="hx:absolute hx:-mt-20" id="数据保护"&gt;&lt;/span&gt;
+&lt;a href="#%e6%95%b0%e6%8d%ae%e4%bf%9d%e6%8a%a4" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;加密&lt;/strong&gt;：确保静态和传输中的数据加密&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;备份策略&lt;/strong&gt;：维护定期、经过测试的备份&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;变更管理&lt;/strong&gt;：记录所有系统变更&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;合规性&lt;/strong&gt;：满足监管要求（PDPA等）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;事件响应&lt;/strong&gt;：制定安全事件程序&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;安全警报&lt;/strong&gt;：管理员拥有强大权限。始终遵循最小权限原则并维护管理操作的详细审计日志。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;系统集成管理&lt;span class="hx:absolute hx:-mt-20" id="系统集成管理"&gt;&lt;/span&gt;
+&lt;a href="#%e7%b3%bb%e7%bb%9f%e9%9b%86%e6%88%90%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;待办：添加综合系统集成指南&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;常见集成区域&lt;span class="hx:absolute hx:-mt-20" id="常见集成区域"&gt;&lt;/span&gt;
+&lt;a href="#%e5%b8%b8%e8%a7%81%e9%9b%86%e6%88%90%e5%8c%ba%e5%9f%9f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;银行系统&lt;/strong&gt; - 银行对账单导入和对账&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;电子商务平台&lt;/strong&gt; - 在线商店同步&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;支付网关&lt;/strong&gt; - 支付处理集成&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;第三方API&lt;/strong&gt; - 外部服务连接&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;报告工具&lt;/strong&gt; - 商业智能集成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;集成最佳实践&lt;span class="hx:absolute hx:-mt-20" id="集成最佳实践"&gt;&lt;/span&gt;
+&lt;a href="#%e9%9b%86%e6%88%90%e6%9c%80%e4%bd%b3%e5%ae%9e%e8%b7%b5" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;测试&lt;/strong&gt;：始终在预发布环境中测试集成&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;监控&lt;/strong&gt;：为集成失败设置警报&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;文档&lt;/strong&gt;：维护集成文档&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;安全&lt;/strong&gt;：保护API凭据和访问令牌&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;性能&lt;/strong&gt;：监控集成性能影响&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;常见问题故障排除&lt;span class="hx:absolute hx:-mt-20" id="常见问题故障排除"&gt;&lt;/span&gt;
+&lt;a href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98%e6%95%85%e9%9a%9c%e6%8e%92%e9%99%a4" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;用户访问问题&lt;span class="hx:absolute hx:-mt-20" id="用户访问问题"&gt;&lt;/span&gt;
+&lt;a href="#%e7%94%a8%e6%88%b7%e8%ae%bf%e9%97%ae%e9%97%ae%e9%a2%98" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;无法登录&lt;/strong&gt;：检查用户状态、密码和权限&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;缺少功能&lt;/strong&gt;：验证角色分配和applet访问&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;性能问题&lt;/strong&gt;：审查用户的浏览器和网络连接&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据不可见&lt;/strong&gt;：检查记录级安全和过滤器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;系统性能问题&lt;span class="hx:absolute hx:-mt-20" id="系统性能问题"&gt;&lt;/span&gt;
+&lt;a href="#%e7%b3%bb%e7%bb%9f%e6%80%a7%e8%83%bd%e9%97%ae%e9%a2%98" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;响应慢&lt;/strong&gt;：监控服务器资源和数据库性能&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;集成失败&lt;/strong&gt;：检查API凭据和网络连接&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;备份失败&lt;/strong&gt;：验证备份存储和计划配置&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;报告错误&lt;/strong&gt;：审查报告参数和数据访问权限&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;合规和治理&lt;span class="hx:absolute hx:-mt-20" id="合规和治理"&gt;&lt;/span&gt;
+&lt;a href="#%e5%90%88%e8%a7%84%e5%92%8c%e6%b2%bb%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;监管合规&lt;span class="hx:absolute hx:-mt-20" id="监管合规"&gt;&lt;/span&gt;
+&lt;a href="#%e7%9b%91%e7%ae%a1%e5%90%88%e8%a7%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;待办：添加详细合规管理程序&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;数据隐私（PDPA）&lt;/strong&gt;：个人数据保护程序&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;财务合规&lt;/strong&gt;：税务和会计法规遵循&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;行业标准&lt;/strong&gt;：特定行业合规要求&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;审计要求&lt;/strong&gt;：文档和证据维护&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;内部治理&lt;span class="hx:absolute hx:-mt-20" id="内部治理"&gt;&lt;/span&gt;
+&lt;a href="#%e5%86%85%e9%83%a8%e6%b2%bb%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;变更控制&lt;/strong&gt;：系统变更的正式流程&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;文档标准&lt;/strong&gt;：维护当前系统文档&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;培训计划&lt;/strong&gt;：保持用户对系统变更的培训&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;性能指标&lt;/strong&gt;：监控系统和用户有效性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;高级配置&lt;span class="hx:absolute hx:-mt-20" id="高级配置"&gt;&lt;/span&gt;
+&lt;a href="#%e9%ab%98%e7%ba%a7%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;待办：添加高级系统配置指南&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;工作流程管理&lt;span class="hx:absolute hx:-mt-20" id="工作流程管理"&gt;&lt;/span&gt;
+&lt;a href="#%e5%b7%a5%e4%bd%9c%e6%b5%81%e7%a8%8b%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;审批链&lt;/strong&gt;：多级审批流程&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;业务规则&lt;/strong&gt;：自动化业务逻辑执行&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;通知&lt;/strong&gt;：邮件和短信警报配置&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;升级程序&lt;/strong&gt;：处理过期任务和异常&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;自定义选项&lt;span class="hx:absolute hx:-mt-20" id="自定义选项"&gt;&lt;/span&gt;
+&lt;a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e9%80%89%e9%a1%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;自定义字段&lt;/strong&gt;：添加业务特定数据字段&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;报告构建&lt;/strong&gt;：创建自定义报告和仪表板&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;用户界面&lt;/strong&gt;：自定义屏幕和布局&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;集成开发&lt;/strong&gt;：构建自定义集成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;性能监控&lt;span class="hx:absolute hx:-mt-20" id="性能监控"&gt;&lt;/span&gt;
+&lt;a href="#%e6%80%a7%e8%83%bd%e7%9b%91%e6%8e%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;跟踪关键管理指标：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;指标&lt;/th&gt;
+&lt;th&gt;目标&lt;/th&gt;
+&lt;th&gt;监控方法&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;系统正常运行时间&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;gt; 99.5%&lt;/td&gt;
+&lt;td&gt;自动监控&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;用户登录问题&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;lt; 2%的尝试&lt;/td&gt;
+&lt;td&gt;访问日志分析&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;数据备份成功&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;td&gt;备份验证&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;安全事件&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;每月0起&lt;/td&gt;
+&lt;td&gt;安全日志审查&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;用户满意度&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;gt; 90%&lt;/td&gt;
+&lt;td&gt;定期用户调查&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;管理员下一步&lt;span class="hx:absolute hx:-mt-20" id="管理员下一步"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ae%a1%e7%90%86%e5%91%98%e4%b8%8b%e4%b8%80%e6%ad%a5" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/zh/user-guide/reports-analytics/" &gt;报表和分析&lt;/a&gt;&lt;/strong&gt; - 学习创建管理报告&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/zh/user-guide/troubleshooting/" &gt;故障排除&lt;/a&gt;&lt;/strong&gt; - 掌握问题解决技术&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/zh/user-guide/best-practices/" &gt;最佳实践&lt;/a&gt;&lt;/strong&gt; - 实施优化策略&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/zh/developers/" &gt;开发者资源&lt;/a&gt;&lt;/strong&gt; - 高级自定义选项&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;管理卓越&lt;/strong&gt;：成功的管理员在安全性、可用性和业务需求之间保持平衡，同时确保系统可靠性和合规性。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;获得管理帮助&lt;span class="hx:absolute hx:-mt-20" id="获得管理帮助"&gt;&lt;/span&gt;
+&lt;a href="#%e8%8e%b7%e5%be%97%e7%ae%a1%e7%90%86%e5%b8%ae%e5%8a%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;📧 技术支持&lt;/strong&gt;：vincent@bigledger.com 系统管理问题&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;📚 管理文档&lt;/strong&gt;：详细的管理程序和指南&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;👥 管理社区&lt;/strong&gt;：与其他BigLedger管理员联系&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🎓 管理培训&lt;/strong&gt;：系统管理员专业培训&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
