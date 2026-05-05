@@ -890,7 +890,7 @@ footer a:hover {
 }
 
 .promo-logo-bigledger {
-  height: 48px;
+  height: 72px;
   width: auto;
   object-fit: contain;
 }
@@ -1172,7 +1172,7 @@ footer a:hover {
     height: 44px;
   }
   .promo-logo-bigledger {
-    height: 36px;
+    height: 56px;
   }
   .promo-offer-card {
     padding: 28px 20px;
