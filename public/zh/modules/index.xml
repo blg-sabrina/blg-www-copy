@@ -1,0 +1,1410 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>BigLedger 文档 – BigLedger 模块</title><link>https://www.bigledger.com/zh/modules/</link><description>Recent content in BigLedger 模块 on BigLedger 文档</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://www.bigledger.com/zh/modules/index.xml" rel="self" type="application/rss+xml"/><item><title>财务会计</title><link>https://www.bigledger.com/zh/modules/financial-accounting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/financial-accounting/</guid><description>
+&lt;h1>财务会计模块&lt;/h1>&lt;h2>概述&lt;span class="hx:absolute hx:-mt-20" id="概述">&lt;/span>
+&lt;a href="#%e6%a6%82%e8%bf%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>BigLedger 财务会计模块提供全面、符合标准的会计系统，专为各种规模的企业设计。基于 GAAP、IFRS 和本地会计准则构建，在保持审计合规所需严格性的同时提供实时财务洞察。&lt;/p>
+&lt;h2>核心概念&lt;span class="hx:absolute hx:-mt-20" id="核心概念">&lt;/span>
+&lt;a href="#%e6%a0%b8%e5%bf%83%e6%a6%82%e5%bf%b5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>复式记账&lt;span class="hx:absolute hx:-mt-20" id="复式记账">&lt;/span>
+&lt;a href="#%e5%a4%8d%e5%bc%8f%e8%ae%b0%e8%b4%a6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>BigLedger 实施真正的复式记账，每笔交易至少影响两个账户：&lt;/p>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>借方账户 A = 贷方账户 B
+示例：销售 1,000 元
+借：应收账款 1,000 元
+贷：销售收入 1,000 元&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h3>会计科目表结构&lt;span class="hx:absolute hx:-mt-20" id="会计科目表结构">&lt;/span>
+&lt;a href="#%e4%bc%9a%e8%ae%a1%e7%a7%91%e7%9b%ae%e8%a1%a8%e7%bb%93%e6%9e%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>1000-1999: 资产
+1000-1099: 流动资产
+1000: 现金及现金等价物
+1100: 应收账款
+1200: 存货
+1500-1599: 固定资产
+1500: 不动产、厂房和设备
+2000-2999: 负债
+2000-2099: 流动负债
+2000: 应付账款
+2100: 应计费用
+2500-2599: 长期负债
+2500: 长期债务
+3000-3999: 所有者权益
+3000: 股本
+3100: 留存收益
+4000-4999: 收入
+4000: 产品销售
+4100: 服务收入
+5000-5999: 销售成本
+5000: 直接材料
+5100: 直接人工
+6000-6999: 营业费用
+6000: 工资薪酬
+6100: 租金费用
+6200: 水电费&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h2>主要功能&lt;span class="hx:absolute hx:-mt-20" id="主要功能">&lt;/span>
+&lt;a href="#%e4%b8%bb%e8%a6%81%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>📊 总账&lt;span class="hx:absolute hx:-mt-20" id="-总账">&lt;/span>
+&lt;a href="#-%e6%80%bb%e8%b4%a6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>交易管理&lt;span class="hx:absolute hx:-mt-20" id="交易管理">&lt;/span>
+&lt;a href="#%e4%ba%a4%e6%98%93%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>会计分录&lt;/strong>：手动和自动分录&lt;/li>
+&lt;li>&lt;strong>循环分录&lt;/strong>：计划的重复交易&lt;/li>
+&lt;li>&lt;strong>冲销分录&lt;/strong>：自动冲销功能&lt;/li>
+&lt;li>&lt;strong>批量处理&lt;/strong>：批量交易导入&lt;/li>
+&lt;li>&lt;strong>多币种&lt;/strong>：自动汇率计算&lt;/li>
+&lt;li>&lt;strong>审计跟踪&lt;/strong>：完整的交易历史&lt;/li>
+&lt;/ul>
+&lt;h4>账户管理&lt;span class="hx:absolute hx:-mt-20" id="账户管理">&lt;/span>
+&lt;a href="#%e8%b4%a6%e6%88%b7%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>灵活的科目表&lt;/strong>：可定制的会计科目表&lt;/li>
+&lt;li>&lt;strong>账户组&lt;/strong>：分层账户结构&lt;/li>
+&lt;li>&lt;strong>子账户&lt;/strong>：无限子账户级别&lt;/li>
+&lt;li>&lt;strong>成本中心&lt;/strong>：部门/项目跟踪&lt;/li>
+&lt;li>&lt;strong>账户对账&lt;/strong>：银行和公司间对账&lt;/li>
+&lt;/ul>
+&lt;h3>💰 应付账款 (AP)&lt;span class="hx:absolute hx:-mt-20" id="-应付账款-ap">&lt;/span>
+&lt;a href="#-%e5%ba%94%e4%bb%98%e8%b4%a6%e6%ac%be-ap" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>供应商管理&lt;span class="hx:absolute hx:-mt-20" id="供应商管理">&lt;/span>
+&lt;a href="#%e4%be%9b%e5%ba%94%e5%95%86%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>供应商数据库&lt;/strong>：全面的供应商档案&lt;/li>
+&lt;li>&lt;strong>付款条件&lt;/strong>：灵活的付款条件配置&lt;/li>
+&lt;li>&lt;strong>信用额度&lt;/strong>：供应商信用管理&lt;/li>
+&lt;li>&lt;strong>供应商门户&lt;/strong>：供应商自助服务&lt;/li>
+&lt;/ul>
+&lt;h4>采购处理&lt;span class="hx:absolute hx:-mt-20" id="采购处理">&lt;/span>
+&lt;a href="#%e9%87%87%e8%b4%ad%e5%a4%84%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>完整的采购到付款工作流：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>采购申请&lt;/strong> - 部门请求，预算验证，审批流程&lt;/li>
+&lt;li>&lt;strong>采购订单&lt;/strong> - 供应商选择，价格谈判&lt;/li>
+&lt;li>&lt;strong>货物接收&lt;/strong> - 数量验证，质量检查&lt;/li>
+&lt;li>&lt;strong>发票处理&lt;/strong> - OCR 发票捕获，自动匹配&lt;/li>
+&lt;li>&lt;strong>付款&lt;/strong> - 付款计划，批量付款&lt;/li>
+&lt;/ol>
+&lt;h4>付款功能&lt;span class="hx:absolute hx:-mt-20" id="付款功能">&lt;/span>
+&lt;a href="#%e4%bb%98%e6%ac%be%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>付款运行&lt;/strong>：自动付款处理&lt;/li>
+&lt;li>&lt;strong>支票打印&lt;/strong>：MICR 支票打印&lt;/li>
+&lt;li>&lt;strong>电子付款&lt;/strong>：支持 ACH/电汇&lt;/li>
+&lt;li>&lt;strong>付款匹配&lt;/strong>：自动对账&lt;/li>
+&lt;/ul>
+&lt;h3>💳 应收账款 (AR)&lt;span class="hx:absolute hx:-mt-20" id="-应收账款-ar">&lt;/span>
+&lt;a href="#-%e5%ba%94%e6%94%b6%e8%b4%a6%e6%ac%be-ar" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>客户管理&lt;span class="hx:absolute hx:-mt-20" id="客户管理">&lt;/span>
+&lt;a href="#%e5%ae%a2%e6%88%b7%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>客户数据库&lt;/strong>：360 度客户视图&lt;/li>
+&lt;li>&lt;strong>信用管理&lt;/strong>：信用额度和条件&lt;/li>
+&lt;li>&lt;strong>账龄分析&lt;/strong>：详细账龄报告&lt;/li>
+&lt;li>&lt;strong>催收管理&lt;/strong>：自动提醒&lt;/li>
+&lt;li>&lt;strong>对账单生成&lt;/strong>：自动对账单&lt;/li>
+&lt;/ul>
+&lt;h4>开票和发票&lt;span class="hx:absolute hx:-mt-20" id="开票和发票">&lt;/span>
+&lt;a href="#%e5%bc%80%e7%a5%a8%e5%92%8c%e5%8f%91%e7%a5%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>发票模板&lt;/strong>：可定制的发票设计&lt;/li>
+&lt;li>&lt;strong>循环发票&lt;/strong>：订阅计费&lt;/li>
+&lt;li>&lt;strong>形式发票&lt;/strong>：报价到发票转换&lt;/li>
+&lt;li>&lt;strong>贷项通知单&lt;/strong>：退货和调整&lt;/li>
+&lt;li>&lt;strong>多币种开票&lt;/strong>：外币发票&lt;/li>
+&lt;/ul>
+&lt;h3>🏦 现金管理&lt;span class="hx:absolute hx:-mt-20" id="-现金管理">&lt;/span>
+&lt;a href="#-%e7%8e%b0%e9%87%91%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>银行集成&lt;span class="hx:absolute hx:-mt-20" id="银行集成">&lt;/span>
+&lt;a href="#%e9%93%b6%e8%a1%8c%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>银行数据流&lt;/strong>：自动交易导入&lt;/li>
+&lt;li>&lt;strong>银行对账&lt;/strong>：智能匹配算法&lt;/li>
+&lt;li>&lt;strong>多银行支持&lt;/strong>：管理多个账户&lt;/li>
+&lt;li>&lt;strong>现金预测&lt;/strong>：预测性现金流&lt;/li>
+&lt;/ul>
+&lt;h4>现金运营&lt;span class="hx:absolute hx:-mt-20" id="现金运营">&lt;/span>
+&lt;a href="#%e7%8e%b0%e9%87%91%e8%bf%90%e8%90%a5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>现金状况&lt;/strong>：实时现金可见性&lt;/li>
+&lt;li>&lt;strong>支付网关&lt;/strong>：集成支付处理&lt;/li>
+&lt;li>&lt;strong>零用金&lt;/strong>：零用金管理&lt;/li>
+&lt;/ul>
+&lt;h3>📈 财务报告&lt;span class="hx:absolute hx:-mt-20" id="-财务报告">&lt;/span>
+&lt;a href="#-%e8%b4%a2%e5%8a%a1%e6%8a%a5%e5%91%8a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>标准报告&lt;span class="hx:absolute hx:-mt-20" id="标准报告">&lt;/span>
+&lt;a href="#%e6%a0%87%e5%87%86%e6%8a%a5%e5%91%8a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;h5>损益表 (P&amp;amp;L)&lt;span class="hx:absolute hx:-mt-20" id="损益表-pl">&lt;/span>
+&lt;a href="#%e6%8d%9f%e7%9b%8a%e8%a1%a8-pl" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;ul>
+&lt;li>按类别分解的收入&lt;/li>
+&lt;li>销售成本分析&lt;/li>
+&lt;li>营业费用详情&lt;/li>
+&lt;li>EBITDA 计算&lt;/li>
+&lt;li>净利润率&lt;/li>
+&lt;li>期间比较&lt;/li>
+&lt;/ul>
+&lt;h5>资产负债表&lt;span class="hx:absolute hx:-mt-20" id="资产负债表">&lt;/span>
+&lt;a href="#%e8%b5%84%e4%ba%a7%e8%b4%9f%e5%80%ba%e8%a1%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;ul>
+&lt;li>资产分类&lt;/li>
+&lt;li>负债跟踪&lt;/li>
+&lt;li>权益变动&lt;/li>
+&lt;li>营运资本分析&lt;/li>
+&lt;li>财务比率&lt;/li>
+&lt;/ul>
+&lt;h5>现金流量表&lt;span class="hx:absolute hx:-mt-20" id="现金流量表">&lt;/span>
+&lt;a href="#%e7%8e%b0%e9%87%91%e6%b5%81%e9%87%8f%e8%a1%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;ul>
+&lt;li>经营活动&lt;/li>
+&lt;li>投资活动&lt;/li>
+&lt;li>筹资活动&lt;/li>
+&lt;li>自由现金流分析&lt;/li>
+&lt;/ul>
+&lt;h4>自定义报告&lt;span class="hx:absolute hx:-mt-20" id="自定义报告">&lt;/span>
+&lt;a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e6%8a%a5%e5%91%8a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>报告构建器&lt;/strong>：拖放式报告设计器&lt;/li>
+&lt;li>&lt;strong>财务比率&lt;/strong>：自动比率计算&lt;/li>
+&lt;li>&lt;strong>差异分析&lt;/strong>：预算与实际比较&lt;/li>
+&lt;li>&lt;strong>趋势分析&lt;/strong>：期间比较&lt;/li>
+&lt;li>&lt;strong>合并报告&lt;/strong>：多实体合并&lt;/li>
+&lt;/ul>
+&lt;h3>🌍 多实体管理&lt;span class="hx:absolute hx:-mt-20" id="-多实体管理">&lt;/span>
+&lt;a href="#-%e5%a4%9a%e5%ae%9e%e4%bd%93%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>实体结构&lt;span class="hx:absolute hx:-mt-20" id="实体结构">&lt;/span>
+&lt;a href="#%e5%ae%9e%e4%bd%93%e7%bb%93%e6%9e%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>支持复杂的组织结构：&lt;/p>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>母公司
+├── 子公司 A（美国）
+│ ├── 部门 1
+│ └── 部门 2
+├── 子公司 B（欧洲）
+│ ├── 德国分公司
+│ └── 法国分公司
+└── 子公司 C（亚洲）
+├── 新加坡办事处
+└── 香港办事处&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h4>合并功能&lt;span class="hx:absolute hx:-mt-20" id="合并功能">&lt;/span>
+&lt;a href="#%e5%90%88%e5%b9%b6%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>自动抵销&lt;/strong>：公司间交易&lt;/li>
+&lt;li>&lt;strong>货币换算&lt;/strong>：外国子公司合并&lt;/li>
+&lt;li>&lt;strong>少数股东权益&lt;/strong>：非控制权益计算&lt;/li>
+&lt;li>&lt;strong>合并报告&lt;/strong>：集团财务报表&lt;/li>
+&lt;/ul>
+&lt;h3>📋 合规与审计&lt;span class="hx:absolute hx:-mt-20" id="-合规与审计">&lt;/span>
+&lt;a href="#-%e5%90%88%e8%a7%84%e4%b8%8e%e5%ae%a1%e8%ae%a1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>税务合规&lt;span class="hx:absolute hx:-mt-20" id="税务合规">&lt;/span>
+&lt;a href="#%e7%a8%8e%e5%8a%a1%e5%90%88%e8%a7%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>销售税&lt;/strong>：多司法管辖区税务支持&lt;/li>
+&lt;li>&lt;strong>增值税/消费税&lt;/strong>：增值税管理&lt;/li>
+&lt;li>&lt;strong>所得税&lt;/strong>：税款准备金计算&lt;/li>
+&lt;li>&lt;strong>税务申报&lt;/strong>：自动税务申报准备&lt;/li>
+&lt;/ul>
+&lt;h4>审计功能&lt;span class="hx:absolute hx:-mt-20" id="审计功能">&lt;/span>
+&lt;a href="#%e5%ae%a1%e8%ae%a1%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>审计跟踪&lt;/strong>：完整的交易历史&lt;/li>
+&lt;li>&lt;strong>文档管理&lt;/strong>：支持文档存储&lt;/li>
+&lt;li>&lt;strong>用户活动日志&lt;/strong>：详细的访问日志&lt;/li>
+&lt;li>&lt;strong>审批工作流&lt;/strong>：多级审批&lt;/li>
+&lt;li>&lt;strong>职责分离&lt;/strong>：基于角色的权限&lt;/li>
+&lt;/ul>
+&lt;h2>配置&lt;span class="hx:absolute hx:-mt-20" id="配置">&lt;/span>
+&lt;a href="#%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>初始设置&lt;span class="hx:absolute hx:-mt-20" id="初始设置">&lt;/span>
+&lt;a href="#%e5%88%9d%e5%a7%8b%e8%ae%be%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>第一步：公司配置&lt;span class="hx:absolute hx:-mt-20" id="第一步公司配置">&lt;/span>
+&lt;a href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e5%85%ac%e5%8f%b8%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">公司&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">名称&lt;/span>: &lt;span style="color:#ae81ff">您的公司名称&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">税号&lt;/span>: &lt;span style="color:#ae81ff">XX-XXXXXXX&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">会计年度&lt;/span>: &lt;span style="color:#ae81ff">1月 - 12月&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">功能货币&lt;/span>: &lt;span style="color:#ae81ff">CNY&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">报告货币&lt;/span>: &lt;span style="color:#ae81ff">CNY&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">会计准则&lt;/span>: &lt;span style="color:#ae81ff">中国会计准则&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">行业&lt;/span>: &lt;span style="color:#ae81ff">您的行业&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h4>第二步：会计科目表设置&lt;span class="hx:absolute hx:-mt-20" id="第二步会计科目表设置">&lt;/span>
+&lt;a href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e4%bc%9a%e8%ae%a1%e7%a7%91%e7%9b%ae%e8%a1%a8%e8%ae%be%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>导入标准科目表&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>选择行业模板&lt;/li>
+&lt;li>审查账户结构&lt;/li>
+&lt;li>根据需要定制&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>配置账户属性&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>设置账户类型&lt;/li>
+&lt;li>定义正常余额&lt;/li>
+&lt;li>配置对账设置&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h3>税务配置&lt;span class="hx:absolute hx:-mt-20" id="税务配置">&lt;/span>
+&lt;a href="#%e7%a8%8e%e5%8a%a1%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>增值税设置&lt;span class="hx:absolute hx:-mt-20" id="增值税设置">&lt;/span>
+&lt;a href="#%e5%a2%9e%e5%80%bc%e7%a8%8e%e8%ae%be%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>为国际运营配置：&lt;/p>
+&lt;ul>
+&lt;li>标准税率：17%&lt;/li>
+&lt;li>简易税率：3%&lt;/li>
+&lt;li>零税率：0%&lt;/li>
+&lt;li>免税：无增值税&lt;/li>
+&lt;/ul>
+&lt;h2>集成&lt;span class="hx:absolute hx:-mt-20" id="集成">&lt;/span>
+&lt;a href="#%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>ERP 模块集成&lt;span class="hx:absolute hx:-mt-20" id="erp-模块集成">&lt;/span>
+&lt;a href="#erp-%e6%a8%a1%e5%9d%97%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>财务会计模块与所有其他 BigLedger 模块无缝集成：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>销售终端系统&lt;/strong>：自动销售记录&lt;/li>
+&lt;li>&lt;strong>库存管理&lt;/strong>：销售成本计算和估值&lt;/li>
+&lt;li>&lt;strong>采购管理&lt;/strong>：采购订单和发票处理&lt;/li>
+&lt;li>&lt;strong>人力资源/薪资&lt;/strong>：工资和费用过账&lt;/li>
+&lt;li>&lt;strong>制造管理&lt;/strong>：生产成本会计&lt;/li>
+&lt;li>&lt;strong>客户关系管理&lt;/strong>：客户信用管理&lt;/li>
+&lt;/ul>
+&lt;h3>银行集成&lt;span class="hx:absolute hx:-mt-20" id="银行集成-1">&lt;/span>
+&lt;a href="#%e9%93%b6%e8%a1%8c%e9%9b%86%e6%88%90-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>支持的银行&lt;span class="hx:absolute hx:-mt-20" id="支持的银行">&lt;/span>
+&lt;a href="#%e6%94%af%e6%8c%81%e7%9a%84%e9%93%b6%e8%a1%8c" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>主要中国银行（工商银行、建设银行、中国银行等）&lt;/li>
+&lt;li>通过开放银行业务的国际银行&lt;/li>
+&lt;li>地方性银行&lt;/li>
+&lt;li>农村信用社&lt;/li>
+&lt;/ul>
+&lt;h2>最佳实践&lt;span class="hx:absolute hx:-mt-20" id="最佳实践">&lt;/span>
+&lt;a href="#%e6%9c%80%e4%bd%b3%e5%ae%9e%e8%b7%b5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>内部控制&lt;span class="hx:absolute hx:-mt-20" id="内部控制">&lt;/span>
+&lt;a href="#%e5%86%85%e9%83%a8%e6%8e%a7%e5%88%b6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>职责分离&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>分离授权、记录、保管&lt;/li>
+&lt;li>重要交易的制单-复核制&lt;/li>
+&lt;li>定期轮换职责&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>审批矩阵&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>交易类型&lt;/th>
+&lt;th>金额&lt;/th>
+&lt;th>审批人&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>采购订单&lt;/td>
+&lt;td>&amp;lt; 10,000 元&lt;/td>
+&lt;td>主管&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>采购订单&lt;/td>
+&lt;td>&amp;lt; 100,000 元&lt;/td>
+&lt;td>经理&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>采购订单&lt;/td>
+&lt;td>&amp;gt; 100,000 元&lt;/td>
+&lt;td>总监&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>会计分录&lt;/td>
+&lt;td>任何&lt;/td>
+&lt;td>会计主管&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>付款&lt;/td>
+&lt;td>&amp;lt; 50,000 元&lt;/td>
+&lt;td>应付主管&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>付款&lt;/td>
+&lt;td>&amp;gt; 50,000 元&lt;/td>
+&lt;td>财务总监&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3>期末处理&lt;span class="hx:absolute hx:-mt-20" id="期末处理">&lt;/span>
+&lt;a href="#%e6%9c%9f%e6%9c%ab%e5%a4%84%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>月末核对清单&lt;span class="hx:absolute hx:-mt-20" id="月末核对清单">&lt;/span>
+&lt;a href="#%e6%9c%88%e6%9c%ab%e6%a0%b8%e5%af%b9%e6%b8%85%e5%8d%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>完成当期所有交易&lt;/li>
+&lt;li>运行银行对账&lt;/li>
+&lt;li>过账折旧分录&lt;/li>
+&lt;li>计提费用&lt;/li>
+&lt;li>递延收入&lt;/li>
+&lt;li>运行分摊规则&lt;/li>
+&lt;li>对账公司间账户&lt;/li>
+&lt;li>审查并过账调整分录&lt;/li>
+&lt;/ul>
+&lt;h2>支持与资源&lt;span class="hx:absolute hx:-mt-20" id="支持与资源">&lt;/span>
+&lt;a href="#%e6%94%af%e6%8c%81%e4%b8%8e%e8%b5%84%e6%ba%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>📚 &lt;a href="https://www.bigledger.com/docs/best-practices/accounting/" >会计最佳实践指南&lt;/a>&lt;/li>
+&lt;li>🎥 &lt;a href="https://www.bigledger.com/tutorials/financial-accounting/" >视频教程&lt;/a>&lt;/li>
+&lt;li>📊 &lt;a href="https://www.bigledger.com/templates/financial/" >报表模板库&lt;/a>&lt;/li>
+&lt;li>🤝 &lt;a href="https://forum.bigledger.com/finance" target="_blank" rel="noopener">社区论坛&lt;/a>&lt;/li>
+&lt;li>📧 &lt;a href="mailto:finance@bigledger.com" >专家支持&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>销售终端系统 (POS)</title><link>https://www.bigledger.com/zh/modules/pos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/pos/</guid><description>
+&lt;h1>销售终端系统 (POS) 模块&lt;/h1>&lt;h2>概述&lt;span class="hx:absolute hx:-mt-20" id="概述">&lt;/span>
+&lt;a href="#%e6%a6%82%e8%bf%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>BigLedger 销售终端系统 (POS) 模块是为现代企业设计的综合零售管理解决方案。以速度、可靠性和用户友好性为设计理念，它与所有其他 BigLedger 模块无缝集成，同时为零售运营提供独立功能。&lt;/p>
+&lt;h2>主要功能&lt;span class="hx:absolute hx:-mt-20" id="主要功能">&lt;/span>
+&lt;a href="#%e4%b8%bb%e8%a6%81%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>🚀 核心功能&lt;span class="hx:absolute hx:-mt-20" id="-核心功能">&lt;/span>
+&lt;a href="#-%e6%a0%b8%e5%bf%83%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>多店铺支持&lt;/strong>：从单一系统管理多个位置&lt;/li>
+&lt;li>&lt;strong>离线模式&lt;/strong>：即使没有互联网连接也能继续运营&lt;/li>
+&lt;li>&lt;strong>触摸优化界面&lt;/strong>：专为平板电脑和触摸屏设计&lt;/li>
+&lt;li>&lt;strong>条码扫描&lt;/strong>：支持一维和二维条码&lt;/li>
+&lt;li>&lt;strong>快捷键&lt;/strong>：可定制的产品快捷方式&lt;/li>
+&lt;li>&lt;strong>多种支付方式&lt;/strong>：现金、卡片、数字钱包、分期付款&lt;/li>
+&lt;li>&lt;strong>实时库存&lt;/strong>：跨所有渠道即时库存更新&lt;/li>
+&lt;li>&lt;strong>客户管理&lt;/strong>：内置客户关系管理和忠诚度计划&lt;/li>
+&lt;li>&lt;strong>多币种&lt;/strong>：接受多种货币付款&lt;/li>
+&lt;li>&lt;strong>税务管理&lt;/strong>：复杂的税务计算和报告&lt;/li>
+&lt;/ul>
+&lt;h3>💳 支付处理&lt;span class="hx:absolute hx:-mt-20" id="-支付处理">&lt;/span>
+&lt;a href="#-%e6%94%af%e4%bb%98%e5%a4%84%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>支持的支付方式&lt;span class="hx:absolute hx:-mt-20" id="支持的支付方式">&lt;/span>
+&lt;a href="#%e6%94%af%e6%8c%81%e7%9a%84%e6%94%af%e4%bb%98%e6%96%b9%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>现金（集成钱箱）&lt;/li>
+&lt;li>信用卡/借记卡（EMV、NFC、刷卡）&lt;/li>
+&lt;li>数字钱包（Apple Pay、Google Pay、Samsung Pay）&lt;/li>
+&lt;li>二维码支付（支付宝、微信支付）&lt;/li>
+&lt;li>储值卡和礼品卡&lt;/li>
+&lt;li>分期付款和分期&lt;/li>
+&lt;li>先享后付 (BNPL) 集成&lt;/li>
+&lt;li>加密货币（比特币、以太坊、USDC）&lt;/li>
+&lt;/ul>
+&lt;h4>支付网关集成&lt;span class="hx:absolute hx:-mt-20" id="支付网关集成">&lt;/span>
+&lt;a href="#%e6%94%af%e4%bb%98%e7%bd%91%e5%85%b3%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>Stripe&lt;/li>
+&lt;li>Square&lt;/li>
+&lt;li>PayPal&lt;/li>
+&lt;li>Adyen&lt;/li>
+&lt;li>本地支付网关（特定国家）&lt;/li>
+&lt;/ul>
+&lt;h3>📊 销售功能&lt;span class="hx:absolute hx:-mt-20" id="-销售功能">&lt;/span>
+&lt;a href="#-%e9%94%80%e5%94%ae%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>产品变体&lt;/strong>：尺寸、颜色、款式管理&lt;/li>
+&lt;li>&lt;strong>捆绑产品&lt;/strong>：创建和销售产品捆绑包&lt;/li>
+&lt;li>&lt;strong>促销引擎&lt;/strong>：
+&lt;ul>
+&lt;li>买X送Y&lt;/li>
+&lt;li>百分比/固定折扣&lt;/li>
+&lt;li>基于时间的促销&lt;/li>
+&lt;li>会员专享优惠&lt;/li>
+&lt;li>优惠券代码&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>价格管理&lt;/strong>：
+&lt;ul>
+&lt;li>多个价格表&lt;/li>
+&lt;li>客户专属定价&lt;/li>
+&lt;li>数量折扣&lt;/li>
+&lt;li>动态定价规则&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>佣金跟踪&lt;/strong>：销售员佣金&lt;/li>
+&lt;li>&lt;strong>退换货&lt;/strong>：完整或部分退货，含原因跟踪&lt;/li>
+&lt;li>&lt;strong>报价单&lt;/strong>：创建并转换报价为销售&lt;/li>
+&lt;li>&lt;strong>暂停销售&lt;/strong>：暂存和检索交易&lt;/li>
+&lt;/ul>
+&lt;h3>👥 客户体验&lt;span class="hx:absolute hx:-mt-20" id="-客户体验">&lt;/span>
+&lt;a href="#-%e5%ae%a2%e6%88%b7%e4%bd%93%e9%aa%8c" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>客户显示屏&lt;/strong>：客户专用的第二显示屏&lt;/li>
+&lt;li>&lt;strong>电子收据&lt;/strong>：邮箱/短信收据&lt;/li>
+&lt;li>&lt;strong>忠诚度计划&lt;/strong>：
+&lt;ul>
+&lt;li>积分奖励&lt;/li>
+&lt;li>分级优惠&lt;/li>
+&lt;li>打卡积分&lt;/li>
+&lt;li>返现计划&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>客户账户&lt;/strong>：储值、付款历史&lt;/li>
+&lt;li>&lt;strong>愿望清单管理&lt;/strong>：保存商品稍后购买&lt;/li>
+&lt;li>&lt;strong>订单管理&lt;/strong>：特殊订单、预订&lt;/li>
+&lt;li>&lt;strong>预约预订&lt;/strong>：针对服务类业务&lt;/li>
+&lt;/ul>
+&lt;h3>🏪 店铺运营&lt;span class="hx:absolute hx:-mt-20" id="-店铺运营">&lt;/span>
+&lt;a href="#-%e5%ba%97%e9%93%ba%e8%bf%90%e8%90%a5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>班次管理&lt;/strong>：开班/收班含现金对账&lt;/li>
+&lt;li>&lt;strong>现金管理&lt;/strong>：
+&lt;ul>
+&lt;li>现金浮动&lt;/li>
+&lt;li>现金进出&lt;/li>
+&lt;li>收银对账&lt;/li>
+&lt;li>保险箱投递&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>员工管理&lt;/strong>：
+&lt;ul>
+&lt;li>基于角色的权限&lt;/li>
+&lt;li>考勤钟集成&lt;/li>
+&lt;li>绩效跟踪&lt;/li>
+&lt;li>培训模式&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>库存操作&lt;/strong>：
+&lt;ul>
+&lt;li>库存调拨&lt;/li>
+&lt;li>库存盘点&lt;/li>
+&lt;li>收货&lt;/li>
+&lt;li>调整&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2>行业专用功能&lt;span class="hx:absolute hx:-mt-20" id="行业专用功能">&lt;/span>
+&lt;a href="#%e8%a1%8c%e4%b8%9a%e4%b8%93%e7%94%a8%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>零售&lt;span class="hx:absolute hx:-mt-20" id="零售">&lt;/span>
+&lt;a href="#%e9%9b%b6%e5%94%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>尺寸/颜色矩阵&lt;/li>
+&lt;li>季节管理&lt;/li>
+&lt;li>款式跟踪&lt;/li>
+&lt;li>供应商目录&lt;/li>
+&lt;li>采购订单&lt;/li>
+&lt;/ul>
+&lt;h3>餐饮和酒店业&lt;span class="hx:absolute hx:-mt-20" id="餐饮和酒店业">&lt;/span>
+&lt;a href="#%e9%a4%90%e9%a5%ae%e5%92%8c%e9%85%92%e5%ba%97%e4%b8%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>餐桌管理&lt;/li>
+&lt;li>厨房显示系统&lt;/li>
+&lt;li>菜单修改器&lt;/li>
+&lt;li>分单结账&lt;/li>
+&lt;li>小费管理&lt;/li>
+&lt;li>欢乐时光定价&lt;/li>
+&lt;li>菜品管理&lt;/li>
+&lt;/ul>
+&lt;h3>服务业&lt;span class="hx:absolute hx:-mt-20" id="服务业">&lt;/span>
+&lt;a href="#%e6%9c%8d%e5%8a%a1%e4%b8%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>预约调度&lt;/li>
+&lt;li>服务时长跟踪&lt;/li>
+&lt;li>资源分配&lt;/li>
+&lt;li>套餐销售&lt;/li>
+&lt;li>会员管理&lt;/li>
+&lt;/ul>
+&lt;h2>硬件集成&lt;span class="hx:absolute hx:-mt-20" id="硬件集成">&lt;/span>
+&lt;a href="#%e7%a1%ac%e4%bb%b6%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>支持的硬件&lt;span class="hx:absolute hx:-mt-20" id="支持的硬件">&lt;/span>
+&lt;a href="#%e6%94%af%e6%8c%81%e7%9a%84%e7%a1%ac%e4%bb%b6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>收据打印机&lt;span class="hx:absolute hx:-mt-20" id="收据打印机">&lt;/span>
+&lt;a href="#%e6%94%b6%e6%8d%ae%e6%89%93%e5%8d%b0%e6%9c%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>Epson TM 系列&lt;/li>
+&lt;li>Star Micronics&lt;/li>
+&lt;li>Bixolon&lt;/li>
+&lt;li>Citizen&lt;/li>
+&lt;li>蓝牙移动打印机&lt;/li>
+&lt;/ul>
+&lt;h4>条码扫描器&lt;span class="hx:absolute hx:-mt-20" id="条码扫描器">&lt;/span>
+&lt;a href="#%e6%9d%a1%e7%a0%81%e6%89%ab%e6%8f%8f%e5%99%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>USB 扫描器（即插即用）&lt;/li>
+&lt;li>蓝牙扫描器&lt;/li>
+&lt;li>二维成像扫描器&lt;/li>
+&lt;li>移动设备摄像头&lt;/li>
+&lt;/ul>
+&lt;h4>支付终端&lt;span class="hx:absolute hx:-mt-20" id="支付终端">&lt;/span>
+&lt;a href="#%e6%94%af%e4%bb%98%e7%bb%88%e7%ab%af" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>Ingenico&lt;/li>
+&lt;li>Verifone&lt;/li>
+&lt;li>PAX&lt;/li>
+&lt;li>Clover&lt;/li>
+&lt;li>Square Terminal&lt;/li>
+&lt;/ul>
+&lt;h4>钱箱&lt;span class="hx:absolute hx:-mt-20" id="钱箱">&lt;/span>
+&lt;a href="#%e9%92%b1%e7%ae%b1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>USB 触发钱箱&lt;/li>
+&lt;li>打印机触发钱箱&lt;/li>
+&lt;li>带传感器的手动钱箱&lt;/li>
+&lt;/ul>
+&lt;h2>配置指南&lt;span class="hx:absolute hx:-mt-20" id="配置指南">&lt;/span>
+&lt;a href="#%e9%85%8d%e7%bd%ae%e6%8c%87%e5%8d%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>初始设置&lt;span class="hx:absolute hx:-mt-20" id="初始设置">&lt;/span>
+&lt;a href="#%e5%88%9d%e5%a7%8b%e8%ae%be%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>第一步：店铺配置&lt;span class="hx:absolute hx:-mt-20" id="第一步店铺配置">&lt;/span>
+&lt;a href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e5%ba%97%e9%93%ba%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">店铺设置&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">名称&lt;/span>: &lt;span style="color:#ae81ff">主店&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">代码&lt;/span>: &lt;span style="color:#ae81ff">MAIN&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">地址&lt;/span>: &lt;span style="color:#ae81ff">商业街123号&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">税号&lt;/span>: &lt;span style="color:#ae81ff">XX-XXXXXXX&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">货币&lt;/span>: &lt;span style="color:#ae81ff">CNY&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">时区&lt;/span>: &lt;span style="color:#ae81ff">Asia/Shanghai&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">营业时间&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">周一-周五&lt;/span>: &lt;span style="color:#ae81ff">9&lt;/span>:&lt;span style="color:#ae81ff">00&lt;/span> &lt;span style="color:#ae81ff">AM - 9:00 PM&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">周六&lt;/span>: &lt;span style="color:#ae81ff">10&lt;/span>:&lt;span style="color:#ae81ff">00&lt;/span> &lt;span style="color:#ae81ff">AM - 8:00 PM&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">周日&lt;/span>: &lt;span style="color:#ae81ff">11&lt;/span>:&lt;span style="color:#ae81ff">00&lt;/span> &lt;span style="color:#ae81ff">AM - 6:00 PM&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h4>第二步：收银机设置&lt;span class="hx:absolute hx:-mt-20" id="第二步收银机设置">&lt;/span>
+&lt;a href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e6%94%b6%e9%93%b6%e6%9c%ba%e8%ae%be%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">收银机配置&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">收银机名称&lt;/span>: &lt;span style="color:#ae81ff">收银机 1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">收银机代码&lt;/span>: &lt;span style="color:#ae81ff">REG001&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">位置&lt;/span>: &lt;span style="color:#ae81ff">前台收银&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">收据打印机&lt;/span>: &lt;span style="color:#ae81ff">Epson TM-T88V&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">钱箱&lt;/span>: &lt;span style="color:#ae81ff">自动开启&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">扫描器&lt;/span>: &lt;span style="color:#ae81ff">USB 条码扫描器&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">支付终端&lt;/span>: &lt;span style="color:#ae81ff">集成式&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h2>运营指南&lt;span class="hx:absolute hx:-mt-20" id="运营指南">&lt;/span>
+&lt;a href="#%e8%bf%90%e8%90%a5%e6%8c%87%e5%8d%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>日常运营&lt;span class="hx:absolute hx:-mt-20" id="日常运营">&lt;/span>
+&lt;a href="#%e6%97%a5%e5%b8%b8%e8%bf%90%e8%90%a5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>开班程序&lt;span class="hx:absolute hx:-mt-20" id="开班程序">&lt;/span>
+&lt;a href="#%e5%bc%80%e7%8f%ad%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>开始班次&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>登录 POS 系统&lt;/li>
+&lt;li>清点开班现金浮动&lt;/li>
+&lt;li>输入浮动金额&lt;/li>
+&lt;li>验证硬件连接&lt;/li>
+&lt;li>打印测试收据&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>验证库存&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>检查库存水平&lt;/li>
+&lt;li>审查低库存警报&lt;/li>
+&lt;li>处理待调拨&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h4>运营期间&lt;span class="hx:absolute hx:-mt-20" id="运营期间">&lt;/span>
+&lt;a href="#%e8%bf%90%e8%90%a5%e6%9c%9f%e9%97%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;strong>处理销售&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>扫描/搜索产品&lt;/li>
+&lt;li>如适用，应用折扣&lt;/li>
+&lt;li>选择支付方式&lt;/li>
+&lt;li>处理付款&lt;/li>
+&lt;li>打印/邮件收据&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>处理退货&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>扫描收据或搜索交易&lt;/li>
+&lt;li>选择要退货的商品&lt;/li>
+&lt;li>输入退货原因&lt;/li>
+&lt;li>处理退款&lt;/li>
+&lt;li>更新库存&lt;/li>
+&lt;/ol>
+&lt;h4>收班程序&lt;span class="hx:absolute hx:-mt-20" id="收班程序">&lt;/span>
+&lt;a href="#%e6%94%b6%e7%8f%ad%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;strong>结束班次&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>清点钱箱&lt;/li>
+&lt;li>对账付款&lt;/li>
+&lt;li>生成 Z 报告&lt;/li>
+&lt;li>将现金存入保险箱&lt;/li>
+&lt;li>签退&lt;/li>
+&lt;/ul>
+&lt;h3>报表与分析&lt;span class="hx:absolute hx:-mt-20" id="报表与分析">&lt;/span>
+&lt;a href="#%e6%8a%a5%e8%a1%a8%e4%b8%8e%e5%88%86%e6%9e%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>销售报告&lt;span class="hx:absolute hx:-mt-20" id="销售报告">&lt;/span>
+&lt;a href="#%e9%94%80%e5%94%ae%e6%8a%a5%e5%91%8a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>日销售汇总&lt;/li>
+&lt;li>小时销售分析&lt;/li>
+&lt;li>产品表现&lt;/li>
+&lt;li>类别分析&lt;/li>
+&lt;li>员工绩效&lt;/li>
+&lt;li>支付方式分解&lt;/li>
+&lt;/ul>
+&lt;h4>库存报告&lt;span class="hx:absolute hx:-mt-20" id="库存报告">&lt;/span>
+&lt;a href="#%e5%ba%93%e5%ad%98%e6%8a%a5%e5%91%8a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>库存水平&lt;/li>
+&lt;li>移动报告&lt;/li>
+&lt;li>损耗分析&lt;/li>
+&lt;li>补货建议&lt;/li>
+&lt;/ul>
+&lt;h4>客户报告&lt;span class="hx:absolute hx:-mt-20" id="客户报告">&lt;/span>
+&lt;a href="#%e5%ae%a2%e6%88%b7%e6%8a%a5%e5%91%8a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>顶级客户&lt;/li>
+&lt;li>客户购买历史&lt;/li>
+&lt;li>忠诚度计划指标&lt;/li>
+&lt;li>客户生命周期价值&lt;/li>
+&lt;/ul>
+&lt;h2>集成指南&lt;span class="hx:absolute hx:-mt-20" id="集成指南">&lt;/span>
+&lt;a href="#%e9%9b%86%e6%88%90%e6%8c%87%e5%8d%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>电商集成&lt;span class="hx:absolute hx:-mt-20" id="电商集成">&lt;/span>
+&lt;a href="#%e7%94%b5%e5%95%86%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>实时同步线上线下库存：&lt;/p>
+&lt;ul>
+&lt;li>统一产品目录&lt;/li>
+&lt;li>集中库存管理&lt;/li>
+&lt;li>跨渠道定价&lt;/li>
+&lt;li>全渠道客户档案&lt;/li>
+&lt;li>从任何位置订单履行&lt;/li>
+&lt;/ul>
+&lt;h3>会计集成&lt;span class="hx:absolute hx:-mt-20" id="会计集成">&lt;/span>
+&lt;a href="#%e4%bc%9a%e8%ae%a1%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>POS 模块自动与财务会计同步：&lt;/p>
+&lt;ul>
+&lt;li>销售记录为收入&lt;/li>
+&lt;li>单独跟踪收集的税款&lt;/li>
+&lt;li>现金对账到银行账户&lt;/li>
+&lt;li>库存销售成本计算&lt;/li>
+&lt;li>佣金应计&lt;/li>
+&lt;/ul>
+&lt;h3>客户关系管理集成&lt;span class="hx:absolute hx:-mt-20" id="客户关系管理集成">&lt;/span>
+&lt;a href="#%e5%ae%a2%e6%88%b7%e5%85%b3%e7%b3%bb%e7%ae%a1%e7%90%86%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>客户数据无缝流入 CRM：&lt;/p>
+&lt;ul>
+&lt;li>购买历史&lt;/li>
+&lt;li>偏好&lt;/li>
+&lt;li>联系信息&lt;/li>
+&lt;li>忠诚度状态&lt;/li>
+&lt;li>营销同意&lt;/li>
+&lt;/ul>
+&lt;h2>最佳实践&lt;span class="hx:absolute hx:-mt-20" id="最佳实践">&lt;/span>
+&lt;a href="#%e6%9c%80%e4%bd%b3%e5%ae%9e%e8%b7%b5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>安全最佳实践&lt;span class="hx:absolute hx:-mt-20" id="安全最佳实践">&lt;/span>
+&lt;a href="#%e5%ae%89%e5%85%a8%e6%9c%80%e4%bd%b3%e5%ae%9e%e8%b7%b5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>访问控制&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>强密码策略&lt;/li>
+&lt;li>双因素身份验证&lt;/li>
+&lt;li>定期权限审核&lt;/li>
+&lt;li>会话超时&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>PCI 合规&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>永不存储卡详情&lt;/li>
+&lt;li>使用令牌化&lt;/li>
+&lt;li>定期安全更新&lt;/li>
+&lt;li>加密通信&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>现金管理&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>定期现金投递&lt;/li>
+&lt;li>大额双重控制&lt;/li>
+&lt;li>安全摄像头&lt;/li>
+&lt;li>审计追踪&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2>故障排除&lt;span class="hx:absolute hx:-mt-20" id="故障排除">&lt;/span>
+&lt;a href="#%e6%95%85%e9%9a%9c%e6%8e%92%e9%99%a4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>常见问题&lt;span class="hx:absolute hx:-mt-20" id="常见问题">&lt;/span>
+&lt;a href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>问题&lt;/th>
+&lt;th>解决方案&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>扫描器不工作&lt;/td>
+&lt;td>检查 USB 连接，重装驱动程序&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>打印机离线&lt;/td>
+&lt;td>验证电源，检查纸张，重置打印队列&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>支付被拒绝&lt;/td>
+&lt;td>检查互联网，验证终端连接&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>性能缓慢&lt;/td>
+&lt;td>清除缓存，检查网络，优化数据库&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>同步问题&lt;/td>
+&lt;td>检查连接，强制同步，查看日志&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>支持资源&lt;span class="hx:absolute hx:-mt-20" id="支持资源">&lt;/span>
+&lt;a href="#%e6%94%af%e6%8c%81%e8%b5%84%e6%ba%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>📖 &lt;a href="https://www.bigledger.com/tutorials/pos/" >视频教程&lt;/a>&lt;/li>
+&lt;li>💬 &lt;a href="https://forum.bigledger.com/pos" target="_blank" rel="noopener">社区论坛&lt;/a>&lt;/li>
+&lt;li>📧 &lt;a href="mailto:pos-support@bigledger.com" >邮件支持&lt;/a>&lt;/li>
+&lt;li>📞 24/7 支持：+86-400-POS-HELP&lt;/li>
+&lt;/ul></description></item><item><title>客户关系管理 (CRM)</title><link>https://www.bigledger.com/zh/modules/crm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/crm/</guid><description>
+&lt;h1>客户关系管理 (CRM) 模块&lt;/h1>&lt;h2>概述&lt;span class="hx:absolute hx:-mt-20" id="概述">&lt;/span>
+&lt;a href="#%e6%a6%82%e8%bf%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>BigLedger CRM 模块为管理客户关系、销售管道和营销活动提供全面解决方案。旨在帮助企业更有效地了解、吸引和保留客户，与所有其他 BigLedger 模块无缝集成。&lt;/p>
+&lt;h2>主要功能&lt;span class="hx:absolute hx:-mt-20" id="主要功能">&lt;/span>
+&lt;a href="#%e4%b8%bb%e8%a6%81%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>👥 联系人管理&lt;span class="hx:absolute hx:-mt-20" id="-联系人管理">&lt;/span>
+&lt;a href="#-%e8%81%94%e7%b3%bb%e4%ba%ba%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>客户数据库&lt;span class="hx:absolute hx:-mt-20" id="客户数据库">&lt;/span>
+&lt;a href="#%e5%ae%a2%e6%88%b7%e6%95%b0%e6%8d%ae%e5%ba%93" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>360度视图&lt;/strong>：包含所有互动的完整客户档案&lt;/li>
+&lt;li>&lt;strong>联系信息&lt;/strong>：多个地址、电话、邮箱&lt;/li>
+&lt;li>&lt;strong>公司层级&lt;/strong>：母子公司关系&lt;/li>
+&lt;li>&lt;strong>联系人角色&lt;/strong>：决策者、影响者、用户&lt;/li>
+&lt;li>&lt;strong>自定义字段&lt;/strong>：行业特定数据捕获&lt;/li>
+&lt;li>&lt;strong>标签和细分&lt;/strong>：灵活分类&lt;/li>
+&lt;li>&lt;strong>活动时间线&lt;/strong>：完整的互动历史&lt;/li>
+&lt;li>&lt;strong>文档存储&lt;/strong>：合同、提案、通信&lt;/li>
+&lt;/ul>
+&lt;h4>潜在客户管理&lt;span class="hx:absolute hx:-mt-20" id="潜在客户管理">&lt;/span>
+&lt;a href="#%e6%bd%9c%e5%9c%a8%e5%ae%a2%e6%88%b7%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>潜客捕获&lt;/strong>：网络表单、邮件、API 集成&lt;/li>
+&lt;li>&lt;strong>潜客评分&lt;/strong>：基于标准的自动资质认定&lt;/li>
+&lt;li>&lt;strong>潜客分配&lt;/strong>：轮询或基于规则的分配&lt;/li>
+&lt;li>&lt;strong>潜客培育&lt;/strong>：自动跟进序列&lt;/li>
+&lt;li>&lt;strong>重复检测&lt;/strong>：防止重复录入&lt;/li>
+&lt;li>&lt;strong>潜客来源跟踪&lt;/strong>：按渠道的投资回报率分析&lt;/li>
+&lt;/ul>
+&lt;h3>💼 销售管道管理&lt;span class="hx:absolute hx:-mt-20" id="-销售管道管理">&lt;/span>
+&lt;a href="#-%e9%94%80%e5%94%ae%e7%ae%a1%e9%81%93%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>机会跟踪&lt;span class="hx:absolute hx:-mt-20" id="机会跟踪">&lt;/span>
+&lt;a href="#%e6%9c%ba%e4%bc%9a%e8%b7%9f%e8%b8%aa" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>可视化管道&lt;/strong>：看板式交易管理&lt;/li>
+&lt;li>&lt;strong>自定义阶段&lt;/strong>：配置以匹配您的销售流程&lt;/li>
+&lt;li>&lt;strong>概率权重&lt;/strong>：预测准确性&lt;/li>
+&lt;li>&lt;strong>交易价值跟踪&lt;/strong>：产品、服务、续费收入&lt;/li>
+&lt;li>&lt;strong>竞争对手跟踪&lt;/strong>：输赢分析&lt;/li>
+&lt;li>&lt;strong>活动要求&lt;/strong>：基于阶段的任务自动化&lt;/li>
+&lt;/ul>
+&lt;h4>销售流程自动化&lt;span class="hx:absolute hx:-mt-20" id="销售流程自动化">&lt;/span>
+&lt;a href="#%e9%94%80%e5%94%ae%e6%b5%81%e7%a8%8b%e8%87%aa%e5%8a%a8%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>工作流自动化&lt;/strong>：基于事件触发操作&lt;/li>
+&lt;li>&lt;strong>邮件模板&lt;/strong>：个性化批量通信&lt;/li>
+&lt;li>&lt;strong>报价生成&lt;/strong>：专业提案&lt;/li>
+&lt;li>&lt;strong>合同管理&lt;/strong>：电子签名和跟踪&lt;/li>
+&lt;li>&lt;strong>佣金计算&lt;/strong>：自动销售薪酬&lt;/li>
+&lt;/ul>
+&lt;h3>📊 销售分析&lt;span class="hx:absolute hx:-mt-20" id="-销售分析">&lt;/span>
+&lt;a href="#-%e9%94%80%e5%94%ae%e5%88%86%e6%9e%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>绩效指标&lt;span class="hx:absolute hx:-mt-20" id="绩效指标">&lt;/span>
+&lt;a href="#%e7%bb%a9%e6%95%88%e6%8c%87%e6%a0%87" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>销售仪表板&lt;/strong>：实时关键绩效指标&lt;/li>
+&lt;li>&lt;strong>管道分析&lt;/strong>：按阶段的转换率&lt;/li>
+&lt;li>&lt;strong>预测报告&lt;/strong>：收入预测&lt;/li>
+&lt;li>&lt;strong>团队绩效&lt;/strong>：个人和团队指标&lt;/li>
+&lt;li>&lt;strong>活动报告&lt;/strong>：电话、会议、邮件&lt;/li>
+&lt;li>&lt;strong>输赢分析&lt;/strong>：原因跟踪&lt;/li>
+&lt;/ul>
+&lt;h4>高级分析&lt;span class="hx:absolute hx:-mt-20" id="高级分析">&lt;/span>
+&lt;a href="#%e9%ab%98%e7%ba%a7%e5%88%86%e6%9e%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>销售速度&lt;/strong>：成交时间分析&lt;/li>
+&lt;li>&lt;strong>客户生命周期价值&lt;/strong>：CLV 计算&lt;/li>
+&lt;li>&lt;strong>流失预测&lt;/strong>：AI 驱动的风险评分&lt;/li>
+&lt;li>&lt;strong>下一个最佳操作&lt;/strong>：AI 推荐&lt;/li>
+&lt;li>&lt;strong>区域分析&lt;/strong>：地理绩效&lt;/li>
+&lt;/ul>
+&lt;h3>📧 营销集成&lt;span class="hx:absolute hx:-mt-20" id="-营销集成">&lt;/span>
+&lt;a href="#-%e8%90%a5%e9%94%80%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>活动管理&lt;span class="hx:absolute hx:-mt-20" id="活动管理">&lt;/span>
+&lt;a href="#%e6%b4%bb%e5%8a%a8%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>多渠道活动&lt;/strong>：邮件、短信、社交&lt;/li>
+&lt;li>&lt;strong>活动投资回报率&lt;/strong>：跟踪成本和回报&lt;/li>
+&lt;li>&lt;strong>A/B 测试&lt;/strong>：优化消息传递&lt;/li>
+&lt;li>&lt;strong>落地页&lt;/strong>：集成表单构建器&lt;/li>
+&lt;li>&lt;strong>营销自动化&lt;/strong>：培育序列&lt;/li>
+&lt;/ul>
+&lt;h4>邮件营销&lt;span class="hx:absolute hx:-mt-20" id="邮件营销">&lt;/span>
+&lt;a href="#%e9%82%ae%e4%bb%b6%e8%90%a5%e9%94%80" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>邮件构建器&lt;/strong>：拖放式设计器&lt;/li>
+&lt;li>&lt;strong>个性化&lt;/strong>：动态内容&lt;/li>
+&lt;li>&lt;strong>细分&lt;/strong>：定向特定受众&lt;/li>
+&lt;li>&lt;strong>分析&lt;/strong>：开启率、点击率、转换率&lt;/li>
+&lt;li>&lt;strong>合规&lt;/strong>：GDPR、反垃圾邮件支持&lt;/li>
+&lt;/ul>
+&lt;h3>🎯 客户服务&lt;span class="hx:absolute hx:-mt-20" id="-客户服务">&lt;/span>
+&lt;a href="#-%e5%ae%a2%e6%88%b7%e6%9c%8d%e5%8a%a1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>案例管理&lt;span class="hx:absolute hx:-mt-20" id="案例管理">&lt;/span>
+&lt;a href="#%e6%a1%88%e4%be%8b%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>工单系统&lt;/strong>：跟踪客户问题&lt;/li>
+&lt;li>&lt;strong>SLA 管理&lt;/strong>：服务水平跟踪&lt;/li>
+&lt;li>&lt;strong>知识库&lt;/strong>：自助服务门户&lt;/li>
+&lt;li>&lt;strong>升级规则&lt;/strong>：自动路由&lt;/li>
+&lt;li>&lt;strong>客户门户&lt;/strong>：自助服务访问&lt;/li>
+&lt;/ul>
+&lt;h4>沟通渠道&lt;span class="hx:absolute hx:-mt-20" id="沟通渠道">&lt;/span>
+&lt;a href="#%e6%b2%9f%e9%80%9a%e6%b8%a0%e9%81%93" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>邮件集成&lt;/strong>：双向同步&lt;/li>
+&lt;li>&lt;strong>电话集成&lt;/strong>：点击拨号、通话记录&lt;/li>
+&lt;li>&lt;strong>聊天集成&lt;/strong>：实时聊天支持&lt;/li>
+&lt;li>&lt;strong>社交媒体&lt;/strong>：监控和响应&lt;/li>
+&lt;li>&lt;strong>短信&lt;/strong>：双向消息&lt;/li>
+&lt;/ul>
+&lt;h2>配置&lt;span class="hx:absolute hx:-mt-20" id="配置">&lt;/span>
+&lt;a href="#%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>初始设置&lt;span class="hx:absolute hx:-mt-20" id="初始设置">&lt;/span>
+&lt;a href="#%e5%88%9d%e5%a7%8b%e8%ae%be%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>第一步：销售流程配置&lt;span class="hx:absolute hx:-mt-20" id="第一步销售流程配置">&lt;/span>
+&lt;a href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e9%94%80%e5%94%ae%e6%b5%81%e7%a8%8b%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">销售管道&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">阶段&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">名称&lt;/span>: &lt;span style="color:#ae81ff">寻找客户&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">概率&lt;/span>: &lt;span style="color:#ae81ff">10&lt;/span>&lt;span style="color:#ae81ff">%&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">活动&lt;/span>: [&lt;span style="color:#e6db74">&amp;#34;初次联系&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;资质认定电话&amp;#34;&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">名称&lt;/span>: &lt;span style="color:#ae81ff">资质认定&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">概率&lt;/span>: &lt;span style="color:#ae81ff">25&lt;/span>&lt;span style="color:#ae81ff">%&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">活动&lt;/span>: [&lt;span style="color:#e6db74">&amp;#34;需求分析&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;预算确认&amp;#34;&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">名称&lt;/span>: &lt;span style="color:#ae81ff">提案&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">概率&lt;/span>: &lt;span style="color:#ae81ff">50&lt;/span>&lt;span style="color:#ae81ff">%&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">活动&lt;/span>: [&lt;span style="color:#e6db74">&amp;#34;发送提案&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;跟进&amp;#34;&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">名称&lt;/span>: &lt;span style="color:#ae81ff">谈判&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">概率&lt;/span>: &lt;span style="color:#ae81ff">75&lt;/span>&lt;span style="color:#ae81ff">%&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">活动&lt;/span>: [&lt;span style="color:#e6db74">&amp;#34;合同审查&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;最终条款&amp;#34;&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">名称&lt;/span>: &lt;span style="color:#ae81ff">成交&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">概率&lt;/span>: &lt;span style="color:#ae81ff">100&lt;/span>&lt;span style="color:#ae81ff">%&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">活动&lt;/span>: [&lt;span style="color:#e6db74">&amp;#34;合同签署&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;启动&amp;#34;&lt;/span>]&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h4>第二步：潜客评分规则&lt;span class="hx:absolute hx:-mt-20" id="第二步潜客评分规则">&lt;/span>
+&lt;a href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e6%bd%9c%e5%ae%a2%e8%af%84%e5%88%86%e8%a7%84%e5%88%99" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-javascript" data-lang="javascript">&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;评分规则&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {&lt;span style="color:#e6db74">&amp;#34;标准&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#34;公司规模 &amp;gt; 100&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;分数&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#ae81ff">20&lt;/span>},
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {&lt;span style="color:#e6db74">&amp;#34;标准&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#34;行业 = &amp;#39;科技&amp;#39;&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;分数&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#ae81ff">15&lt;/span>},
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {&lt;span style="color:#e6db74">&amp;#34;标准&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#34;访问了定价页&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;分数&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#ae81ff">10&lt;/span>},
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {&lt;span style="color:#e6db74">&amp;#34;标准&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#34;下载了白皮书&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;分数&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#ae81ff">5&lt;/span>},
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {&lt;span style="color:#e6db74">&amp;#34;标准&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#34;邮件开启 &amp;gt; 3&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;分数&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#ae81ff">5&lt;/span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;资质认定阈值&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#ae81ff">50&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h2>集成&lt;span class="hx:absolute hx:-mt-20" id="集成">&lt;/span>
+&lt;a href="#%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>BigLedger 模块集成&lt;span class="hx:absolute hx:-mt-20" id="bigledger-模块集成">&lt;/span>
+&lt;a href="#bigledger-%e6%a8%a1%e5%9d%97%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>财务会计&lt;/strong>：发票生成、付款跟踪&lt;/li>
+&lt;li>&lt;strong>销售终端系统&lt;/strong>：客户购买历史、忠诚度状态&lt;/li>
+&lt;li>&lt;strong>库存管理&lt;/strong>：产品可用性、定价&lt;/li>
+&lt;li>&lt;strong>项目管理&lt;/strong>：项目交付跟踪&lt;/li>
+&lt;li>&lt;strong>支持&lt;/strong>：案例历史、SLA 管理&lt;/li>
+&lt;/ul>
+&lt;h3>第三方集成&lt;span class="hx:absolute hx:-mt-20" id="第三方集成">&lt;/span>
+&lt;a href="#%e7%ac%ac%e4%b8%89%e6%96%b9%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>邮件&lt;/strong>：Gmail、Outlook、Exchange&lt;/li>
+&lt;li>&lt;strong>日历&lt;/strong>：Google 日历、Outlook 日历&lt;/li>
+&lt;li>&lt;strong>电话系统&lt;/strong>：VoIP 集成&lt;/li>
+&lt;li>&lt;strong>营销工具&lt;/strong>：Mailchimp、HubSpot&lt;/li>
+&lt;li>&lt;strong>社交媒体&lt;/strong>：LinkedIn、微博、微信&lt;/li>
+&lt;/ul>
+&lt;h2>最佳实践&lt;span class="hx:absolute hx:-mt-20" id="最佳实践">&lt;/span>
+&lt;a href="#%e6%9c%80%e4%bd%b3%e5%ae%9e%e8%b7%b5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>数据质量&lt;span class="hx:absolute hx:-mt-20" id="数据质量">&lt;/span>
+&lt;a href="#%e6%95%b0%e6%8d%ae%e8%b4%a8%e9%87%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>定期数据清理&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>去重记录&lt;/li>
+&lt;li>更新过时信息&lt;/li>
+&lt;li>验证邮箱地址&lt;/li>
+&lt;li>标准化数据格式&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>数据录入标准&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>必填字段强制&lt;/li>
+&lt;li>验证规则&lt;/li>
+&lt;li>命名约定&lt;/li>
+&lt;li>地址标准化&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h3>销售流程优化&lt;span class="hx:absolute hx:-mt-20" id="销售流程优化">&lt;/span>
+&lt;a href="#%e9%94%80%e5%94%ae%e6%b5%81%e7%a8%8b%e4%bc%98%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>管道管理&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>定期管道审查&lt;/li>
+&lt;li>阶段速度跟踪&lt;/li>
+&lt;li>瓶颈识别&lt;/li>
+&lt;li>成交率改进&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>活动管理&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>日常活动目标&lt;/li>
+&lt;li>通话/邮件模板&lt;/li>
+&lt;li>跟进自动化&lt;/li>
+&lt;li>任务优先排序&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2>报告&lt;span class="hx:absolute hx:-mt-20" id="报告">&lt;/span>
+&lt;a href="#%e6%8a%a5%e5%91%8a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>标准报告&lt;span class="hx:absolute hx:-mt-20" id="标准报告">&lt;/span>
+&lt;a href="#%e6%a0%87%e5%87%86%e6%8a%a5%e5%91%8a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>销售管道报告&lt;/li>
+&lt;li>预测报告&lt;/li>
+&lt;li>活动报告&lt;/li>
+&lt;li>潜客来源分析&lt;/li>
+&lt;li>客户获取成本&lt;/li>
+&lt;li>销售周期长度&lt;/li>
+&lt;li>区域绩效&lt;/li>
+&lt;li>产品绩效&lt;/li>
+&lt;/ul>
+&lt;h3>自定义仪表板&lt;span class="hx:absolute hx:-mt-20" id="自定义仪表板">&lt;/span>
+&lt;a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e4%bb%aa%e8%a1%a8%e6%9d%bf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>创建个性化仪表板：&lt;/p>
+&lt;ul>
+&lt;li>实时小组件&lt;/li>
+&lt;li>自定义 KPI&lt;/li>
+&lt;li>下钻功能&lt;/li>
+&lt;li>导出功能&lt;/li>
+&lt;li>计划交付&lt;/li>
+&lt;/ul>
+&lt;h2>移动 CRM&lt;span class="hx:absolute hx:-mt-20" id="移动-crm">&lt;/span>
+&lt;a href="#%e7%a7%bb%e5%8a%a8-crm" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>功能&lt;span class="hx:absolute hx:-mt-20" id="功能">&lt;/span>
+&lt;a href="#%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>移动端完整 CRM 访问&lt;/li>
+&lt;li>离线功能&lt;/li>
+&lt;li>GPS 签到&lt;/li>
+&lt;li>语音笔记&lt;/li>
+&lt;li>名片扫描&lt;/li>
+&lt;li>移动签名&lt;/li>
+&lt;/ul>
+&lt;h3>支持平台&lt;span class="hx:absolute hx:-mt-20" id="支持平台">&lt;/span>
+&lt;a href="#%e6%94%af%e6%8c%81%e5%b9%b3%e5%8f%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>iOS（iPhone 和 iPad）&lt;/li>
+&lt;li>Android&lt;/li>
+&lt;li>渐进式网络应用&lt;/li>
+&lt;/ul>
+&lt;h2>支持与培训&lt;span class="hx:absolute hx:-mt-20" id="支持与培训">&lt;/span>
+&lt;a href="#%e6%94%af%e6%8c%81%e4%b8%8e%e5%9f%b9%e8%ae%ad" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>📚 &lt;a href="https://www.bigledger.com/docs/best-practices/crm/" >CRM 最佳实践指南&lt;/a>&lt;/li>
+&lt;li>🎥 &lt;a href="https://www.bigledger.com/tutorials/crm/" >视频教程&lt;/a>&lt;/li>
+&lt;li>📊 &lt;a href="https://www.bigledger.com/templates/crm/" >报表模板&lt;/a>&lt;/li>
+&lt;li>💬 &lt;a href="https://forum.bigledger.com/crm" target="_blank" rel="noopener">社区论坛&lt;/a>&lt;/li>
+&lt;li>📧 &lt;a href="mailto:crm-support@bigledger.com" >支持&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>库存管理</title><link>https://www.bigledger.com/zh/modules/inventory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/inventory/</guid><description>
+&lt;h1>库存管理模块&lt;/h1>&lt;h2>概述&lt;span class="hx:absolute hx:-mt-20" id="概述">&lt;/span>
+&lt;a href="#%e6%a6%82%e8%bf%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>BigLedger 库存管理模块提供对整个供应链的全面控制，从采购到仓库管理再到订单履行。凭借实时跟踪、智能预测和跨所有渠道的无缝集成，确保最佳库存水平的同时最小化持有成本。&lt;/p>
+&lt;h2>主要功能&lt;span class="hx:absolute hx:-mt-20" id="主要功能">&lt;/span>
+&lt;a href="#%e4%b8%bb%e8%a6%81%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>📦 产品管理&lt;span class="hx:absolute hx:-mt-20" id="-产品管理">&lt;/span>
+&lt;a href="#-%e4%ba%a7%e5%93%81%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>产品信息&lt;span class="hx:absolute hx:-mt-20" id="产品信息">&lt;/span>
+&lt;a href="#%e4%ba%a7%e5%93%81%e4%bf%a1%e6%81%af" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>主数据&lt;/strong>：SKU、条码、描述&lt;/li>
+&lt;li>&lt;strong>产品变体&lt;/strong>：尺寸、颜色、款式、材料&lt;/li>
+&lt;li>&lt;strong>产品捆绑包&lt;/strong>：套件和组装管理&lt;/li>
+&lt;li>&lt;strong>序列号/批次跟踪&lt;/strong>：完整可追溯性&lt;/li>
+&lt;li>&lt;strong>有效期管理&lt;/strong>：FEFO/FIFO 支持&lt;/li>
+&lt;li>&lt;strong>多计量单位&lt;/strong>：多种计量单位&lt;/li>
+&lt;li>&lt;strong>产品图片&lt;/strong>：每个产品多张图片&lt;/li>
+&lt;li>&lt;strong>自定义属性&lt;/strong>：灵活字段配置&lt;/li>
+&lt;/ul>
+&lt;h4>产品类别&lt;span class="hx:absolute hx:-mt-20" id="产品类别">&lt;/span>
+&lt;a href="#%e4%ba%a7%e5%93%81%e7%b1%bb%e5%88%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>分层结构&lt;/strong>：无限类别级别&lt;/li>
+&lt;li>&lt;strong>类别规则&lt;/strong>：自动分类&lt;/li>
+&lt;li>&lt;strong>交叉引用&lt;/strong>：替代产品代码&lt;/li>
+&lt;li>&lt;strong>产品生命周期&lt;/strong>：从导入到停产&lt;/li>
+&lt;/ul>
+&lt;h3>🏭 仓库管理&lt;span class="hx:absolute hx:-mt-20" id="-仓库管理">&lt;/span>
+&lt;a href="#-%e4%bb%93%e5%ba%93%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>多位置支持&lt;span class="hx:absolute hx:-mt-20" id="多位置支持">&lt;/span>
+&lt;a href="#%e5%a4%9a%e4%bd%8d%e7%bd%ae%e6%94%af%e6%8c%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>多个仓库&lt;/strong>：无限位置&lt;/li>
+&lt;li>&lt;strong>区域和货位&lt;/strong>：详细位置跟踪&lt;/li>
+&lt;li>&lt;strong>虚拟仓库&lt;/strong>：寄售、在途库存&lt;/li>
+&lt;li>&lt;strong>店铺位置&lt;/strong>：零售楼面和后台&lt;/li>
+&lt;li>&lt;strong>第三方物流集成&lt;/strong>：3PL 集成&lt;/li>
+&lt;/ul>
+&lt;h4>仓库操作&lt;span class="hx:absolute hx:-mt-20" id="仓库操作">&lt;/span>
+&lt;a href="#%e4%bb%93%e5%ba%93%e6%93%8d%e4%bd%9c" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>收货&lt;/strong>：采购订单收货、质量检查&lt;/li>
+&lt;li>&lt;strong>上架&lt;/strong>：定向上架策略&lt;/li>
+&lt;li>&lt;strong>拣货&lt;/strong>：波次、批次、区域拣货&lt;/li>
+&lt;li>&lt;strong>包装&lt;/strong>：包装验证、运输标签&lt;/li>
+&lt;li>&lt;strong>发货&lt;/strong>：承运商集成、跟踪&lt;/li>
+&lt;li>&lt;strong>循环盘点&lt;/strong>：永续库存准确性&lt;/li>
+&lt;li>&lt;strong>库存调拨&lt;/strong>：仓库间移动&lt;/li>
+&lt;/ul>
+&lt;h3>📊 库存控制&lt;span class="hx:absolute hx:-mt-20" id="-库存控制">&lt;/span>
+&lt;a href="#-%e5%ba%93%e5%ad%98%e6%8e%a7%e5%88%b6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>库存管理&lt;span class="hx:absolute hx:-mt-20" id="库存管理">&lt;/span>
+&lt;a href="#%e5%ba%93%e5%ad%98%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>实时水平&lt;/strong>：实时库存更新&lt;/li>
+&lt;li>&lt;strong>库存估值&lt;/strong>：FIFO、LIFO、平均成本&lt;/li>
+&lt;li>&lt;strong>最小/最大水平&lt;/strong>：自动再订货点&lt;/li>
+&lt;li>&lt;strong>安全库存&lt;/strong>：缓冲计算&lt;/li>
+&lt;li>&lt;strong>ABC 分析&lt;/strong>：产品分类&lt;/li>
+&lt;li>&lt;strong>库存账龄&lt;/strong>：滞销识别&lt;/li>
+&lt;li>&lt;strong>负库存&lt;/strong>：控制和预防&lt;/li>
+&lt;/ul>
+&lt;h4>库存跟踪&lt;span class="hx:absolute hx:-mt-20" id="库存跟踪">&lt;/span>
+&lt;a href="#%e5%ba%93%e5%ad%98%e8%b7%9f%e8%b8%aa" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>交易历史&lt;/strong>：完整审计跟踪&lt;/li>
+&lt;li>&lt;strong>库存移动&lt;/strong>：详细跟踪&lt;/li>
+&lt;li>&lt;strong>调整&lt;/strong>：原因代码、审批&lt;/li>
+&lt;li>&lt;strong>盘点&lt;/strong>：全盘和循环盘点&lt;/li>
+&lt;li>&lt;strong>差异分析&lt;/strong>：盘点与系统&lt;/li>
+&lt;li>&lt;strong>对账&lt;/strong>：多级验证&lt;/li>
+&lt;/ul>
+&lt;h3>🚚 供应链管理&lt;span class="hx:absolute hx:-mt-20" id="-供应链管理">&lt;/span>
+&lt;a href="#-%e4%be%9b%e5%ba%94%e9%93%be%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>采购&lt;span class="hx:absolute hx:-mt-20" id="采购">&lt;/span>
+&lt;a href="#%e9%87%87%e8%b4%ad" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>采购申请&lt;/strong>：自动化请求&lt;/li>
+&lt;li>&lt;strong>采购订单&lt;/strong>：多供应商采购&lt;/li>
+&lt;li>&lt;strong>供应商管理&lt;/strong>：绩效跟踪&lt;/li>
+&lt;li>&lt;strong>价格表&lt;/strong>：供应商特定定价&lt;/li>
+&lt;li>&lt;strong>交期管理&lt;/strong>：交付计划&lt;/li>
+&lt;li>&lt;strong>总订单&lt;/strong>：长期协议&lt;/li>
+&lt;li>&lt;strong>直发&lt;/strong>：供应商直接履行&lt;/li>
+&lt;/ul>
+&lt;h4>需求计划&lt;span class="hx:absolute hx:-mt-20" id="需求计划">&lt;/span>
+&lt;a href="#%e9%9c%80%e6%b1%82%e8%ae%a1%e5%88%92" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>预测&lt;/strong>：AI 驱动的预测&lt;/li>
+&lt;li>&lt;strong>季节性调整&lt;/strong>：历史模式&lt;/li>
+&lt;li>&lt;strong>趋势分析&lt;/strong>：增长预测&lt;/li>
+&lt;li>&lt;strong>再订货优化&lt;/strong>：经济订货量&lt;/li>
+&lt;li>&lt;strong>物料需求计划&lt;/strong>：MRP&lt;/li>
+&lt;li>&lt;strong>供应计划&lt;/strong>：生产调度&lt;/li>
+&lt;/ul>
+&lt;h3>📈 分析和报告&lt;span class="hx:absolute hx:-mt-20" id="-分析和报告">&lt;/span>
+&lt;a href="#-%e5%88%86%e6%9e%90%e5%92%8c%e6%8a%a5%e5%91%8a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>库存分析&lt;span class="hx:absolute hx:-mt-20" id="库存分析">&lt;/span>
+&lt;a href="#%e5%ba%93%e5%ad%98%e5%88%86%e6%9e%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>周转率&lt;/strong>：效率指标&lt;/li>
+&lt;li>&lt;strong>持有成本&lt;/strong>：总成本分析&lt;/li>
+&lt;li>&lt;strong>缺货分析&lt;/strong>：销售损失跟踪&lt;/li>
+&lt;li>&lt;strong>过剩库存&lt;/strong>：超库存识别&lt;/li>
+&lt;li>&lt;strong>速度分析&lt;/strong>：快/慢销&lt;/li>
+&lt;li>&lt;strong>盈利能力&lt;/strong>：产品毛利分析&lt;/li>
+&lt;/ul>
+&lt;h4>运营报告&lt;span class="hx:absolute hx:-mt-20" id="运营报告">&lt;/span>
+&lt;a href="#%e8%bf%90%e8%90%a5%e6%8a%a5%e5%91%8a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>库存状态报告&lt;/li>
+&lt;li>移动历史&lt;/li>
+&lt;li>账龄分析&lt;/li>
+&lt;li>再订货报告&lt;/li>
+&lt;li>估值报告&lt;/li>
+&lt;li>差异报告&lt;/li>
+&lt;li>位置报告&lt;/li>
+&lt;li>过期报告&lt;/li>
+&lt;/ul>
+&lt;h2>配置&lt;span class="hx:absolute hx:-mt-20" id="配置">&lt;/span>
+&lt;a href="#%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>初始设置&lt;span class="hx:absolute hx:-mt-20" id="初始设置">&lt;/span>
+&lt;a href="#%e5%88%9d%e5%a7%8b%e8%ae%be%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>第一步：仓库配置&lt;span class="hx:absolute hx:-mt-20" id="第一步仓库配置">&lt;/span>
+&lt;a href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e4%bb%93%e5%ba%93%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">仓库设置&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">主仓库&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">代码&lt;/span>: &lt;span style="color:#ae81ff">WH001&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">名称&lt;/span>: &lt;span style="color:#ae81ff">中央配送中心&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">地址&lt;/span>: &lt;span style="color:#ae81ff">物流大道123号&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">类型&lt;/span>: &lt;span style="color:#ae81ff">配送中心&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">区域&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">名称&lt;/span>: &lt;span style="color:#ae81ff">收货区&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">货位&lt;/span>: [&lt;span style="color:#ae81ff">R01-R10]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">名称&lt;/span>: &lt;span style="color:#ae81ff">存储区&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">货位&lt;/span>: [&lt;span style="color:#ae81ff">A01-Z99]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">名称&lt;/span>: &lt;span style="color:#ae81ff">发货区&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">货位&lt;/span>: [&lt;span style="color:#ae81ff">S01-S20]&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h4>第二步：产品配置&lt;span class="hx:absolute hx:-mt-20" id="第二步产品配置">&lt;/span>
+&lt;a href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e4%ba%a7%e5%93%81%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-javascript" data-lang="javascript">&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;产品&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;sku&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#34;PROD-001&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;名称&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#34;标准小工具&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;类别&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#34;小工具&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;跟踪&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#34;批次&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;计量单位&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;基础&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#34;个&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;替代&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {&lt;span style="color:#e6db74">&amp;#34;单位&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#34;箱&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;转换&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#ae81ff">12&lt;/span>},
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {&lt;span style="color:#e6db74">&amp;#34;单位&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#34;托盘&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;转换&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#ae81ff">144&lt;/span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;库存水平&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;最小&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#ae81ff">100&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;最大&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#ae81ff">500&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;再订货点&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#ae81ff">150&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;安全库存&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#ae81ff">50&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h3>库存策略&lt;span class="hx:absolute hx:-mt-20" id="库存策略">&lt;/span>
+&lt;a href="#%e5%ba%93%e5%ad%98%e7%ad%96%e7%95%a5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>库存估值方法&lt;span class="hx:absolute hx:-mt-20" id="库存估值方法">&lt;/span>
+&lt;a href="#%e5%ba%93%e5%ad%98%e4%bc%b0%e5%80%bc%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>方法&lt;/th>
+&lt;th>描述&lt;/th>
+&lt;th>最适用&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>FIFO&lt;/td>
+&lt;td>先进先出&lt;/td>
+&lt;td>易腐商品&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>LIFO&lt;/td>
+&lt;td>后进先出&lt;/td>
+&lt;td>不易腐商品&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>平均成本&lt;/td>
+&lt;td>加权平均&lt;/td>
+&lt;td>价格稳定&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>具体识别&lt;/td>
+&lt;td>实际成本跟踪&lt;/td>
+&lt;td>高价值物品&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4>再订货策略&lt;span class="hx:absolute hx:-mt-20" id="再订货策略">&lt;/span>
+&lt;a href="#%e5%86%8d%e8%ae%a2%e8%b4%a7%e7%ad%96%e7%95%a5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>固定订货量&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>每次订购相同数量&lt;/li>
+&lt;li>当库存达到再订货点时&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>固定订货期&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>定期间隔订购&lt;/li>
+&lt;li>数量可变&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>最小-最大&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>低于最小值时订购&lt;/li>
+&lt;li>订购至最大值&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>经济订货量 (EOQ)&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>最优订货规模&lt;/li>
+&lt;li>最小化总成本&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2>运营&lt;span class="hx:absolute hx:-mt-20" id="运营">&lt;/span>
+&lt;a href="#%e8%bf%90%e8%90%a5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>日常运营&lt;span class="hx:absolute hx:-mt-20" id="日常运营">&lt;/span>
+&lt;a href="#%e6%97%a5%e5%b8%b8%e8%bf%90%e8%90%a5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>收货流程&lt;span class="hx:absolute hx:-mt-20" id="收货流程">&lt;/span>
+&lt;a href="#%e6%94%b6%e8%b4%a7%e6%b5%81%e7%a8%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>预收货&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>提前发货通知 (ASN)&lt;/li>
+&lt;li>码头调度&lt;/li>
+&lt;li>资源分配&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>收货&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>条码扫描&lt;/li>
+&lt;li>数量验证&lt;/li>
+&lt;li>质量检验&lt;/li>
+&lt;li>差异报告&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>上架&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>位置分配&lt;/li>
+&lt;li>标签打印&lt;/li>
+&lt;li>移动跟踪&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h4>订单履行&lt;span class="hx:absolute hx:-mt-20" id="订单履行">&lt;/span>
+&lt;a href="#%e8%ae%a2%e5%8d%95%e5%b1%a5%e8%a1%8c" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>订单处理&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>库存分配&lt;/li>
+&lt;li>拣货单生成&lt;/li>
+&lt;li>波次计划&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>拣货&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>拣货路径优化&lt;/li>
+&lt;li>批量拣货&lt;/li>
+&lt;li>拣货确认&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>包装和发货&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>包装验证&lt;/li>
+&lt;li>标签打印&lt;/li>
+&lt;li>承运商选择&lt;/li>
+&lt;li>跟踪更新&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h3>循环盘点&lt;span class="hx:absolute hx:-mt-20" id="循环盘点">&lt;/span>
+&lt;a href="#%e5%be%aa%e7%8e%af%e7%9b%98%e7%82%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>盘点计划&lt;span class="hx:absolute hx:-mt-20" id="盘点计划">&lt;/span>
+&lt;a href="#%e7%9b%98%e7%82%b9%e8%ae%a1%e5%88%92" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>基于 ABC 的频率&lt;/li>
+&lt;li>基于位置的盘点&lt;/li>
+&lt;li>随机抽样&lt;/li>
+&lt;li>基于异常的盘点&lt;/li>
+&lt;/ul>
+&lt;h4>盘点流程&lt;span class="hx:absolute hx:-mt-20" id="盘点流程">&lt;/span>
+&lt;a href="#%e7%9b%98%e7%82%b9%e6%b5%81%e7%a8%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
+&lt;li>生成盘点表&lt;/li>
+&lt;li>冻结库存&lt;/li>
+&lt;li>实物盘点&lt;/li>
+&lt;li>输入结果&lt;/li>
+&lt;li>差异审查&lt;/li>
+&lt;li>调整审批&lt;/li>
+&lt;li>更新记录&lt;/li>
+&lt;/ol>
+&lt;h2>集成&lt;span class="hx:absolute hx:-mt-20" id="集成">&lt;/span>
+&lt;a href="#%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>BigLedger 模块&lt;span class="hx:absolute hx:-mt-20" id="bigledger-模块">&lt;/span>
+&lt;a href="#bigledger-%e6%a8%a1%e5%9d%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>销售/POS&lt;/strong>：实时可用性&lt;/li>
+&lt;li>&lt;strong>采购&lt;/strong>：自动化采购&lt;/li>
+&lt;li>&lt;strong>制造&lt;/strong>：组件可用性&lt;/li>
+&lt;li>&lt;strong>财务会计&lt;/strong>：库存估值&lt;/li>
+&lt;li>&lt;strong>客户关系管理&lt;/strong>：产品信息&lt;/li>
+&lt;li>&lt;strong>电商&lt;/strong>：多渠道库存&lt;/li>
+&lt;/ul>
+&lt;h3>外部系统&lt;span class="hx:absolute hx:-mt-20" id="外部系统">&lt;/span>
+&lt;a href="#%e5%a4%96%e9%83%a8%e7%b3%bb%e7%bb%9f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>运输承运商&lt;span class="hx:absolute hx:-mt-20" id="运输承运商">&lt;/span>
+&lt;a href="#%e8%bf%90%e8%be%93%e6%89%bf%e8%bf%90%e5%95%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>顺丰速运&lt;/li>
+&lt;li>中通快递&lt;/li>
+&lt;li>圆通速递&lt;/li>
+&lt;li>申通快递&lt;/li>
+&lt;li>韵达快递&lt;/li>
+&lt;/ul>
+&lt;h4>电商平台&lt;span class="hx:absolute hx:-mt-20" id="电商平台">&lt;/span>
+&lt;a href="#%e7%94%b5%e5%95%86%e5%b9%b3%e5%8f%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>天猫&lt;/li>
+&lt;li>京东&lt;/li>
+&lt;li>拼多多&lt;/li>
+&lt;li>淘宝&lt;/li>
+&lt;li>抖音电商&lt;/li>
+&lt;/ul>
+&lt;h2>最佳实践&lt;span class="hx:absolute hx:-mt-20" id="最佳实践">&lt;/span>
+&lt;a href="#%e6%9c%80%e4%bd%b3%e5%ae%9e%e8%b7%b5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>库存准确性&lt;span class="hx:absolute hx:-mt-20" id="库存准确性">&lt;/span>
+&lt;a href="#%e5%ba%93%e5%ad%98%e5%87%86%e7%a1%ae%e6%80%a7" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>定期循环盘点&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>A 类商品每日&lt;/li>
+&lt;li>B 类商品每周&lt;/li>
+&lt;li>C 类商品每月&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>流程纪律&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>扫描所有内容&lt;/li>
+&lt;li>实时更新&lt;/li>
+&lt;li>异常处理&lt;/li>
+&lt;li>培训合规&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h3>优化策略&lt;span class="hx:absolute hx:-mt-20" id="优化策略">&lt;/span>
+&lt;a href="#%e4%bc%98%e5%8c%96%e7%ad%96%e7%95%a5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>ABC 分析&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>A 类商品 (20%)：价值的 80%&lt;/li>
+&lt;li>B 类商品 (30%)：价值的 15%&lt;/li>
+&lt;li>C 类商品 (50%)：价值的 5%&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>安全库存优化&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>服务水平目标&lt;/li>
+&lt;li>交期变异性&lt;/li>
+&lt;li>需求变异性&lt;/li>
+&lt;li>成本考量&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2>高级功能&lt;span class="hx:absolute hx:-mt-20" id="高级功能">&lt;/span>
+&lt;a href="#%e9%ab%98%e7%ba%a7%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>自动化&lt;span class="hx:absolute hx:-mt-20" id="自动化">&lt;/span>
+&lt;a href="#%e8%87%aa%e5%8a%a8%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>自动补货&lt;span class="hx:absolute hx:-mt-20" id="自动补货">&lt;/span>
+&lt;a href="#%e8%87%aa%e5%8a%a8%e8%a1%a5%e8%b4%a7" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>需求感知&lt;/li>
+&lt;li>自动 PO 生成&lt;/li>
+&lt;li>供应商管理库存&lt;/li>
+&lt;li>越库作业&lt;/li>
+&lt;/ul>
+&lt;h4>仓库自动化&lt;span class="hx:absolute hx:-mt-20" id="仓库自动化">&lt;/span>
+&lt;a href="#%e4%bb%93%e5%ba%93%e8%87%aa%e5%8a%a8%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>WMS 集成&lt;/li>
+&lt;li>RF 扫描&lt;/li>
+&lt;li>语音拣货&lt;/li>
+&lt;li>机器人接口&lt;/li>
+&lt;li>输送系统&lt;/li>
+&lt;/ul>
+&lt;h3>可追溯性&lt;span class="hx:absolute hx:-mt-20" id="可追溯性">&lt;/span>
+&lt;a href="#%e5%8f%af%e8%bf%bd%e6%ba%af%e6%80%a7" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>批次/序列号跟踪&lt;span class="hx:absolute hx:-mt-20" id="批次序列号跟踪">&lt;/span>
+&lt;a href="#%e6%89%b9%e6%ac%a1%e5%ba%8f%e5%88%97%e5%8f%b7%e8%b7%9f%e8%b8%aa" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>完整谱系&lt;/li>
+&lt;li>召回管理&lt;/li>
+&lt;li>保修跟踪&lt;/li>
+&lt;li>合规报告&lt;/li>
+&lt;/ul>
+&lt;h4>监管链&lt;span class="hx:absolute hx:-mt-20" id="监管链">&lt;/span>
+&lt;a href="#%e7%9b%91%e7%ae%a1%e9%93%be" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>温度跟踪&lt;/li>
+&lt;li>位置历史&lt;/li>
+&lt;li>处理人跟踪&lt;/li>
+&lt;li>时间戳&lt;/li>
+&lt;/ul>
+&lt;h2>移动库存&lt;span class="hx:absolute hx:-mt-20" id="移动库存">&lt;/span>
+&lt;a href="#%e7%a7%bb%e5%8a%a8%e5%ba%93%e5%ad%98" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>功能&lt;span class="hx:absolute hx:-mt-20" id="功能">&lt;/span>
+&lt;a href="#%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>条码扫描&lt;/li>
+&lt;li>库存盘点&lt;/li>
+&lt;li>调拨&lt;/li>
+&lt;li>调整&lt;/li>
+&lt;li>收货&lt;/li>
+&lt;li>位置查找&lt;/li>
+&lt;/ul>
+&lt;h3>硬件支持&lt;span class="hx:absolute hx:-mt-20" id="硬件支持">&lt;/span>
+&lt;a href="#%e7%a1%ac%e4%bb%b6%e6%94%af%e6%8c%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Android 扫描器&lt;/li>
+&lt;li>iOS 设备&lt;/li>
+&lt;li>Windows Mobile&lt;/li>
+&lt;li>专用 RF 枪&lt;/li>
+&lt;/ul>
+&lt;h2>支持与资源&lt;span class="hx:absolute hx:-mt-20" id="支持与资源">&lt;/span>
+&lt;a href="#%e6%94%af%e6%8c%81%e4%b8%8e%e8%b5%84%e6%ba%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>📚 &lt;a href="https://www.bigledger.com/docs/best-practices/inventory/" >库存最佳实践&lt;/a>&lt;/li>
+&lt;li>🎥 &lt;a href="https://www.bigledger.com/tutorials/inventory/" >培训视频&lt;/a>&lt;/li>
+&lt;li>📊 &lt;a href="https://www.bigledger.com/templates/inventory/" >报表模板&lt;/a>&lt;/li>
+&lt;li>💬 &lt;a href="https://forum.bigledger.com/inventory" target="_blank" rel="noopener">社区论坛&lt;/a>&lt;/li>
+&lt;li>📧 &lt;a href="mailto:inventory-support@bigledger.com" >支持&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
