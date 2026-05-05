@@ -42,12 +42,4 @@ Sunday & Public Holidays: Closed
 
 ---
 
-## Start Your Free Trial
-
-Try BigLedger free for 30 days. No credit card required.
-
-[Start Free Trial](/pricing) | [View Pricing](/pricing)
-
----
-
 For immediate assistance, please email us at **support@bigledger.com** and our team will respond within 24 hours.
