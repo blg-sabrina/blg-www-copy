@@ -1,0 +1,88 @@
+{{ partial "preview-modules-nav.html" 1 }}
+{{ partial "preview-hero-plain.html" . }}
+{{ $modules := partial "preview-modules-data.html" . }}
+
+<style>
+  /* Scoped to .pmf-* — additive only, cannot affect the production homepage. */
+  .pmf-section { padding: 80px 0; }
+  .pmf-header { text-align: center; max-width: 700px; margin: 0 auto 56px; }
+  .pmf-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  @media (max-width: 900px) { .pmf-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 600px) { .pmf-grid { grid-template-columns: 1fr; } }
+
+  .pmf-card { perspective: 1400px; height: 220px; cursor: pointer; }
+  .pmf-card-inner {
+    position: relative; width: 100%; height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.7s cubic-bezier(0.34,1.56,0.64,1);
+  }
+  .pmf-card.pmf-flipped .pmf-card-inner { transform: rotateY(180deg); }
+
+  .pmf-face {
+    position: absolute; inset: 0;
+    backface-visibility: hidden;
+    border-radius: 16px; border: 1px solid var(--bd-m);
+    padding: 28px 24px;
+    display: flex; flex-direction: column;
+  }
+  .pmf-front { background: var(--bg-2); }
+  .pmf-back {
+    background: linear-gradient(135deg, var(--cr-d), rgba(30,5,8,0.9));
+    transform: rotateY(180deg);
+    justify-content: center;
+  }
+  .pmf-icon {
+    width: 40px; height: 40px; border-radius: 10px;
+    background: var(--gl2); border: 1px solid var(--bd-m);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--cr-b); margin-bottom: 20px;
+  }
+  .pmf-icon svg { width: 20px; height: 20px; }
+  .pmf-name { font-size: 17px; font-weight: 700; color: var(--tx-1); margin-bottom: auto; }
+  .pmf-tag {
+    align-self: flex-start; font-family: var(--fm); font-size: 10px; font-weight: 700;
+    letter-spacing: 0.08em; text-transform: uppercase; color: var(--tx-3);
+    border: 1px solid var(--bd-m); border-radius: 999px; padding: 4px 10px; margin-top: 12px;
+  }
+  .pmf-hint { position: absolute; bottom: 14px; right: 18px; font-size: 11px; color: var(--tx-3); font-family: var(--fm); }
+  .pmf-back p { color: #fff; font-size: 14px; line-height: 1.6; }
+  .pmf-card:hover .pmf-front { border-color: var(--bd-c); }
+</style>
+
+<section class="bl-section pmf-section" data-bg-theme="platform">
+  <div class="bl-container">
+    <div class="pmf-header">
+      <span class="bl-label">THE PLATFORM — OPTION 1</span>
+      <h2 class="bl-section-title">Every function. One system.</h2>
+      <p class="bl-section-desc">Click any card to flip it and read what it does.</p>
+    </div>
+    <div class="pmf-grid">
+      {{ range $modules }}
+      <div class="pmf-card" tabindex="0" role="button" aria-label="{{ .name }}, click to flip">
+        <div class="pmf-card-inner">
+          <div class="pmf-face pmf-front">
+            <div class="pmf-icon"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4"><path d="{{ .icon }}"/></svg></div>
+            <h3 class="pmf-name">{{ .name }}</h3>
+            <div class="pmf-tag">{{ .tag }}</div>
+            <span class="pmf-hint">click to flip</span>
+          </div>
+          <div class="pmf-face pmf-back">
+            <p>{{ .desc }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.pmf-card').forEach(function (card) {
+      function toggle(e) { e.preventDefault(); card.classList.toggle('pmf-flipped'); }
+      card.addEventListener('click', toggle);
+      card.addEventListener('contextmenu', toggle);
+      card.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') toggle(e); });
+    });
+  });
+</script>

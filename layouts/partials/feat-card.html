@@ -1,0 +1,14 @@
+{{- /* Renders one enriched feature card from a data/solution_features.yaml key.
+       Falls back to a bare label if the key isn't in the library yet, so
+       pages can be migrated to the shared library incrementally. */ -}}
+{{- $key := . -}}
+{{- $feat := index site.Data.solution_features $key -}}
+<div class="bl-feat-card">
+  <div class="bl-feat-top">
+    <div class="bl-feat-icon">{{ partial "feat-icon.html" (cond (and $feat $feat.icon) $feat.icon "check") }}</div>
+    {{- if and $feat $feat.badge }}<span class="bl-feat-badge">{{ $feat.badge }}</span>{{ end -}}
+  </div>
+  <div class="bl-feat-name">{{ if and $feat $feat.name }}{{ $feat.name }}{{ else }}{{ $key }}{{ end }}</div>
+  {{- if and $feat $feat.desc }}<p class="bl-feat-desc">{{ $feat.desc }}</p>{{ end -}}
+  {{- if and $feat $feat.link }}<a href="{{ $feat.link }}" class="bl-feat-more">Learn more <span aria-hidden="true">→</span></a>{{ end -}}
+</div>

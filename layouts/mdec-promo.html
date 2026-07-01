@@ -1,4 +1,5 @@
 {{ define "main" }}
+<div class="promo-page-wrapper">
 <div class="promo-hero">
   <div class="promo-hero-bg"></div>
   <div class="container">
@@ -57,7 +58,7 @@
   </div>
 </section>
 
-<section class="features" style="background: var(--gray-50);">
+<section class="features" style="background: var(--bg-1-t);">
   <div class="container">
     <h2 style="text-align:center;">What's Included in This Promotion</h2>
     <p class="features-subtitle">Everything you need to issue compliant Malaysia e-invoices — no hidden fees, no credit card required.</p>
@@ -161,17 +162,17 @@
     <h2 style="text-align:center; color: white;">Why BigLedger for Malaysia E-Invoice</h2>
     <p class="features-subtitle" style="color: rgba(255,255,255,0.9);">One of only 16 MDEC-accredited providers — and the only one giving you a full 3-year runway at 200 transactions/month.</p>
     <div class="feature-grid">
-      <div class="feature-card" style="background: rgba(255,255,255,0.97);">
+      <div class="feature-card">
         <div class="feature-icon">🏅</div>
         <h3>MDEC Fully Accredited</h3>
         <p>Certified PEPPOL Service Provider under MDEC, the Malaysian Peppol Authority. Listed on MDEC's official e-invoicing partner directory.</p>
       </div>
-      <div class="feature-card" style="background: rgba(255,255,255,0.97);">
+      <div class="feature-card">
         <div class="feature-icon">🇲🇾</div>
         <h3>Built for Malaysia</h3>
         <p>Native support for LHDN MyInvois, SST, EPF, SOCSO, PDPA, and local bank integrations — not a retrofitted overseas product.</p>
       </div>
-      <div class="feature-card" style="background: rgba(255,255,255,0.97);">
+      <div class="feature-card">
         <div class="feature-icon">🚀</div>
         <h3>Scale When You're Ready</h3>
         <p>Grow beyond 200/month? Plug into BigLedger's full ERP: accounting, POS, inventory, e-commerce, CRM — all on one platform.</p>
@@ -180,7 +181,7 @@
   </div>
 </section>
 
-<section class="features promo-support" style="background: var(--gray-50);">
+<section class="features promo-support" style="background: var(--bg-1-t);">
   <div class="container">
     <h2 style="text-align:center;">Support Services Included</h2>
     <p class="features-subtitle">Every business on the MDEC promotion gets the full BigLedger support package — at no extra cost. We do not leave you to figure compliance out alone.</p>
@@ -246,44 +247,43 @@
 <section class="features">
   <div class="container" style="max-width: 900px; margin: 0 auto;">
     <h2 style="text-align:center;">Frequently Asked Questions</h2>
+    {{ $faqs := slice
+      (dict "q" "Is this promotion really free? Any hidden charges?" "a" "Yes, genuinely free for 3 years on up to 200 invoice transactions per month. No setup fees, no credit card required. This is part of BigLedger's commitment under the MDEC National E-Invoicing Initiative to help Malaysian SMEs adopt e-invoicing.")
+      (dict "q" "What counts as a \"transaction\"?" "a" "One transaction = one invoice, credit note, or debit note successfully submitted to LHDN's MyInvois portal. Drafts, validations, and re-submissions of the same document do not count.")
+      (dict "q" "What happens after 3 years, or if I exceed 200/month?" "a" "You can seamlessly upgrade to a paid BigLedger plan at standard pricing. Your data, settings, and history carry over — no migration required.")
+      (dict "q" "Does this cover PEPPOL cross-border invoicing?" "a" "Yes. BigLedger is an MDEC-accredited Peppol Access Point with full 4-corner send and receive capability, so you can issue and receive invoices across the international Peppol network within your 200/month allowance.")
+      (dict "q" "Can BigLedger both send and receive invoices via Peppol?" "a" "Yes — BigLedger operates a full 4-corner Peppol Access Point. <strong>Sending:</strong> issue invoices, credit notes, debit notes, self-billed invoices and refund notes in UBL 2.1 / PINT MY format to LHDN MyInvois and to any Peppol counterparty worldwide. <strong>Receiving:</strong> accept inbound invoices, credit notes, debit notes, orders, order responses and despatch advices from any Peppol Access Point, with automatic validation, MLR feedback, and AP auto-matching.")
+      (dict "q" "What support do I get during and after onboarding?" "a" "The promotion includes the full BigLedger support package at no extra cost: a dedicated onboarding specialist (typical go-live in 3 business days), technical assistance from our Malaysia-based engineering team, live and on-demand training in English / Bahasa Malaysia / Mandarin, multi-channel helpdesk (email, in-app, Telegram, WhatsApp) with 4-hour business-hour response and 24/7 critical escalation, plus automatic compliance updates whenever LHDN or MDEC publishes new rules.")
+      (dict "q" "Can I integrate my existing accounting system?" "a" "Absolutely. BigLedger provides REST APIs, SFTP batch imports, and CSV/Excel upload options. Popular integrations are available out of the box.")
+      (dict "q" "Is my data stored in Malaysia?" "a" "Yes. BigLedger hosts data in Malaysian data centres, compliant with PDPA and LHDN's 7-year retention rules.")
+      (dict "q" "How do I verify BigLedger is officially part of the MDEC initiative?" "a" "BigLedger is listed among the 16 accredited providers on the <a href=\"https://www.mdec.my/national-einvoicing/freemium-and-affordable-solutions\" target=\"_blank\" rel=\"noopener\">MDEC Freemium & Affordable Solutions page</a>.")
+    }}
     <div class="promo-faq">
+      {{ range $faqs }}
       <details class="promo-faq-item">
-        <summary>Is this promotion really free? Any hidden charges?</summary>
-        <p>Yes, genuinely free for 3 years on up to 200 invoice transactions per month. No setup fees, no credit card required. This is part of BigLedger's commitment under the MDEC National E-Invoicing Initiative to help Malaysian SMEs adopt e-invoicing.</p>
+        <summary>{{ .q }}</summary>
+        <p>{{ .a | safeHTML }}</p>
       </details>
-      <details class="promo-faq-item">
-        <summary>What counts as a "transaction"?</summary>
-        <p>One transaction = one invoice, credit note, or debit note successfully submitted to LHDN's MyInvois portal. Drafts, validations, and re-submissions of the same document do not count.</p>
-      </details>
-      <details class="promo-faq-item">
-        <summary>What happens after 3 years, or if I exceed 200/month?</summary>
-        <p>You can seamlessly upgrade to a paid BigLedger plan at standard pricing. Your data, settings, and history carry over — no migration required.</p>
-      </details>
-      <details class="promo-faq-item">
-        <summary>Does this cover PEPPOL cross-border invoicing?</summary>
-        <p>Yes. BigLedger is an MDEC-accredited Peppol Access Point with full 4-corner send and receive capability, so you can issue and receive invoices across the international Peppol network within your 200/month allowance.</p>
-      </details>
-      <details class="promo-faq-item">
-        <summary>Can BigLedger both send and receive invoices via Peppol?</summary>
-        <p>Yes — BigLedger operates a full 4-corner Peppol Access Point. <strong>Sending:</strong> issue invoices, credit notes, debit notes, self-billed invoices and refund notes in UBL 2.1 / PINT MY format to LHDN MyInvois and to any Peppol counterparty worldwide. <strong>Receiving:</strong> accept inbound invoices, credit notes, debit notes, orders, order responses and despatch advices from any Peppol Access Point, with automatic validation, MLR feedback, and AP auto-matching.</p>
-      </details>
-      <details class="promo-faq-item">
-        <summary>What support do I get during and after onboarding?</summary>
-        <p>The promotion includes the full BigLedger support package at no extra cost: a dedicated onboarding specialist (typical go-live in 3 business days), technical assistance from our Malaysia-based engineering team, live and on-demand training in English / Bahasa Malaysia / Mandarin, multi-channel helpdesk (email, in-app, Telegram, WhatsApp) with 4-hour business-hour response and 24/7 critical escalation, plus automatic compliance updates whenever LHDN or MDEC publishes new rules.</p>
-      </details>
-      <details class="promo-faq-item">
-        <summary>Can I integrate my existing accounting system?</summary>
-        <p>Absolutely. BigLedger provides REST APIs, SFTP batch imports, and CSV/Excel upload options. Popular integrations are available out of the box.</p>
-      </details>
-      <details class="promo-faq-item">
-        <summary>Is my data stored in Malaysia?</summary>
-        <p>Yes. BigLedger hosts data in Malaysian data centres, compliant with PDPA and LHDN's 7-year retention rules.</p>
-      </details>
-      <details class="promo-faq-item">
-        <summary>How do I verify BigLedger is officially part of the MDEC initiative?</summary>
-        <p>BigLedger is listed among the 16 accredited providers on the <a href="https://www.mdec.my/national-einvoicing/freemium-and-affordable-solutions" target="_blank" rel="noopener">MDEC Freemium &amp; Affordable Solutions page</a>.</p>
-      </details>
+      {{ end }}
     </div>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {{ range $i, $faq := $faqs }}{{ if $i }},{{ end }}
+        {
+          "@type": "Question",
+          "name": {{ $faq.q | jsonify }},
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": {{ $faq.a | plainify | jsonify }}
+          }
+        }
+        {{ end }}
+      ]
+    }
+    </script>
   </div>
 </section>
 
@@ -332,4 +332,5 @@
     <p style="color: rgba(255,255,255,0.8); text-align:center; font-size: 14px; margin-top: 32px;">Mon–Fri, 9:00 AM – 6:00 PM MYT · Response typically within a few hours</p>
   </div>
 </section>
+</div><!-- /promo-page-wrapper -->
 {{ end }}

@@ -1,0 +1,104 @@
+{{ $variant := .variant }}
+{{ $variantLabel := .label }}
+{{ $variantDesc := .desc }}
+<style>
+  /* Scoped to .dlp-* — additive only, cannot affect the production homepage. */
+  .dlp-option-nav {
+    position: sticky; top: 84px; z-index: 5;
+    display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;
+    padding: 14px 0; margin-bottom: -14px;
+  }
+  .dlp-option-nav a {
+    font-family: var(--fm); font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+    padding: 8px 16px; border-radius: 999px;
+    background: rgba(5,5,5,0.72); backdrop-filter: blur(12px);
+    border: 1px solid var(--bd-m); color: var(--tx-3);
+    transition: color 0.2s ease, border-color 0.2s ease;
+  }
+  .dlp-option-nav a:hover { color: var(--tx-1); border-color: var(--bd-c); }
+  .dlp-option-nav a.dlp-active { color: var(--cr-b); border-color: var(--bd-c); }
+
+  .dlp-hero-content { grid-template-columns: 0.72fr 1.28fr; align-items: center; gap: 20px; }
+  @media (max-width: 980px) {
+    .dlp-hero-content { grid-template-columns: 1fr; }
+  }
+  .dlp-hero-right { display: flex; flex-direction: column; align-items: center; justify-content: center; position: relative; z-index: 1; }
+  .dlp-widget-canvas { width: 100%; max-width: 900px; aspect-ratio: 1 / 1.3; display: block; }
+  .dlp-widget-caption {
+    margin-top: 8px; text-align: center; max-width: 420px;
+  }
+  .dlp-widget-name { font-family: var(--fm); font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--cr-b); margin-bottom: 6px; }
+  .dlp-widget-hint { font-size: 13px; color: var(--tx-3); }
+</style>
+
+<div class="bl-container dlp-option-nav">
+  {{ range seq 1 4 }}
+    <a href="{{ printf "/preview-datalake-%d/" . | relURL }}" {{ if eq . $variant }}class="dlp-active"{{ end }}>Option {{ . }}</a>
+  {{ end }}
+</div>
+
+<section class="bl-hero">
+  <canvas id="bl-particles"></canvas>
+  <div class="bl-hero-grid"></div>
+
+  <div class="bl-container bl-hero-content dlp-hero-content">
+    <div class="dlp-hero-left">
+      <div class="bl-chapter-tag" data-delay="0">
+        <span class="bl-chapter-dot"></span>
+        MDEC PEPPOL ACCREDITED &nbsp;&middot;&nbsp; ISO 27001 &nbsp;&middot;&nbsp; MALAYSIA E-INVOICE READY
+      </div>
+
+      <h1 class="bl-hero-headline">
+        THE MODERN<br>
+        <span class="bl-word-gradient">OPERATING</span><br>
+        SYSTEM<span class="bl-word-outline"> FOR BUSINESS</span>
+      </h1>
+
+      <p class="bl-hero-sub" data-reveal="up" data-delay="160">
+        One AI-powered, cloud-native platform unifying finance, inventory, commerce, HR, and compliance. 100+ composable modules. Built for Southeast Asia.
+      </p>
+
+      <div class="bl-hero-actions" data-reveal="up" data-delay="280">
+        <a href="/contact" class="bl-btn-primary bl-btn-lg">
+          Get a Demo
+          <svg class="bl-btn-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 8h10M9 4l4 4-4 4"/>
+          </svg>
+        </a>
+        <a href="/solutions" class="bl-btn-ghost">Explore Platform</a>
+      </div>
+
+      <div class="bl-hero-stats" data-reveal="up" data-delay="420">
+        <div class="bl-stat">
+          <span class="bl-stat-value" data-count="100" data-suffix="+">100+</span>
+          <span class="bl-stat-label">Business Modules</span>
+        </div>
+        <div class="bl-stat-divider"></div>
+        <div class="bl-stat">
+          <span class="bl-stat-value" data-count="80" data-suffix="%">80%</span>
+          <span class="bl-stat-label">Manual Tasks Automated</span>
+        </div>
+        <div class="bl-stat-divider"></div>
+        <div class="bl-stat">
+          <span class="bl-stat-value" data-count="99.9" data-suffix="%">99.9%</span>
+          <span class="bl-stat-label">Uptime SLA</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="dlp-hero-right">
+      <canvas id="dlp-canvas-{{ $variant }}" class="dlp-widget-canvas"></canvas>
+      <div class="dlp-widget-caption">
+        <div class="dlp-widget-name">{{ $variantLabel }}</div>
+        <p class="dlp-widget-hint">{{ $variantDesc }} Click the shape — it dissolves into the data stream, then reforms after 2 seconds. Hover left or right to spin it 180°.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="{{ "js/datalake-widget.js" | relURL }}"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    initDatalakeWidget('dlp-canvas-{{ $variant }}', '{{ .geoKey }}');
+  });
+</script>

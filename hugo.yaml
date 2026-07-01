@@ -52,7 +52,7 @@ languages:
 params:
   # Theme settings
   theme:
-    default: light
+    default: dark
     displayToggle: true
     
   # Navigation

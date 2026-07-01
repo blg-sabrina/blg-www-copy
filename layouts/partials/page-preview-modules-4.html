@@ -1,0 +1,101 @@
+{{ partial "preview-modules-nav.html" 4 }}
+{{ partial "preview-hero-plain.html" . }}
+{{ $modules := partial "preview-modules-data.html" . }}
+{{ $tones := slice
+  "linear-gradient(160deg, #0D0D0D 0%, #1A0609 100%)"
+  "linear-gradient(160deg, #3D0C18 0%, #1A0609 100%)"
+  "linear-gradient(160deg, #7A1128 0%, #3D0C18 100%)"
+}}
+
+<style>
+  /* Scoped to .pms-* — additive only, cannot affect the production homepage. */
+  .pms-intro { padding: 80px 0 40px; text-align: center; }
+  .pms-intro-inner { max-width: 700px; margin: 0 auto; }
+
+  .pms-stack { position: relative; }
+  .pms-panel {
+    position: sticky; top: 0;
+    height: 94vh; min-height: 620px;
+    border-radius: 32px 32px 0 0;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    overflow: hidden;
+    display: flex; align-items: center;
+    box-shadow: 0 -30px 60px rgba(0,0,0,0.45);
+  }
+  .pms-panel-bg { position: absolute; inset: 0; background: var(--pms-tone); }
+  .pms-panel-dots {
+    position: absolute; inset: 0; pointer-events: none;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.10) 1px, transparent 1px);
+    background-size: 34px 34px;
+    mask-image: radial-gradient(ellipse 80% 80% at 30% 50%, black 0%, transparent 100%);
+    -webkit-mask-image: radial-gradient(ellipse 80% 80% at 30% 50%, black 0%, transparent 100%);
+  }
+  .pms-panel-index {
+    position: absolute; top: 6%; right: 4%;
+    font-family: var(--fm); font-weight: 800; font-size: clamp(90px, 14vw, 220px);
+    color: rgba(255,255,255,0.05); line-height: 1; pointer-events: none;
+  }
+  .pms-panel-inner {
+    position: relative; z-index: 1;
+    display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 48px; align-items: center;
+    max-width: 1240px; margin: 0 auto; padding: 0 48px; width: 100%;
+  }
+  @media (max-width: 900px) {
+    .pms-panel-inner { grid-template-columns: 1fr; }
+    .pms-panel { height: auto; min-height: 560px; padding: 60px 0; }
+  }
+  .pms-eyebrow {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-family: var(--fm); font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+    color: rgba(255,255,255,0.65); margin-bottom: 18px;
+  }
+  .pms-eyebrow-dot { width: 6px; height: 6px; border-radius: 50%; background: #fff; }
+  .pms-heading { font-size: clamp(30px, 4vw, 48px); font-weight: 800; color: #fff; letter-spacing: -0.02em; line-height: 1.08; margin-bottom: 18px; }
+  .pms-desc { font-size: 16px; line-height: 1.7; color: rgba(255,255,255,0.82); max-width: 480px; margin-bottom: 22px; }
+  .pms-tag {
+    display: inline-block; font-family: var(--fm); font-size: 11px; font-weight: 700;
+    letter-spacing: 0.08em; text-transform: uppercase; color: #fff;
+    background: rgba(255,255,255,0.14); border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 999px; padding: 6px 16px;
+  }
+  .pms-visual { display: flex; align-items: center; justify-content: center; }
+  .pms-badge {
+    width: 220px; height: 220px; border-radius: 50%;
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.25);
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 0 80px rgba(255,255,255,0.10) inset, 0 30px 60px rgba(0,0,0,0.35);
+  }
+  .pms-badge svg { width: 84px; height: 84px; color: #fff; }
+</style>
+
+<section class="bl-section pms-intro" data-bg-theme="platform">
+  <div class="bl-container pms-intro-inner">
+    <span class="bl-label">THE PLATFORM — OPTION 4</span>
+    <h2 class="bl-section-title">Every function. One system.</h2>
+    <p class="bl-section-desc">Scroll down — each module is a layer that stacks on top of the last, like the modules themselves stack into one platform.</p>
+  </div>
+</section>
+
+<div class="pms-stack">
+  {{ range $i, $m := $modules }}
+  {{ $tone := index $tones (mod $i 3) }}
+  <div class="pms-panel" style="{{ printf "--pms-tone: %s; z-index: %d;" $tone (add $i 1) | safeCSS }}">
+    <div class="pms-panel-bg"></div>
+    <div class="pms-panel-dots"></div>
+    <div class="pms-panel-index">{{ printf "%02d" (add $i 1) }}</div>
+    <div class="pms-panel-inner">
+      <div>
+        <div class="pms-eyebrow"><span class="pms-eyebrow-dot"></span>MODULE {{ printf "%02d" (add $i 1) }} / 09</div>
+        <h3 class="pms-heading">{{ .name }}</h3>
+        <p class="pms-desc">{{ .desc }}</p>
+        <span class="pms-tag">{{ .tag }}</span>
+      </div>
+      <div class="pms-visual">
+        <div class="pms-badge">
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.1"><path d="{{ .icon }}"/></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</div>

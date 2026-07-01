@@ -1,0 +1,118 @@
+{{ partial "preview-modules-nav.html" 3 }}
+{{ partial "preview-hero-plain.html" . }}
+{{ $modules := partial "preview-modules-data.html" . }}
+
+<style>
+  /* Scoped to .pmo-* — additive only, cannot affect the production homepage. */
+  .pmo-section { padding: 80px 0; overflow: hidden; }
+  .pmo-header { text-align: center; max-width: 700px; margin: 0 auto 40px; }
+  .pmo-stage-wrapper { position: relative; height: 460px; perspective: 1900px; }
+  .pmo-stage {
+    position: relative; width: 100%; height: 100%; transform-style: preserve-3d;
+    transition: transform 0.9s cubic-bezier(0.22,0.61,0.36,1);
+  }
+  .pmo-card {
+    position: absolute; top: 50%; left: 50%; width: 260px; height: 320px;
+    margin: -160px 0 0 -130px;
+    background: var(--bg-2); border: 1px solid var(--bd-m); border-radius: 18px; padding: 28px;
+    display: flex; flex-direction: column;
+    transition: opacity 0.9s ease, filter 0.9s ease, border-color 0.9s ease;
+    cursor: pointer; backface-visibility: hidden;
+  }
+  .pmo-card.pmo-front { border-color: var(--bd-c); box-shadow: 0 24px 60px rgba(0,0,0,0.5); }
+  .pmo-icon {
+    width: 42px; height: 42px; border-radius: 10px;
+    background: var(--gl2); border: 1px solid var(--bd-m);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--cr-b); margin-bottom: 20px;
+  }
+  .pmo-icon svg { width: 20px; height: 20px; }
+  .pmo-name { font-size: 18px; font-weight: 700; color: var(--tx-1); margin-bottom: 10px; }
+  .pmo-desc { font-size: 13px; color: var(--tx-2); line-height: 1.6; flex: 1; }
+  .pmo-tag {
+    align-self: flex-start; font-family: var(--fm); font-size: 10px; font-weight: 700;
+    letter-spacing: 0.08em; text-transform: uppercase; color: var(--tx-3);
+    border: 1px solid var(--bd-m); border-radius: 999px; padding: 4px 10px; margin-top: 14px;
+  }
+  .pmo-controls { display: flex; justify-content: center; gap: 14px; margin-top: 24px; }
+  .pmo-arrow {
+    width: 44px; height: 44px; border-radius: 50%;
+    background: rgba(5,5,5,0.72); backdrop-filter: blur(10px);
+    border: 1px solid var(--bd-m); color: var(--tx-1); font-size: 20px;
+    cursor: pointer; transition: border-color 0.2s ease;
+  }
+  .pmo-arrow:hover { border-color: var(--bd-c); color: var(--cr-b); }
+</style>
+
+<section class="bl-section pmo-section" data-bg-theme="platform">
+  <div class="bl-container">
+    <div class="pmo-header">
+      <span class="bl-label">THE PLATFORM — OPTION 3</span>
+      <h2 class="bl-section-title">Every function. One system.</h2>
+      <p class="bl-section-desc">A 3D ring of modules, slowly turning — the front card is always in focus. Click a card or use the arrows.</p>
+    </div>
+  </div>
+
+  <div class="pmo-stage-wrapper">
+    <div class="pmo-stage" id="pmo-stage">
+      {{ range $i, $m := $modules }}
+      <div class="pmo-card" data-index="{{ $i }}">
+        <div class="pmo-icon"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4"><path d="{{ .icon }}"/></svg></div>
+        <h3 class="pmo-name">{{ .name }}</h3>
+        <p class="pmo-desc">{{ .desc }}</p>
+        <div class="pmo-tag">{{ .tag }}</div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  <div class="pmo-controls">
+    <button class="pmo-arrow pmo-prev" aria-label="Previous">‹</button>
+    <button class="pmo-arrow pmo-next" aria-label="Next">›</button>
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const stage = document.getElementById('pmo-stage');
+    const cards = Array.from(stage.querySelectorAll('.pmo-card'));
+    const n = cards.length;
+    const step = 360 / n;
+    const radius = 430;
+    let current = 0;
+    let autoTimer;
+
+    cards.forEach((card, i) => {
+      card.style.transform = `rotateY(${i * step}deg) translateZ(${radius}px)`;
+    });
+
+    function render() {
+      stage.style.transform = `rotateY(${-current * step}deg)`;
+      cards.forEach((card, i) => {
+        let rel = (i - current) * step;
+        rel = ((rel + 180) % 360 + 360) % 360 - 180;
+        const abs = Math.abs(rel);
+        const focus = Math.max(0, Math.cos(rel * Math.PI / 180));
+        card.classList.toggle('pmo-front', abs < 1);
+        card.style.opacity = Math.max(0.12, focus);
+        card.style.filter = abs > 70 ? 'blur(2px)' : 'blur(0px)';
+        card.style.pointerEvents = abs > 100 ? 'none' : 'auto';
+      });
+    }
+
+    function goTo(i) { current = ((i % n) + n) % n; render(); }
+    function next() { goTo(current + 1); }
+    function prev() { goTo(current - 1); }
+
+    document.querySelector('.pmo-next').addEventListener('click', next);
+    document.querySelector('.pmo-prev').addEventListener('click', prev);
+    cards.forEach(card => card.addEventListener('click', () => goTo(parseInt(card.dataset.index, 10))));
+
+    function startAuto() { autoTimer = setInterval(next, 3000); }
+    function stopAuto() { clearInterval(autoTimer); }
+    document.querySelector('.pmo-stage-wrapper').addEventListener('mouseenter', stopAuto);
+    document.querySelector('.pmo-stage-wrapper').addEventListener('mouseleave', startAuto);
+
+    render();
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) startAuto();
+  });
+</script>

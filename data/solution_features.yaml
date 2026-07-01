@@ -1,0 +1,772 @@
+# Shared feature-card library for Solutions subpages.
+# Each entry: name, desc (2-3 sentences, grounded in the matching
+# /modules/ or /applets/ doc — no generic filler), icon (key into
+# layouts/partials/feat-icon.html), optional badge, optional link.
+#
+# Pages reference these by key in their front matter `features:` list.
+# One entry here can be reused across multiple pages.
+
+project-time-tracking:
+  name: "Project time tracking"
+  desc: "Log billable and non-billable hours by project, task, and team member. Timesheets roll up automatically into utilization reports so you can see real capacity before you commit to the next scope of work."
+  icon: clock
+  link: /modules/projects/
+
+client-billing-invoicing:
+  name: "Client billing & invoicing"
+  desc: "Convert tracked time and expenses directly into client invoices — no re-entry. Supports milestone billing, retainers, and MY e-invoice/LHDN submission in the same flow."
+  icon: invoice
+  badge: "PEPPOL"
+  link: /modules/financial-accounting/
+
+resource-scheduling:
+  name: "Resource scheduling"
+  desc: "Assign people to projects against real availability, not guesswork. See utilization by team member and rebalance workload before a project is over-booked."
+  icon: users
+  link: /modules/projects/
+
+proposal-management:
+  name: "Proposal management"
+  desc: "Build and send scoped proposals with pricing pulled from your pricebook, track client acceptance status, and convert an accepted proposal straight into a project — no manual handoff."
+  icon: receipt
+  link: /modules/sales-crm/
+
+crm-pipeline-tracking:
+  name: "CRM & pipeline tracking"
+  desc: "Track leads through a 5-stage pipeline (Prospecting → Qualification → Proposal → Negotiation → Closed Won) with built-in lead scoring, so project-based teams know which opportunities to prioritize before committing resources."
+  icon: funnel
+  badge: "Lead Scoring"
+  link: /modules/crm/
+
+# ── Compliance & Trust ──────────────────────────────────────────
+
+sst-filing-reporting:
+  name: "SST filing & reporting"
+  desc: "Configure SST as a dedicated tax code (e.g. 6% service tax, mapped straight to your payables account) alongside GST, VAT, and other tax types in one library. Reporting periods are set per requirement — monthly, quarterly, or annual — matching how Malaysian SST returns are actually filed."
+  icon: receipt
+  link: /applets/tax-configuration-applet/
+
+epf-socso-pcb-automation:
+  name: "EPF/SOCSO/PCB automation"
+  desc: "Statutory contributions — EPF, SOCSO, and income tax deductions — are calculated automatically as part of every payroll run, not bolted on afterward. The payroll cycle moves straight from calculation into statutory filing, so nothing gets recalculated by hand at month-end."
+  icon: layers
+  link: /modules/hr-payroll/
+
+statutory-report-generation:
+  name: "Statutory report generation"
+  desc: "Generate tax returns and statutory reports directly from transaction data, with e-filing integration to submit straight to the relevant authority. Large tax reports return in under 30 seconds, backed by 10+ years of retained transaction history for audits."
+  icon: chart
+  link: /applets/tax-configuration-applet/
+
+compliance-update-tracking:
+  name: "Compliance update tracking"
+  desc: "Tax rates and rules carry effective dates, so regulatory changes (like an SST rate adjustment) are scheduled in advance rather than patched in on the deadline. A compliance calendar tracks upcoming filing deadlines with monitoring and alerts on top."
+  icon: bell
+  link: /applets/tax-configuration-applet/
+
+iso27001-certified-infrastructure:
+  name: "ISO 27001 certified infrastructure"
+  desc: "Infrastructure is built against ISO 27001 and PCI DSS standards, with SOC 2 Type II and GDPR compliance support layered on for enterprise deployments. This runs alongside multi-factor authentication and encryption as part of the same security baseline, not a separate add-on."
+  icon: shield
+  link: /modules/erp/
+
+encryption-at-rest-transit:
+  name: "Encryption at rest & in transit"
+  desc: "Data is encrypted both at rest and in transit by default, with encrypted partitioning between tenants so one customer's data is never addressable from another's. This is baseline behavior across every module, not an enterprise-tier upsell."
+  icon: lock
+  link: /modules/erp/
+
+role-based-access-control:
+  name: "Role-based access control"
+  desc: "Permissions are governed by roles with inheritance and delegation, scoped down to individual applets — configurable per branch, company, or location. The platform is built to handle this at scale: up to 10,000 concurrent users across 1,000 tenants on a single deployment."
+  icon: users
+  link: /applets/tenant-admin-applet/
+
+regular-security-audits:
+  name: "Regular security audits"
+  desc: "Real-time security monitoring and threat detection run continuously, with automated compliance reporting generated against multiple regulatory frameworks at once rather than assembled manually per audit."
+  icon: target
+  link: /applets/tenant-admin-applet/
+
+uptime-sla-999:
+  name: "99.9% uptime SLA"
+  desc: "The platform runs on a high-availability architecture with a 99.9% uptime guarantee — in practice, actual uptime has run above 99.95%, capping total downtime at under 9 hours a year."
+  icon: cloud
+  badge: "99.9%"
+  link: /applets/tenant-admin-applet/
+
+data-residency-policy:
+  name: "Data residency policy"
+  desc: "Geographic data residency and sovereignty controls let regulated deployments keep data within a required region, backed by local compliance frameworks for regional rollouts rather than a one-size-fits-all global setup."
+  icon: globe
+  link: /applets/tenant-admin-applet/
+
+redundant-infrastructure:
+  name: "Redundant infrastructure"
+  desc: "The high-availability architecture behind the uptime SLA runs across multiple data centers with load balancing, automatic failover, and real-time replication — so a single node failure doesn't become a customer-facing outage."
+  icon: layers
+
+public-status-page:
+  name: "Public status page"
+  desc: "Current system status and any planned maintenance windows are published live at status.bigledger.com, rather than only surfacing incidents through a support ticket."
+  icon: bell
+
+# ── By Function: Claims & Membership (thin/no dedicated wiki source — see note) ──
+
+digital-claim-submission:
+  name: "Digital claim submission"
+  icon: folder
+
+configurable-approval-workflows:
+  name: "Configurable approval workflows"
+  desc: "Claims follow the same approval routing used across HR — request, manager approval, HR review — rather than a separate parallel process to maintain."
+  icon: gear
+  link: /modules/hr-payroll/
+
+claim-cycle-tracking:
+  name: "Claim cycle tracking"
+  icon: clock
+
+policy-enforcement:
+  name: "Policy enforcement"
+  icon: shield
+
+reimbursement-tracking:
+  name: "Reimbursement tracking"
+  desc: "Employee expense claims and reimbursements are tracked as part of the same benefits and compensation record HR already maintains, so a claim's status is visible alongside the rest of an employee's payroll data."
+  icon: invoice
+  link: /modules/hr-payroll/
+
+membership-program-management:
+  name: "Membership program management"
+  desc: "Set up member classes, labels, and point currencies through a guided sequence — create the member class, assign labels, then configure point currencies — rather than a single flat member list. Runs on top of your existing Organization and Pricebook setup instead of duplicating them."
+  icon: star
+  link: /applets/introduction-to-membership-admin-console-applet/
+
+points-currency-configuration:
+  name: "Points & currency configuration"
+  desc: "Define named point currencies (e.g. LOYPTS, GOLDPTS, VIPPTS) with their own earning and redemption rates — a simple $1 = 1 point model or tiered rates like 1.5x for Silver and 3x for Platinum. Points post automatically at checkout through the same flow as a sale."
+  icon: tag
+  link: /applets/membership-points-currency/
+
+voucher-management:
+  name: "Voucher management"
+  icon: folder
+
+commission-schemes:
+  name: "Commission schemes"
+  icon: chart
+
+cross-outlet-redemption:
+  name: "Cross-outlet redemption"
+  desc: "Membership runs on the same multi-outlet POS foundation used for centralized inventory across locations, so a member's points aren't locked to the outlet where they were earned."
+  icon: warehouse
+  link: /modules/pos/
+
+# ── By Business Size ─────────────────────────────────────────────
+
+quick-setup-no-it:
+  name: "Quick setup, no IT team required"
+  desc: "Applets install one-click from the catalog, or in bulk with a single \"Install All\" action — no server provisioning or IT ticket required to get running. E-invoice setup for smaller businesses is explicitly built around minimal IT complexity, using pre-configured templates rather than custom implementation."
+  icon: gear
+  link: /applets/applet-store/
+
+core-accounting-einvoice-day-one:
+  name: "Core accounting + e-invoice from day one"
+  desc: "Financial Accounting ships with GST/SST compliance and automated tax calculation built in, and government-mandated e-invoicing is part of the same module — not a separate purchase you bolt on once you're bigger."
+  icon: invoice
+  badge: "PEPPOL"
+  link: /modules/financial-accounting/
+
+pay-as-you-grow-pricing:
+  name: "Pay-as-you-grow pricing"
+  desc: "A dedicated Pay-Per-Use tier removes the monthly commitment entirely — per-invoice pricing with every feature included, built for seasonal or early-stage volume. The applet marketplace mirrors this per-applet, supporting free and paid subscriptions side by side."
+  icon: tag
+  link: /e-invoice-peppol/
+
+mobile-friendly-solo-teams:
+  name: "Mobile-friendly for solo/small teams"
+  desc: "Full CRM runs on iOS, Android, and as a progressive web app, with offline capability so you're not dependent on signal to check a customer record. The same mobile pattern covers HR — time clock, leave requests, and approvals — for teams too small to need a back office."
+  icon: mobile
+  link: /modules/crm/
+
+modular-pay-for-use:
+  name: "Modular, pay-for-what-you-use"
+  desc: "Every module is a grouping of the same underlying applets — you install and pay for individual applets from the marketplace rather than licensing a bundle of features you won't touch. Free and premium applets sit side by side in the same catalog."
+  icon: layers
+  link: /applets/applet-store/
+
+add-modules-without-migration:
+  name: "Add modules without migration"
+  desc: "Because modules share the same applet architecture underneath, adding a new one is an install, not a re-platform — the stated path is to grow gradually and implement in phases rather than a single all-at-once rollout."
+  icon: link
+  link: /modules/
+
+multi-outlet-ready:
+  name: "Multi-outlet ready"
+  desc: "The Multi-Store Chain setup handles centralized inventory, store-to-store transfers, consolidated reporting, and chain-wide promotions out of the box, with dedicated reports for comparing performance store to store."
+  icon: warehouse
+  link: /modules/pos/
+
+local-compliance-built-in:
+  name: "Local compliance built in"
+  desc: "MyInvois (LHDN) and PEPPOL compliance are native to the e-invoice module, and tax configuration ships with a ready-made Malaysian GST/SST use case — registration, service tax, monthly GST returns, quarterly SST reporting — rather than something you configure from scratch."
+  icon: shield
+  link: /modules/e-invoice/
+
+multi-department-workflows:
+  name: "Multi-department workflows"
+  desc: "Approval routing is built with a visual drag-and-drop workflow designer — up to 50 steps and 10 approval levels — so a purchase order can route from department manager, to finance director, to CEO purely by value threshold, with onboarding workflows spanning HR, IT, and the hiring manager the same way."
+  icon: layers
+  link: /applets/workflow-design-applet/
+
+advanced-reporting-bi:
+  name: "Advanced reporting & BI"
+  desc: "A flexible report builder covers custom and comparative period-over-period reporting, backed by real-time dashboard analytics — with a dedicated Business Intelligence applet available for data warehousing and predictive modeling at enterprise scale."
+  icon: chart
+  link: /modules/financial-accounting/
+
+faster-implementation-legacy-erp:
+  name: "Faster implementation than legacy ERP"
+  desc: "Modules are added in phases against a shared applet architecture rather than requiring a single big-bang rollout — you scope and go live department by department instead of waiting for one monolithic cutover."
+  icon: sync
+  link: /modules/
+
+role-based-access-control:
+  name: "Role-based access control"
+  desc: "Permissions are governed by roles with inheritance and delegation, scoped down to individual applets — configurable per branch, company, or location. The platform is built to handle this at scale: up to 10,000 concurrent users across 1,000 tenants on a single deployment."
+  icon: users
+  link: /applets/tenant-admin-applet/
+
+multi-entity-multi-currency-gl:
+  name: "Multi-entity, multi-currency GL"
+  desc: "International transactions post natively in their own currency, and parent-subsidiary company relationships are modeled directly in the organization structure — not simulated with workarounds in a single-entity chart of accounts."
+  icon: globe
+  link: /modules/financial-accounting/
+
+consolidated-group-reporting:
+  name: "Consolidated group reporting"
+  desc: "A dedicated Consolidation Processing applet rolls entity-level financials up into group reporting, feeding off the same parent-subsidiary structure defined in your organization setup."
+  icon: chart
+  link: /modules/erp/
+
+per-entity-compliance-sst-einvoice:
+  name: "Per-entity compliance (SST/e-invoice)"
+  desc: "Multi-country tax configuration handles country-specific rules and inter-company transaction tax, then rolls up into consolidated tax reporting — so each entity stays compliant locally without breaking group-level visibility."
+  icon: shield
+  link: /applets/tax-configuration-applet/
+
+inter-company-transactions:
+  name: "Inter-company transactions"
+  desc: "A dedicated Inter-Company Transaction Processing applet handles multi-entity transactions directly, covering the same inter-branch transaction scenarios used in multi-branch operations more broadly."
+  icon: sync
+  link: /modules/erp/
+
+full-module-catalog-access:
+  name: "Full module catalog access"
+  desc: "The full ERP module bundles all 41 applets — every Accounting and POS applet plus ERP-specific ones — and the applet store supports unlimited installations per tenant across both public and private catalogs."
+  icon: layers
+  badge: "41 Applets"
+  link: /modules/erp/
+
+api-webhook-access:
+  name: "API & webhook access"
+  desc: "A REST API ships with SDKs for JS/TS, Python, PHP, Java, .NET, and Go, rate-limited at 1,000 requests/hour on standard plans with higher limits on Enterprise. Webhooks cover 200+ event types at up to 10,000 events/sec with a 99.9% delivery guarantee."
+  icon: link
+  badge: "200+ Events"
+  link: /developers/
+
+dedicated-account-support:
+  name: "Dedicated account support"
+  desc: "Enterprise implementations get a dedicated project team plus ongoing customer success management, backed by 24/7 technical support for critical issues and regular health-check reviews rather than a shared support queue."
+  icon: users
+  link: /modules/erp/
+
+custom-slas-security-review:
+  name: "Custom SLAs & security review"
+  desc: "Enterprise deployments run on the same 99.9% uptime target with privileged access management and break-glass emergency access on top — layered onto multi-factor authentication, RBAC, and encryption at rest and in transit."
+  icon: shield
+  badge: "99.9%"
+  link: /applets/tenant-admin-applet/
+
+real-time-business-dashboard:
+  name: "Real-time business dashboard"
+  desc: "A dedicated Enterprise Dashboard applet delivers executive-level KPI monitoring — real-time metrics, performance scorecards, and predictive analytics — layered on top of the real-time dashboard analytics already built into Financial Accounting."
+  icon: chart
+  link: /modules/erp/
+
+cash-flow-forecasting:
+  name: "Cash flow forecasting"
+  desc: "Cashbook tracks real-time cash position as a core function, with dedicated cash flow forecasting and analysis reporting — the same capability the platform highlights specifically for service businesses managing irregular income."
+  icon: chart
+  link: /applets/cashbook-applet/
+
+multi-outlet-performance-view:
+  name: "Multi-outlet performance view"
+  desc: "The Multi-Store Chain setup consolidates reporting and promotions across locations, with a dedicated POS Reports applet built specifically to compare performance store to store."
+  icon: warehouse
+  link: /modules/pos/
+
+mobile-access-owners:
+  name: "Mobile access"
+  desc: "Core CRM and HR functions run natively on iOS, Android, and as a progressive web app with offline capability — so oversight doesn't stop at the office door."
+  icon: mobile
+  link: /modules/crm/
+
+automated-bank-reconciliation:
+  name: "Automated bank reconciliation"
+  desc: "Bank statement reconciliation runs automatically against daily statement imports rather than a manual monthly match — Cashbook is built around this as a primary function, not an occasional utility."
+  icon: sync
+  link: /applets/cashbook-applet/
+
+einvoice-lhdn-submission:
+  name: "E-invoice/LHDN submission"
+  desc: "Invoices submit directly to LHDN via API integration with real-time validation, automatic retry on failures, and bulk processing — timed against Malaysia's phased MyInvois mandate (turnover >RM100M from Aug 2024, >RM25M from Jan 2025, all businesses by July 2025)."
+  icon: invoice
+  badge: "PEPPOL"
+  link: /e-invoice-peppol/
+
+multi-entity-consolidation:
+  name: "Multi-entity consolidation"
+  desc: "Consolidated reporting across entities is a named Financial Accounting capability, with a dedicated Consolidation Processing applet and organization-level parent-subsidiary structure feeding it."
+  icon: layers
+  link: /modules/financial-accounting/
+
+audit-trail-every-transaction:
+  name: "Audit trail on every transaction"
+  desc: "Every transaction carries a complete audit trail by default, layered with role-based access and multi-level approval workflows — activity logging and audit retention are configurable up to 7 years."
+  icon: folder
+  link: /modules/financial-accounting/
+
+live-inventory-aware-quoting:
+  name: "Live inventory-aware quoting"
+  desc: "Quote generation in CRM draws on real-time stock levels tracked live across every location, so a quote reflects what's actually available rather than a stale snapshot."
+  icon: receipt
+  link: /modules/crm/
+
+sales-pipeline-automation:
+  name: "Sales pipeline automation"
+  desc: "Deals move through a Kanban-style visual pipeline with configurable stages and probability weighting (Prospecting 10% through Closed Won 100%), triggering workflow automation on stage changes rather than requiring manual follow-up tracking."
+  icon: funnel
+  link: /modules/crm/
+
+order-to-delivery-tracking:
+  name: "Order-to-delivery tracking"
+  desc: "Orders move through a defined stock issue process — reservation, pick list, delivery, stock update — with delivery orders tracking vehicle and transport company details, not just an order status flag."
+  icon: truck
+  link: /modules/inventory/
+
+commission-tracking:
+  name: "Commission tracking"
+  desc: "Sales compensation calculates automatically from the same deal data in the pipeline, with commission structure (e.g. 3% of sales) stored directly on the employee's compensation record rather than tracked in a separate spreadsheet."
+  icon: chart
+  link: /modules/crm/
+
+automated-payroll-statutory-filing:
+  name: "Automated payroll & statutory filing"
+  desc: "Payroll runs through a defined cycle — time & attendance, calculation, approval, payment, reporting — with income tax and statutory deductions (EPF, SOCSO) calculated automatically at the calculation step, not reconciled afterward."
+  icon: invoice
+  link: /modules/hr-payroll/
+
+leave-claims-workflows:
+  name: "Leave & claims workflows"
+  desc: "Leave requests follow a defined approval flow — request, manager approval, leave deduction, payroll impact, record update — and expense claims/reimbursements are tracked in the same benefits record, not a separate system."
+  icon: gear
+  link: /modules/hr-payroll/
+
+time-attendance-tracking:
+  name: "Time & attendance tracking"
+  desc: "Time capture supports biometric, mobile, and web methods together, with flexible shift patterns, overtime calculation, and attendance analytics surfacing patterns rather than just raw clock-in data."
+  icon: clock
+  link: /modules/hr-payroll/
+
+employee-self-service-portal:
+  name: "Employee self-service portal"
+  desc: "Employees update personal info and submit leave requests directly, managers get a dashboard for team approvals, and payslips/certificates/policies are available on demand — all through the same mobile app used for time tracking."
+  icon: mobile
+  link: /modules/hr-payroll/
+
+# ── By Industry ──────────────────────────────────────────────────
+
+offline-capable-pos:
+  name: "Offline-capable POS"
+  desc: "A dedicated offline sync applet keeps selling through connectivity drops — storing transactions locally, then auto-syncing with conflict resolution and data-integrity checks once you're back online. Built specifically for markets, fairs, mobile sales units, and other poor-connectivity locations, not just as a fallback mode."
+  icon: cloud
+  link: /modules/pos/
+
+unified-cross-channel-inventory:
+  name: "Unified cross-channel inventory"
+  desc: "Inventory stays centralized across every channel, with unified order processing regardless of where the order came from and stock allocation rules by channel priority. POS and e-commerce share the same stock picture, right down to click-and-collect orders."
+  icon: warehouse
+  link: /modules/ecommerce/
+
+loyalty-membership:
+  name: "Loyalty & membership"
+  desc: "Configure named point currencies with their own earning and redemption rates — a flat $1 = 1 point model or tiered rates like 1.5x for Silver up to 3x for Platinum. Points post automatically at checkout, no separate loyalty system to reconcile."
+  icon: star
+  link: /applets/membership-points-currency/
+
+multi-outlet-management:
+  name: "Multi-outlet management"
+  desc: "The Multi-Store Chain setup covers retail chains, franchises, and mall outlets with centralized inventory, store-to-store transfers, and chain-wide promotions. Each branch can still run its own pricing, settlement methods, and marketplace connections — East vs. West Malaysia pricing is a documented example."
+  icon: building
+  link: /modules/pos/
+
+real-time-stock-sync:
+  name: "Real-time stock sync"
+  desc: "Stock updates and depletes in real time across POS and e-commerce, with low-stock alerts and inter-store transfers built in — plus buffer stock management and pre-order handling on the e-commerce side so you don't oversell what's already gone."
+  icon: sync
+  link: /modules/pos/
+
+table-order-management:
+  name: "Table & order management"
+  icon: calendar
+
+kitchen-display-system:
+  name: "Kitchen display system (KDS)"
+  icon: gear
+
+grabfood-delivery-integrations:
+  name: "GrabFood/delivery integrations"
+  icon: truck
+
+multi-outlet-menu-pricing:
+  name: "Multi-outlet menu & pricing"
+  desc: "Configure promotions and pricing sets by segment, customer, entity, or period from one Pricebook, then let individual branches run their own pricing scheme on top — documented examples include separate pricing by region within the same company."
+  icon: tag
+  link: /applets/pricebook-applet/
+
+real-time-sales-reporting:
+  name: "Real-time sales reporting"
+  desc: "Daily sales, cashier performance, product sales analysis, and payment-method breakdowns are all standard reports — with store comparison reporting built specifically to put outlets side by side."
+  icon: chart
+  link: /modules/pos/
+
+multi-warehouse-management:
+  name: "Multi-warehouse management"
+  desc: "Zone management, slotting optimization, and wave planning coordinate picking and put-away across facilities, with cross-docking support (flow-through, merge-in-transit, break-bulk) for distribution centers and 3PL operations specifically."
+  icon: warehouse
+  link: /modules/inventory-warehouse/
+
+delivery-route-optimization:
+  name: "Delivery route optimization"
+  desc: "Customer records carry GPS coordinates specifically for route optimization, alongside delivery zones, preferences, and service-territory assignment — so routing isn't a separate manual planning step."
+  icon: truck
+  link: /applets/customer-maintenance-applet/
+
+b2b-customer-portal:
+  name: "B2B customer portal"
+  desc: "A dedicated B2B portal applet gives wholesale customers customer-specific pricing, bulk order processing, credit limit management, and custom catalogs — self-service ordering, not phone-and-email order taking."
+  icon: users
+  link: /modules/ecommerce/
+
+flexible-pricing-tiers:
+  name: "Flexible pricing tiers"
+  desc: "Volume-based pricing tiers and customer-specific pricing support multiple selling prices per product — the documented use case is exactly this: a B2B distributor running different price breaks across multiple vendor relationships."
+  icon: tag
+  link: /applets/inv-item-maintenance-applet/
+
+inventory-analytics:
+  name: "Inventory analytics"
+  desc: "Stock analysis covers reorder points and safety stock, movement analysis (fast/slow-moving, turnover rate), and valuation by location or method — with ABC classification and Economic Order Quantity calculations built into inventory optimization."
+  icon: chart
+  link: /modules/inventory/
+
+bill-of-materials-bom:
+  name: "Bill of Materials (BOM)"
+  desc: "BOMs carry full versioning with engineering change management, and costing rolls up both standard and actual cost — so a BOM revision doesn't silently break your cost baseline."
+  icon: layers
+  link: /modules/manufacturing/
+
+production-planning-scheduling:
+  name: "Production planning & scheduling"
+  desc: "A demand-driven Master Production Schedule feeds automated Material Requirements Planning, with shop-floor scheduling running against finite or infinite capacity per work center — not a flat, capacity-blind schedule."
+  icon: calendar
+  link: /modules/manufacturing/
+
+shop-floor-control:
+  name: "Shop floor control"
+  desc: "Production runs through a defined flow — work order release, material issue, production, quality control, order completion — with real-time monitoring at each step, including resource assignment and labor tracking."
+  icon: gear
+  link: /modules/manufacturing/
+
+quality-inspection:
+  name: "Quality inspection"
+  desc: "Quality control plans are operation-specific, with real-time in-process inspection checkpoints and statistical process control feeding non-conformance management. Compliance frameworks are built in by name — ISO 9001, AS9100 for aerospace, TS 16949 for automotive."
+  icon: shield
+  badge: "ISO 9001"
+  link: /modules/manufacturing/
+
+full-mrp-integration:
+  name: "Full MRP integration"
+  desc: "Material Requirements Planning and Demand-Driven MRP run alongside constraint-based Advanced Planning and Scheduling, following the full chain from sales forecast through master schedule, MRP run, capacity planning, to production schedule."
+  icon: sync
+  link: /modules/manufacturing/
+
+multi-project-tracking:
+  name: "Multi-project tracking"
+  desc: "Multi-phase projects get a full Work Breakdown Structure, Gantt charts, and critical-path analysis, with portfolio analytics rolling individual projects up into a cross-project view — fixed price, time & materials, and retainer projects all supported side by side."
+  icon: folder
+  link: /modules/projects/
+
+subcontractor-management:
+  name: "Subcontractor management"
+  desc: "Supplier records distinguish subcontractors from material and equipment suppliers directly, with project-specific supplier assignments and compliance/safety certification tracking — a documented construction-specific use case, not a generic vendor list."
+  icon: users
+  link: /applets/supplier-maintenance-applet/
+
+progress-billing:
+  name: "Progress billing"
+  desc: "A dedicated project cost tracking applet handles progress billing alongside cost capture, time and expense allocation, and project profitability — billing tied to actual project progress, not a flat milestone calendar."
+  icon: invoice
+  link: /modules/accounting/
+
+equipment-asset-tracking:
+  name: "Equipment/asset tracking"
+  desc: "Equipment rental suppliers are tracked as their own supplier type, and general equipment tracking is documented as a common use case for service-based businesses — though there's no dedicated fixed-asset register yet, so treat this as supplier- and inventory-level tracking rather than a full asset ledger."
+  icon: wrench
+  link: /applets/supplier-maintenance-applet/
+
+job-costing-profitability:
+  name: "Job costing & profitability"
+  desc: "Project cost capture, resource utilization, and profitability all roll up per project, with budget monitoring and revenue recognition handled as part of the same project financials — not reconciled separately at month-end."
+  icon: chart
+  link: /modules/projects/
+
+vin-tracking:
+  name: "VIN tracking"
+  icon: barcode
+
+workshop-service-scheduling:
+  name: "Workshop & service scheduling"
+  desc: "Skills-based resource scheduling matches technicians to jobs with schedule optimization, and field service management adds work order dispatch, mobile technician apps, and GPS-based route tracking. This runs on the platform's general field-service tooling rather than an automotive-specific workshop module."
+  icon: calendar
+  link: /modules/service-industry/
+
+parts-catalog-management:
+  name: "Parts catalog management"
+  desc: "Products carry multiple codes (SKU, UPC, manufacturer code) plus technical specification fields and vendor catalog integration — the same item-master tooling used for any parts catalog, not an automotive-specific parts database."
+  icon: folder
+  link: /applets/inv-item-maintenance-applet/
+
+full-service-history:
+  name: "Full service history"
+  desc: "Customer records link directly to service history and contracts as part of the standard customer-management integration."
+  icon: clock
+  link: /applets/customer-maintenance-applet/
+
+marketplace-integrations:
+  name: "Marketplace integrations"
+  desc: "Real-time inventory sync and order consolidation connect out to Lazada, Shopee, and Shopify by default, with Amazon and eBay available through the commerce marketplace applet."
+  icon: link
+  link: /modules/ecommerce/
+
+patient-record-management:
+  name: "Patient record management"
+  icon: folder
+
+appointment-scheduling-reminders:
+  name: "Appointment scheduling & reminders"
+  desc: "Appointment booking, prescription refill requests, and health reminders run through the platform's omnichannel messaging applet, with calendar integration and priority routing for urgent cases — general-purpose messaging automation applied to a healthcare workflow, not a dedicated clinic scheduling system."
+  icon: calendar
+  link: /applets/unified-contact-center-ucc-applet/
+
+medical-billing:
+  name: "Medical billing"
+  desc: "Billable service items — consultations, procedures, diagnostics, medical reports — are configured through the platform's general service-item billing tooling, applied to a documented medical-practice use case rather than built specifically around insurance claim codes."
+  icon: invoice
+  link: /applets/doc-item-maintenance-applet/
+
+pharmacy-inventory:
+  name: "Pharmacy inventory"
+  icon: warehouse
+
+hipaa-ready-infrastructure:
+  name: "HIPAA-ready infrastructure"
+  icon: shield
+
+serial-warranty-tracking:
+  name: "Serial number & warranty tracking"
+  desc: "Every item can be tracked by serial number through its full lifecycle, with batch/lot management and genealogy (where-used, where-from) supporting recall management — warranty terms are captured directly on the product record."
+  icon: barcode
+  link: /modules/inventory/
+
+rma-repair-workflow:
+  name: "RMA & repair workflow"
+  desc: "Returns processing supports full repair and refurbishment workflows, with reverse logistics handling the warranty-return side — a streamlined RMA process is a named capability for retail and e-commerce specifically."
+  icon: wrench
+  link: /modules/inventory-warehouse/
+
+supplier-price-list-management:
+  name: "Supplier price list management"
+  desc: "Supplier records carry volume pricing and discount structures, purchase agreements, and credit terms — at a scale documented up to 500,000 supplier records, with volume-based pricing tiers configurable per product-supplier relationship."
+  icon: tag
+  link: /applets/supplier-maintenance-applet/
+
+bundle-kitting-support:
+  name: "Bundle & kitting support"
+  desc: "Kit and bundle products are a first-class product configuration, not a workaround — complex assembly operations and product bundling are both explicitly supported for customization and value-added packaging."
+  icon: layers
+  link: /modules/inventory-warehouse/
+
+multi-branch-inventory:
+  name: "Multi-branch inventory"
+  desc: "Centralized control spans multiple warehouses with branch-wise stock allocation, inter-location transfers, and zone/bin-level tracking — each branch can still carry its own location-specific pricing."
+  icon: building
+  link: /modules/inventory/
+
+centralized-pricing-promotions:
+  name: "Centralized pricing & promotions"
+  desc: "Chain-wide promotions are a named feature of the Multi-Store Chain setup, with the underlying Pricebook configuring promotions and campaigns by segment, customer, entity, or period across every outlet at once."
+  icon: tag
+  link: /modules/pos/
+
+per-outlet-performance-reporting:
+  name: "Per-outlet performance reporting"
+  desc: "Store comparison and cashier performance reports put outlets side by side directly, alongside product sales analysis and payment-method breakdowns — built for comparing locations, not just reporting each one in isolation."
+  icon: chart
+  link: /modules/pos/
+
+franchisee-royalty-tracking:
+  name: "Franchisee royalty tracking"
+  icon: receipt
+
+multi-outlet-stock-transfers:
+  name: "Multi-outlet stock transfers"
+  desc: "Store-to-store transfers are standard within a chain, and cross-brand inventory transfers are a documented capability for multi-brand operations sharing the same distribution infrastructure."
+  icon: truck
+  link: /applets/t2t-admin-applet/
+
+consolidated-reporting-franchise:
+  name: "Consolidated reporting"
+  desc: "Multi-entity financial consolidation and cross-tenant performance analytics scale to 100 consolidation hierarchies, generating enterprise-wide reports in minutes — with franchisee performance monitoring named as a specific franchise-operations use case."
+  icon: globe
+  badge: "100 Hierarchies"
+  link: /applets/t2t-admin-applet/
+
+supplier-stock-sync:
+  name: "Supplier stock sync"
+  desc: "Real-time product availability syncs across your supplier network through direct supplier API integration, with a dedicated supplier network management applet scoring suppliers on performance as part of the sync."
+  icon: sync
+  link: /modules/drop-shipping/
+
+automated-order-routing:
+  name: "Automated order routing"
+  desc: "Orders route to the optimal supplier automatically — AI-powered selection weighs cost, location, availability, and performance, and a single order can even split across multiple suppliers automatically when needed."
+  icon: funnel
+  badge: "AI-Powered"
+  link: /modules/drop-shipping/
+
+marketplace-payout-reconciliation:
+  name: "Marketplace payout reconciliation"
+  icon: invoice
+
+multi-marketplace-listing-management:
+  name: "Multi-marketplace listing management"
+  desc: "A dedicated listing view tracks items synced from your internal catalog against what's actually live on each marketplace, with EcomSync connecting out to Lazada, Shopee, and Shopify to keep listings current."
+  icon: link
+  link: /modules/ecommerce/
+
+dropship-specific-reporting:
+  name: "Dropship-specific reporting"
+  desc: "Purpose-built KPIs track what actually matters for drop shipping — order processing time, fulfillment accuracy, on-time delivery rate, a composite supplier reliability score, gross margin per order, and return rate."
+  icon: chart
+  link: /modules/drop-shipping/
+
+# ── Switch to BigLedger & Partners ──────────────────────────────
+# No dedicated wiki documentation exists for competitor-migration
+# tooling or the partner program (confirmed by doc search) — these
+# are BigLedger services, not product modules, so there's no
+# /modules/ or /applets/ page to ground a description in. Left as
+# bare label + icon rather than invented copy. Flagged for whoever
+# owns onboarding/partnerships to write real source content.
+
+data-migration-assistance:
+  name: "Data migration assistance"
+  icon: sync
+
+feature-comparison-autocount:
+  name: "Feature comparison vs AutoCount"
+  icon: chart
+
+guided-onboarding:
+  name: "Guided onboarding"
+  icon: users
+
+parallel-run-support:
+  name: "Parallel-run support"
+  icon: layers
+
+historical-data-migration:
+  name: "Historical data migration"
+  icon: database
+
+feature-comparison-sql-account:
+  name: "Feature comparison vs SQL Account"
+  icon: chart
+
+local-support-transition:
+  name: "Local support during transition"
+  icon: users
+
+guided-data-import-templates:
+  name: "Guided data import templates"
+  icon: folder
+
+basic-to-advanced-module-path:
+  name: "Basic-to-advanced module path"
+  icon: layers
+
+training-onboarding-support:
+  name: "Training & onboarding support"
+  icon: users
+
+data-migration-quickbooks:
+  name: "Data migration from QuickBooks"
+  icon: sync
+
+side-by-side-feature-comparison:
+  name: "Side-by-side feature comparison"
+  icon: chart
+
+combined-finance-operations-modules:
+  name: "Combined finance + operations modules"
+  icon: layers
+
+dedicated-onboarding-specialist:
+  name: "Dedicated onboarding specialist"
+  icon: users
+
+data-migration-services:
+  name: "Data migration services"
+  icon: sync
+
+configuration-training:
+  name: "Configuration & training"
+  icon: gear
+
+post-launch-support:
+  name: "Post-launch support"
+  icon: bell
+
+implementation-reseller-partnerships:
+  name: "Implementation & reseller partnerships"
+  icon: users
+
+referral-commissions:
+  name: "Referral commissions"
+  icon: chart
+
+technology-api-integrations:
+  name: "Technology & API integrations"
+  desc: "The applet marketplace already supports public and private catalogs for third-party applet distribution, and the webhook applet provides real, general-purpose API integration — event-driven notifications any partner system can build against."
+  icon: link
+  link: /applets/webhook-applet/
+
+dedicated-partner-support:
+  name: "Dedicated partner support"
+  icon: users
+
+co-marketing-opportunities:
+  name: "Co-marketing opportunities"
+  icon: star

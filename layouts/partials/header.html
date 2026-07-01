@@ -1,16 +1,137 @@
-<header class="corporate-header">
-  <div class="container">
-    <nav class="nav">
-      <div class="nav-logo">
-        <a href="{{ .Site.BaseURL }}">
-          <img src="{{ "images/bigledger-logo-cropped.png" | relURL }}" alt="{{ .Site.Title }}" height="40">
-        </a>
-      </div>
-      <div class="nav-menu">
+<header class="bl-header">
+  <div class="bl-header-inner">
+    <nav class="bl-nav">
+      <a href="{{ .Site.BaseURL }}" class="bl-nav-logo" aria-label="{{ .Site.Title }}">
+        <img src="{{ "images/bigledger-logo-cropped.png" | relURL }}" alt="{{ .Site.Title }}" height="36" class="bl-logo-img">
+      </a>
+
+      <div class="bl-nav-links">
         {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}" class="nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">{{ .Name }}</a>
+        {{ if eq .Name "Home" }}
+          {{/* logo already links home */}}
+        {{ else if eq .Name "Solutions" }}
+          <div class="bl-nav-item bl-has-mega" data-mega="solutions">
+            <button type="button" class="bl-nav-link bl-nav-link-btn" aria-haspopup="true" aria-expanded="false">
+              Solutions
+              <svg class="bl-nav-caret" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+            </button>
+
+            <div class="bl-mega-panel" role="menu">
+              <div class="bl-mega-inner">
+                {{ $data := $.Site.Data.solutions_menu }}
+                {{ range $data.columns }}
+                {{ $col := . }}
+                <div class="bl-mega-col{{ if $col.wide }} bl-mega-col-wide{{ end }}">
+                  <span class="bl-mega-label">{{ $col.label }}</span>
+                  <ul class="bl-mega-list{{ if $col.wide }} bl-mega-list-grid{{ end }}">
+                    {{ range $col.links }}
+                    <li>
+                      <a href="{{ .url | relLangURL }}" class="bl-mega-link{{ if $col.wide }} bl-mega-link-icon{{ end }}">
+                        {{ if .icon }}<span class="bl-mega-link-ico">{{ partial "feat-icon.html" .icon }}</span>{{ end }}
+                        {{ .name }}
+                      </a>
+                    </li>
+                    {{ end }}
+                  </ul>
+                </div>
+                {{ end }}
+              </div>
+              <div class="bl-mega-footer">
+                <div class="bl-mega-footer-left">
+                  <a href="{{ $data.overview.url | relLangURL }}" class="bl-mega-overview">
+                    {{ $data.overview.label }}
+                    <span class="bl-mega-overview-desc">{{ $data.overview.desc }}</span>
+                  </a>
+                  <a href="{{ $data.browse_all.url | relLangURL }}" class="bl-mega-browse-all">
+                    <span class="bl-mega-browse-all-icon">{{ partial "feat-icon.html" "layers" }}</span>
+                    <span class="bl-mega-browse-all-text">
+                      <span class="bl-mega-browse-all-label">{{ $data.browse_all.label }}</span>
+                      <span class="bl-mega-browse-all-desc">{{ $data.browse_all.desc }}</span>
+                    </span>
+                  </a>
+                </div>
+                <a href="/contact" class="bl-btn-primary bl-mega-cta">Request a Demo</a>
+              </div>
+            </div>
+          </div>
+        {{ else }}
+          <a href="{{ .URL }}" class="bl-nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">{{ .Name }}</a>
         {{ end }}
+        {{ end }}
+      </div>
+
+      <div class="bl-nav-actions">
+        {{ if gt (len .Site.Languages) 1 }}
+        {{ $current := . }}
+        <div class="bl-lang-switch" data-lang-switch>
+          <button type="button" class="bl-lang-btn" aria-haspopup="true" aria-expanded="false">
+            <svg class="bl-lang-globe" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="10" cy="10" r="8"/><path d="M2 10h16M10 2c2.2 2.2 3.5 5.2 3.5 8s-1.3 5.8-3.5 8c-2.2-2.2-3.5-5.2-3.5-8s1.3-5.8 3.5-8z"/></svg>
+            <span class="bl-lang-current">{{ .Language.Lang | upper }}</span>
+            <svg class="bl-nav-caret" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+          </button>
+          <div class="bl-lang-menu" role="menu">
+            {{ range .Sites }}
+            {{ $siteLang := .Language.Lang }}
+            {{ $target := .Home.Permalink }}
+            {{ range $current.Translations }}
+              {{ if eq .Language.Lang $siteLang }}{{ $target = .Permalink }}{{ end }}
+            {{ end }}
+            {{ if eq $siteLang $current.Language.Lang }}{{ $target = $current.Permalink }}{{ end }}
+            <a href="{{ $target }}" class="bl-lang-option{{ if eq $siteLang $current.Language.Lang }} active{{ end }}">
+              {{ .Language.LanguageName }}
+              {{ if eq $siteLang $current.Language.Lang }}<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8.5l3 3 7-7"/></svg>{{ end }}
+            </a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+        <a href="/contact" class="bl-btn-nav">Request Demo</a>
+        <button type="button" class="bl-nav-burger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
       </div>
     </nav>
   </div>
+
+  <!-- Mobile nav drawer -->
+  <div class="bl-mobile-drawer" aria-hidden="true">
+    <div class="bl-mobile-drawer-scroll">
+      {{ range .Site.Menus.main }}
+      {{ if eq .Name "Home" }}
+      {{ else if eq .Name "Solutions" }}
+        <div class="bl-mobile-accordion">
+          <button type="button" class="bl-mobile-accordion-trigger" aria-expanded="false">
+            Solutions
+            <svg class="bl-nav-caret" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+          </button>
+          <div class="bl-mobile-accordion-panel">
+            <a href="{{ $.Site.Data.solutions_menu.overview.url | relLangURL }}" class="bl-mobile-overview-link">{{ $.Site.Data.solutions_menu.overview.label }} →</a>
+            {{ range $.Site.Data.solutions_menu.columns }}
+            <div class="bl-mobile-group">
+              <span class="bl-mobile-group-label">{{ .label }}</span>
+              {{ range .links }}
+              <a href="{{ .url | relLangURL }}" class="bl-mobile-group-link">
+                {{ if .icon }}<span class="bl-mobile-link-ico">{{ partial "feat-icon.html" .icon }}</span>{{ end }}
+                {{ .name }}
+              </a>
+              {{ end }}
+            </div>
+            {{ end }}
+            <a href="{{ $.Site.Data.solutions_menu.browse_all.url | relLangURL }}" class="bl-mobile-browse-all">
+              <span class="bl-mega-browse-all-icon">{{ partial "feat-icon.html" "layers" }}</span>
+              <span class="bl-mega-browse-all-text">
+                <span class="bl-mega-browse-all-label">{{ $.Site.Data.solutions_menu.browse_all.label }}</span>
+                <span class="bl-mega-browse-all-desc">{{ $.Site.Data.solutions_menu.browse_all.desc }}</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      {{ else }}
+        <a href="{{ .URL }}" class="bl-mobile-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">{{ .Name }}</a>
+      {{ end }}
+      {{ end }}
+      <a href="/contact" class="bl-btn-primary bl-mobile-cta">Request Demo</a>
+    </div>
+  </div>
+  <div class="bl-mobile-drawer-backdrop"></div>
 </header>

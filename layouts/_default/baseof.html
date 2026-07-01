@@ -1,35 +1,80 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang }}" dir="{{ .Site.Language.LanguageDirection | default "ltr" }}">
+<html lang="{{ .Site.Language.Lang }}" dir="{{ .Site.Language.LanguageDirection | default "ltr" }}" class="dark" style="color-scheme:dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ .Description | default .Site.Params.description }}">
 
-  <!-- Favicon -->
   <link rel="icon" type="image/png" href="{{ "images/bigledger-logo-cropped.png" | relURL }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ range .AllTranslations }}
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+  {{ if eq .Language.Lang "en" }}<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">{{ end }}
+  {{ end }}
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
 
-  <!-- Open Graph -->
+  {{/* Docs-wiki pages (content/en/modules/, /applets/, /user-guide/, etc.) render
+       through Hextra's sidebar/TOC layouts and need the theme's own compiled
+       Tailwind bundle (hx:-prefixed utility classes) to not look broken.
+       Marketing pages (flat content/en/*.md, no section) skip this entirely so
+       Hextra's base styles never touch the custom bl- design system. */}}
+  {{ if ne .Section "" }}
+    {{ $variablesCss := resources.Get "css/variables.css" | resources.ExecuteAsTemplate "css/variables.css" . }}
+    {{ $mainCss := resources.Get "css/compiled/main.css" }}
+    {{ if hugo.IsProduction }}
+      {{ $hxStyles := slice $variablesCss $mainCss | resources.Concat "css/hextra-compiled.css" | minify | fingerprint }}
+      <link rel="stylesheet" href="{{ $hxStyles.RelPermalink }}" integrity="{{ $hxStyles.Data.Integrity }}">
+    {{ else }}
+      <link rel="stylesheet" href="{{ $variablesCss.RelPermalink }}">
+      <link rel="stylesheet" href="{{ $mainCss.RelPermalink }}">
+    {{ end }}
+  {{ end }}
+
+  {{ $ogImage := .Params.image | default "images/bigledger-logo.png" | absURL }}
   <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
   <meta property="og:description" content="{{ .Description | default .Site.Params.description }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:image" content="{{ $ogImage }}">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:locale" content="{{ .Site.Language.LanguageCode }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+  <meta name="twitter:description" content="{{ .Description | default .Site.Params.description }}">
+  <meta name="twitter:image" content="{{ $ogImage }}">
+
+  {{ if .IsHome }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "BigLedger",
+    "url": "{{ absURL "" }}",
+    "logo": "{{ "images/bigledger-logo.png" | absURL }}",
+    "description": "{{ .Site.Params.description }}"
+  }
+  </script>
+  {{ end }}
 </head>
 <body>
+  <canvas id="bl-network-bg" class="bl-network-bg" aria-hidden="true"></canvas>
   {{ block "header" . }}{{ partial "header.html" . }}{{ end }}
-
   <main>
     {{ block "main" . }}{{ end }}
   </main>
-
   {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
+  <script src="{{ "js/main.js" | relURL }}" defer></script>
+  {{ if ne .Section "" }}
+    {{/* Sidebar collapse, TOC scroll-spy, code copy buttons, search — all scoped
+         to the Hextra docs layout, which our custom main.js knows nothing about. */}}
+    {{ partial "scripts.html" . }}
+  {{ end }}
 </body>
 </html>

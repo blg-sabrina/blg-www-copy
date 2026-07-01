@@ -1,0 +1,31 @@
+# BigLedger
+
+> Cloud-native, AI-powered Business Operating System for Southeast Asia. 100+ composable modules covering financial management, point of sale, e-commerce, inventory, HR/payroll, CRM, manufacturing, and Malaysia e-invoice/PEPPOL compliance.
+
+BigLedger is the only cloud ERP in Southeast Asia with native MDEC PEPPOL accreditation and direct LHDN MyInvois API integration. It is ISO 27001 certified and is a fully accredited PEPPOL Service Provider under MDEC's National E-Invoicing Initiative.
+
+## Key facts
+
+- 100+ composable business modules, deployable independently or as a unified platform
+- MDEC PEPPOL accredited Access Point (4-corner send and receive)
+- Direct LHDN MyInvois API integration for Malaysia e-invoice compliance
+- ISO 27001 certified infrastructure
+- Industries served: retail & e-commerce, manufacturing, wholesale & distribution, services & professional, construction & engineering, automotive, healthcare, plus custom industry configurations on request
+- Headquartered serving businesses across Malaysia and Southeast Asia
+
+## Pages
+
+- [Homepage](https://www.bigledger.com/): platform overview, modules, AI capabilities
+- [Solutions](https://www.bigledger.com/solutions/): industry-specific solutions
+- [Pricing](https://www.bigledger.com/pricing/): pricing plans
+- [E-Invoice & PEPPOL](https://www.bigledger.com/e-invoice-peppol/): Malaysia e-invoice compliance details
+- [MDEC E-Invoice Promotion](https://www.bigledger.com/mdec-e-invoice-promotion/): free e-invoicing offer for Malaysian SMEs under the MDEC National E-Invoicing Initiative
+- [About](https://www.bigledger.com/about/): company information
+- [Contact](https://www.bigledger.com/contact/): request a demo or get in touch
+- [Developers](https://www.bigledger.com/developers/): API and integration documentation
+- [Documentation](https://wiki.bigledger.com/): full applet and module reference
+
+## Contact
+
+- Demo requests / sales: sales@bigledger.com
+- Support: support@bigledger.com

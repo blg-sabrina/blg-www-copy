@@ -1,9 +1,36 @@
 {{ define "main" }}
+{{ $slug := .File.BaseFileName }}
+{{ if eq $slug "about" }}
+  {{ partial "page-about.html" . }}
+{{ else if eq $slug "solutions" }}
+  {{ partial "page-solutions.html" . }}
+{{ else if eq $slug "pricing" }}
+  {{ partial "page-pricing.html" . }}
+{{ else if eq $slug "contact" }}
+  {{ partial "page-contact.html" . }}
+{{ else if eq $slug "developers" }}
+  {{ partial "page-developers.html" . }}
+{{ else if eq $slug "preview-datalake-1" }}
+  {{ partial "page-preview-datalake-1.html" . }}
+{{ else if eq $slug "preview-datalake-2" }}
+  {{ partial "page-preview-datalake-2.html" . }}
+{{ else if eq $slug "preview-datalake-3" }}
+  {{ partial "page-preview-datalake-3.html" . }}
+{{ else if eq $slug "preview-datalake-4" }}
+  {{ partial "page-preview-datalake-4.html" . }}
+{{ else if eq $slug "preview-modules-1" }}
+  {{ partial "page-preview-modules-1.html" . }}
+{{ else if eq $slug "preview-modules-2" }}
+  {{ partial "page-preview-modules-2.html" . }}
+{{ else if eq $slug "preview-modules-3" }}
+  {{ partial "page-preview-modules-3.html" . }}
+{{ else if eq $slug "preview-modules-4" }}
+  {{ partial "page-preview-modules-4.html" . }}
+{{ else }}
 <article class="corporate-page">
   <div class="container">
-    <div class="page-content">
-      {{ .Content }}
-    </div>
+    <div class="page-content content">{{ .Content }}</div>
   </div>
 </article>
+{{ end }}
 {{ end }}

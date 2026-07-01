@@ -1,0 +1,127 @@
+overview:
+  label: "Solutions Overview"
+  desc: "See the full picture — all industries, modules, and sizes in one map."
+  url: "/solutions/"
+
+browse_all:
+  label: "Browse the Full Catalog"
+  desc: "100+ modules & applets, all reusable across your stack"
+  url: "/applets/"
+
+columns:
+  - label: "By Industry"
+    links:
+      - name: "Retail & E-Commerce"
+        url: "/solutions/retail-ecommerce/"
+      - name: "Food & Beverage"
+        url: "/solutions/food-beverage/"
+      - name: "Wholesale & Distribution"
+        url: "/solutions/wholesale-distribution/"
+      - name: "Manufacturing"
+        url: "/solutions/manufacturing/"
+      - name: "Services & Professional"
+        url: "/solutions/services-professional/"
+      - name: "Construction"
+        url: "/solutions/construction/"
+      - name: "Automotive"
+        url: "/solutions/automotive/"
+      - name: "Healthcare"
+        url: "/solutions/healthcare/"
+      - name: "IT & Consumer Electronics"
+        url: "/solutions/it-consumer-electronics/"
+      - name: "Franchise"
+        url: "/solutions/franchise/"
+      - name: "Drop Shipping"
+        url: "/solutions/drop-shipping/"
+
+  - label: "By Business Size"
+    links:
+      - name: "Startups"
+        url: "/solutions/startups/"
+      - name: "SME"
+        url: "/solutions/sme/"
+      - name: "Mid-Market"
+        url: "/solutions/mid-market/"
+      - name: "Multi-Entity"
+        url: "/solutions/multi-entity/"
+      - name: "Enterprise"
+        url: "/solutions/enterprise/"
+
+  - label: "By Role"
+    links:
+      - name: "Business Owners"
+        url: "/solutions/business-owners/"
+      - name: "Finance Teams"
+        url: "/solutions/finance-teams/"
+      - name: "Sales Ops"
+        url: "/solutions/sales-ops/"
+      - name: "HR Teams"
+        url: "/solutions/hr-teams/"
+      - name: "Developers"
+        url: "/developers/"
+      - name: "Partners"
+        url: "/partners/"
+
+  - label: "Compliance & Trust"
+    links:
+      - name: "E-Invoice & PEPPOL"
+        url: "/e-invoice-peppol/"
+      - name: "MDEC E-Invoice Promotion"
+        url: "/mdec-e-invoice-promotion/"
+      - name: "SST, EPF & SOCSO"
+        url: "/compliance/sst-epf-socso/"
+      - name: "Security"
+        url: "/security/"
+
+  - label: "Switch to BigLedger"
+    links:
+      - name: "From AutoCount"
+        url: "/switch/autocount/"
+      - name: "From SQL Account"
+        url: "/switch/sql-account/"
+      - name: "From Excel"
+        url: "/switch/excel/"
+      - name: "From QuickBooks"
+        url: "/switch/quickbooks/"
+      - name: "Onboarding"
+        url: "/switch/onboarding/"
+
+  - label: "By Function"
+    wide: true
+    links:
+      - name: "Financial Accounting"
+        url: "/modules/financial-accounting/"
+        icon: invoice
+      - name: "E-Invoice & PEPPOL"
+        url: "/e-invoice-peppol/"
+        icon: receipt
+      - name: "Sales & CRM"
+        url: "/modules/sales-crm/"
+        icon: funnel
+      - name: "Point of Sale"
+        url: "/modules/pos/"
+        icon: tag
+      - name: "E-Commerce"
+        url: "/modules/ecommerce/"
+        icon: cloud
+      - name: "Inventory & Warehouse"
+        url: "/modules/inventory/"
+        icon: warehouse
+      - name: "Purchasing"
+        url: "/modules/purchasing/"
+        icon: truck
+      - name: "Manufacturing"
+        url: "/modules/manufacturing/"
+        icon: gear
+      - name: "HR & Payroll"
+        url: "/modules/hr-payroll/"
+        icon: users
+      - name: "Claims"
+        url: "/modules/claims/"
+        icon: folder
+      - name: "Membership & Loyalty"
+        url: "/modules/membership/"
+        icon: star
+      - name: "Projects"
+        url: "/modules/projects/"
+        icon: chart

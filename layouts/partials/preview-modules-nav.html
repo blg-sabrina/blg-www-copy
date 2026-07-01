@@ -1,0 +1,22 @@
+{{ $variant := . }}
+<style>
+  .pmv-nav {
+    position: sticky; top: 84px; z-index: 5;
+    display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;
+    padding: 14px 0; margin-bottom: -14px;
+  }
+  .pmv-nav a {
+    font-family: var(--fm); font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+    padding: 8px 16px; border-radius: 999px;
+    background: rgba(5,5,5,0.72); backdrop-filter: blur(12px);
+    border: 1px solid var(--bd-m); color: var(--tx-3);
+    transition: color 0.2s ease, border-color 0.2s ease;
+  }
+  .pmv-nav a:hover { color: var(--tx-1); border-color: var(--bd-c); }
+  .pmv-nav a.pmv-active { color: var(--cr-b); border-color: var(--bd-c); }
+</style>
+<div class="bl-container pmv-nav">
+  {{ range seq 1 4 }}
+    <a href="{{ printf "/preview-modules-%d/" . | relURL }}" {{ if eq . $variant }}class="pmv-active"{{ end }}>Option {{ . }}</a>
+  {{ end }}
+</div>
