@@ -279,15 +279,20 @@ body > footer {
 .bl-has-mega.bl-mega-open .bl-nav-caret { transform: rotate(180deg); }
 
 .bl-mega-panel {
-  position: absolute; top: calc(100% + 14px); left: 50%;
+  /* Fixed, not absolute: the panel must center under the full-width navbar,
+     not under the Solutions nav item, or a wide panel overflows the viewport.
+     .bl-header's backdrop-filter makes it the containing block, so top is
+     measured from the header's top edge: 68px nav height + 14px gap. */
+  position: fixed; top: 82px; left: 50%;
   transform: translateX(-50%) translateY(8px);
-  width: min(940px, 88vw);
+  width: min(96vw, 1280px);
+  box-sizing: border-box;
   background: rgba(9,9,9,0.98);
   backdrop-filter: blur(24px) saturate(180%);
   -webkit-backdrop-filter: blur(24px) saturate(180%);
   border: 1px solid var(--bd-m); border-radius: 16px;
   box-shadow: 0 24px 56px rgba(0,0,0,0.6);
-  padding: 28px 28px 20px;
+  padding: 32px 36px 26px;
   opacity: 0; visibility: hidden; pointer-events: none;
   transition: opacity 0.22s var(--ease), transform 0.22s var(--ease), visibility 0.22s;
   z-index: 1100;
@@ -296,9 +301,9 @@ body > footer {
   opacity: 1; visibility: visible; pointer-events: auto;
   transform: translateX(-50%) translateY(0);
 }
-.bl-mega-inner { display: grid; grid-template-columns: repeat(5, 1fr) 2fr; gap: 22px; }
+.bl-mega-inner { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)) 500px; gap: 24px; }
 .bl-mega-col { min-width: 0; }
-.bl-mega-col-wide { padding-left: 22px; border-left: 1px solid var(--bd); }
+.bl-mega-col-wide { padding-left: 24px; border-left: 1px solid var(--bd); }
 .bl-mega-label {
   display: block; font-family: var(--fm); font-size: 9.5px; font-weight: 700;
   letter-spacing: 0.1em; text-transform: uppercase; color: var(--tx-3);
@@ -312,14 +317,29 @@ body > footer {
 }
 .bl-mega-link:hover { color: var(--tx-1); background: var(--gl2); }
 
-/* "By Function" wide column: two icon-led sub-columns instead of one long list */
+/* "By Function" wide column: a 2-col grid of bordered tiles linking into
+   the applet catalog, with an applet-count sublabel when one applies. */
 .bl-mega-list-grid {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 2px 18px;
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px;
 }
-.bl-mega-link-icon {
-  display: flex; align-items: center; gap: 9px;
-  padding: 7px 8px; margin: 0 -8px;
+.bl-mega-tile {
+  display: flex; align-items: flex-start; gap: 10px;
+  padding: 10px 12px; min-width: 0;
+  border: 1px solid #2e2226; border-radius: 9px;
+  background: transparent;
+  transition: color 0.15s, background 0.15s, border-color 0.15s;
 }
+.bl-mega-tile-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.bl-mega-tile-name {
+  font-size: 14px; font-weight: 600; color: var(--tx-2); line-height: 1.35;
+  transition: color 0.15s;
+}
+.bl-mega-tile-count { font-size: 11.5px; color: var(--tx-3); line-height: 1.3; }
+.bl-mega-tile:hover {
+  background: rgba(229,51,63,0.10);
+  border-color: #e5333f;
+}
+.bl-mega-tile:hover .bl-mega-tile-name { color: #ff5c66; }
 .bl-mega-link-ico {
   width: 24px; height: 24px; border-radius: 6px; flex-shrink: 0;
   background: var(--gl2); border: 1px solid var(--bd);
@@ -327,7 +347,7 @@ body > footer {
   transition: all 0.15s;
 }
 .bl-mega-link-ico svg { width: 13px; height: 13px; }
-.bl-mega-link-icon:hover .bl-mega-link-ico { color: var(--cr); border-color: var(--bd-c); background: rgba(220,20,60,0.06); }
+.bl-mega-tile:hover .bl-mega-link-ico { color: #ff5c66; border-color: rgba(229,51,63,0.5); background: rgba(229,51,63,0.08); }
 
 .bl-mega-footer {
   display: flex; align-items: center; justify-content: space-between; gap: 24px;
@@ -470,9 +490,18 @@ body.bl-drawer-open { overflow: hidden; }
 @media (min-width: 769px) {
   .bl-mobile-drawer, .bl-mobile-drawer-backdrop { display: none; }
 }
+@media (max-width: 1200px) {
+  /* Not enough room for six columns side by side: narrow columns flow 3-up
+     and "By Function" wraps below them at full width (still a 2-col grid). */
+  .bl-mega-inner { grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: 24px; }
+  .bl-mega-col-wide {
+    grid-column: 1 / -1;
+    border-left: none; padding-left: 0;
+    border-top: 1px solid var(--bd); padding-top: 20px;
+  }
+}
 @media (max-width: 900px) {
-  .bl-mega-inner { grid-template-columns: repeat(2, 1fr) 2fr; row-gap: 24px; }
-  .bl-mega-col-wide { border-left: none; padding-left: 0; }
+  .bl-mega-inner { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 768px) {
   .bl-nav-burger { display: flex; }

@@ -1,6 +1,7 @@
 ---
 title: "Complete Applet Catalog"
 description: "Comprehensive directory of all BigLedger applets organized by module and functionality"
+layout: applet-catalog
 tags:
 - applets
 - catalog
@@ -8,377 +9,249 @@ tags:
 - modules
 - reference
 weight: 2
+intro: "This catalog lists every applet available in the BigLedger ecosystem, organized by module and functionality. Each applet is described with its primary purpose and key capabilities."
+callout: "Applets are reusable functional components that can belong to multiple modules. This many-to-many relationship eliminates duplication and ensures consistent behavior across the entire BigLedger system."
+modules:
+  - name: "Core module"
+    id: core-module
+    count: 13
+    desc: "Foundation applets required by all other modules."
+    applets:
+      - name: "Tenant Admin Applet"
+        url: /applets/tenant-admin-applet/
+        tagline: "System-wide administration and configuration."
+        bullets:
+          - User management and security configuration
+          - Audit settings and compliance management
+          - Multi-tenant environment setup
+          - System monitoring and health checks
+      - name: "Chart of Accounts Applet"
+        url: /applets/chart-of-account-applet/
+        tagline: "Complete chart of accounts structure management."
+        bullets:
+          - Account hierarchies and financial statement mapping
+          - Multi-currency support and exchange rates
+          - Account classifications and controls
+          - Integration foundation for all financial operations
+      - name: "Organization Applet"
+        url: /applets/organization-applet/
+        tagline: "Organizational structure and company management."
+        bullets:
+          - Company, branch, and location setup
+          - Department and cost center management
+          - Organizational hierarchy and reporting structure
+          - Multi-location operational support
+      - name: "Document Item Maintenance Applet"
+        url: /applets/doc-item-maintenance-applet/
+        tagline: "Service and non-inventory item management."
+        bullets:
+          - Professional services and consulting items
+          - Digital products and subscriptions
+          - Service pricing and billing configuration
+          - Document templates and standardization
+      - name: "Inventory Item Maintenance Applet"
+        url: /applets/inv-item-maintenance-applet/
+        tagline: "Product and inventory master data."
+        bullets:
+          - Complete product information management
+          - Multi-location inventory control
+          - Pricing and costing methodologies
+          - Product categories and classification
+      - name: "Customer Maintenance Applet"
+        url: /applets/customer-maintenance-applet/
+        tagline: "Customer master data and relationship management."
+        bullets:
+          - Complete customer profiles and contact management
+          - Credit limits and payment terms
+          - Customer segmentation and classification
+          - Multi-address and multi-contact support
+      - name: "Supplier Maintenance Applet"
+        url: /applets/supplier-maintenance-applet/
+        tagline: "Vendor and supplier master data management."
+        bullets:
+          - Comprehensive supplier profiles
+          - Procurement terms and payment conditions
+          - Supplier performance tracking
+          - Vendor categorization and relationship management
+      - name: "Employee Maintenance Applet"
+        url: /applets/employee-maintenance-applet/
+        tagline: "Employee master records and HR foundation."
+        bullets:
+          - Complete employee profiles and information
+          - Organizational structure and reporting relationships
+          - System access and role management
+          - HR integration and payroll foundation
+      - name: "Tax Configuration Applet"
+        url: /applets/tax-configuration-applet/
+        tagline: "Complete tax setup and compliance management."
+        bullets:
+          - Tax codes, rates, and regulatory compliance
+          - Multi-jurisdiction tax support (GST, SST, VAT)
+          - Automated tax calculations
+          - Tax reporting and e-filing integration
+      - name: "Cashbook Applet"
+        url: /applets/cashbook-applet/
+        tagline: "Cash and bank account management."
+        bullets:
+          - Multiple cash and bank account setup
+          - Payment method configuration
+          - Cash flow tracking and management
+          - Bank reconciliation and integration
+      - name: "Workflow Design Applet"
+        url: /applets/workflow-design-applet/
+        tagline: "Business process automation and workflow management."
+        bullets:
+          - Visual workflow designer and configuration
+          - Multi-level approval processes
+          - Process automation and orchestration
+          - Workflow performance monitoring
+      - name: "Webhook Applet"
+        url: /applets/webhook-applet/
+        tagline: "Real-time event notifications and system integration."
+        bullets:
+          - External system integration and notifications
+          - Event-driven workflow automation
+          - API integration and data synchronization
+          - Real-time business event broadcasting
+      - name: "T2T Admin Applet"
+        url: /applets/t2t-admin-applet/
+        tagline: "Tenant-to-tenant administration for enterprise operations."
+        bullets:
+          - Multi-tenant enterprise administration
+          - Cross-tenant data sharing and relationships
+          - Enterprise consolidation and reporting
+          - Complex organizational structure management
+  - name: "Point of Sales module"
+    id: point-of-sales
+    module_url: /modules/pos/
+    count: 6
+    desc: "Specialized applets for retail and point-of-sale operations."
+  - name: "CP-Commerce module"
+    id: cp-commerce
+    module_url: /modules/cp-commerce/
+    count: 20
+    desc: "Complete e-commerce solution — includes all 13 Core module applets plus seven commerce-specific applets."
+  - name: "E-Invoice module"
+    id: e-invoice
+    module_url: /modules/e-invoice/
+    count: 8
+    desc: "Electronic invoicing and regulatory compliance."
+  - name: "Accounting module"
+    id: accounting
+    module_url: /modules/accounting/
+    count: 25
+    desc: "Comprehensive transaction processing and financial management."
+  - name: "Digital CRM module"
+    id: digital-crm
+    module_url: /modules/digital-crm/
+    count: 3
+    desc: "AI-powered customer relationship management."
+  - name: "IT & CE module"
+    id: it-ce
+    module_url: /modules/it-ce/
+    count: 6
+    desc: "Technology and customer engagement specialization."
+  - name: "Service Industry module"
+    id: service-industry
+    module_url: /modules/service-industry/
+    count: 7
+    desc: "Operations for service-based businesses."
+  - name: "Drop Shipping module"
+    id: drop-shipping
+    module_url: /modules/drop-shipping/
+    count: 2
+    desc: "Drop-shipping business model support."
+  - name: "ERP module"
+    id: erp
+    module_url: /modules/inventory-warehouse/
+    count: 41
+    desc: "Complete enterprise resource planning — includes all Accounting and Point of Sales module applets plus ten enterprise-specific applets."
+  - name: "Specialized applets"
+    id: specialized
+    count: 15
+    desc: "Documented applets for inventory, teams, pricing, loyalty, customer service, and distribution."
+    applets:
+      - name: "Stock Balance Applet"
+        url: /applets/stock-balance-applet/
+        tagline: "Real-time inventory levels and tracking."
+      - name: "Stock Take Applet"
+        url: /applets/stock-take-applet/
+        tagline: "Physical inventory counting and reconciliation."
+      - name: "Internal Stock Adjustment Applet"
+        url: /applets/internal-stock-adjustment-applet/
+        tagline: "Inventory adjustments and corrections."
+      - name: "Internal Delivery Order Applet"
+        url: /applets/internal-delivery-order-applet/
+        tagline: "Internal transfers and deliveries."
+      - name: "Team Maintenance Applet"
+        url: /applets/team-maintenance-applet/
+        tagline: "Team structure and management."
+      - name: "Group Maintenance Applet"
+        url: /applets/group-maintenance-applet/
+        tagline: "Group configuration and management."
+      - name: "Pricebook Applet"
+        url: /applets/pricebook-applet/
+        tagline: "Advanced pricing management and strategies."
+      - name: "Process Monitoring Applet"
+        url: /applets/process-monitoring-applet/
+        tagline: "Business process tracking and analysis."
+      - name: "Membership Admin Console Applet"
+        url: /applets/membership-admin-console-applet/
+        tagline: "Customer loyalty program management."
+      - name: "Membership Points Currency"
+        url: /applets/membership-points-currency/
+        tagline: "Points-based reward system."
+      - name: "Membership Program"
+        url: /applets/membership-program/
+        tagline: "Membership program configuration."
+      - name: "Unified Contact Center (UCC) Applet"
+        url: /applets/unified-contact-center-ucc-applet/
+        tagline: "Comprehensive customer service platform."
+      - name: "EcomSync Related Applets"
+        url: /applets/90-ecomsync-related-applets/
+        tagline: "E-commerce synchronization tools."
+      - name: "Ingram Micro MS ESD Applet"
+        url: /applets/ingram-micro-ms-esd-applet/
+        tagline: "Microsoft licensing distribution."
+      - name: "VSTecs MS ESD Order Applet"
+        url: /applets/vstecs-ms-esd-order-applet/
+        tagline: "VSTecs distribution integration."
+roadmap:
+  - phase: "Phase 1 — Foundation"
+    text: "Implement all 13 Core module applets as the foundation for all operations."
+  - phase: "Phase 2 — Primary operations"
+    text: "Add specialized module applets based on business requirements: Accounting for financial operations, Sales & CRM for sales, and warehouse applets for inventory."
+  - phase: "Phase 3 — Advanced features"
+    text: "Implement advanced applets: Commerce for e-commerce integration, ERP for multi-entity operations, and E-Invoice for compliance requirements."
+  - phase: "Phase 4 — Optimization"
+    text: "Add analytics, automation, and optimization applets: Digital CRM for business intelligence, Workflow for process automation, and analytics for performance monitoring."
+resources:
+  - group: "Implementation guides"
+    links:
+      - name: "Module implementation guide"
+        url: /modules/
+      - name: "Getting started with the Core module"
+        url: /modules/core/
+      - name: "Applet installation guide"
+        url: /applets/applet-store/
+  - group: "Integration documentation"
+    links:
+      - name: "API reference"
+        url: /api-reference/
+      - name: "Webhook integration"
+        url: /applets/webhook-applet/
+      - name: "System integration best practices"
+        url: /guides/advanced/integration-best-practices/
+  - group: "Support resources"
+    links:
+      - name: "Applet Directory"
+        url: /applets/applet-directory/
+      - name: "Applet Store"
+        url: /applets/applet-store/
+      - name: "User guides"
+        url: /user-guide/
+tip: "Start with the Core module applets, then gradually add specialized applets based on your business requirements. The modular architecture allows for flexible implementation and growth."
 ---
 
-This comprehensive catalog lists all applets available in the BigLedger ecosystem, organized by module and functionality. Each applet is described with its primary purpose, key features, and integration points.
-
-{{< callout type="info" >}}
-**Understanding Applets**: Applets are reusable functional components that can belong to multiple modules. This many-to-many relationship eliminates duplication and ensures consistent behavior across the entire BigLedger system.
-{{< /callout >}}
-
-## Core Module Applets (13 Applets)
-
-**Foundation applets required by all other modules**
-
-### 1. [Tenant Admin Applet](/applets/tenant-admin-applet/)
-**System-wide administration and configuration**
-- User management and security configuration
-- Audit settings and compliance management
-- Multi-tenant environment setup
-- System monitoring and health checks
-
-### 2. [Chart of Accounts Applet](/applets/chart-of-account-applet/)
-**Complete chart of accounts structure management**
-- Account hierarchies and financial statement mapping
-- Multi-currency support and exchange rates
-- Account classifications and controls
-- Integration foundation for all financial operations
-
-### 3. [Organization Applet](/applets/organization-applet/)
-**Organizational structure and company management**
-- Company, branch, and location setup
-- Department and cost center management
-- Organizational hierarchy and reporting structure
-- Multi-location operational support
-
-### 4. [Document Item Maintenance Applet](/applets/doc-item-maintenance-applet/)
-**Service and non-inventory item management**
-- Professional services and consulting items
-- Digital products and subscriptions
-- Service pricing and billing configurations
-- Document templates and standardization
-
-### 5. [Inventory Item Maintenance Applet](/applets/inv-item-maintenance-applet/)
-**Product and inventory master data**
-- Complete product information management
-- Multi-location inventory control
-- Pricing and costing methodologies
-- Product categories and classification
-
-### 6. [Customer Maintenance Applet](/applets/customer-maintenance-applet/)
-**Customer master data and relationship management**
-- Complete customer profiles and contact management
-- Credit limits and payment terms
-- Customer segmentation and classification
-- Multi-address and multi-contact support
-
-### 7. [Supplier Maintenance Applet](/applets/supplier-maintenance-applet/)
-**Vendor and supplier master data management**
-- Comprehensive supplier profiles
-- Procurement terms and payment conditions
-- Supplier performance tracking
-- Vendor categorization and relationship management
-
-### 8. [Employee Maintenance Applet](/applets/employee-maintenance-applet/)
-**Employee master records and HR foundation**
-- Complete employee profiles and information
-- Organizational structure and reporting relationships
-- System access and role management
-- HR integration and payroll foundation
-
-### 9. [Tax Configuration Applet](/applets/tax-configuration-applet/)
-**Complete tax setup and compliance management**
-- Tax codes, rates, and regulatory compliance
-- Multi-jurisdiction tax support (GST, SST, VAT)
-- Automated tax calculations
-- Tax reporting and e-filing integration
-
-### 10. [Cashbook Applet](/applets/cashbook-applet/)
-**Cash and bank account management**
-- Multiple cash and bank account setup
-- Payment method configuration
-- Cash flow tracking and management
-- Bank reconciliation and integration
-
-### 11. [Workflow Design Applet](/applets/workflow-design-applet/)
-**Business process automation and workflow management**
-- Visual workflow designer and configuration
-- Multi-level approval processes
-- Process automation and orchestration
-- Workflow performance monitoring
-
-### 12. [Webhook Applet](/applets/webhook-applet/)
-**Real-time event notifications and system integration**
-- External system integration and notifications
-- Event-driven workflow automation
-- API integration and data synchronization
-- Real-time business event broadcasting
-
-### 13. [T2T Admin Applet](/applets/t2t-admin-applet/)
-**Tenant-to-Tenant administration for enterprise operations**
-- Multi-tenant enterprise administration
-- Cross-tenant data sharing and relationships
-- Enterprise consolidation and reporting
-- Complex organizational structure management
-
----
-
-## Point of Sales Module Applets (6 Applets)
-
-**Specialized applets for retail and POS operations**
-
-### TODO: Document POS-Specific Applets
-1. **POS Terminal Applet** - Point-of-sale terminal management and configuration
-2. **Cashier Operations Applet** - Cashier functions and daily operations
-3. **POS Inventory Applet** - Real-time inventory management for retail
-4. **Customer Display Applet** - Customer-facing display management
-5. **Receipt Management Applet** - Receipt printing and digital receipt handling
-6. **POS Reporting Applet** - Point-of-sale analytics and reporting
-
----
-
-## CP-Commerce Module Applets (20 Applets)
-
-**Comprehensive e-commerce solution including all Core Module applets plus 7 commerce-specific applets**
-
-### Core Module Integration
-All 13 Core Module applets (listed above) are included in CP-Commerce Module.
-
-### Commerce-Specific Applets
-
-### TODO: Document Commerce-Specific Applets
-1. **E-Commerce Catalog Applet** - Online product catalog management
-2. **Shopping Cart Applet** - Shopping cart functionality and management
-3. **Online Payment Applet** - Payment gateway integration and processing
-4. **Order Fulfillment Applet** - Online order processing and fulfillment
-5. **Customer Portal Applet** - Customer self-service portal
-6. **Marketplace Integration Applet** - Third-party marketplace connections
-7. **Digital Marketing Applet** - SEO, analytics, and marketing automation
-
----
-
-## E-Invoice Module Applets (8 Applets)
-
-**Electronic invoicing and compliance specialization**
-
-### TODO: Document E-Invoice Applets
-1. **E-Invoice Generation Applet** - Electronic invoice creation and formatting
-2. **MyInvois Integration Applet** - Malaysian e-invoicing compliance
-3. **PEPPOL Network Applet** - Pan-European Public Procurement integration
-4. **Digital Signature Applet** - Invoice digital signing and verification
-5. **E-Invoice Validation Applet** - Invoice validation and compliance checking
-6. **Tax Authority Integration Applet** - Direct tax authority submissions
-7. **E-Invoice Archive Applet** - Long-term electronic document storage
-8. **Compliance Reporting Applet** - Regulatory compliance reporting
-
----
-
-## Accounting Module Applets (25 Applets)
-
-**Comprehensive transaction processing and financial management**
-
-### TODO: Document Accounting Module Applets
-1. **General Ledger Applet** - Core accounting and transaction processing
-2. **Accounts Receivable Applet** - Customer billing and collections
-3. **Accounts Payable Applet** - Vendor payments and processing
-4. **Fixed Assets Applet** - Asset management and depreciation
-5. **Budget Management Applet** - Budgeting and variance analysis
-6. **Cost Accounting Applet** - Cost allocation and analysis
-7. **Multi-Currency Applet** - Foreign exchange and currency management
-8. **Financial Reporting Applet** - Financial statements and reports
-9. **Bank Reconciliation Applet** - Automated bank statement reconciliation
-10. **Journal Entry Applet** - Manual and automated journal entries
-11. **Intercompany Applet** - Inter-company transaction processing
-12. **Revenue Recognition Applet** - Advanced revenue recognition
-13. **Expense Management Applet** - Employee expense processing
-14. **Cash Flow Management Applet** - Cash flow forecasting and management
-15. **Audit Trail Applet** - Financial audit and compliance tracking
-16. **Tax Accounting Applet** - Tax-specific accounting treatments
-17. **Consolidation Applet** - Multi-entity financial consolidation
-18. **Period Close Applet** - Month-end and year-end procedures
-19. **Allocation Applet** - Cost and revenue allocation
-20. **Treasury Management Applet** - Corporate treasury operations
-21. **Credit Management Applet** - Customer credit control
-22. **Collection Management Applet** - Debt collection processes
-23. **Payment Processing Applet** - Advanced payment handling
-24. **Financial Analytics Applet** - Advanced financial analysis
-25. **Compliance Management Applet** - Financial compliance monitoring
-
----
-
-## Digital CRM Module Applets (3 Applets)
-
-**AI-powered customer relationship management**
-
-### TODO: Document Digital CRM Applets
-1. **AI Customer Analytics Applet** - Predictive customer analytics and insights
-2. **Automated Marketing Applet** - AI-driven marketing automation
-3. **Customer Intelligence Applet** - Advanced customer behavior analysis
-
----
-
-## IT & CE Module Applets (6 Applets)
-
-**Technology and customer engagement specialization**
-
-### TODO: Document IT & CE Applets
-1. **Service Desk Applet** - IT service management and ticketing
-2. **Asset Management Applet** - IT asset lifecycle management
-3. **Customer Engagement Applet** - Multi-channel customer engagement
-4. **Knowledge Management Applet** - IT knowledge base and documentation
-5. **Incident Management Applet** - IT incident response and resolution
-6. **Performance Monitoring Applet** - System performance and monitoring
-
----
-
-## Service Industry Module Applets (7 Applets)
-
-**Service-based business operations specialization**
-
-### TODO: Document Service Industry Applets
-1. **Project Management Applet** - Project planning and execution
-2. **Time Tracking Applet** - Employee time and attendance tracking
-3. **Resource Scheduling Applet** - Resource allocation and scheduling
-4. **Service Contracts Applet** - Service agreement management
-5. **Professional Services Applet** - Consulting and professional services
-6. **Quality Assurance Applet** - Service quality management
-7. **Client Portal Applet** - Client self-service and communication
-
----
-
-## Drop Shipping Module Applets (2 Applets)
-
-**Drop shipping business model specialization**
-
-### TODO: Document Drop Shipping Applets
-1. **Supplier Network Applet** - Drop shipping supplier management
-2. **Order Fulfillment Automation Applet** - Automated order routing and fulfillment
-
----
-
-## ERP Module Applets (41 Total Applets)
-
-**Complete enterprise resource planning solution**
-
-### Included Applets
-- **All Accounting Module applets** (25 applets)
-- **All Point of Sales Module applets** (6 applets)  
-- **10 additional enterprise-specific applets** (listed below)
-
-### TODO: Document ERP-Specific Applets
-1. **Enterprise Dashboard Applet** - Executive and management dashboards
-2. **Business Intelligence Applet** - Advanced analytics and reporting
-3. **Master Data Management Applet** - Enterprise master data governance
-4. **Integration Hub Applet** - Enterprise application integration
-5. **Document Management Applet** - Enterprise document management
-6. **Workflow Orchestration Applet** - Complex enterprise workflows
-7. **Performance Management Applet** - KPI and scorecard management
-8. **Risk Management Applet** - Enterprise risk assessment and mitigation
-9. **Compliance Dashboard Applet** - Regulatory compliance monitoring
-10. **Enterprise Security Applet** - Advanced security and access control
-
----
-
-## Existing Specialized Applets
-
-### Inventory and Warehouse Management
-- **[Stock Balance Applet](/applets/stock-balance-applet/)** - Real-time inventory levels and tracking
-- **[Stock Take Applet](/applets/stock-take-applet/)** - Physical inventory counting and reconciliation
-- **[Internal Stock Adjustment Applet](/applets/internal-stock-adjustment-applet/)** - Inventory adjustments and corrections
-- **[Internal Delivery Order Applet](/applets/internal-delivery-order-applet/)** - Internal transfers and deliveries
-
-### Team and Organization Management
-- **[Team Maintenance Applet](/applets/team-maintenance-applet/)** - Team structure and management
-- **[Group Maintenance Applet](/applets/group-maintenance-applet/)** - Group configuration and management
-
-### Pricing and Sales Management
-- **[Pricebook Applet](/applets/pricebook-applet/)** - Advanced pricing management and strategies
-
-### Process and Quality Management
-- **[Process Monitoring Applet](/applets/process-monitoring-applet/)** - Business process tracking and analysis
-
-### Membership and Loyalty Programs
-- **[Membership Admin Console Applet](/applets/membership-admin-console-applet/)** - Customer loyalty program management
-- **[Membership Points Currency](/applets/membership-points-currency/)** - Points-based reward system
-- **[Membership Program](/applets/membership-program/)** - Membership program configuration
-
-### Communication and Customer Service
-- **[Unified Contact Center (UCC) Applet](/applets/unified-contact-center-ucc-applet/)** - Comprehensive customer service platform
-
-### E-Commerce Integration
-- **[EcomSync Related Applets](/applets/90-ecomsync-related-applets/)** - E-commerce synchronization tools
-
-### Distribution and Vendor Management
-- **[Ingram Micro MS ESD Applet](/applets/ingram-micro-ms-esd-applet/)** - Microsoft licensing distribution
-- **[VSTecs MS ESD Order Applet](/applets/vstecs-ms-esd-order-applet/)** - VSTecs distribution integration
-
----
-
-## Applet Categories by Function
-
-### Master Data Management
-- Chart of Accounts, Organization, Customer/Supplier/Employee Maintenance
-- Inventory and Document Item Maintenance
-- Tax Configuration
-
-### Transaction Processing
-- Sales Orders, Purchase Orders, Invoicing
-- Payments, Receipts, Journal Entries
-- Stock Movements, Adjustments
-
-### Financial Management
-- General Ledger, Accounts Receivable/Payable
-- Budget Management, Financial Reporting
-- Cash Flow, Treasury Management
-
-### Inventory Operations
-- Stock Balance, Stock Take, Stock Adjustments
-- Internal Transfers, Inventory Tracking
-
-### Customer Relationship Management
-- Customer Maintenance, Sales Management
-- Membership Programs, Customer Portal
-- Communication and Support Tools
-
-### System Administration
-- Tenant Administration, User Management
-- Workflow Design, Process Monitoring
-- Integration and Security Management
-
----
-
-## Implementation Roadmap
-
-### Phase 1: Foundation (Core Module)
-Implement all 13 Core Module applets as the foundation for all operations.
-
-### Phase 2: Primary Operations
-Add specialized module applets based on business requirements:
-- Financial operations → Accounting Module applets
-- Sales operations → Sales and CRM applets  
-- Inventory operations → Warehouse management applets
-
-### Phase 3: Advanced Features
-Implement advanced and specialized applets:
-- E-commerce integration → Commerce applets
-- Multi-entity operations → ERP applets
-- Compliance requirements → E-Invoice applets
-
-### Phase 4: Optimization
-Add analytics, automation, and optimization applets:
-- Business intelligence → Digital CRM applets
-- Process automation → Workflow applets
-- Performance monitoring → Analytics applets
-
----
-
-## Related Resources
-
-### Implementation Guides
-- [Module Implementation Guide](/modules/)
-- [Getting Started with Core Module](/modules/core/)
-- [Applet Installation Guide](/applets/applet-store/)
-
-### Integration Documentation
-- [API Reference](/developers/api-reference/)
-- [Webhook Integration](/applets/webhook-applet/)
-- [System Integration Best Practices](/guides/advanced/integration-best-practices/)
-
-### Support Resources
-- [Applet Directory](/applets/applet-directory/)
-- [Applet Store](/applets/applet-store/)
-- [User Guides](/user-guide/)
-
-{{< callout type="tip" >}}
-**Implementation Strategy**: Start with the Core Module applets, then gradually add specialized applets based on your business requirements. The modular architecture allows for flexible implementation and growth.
-{{< /callout >}}
+This page is rendered by `layouts/applets/applet-catalog.html` from the structured
+data in the front matter above. Edit the front matter to change the catalog.

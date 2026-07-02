@@ -1,0 +1,139 @@
+{{ define "main" }}
+<link rel="stylesheet" href="{{ "css/applet-catalog-page.css" | relURL }}">
+
+<div class="acat-wrap">
+  <article class="acat-main">
+    <nav class="acat-crumb" aria-label="Breadcrumb">
+      <a href="{{ "/" | relLangURL }}">Home</a>
+      <span>&rsaquo;</span>
+      <a href="{{ "/applets/" | relLangURL }}">Applets and Workflows</a>
+      <span>&rsaquo;</span>
+      <span>Complete Applet Catalog</span>
+    </nav>
+
+    <h1>Complete applet <span class="acat-red">catalog</span></h1>
+
+    <p class="acat-intro">{{ .Params.intro }}</p>
+
+    <aside class="acat-callout">
+      <strong>Understanding applets:</strong> {{ .Params.callout }}
+    </aside>
+
+    {{ range .Params.modules }}
+    <section class="acat-module" id="{{ .id }}">
+      <div class="acat-module-head">
+        {{ if .module_url }}
+        <h2><a href="{{ .module_url | relLangURL }}" class="acat-module-link">{{ .name }}<span class="acat-module-arrow" aria-hidden="true">&rarr;</span></a></h2>
+        {{ else }}
+        <h2>{{ .name }}</h2>
+        {{ end }}
+        <span class="acat-badge">{{ .count }} applets</span>
+      </div>
+      <p class="acat-module-desc">{{ .desc }}</p>
+
+      {{ if .applets }}
+      <div class="acat-cards">
+        {{ range $i, $a := .applets }}
+        <div class="acat-card">
+          <span class="acat-num">{{ printf "%02d" (add $i 1) }}</span>
+          <div class="acat-card-body">
+            <h3><a href="{{ $a.url | relLangURL }}">{{ $a.name }}</a></h3>
+            <p class="acat-tagline">{{ $a.tagline }}</p>
+            {{ with $a.bullets }}
+            <ul class="acat-bullets">
+              {{ range . }}<li>{{ . }}</li>{{ end }}
+            </ul>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      {{ else if .module_url }}
+      <a href="{{ .module_url | relLangURL }}" class="acat-explore">
+        <span class="acat-explore-title">Explore the {{ .name }} <span aria-hidden="true">&rarr;</span></span>
+        <span class="acat-explore-desc">Applet documentation is in progress — the module overview covers features, capabilities, and use cases.</span>
+      </a>
+      {{ else }}
+      <p class="acat-soon">Documentation coming soon.</p>
+      {{ end }}
+    </section>
+    {{ end }}
+
+    <section class="acat-extra" id="implementation-roadmap">
+      <h2>Implementation roadmap</h2>
+      <ol class="acat-roadmap">
+        {{ range .Params.roadmap }}
+        <li><strong>{{ .phase }}.</strong> {{ .text }}</li>
+        {{ end }}
+      </ol>
+    </section>
+
+    <section class="acat-extra" id="related-resources">
+      <h2>Related resources</h2>
+      <div class="acat-resources">
+        {{ range .Params.resources }}
+        <div class="acat-resource-group">
+          <h3>{{ .group }}</h3>
+          <ul>
+            {{ range .links }}
+            <li><a href="{{ .url | relLangURL }}">{{ .name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      </div>
+    </section>
+
+    <aside class="acat-callout">
+      <strong>Implementation strategy:</strong> {{ .Params.tip }}
+    </aside>
+  </article>
+
+  <aside class="acat-toc" aria-label="On this page">
+    <span class="acat-toc-title">On this page</span>
+    <nav>
+      {{ range .Params.modules }}
+      <a href="#{{ .id }}" data-acat-toc="{{ .id }}">
+        {{ .name }}<span class="acat-toc-count">{{ .count }}</span>
+      </a>
+      {{ end }}
+    </nav>
+  </aside>
+</div>
+
+<script>
+(function () {
+  var links = Array.prototype.slice.call(document.querySelectorAll('[data-acat-toc]'));
+  if (!links.length) return;
+  var sections = links.map(function (l) {
+    return document.getElementById(l.getAttribute('data-acat-toc'));
+  }).filter(Boolean);
+
+  function setActive(id) {
+    links.forEach(function (l) {
+      l.classList.toggle('active', l.getAttribute('data-acat-toc') === id);
+    });
+  }
+
+  // Scroll-spy: the active section is the last one whose top has passed the
+  // reading line just below the sticky header, so short sections (e.g.
+  // "coming soon" modules) still get their turn as the reader scrolls.
+  function onScroll() {
+    var line = 120;
+    var current = sections[0];
+    sections.forEach(function (sec) {
+      if (sec.getBoundingClientRect().top <= line) current = sec;
+    });
+    if (current) setActive(current.id);
+  }
+
+  var ticking = false;
+  window.addEventListener('scroll', function () {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(function () { onScroll(); ticking = false; });
+  }, { passive: true });
+  onScroll();
+})();
+</script>
+{{ end }}

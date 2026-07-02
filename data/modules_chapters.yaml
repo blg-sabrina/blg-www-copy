@@ -1,0 +1,50 @@
+# Canonical module reading order for the /modules/ chapter navigation.
+# count = applets in the matching /applets/applet-catalog/ section (omit when unknown).
+modules:
+  - name: "Core module"
+    url: "/modules/core/"
+    count: 13
+    role: "Required by all modules"
+  - name: "Financial Accounting module"
+    url: "/modules/financial-accounting/"
+  - name: "Accounting module"
+    url: "/modules/accounting/"
+    count: 25
+  - name: "POS module"
+    url: "/modules/pos/"
+    count: 6
+  - name: "CP-Commerce module"
+    url: "/modules/cp-commerce/"
+    count: 20
+  - name: "E-Invoice module"
+    url: "/modules/e-invoice/"
+    count: 8
+  - name: "Sales & CRM module"
+    url: "/modules/sales-crm/"
+  - name: "Digital CRM module"
+    url: "/modules/digital-crm/"
+    count: 3
+  - name: "Purchasing module"
+    url: "/modules/purchasing/"
+  - name: "Inventory & Warehouse module"
+    url: "/modules/inventory-warehouse/"
+  - name: "ERP module"
+    url: "/modules/erp/"
+    count: 41
+  - name: "IT & CE module"
+    url: "/modules/it-ce/"
+    count: 6
+  - name: "Manufacturing module"
+    url: "/modules/manufacturing/"
+  - name: "Service Industry module"
+    url: "/modules/service-industry/"
+    count: 7
+  - name: "Drop Shipping module"
+    url: "/modules/drop-shipping/"
+    count: 2
+  - name: "HR & Payroll module"
+    url: "/modules/hr-payroll/"
+  - name: "E-Commerce module"
+    url: "/modules/ecommerce/"
+  - name: "Projects module"
+    url: "/modules/projects/"

@@ -26,10 +26,17 @@
                   <ul class="bl-mega-list{{ if $col.wide }} bl-mega-list-grid{{ end }}">
                     {{ range $col.links }}
                     <li>
-                      <a href="{{ .url | relLangURL }}" class="bl-mega-link{{ if $col.wide }} bl-mega-link-icon{{ end }}">
+                      {{ if $col.wide }}
+                      <a href="{{ .url | relLangURL }}" class="bl-mega-tile">
                         {{ if .icon }}<span class="bl-mega-link-ico">{{ partial "feat-icon.html" .icon }}</span>{{ end }}
-                        {{ .name }}
+                        <span class="bl-mega-tile-text">
+                          <span class="bl-mega-tile-name">{{ .name }}</span>
+                          {{ with .count }}<span class="bl-mega-tile-count">{{ . }} applets in catalog</span>{{ end }}
+                        </span>
                       </a>
+                      {{ else }}
+                      <a href="{{ .url | relLangURL }}" class="bl-mega-link">{{ .name }}</a>
+                      {{ end }}
                     </li>
                     {{ end }}
                   </ul>

@@ -1,21 +1,133 @@
 {{ define "main" }}
-  <div class='hx:mx-auto hx:flex hextra-max-page-width'>
-    {{ partial "sidebar.html" (dict "context" . "disableSidebar" false "displayPlaceholder" false) }}
-    {{ partial "toc.html" . }}
-    <article class='hx:w-full hx:break-words hx:flex-1 hx:min-w-0 hx:min-h-[calc(100vh-var(--nextra-navbar-height))] hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]'>
-      <main class='hx:flex-col hx:flex'>
-        <nav class="hx:mb-4 hx:text-sm">
-          <a href="/" class="hx:text-blue-600 hover:hx:underline">Home</a>
-          <span class="hx:mx-2">›</span>
-          <a href="/applets/" class="hx:text-blue-600 hover:hx:underline">Applets</a>
-          <span class="hx:mx-2">›</span>
-          <span class="hx:text-gray-600">{{ .Title }}</span>
-        </nav>
-        <h1 class='hx:mt-2 hx:text-4xl hx:tracking-tight hx:font-bold hx:text-slate-900 dark:hx:text-slate-100'>{{ .Title }}</h1>
-        <div class='hx:content hx:mt-6'>
-          {{ .Content }}
-        </div>
-      </main>
-    </article>
-  </div>
+<link rel="stylesheet" href="{{ "css/applet-detail.css" | relURL }}">
+
+{{ $toc := .TableOfContents }}
+{{ $hasToc := strings.Contains $toc "<li>" }}
+
+{{/* Badge pills from front-matter tags: red for the owning module, outlined
+     neutral for the functional category. Unknown tags show no badge. */}}
+{{ $moduleMap := dict
+  "core-module" "Core module"
+  "financial-accounting" "Financial accounting"
+  "e-commerce" "E-Commerce module"
+  "pos" "POS module" }}
+{{ $categoryMap := dict
+  "system-administration" "Administration"
+  "administration" "Administration"
+  "user-administration" "Administration"
+  "tenant-management" "Tenant management"
+  "master-data" "Master data"
+  "integration" "Integration"
+  "workflow" "Workflow"
+  "organization" "Organization"
+  "inventory" "Inventory"
+  "membership" "Membership & loyalty"
+  "installation" "Installation"
+  "introduction" "Introduction"
+  "setup-guide" "Setup guide"
+  "security" "Security"
+  "pricing" "Pricing" }}
+{{ $module := "" }}{{ $category := "" }}
+{{ range .Params.tags }}
+  {{ if and (not $module) (index $moduleMap .) }}{{ $module = index $moduleMap . }}{{ end }}
+  {{ if and (not $category) (index $categoryMap .) }}{{ $category = index $categoryMap . }}{{ end }}
+{{ end }}
+
+{{/* Previous/next among the section's pages, in Hugo's section order. */}}
+{{ $pages := .CurrentSection.RegularPages }}
+{{ $prev := "" }}{{ $next := "" }}
+{{ range $i, $p := $pages }}
+  {{ if $p.Eq $ }}
+    {{ if gt $i 0 }}{{ $prev = index $pages (sub $i 1) }}{{ end }}
+    {{ if lt (add $i 1) (len $pages) }}{{ $next = index $pages (add $i 1) }}{{ end }}
+  {{ end }}
+{{ end }}
+
+<div class="apd-wrap{{ if not $hasToc }} apd-no-toc{{ end }}">
+  <article class="apd-main">
+    <nav class="apd-crumb" aria-label="Breadcrumb">
+      <a href="{{ "/" | relLangURL }}">Home</a>
+      <span>&rsaquo;</span>
+      <a href="{{ "/applets/" | relLangURL }}">Applets</a>
+      <span>&rsaquo;</span>
+      <a href="{{ "/applets/applet-catalog/" | relLangURL }}">Complete Applet Catalog</a>
+      <span>&rsaquo;</span>
+      <span>{{ .Title }}</span>
+    </nav>
+
+    <h1>{{ .Title }}</h1>
+
+    {{ if or $module $category }}
+    <div class="apd-badges">
+      {{ with $module }}<span class="apd-badge apd-badge-module">{{ . }}</span>{{ end }}
+      {{ with $category }}<span class="apd-badge apd-badge-category">{{ . }}</span>{{ end }}
+    </div>
+    {{ end }}
+
+    {{ with .Description }}<p class="apd-tagline">{{ . }}</p>{{ end }}
+
+    <div class="apd-content">
+      {{ .Content }}
+    </div>
+
+    <nav class="apd-pagenav" aria-label="Adjacent applets">
+      {{ with $prev }}
+      <a href="{{ .RelPermalink }}" class="apd-pagenav-card">
+        <span class="apd-pagenav-dir">&larr; Previous</span>
+        <span class="apd-pagenav-title">{{ .Title }}</span>
+      </a>
+      {{ else }}<span class="apd-pagenav-card apd-pagenav-empty"></span>{{ end }}
+      {{ with $next }}
+      <a href="{{ .RelPermalink }}" class="apd-pagenav-card apd-pagenav-next">
+        <span class="apd-pagenav-dir">Next &rarr;</span>
+        <span class="apd-pagenav-title">{{ .Title }}</span>
+      </a>
+      {{ else }}<span class="apd-pagenav-card apd-pagenav-empty"></span>{{ end }}
+    </nav>
+
+    <p class="apd-back">
+      <a href="{{ "/applets/applet-catalog/" | relLangURL }}">&larr; Back to Complete Applet Catalog</a>
+    </p>
+  </article>
+
+  {{ if $hasToc }}
+  <aside class="apd-toc" aria-label="On this page">
+    <span class="apd-toc-title">On this page</span>
+    {{ $toc }}
+  </aside>
+  {{ end }}
+</div>
+
+<script>
+(function () {
+  var toc = document.querySelector('.apd-toc');
+  if (!toc) return;
+  var links = Array.prototype.slice.call(toc.querySelectorAll('a[href*="#"]'));
+  var pairs = links.map(function (l) {
+    var id = decodeURIComponent((l.getAttribute('href').split('#')[1] || ''));
+    return { link: l, head: document.getElementById(id) };
+  }).filter(function (p) { return p.head; });
+  if (!pairs.length) return;
+
+  // Active heading = the last one whose top has passed a reading line just
+  // below the sticky header.
+  function onScroll() {
+    var current = pairs[0];
+    pairs.forEach(function (p) {
+      if (p.head.getBoundingClientRect().top <= 120) current = p;
+    });
+    pairs.forEach(function (p) {
+      p.link.classList.toggle('active', p === current);
+    });
+  }
+
+  var ticking = false;
+  window.addEventListener('scroll', function () {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(function () { onScroll(); ticking = false; });
+  }, { passive: true });
+  onScroll();
+})();
+</script>
 {{ end }}

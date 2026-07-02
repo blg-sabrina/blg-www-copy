@@ -1,0 +1,208 @@
+/* ================================================================
+   BigLedger — /applets/applet-catalog/ reading page (dark theme)
+   Loaded only by layouts/applets/applet-catalog.html.
+================================================================ */
+
+:root {
+  --acat-bg: #100b0d;
+  --acat-card: #1d1518;
+  --acat-border: #2e2226;
+  --acat-text: #f4eff0;
+  --acat-text-2: #b3a6aa;
+  --acat-red: #e5333f;
+}
+
+html, body { background: var(--acat-bg); }
+body {
+  color: var(--acat-text);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.bl-network-bg { display: none; }
+
+.acat-red { color: var(--acat-red); }
+
+/* ── Layout: centered reading column + slim TOC ─────────────── */
+.acat-wrap {
+  display: grid;
+  grid-template-columns: minmax(0, 800px) 240px;
+  justify-content: center;
+  gap: 56px;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 56px 24px 96px;
+}
+.acat-main { min-width: 0; }
+
+/* ── Breadcrumb + title ─────────────────────────────────────── */
+.acat-crumb {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  font-size: 13px; color: var(--acat-text-2); margin-bottom: 20px;
+}
+.acat-crumb a { color: var(--acat-text-2); text-decoration: none; transition: color 0.15s; }
+.acat-crumb a:hover { color: var(--acat-text); }
+.acat-crumb > span:not(:last-child) { color: #6d5c61; }
+
+.acat-main h1 {
+  font-size: clamp(32px, 5vw, 44px); font-weight: 800; letter-spacing: -0.025em;
+  line-height: 1.12; margin: 0 0 18px; color: var(--acat-text);
+}
+.acat-intro {
+  font-size: 16.5px; line-height: 1.7; color: var(--acat-text-2); margin: 0 0 24px;
+}
+
+/* ── Red-tinted callout ─────────────────────────────────────── */
+.acat-callout {
+  padding: 16px 20px; margin: 0 0 12px;
+  background: rgba(229, 51, 63, 0.08);
+  border: 1px solid rgba(229, 51, 63, 0.28);
+  border-left: 3px solid var(--acat-red);
+  border-radius: 14px;
+  font-size: 14.5px; line-height: 1.65; color: var(--acat-text-2);
+}
+.acat-callout strong { color: var(--acat-text); }
+
+/* ── Module sections ────────────────────────────────────────── */
+.acat-module, .acat-extra { padding-top: 44px; scroll-margin-top: 88px; /* anchor jumps clear the sticky header */ }
+.acat-module-head { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.acat-module-head h2, .acat-extra h2 {
+  font-size: 23px; font-weight: 700; letter-spacing: -0.015em;
+  color: var(--acat-text); margin: 0;
+}
+.acat-badge {
+  display: inline-flex; align-items: center;
+  height: 23px; padding: 0 10px;
+  background: rgba(229, 51, 63, 0.14); border: 1px solid rgba(229, 51, 63, 0.3);
+  border-radius: 999px; color: var(--acat-red);
+  font-size: 12px; font-weight: 700; white-space: nowrap;
+}
+.acat-module-link {
+  color: inherit; text-decoration: none;
+  transition: color 0.15s;
+}
+.acat-module-link:hover { color: #ff5c66; }
+.acat-module-arrow {
+  display: inline-block; margin-left: 8px;
+  font-size: 0.8em; color: #ff5c66;
+  opacity: 0; transform: translateX(-4px);
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+.acat-module-link:hover .acat-module-arrow { opacity: 1; transform: translateX(0); }
+
+.acat-explore {
+  display: flex; flex-direction: column; gap: 5px;
+  margin-top: 16px; padding: 18px 22px;
+  background: var(--acat-card); border: 1px solid var(--acat-border);
+  border-radius: 14px; text-decoration: none;
+  transition: transform 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease;
+}
+.acat-explore:hover {
+  transform: translateY(-2px);
+  border-color: rgba(229, 51, 63, 0.4);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.4);
+}
+.acat-explore-title {
+  font-size: 15px; font-weight: 600; color: var(--acat-text);
+  transition: color 0.15s;
+}
+.acat-explore-title span { color: var(--acat-red); }
+.acat-explore:hover .acat-explore-title { color: #ff5c66; }
+.acat-explore-desc { font-size: 13px; line-height: 1.55; color: var(--acat-text-2); }
+
+.acat-module-desc {
+  margin: 10px 0 0; font-size: 14.5px; line-height: 1.65; color: var(--acat-text-2);
+}
+.acat-soon {
+  margin: 16px 0 0; padding: 14px 18px;
+  border: 1px dashed var(--acat-border); border-radius: 14px;
+  font-size: 13.5px; color: #8d7d82; font-style: italic;
+}
+
+/* ── Numbered applet cards ──────────────────────────────────── */
+.acat-cards { display: flex; flex-direction: column; gap: 12px; margin-top: 18px; }
+.acat-card {
+  display: flex; gap: 18px;
+  background: var(--acat-card); border: 1px solid var(--acat-border);
+  border-radius: 14px; padding: 18px 22px;
+  transition: transform 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease;
+}
+.acat-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(229, 51, 63, 0.4);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.4);
+}
+.acat-num {
+  flex-shrink: 0;
+  font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums;
+  color: var(--acat-red); line-height: 1.5; padding-top: 2px;
+}
+.acat-card-body { min-width: 0; }
+.acat-card h3 { font-size: 15.5px; font-weight: 600; margin: 0 0 4px; line-height: 1.4; }
+.acat-card h3 a { color: var(--acat-text); text-decoration: none; transition: color 0.15s; }
+.acat-card h3 a:hover { color: var(--acat-red); }
+.acat-tagline { font-size: 13.5px; line-height: 1.55; color: var(--acat-text-2); margin: 0; }
+.acat-bullets {
+  margin: 10px 0 0; padding-left: 18px;
+  display: flex; flex-direction: column; gap: 3px;
+}
+.acat-bullets li { font-size: 12.5px; line-height: 1.55; color: #8d7d82; }
+.acat-bullets li::marker { color: rgba(229, 51, 63, 0.55); }
+
+/* ── Roadmap + resources ────────────────────────────────────── */
+.acat-roadmap { margin: 16px 0 0; padding-left: 20px; display: flex; flex-direction: column; gap: 10px; }
+.acat-roadmap li { font-size: 14.5px; line-height: 1.65; color: var(--acat-text-2); }
+.acat-roadmap li strong { color: var(--acat-text); }
+.acat-roadmap li::marker { color: var(--acat-red); font-weight: 700; }
+
+.acat-resources {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 14px; margin-top: 18px;
+}
+.acat-resource-group {
+  background: var(--acat-card); border: 1px solid var(--acat-border);
+  border-radius: 14px; padding: 18px 20px;
+}
+.acat-resource-group h3 {
+  font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--acat-text-2); margin: 0 0 10px;
+}
+.acat-resource-group ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 6px; }
+.acat-resource-group a {
+  font-size: 13.5px; color: var(--acat-text); text-decoration: none; transition: color 0.15s;
+}
+.acat-resource-group a:hover { color: var(--acat-red); }
+
+/* ── "On this page" side menu ───────────────────────────────── */
+.acat-toc {
+  position: sticky; top: 96px; /* below the 68px sticky site header */
+  align-self: start;
+  padding-top: 76px; /* aligns with the H1, past the breadcrumb */
+}
+.acat-toc-title {
+  display: block;
+  font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.09em;
+  color: #8d7d82; margin-bottom: 12px; padding-left: 14px;
+}
+.acat-toc nav { display: flex; flex-direction: column; }
+.acat-toc nav a {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  font-size: 13.5px; color: var(--acat-text-2); text-decoration: none;
+  line-height: 1.4; padding: 6px 12px;
+  border-left: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+.acat-toc nav a:hover { color: var(--acat-text); }
+.acat-toc nav a.active {
+  color: var(--acat-text); font-weight: 600;
+  border-left-color: var(--acat-red);
+}
+.acat-toc-count { font-size: 11.5px; color: #8d7d82; font-variant-numeric: tabular-nums; }
+
+/* ── Responsive ─────────────────────────────────────────────── */
+@media (max-width: 1100px) {
+  .acat-wrap { grid-template-columns: minmax(0, 800px); }
+  .acat-toc { display: none; }
+}
+@media (max-width: 560px) {
+  .acat-wrap { padding: 40px 18px 72px; }
+  .acat-card { flex-direction: column; gap: 8px; padding: 16px 18px; }
+}

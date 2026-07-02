@@ -1,0 +1,231 @@
+/* ================================================================
+   BigLedger — applet detail pages (dark theme reading layout)
+   Loaded only by layouts/applets/single.html.
+================================================================ */
+
+:root {
+  --apd-bg: #100b0d;
+  --apd-card: #1d1518;
+  --apd-border: #2e2226;
+  --apd-text: #f4eff0;
+  --apd-text-2: #b3a6aa;
+  --apd-red: #e5333f;
+}
+
+html, body { background: var(--apd-bg); }
+body {
+  color: var(--apd-text);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.bl-network-bg { display: none; }
+
+/* ── Layout: centered reading column + slim TOC ─────────────── */
+.apd-wrap {
+  display: grid;
+  grid-template-columns: minmax(0, 800px) 240px;
+  justify-content: center;
+  gap: 56px;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 48px 24px 96px;
+}
+.apd-wrap.apd-no-toc { grid-template-columns: minmax(0, 800px); }
+.apd-main { min-width: 0; }
+
+/* ── Breadcrumb, title, badges, tagline ─────────────────────── */
+.apd-crumb {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  font-size: 13px; color: var(--apd-text-2); margin-bottom: 20px;
+}
+.apd-crumb a { color: var(--apd-text-2); text-decoration: none; transition: color 0.15s; }
+.apd-crumb a:hover { color: var(--apd-text); }
+.apd-crumb > span:not(:last-child) { color: #6d5c61; }
+
+.apd-main h1 {
+  font-size: clamp(30px, 4.5vw, 40px); font-weight: 800; letter-spacing: -0.025em;
+  line-height: 1.15; margin: 0 0 14px; color: var(--apd-text);
+}
+
+.apd-badges { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+.apd-badge {
+  display: inline-flex; align-items: center;
+  height: 24px; padding: 0 11px; border-radius: 999px;
+  font-size: 12px; font-weight: 600; white-space: nowrap;
+}
+.apd-badge-module {
+  background: rgba(229, 51, 63, 0.14);
+  border: 1px solid rgba(229, 51, 63, 0.3);
+  color: var(--apd-red);
+}
+.apd-badge-category {
+  background: transparent;
+  border: 1px solid var(--apd-border);
+  color: var(--apd-text-2);
+}
+
+.apd-tagline {
+  font-size: 16.5px; line-height: 1.65; color: var(--apd-text-2);
+  margin: 0 0 8px;
+}
+
+/* ── Content typography ─────────────────────────────────────── */
+.apd-content { font-size: 16.5px; line-height: 1.7; color: var(--apd-text-2); }
+
+.apd-content h1, .apd-content h2, .apd-content h3, .apd-content h4 {
+  color: var(--apd-text); letter-spacing: -0.015em; line-height: 1.3;
+  scroll-margin-top: 88px; /* anchor jumps clear the sticky header */
+}
+/* a few legacy pages use H1s in the body; render them like section headings */
+.apd-content h1,
+.apd-content h2 {
+  font-size: 23px; font-weight: 700; margin: 44px 0 14px;
+  padding-bottom: 10px; border-bottom: 1px solid var(--apd-border);
+}
+.apd-content h3 { font-size: 18px; font-weight: 650; margin: 32px 0 10px; }
+.apd-content h4 { font-size: 15.5px; font-weight: 600; margin: 24px 0 8px; }
+
+.apd-content p { margin: 0 0 16px; }
+.apd-content strong { color: var(--apd-text); font-weight: 600; }
+.apd-content a { color: var(--apd-red); text-decoration: none; }
+.apd-content a:hover { text-decoration: underline; }
+
+.apd-content ul, .apd-content ol { margin: 0 0 16px; padding-left: 24px; }
+.apd-content li { margin: 4px 0; }
+.apd-content li::marker { color: rgba(229, 51, 63, 0.6); }
+
+.apd-content hr { border: none; border-top: 1px solid var(--apd-border); margin: 36px 0; }
+.apd-content img { max-width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--apd-border); }
+
+.apd-content blockquote {
+  margin: 0 0 16px; padding: 4px 20px;
+  border-left: 3px solid var(--apd-red);
+  color: var(--apd-text-2); font-style: italic;
+}
+
+/* Tables: styled dark, scroll within themselves rather than the page */
+.apd-content table {
+  display: block; overflow-x: auto;
+  width: max-content; max-width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 20px; font-size: 14px; line-height: 1.55;
+}
+.apd-content th, .apd-content td {
+  border: 1px solid var(--apd-border); padding: 9px 14px; text-align: left;
+}
+.apd-content th {
+  background: var(--apd-card); color: var(--apd-text); font-weight: 600;
+}
+.apd-content tr:nth-child(even) td { background: rgba(255, 255, 255, 0.015); }
+
+/* Code */
+.apd-content code {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.86em;
+  background: var(--apd-card); border: 1px solid var(--apd-border);
+  border-radius: 6px; padding: 2px 6px; color: var(--apd-text);
+}
+.apd-content pre {
+  background: var(--apd-card); border: 1px solid var(--apd-border);
+  border-radius: 14px; padding: 16px 20px; margin: 0 0 20px;
+  overflow-x: auto; font-size: 13.5px; line-height: 1.6;
+}
+.apd-content pre code { background: none; border: none; padding: 0; }
+.apd-content .highlight { margin: 0 0 20px; }
+.apd-content .highlight pre { margin: 0; }
+
+/* Hextra callout shortcodes → red-tinted callouts with a left red border.
+   The theme emits no stable class, so match its rounded/bordered wrapper. */
+.apd-content [class*="hx:rounded-lg"][class*="hx:border"] {
+  background: rgba(229, 51, 63, 0.08) !important;
+  border: 1px solid rgba(229, 51, 63, 0.28) !important;
+  border-left: 3px solid var(--apd-red) !important;
+  border-radius: 14px !important;
+  color: var(--apd-text-2) !important;
+  margin: 0 0 20px; padding-top: 12px; padding-bottom: 12px;
+}
+.apd-content [class*="hx:rounded-lg"][class*="hx:border"] strong { color: var(--apd-text); }
+.apd-content [class*="hx:rounded-lg"][class*="hx:border"] p { margin: 0; }
+
+/* Hextra cards shortcode (used on a few pages) */
+.apd-content .hextra-cards { margin: 0 0 20px; }
+.apd-content .hextra-card {
+  background: var(--apd-card) !important;
+  border: 1px solid var(--apd-border) !important;
+  border-radius: 14px !important;
+  color: var(--apd-text) !important;
+}
+.apd-content .hextra-card:hover { border-color: rgba(229, 51, 63, 0.4) !important; }
+
+/* ── Previous / next navigation ─────────────────────────────── */
+.apd-pagenav {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 14px;
+  margin-top: 56px;
+}
+.apd-pagenav-card {
+  display: flex; flex-direction: column; gap: 5px;
+  background: var(--apd-card); border: 1px solid var(--apd-border);
+  border-radius: 14px; padding: 16px 20px;
+  text-decoration: none; min-width: 0;
+  transition: transform 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease;
+}
+a.apd-pagenav-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(229, 51, 63, 0.4);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.4);
+}
+.apd-pagenav-next { text-align: right; }
+.apd-pagenav-empty { visibility: hidden; }
+.apd-pagenav-dir {
+  font-size: 11.5px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--apd-red);
+}
+.apd-pagenav-title {
+  font-size: 14.5px; font-weight: 600; color: var(--apd-text); line-height: 1.4;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.apd-back { margin: 20px 0 0; text-align: center; }
+.apd-back a {
+  font-size: 13.5px; color: var(--apd-text-2); text-decoration: none;
+  transition: color 0.15s;
+}
+.apd-back a:hover { color: var(--apd-red); }
+
+/* ── "On this page" side menu ───────────────────────────────── */
+.apd-toc {
+  position: sticky; top: 96px; /* below the 68px sticky site header */
+  align-self: start;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  padding-top: 62px; /* roughly aligns with the H1 */
+}
+.apd-toc-title {
+  display: block;
+  font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.09em;
+  color: #8d7d82; margin-bottom: 12px; padding-left: 14px;
+}
+.apd-toc nav ul { list-style: none; margin: 0; padding: 0; }
+.apd-toc nav ul ul { padding-left: 14px; }
+.apd-toc nav a {
+  display: block;
+  font-size: 13px; color: var(--apd-text-2); text-decoration: none;
+  line-height: 1.45; padding: 5px 12px;
+  border-left: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+.apd-toc nav a:hover { color: var(--apd-text); }
+.apd-toc nav a.active {
+  color: var(--apd-red); font-weight: 600;
+  border-left-color: var(--apd-red);
+}
+
+/* ── Responsive ─────────────────────────────────────────────── */
+@media (max-width: 1100px) {
+  .apd-wrap { grid-template-columns: minmax(0, 800px); }
+  .apd-toc { display: none; }
+}
+@media (max-width: 560px) {
+  .apd-wrap { padding: 36px 18px 72px; }
+  .apd-pagenav { grid-template-columns: 1fr; }
+  .apd-pagenav-next { text-align: left; }
+  .apd-pagenav-empty { display: none; }
+}

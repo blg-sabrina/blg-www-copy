@@ -1,27 +1,244 @@
-{{ define "main" }}
-  <div class='hx:mx-auto hx:flex hextra-max-page-width'>
-    {{ partial "sidebar.html" (dict "context" . "disableSidebar" false "displayPlaceholder" false) }}
-    {{ partial "toc.html" . }}
-    <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
-      <main class="hx:w-full hx:min-w-0 hx:max-w-6xl hx:px-6 hx:pt-4 hx:md:px-12">
-        <!-- Breadcrumb for applets -->
-        <nav class="hx:mb-4">
-          <ol class="hx:flex hx:items-center hx:space-x-2 hx:text-sm hx:text-gray-500">
-            <li><a href="/" class="hx:hover:text-gray-700">Home</a></li>
-            <li>&gt;</li>
-            <li class="hx:text-gray-900 hx:dark:text-gray-100">{{ .Title }}</li>
-          </ol>
-        </nav>
+{{ define "header" }}
+<link rel="stylesheet" href="{{ "css/applets-catalog.css" | relURL }}">
+<header class="ac-nav">
+  <div class="ac-nav-inner">
+    <a href="{{ "/" | relLangURL }}" class="ac-logo" aria-label="{{ .Site.Title }}">
+      <img src="{{ "images/bigledger-logo-cropped.png" | relURL }}" alt="BigLedger">
+    </a>
 
-        <br class="hx:mt-1.5 hx:text-sm" />
-        {{ if .Title }}<h1 class="hx:text-center hx:mt-2 hx:text-4xl hx:font-bold hx:tracking-tight hx:text-slate-900 hx:dark:text-slate-100">{{ .Title }}</h1>{{ end }}
-        <div class="hx:mb-16"></div>
-        <div class="content">
-          {{ .Content }}
+    <nav class="ac-links" id="acLinks">
+      <a href="{{ "/about" | relLangURL }}">About</a>
+      <a href="{{ "/solutions" | relLangURL }}">Solutions</a>
+      <a href="{{ "/applets/" | relLangURL }}" class="active" aria-current="page">Applets</a>
+      <a href="{{ "/modules/" | relLangURL }}">Modules</a>
+      <a href="{{ "/pricing" | relLangURL }}">Pricing</a>
+      <a href="{{ "/developers" | relLangURL }}">Developers</a>
+      <a href="{{ "/contact" | relLangURL }}">Contact</a>
+    </nav>
+
+    <div class="ac-actions">
+      {{ if gt (len .Site.Languages) 1 }}
+      {{ $current := . }}
+      <div class="ac-lang">
+        <button type="button" aria-haspopup="true" aria-expanded="false">
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="10" cy="10" r="8"/><path d="M2 10h16M10 2c2.2 2.2 3.5 5.2 3.5 8s-1.3 5.8-3.5 8c-2.2-2.2-3.5-5.2-3.5-8s1.3-5.8 3.5-8z"/></svg>
+          <span>{{ .Language.Lang | upper }}</span>
+          <svg class="ac-caret" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+        </button>
+        <div class="ac-lang-menu" role="menu">
+          {{ range .Sites }}
+          {{ $siteLang := .Language.Lang }}
+          {{ $target := .Home.Permalink }}
+          {{ range $current.Translations }}
+            {{ if eq .Language.Lang $siteLang }}{{ $target = .Permalink }}{{ end }}
+          {{ end }}
+          {{ if eq $siteLang $current.Language.Lang }}{{ $target = $current.Permalink }}{{ end }}
+          <a href="{{ $target }}"{{ if eq $siteLang $current.Language.Lang }} class="active"{{ end }}>{{ .Language.LanguageName }}</a>
+          {{ end }}
         </div>
-        <div class="hx:mt-16"></div>
-        {{ partial "components/comments.html" . }}
-      </main>
-    </article>
+      </div>
+      {{ end }}
+      <a href="{{ "/contact" | relLangURL }}" class="ac-btn">Request Demo</a>
+      <button type="button" class="ac-burger" id="acBurger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
+</header>
+{{ end }}
+
+{{ define "main" }}
+{{/* ---- catalog data: display name + slug per section, in spec order ---- */}}
+{{ $sections := slice
+  (dict "name" "Marketplace &amp; directories" "cat" "marketplace-guides" "items" (slice
+    (dict "n" "Complete Applet Catalog" "s" "applet-catalog" "badge" "Start here")
+    (dict "n" "Applet Directory" "s" "applet-directory")
+    (dict "n" "Applet Store" "s" "applet-store")))
+  (dict "name" "Core module" "cat" "core" "items" (slice
+    (dict "n" "Tenant Admin" "s" "tenant-admin-applet")
+    (dict "n" "Chart of Accounts" "s" "chart-of-account-applet")
+    (dict "n" "General Ledger" "s" "general-ledger-applet")
+    (dict "n" "Cashbook" "s" "cashbook-applet")
+    (dict "n" "Tax Configuration" "s" "tax-configuration-applet")
+    (dict "n" "Organization" "s" "organization-applet")
+    (dict "n" "Customer Maintenance" "s" "customer-maintenance-applet")
+    (dict "n" "Supplier Maintenance" "s" "supplier-maintenance-applet")
+    (dict "n" "Employee Maintenance" "s" "employee-maintenance-applet")
+    (dict "n" "Inventory Item Maintenance" "s" "inv-item-maintenance-applet")
+    (dict "n" "Document Item Maintenance" "s" "doc-item-maintenance-applet")
+    (dict "n" "Accounts Receivable" "s" "accounts-receivable-applet")
+    (dict "n" "Workflow Design" "s" "workflow-design-applet")))
+  (dict "name" "Organization &amp; admin" "cat" "org" "items" (slice
+    (dict "n" "Company Organization" "s" "company-organization-applet")
+    (dict "n" "Branch Organization" "s" "branch-organization-applet")
+    (dict "n" "Location Organization" "s" "location-organization-applet")
+    (dict "n" "Settings of Organization" "s" "settings-of-organization-applet")
+    (dict "n" "Group Maintenance" "s" "group-maintenance-applet")
+    (dict "n" "Team Maintenance" "s" "team-maintenance-applet")
+    (dict "n" "T2T Admin" "s" "t2t-admin-applet")
+    (dict "n" "Process Monitoring" "s" "process-monitoring-applet")
+    (dict "n" "Webhook" "s" "webhook-applet")))
+  (dict "name" "Inventory &amp; operations" "cat" "inventory" "items" (slice
+    (dict "n" "Stock Take" "s" "stock-take-applet")
+    (dict "n" "Stock Balance" "s" "stock-balance-applet")
+    (dict "n" "Internal Stock Adjustment" "s" "internal-stock-adjustment-applet")
+    (dict "n" "Internal Delivery Order" "s" "internal-delivery-order-applet")
+    (dict "n" "Related Applets: Internal Job Order" "s" "related-applets-internal-job-order")
+    (dict "n" "Related Applets: Internal Stock Adjustment" "s" "related-applets-internal-stock-adjustment")
+    (dict "n" "Related Applets: Process Monitoring" "s" "related-applets-process-monitoring")
+    (dict "n" "Related Applets: Stock Balance" "s" "related-applets-stock-balance")))
+  (dict "name" "Customer engagement" "cat" "customer" "items" (slice
+    (dict "n" "Membership Admin Console" "s" "membership-admin-console-applet")
+    (dict "n" "Membership Program" "s" "membership-program")
+    (dict "n" "Membership Points Currency" "s" "membership-points-currency")
+    (dict "n" "Unified Contact Center (UCC)" "s" "unified-contact-center-ucc-applet")
+    (dict "n" "AI Customer Analytics" "s" "ai-customer-analytics-applet")))
+  (dict "name" "Pricing &amp; commerce" "cat" "pricing" "items" (slice
+    (dict "n" "Pricebook" "s" "pricebook-applet")
+    (dict "n" "POS Terminal" "s" "pos-terminal-applet")
+    (dict "n" "E-Commerce Catalog" "s" "ecommerce-catalog-applet")
+    (dict "n" "EcomSync Related" "s" "90-ecomsync-related-applets")
+    (dict "n" "E-Invoice Generation" "s" "einvoice-generation-applet")
+    (dict "n" "Ingram Micro MS ESD" "s" "ingram-micro-ms-esd-applet")
+    (dict "n" "VSTECS MS ESD Order" "s" "vstecs-ms-esd-order-applet")))
+  (dict "name" "Installation &amp; introductions" "cat" "marketplace-guides" "items" (slice
+    (dict "n" "Installation: Group Maintenance" "s" "installation-of-group-maintenance-applet")
+    (dict "n" "Installation: Pricebook" "s" "installation-of-pricebook-applet")
+    (dict "n" "Installation: Team Maintenance" "s" "installation-of-team-maintenance-applet")
+    (dict "n" "Introduction: Membership Admin Console" "s" "introduction-to-membership-admin-console-applet")
+    (dict "n" "Introduction: Stock Take" "s" "introduction-to-stock-take-applet")
+    (dict "n" "Introduction: Team Maintenance" "s" "introduction-to-team-maintenance-applet")))
+}}
+
+<div class="ac-page">
+  <!-- Hero -->
+  <section class="ac-hero">
+    <nav class="ac-crumb" aria-label="Breadcrumb">
+      <a href="{{ "/" | relLangURL }}">Home</a>
+      <span class="ac-crumb-sep">&rsaquo;</span>
+      <span>Applets and Workflows</span>
+    </nav>
+    <h1>Applets &amp; <span class="ac-red">Workflows</span></h1>
+    <p class="ac-hero-intro">BigLedger&rsquo;s modular architecture is built on applets &mdash; reusable components that provide specific business functionality. Each applet can be used by multiple modules, ensuring consistency across your entire system.</p>
+  </section>
+
+  <!-- Search + category pills -->
+  <section class="ac-controls">
+    <div class="ac-search">
+      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="9" cy="9" r="6.5"/><path d="M14 14l4 4"/></svg>
+      <input type="search" id="acSearch" placeholder="Search applets by name&hellip;" aria-label="Search applets">
+    </div>
+    <div class="ac-pills" role="group" aria-label="Filter by category">
+      <button type="button" class="ac-pill active" data-cat="all">All</button>
+      <button type="button" class="ac-pill" data-cat="core">Core module</button>
+      <button type="button" class="ac-pill" data-cat="org">Organization &amp; admin</button>
+      <button type="button" class="ac-pill" data-cat="inventory">Inventory &amp; operations</button>
+      <button type="button" class="ac-pill" data-cat="customer">Customer engagement</button>
+      <button type="button" class="ac-pill" data-cat="pricing">Pricing &amp; commerce</button>
+      <button type="button" class="ac-pill" data-cat="marketplace-guides">Marketplace &amp; guides</button>
+    </div>
+  </section>
+
+  <!-- Feature tiles -->
+  <section class="ac-tiles">
+    <div class="ac-tile"><h3>Reusable</h3><p>One applet serves multiple modules.</p></div>
+    <div class="ac-tile"><h3>Configurable</h3><p>Customize to your business needs.</p></div>
+    <div class="ac-tile"><h3>Integrated</h3><p>Applets work together seamlessly.</p></div>
+    <div class="ac-tile"><h3>Independent</h3><p>Updated without affecting others.</p></div>
+  </section>
+
+  <!-- Many-to-many note -->
+  <aside class="ac-note">
+    <strong>Many-to-many by design:</strong> applets are shared across modules. For example, the Tax Configuration Applet is used by the Financial Accounting, Sales, Purchasing, and E-Commerce modules &mdash; one applet, one source of truth, consistent behavior everywhere.
+  </aside>
+
+  <!-- Card catalog -->
+  {{ range $sec := $sections }}
+  {{ $items := slice }}
+  {{ range $it := $sec.items }}
+    {{ with $.Site.GetPage (printf "/applets/%s" $it.s) }}
+      {{ $items = $items | append (dict "page" . "n" $it.n "badge" (index $it "badge")) }}
+    {{ end }}
+  {{ end }}
+  {{ if $items }}
+  <section class="ac-section" data-cat="{{ $sec.cat }}">
+    <div class="ac-section-head">
+      <h2>{{ $sec.name | safeHTML }}</h2>
+      <span class="ac-count">{{ len $items }}</span>
+    </div>
+    <div class="ac-grid">
+      {{ range $items }}
+      <a class="ac-card" href="{{ .page.RelPermalink }}" data-name="{{ lower .n }} {{ lower .page.Title }}">
+        <div class="ac-card-head">
+          <h3>{{ .n }}</h3>
+          {{ with .badge }}<span class="ac-badge">{{ . }}</span>{{ end }}
+        </div>
+        <p>{{ .page.Description | default (.page.Summary | plainify) | truncate 130 }}</p>
+        <span class="ac-arrow" aria-hidden="true">&rarr;</span>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+  {{ end }}
+
+  <div class="ac-empty" id="acEmpty" hidden>
+    <p>No applets match your search.</p>
+  </div>
+</div>
+
+<script>
+(function () {
+  var search = document.getElementById('acSearch');
+  var pills = Array.prototype.slice.call(document.querySelectorAll('.ac-pill'));
+  var sections = Array.prototype.slice.call(document.querySelectorAll('.ac-section'));
+  var empty = document.getElementById('acEmpty');
+  var cat = 'all';
+
+  function apply() {
+    var q = search.value.trim().toLowerCase();
+    var total = 0;
+    sections.forEach(function (sec) {
+      var catMatch = cat === 'all' || sec.getAttribute('data-cat') === cat;
+      var visible = 0;
+      Array.prototype.forEach.call(sec.querySelectorAll('.ac-card'), function (card) {
+        var show = catMatch && (q === '' || card.getAttribute('data-name').indexOf(q) !== -1);
+        card.style.display = show ? '' : 'none';
+        if (show) visible++;
+      });
+      sec.style.display = visible ? '' : 'none';
+      total += visible;
+    });
+    empty.hidden = total > 0;
+  }
+
+  search.addEventListener('input', apply);
+  pills.forEach(function (pill) {
+    pill.addEventListener('click', function () {
+      pills.forEach(function (p) { p.classList.remove('active'); });
+      pill.classList.add('active');
+      cat = pill.getAttribute('data-cat');
+      apply();
+    });
+  });
+
+  var nav = document.querySelector('.ac-nav');
+  var burger = document.getElementById('acBurger');
+  if (burger) {
+    burger.addEventListener('click', function () {
+      var open = nav.classList.toggle('open');
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  }
+
+  var lang = document.querySelector('.ac-lang');
+  if (lang) {
+    lang.querySelector('button').addEventListener('click', function (e) {
+      e.stopPropagation();
+      lang.classList.toggle('open');
+    });
+    document.addEventListener('click', function () { lang.classList.remove('open'); });
+  }
+})();
+</script>
 {{ end }}
