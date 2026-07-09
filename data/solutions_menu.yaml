@@ -89,43 +89,42 @@ columns:
   - label: "By Function"
     wide: true
     links:
-      # count = applets in the matching /applets/applet-catalog/ section;
-      # anchors must match the section ids generated on that page.
+      # Every tile leads to a marketing landing page; count = applets in the
+      # matching /applets/applet-catalog/ section (shown as a sublabel).
       - name: "Financial accounting"
-        url: "/applets/applet-catalog/#accounting"
+        url: "/functions/financial-accounting/"
         icon: invoice
         count: 25
       - name: "E-Invoice & PEPPOL"
-        url: "/applets/applet-catalog/#e-invoice"
+        url: "/functions/e-invoice-peppol/"
         icon: receipt
         count: 8
       - name: "Sales & CRM"
-        url: "/applets/applet-catalog/#digital-crm"
+        url: "/functions/sales-crm/"
         icon: funnel
         count: 3
       - name: "Point of sale"
-        url: "/applets/applet-catalog/#point-of-sales"
+        url: "/functions/point-of-sale/"
         icon: tag
         count: 6
       - name: "E-Commerce"
-        url: "/applets/applet-catalog/#cp-commerce"
+        url: "/functions/e-commerce/"
         icon: cloud
         count: 20
       - name: "Inventory & warehouse"
-        url: "/applets/applet-catalog/#erp"
+        url: "/functions/inventory-warehouse/"
         icon: warehouse
         count: 41
       - name: "Purchasing"
-        url: "/applets/applet-catalog/#erp"
+        url: "/functions/purchasing/"
         icon: truck
         count: 41
       - name: "Manufacturing"
-        url: "/applets/applet-catalog/#erp"
+        url: "/functions/manufacturing/"
         icon: gear
         count: 41
-      # No matching catalog section — keep the module pages, no count label.
       - name: "HR & payroll"
-        url: "/modules/hr-payroll/"
+        url: "/functions/hr-payroll/"
         icon: users
       - name: "Claims"
         url: "/modules/claims/"
@@ -134,5 +133,5 @@ columns:
         url: "/modules/membership/"
         icon: star
       - name: "Projects"
-        url: "/modules/projects/"
+        url: "/functions/projects/"
         icon: chart

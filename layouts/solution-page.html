@@ -7,6 +7,12 @@
       {{ with .Params.eyebrow }}<p class="bl-inner-eyebrow" data-reveal="up" data-delay="0">{{ . }}</p>{{ end }}
       <h1 class="bl-inner-headline" data-reveal="up" data-delay="80">{{ .Title }}</h1>
       <p class="bl-inner-sub" data-reveal="up" data-delay="160">{{ .Description }}</p>
+      {{ if or .Params.docs_url .Params.catalog_url }}
+      <div class="bl-inner-links" data-reveal="up" data-delay="240">
+        {{ with .Params.docs_url }}<a href="{{ . }}" class="bl-inner-link">View full documentation <span aria-hidden="true">→</span></a>{{ end }}
+        {{ with .Params.catalog_url }}<a href="{{ . }}" class="bl-inner-link">{{ $.Params.catalog_label | default "Browse the applet catalog" }} <span aria-hidden="true">→</span></a>{{ end }}
+      </div>
+      {{ end }}
     </div>
   </div>
 </section>

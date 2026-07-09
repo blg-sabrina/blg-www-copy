@@ -21,7 +21,7 @@ Have questions? We're here to help. Reach out to us through any of the channels 
 
 ### 💬 Sales Inquiry
 
-**Sabrina Fatimah** - Sales Director
+**Sabrina Fatimah**
 - Email: [fatimah@bigledger.com](mailto:fatimah@bigledger.com)
 - Phone: [+60 10-839 9393](tel:+60108399393)
 

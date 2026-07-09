@@ -1,50 +1,80 @@
 # Canonical module reading order for the /modules/ chapter navigation.
 # count = applets in the matching /applets/applet-catalog/ section (omit when unknown).
+# category = grouping used by the two-pane module explorer (must match an id below).
+categories:
+  - id: operate
+    label: "Operate"
+  - id: finance
+    label: "Finance & compliance"
+  - id: sell
+    label: "Sell & serve"
+  - id: supply
+    label: "Supply chain"
+  - id: people
+    label: "People"
 modules:
   - name: "Core module"
     url: "/modules/core/"
     count: 13
     role: "Required by all modules"
+    category: operate
   - name: "Financial Accounting module"
     url: "/modules/financial-accounting/"
+    category: finance
   - name: "Accounting module"
     url: "/modules/accounting/"
     count: 25
+    category: finance
   - name: "POS module"
     url: "/modules/pos/"
     count: 6
+    category: sell
   - name: "CP-Commerce module"
     url: "/modules/cp-commerce/"
     count: 20
+    category: sell
   - name: "E-Invoice module"
     url: "/modules/e-invoice/"
     count: 8
+    category: finance
   - name: "Sales & CRM module"
     url: "/modules/sales-crm/"
+    category: sell
   - name: "Digital CRM module"
     url: "/modules/digital-crm/"
     count: 3
+    category: sell
   - name: "Purchasing module"
     url: "/modules/purchasing/"
+    category: supply
   - name: "Inventory & Warehouse module"
     url: "/modules/inventory-warehouse/"
+    category: supply
   - name: "ERP module"
     url: "/modules/erp/"
     count: 41
+    category: operate
   - name: "IT & CE module"
     url: "/modules/it-ce/"
     count: 6
+    category: operate
   - name: "Manufacturing module"
     url: "/modules/manufacturing/"
+    category: supply
   - name: "Service Industry module"
     url: "/modules/service-industry/"
     count: 7
+    category: operate
   - name: "Drop Shipping module"
     url: "/modules/drop-shipping/"
     count: 2
+    category: supply
   - name: "HR & Payroll module"
     url: "/modules/hr-payroll/"
+    category: people
   - name: "E-Commerce module"
     url: "/modules/ecommerce/"
+    category: sell
   - name: "Projects module"
     url: "/modules/projects/"
+    category: people

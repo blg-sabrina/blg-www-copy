@@ -1,14 +1,43 @@
 <link rel="stylesheet" href="{{ "css/module-page.css" | relURL }}">
 
 {{ $chapters := .Site.Data.modules_chapters.modules }}
+{{ $categories := .Site.Data.modules_chapters.categories }}
 {{ $cur := .RelPermalink }}
 {{ $idx := -1 }}
 {{ range $i, $c := $chapters }}
   {{ if and (eq $idx -1) (hasPrefix $cur ($c.url | relLangURL)) }}{{ $idx = $i }}{{ end }}
 {{ end }}
 {{ $chapter := "" }}{{ if ge $idx 0 }}{{ $chapter = index $chapters $idx }}{{ end }}
+{{ $curCategory := "" }}{{ if $chapter }}{{ $curCategory = $chapter.category }}{{ end }}
+{{ if and (not $curCategory) $categories }}{{ $curCategory = (index $categories 0).id }}{{ end }}
 
 <div class="modp-wrap">
+  <nav class="modp-explorer" aria-label="Browse modules">
+    <div class="modp-explorer-cats" role="tablist" aria-label="Module categories">
+      {{ range $categories }}
+      <button type="button" class="modp-cat-btn{{ if eq .id $curCategory }} active{{ end }}"
+              data-cat="{{ .id }}" role="tab" aria-selected="{{ if eq .id $curCategory }}true{{ else }}false{{ end }}">
+        {{ .label }}
+      </button>
+      {{ end }}
+    </div>
+    <div class="modp-explorer-mods">
+      {{ range $categories }}
+      {{ $cid := .id }}
+      <div class="modp-cat-panel" data-cat-panel="{{ .id }}" role="tabpanel"{{ if ne .id $curCategory }} hidden{{ end }}>
+        {{ range $chapters }}
+        {{ if eq .category $cid }}
+        <a href="{{ .url | relLangURL }}" class="modp-explorer-mod{{ if eq (.url | relLangURL) $cur }} current{{ end }}">
+          <span>{{ .name }}</span>
+          {{ with .count }}<span class="modp-explorer-count">{{ . }}</span>{{ end }}
+        </a>
+        {{ end }}
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </nav>
+
   <article class="modp-main">
     <nav class="modp-crumb" aria-label="Breadcrumb">
       <a href="{{ "/" | relLangURL }}">Home</a>
@@ -320,6 +349,25 @@ window.__appletMap = {{ $m := dict }}{{ range where .Site.RegularPages "Section"
     spy();
   } else {
     document.querySelector('.modp-wrap').classList.add('modp-no-toc');
+  }
+
+  /* ── two-pane module explorer: category switch (progressive enhancement —
+     server already renders the current module's category open) ── */
+  var explorer = document.querySelector('.modp-explorer');
+  if (explorer) {
+    var catBtns = Array.prototype.slice.call(explorer.querySelectorAll('.modp-cat-btn'));
+    var panels = Array.prototype.slice.call(explorer.querySelectorAll('.modp-cat-panel'));
+    catBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var id = btn.dataset.cat;
+        catBtns.forEach(function (b) {
+          var on = b === btn;
+          b.classList.toggle('active', on);
+          b.setAttribute('aria-selected', on ? 'true' : 'false');
+        });
+        panels.forEach(function (p) { p.hidden = p.dataset.catPanel !== id; });
+      });
+    });
   }
 
   /* ── all-modules toggle ── */

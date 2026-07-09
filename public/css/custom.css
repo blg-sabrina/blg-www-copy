@@ -1387,6 +1387,13 @@ code, pre { font-family: var(--fm); }
   font-size: 18px; color: var(--tx-2); line-height: 1.75;
   max-width: 600px; margin-bottom: 40px;
 }
+.bl-inner-links { display: flex; flex-wrap: wrap; gap: 12px 28px; margin: -16px 0 40px; }
+.bl-inner-link {
+  font-size: 14px; font-weight: 600; color: var(--tx-2);
+  transition: color 0.15s;
+}
+.bl-inner-link span { color: var(--cr); }
+.bl-inner-link:hover { color: var(--tx-1); }
 
 .bl-page-section { padding: 96px 0; }
 .bl-section-alt { background: var(--bg-1-t); border-top: 1px solid var(--bd); border-bottom: 1px solid var(--bd); }

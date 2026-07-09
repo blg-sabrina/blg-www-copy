@@ -20,17 +20,71 @@ body {
 .bl-network-bg { display: none; }
 
 /* ── Layout ─────────────────────────────────────────────────── */
+/* Three columns (explorer / content / toc) only fit past 1400px; the two
+   narrower breakpoints below progressively drop the explorer, then the toc,
+   back to the original two- and one-column layouts. */
 .modp-wrap {
   display: grid;
-  grid-template-columns: minmax(0, 800px) 240px;
+  grid-template-columns: 296px minmax(0, 700px) 230px;
   justify-content: center;
-  gap: 56px;
-  max-width: 1160px;
+  gap: 40px;
+  max-width: 1320px;
   margin: 0 auto;
   padding: 48px 24px 96px;
 }
-.modp-wrap.modp-no-toc { grid-template-columns: minmax(0, 800px); }
+.modp-wrap.modp-no-toc { grid-template-columns: 296px minmax(0, 700px); }
 .modp-main { min-width: 0; }
+
+@media (max-width: 1399px) {
+  .modp-wrap { grid-template-columns: minmax(0, 800px) 240px; gap: 56px; max-width: 1160px; }
+  .modp-wrap.modp-no-toc { grid-template-columns: minmax(0, 800px); }
+  .modp-explorer { display: none !important; }
+}
+@media (max-width: 1100px) {
+  .modp-wrap { grid-template-columns: minmax(0, 800px); }
+  .modp-toc { display: none !important; }
+}
+
+/* ── Two-pane module explorer ───────────────────────────────── */
+.modp-explorer {
+  display: none; /* shown at >=1400px only, see breakpoint above */
+  flex-direction: row;
+  position: sticky; top: 96px; align-self: start;
+  width: 296px; max-height: calc(100vh - 120px);
+  background: var(--modp-card); border: 1px solid var(--modp-border); border-radius: 14px;
+  overflow: hidden;
+}
+@media (min-width: 1400px) { .modp-explorer { display: flex; } }
+
+.modp-explorer-cats {
+  width: 106px; flex: none;
+  border-right: 1px solid var(--modp-border);
+  padding: 14px 7px; overflow-y: auto;
+  display: flex; flex-direction: column; gap: 2px;
+}
+.modp-cat-btn {
+  display: block; width: 100%; text-align: left;
+  background: none; border: none; cursor: pointer;
+  font: inherit; font-size: 12px; font-weight: 600; line-height: 1.35;
+  color: var(--modp-text-2); padding: 8px 8px; border-radius: 8px;
+  transition: color 0.15s, background 0.15s;
+}
+.modp-cat-btn:hover { background: rgba(255, 255, 255, 0.03); color: var(--modp-text); }
+.modp-cat-btn.active { background: rgba(229, 51, 63, 0.12); color: var(--modp-red); }
+
+.modp-explorer-mods { flex: 1; min-width: 0; padding: 14px 10px; overflow-y: auto; }
+.modp-cat-panel[hidden] { display: none; }
+.modp-explorer-mod {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  padding: 8px 10px; border-radius: 8px; text-decoration: none;
+  font-size: 12.5px; color: var(--modp-text-2);
+  transition: color 0.15s, background 0.15s;
+}
+.modp-explorer-mod:hover { background: rgba(255, 255, 255, 0.03); color: var(--modp-text); }
+.modp-explorer-mod.current { background: rgba(229, 51, 63, 0.1); color: var(--modp-red); font-weight: 600; }
+.modp-explorer-mod span:first-child { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.modp-explorer-count { font-size: 11px; color: #8d7d82; flex: none; font-variant-numeric: tabular-nums; }
+.modp-explorer-mod.current .modp-explorer-count { color: var(--modp-red); }
 
 /* ── Breadcrumb, title, badges ──────────────────────────────── */
 .modp-crumb {
@@ -343,15 +397,19 @@ a.modp-chapter-card:hover {
   font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.09em;
   color: #8d7d82; margin-bottom: 12px; padding-left: 14px;
 }
-.modp-toc nav { display: flex; flex-direction: column; }
+.modp-toc nav { display: flex; flex-direction: column; gap: 6px; padding-left: 14px; }
 .modp-toc nav a {
-  display: block; font-size: 13.5px; color: var(--modp-text-2); text-decoration: none;
-  line-height: 1.45; padding: 6px 12px;
-  border-left: 2px solid transparent;
-  transition: color 0.15s, border-color 0.15s;
+  display: block; font-size: 12.5px; line-height: 1.4;
+  color: var(--modp-text-2); text-decoration: none;
+  padding: 7px 13px;
+  border: 1px solid var(--modp-border); border-radius: 999px;
+  transition: color 0.15s, background 0.15s, border-color 0.15s;
 }
-.modp-toc nav a:hover { color: var(--modp-text); }
-.modp-toc nav a.active { color: var(--modp-red); font-weight: 600; border-left-color: var(--modp-red); }
+.modp-toc nav a:hover { color: var(--modp-text); border-color: #453338; }
+.modp-toc nav a.active {
+  background: rgba(229, 51, 63, 0.12); border-color: var(--modp-red);
+  color: var(--modp-red); font-weight: 600;
+}
 
 /* ── Responsive ─────────────────────────────────────────────── */
 @media (max-width: 1100px) {

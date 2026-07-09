@@ -770,3 +770,251 @@ dedicated-partner-support:
 co-marketing-opportunities:
   name: "Co-marketing opportunities"
   icon: star
+
+# ── By Function landing pages (/functions/*) ─────────────────────
+
+fn-general-ledger-coa:
+  name: "General ledger & chart of accounts"
+  desc: "Every transaction posts to a double-entry ledger built on a chart of accounts you structure once — account hierarchies, financial statement mapping, and multi-currency support included. The same ledger serves every module, so there is nothing to sync."
+  icon: invoice
+  link: /guides/accounting-guides/chart-of-accounts-setup/
+
+fn-receivables-cashbook:
+  name: "Receivables & cashbook"
+  desc: "Track customer billing, collections, and aging from the Accounts Receivable applet, with cash and bank accounts managed in the Cashbook applet alongside payment methods and cash flow. Both post to the same ledger the rest of your books use."
+  icon: folder
+  link: /applets/accounts-receivable-applet/
+
+fn-bank-reconciliation:
+  name: "Bank reconciliation"
+  desc: "Match bank statements against your cashbook line by line, flag discrepancies, and close the gap between book balance and bank balance on a schedule you control. The guide walks through the full reconciliation workflow."
+  icon: check
+  link: /guides/accounting-guides/bank-reconciliation-guide/
+
+fn-financial-reporting:
+  name: "Financial reporting"
+  desc: "Generate P&L, balance sheet, and cash flow statements directly from the ledger — no exports or manual assembly. Statement mapping is defined in the chart of accounts, so reports stay correct as the business grows."
+  icon: chart
+  link: /guides/accounting-guides/financial-reporting/
+
+fn-tax-configuration:
+  name: "Tax configuration"
+  desc: "Configure GST, SST, and VAT codes, rates, and groups once in the Tax Configuration applet — every module that raises a taxable transaction uses the same rules. Multi-jurisdiction support and e-filing integration are built in."
+  icon: shield
+  link: /applets/tax-configuration-applet/
+
+fn-myinvois-integration:
+  name: "MyInvois integration"
+  desc: "Submit invoices to LHDN's MyInvois system directly from BigLedger as an MDEC-accredited PEPPOL service provider. The setup guide covers registration, environment configuration, and your first live submission."
+  icon: receipt
+  link: /guides/einvoice-guides/myinvois-setup/
+
+fn-peppol-network:
+  name: "PEPPOL network"
+  desc: "Exchange invoices with any PEPPOL participant — local or international — over the same network used across Europe and Asia-Pacific. Configuration covers participant IDs, document types, and routing."
+  icon: globe
+  link: /guides/einvoice-guides/peppol-configuration/
+
+fn-einvoice-validation:
+  name: "Validation rules"
+  desc: "Invoices are validated against LHDN's field and format requirements before submission, so rejections are caught in BigLedger rather than bounced by the tax authority days later. Validation failures point to the exact field at fault."
+  icon: check
+  link: /guides/einvoice-guides/einvoice-validation/
+
+fn-einvoice-generation:
+  name: "E-invoice generation"
+  desc: "The E-Invoice Generation applet creates compliant electronic invoices from your normal sales flow — no re-keying into a portal. Credit notes, debit notes, and cancellations follow the same path."
+  icon: invoice
+  link: /applets/einvoice-generation-applet/
+
+fn-customer-master-data:
+  name: "Customer master data"
+  desc: "One customer record carries profiles, credit limits, payment terms, and multi-address support across sales, invoicing, and support. Update it once and every quote, order, and statement reflects it."
+  icon: users
+  link: /applets/customer-maintenance-applet/
+
+fn-digital-crm:
+  name: "Digital CRM"
+  desc: "Pipeline, activity, and account management that reads from the same customer master data your invoices use — a deal marked won becomes an order without re-entry. See the Digital CRM module documentation for the full applet set."
+  icon: funnel
+  link: /modules/digital-crm/
+
+fn-ai-customer-analytics:
+  name: "AI customer analytics"
+  desc: "Purchase-history-driven analytics that surface churn risk, next-best-product suggestions, and customer segments from data already in your ledger — not a separate warehouse you have to feed."
+  icon: chart
+  link: /applets/ai-customer-analytics-applet/
+
+fn-unified-contact-center:
+  name: "Unified contact center"
+  desc: "Handle support calls, chats, and tickets with the customer's orders, invoices, and payment status on the same screen. Agents answer from the system of record instead of asking the customer to repeat it."
+  icon: bell
+  link: /applets/unified-contact-center-ucc-applet/
+
+fn-pos-terminal:
+  name: "POS terminal"
+  desc: "A full point-of-sale terminal — cashier operations, receipts, returns, and end-of-day closing — that posts every sale straight to the ledger and inventory. No overnight batch, no separate till system to reconcile."
+  icon: barcode
+  link: /applets/pos-terminal-applet/
+
+fn-multi-outlet-pos:
+  name: "Multi-outlet operations"
+  desc: "Run every outlet on the same catalog, pricing, and stock visibility, with per-branch cashbooks and consolidated reporting at head office. The POS module documentation covers outlet setup end to end."
+  icon: building
+  link: /modules/pos/
+
+fn-pricing-promotions:
+  name: "Pricing & promotions"
+  desc: "Price books handle outlet-specific pricing, quantity breaks, and time-bound promotions centrally — push a price change once and every till applies it immediately."
+  icon: tag
+  link: /applets/pricebook-applet/
+
+fn-membership-at-checkout:
+  name: "Membership at checkout"
+  desc: "Members earn and redeem points at the till through the same flow as a normal sale — point currencies, tiers, and cross-outlet redemption run on the membership system, not a bolt-on."
+  icon: star
+  link: /modules/membership/
+
+fn-ecomsync-marketplaces:
+  name: "EcomSync marketplace sync"
+  desc: "Sync listings, stock, and orders with Lazada, Shopee, and other marketplaces from one catalog. Marketplace orders land in the same order flow as everything else, and stock sells down across channels in real time."
+  icon: sync
+  link: /modules/ecommerce/introduction-to-ecomsync/
+
+fn-shopify-integration:
+  name: "Shopify integration"
+  desc: "Connect a Shopify storefront so products, inventory, and orders flow both ways — the walkthrough covers store connection, item mapping, and order download without custom code."
+  icon: link
+  link: /modules/ecommerce/integration-with-shopify/
+
+fn-cp-commerce-storefront:
+  name: "CP-Commerce storefront"
+  desc: "Run your own branded online store on CP-Commerce, backed by the same 13 Core applets as the rest of the platform — catalog, cart, payment, and fulfilment included. See the module documentation for the full applet list."
+  icon: cloud
+  link: /modules/cp-commerce/
+
+fn-ecommerce-catalog:
+  name: "E-commerce catalog"
+  desc: "Manage the online product catalog — descriptions, images, variants, and channel-specific pricing — in one applet that feeds your storefront and marketplace listings alike."
+  icon: layers
+  link: /applets/ecommerce-catalog-applet/
+
+fn-stock-take:
+  name: "Stock take"
+  desc: "Run physical counts with mobile-assisted scanning, blind-count options, and automatic variance posting once a count is approved. Counts can be scoped to a location, zone, or category so operations keep moving."
+  icon: barcode
+  link: /applets/stock-take-applet/
+
+fn-stock-balance:
+  name: "Stock balance"
+  desc: "Live on-hand, reserved, and available quantities per item per location — the same numbers your sales orders, POS tills, and marketplaces check before committing stock."
+  icon: warehouse
+  link: /applets/stock-balance-applet/
+
+fn-stock-adjustment:
+  name: "Internal stock adjustment"
+  desc: "Write off damage, correct count errors, and post found stock with reason codes and approval control, so every adjustment is explained and auditable rather than a silent quantity edit."
+  icon: wrench
+  link: /applets/internal-stock-adjustment-applet/
+
+fn-stock-transfer:
+  name: "Stock transfer procedures"
+  desc: "Move stock between branches and warehouses with documented transfer orders — dispatched, in-transit, and received states — so stock is never lost between locations. The guide covers the full procedure."
+  icon: truck
+  link: /guides/inventory-guides/stock-transfer/
+
+fn-supplier-master-data:
+  name: "Supplier master data"
+  desc: "One supplier record carries payment terms, purchase agreements, and category assignments across purchasing and accounts payable. Supplier performance history builds up against the same record."
+  icon: users
+  link: /applets/supplier-maintenance-applet/
+
+fn-purchase-workflows:
+  name: "Purchase workflows"
+  desc: "Requisition, purchase order, receiving, and supplier invoice matching run as one connected flow with approval steps where you need them. The Purchasing module documentation covers the cycle end to end."
+  icon: folder
+  link: /modules/purchasing/
+
+fn-procurement-controls:
+  name: "Procurement controls"
+  desc: "Budget checks, approval thresholds, and three-way matching keep spend inside policy before commitments are made — not discovered at month-end. See the procurement documentation for the control points."
+  icon: shield
+  link: /modules/procurement/
+
+fn-goods-receiving:
+  name: "Goods receiving & internal delivery"
+  desc: "Receive against purchase orders and move goods internally with delivery orders that update stock the moment they are confirmed, keeping the warehouse and the ledger on the same numbers."
+  icon: truck
+  link: /applets/internal-delivery-order-applet/
+
+fn-production-planning:
+  name: "Production planning"
+  desc: "Plan production runs against real demand and material availability, with work orders that reserve stock and schedule capacity. The Manufacturing module documentation covers planning setup."
+  icon: calendar
+  link: /modules/manufacturing/
+
+fn-bom-management:
+  name: "BOM management"
+  desc: "Define multi-level bills of materials with component substitutions and versioning, so a production order explodes into exact material requirements — costed from live inventory values."
+  icon: layers
+  link: /guides/advanced/advanced-inventory-manufacturing/
+
+fn-quality-control:
+  name: "Quality control"
+  desc: "Inspection points at receiving, in-process, and pre-shipment record pass/fail results against the work order, so quality holds stop bad batches before they reach a customer."
+  icon: check
+  link: /guides/advanced/advanced-inventory-manufacturing/
+
+fn-job-orders:
+  name: "Internal job orders"
+  desc: "Track internal jobs — assembly, kitting, rework — with their own orders, material issues, and completion postings, kept separate from customer orders but visible in the same operations view."
+  icon: gear
+  link: /applets/related-applets-internal-job-order/
+
+fn-employee-records:
+  name: "Employee records"
+  desc: "One employee master record carries profiles, department assignments, roles, and compensation data — the same record payroll, claims, and access control read from, so nothing is maintained twice."
+  icon: users
+  link: /applets/employee-maintenance-applet/
+
+fn-payroll-statutory:
+  name: "EPF, SOCSO & PCB compliance"
+  desc: "Payroll calculates EPF, SOCSO, EIS, and PCB against current statutory rates and generates the submission files agencies expect. Rate updates ship with the platform, not as a spreadsheet you maintain."
+  icon: shield
+  link: /compliance/sst-epf-socso/
+
+fn-claims-integration:
+  name: "Claims integration"
+  desc: "Expense claims route through configurable approval cycles and settle through payroll against the same employee record — a claim's status is visible alongside the rest of an employee's compensation data."
+  icon: receipt
+  link: /modules/claims/
+
+fn-team-management:
+  name: "Team management"
+  desc: "Organize employees into teams with team-based permissions and reporting lines, managed in one applet that HR and system administrators share instead of parallel org charts."
+  icon: building
+  link: /applets/team-maintenance-applet/
+
+fn-project-tracking:
+  name: "Project tracking"
+  desc: "Track each project's stages, tasks, and status against plan in one view, with time and costs accumulating on the project as work happens. The Projects module documentation covers setup."
+  icon: target
+  link: /modules/projects/
+
+fn-job-costing:
+  name: "Job costing"
+  desc: "Labour, materials, and overheads post to the job as they are incurred, so margin per job is a live number — not a reconstruction after the invoice goes out. The accounting workflows guide shows the posting flow."
+  icon: chart
+  link: /guides/advanced/accounting-workflows/
+
+fn-billing-by-stage:
+  name: "Billing by stage"
+  desc: "Bill fixed-fee stages, progress percentages, or time and materials from document items configured per engagement — invoices tie back to the project so unbilled work is always visible."
+  icon: invoice
+  link: /applets/doc-item-maintenance-applet/
+
+fn-project-workflows:
+  name: "Approval workflows"
+  desc: "Variations, stage sign-offs, and billing milestones route through the Workflow Design applet's approval processes, so project decisions leave an audit trail instead of living in email."
+  icon: gear
+  link: /applets/workflow-design-applet/

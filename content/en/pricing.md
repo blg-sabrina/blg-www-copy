@@ -35,7 +35,7 @@ Our pricing is customized based on:
 **Get a personalized quote today:**
 
 - Email: [sales@bigledger.com](mailto:sales@bigledger.com)
-- Phone: [+60 10-839 9393](tel:+60108399393) (Sabrina Fatimah - Sales Director)
+- Phone: [+60 10-839 9393](tel:+60108399393) (Sabrina Fatimah)
 
 [Contact Sales Team](/contact)
 
