@@ -4,48 +4,48 @@
 
       <div class="bl-footer-brand">
         <img src="{{ "images/bigledger-logo-cropped.png" | relURL }}" alt="{{ .Site.Title }}" height="20" class="bl-logo-img">
-        <p class="bl-footer-tagline">Cloud-native composable ERP for modern enterprise. MDEC PEPPOL accredited across Southeast Asia.</p>
+        <p class="bl-footer-tagline">{{ i18n "footer_tagline" }}</p>
         <div class="bl-footer-badges">
           <span class="bl-footer-badge">PEPPOL</span>
           <span class="bl-footer-badge">ISO 27001</span>
-          <span class="bl-footer-badge">Malaysia E-Invoice</span>
+          <span class="bl-footer-badge">{{ i18n "footer_badge_myinvoice" }}</span>
         </div>
       </div>
 
       <div class="bl-footer-col">
-        <span class="bl-footer-col-title">Platform</span>
+        <span class="bl-footer-col-title">{{ i18n "footer_platform" }}</span>
         <ul class="bl-footer-links">
-          <li><a href="/solutions">Solutions</a></li>
-          <li><a href="/pricing">Pricing</a></li>
-          <li><a href="/developers">Developers</a></li>
-          <li><a href="/e-invoice-peppol">E-Invoice</a></li>
+          <li><a href="/solutions">{{ i18n "nav_solutions" }}</a></li>
+          <li><a href="/pricing">{{ i18n "nav_pricing" }}</a></li>
+          <li><a href="/developers">{{ i18n "nav_developers" }}</a></li>
+          <li><a href="/e-invoice-peppol">{{ i18n "footer_einvoice" }}</a></li>
         </ul>
       </div>
 
       <div class="bl-footer-col">
-        <span class="bl-footer-col-title">Company</span>
+        <span class="bl-footer-col-title">{{ i18n "footer_company" }}</span>
         <ul class="bl-footer-links">
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
-          <li><a href="/demos-resources">Resources</a></li>
+          <li><a href="/about">{{ i18n "nav_about" }}</a></li>
+          <li><a href="/contact">{{ i18n "nav_contact" }}</a></li>
+          <li><a href="/demos-resources">{{ i18n "footer_resources" }}</a></li>
         </ul>
       </div>
 
       <div class="bl-footer-col">
-        <span class="bl-footer-col-title">Compliance</span>
+        <span class="bl-footer-col-title">{{ i18n "footer_compliance" }}</span>
         <ul class="bl-footer-links">
-          <li><a href="/e-invoice-peppol">PEPPOL Accreditation</a></li>
-          <li><a href="/mdec-e-invoice-promotion">MDEC Initiative</a></li>
-          <li><a href="/solutions">SST Compliance</a></li>
+          <li><a href="/e-invoice-peppol">{{ i18n "footer_peppol_accreditation" }}</a></li>
+          <li><a href="/mdec-e-invoice-promotion">{{ i18n "footer_mdec_initiative" }}</a></li>
+          <li><a href="/solutions">{{ i18n "footer_sst_compliance" }}</a></li>
         </ul>
       </div>
 
     </div>
     <div class="bl-footer-bottom">
-      <span class="bl-footer-copy">&copy; {{ now.Year }} BigLedger. All rights reserved.</span>
+      <span class="bl-footer-copy">&copy; {{ now.Year }} BigLedger. {{ i18n "footer_rights" }}</span>
       <div class="bl-footer-legal">
-        <a href="/privacy-policy">Privacy Policy</a>
-        <a href="/terms-of-service">Terms of Service</a>
+        <a href="/privacy-policy">{{ i18n "footer_privacy_policy" }}</a>
+        <a href="/terms-of-service">{{ i18n "footer_terms_of_service" }}</a>
       </div>
     </div>
   </div>

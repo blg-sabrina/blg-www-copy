@@ -7,12 +7,12 @@
 
       <div class="bl-nav-links">
         {{ range .Site.Menus.main }}
-        {{ if eq .Name "Home" }}
+        {{ if eq .Identifier "home" }}
           {{/* logo already links home */}}
-        {{ else if eq .Name "Solutions" }}
+        {{ else if eq .Identifier "solutions" }}
           <div class="bl-nav-item bl-has-mega" data-mega="solutions">
             <button type="button" class="bl-nav-link bl-nav-link-btn" aria-haspopup="true" aria-expanded="false">
-              Solutions
+              {{ i18n "nav_solutions" }}
               <svg class="bl-nav-caret" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
             </button>
 
@@ -57,12 +57,12 @@
                     </span>
                   </a>
                 </div>
-                <a href="/contact" class="bl-btn-primary bl-mega-cta">Request a Demo</a>
+                <a href="/contact" class="bl-btn-primary bl-mega-cta">{{ i18n "request_a_demo" }}</a>
               </div>
             </div>
           </div>
         {{ else }}
-          <a href="{{ .URL }}" class="bl-nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">{{ .Name }}</a>
+          <a href="{{ .URL }}" class="bl-nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">{{ i18n (printf "nav_%s" .Identifier) | default .Name }}</a>
         {{ end }}
         {{ end }}
       </div>
@@ -92,8 +92,8 @@
           </div>
         </div>
         {{ end }}
-        <a href="/contact" class="bl-btn-nav">Request Demo</a>
-        <button type="button" class="bl-nav-burger" aria-label="Open menu" aria-expanded="false">
+        <a href="/contact" class="bl-btn-nav">{{ i18n "request_demo" }}</a>
+        <button type="button" class="bl-nav-burger" aria-label="{{ i18n "aria_open_menu" }}" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
       </div>
@@ -104,11 +104,11 @@
   <div class="bl-mobile-drawer" aria-hidden="true">
     <div class="bl-mobile-drawer-scroll">
       {{ range .Site.Menus.main }}
-      {{ if eq .Name "Home" }}
-      {{ else if eq .Name "Solutions" }}
+      {{ if eq .Identifier "home" }}
+      {{ else if eq .Identifier "solutions" }}
         <div class="bl-mobile-accordion">
           <button type="button" class="bl-mobile-accordion-trigger" aria-expanded="false">
-            Solutions
+            {{ i18n "nav_solutions" }}
             <svg class="bl-nav-caret" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
           </button>
           <div class="bl-mobile-accordion-panel">
@@ -134,10 +134,10 @@
           </div>
         </div>
       {{ else }}
-        <a href="{{ .URL }}" class="bl-mobile-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">{{ .Name }}</a>
+        <a href="{{ .URL }}" class="bl-mobile-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">{{ i18n (printf "nav_%s" .Identifier) | default .Name }}</a>
       {{ end }}
       {{ end }}
-      <a href="/contact" class="bl-btn-primary bl-mobile-cta">Request Demo</a>
+      <a href="/contact" class="bl-btn-primary bl-mobile-cta">{{ i18n "request_demo" }}</a>
     </div>
   </div>
   <div class="bl-mobile-drawer-backdrop"></div>

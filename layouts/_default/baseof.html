@@ -24,8 +24,11 @@
        through Hextra's sidebar/TOC layouts and need the theme's own compiled
        Tailwind bundle (hx:-prefixed utility classes) to not look broken.
        Marketing pages (flat content/en/*.md, no section) skip this entirely so
-       Hextra's base styles never touch the custom bl- design system. */}}
-  {{ if ne .Section "" }}
+       Hextra's base styles never touch the custom bl- design system.
+       Exception: the homepage in a non-English language has no custom bl-
+       marketing template (see layouts/index.html) and falls back to the
+       theme's hextra-home shortcodes instead, which also need this bundle. */}}
+  {{ if or (ne .Section "") (and .IsHome (ne .Site.Language.Lang "en")) }}
     {{ $variablesCss := resources.Get "css/variables.css" | resources.ExecuteAsTemplate "css/variables.css" . }}
     {{ $mainCss := resources.Get "css/compiled/main.css" }}
     {{ if hugo.IsProduction }}

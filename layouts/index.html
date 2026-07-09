@@ -1,4 +1,11 @@
 {{ define "main" }}
+{{ if ne .Site.Language.Lang "en" }}
+  {{/* This custom marketing homepage is authored in English only. Every other
+       language has its own translated content/<lang>/_index.md (hero, tabs,
+       cards) written for the theme's default hextra-home shortcodes — render
+       that instead of silently falling through to the English page below. */}}
+  {{ partial "home-i18n.html" . }}
+{{ else }}
 
 <!-- ═══════════════════════════════════════════════════════
      HERO
@@ -682,4 +689,5 @@
   </div>
 </section>
 
+{{ end }}
 {{ end }}
