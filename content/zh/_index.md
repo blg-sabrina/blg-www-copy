@@ -2,7 +2,6 @@
 title: BigLedger ERP - 完整的企业管理平台
 description: 马来西亚领先的云端ERP平台，受到100万用户信赖
 toc: false
-layout: hextra-home
 ---
 
 {{< hextra/hero-badge >}}

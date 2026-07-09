@@ -1,0 +1,253 @@
+/* ================================================================
+   BigLedger — non-English homepage (zh/ms/ar)
+   Restyles Hextra's default hextra-home shortcode output (hero-badge,
+   hero-headline, hero-subtitle, hero-button, tabs, cards, callout) to
+   match the site's dark #100b0d / red #e5333f brand instead of
+   Hextra's default light-docs look with blue accents.
+   Loaded only by layouts/partials/home-i18n.html.
+================================================================ */
+
+:root {
+  --ih-bg: #100b0d;
+  --ih-card: #1d1518;
+  --ih-border: #2e2226;
+  --ih-text: #f4eff0;
+  --ih-text-2: #b3a6aa;
+  --ih-red: #e5333f;
+}
+
+html, body { background: var(--ih-bg); }
+body { color: var(--ih-text); font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+
+.bl-i18n-home {
+  /* Hextra computes --hx-color-primary-* once at :root/.dark from
+     --primary-hue et al, then that already-resolved value is what
+     inherits down — redeclaring --primary-hue here doesn't reach it,
+     since a custom property's var() references resolve relative to
+     wherever it's *declared*, not wherever it's *used*. So the derived
+     colors themselves need overriding directly, not their inputs. */
+  --hx-color-primary-300: #f2a3aa;
+  --hx-color-primary-500: var(--ih-red);
+  --hx-color-primary-600: var(--ih-red);
+  --hx-color-primary-700: #c92835;
+  --hx-color-primary-800: #a81f2a;
+
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 64px 24px 96px;
+  position: relative;
+  z-index: 1; /* sit above the site's fixed particle-network canvas */
+}
+
+/* ── Hero block: badge / h1 / subtitle / buttons, centered ──────── */
+.bl-i18n-home > a[class*="hx:rounded-full"][class*="hx:text-xs"] {
+  display: inline-flex !important;
+  margin: 0 auto 28px !important;
+  background: rgba(229, 51, 63, 0.1) !important;
+  border: 1px solid rgba(229, 51, 63, 0.3) !important;
+  color: var(--ih-red) !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+}
+
+.bl-i18n-home h1[class*="hx:bg-clip-text"] {
+  background: none !important;
+  -webkit-text-fill-color: var(--ih-text) !important;
+  color: var(--ih-text) !important;
+  display: block !important;
+  text-align: center;
+  font-size: clamp(34px, 6vw, 58px) !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.03em !important;
+  line-height: 1.1 !important;
+  margin: 0 auto 22px !important;
+  max-width: 900px;
+}
+/* ms/ar wrap the h1 in an extra div; keep that wrapper from constraining it */
+.bl-i18n-home > div:has(> h1[class*="hx:bg-clip-text"]) {
+  display: flex; justify-content: center;
+}
+
+.bl-i18n-home p[class*="hx:text-gray-600"][class*="hx:text-xl"] {
+  color: var(--ih-text-2) !important;
+  text-align: center;
+  font-size: 18px !important;
+  line-height: 1.7 !important;
+  max-width: 640px;
+  margin: 0 auto 32px !important;
+  display: block !important;
+}
+
+/* The button row: two hero-button shortcodes on adjacent markdown lines
+   land inside one shared <p>, not as direct children of .bl-i18n-home. */
+.bl-i18n-home p:has(> a[class*="hx:bg-primary-600"]) {
+  display: flex !important;
+  justify-content: center;
+  gap: 12px;
+  max-width: none;
+  margin: 0 0 32px !important;
+}
+.bl-i18n-home a[class*="hx:bg-primary-600"] {
+  display: inline-flex !important;
+}
+/* Second button (Watch Demo) reads as secondary: outlined, not solid red */
+.bl-i18n-home a[class*="hx:bg-primary-600"] + a[class*="hx:bg-primary-600"] {
+  background: transparent !important;
+  border: 1px solid var(--ih-border) !important;
+  color: var(--ih-text) !important;
+}
+
+/* ── Body copy: headings, paragraphs, lists, hr ──────────────────── */
+.bl-i18n-home h2, .bl-i18n-home h3 {
+  display: block;
+  text-align: left;
+  color: var(--ih-text);
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+}
+.bl-i18n-home h2 {
+  font-size: 24px; font-weight: 700;
+  margin: 56px 0 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--ih-border);
+}
+.bl-i18n-home h3 { font-size: 18px; font-weight: 650; margin: 28px 0 10px; }
+
+.bl-i18n-home p:not(:has(> a[class*="hx:bg-primary-600"])),
+.bl-i18n-home ul, .bl-i18n-home ol {
+  display: block; text-align: left;
+  color: var(--ih-text-2);
+  font-size: 15.5px;
+  line-height: 1.75;
+  max-width: 720px;
+}
+.bl-i18n-home p { margin: 0 0 14px; }
+.bl-i18n-home ul, .bl-i18n-home ol { margin: 0 0 14px; padding-left: 22px; }
+.bl-i18n-home li { margin: 4px 0; }
+.bl-i18n-home li::marker { color: rgba(229, 51, 63, 0.6); }
+.bl-i18n-home strong { color: var(--ih-text); font-weight: 600; }
+.bl-i18n-home a:not([class]) { color: var(--ih-red); text-decoration: none; }
+.bl-i18n-home a:not([class]):hover { text-decoration: underline; }
+.bl-i18n-home hr {
+  display: block;
+  border: none; border-top: 1px solid var(--ih-border);
+  margin: 8px 0;
+}
+
+/* ── Tabs: pill-style, red active state instead of blue underline ── */
+.bl-i18n-home div[class*="hextra-scrollbar"] {
+  display: block; margin: 32px 0 0;
+}
+.bl-i18n-home div[class*="hextra-scrollbar"] > div {
+  display: flex; gap: 6px;
+  border-bottom: 1px solid var(--ih-border) !important;
+  padding-bottom: 0 !important;
+}
+.bl-i18n-home .hextra-tabs-toggle {
+  color: var(--ih-text-2) !important;
+  border-color: transparent !important;
+  font-weight: 600 !important;
+  padding: 10px 14px !important;
+}
+.bl-i18n-home .hextra-tabs-toggle:hover {
+  color: var(--ih-text) !important;
+  border-color: var(--ih-border) !important;
+}
+.bl-i18n-home .hextra-tabs-toggle[data-state="selected"] {
+  color: var(--ih-red) !important;
+  border-color: var(--ih-red) !important;
+}
+.bl-i18n-home .hextra-tabs-panel { display: none !important; }
+.bl-i18n-home .hextra-tabs-panel[data-state="selected"] { display: block !important; }
+
+/* ── Callouts: red-tinted with a red left border, matching the rest
+     of the site ─────────────────────────────────────────────────── */
+.bl-i18n-home div[class*="hx:rounded-lg"][class*="hx:border"] {
+  display: flex !important;
+  background: rgba(229, 51, 63, 0.08) !important;
+  border: 1px solid rgba(229, 51, 63, 0.28) !important;
+  border-left: 3px solid var(--ih-red) !important;
+  border-radius: 14px !important;
+  color: var(--ih-text-2) !important;
+  margin: 24px 0 !important;
+  padding: 14px 18px !important;
+  max-width: 100%;
+}
+.bl-i18n-home div[class*="hx:rounded-lg"][class*="hx:border"] strong { color: var(--ih-text); }
+.bl-i18n-home div[class*="hx:rounded-lg"][class*="hx:border"] p { margin: 0; max-width: none; display: block !important; }
+
+/* ── Card grids ───────────────────────────────────────────────────── */
+.bl-i18n-home .hextra-cards {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)) !important;
+  gap: 14px !important;
+  margin: 20px 0 8px !important;
+  max-width: none;
+}
+.bl-i18n-home .hextra-card {
+  background: var(--ih-card) !important;
+  border: 1px solid var(--ih-border) !important;
+  border-radius: 14px !important;
+  box-shadow: none !important;
+  transition: transform 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease !important;
+}
+.bl-i18n-home .hextra-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(229, 51, 63, 0.4) !important;
+  background: var(--ih-card) !important;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.4) !important;
+}
+.bl-i18n-home .hextra-card-icon {
+  color: var(--ih-text) !important;
+  font-size: 15px !important;
+}
+.bl-i18n-home .hextra-card:hover .hextra-card-icon { color: var(--ih-text) !important; }
+.bl-i18n-home .hextra-card-subtitle {
+  color: var(--ih-text-2) !important;
+  font-size: 13px !important;
+}
+
+/* ── Stats list ("- **100万+** ...") rendered as a plain <ul>: give it
+     a stat-tile treatment instead of bullet text ──────────────────── */
+.bl-i18n-home h2 + ul:has(li > strong:first-child) {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  max-width: none;
+  margin: 8px 0 20px;
+}
+.bl-i18n-home h2 + ul:has(li > strong:first-child) li {
+  background: var(--ih-card);
+  border: 1px solid var(--ih-border);
+  border-radius: 14px;
+  padding: 18px 16px;
+  margin: 0;
+  text-align: center;
+}
+.bl-i18n-home h2 + ul:has(li > strong:first-child) li::marker { content: ""; }
+.bl-i18n-home h2 + ul:has(li > strong:first-child) li strong {
+  display: block;
+  color: var(--ih-red);
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+/* ── RTL (Arabic): mirror alignment, keep spacing rules ──────────── */
+html[dir="rtl"] .bl-i18n-home h2, html[dir="rtl"] .bl-i18n-home h3,
+html[dir="rtl"] .bl-i18n-home p, html[dir="rtl"] .bl-i18n-home ul,
+html[dir="rtl"] .bl-i18n-home ol { text-align: right; }
+html[dir="rtl"] .bl-i18n-home ul, html[dir="rtl"] .bl-i18n-home ol {
+  padding-left: 0; padding-right: 22px;
+}
+
+/* ── Responsive ───────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .bl-i18n-home { padding: 48px 18px 72px; }
+  .bl-i18n-home .hextra-cards { grid-template-columns: 1fr !important; }
+}
