@@ -44,6 +44,8 @@
   --bd-m: rgba(255,255,255,0.10);
   --bd-c: rgba(220,20,60,0.22);
   --bd-cm:rgba(220,20,60,0.45);
+  /* hairline for dividers that should read as structure, not as lines */
+  --bd-faint: rgba(255,255,255,0.022);
 
   --tx-1: #F2F2EC;
   --tx-2: #B4B4AA;
@@ -2017,15 +2019,19 @@ code, pre { font-family: var(--fm); }
 
 .bl-platform-header { text-align: center; max-width: 640px; margin: 0 auto 56px; }
 
+/* The nine tiles are separated by hairlines rather than gaps. They sit at a
+   third of the usual border strength: the grid itself does not fade with the
+   scroll (only the cards inside do), so a full-strength outline would keep
+   drawing attention to an otherwise dimmed section. */
 .bl-mod-grid {
   display: grid; grid-template-columns: repeat(3, 1fr);
-  border: 1px solid var(--bd); border-radius: 16px; overflow: hidden;
+  border: 1px solid var(--bd-faint); border-radius: 16px; overflow: hidden;
 }
 
 .bl-mod-card {
   position: relative; padding: 32px 28px;
   background: var(--bg-2);
-  border-right: 1px solid var(--bd); border-bottom: 1px solid var(--bd);
+  border-right: 1px solid var(--bd-faint); border-bottom: 1px solid var(--bd-faint);
   display: flex; flex-direction: column; gap: 0;
   transition: background 0.2s var(--ease);
 }
