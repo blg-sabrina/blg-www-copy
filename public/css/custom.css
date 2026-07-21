@@ -2242,6 +2242,11 @@ code, pre { font-family: var(--fm); }
 .bl-ind-card:nth-child(4n) { border-right: none; }
 .bl-ind-card:nth-last-child(-n+4) { border-bottom: none; }
 
+/* Seven industries in a four-column grid leave an empty eighth cell, which
+   the container border and its neighbours outline as a hollow box. Give the
+   last card the leftover columns so the row closes cleanly instead. */
+.bl-ind-card:last-child { grid-column: span 2; border-right: none; }
+
 .bl-ind-num {
   font-family: var(--fm); font-size: 10px; font-weight: 700;
   color: var(--tx-3); letter-spacing: 0.08em; margin-bottom: 14px;
@@ -2306,6 +2311,9 @@ code, pre { font-family: var(--fm); }
   .bl-data-table th, .bl-data-table td { padding: 8px 12px; }
   .bl-ind-grid { grid-template-columns: 1fr; }
   .bl-ind-card { border-right: none !important; }
+  /* single column has no slack to take up — spanning 2 would invent an
+     implicit second column and push the card off the edge */
+  .bl-ind-card:last-child { grid-column: auto; }
 }
 @media print {
   .bl-header, .bl-footer, .bl-ticker-section, .bl-cursor-dot, .bl-cursor-ring { display: none; }
