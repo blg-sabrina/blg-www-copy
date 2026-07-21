@@ -31,7 +31,7 @@ languages:
       description: BigLedger 文档 - 下一代区块链平台
   
   ms:
-    languageName: Bahasa Melayu
+    languageName: Bahasa Malaysia
     languageCode: ms
     contentDir: content/ms
     title: Dokumentasi BigLedger

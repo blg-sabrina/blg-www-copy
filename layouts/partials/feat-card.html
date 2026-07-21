@@ -1,8 +1,20 @@
 {{- /* Renders one enriched feature card from a data/solution_features.yaml key.
        Falls back to a bare label if the key isn't in the library yet, so
-       pages can be migrated to the shared library incrementally. */ -}}
+       pages can be migrated to the shared library incrementally.
+       Non-English languages overlay name/desc from
+       data/solution_features_<lang>.yaml (icon/badge/link stay shared);
+       untranslated entries fall back to English. */ -}}
 {{- $key := . -}}
 {{- $feat := index site.Data.solution_features $key -}}
+{{- $lang := site.Language.Lang -}}
+{{- if ne $lang "en" -}}
+  {{- $ovData := index site.Data (printf "solution_features_%s" $lang) -}}
+  {{- with $ovData -}}
+    {{- with index . $key -}}
+      {{- $feat = merge $feat (dict "name" (.name | default $feat.name) "desc" (.desc | default $feat.desc)) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 <div class="bl-feat-card">
   <div class="bl-feat-top">
     <div class="bl-feat-icon">{{ partial "feat-icon.html" (cond (and $feat $feat.icon) $feat.icon "check") }}</div>
@@ -10,5 +22,5 @@
   </div>
   <div class="bl-feat-name">{{ if and $feat $feat.name }}{{ $feat.name }}{{ else }}{{ $key }}{{ end }}</div>
   {{- if and $feat $feat.desc }}<p class="bl-feat-desc">{{ $feat.desc }}</p>{{ end -}}
-  {{- if and $feat $feat.link }}<a href="{{ $feat.link }}" class="bl-feat-more">Learn more <span aria-hidden="true">→</span></a>{{ end -}}
+  {{- if and $feat $feat.link }}<a href="{{ partial "lurl.html" (dict "ctx" page "url" $feat.link) }}" class="bl-feat-more">{{ i18n "learn_more" | default "Learn more" }} <span aria-hidden="true">→</span></a>{{ end -}}
 </div>

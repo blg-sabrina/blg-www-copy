@@ -1,0 +1,55 @@
+{{ define "main" }}
+{{/* Documentation article (layout: article) — a professional reading layout for
+     single markdown doc pages. Branded hero + a styled content column with an
+     optional sticky "On this page" table of contents. The rendered markdown is
+     beautified through the .doc-content stylesheet (headings, cards, callouts,
+     numbered steps, tables, contact lists). */}}
+
+{{ $toc := .TableOfContents }}
+{{ $hasToc := gt (len (findRE "<li" $toc)) 1 }}
+
+<section class="bl-inner-hero doc-hero">
+  <div class="bl-inner-hero-bg"></div>
+  <div class="bl-container">
+    <div class="bl-inner-hero-content">
+      <nav class="doc-crumbs" aria-label="Breadcrumb" data-reveal="up" data-delay="0">
+        <a href="{{ partial "lurl.html" (dict "ctx" $ "url" "/user-guide/") }}">{{ i18n "doc_userguide" | default "User Guide" }}</a>
+        {{ with .Parent }}{{ if ne .Title $.Title }}<span class="doc-crumb-sep" aria-hidden="true">/</span><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}{{ end }}
+      </nav>
+      <h1 class="bl-inner-headline" data-reveal="up" data-delay="80">{{ .Title }}</h1>
+      {{ with .Description }}<p class="bl-inner-sub" data-reveal="up" data-delay="160">{{ . }}</p>{{ end }}
+      {{ $rt := .Params.readingTime }}{{ $cx := .Params.complexity }}
+      {{ if or $rt $cx }}
+      <div class="doc-meta" data-reveal="up" data-delay="240">
+        {{ with $cx }}<span class="doc-meta-chip doc-meta-level">{{ . | title }}</span>{{ end }}
+        {{ with $rt }}<span class="doc-meta-chip"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" width="13" height="13"><circle cx="10" cy="10" r="7"/><path d="M10 6v4l3 2" stroke-linecap="round"/></svg>{{ . }}</span>{{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="bl-page-section doc-section">
+  <div class="bl-container">
+    <div class="doc-layout{{ if not $hasToc }} doc-layout-single{{ end }}">
+      <article class="doc-content">
+        {{ .Content }}
+      </article>
+      {{ if $hasToc }}
+      <aside class="doc-aside">
+        <div class="doc-toc" data-doc-toc>
+          <div class="doc-toc-head">
+            <span class="doc-toc-dot" aria-hidden="true"></span>
+            <p class="doc-toc-label">{{ i18n "doc_on_this_page" | default "On this page" }}</p>
+          </div>
+          <div class="doc-toc-progress" aria-hidden="true"><span class="doc-toc-progress-bar"></span></div>
+          <div class="doc-toc-scroll">
+            {{ $toc }}
+          </div>
+        </div>
+      </aside>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

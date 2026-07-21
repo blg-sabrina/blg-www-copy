@@ -35,7 +35,7 @@ The Unified Contact Center (UCC) Applet is BigLedger's flagship customer engagem
 
 ## Core Capabilities
 
-### 📱 Supported Communication Channels
+### Supported Communication Channels
 
 #### Instant Messaging Platforms
 - **WhatsApp Business API**
@@ -95,7 +95,7 @@ The Unified Contact Center (UCC) Applet is BigLedger's flagship customer engagem
 
 ## Module Architecture
 
-### 1. 📥 Inbox Module - Centralized Conversation Hub
+### 1. Inbox Module - Centralized Conversation Hub
 
 #### Unified Message View
 - **All-in-One Interface**: See all messages from all channels in one screen
@@ -123,7 +123,7 @@ The Unified Contact Center (UCC) Applet is BigLedger's flagship customer engagem
 - **Tags**: Categorize conversations for reporting
 - **Shortcuts**: Keyboard commands for power users
 
-### 2. 📊 Dashboard Module - Real-time Performance Monitoring
+### 2. Dashboard Module - Real-time Performance Monitoring
 
 #### Key Performance Indicators (KPIs)
 - **Response Metrics**
@@ -150,7 +150,7 @@ The Unified Contact Center (UCC) Applet is BigLedger's flagship customer engagem
 - **Comparison Reports**: Period-over-period analysis
 - **Export Options**: PDF, Excel, CSV reports
 
-### 3. 👥 Contacts Module - Complete Customer Intelligence
+### 3. Contacts Module - Complete Customer Intelligence
 
 #### Customer Profile Management
 - **360° Customer View**
@@ -178,7 +178,7 @@ The Unified Contact Center (UCC) Applet is BigLedger's flagship customer engagem
 - **Support History**: Previous tickets and resolutions
 - **Marketing Lists**: Segmentation for campaigns
 
-### 4. 📢 Broadcast Module - Mass Communication Center
+### 4. Broadcast Module - Mass Communication Center
 
 #### Campaign Management
 - **Message Campaigns**
@@ -211,7 +211,7 @@ The Unified Contact Center (UCC) Applet is BigLedger's flagship customer engagem
 - **Failed Message Handling**: Automatic retry logic
 - **Regulatory Compliance**: PDPA, GDPR compliance tools
 
-### 5. ⏰ Task Queue Module - Intelligent Work Distribution
+### 5. Task Queue Module - Intelligent Work Distribution
 
 #### Queue Management
 - **Smart Routing Rules**
@@ -232,7 +232,7 @@ The Unified Contact Center (UCC) Applet is BigLedger's flagship customer engagem
 - **Overflow Handling**: Backup queue management
 - **Break Management**: Scheduled offline periods
 
-### 6. ⚙️ Configuration Module - System Setup & Integration
+### 6. Configuration Module - System Setup & Integration
 
 #### Channel Configuration
 - **WhatsApp Business Setup**
@@ -259,7 +259,7 @@ The Unified Contact Center (UCC) Applet is BigLedger's flagship customer engagem
 - **Routing Rules**: Conversation distribution logic
 - **Escalation Policies**: Supervisor involvement triggers
 
-### 7. 🛍️ E-Commerce Integration - Sell Through Chat
+### 7. E-Commerce Integration - Sell Through Chat
 
 #### Product Catalog Sharing
 - **Visual Catalogs**: Share product images and details
@@ -286,7 +286,7 @@ The Unified Contact Center (UCC) Applet is BigLedger's flagship customer engagem
 - **Tracking Information**: Shipping updates
 - **Returns/Exchanges**: Process through chat
 
-### 8. 🤖 Automation & AI Features
+### 8. Automation & AI Features
 
 #### Chatbot Integration
 - **FAQ Automation**: Instant answers to common questions
@@ -300,7 +300,7 @@ The Unified Contact Center (UCC) Applet is BigLedger's flagship customer engagem
 - **Language Detection**: Automatic language switching
 - **Intent Recognition**: Understand customer needs
 
-### 9. 👤 My Profile & Personalization
+### 9. My Profile & Personalization
 
 #### Agent Settings
 - **Personal Preferences**

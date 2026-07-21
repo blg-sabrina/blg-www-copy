@@ -1,0 +1,599 @@
+<!-- ════════════════════════════════════
+     E-INVOICE & PEPPOL PAGE
+════════════════════════════════════ -->
+
+<!-- Hero -->
+<section class="bl-inner-hero bl-ei-hero">
+  <div class="bl-inner-hero-bg"></div>
+  <div class="bl-container">
+    <div class="bl-inner-hero-content">
+      <p class="bl-inner-eyebrow" data-reveal="up" data-delay="0">
+        <span class="bl-ei-accred-dot" aria-hidden="true"></span>
+        {{ i18n "ei_eyebrow" | default "MDEC Fully Accredited Service Provider" }}
+      </p>
+      <h1 class="bl-inner-headline" data-reveal="up" data-delay="80">
+        {{ i18n "ei_hero_h1" | default "E-Invoice &amp;" | safeHTML }}<br><span class="bl-word-gradient">{{ i18n "ei_hero_h2" | default "PEPPOL Compliance" }}</span>
+      </h1>
+      <p class="bl-inner-sub" data-reveal="up" data-delay="160">
+        {{ i18n "ei_hero_sub" | default "BigLedger is Malaysia's MDEC fully accredited PEPPOL Service Provider. Submit to MyInvois, exchange documents across borders, and turn a regulatory deadline into an automated part of how your business runs." }}
+      </p>
+      <div class="bl-hero-actions" data-reveal="up" data-delay="240">
+        <a href="{{ partial "lurl.html" (dict "ctx" $ "url" "/contact/") }}" class="bl-btn-primary bl-btn-lg">
+          {{ i18n "ei_hero_cta1" | default "Request a Demo" }}
+          <svg class="bl-btn-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+        <a href="{{ partial "lurl.html" (dict "ctx" $ "url" "/contact/") }}" class="bl-btn-outline">{{ i18n "ei_hero_cta2" | default "Free Readiness Assessment" }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Accreditation trust bar -->
+<section class="bl-ei-trustbar-section">
+  <div class="bl-container">
+    <div class="bl-ei-trustbar" data-reveal="up" data-delay="0">
+      <div class="bl-ei-trust-item">
+        <span class="bl-ei-trust-ic">
+          <svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M11 2l7 3.5v5.2c0 4.3-3 8.3-7 9.3-4-1-7-5-7-9.3V5.5L11 2z"/><path d="M8 11l2 2 4-4"/></svg>
+        </span>
+        <span class="bl-ei-trust-text">
+          <span class="bl-ei-trust-name">{{ i18n "ei_trust1_n" | default "MDEC Accredited" }}</span>
+          <span class="bl-ei-trust-sub">{{ i18n "ei_trust1_s" | default "PEPPOL Service Provider" }}</span>
+        </span>
+      </div>
+      <div class="bl-ei-trust-item">
+        <span class="bl-ei-trust-ic">
+          <svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="4" y="9" width="14" height="11" rx="2"/><path d="M7.5 9V6.5a3.5 3.5 0 017 0V9"/></svg>
+        </span>
+        <span class="bl-ei-trust-text">
+          <span class="bl-ei-trust-name">{{ i18n "ei_trust2_n" | default "ISO 27001" }}</span>
+          <span class="bl-ei-trust-sub">{{ i18n "ei_trust2_s" | default "Certified infrastructure" }}</span>
+        </span>
+      </div>
+      <div class="bl-ei-trust-item">
+        <span class="bl-ei-trust-ic">
+          <svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 2h9l3 3v15H5z"/><path d="M14 2v3h3M8 11h6M8 15h4"/></svg>
+        </span>
+        <span class="bl-ei-trust-text">
+          <span class="bl-ei-trust-name">{{ i18n "ei_trust3_n" | default "LHDN Approved" }}</span>
+          <span class="bl-ei-trust-sub">{{ i18n "ei_trust3_s" | default "MyInvois integration" }}</span>
+        </span>
+      </div>
+      <div class="bl-ei-trust-item">
+        <span class="bl-ei-trust-ic">
+          <svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="8"/><path d="M11 7v5l3 2"/></svg>
+        </span>
+        <span class="bl-ei-trust-text">
+          <span class="bl-ei-trust-name">{{ i18n "ei_trust4_n" | default "PDPA Compliant" }}</span>
+          <span class="bl-ei-trust-sub">{{ i18n "ei_trust4_s" | default "Malaysian data residency" }}</span>
+        </span>
+      </div>
+      <div class="bl-ei-trust-item">
+        <span class="bl-ei-trust-ic">
+          <svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 11h16M11 3v16"/><circle cx="11" cy="11" r="8"/></svg>
+        </span>
+        <span class="bl-ei-trust-text">
+          <span class="bl-ei-trust-name">{{ i18n "ei_trust5_n" | default "SST &amp; GST Ready" | safeHTML }}</span>
+          <span class="bl-ei-trust-sub">{{ i18n "ei_trust5_s" | default "Tax engine built in" }}</span>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MyInvois rollout timeline -->
+<section class="bl-page-section bl-section-alt">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "ei_tl_label" | default "MYINVOIS MANDATE" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "ei_tl_title" | default "Malaysia's e-invoicing rollout" }}</h2>
+      <p class="bl-section-desc" data-reveal="up" data-delay="120">{{ i18n "ei_tl_desc" | default "MyInvois is Malaysia's national e-invoicing initiative, mandating electronic invoice submission to the Inland Revenue Board (LHDN). The rollout has completed all three phases — every business is now in scope." }}</p>
+    </div>
+    <div class="bl-ei-timeline" data-reveal="up" data-delay="80">
+      <div class="bl-ei-phase">
+        <div class="bl-ei-phase-marker"><span class="bl-ei-phase-dot">1</span></div>
+        <div class="bl-ei-phase-date">{{ i18n "ei_tl1_date" | default "August 2024" }}</div>
+        <div class="bl-ei-phase-name">{{ i18n "ei_tl1_name" | default "Large enterprises" }}</div>
+        <div class="bl-ei-phase-desc">{{ i18n "ei_tl1_desc" | default "Businesses with annual turnover above RM 100 million" }}</div>
+        <span class="bl-ei-phase-pill">{{ i18n "ei_tl_inforce" | default "In force" }}</span>
+      </div>
+      <div class="bl-ei-phase">
+        <div class="bl-ei-phase-marker"><span class="bl-ei-phase-dot">2</span></div>
+        <div class="bl-ei-phase-date">{{ i18n "ei_tl2_date" | default "January 2025" }}</div>
+        <div class="bl-ei-phase-name">{{ i18n "ei_tl2_name" | default "Mid-market" }}</div>
+        <div class="bl-ei-phase-desc">{{ i18n "ei_tl2_desc" | default "Businesses with annual turnover above RM 25 million" }}</div>
+        <span class="bl-ei-phase-pill">{{ i18n "ei_tl_inforce" | default "In force" }}</span>
+      </div>
+      <div class="bl-ei-phase">
+        <div class="bl-ei-phase-marker"><span class="bl-ei-phase-dot">3</span></div>
+        <div class="bl-ei-phase-date">{{ i18n "ei_tl3_date" | default "July 2025" }}</div>
+        <div class="bl-ei-phase-name">{{ i18n "ei_tl3_name" | default "All remaining businesses" }}</div>
+        <div class="bl-ei-phase-desc">{{ i18n "ei_tl3_desc" | default "Every remaining taxpayer, including SMEs and micro businesses" }}</div>
+        <span class="bl-ei-phase-pill">{{ i18n "ei_tl_inforce" | default "In force" }}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Stats band -->
+<section class="bl-ei-stats-section">
+  <div class="bl-container">
+    <div class="bl-ei-stats" data-reveal="up" data-delay="0">
+      <div class="bl-ei-stat">
+        <div class="bl-ei-stat-val">10,000<span>+</span></div>
+        <div class="bl-ei-stat-label">{{ i18n "ei_stat1" | default "Invoices processed per hour" }}</div>
+      </div>
+      <div class="bl-ei-stat">
+        <div class="bl-ei-stat-val">80<span>%</span></div>
+        <div class="bl-ei-stat-label">{{ i18n "ei_stat2" | default "Less invoice processing time" }}</div>
+      </div>
+      <div class="bl-ei-stat">
+        <div class="bl-ei-stat-val">99.9<span>%</span></div>
+        <div class="bl-ei-stat-label">{{ i18n "ei_stat3" | default "Uptime service level agreement" }}</div>
+      </div>
+      <div class="bl-ei-stat">
+        <div class="bl-ei-stat-val">7<span>yr</span></div>
+        <div class="bl-ei-stat-label">{{ i18n "ei_stat4" | default "Archive retention, compliant by default" }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- What is PEPPOL -->
+<section class="bl-page-section">
+  <div class="bl-container">
+    <div class="bl-about-split">
+      <div data-reveal="left" data-delay="0">
+        <span class="bl-label">{{ i18n "ei_pp_label" | default "PEPPOL ACCREDITATION" }}</span>
+        <h2 class="bl-page-h2">{{ i18n "ei_pp_h" | default "An international network,<br>not a local workaround" | safeHTML }}</h2>
+        <p class="bl-page-body">{{ i18n "ei_pp_p1" | default "PEPPOL (Pan-European Public Procurement On-Line) lets businesses exchange electronic documents seamlessly across borders. Accreditation is not a badge we bought — it is an audited status that governs how documents are validated, signed, and delivered on your behalf." }}</p>
+        <p class="bl-page-body">{{ i18n "ei_pp_p2" | default "BigLedger holds full accreditation from the Malaysia Digital Economy Corporation (MDEC), which makes us a sanctioned route to market for Malaysian businesses preparing for mandatory e-invoicing, international companies trading with Malaysian entities, government agencies requiring PEPPOL-compliant transactions, and SMEs that need an affordable path to compliance." }}</p>
+      </div>
+      <div class="bl-ei-assure" data-reveal="right" data-delay="80">
+        <div class="bl-ei-assure-item">
+          <span class="bl-ei-assure-num">01</span>
+          <div>
+            <div class="bl-ei-assure-name">{{ i18n "ei_pp_a1_n" | default "Compliance" }}</div>
+            <div class="bl-ei-assure-desc">{{ i18n "ei_pp_a1_d" | default "Full adherence to international e-invoicing standards, maintained as they change" }}</div>
+          </div>
+        </div>
+        <div class="bl-ei-assure-item">
+          <span class="bl-ei-assure-num">02</span>
+          <div>
+            <div class="bl-ei-assure-name">{{ i18n "ei_pp_a2_n" | default "Interoperability" }}</div>
+            <div class="bl-ei-assure-desc">{{ i18n "ei_pp_a2_d" | default "Document exchange with global trading partners on the same network, without bilateral setup" }}</div>
+          </div>
+        </div>
+        <div class="bl-ei-assure-item">
+          <span class="bl-ei-assure-num">03</span>
+          <div>
+            <div class="bl-ei-assure-name">{{ i18n "ei_pp_a3_n" | default "Security" }}</div>
+            <div class="bl-ei-assure-desc">{{ i18n "ei_pp_a3_d" | default "Encrypted, validated transmission with signed proof of what was sent and when" }}</div>
+          </div>
+        </div>
+        <div class="bl-ei-assure-item">
+          <span class="bl-ei-assure-num">04</span>
+          <div>
+            <div class="bl-ei-assure-name">{{ i18n "ei_pp_a4_n" | default "Reliability" }}</div>
+            <div class="bl-ei-assure-desc">{{ i18n "ei_pp_a4_d" | default "Guaranteed delivery with receipt confirmation and automatic retry on failure" }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Capabilities -->
+<section class="bl-page-section bl-section-alt">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "ei_cap_label" | default "PLATFORM CAPABILITIES" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "ei_cap_title" | default "Everything the mandate requires, automated" }}</h2>
+      <p class="bl-section-desc" data-reveal="up" data-delay="120">{{ i18n "ei_cap_desc" | default "The E-Invoice Configuration Module handles generation, validation, submission, and archival as one continuous flow — not four disconnected steps you stitch together yourself." }}</p>
+    </div>
+    <div class="bl-ei-cap-grid">
+      <div class="bl-ei-cap" data-reveal="up" data-delay="0">
+        <span class="bl-ei-cap-icon">
+          <svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M11 2v12M6.5 9.5L11 14l4.5-4.5"/><path d="M3 15v3a2 2 0 002 2h12a2 2 0 002-2v-3"/></svg>
+        </span>
+        <h3 class="bl-ei-cap-title">{{ i18n "ei_cap1_t" | default "Automated Submission" }}</h3>
+        <ul class="bl-ei-cap-list">
+          <li>{{ i18n "ei_cap1_1" | default "Direct API integration with LHDN" }}</li>
+          <li>{{ i18n "ei_cap1_2" | default "Real-time invoice validation" }}</li>
+          <li>{{ i18n "ei_cap1_3" | default "Automatic retry on failure" }}</li>
+          <li>{{ i18n "ei_cap1_4" | default "Bulk invoice processing" }}</li>
+        </ul>
+      </div>
+      <div class="bl-ei-cap" data-reveal="up" data-delay="60">
+        <span class="bl-ei-cap-icon">
+          <svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="8"/><path d="M7.5 11l2.5 2.5 5-5"/></svg>
+        </span>
+        <h3 class="bl-ei-cap-title">{{ i18n "ei_cap2_t" | default "Data Validation" }}</h3>
+        <ul class="bl-ei-cap-list">
+          <li>{{ i18n "ei_cap2_1" | default "Pre-submission validation checks" }}</li>
+          <li>{{ i18n "ei_cap2_2" | default "Tax compliance verification" }}</li>
+          <li>{{ i18n "ei_cap2_3" | default "Format standardization" }}</li>
+          <li>{{ i18n "ei_cap2_4" | default "Error prevention and correction" }}</li>
+        </ul>
+      </div>
+      <div class="bl-ei-cap" data-reveal="up" data-delay="120">
+        <span class="bl-ei-cap-icon">
+          <svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 6h6l2 2h6v9a1 1 0 01-1 1H4a1 1 0 01-1-1V6z"/><path d="M8 13h6"/></svg>
+        </span>
+        <h3 class="bl-ei-cap-title">{{ i18n "ei_cap3_t" | default "Multi-Source Integration" }}</h3>
+        <ul class="bl-ei-cap-list">
+          <li>{{ i18n "ei_cap3_1" | default "Connect existing ERP systems" }}</li>
+          <li>{{ i18n "ei_cap3_2" | default "Import from accounting software" }}</li>
+          <li>{{ i18n "ei_cap3_3" | default "Excel and CSV file uploads" }}</li>
+          <li>{{ i18n "ei_cap3_4" | default "Manual entry options" }}</li>
+        </ul>
+      </div>
+      <div class="bl-ei-cap" data-reveal="up" data-delay="0">
+        <span class="bl-ei-cap-icon">
+          <svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 2h9l3 3v15H5z"/><path d="M14 2v3h3M8 10h6M8 13h6M8 16h4"/></svg>
+        </span>
+        <h3 class="bl-ei-cap-title">{{ i18n "ei_cap4_t" | default "Invoice Generation" }}</h3>
+        <ul class="bl-ei-cap-list">
+          <li>{{ i18n "ei_cap4_1" | default "Automated creation from sales orders" }}</li>
+          <li>{{ i18n "ei_cap4_2" | default "Multi-currency support" }}</li>
+          <li>{{ i18n "ei_cap4_3" | default "Tax calculation engine" }}</li>
+          <li>{{ i18n "ei_cap4_4" | default "Custom invoice templates" }}</li>
+        </ul>
+      </div>
+      <div class="bl-ei-cap" data-reveal="up" data-delay="60">
+        <span class="bl-ei-cap-icon">
+          <svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M11 2l7 3.5v5.2c0 4.3-3 8.3-7 9.3-4-1-7-5-7-9.3V5.5L11 2z"/></svg>
+        </span>
+        <h3 class="bl-ei-cap-title">{{ i18n "ei_cap5_t" | default "Validation Engine" }}</h3>
+        <ul class="bl-ei-cap-list">
+          <li>{{ i18n "ei_cap5_1" | default "LHDN compliance checks" }}</li>
+          <li>{{ i18n "ei_cap5_2" | default "Business rule validation" }}</li>
+          <li>{{ i18n "ei_cap5_3" | default "Data completeness verification" }}</li>
+          <li>{{ i18n "ei_cap5_4" | default "Duplicate detection" }}</li>
+        </ul>
+      </div>
+      <div class="bl-ei-cap" data-reveal="up" data-delay="120">
+        <span class="bl-ei-cap-icon">
+          <svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 7h16M3 11h16M3 15h10"/><circle cx="17" cy="16" r="3"/></svg>
+        </span>
+        <h3 class="bl-ei-cap-title">{{ i18n "ei_cap6_t" | default "Workflow Management" }}</h3>
+        <ul class="bl-ei-cap-list">
+          <li>{{ i18n "ei_cap6_1" | default "Approval chains" }}</li>
+          <li>{{ i18n "ei_cap6_2" | default "Digital signatures" }}</li>
+          <li>{{ i18n "ei_cap6_3" | default "Amendment tracking" }}</li>
+          <li>{{ i18n "ei_cap6_4" | default "Credit note processing" }}</li>
+        </ul>
+      </div>
+      <div class="bl-ei-cap" data-reveal="up" data-delay="0">
+        <span class="bl-ei-cap-icon">
+          <svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="4" width="16" height="4" rx="1"/><path d="M5 8v10a1 1 0 001 1h10a1 1 0 001-1V8"/><path d="M9 12h4"/></svg>
+        </span>
+        <h3 class="bl-ei-cap-title">{{ i18n "ei_cap7_t" | default "Archive &amp; Retrieval" | safeHTML }}</h3>
+        <ul class="bl-ei-cap-list">
+          <li>{{ i18n "ei_cap7_1" | default "Seven-year retention compliance" }}</li>
+          <li>{{ i18n "ei_cap7_2" | default "Advanced search capabilities" }}</li>
+          <li>{{ i18n "ei_cap7_3" | default "Audit trail maintenance" }}</li>
+          <li>{{ i18n "ei_cap7_4" | default "Document versioning" }}</li>
+        </ul>
+      </div>
+      <div class="bl-ei-cap bl-ei-cap-spec" data-reveal="up" data-delay="60">
+        <h3 class="bl-ei-cap-title">{{ i18n "ei_spec_t" | default "Technical Specifications" }}</h3>
+        <div class="bl-ei-spec-row">
+          <span class="bl-ei-spec-key">{{ i18n "ei_spec_k1" | default "Formats" }}</span>
+          <span class="bl-ei-spec-val">UBL 2.1 &middot; JSON &middot; PDF &middot; XML</span>
+        </div>
+        <div class="bl-ei-spec-row">
+          <span class="bl-ei-spec-key">{{ i18n "ei_spec_k2" | default "Integration" }}</span>
+          <span class="bl-ei-spec-val">{{ i18n "ei_spec_v2" | default "REST API &middot; SFTP batch &middot; Web portal &middot; Mobile" | safeHTML }}</span>
+        </div>
+        <div class="bl-ei-spec-row">
+          <span class="bl-ei-spec-key">{{ i18n "ei_spec_k3" | default "Throughput" }}</span>
+          <span class="bl-ei-spec-val">{{ i18n "ei_spec_v3" | default "10,000+ invoices/hour, sub-second validation" }}</span>
+        </div>
+        <div class="bl-ei-spec-row">
+          <span class="bl-ei-spec-key">{{ i18n "ei_spec_k4" | default "Availability" }}</span>
+          <span class="bl-ei-spec-val">{{ i18n "ei_spec_v4" | default "99.9% uptime SLA, real-time status updates" }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Data flow + connected modules -->
+<section class="bl-page-section">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "ei_flow_label" | default "CONNECTED PLATFORM" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "ei_flow_title" | default "One flow, from sale to submission" }}</h2>
+      <p class="bl-section-desc" data-reveal="up" data-delay="120">{{ i18n "ei_flow_desc" | default "E-invoicing is not a bolt-on. It reads from the same order, tax, and inventory data your other modules already use, and writes back into your ledger automatically." }}</p>
+    </div>
+
+    <div class="bl-ei-flow" data-reveal="up" data-delay="60">
+      <div class="bl-ei-flow-step">
+        <span class="bl-ei-flow-name">{{ i18n "ei_flow_s1" | default "Sales Order" }}</span>
+        <span class="bl-ei-flow-sub">{{ i18n "ei_flow_s1s" | default "Inventory" }}</span>
+      </div>
+      <span class="bl-ei-flow-arrow" aria-hidden="true"></span>
+      <div class="bl-ei-flow-step">
+        <span class="bl-ei-flow-name">{{ i18n "ei_flow_s2" | default "Invoice Generation" }}</span>
+        <span class="bl-ei-flow-sub">{{ i18n "ei_flow_s2s" | default "Tax engine" }}</span>
+      </div>
+      <span class="bl-ei-flow-arrow" aria-hidden="true"></span>
+      <div class="bl-ei-flow-step">
+        <span class="bl-ei-flow-name">{{ i18n "ei_flow_s3" | default "Validation" }}</span>
+        <span class="bl-ei-flow-sub">{{ i18n "ei_flow_s3s" | default "Compliance" }}</span>
+      </div>
+      <span class="bl-ei-flow-arrow" aria-hidden="true"></span>
+      <div class="bl-ei-flow-step bl-ei-flow-key">
+        <span class="bl-ei-flow-name">{{ i18n "ei_flow_s4" | default "MyInvois / PEPPOL" }}</span>
+        <span class="bl-ei-flow-sub">{{ i18n "ei_flow_s4s" | default "Archive" }}</span>
+      </div>
+      <span class="bl-ei-flow-arrow" aria-hidden="true"></span>
+      <div class="bl-ei-flow-step">
+        <span class="bl-ei-flow-name">{{ i18n "ei_flow_s5" | default "Accounting" }}</span>
+        <span class="bl-ei-flow-sub">{{ i18n "ei_flow_s5s" | default "Reports" }}</span>
+      </div>
+    </div>
+
+    <div class="bl-ei-cap-grid bl-ei-mod-grid">
+      <div class="bl-ei-cap" data-reveal="up" data-delay="0">
+        <span class="bl-ei-cap-icon">
+          <svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M11 2h8v8L9 20l-8-8L11 2z"/><circle cx="14.5" cy="6.5" r="1.3"/></svg>
+        </span>
+        <h3 class="bl-ei-cap-title">{{ i18n "ei_mod1_t" | default "Point of Sale" }}</h3>
+        <ul class="bl-ei-cap-list">
+          <li>{{ i18n "ei_mod1_1" | default "Automatic invoice generation at checkout" }}</li>
+          <li>{{ i18n "ei_mod1_2" | default "Real-time submission to LHDN" }}</li>
+          <li>{{ i18n "ei_mod1_3" | default "Consolidated daily reporting" }}</li>
+          <li>{{ i18n "ei_mod1_4" | default "Multi-outlet support" }}</li>
+        </ul>
+      </div>
+      <div class="bl-ei-cap" data-reveal="up" data-delay="60">
+        <span class="bl-ei-cap-icon">
+          <svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M6 17h10a4 4 0 000-8A6 6 0 004.7 7 4.5 4.5 0 006 17z"/></svg>
+        </span>
+        <h3 class="bl-ei-cap-title">{{ i18n "ei_mod2_t" | default "E-Commerce" }}</h3>
+        <ul class="bl-ei-cap-list">
+          <li>{{ i18n "ei_mod2_1" | default "B2C invoice automation" }}</li>
+          <li>{{ i18n "ei_mod2_2" | default "B2B self-billing support" }}</li>
+          <li>{{ i18n "ei_mod2_3" | default "Marketplace integration" }}</li>
+          <li>{{ i18n "ei_mod2_4" | default "Cross-border transactions" }}</li>
+        </ul>
+      </div>
+      <div class="bl-ei-cap" data-reveal="up" data-delay="120">
+        <span class="bl-ei-cap-icon">
+          <svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 19V9m8 10V3m8 16v-7"/><path d="M2 19h18"/></svg>
+        </span>
+        <h3 class="bl-ei-cap-title">{{ i18n "ei_mod3_t" | default "Accounting" }}</h3>
+        <ul class="bl-ei-cap-list">
+          <li>{{ i18n "ei_mod3_1" | default "GL posting automation" }}</li>
+          <li>{{ i18n "ei_mod3_2" | default "Tax reconciliation" }}</li>
+          <li>{{ i18n "ei_mod3_3" | default "Cash flow tracking" }}</li>
+          <li>{{ i18n "ei_mod3_4" | default "Financial reporting" }}</li>
+        </ul>
+      </div>
+      <div class="bl-ei-cap" data-reveal="up" data-delay="180">
+        <span class="bl-ei-cap-icon">
+          <svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 9l9-6 9 6v10a1 1 0 01-1 1H3a1 1 0 01-1-1V9z"/><path d="M8 20v-7h6v7"/></svg>
+        </span>
+        <h3 class="bl-ei-cap-title">{{ i18n "ei_mod4_t" | default "Inventory" }}</h3>
+        <ul class="bl-ei-cap-list">
+          <li>{{ i18n "ei_mod4_1" | default "Stock level updates" }}</li>
+          <li>{{ i18n "ei_mod4_2" | default "Cost tracking" }}</li>
+          <li>{{ i18n "ei_mod4_3" | default "Serial number tracking" }}</li>
+          <li>{{ i18n "ei_mod4_4" | default "Batch management" }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Benefits -->
+<section class="bl-page-section bl-section-alt">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "ei_ben_label" | default "BENEFITS &amp; ROI" | safeHTML }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "ei_ben_title" | default "Compliance that pays for itself" }}</h2>
+    </div>
+    <div class="bl-ei-ben-grid">
+      <div class="bl-ei-ben" data-reveal="up" data-delay="0">
+        <span class="bl-ei-ben-tag">{{ i18n "ei_ben_op" | default "OPERATIONAL" }}</span>
+        <h3 class="bl-ei-ben-title">{{ i18n "ei_ben1_t" | default "Cost Reduction" }}</h3>
+        <p class="bl-ei-ben-desc">{{ i18n "ei_ben1_d" | default "Cut invoice processing time by up to 80%, eliminate manual data entry, and remove printing and physical storage costs — along with the penalties that come from filing errors." }}</p>
+      </div>
+      <div class="bl-ei-ben" data-reveal="up" data-delay="60">
+        <span class="bl-ei-ben-tag">{{ i18n "ei_ben_op" | default "OPERATIONAL" }}</span>
+        <h3 class="bl-ei-ben-title">{{ i18n "ei_ben2_t" | default "Efficiency Gains" }}</h3>
+        <p class="bl-ei-ben-desc">{{ i18n "ei_ben2_d" | default "Same-day invoice approval, automated tax calculation, instant delivery confirmation, and a shorter path from dispute to resolution." }}</p>
+      </div>
+      <div class="bl-ei-ben" data-reveal="up" data-delay="120">
+        <span class="bl-ei-ben-tag">{{ i18n "ei_ben_op" | default "OPERATIONAL" }}</span>
+        <h3 class="bl-ei-ben-title">{{ i18n "ei_ben3_t" | default "Compliance Assurance" }}</h3>
+        <p class="bl-ei-ben-desc">{{ i18n "ei_ben3_d" | default "LHDN compliance is maintained for you: rules update automatically as regulations change, every action leaves an audit trail, and errors are caught before submission." }}</p>
+      </div>
+      <div class="bl-ei-ben" data-reveal="up" data-delay="0">
+        <span class="bl-ei-ben-tag bl-ei-ben-tag-alt">{{ i18n "ei_ben_st" | default "STRATEGIC" }}</span>
+        <h3 class="bl-ei-ben-title">{{ i18n "ei_ben4_t" | default "Cash Flow Improvement" }}</h3>
+        <p class="bl-ei-ben-desc">{{ i18n "ei_ben4_d" | default "Faster payment cycles, fewer disputes, better credit management, and supplier relationships that are not strained by paperwork delays." }}</p>
+      </div>
+      <div class="bl-ei-ben" data-reveal="up" data-delay="60">
+        <span class="bl-ei-ben-tag bl-ei-ben-tag-alt">{{ i18n "ei_ben_st" | default "STRATEGIC" }}</span>
+        <h3 class="bl-ei-ben-title">{{ i18n "ei_ben5_t" | default "Data Intelligence" }}</h3>
+        <p class="bl-ei-ben-desc">{{ i18n "ei_ben5_d" | default "Every submitted invoice becomes structured data: real-time sales analytics, tax liability tracking, customer buying patterns, and supplier performance metrics." }}</p>
+      </div>
+      <div class="bl-ei-ben" data-reveal="up" data-delay="120">
+        <span class="bl-ei-ben-tag bl-ei-ben-tag-alt">{{ i18n "ei_ben_st" | default "STRATEGIC" }}</span>
+        <h3 class="bl-ei-ben-title">{{ i18n "ei_ben6_t" | default "Competitive Edge" }}</h3>
+        <p class="bl-ei-ben-desc">{{ i18n "ei_ben6_d" | default "A cleaner customer experience, readiness for international trade on day one, and a digital foundation the rest of your operations can build on." }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Implementation process -->
+<section class="bl-page-section">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "ei_proc_label" | default "IMPLEMENTATION" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "ei_proc_title" | default "Live in eight weeks" }}</h2>
+      <p class="bl-section-desc" data-reveal="up" data-delay="120">{{ i18n "ei_proc_desc" | default "A staged rollout with a pilot before go-live, so the first real submission is never the first time anyone has seen the system." }}</p>
+    </div>
+    <div class="bl-ei-proc" data-reveal="up" data-delay="60">
+      <div class="bl-ei-proc-item">
+        <span class="bl-ei-proc-week">{{ i18n "ei_proc1_w" | default "Week 1" }}</span>
+        <div class="bl-ei-proc-name">{{ i18n "ei_proc1_n" | default "Assessment" }}</div>
+        <div class="bl-ei-proc-desc">{{ i18n "ei_proc1_d" | default "Current process analysis, integration requirements, data quality review, and a compliance gap analysis." }}</div>
+      </div>
+      <div class="bl-ei-proc-item">
+        <span class="bl-ei-proc-week">{{ i18n "ei_proc2_w" | default "Week 2-3" }}</span>
+        <div class="bl-ei-proc-name">{{ i18n "ei_proc2_n" | default "Configuration" }}</div>
+        <div class="bl-ei-proc-desc">{{ i18n "ei_proc2_d" | default "System setup, master data migration, tax rule configuration, and invoice template customization." }}</div>
+      </div>
+      <div class="bl-ei-proc-item">
+        <span class="bl-ei-proc-week">{{ i18n "ei_proc3_w" | default "Week 4-5" }}</span>
+        <div class="bl-ei-proc-name">{{ i18n "ei_proc3_n" | default "Integration" }}</div>
+        <div class="bl-ei-proc-desc">{{ i18n "ei_proc3_d" | default "ERP and POS integration, API connectivity, end-to-end testing and validation, and user training." }}</div>
+      </div>
+      <div class="bl-ei-proc-item">
+        <span class="bl-ei-proc-week">{{ i18n "ei_proc4_w" | default "Week 6-7" }}</span>
+        <div class="bl-ei-proc-name">{{ i18n "ei_proc4_n" | default "Pilot" }}</div>
+        <div class="bl-ei-proc-desc">{{ i18n "ei_proc4_d" | default "Limited rollout with performance monitoring, issue resolution, and process refinement before full cutover." }}</div>
+      </div>
+      <div class="bl-ei-proc-item bl-ei-proc-live">
+        <span class="bl-ei-proc-week">{{ i18n "ei_proc5_w" | default "Week 8" }}</span>
+        <div class="bl-ei-proc-name">{{ i18n "ei_proc5_n" | default "Go-Live" }}</div>
+        <div class="bl-ei-proc-desc">{{ i18n "ei_proc5_d" | default "Full deployment with 24/7 support activated, ongoing performance monitoring, and continuous optimization." }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Success stories -->
+<section class="bl-page-section bl-section-alt">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "ei_case_label" | default "IN PRODUCTION" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "ei_case_title" | default "What it looks like at scale" }}</h2>
+    </div>
+    <div class="bl-ei-story-grid">
+      <div class="bl-ei-story" data-reveal="up" data-delay="0">
+        <span class="bl-ei-story-tag">{{ i18n "ei_case1_tag" | default "Retail chain &middot; 500 outlets" | safeHTML }}</span>
+        <div class="bl-ei-story-row">
+          <span class="bl-ei-story-key">{{ i18n "ei_case_ch" | default "Challenge" }}</span>
+          <span class="bl-ei-story-val">{{ i18n "ei_case1_ch" | default "Manual invoice processing across many locations" }}</span>
+        </div>
+        <div class="bl-ei-story-row">
+          <span class="bl-ei-story-key">{{ i18n "ei_case_so" | default "Solution" }}</span>
+          <span class="bl-ei-story-val">{{ i18n "ei_case1_so" | default "Integrated POS with automated e-invoicing" }}</span>
+        </div>
+        <ul class="bl-ei-story-res">
+          <li>{{ i18n "ei_case1_r1" | default "90% reduction in processing time" }}</li>
+          <li>{{ i18n "ei_case1_r2" | default "Zero compliance penalties" }}</li>
+          <li>{{ i18n "ei_case1_r3" | default "RM 2 million annual cost savings" }}</li>
+        </ul>
+      </div>
+      <div class="bl-ei-story" data-reveal="up" data-delay="80">
+        <span class="bl-ei-story-tag">{{ i18n "ei_case2_tag" | default "Manufacturing" }}</span>
+        <div class="bl-ei-story-row">
+          <span class="bl-ei-story-key">{{ i18n "ei_case_ch" | default "Challenge" }}</span>
+          <span class="bl-ei-story-val">{{ i18n "ei_case2_ch" | default "Complex B2B invoicing with multiple tax scenarios" }}</span>
+        </div>
+        <div class="bl-ei-story-row">
+          <span class="bl-ei-story-key">{{ i18n "ei_case_so" | default "Solution" }}</span>
+          <span class="bl-ei-story-val">{{ i18n "ei_case2_so" | default "Custom validation rules and automated workflows" }}</span>
+        </div>
+        <ul class="bl-ei-story-res">
+          <li>{{ i18n "ei_case2_r1" | default "100% on-time LHDN submission" }}</li>
+          <li>{{ i18n "ei_case2_r2" | default "60% faster payment collection" }}</li>
+          <li>{{ i18n "ei_case2_r3" | default "Complete supply chain visibility" }}</li>
+        </ul>
+      </div>
+      <div class="bl-ei-story" data-reveal="up" data-delay="160">
+        <span class="bl-ei-story-tag">{{ i18n "ei_case3_tag" | default "E-Commerce platform" }}</span>
+        <div class="bl-ei-story-row">
+          <span class="bl-ei-story-key">{{ i18n "ei_case_ch" | default "Challenge" }}</span>
+          <span class="bl-ei-story-val">{{ i18n "ei_case3_ch" | default "High-volume B2C transactions" }}</span>
+        </div>
+        <div class="bl-ei-story-row">
+          <span class="bl-ei-story-key">{{ i18n "ei_case_so" | default "Solution" }}</span>
+          <span class="bl-ei-story-val">{{ i18n "ei_case3_so" | default "Real-time invoice generation and submission" }}</span>
+        </div>
+        <ul class="bl-ei-story-res">
+          <li>{{ i18n "ei_case3_r1" | default "50,000 daily invoices processed" }}</li>
+          <li>{{ i18n "ei_case3_r2" | default "99.99% submission success rate" }}</li>
+          <li>{{ i18n "ei_case3_r3" | default "Seamless customer experience" }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing models -->
+<section class="bl-page-section">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "ei_price_label" | default "PACKAGES" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "ei_price_title" | default "Priced by volume, not by seat" }}</h2>
+      <p class="bl-section-desc" data-reveal="up" data-delay="120">{{ i18n "ei_price_desc" | default "Pick the tier that matches your invoice volume. Every package includes validation, archival, and regulatory updates." }}</p>
+    </div>
+    <div class="bl-ei-price-grid">
+      <div class="bl-ei-price" data-reveal="up" data-delay="0">
+        <div class="bl-ei-price-name">{{ i18n "ei_pk1_n" | default "Starter" }}</div>
+        <div class="bl-ei-price-vol">{{ i18n "ei_pk1_v" | default "Up to 1,000 invoices / month" }}</div>
+        <ul class="bl-ei-price-list">
+          <li>{{ i18n "ei_pk1_1" | default "Basic validation" }}</li>
+          <li>{{ i18n "ei_pk1_2" | default "Web portal access" }}</li>
+          <li>{{ i18n "ei_pk1_3" | default "Email support" }}</li>
+        </ul>
+      </div>
+      <div class="bl-ei-price bl-ei-price-feat" data-reveal="up" data-delay="60">
+        <span class="bl-ei-price-badge">{{ i18n "ei_pk_pop" | default "Most popular" }}</span>
+        <div class="bl-ei-price-name">{{ i18n "ei_pk2_n" | default "Professional" }}</div>
+        <div class="bl-ei-price-vol">{{ i18n "ei_pk2_v" | default "Up to 10,000 invoices / month" }}</div>
+        <ul class="bl-ei-price-list">
+          <li>{{ i18n "ei_pk2_1" | default "Advanced validation" }}</li>
+          <li>{{ i18n "ei_pk2_2" | default "API integration" }}</li>
+          <li>{{ i18n "ei_pk2_3" | default "Custom workflows" }}</li>
+          <li>{{ i18n "ei_pk2_4" | default "Priority support" }}</li>
+        </ul>
+      </div>
+      <div class="bl-ei-price" data-reveal="up" data-delay="120">
+        <div class="bl-ei-price-name">{{ i18n "ei_pk3_n" | default "Enterprise" }}</div>
+        <div class="bl-ei-price-vol">{{ i18n "ei_pk3_v" | default "Unlimited invoices" }}</div>
+        <ul class="bl-ei-price-list">
+          <li>{{ i18n "ei_pk3_1" | default "Full integration suite" }}</li>
+          <li>{{ i18n "ei_pk3_2" | default "Dedicated support" }}</li>
+          <li>{{ i18n "ei_pk3_3" | default "Custom development" }}</li>
+          <li>{{ i18n "ei_pk3_4" | default "SLA guarantee" }}</li>
+        </ul>
+      </div>
+      <div class="bl-ei-price" data-reveal="up" data-delay="180">
+        <div class="bl-ei-price-name">{{ i18n "ei_pk4_n" | default "Pay-Per-Use" }}</div>
+        <div class="bl-ei-price-vol">{{ i18n "ei_pk4_v" | default "No monthly commitment" }}</div>
+        <ul class="bl-ei-price-list">
+          <li>{{ i18n "ei_pk4_1" | default "Per-invoice pricing" }}</li>
+          <li>{{ i18n "ei_pk4_2" | default "All features included" }}</li>
+          <li>{{ i18n "ei_pk4_3" | default "Ideal for seasonal businesses" }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="bl-cta-section">
+  <div class="bl-container">
+    <div class="bl-cta-inner">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "ei_cta_label" | default "TALK TO OUR E-INVOICE TEAM" }}</span>
+      <h2 class="bl-cta-headline" data-reveal="up" data-delay="80">{{ i18n "ei_cta_h" | default "Find out where you stand<br>before LHDN does." | safeHTML }}</h2>
+      <p class="bl-cta-sub" data-reveal="up" data-delay="160">{{ i18n "ei_cta_sub" | default "Book a demo to see the platform submitting live, or start with a free readiness assessment — we will tell you exactly what is missing and what it takes to close the gap." }}</p>
+      <div class="bl-cta-actions" data-reveal="up" data-delay="240">
+        <a href="{{ partial "lurl.html" (dict "ctx" $ "url" "/contact/") }}" class="bl-btn-primary bl-btn-lg">
+          {{ i18n "ei_cta_btn" | default "Request a Demo" }}
+          <svg class="bl-btn-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+        <a href="mailto:einvoice@bigledger.com" class="bl-btn-outline">{{ i18n "ei_cta_btn2" | default "Contact Sales" }}</a>
+      </div>
+    </div>
+  </div>
+</section>

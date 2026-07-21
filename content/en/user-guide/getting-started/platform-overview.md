@@ -1,6 +1,7 @@
 ---
-title: Platform Overview - BigLedger Business Operating System
+title: Platform Overview
 description: Understanding BigLedger's revolutionary applet-based Business Operating System that adapts to your unique business needs
+layout: article
 weight: 10
 tags: [platform, overview, architecture, bos, applets]
 audience: [business-users, administrators, developers, all]
@@ -9,24 +10,22 @@ readingTime: 12 minutes
 lastUpdated: 2024-08-18
 ---
 
-# BigLedger Business Operating System Architecture
-
-## 🎯 TLDR (Too Long; Didn't Read)
+## TLDR (Too Long; Didn't Read)
 - **BigLedger is a Business Operating System (BOS)** - Think Android for your business operations
 - **Applet-based architecture** - Install only what you need, when you need it
 - **AI-powered automation** - 40% reduction in manual data entry with built-in AI
 - **Malaysian-ready** - Built-in SST, e-Invoice, and LHDN compliance
 - **Flexible deployment** - Cloud, on-premise, or hybrid options available
 
-## 📖 Overview
+## Overview
 
 BigLedger revolutionizes enterprise management by providing a Business Operating System (BOS) that functions like Android for your business operations. Instead of forcing you into rigid structures like traditional ERPs, BigLedger offers a flexible, applet-based architecture that adapts to your unique business needs.
 
 {{< callout type="info" >}}
-**🇲🇾 Malaysian Context**: BigLedger is specifically designed for Malaysian businesses, with built-in compliance for SST, e-Invoice (MyInvois), PEPPOL, and LHDN requirements. Over 5,000 Malaysian SMEs trust BigLedger for their operations.
+**Malaysian Context**: BigLedger is specifically designed for Malaysian businesses, with built-in compliance for SST, e-Invoice (MyInvois), PEPPOL, and LHDN requirements. A growing number of Malaysian businesses trust BigLedger for their operations.
 {{< /callout >}}
 
-## 👥 Target Audience
+## Target Audience
 
 This guide is intended for:
 - **Business Owners & Executives**: Understanding how BigLedger transforms your operations
@@ -35,7 +34,7 @@ This guide is intended for:
 - **System Administrators**: Getting familiar with platform architecture
 - **Developers**: Understanding the applet ecosystem and APIs
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before exploring BigLedger, you should understand:
 - [ ] Basic ERP/business software concepts
@@ -43,7 +42,7 @@ Before exploring BigLedger, you should understand:
 - [ ] Your compliance and regulatory requirements
 - [ ] Your integration needs with existing systems
 
-## 🔍 What You'll Learn
+## What You'll Learn
 
 By the end of this guide, you will understand:
 1. How BigLedger's applet architecture differs from traditional ERPs
@@ -60,21 +59,21 @@ By the end of this guide, you will understand:
 
 Unlike traditional monolithic ERPs that force you into rigid structures, BigLedger provides a revolutionary approach:
 
-#### 🏗️ Platform Foundation
+#### Platform Foundation
 Think of BigLedger as the operating system for your business:
 - **Core OS**: Manages data, security, and infrastructure like Windows manages your computer
 - **Unified Data Hub**: All business data in one place, accessible by all applets
 - **Enterprise Performance**: Handles millions of transactions with 99.9% uptime
 - **Compliance Framework**: Built-in Malaysian regulatory compliance
 
-#### 📱 Applet Architecture
+#### Applet Architecture
 Like apps on your smartphone:
 - **Modular Applications**: Install accounting today, add inventory tomorrow
 - **Pay-as-you-grow**: Start with 2 applets, scale to 200 as needed
 - **Seamless Integration**: All applets work together automatically
 - **Custom Development**: Build your own applets for unique needs
 
-#### 🏪 Applet Store Ecosystem
+#### Applet Store Ecosystem
 Your business app marketplace:
 - **500+ Pre-built Applets**: Solutions for every business function
 - **Industry Templates**: Pre-configured for automotive, F&B, retail, etc.
@@ -185,7 +184,7 @@ Essential applets for daily operations:
 Tailored solutions for different industries:
 
 {{< callout type="info" >}}
-**📊 Industry Adoption**: Manufacturing (35%), Retail (28%), Services (22%), Healthcare (15%) of BigLedger's 5,000+ Malaysian customers.
+**📊 Industry Adoption**: BigLedger serves Malaysian businesses across a range of sectors, including manufacturing, retail, services, and healthcare.
 {{< /callout >}}
 
 #### Manufacturing Vertical
@@ -320,7 +319,7 @@ Advanced AI capabilities through AIMatrix partnership:
 **✅ Success Tip**: Most successful implementations follow the 20-80 rule: Get 20% of features (core functions) working perfectly before adding the remaining 80% (advanced features).
 {{< /callout >}}
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - **Business Operating System**: BigLedger is not just software, it's a complete platform for running your business
 - **Applet Flexibility**: Start small, grow unlimited - pay only for what you use
@@ -328,7 +327,7 @@ Advanced AI capabilities through AIMatrix partnership:
 - **Malaysian-Ready**: Compliance with local regulations built-in
 - **Fast Implementation**: Most SMEs go live in 2-4 weeks
 
-## 🔗 See Also
+## See Also
 
 ### Getting Started
 - [Implementation Guide](/user-guide/implementation) - Step-by-step deployment guide
@@ -345,7 +344,7 @@ Advanced AI capabilities through AIMatrix partnership:
 - [Custom Applet Development](/developers/applet-sdk) - Build your own
 - [AI & Automation](/ai-intelligence) - Leverage AI capabilities
 
-## ❓ Frequently Asked Questions
+## Frequently Asked Questions
 
 <details>
 <summary>How is BigLedger different from SAP or Oracle?</summary>
@@ -377,13 +376,13 @@ Yes, BigLedger provides REST APIs, webhooks, and pre-built connectors for popula
 You can either request it (we release updates monthly), build a custom applet, or hire our professional services team to build it for you.
 </details>
 
-## 📚 Further Reading
+## Further Reading
 
 - [BigLedger vs Traditional ERP Whitepaper](https://bigledger.com/whitepaper) - Detailed comparison
 - [Customer Success Stories](https://bigledger.com/case-studies) - Real implementations
 - [ROI Calculator](https://bigledger.com/roi) - Calculate your savings
 
-## 🤝 Need Help?
+## Need Help?
 
 - **Sales Consultation**: [sales@bigledger.com](mailto:sales@bigledger.com) - Get a demo
 - **Support Portal**: [support.bigledger.com](https://support.bigledger.com) - 24/7 help

@@ -2,6 +2,7 @@
 title: "Common Business Workflows"
 description: "Essential step-by-step business workflows that apply to all industries using BigLedger"
 weight: 10
+layout: workflows
 bookCollapseSection: false
 ---
 
@@ -10,17 +11,6 @@ This guide provides detailed, step-by-step workflows for the most common busines
 {{< callout type="info" >}}
 **Before You Begin**: Ensure you have the appropriate user permissions and that your company setup is complete. Each workflow includes prerequisites to help you prepare.
 {{< /callout >}}
-
-## Quick Navigation
-
-{{< cards >}}
-  {{< card link="#financial-workflows" title="Financial Workflows" subtitle="Bank reconciliation, month-end closing, P&L statements" >}}
-  {{< card link="#accounts-management" title="Accounts Management" subtitle="AR collection, AP management, customer onboarding" >}}
-  {{< card link="#administrative-workflows" title="Administrative Tasks" subtitle="User access control, audit trails, document approvals" >}}
-  {{< card link="#advanced-operations" title="Advanced Operations" subtitle="Multi-currency, fixed assets, tax configuration" >}}
-{{< /cards >}}
-
----
 
 ## Financial Workflows
 
@@ -816,11 +806,11 @@ This guide provides detailed, step-by-step workflows for the most common busines
 
 ---
 
-{{< callout type="tip" >}}
-**Pro Tip**: Bookmark this page and use the browser's find function (Ctrl+F or Cmd+F) to quickly locate specific workflows when you need them.
-{{< /callout >}}
-
 ## Getting Help
+
+{{< callout type="tip" >}}
+**Pro Tip**: Bookmark this page and use the category shortcuts at the top to jump straight to the workflow you need.
+{{< /callout >}}
 
 If you encounter issues with any of these workflows:
 

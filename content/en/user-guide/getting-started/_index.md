@@ -3,10 +3,9 @@ title: Getting Started
 description: Essential first steps and platform orientation to begin your BigLedger journey
 tags: [getting-started, setup, onboarding]
 weight: 10
+layout: onboarding
 bookCollapseSection: false
 ---
-
-# Getting Started with BigLedger
 
 Your essential first steps with BigLedger's Business Operating System. This section covers everything you need to know to get up and running quickly and efficiently.
 

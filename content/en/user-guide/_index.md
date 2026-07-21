@@ -1,4 +1,5 @@
 ---
+layout: hub
 bookCollapseSection: true
 description: Master your daily business operations with BigLedger's integrated platform through our comprehensive, step-by-step user guide.
 tags:

@@ -4,6 +4,7 @@ tags:
 - user-guide
 - tutorial
 title: Introduction
+layout: article
 weight: 10
 ---
 

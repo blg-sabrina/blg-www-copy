@@ -1,7 +1,7 @@
 <header class="bl-header">
   <div class="bl-header-inner">
     <nav class="bl-nav">
-      <a href="{{ .Site.BaseURL }}" class="bl-nav-logo" aria-label="{{ .Site.Title }}">
+      <a href="{{ .Site.Home.RelPermalink }}" class="bl-nav-logo" aria-label="{{ .Site.Title }}">
         <img src="{{ "images/bigledger-logo-cropped.png" | relURL }}" alt="{{ .Site.Title }}" height="36" class="bl-logo-img">
       </a>
 
@@ -19,23 +19,29 @@
             <div class="bl-mega-panel" role="menu">
               <div class="bl-mega-inner">
                 {{ $data := $.Site.Data.solutions_menu }}
+                {{/* Pages this language actually has; links to pages that only
+                     exist in English fall back to the English URL. */}}
+                {{ $langUrls := partialCached "lang-urls.html" $ $.Site.Language.Lang }}
                 {{ range $data.columns }}
                 {{ $col := . }}
                 <div class="bl-mega-col{{ if $col.wide }} bl-mega-col-wide{{ end }}">
-                  <span class="bl-mega-label">{{ $col.label }}</span>
+                  <span class="bl-mega-label">{{ i18n (printf "solcol_%s" $col.key) | default $col.label }}</span>
                   <ul class="bl-mega-list{{ if $col.wide }} bl-mega-list-grid{{ end }}">
                     {{ range $col.links }}
+                    {{ $localized := .url | relLangURL }}
+                    {{ $target := cond (in $langUrls $localized) $localized .url }}
+                    {{ $label := i18n (printf "sol_%s" (path.Base .url)) | default .name }}
                     <li>
                       {{ if $col.wide }}
-                      <a href="{{ .url | relLangURL }}" class="bl-mega-tile">
+                      <a href="{{ $target }}" class="bl-mega-tile">
                         {{ if .icon }}<span class="bl-mega-link-ico">{{ partial "feat-icon.html" .icon }}</span>{{ end }}
                         <span class="bl-mega-tile-text">
-                          <span class="bl-mega-tile-name">{{ .name }}</span>
-                          {{ with .count }}<span class="bl-mega-tile-count">{{ . }} applets in catalog</span>{{ end }}
+                          <span class="bl-mega-tile-name">{{ $label }}</span>
+                          {{ with .count }}<span class="bl-mega-tile-count">{{ . }} {{ i18n "applets_in_catalog" | default "applets in catalog" }}</span>{{ end }}
                         </span>
                       </a>
                       {{ else }}
-                      <a href="{{ .url | relLangURL }}" class="bl-mega-link">{{ .name }}</a>
+                      <a href="{{ $target }}" class="bl-mega-link">{{ $label }}</a>
                       {{ end }}
                     </li>
                     {{ end }}
@@ -45,24 +51,28 @@
               </div>
               <div class="bl-mega-footer">
                 <div class="bl-mega-footer-left">
-                  <a href="{{ $data.overview.url | relLangURL }}" class="bl-mega-overview">
-                    {{ $data.overview.label }}
-                    <span class="bl-mega-overview-desc">{{ $data.overview.desc }}</span>
+                  {{ $ovLocalized := $data.overview.url | relLangURL }}
+                  {{ $ovTarget := cond (in $langUrls $ovLocalized) $ovLocalized $data.overview.url }}
+                  <a href="{{ $ovTarget }}" class="bl-mega-overview">
+                    {{ i18n "menu_overview_label" | default $data.overview.label }}
+                    <span class="bl-mega-overview-desc">{{ i18n "menu_overview_desc" | default $data.overview.desc }}</span>
                   </a>
-                  <a href="{{ $data.browse_all.url | relLangURL }}" class="bl-mega-browse-all">
+                  {{ $brLocalized := $data.browse_all.url | relLangURL }}
+                  {{ $brTarget := cond (in $langUrls $brLocalized) $brLocalized $data.browse_all.url }}
+                  <a href="{{ $brTarget }}" class="bl-mega-browse-all">
                     <span class="bl-mega-browse-all-icon">{{ partial "feat-icon.html" "layers" }}</span>
                     <span class="bl-mega-browse-all-text">
-                      <span class="bl-mega-browse-all-label">{{ $data.browse_all.label }}</span>
-                      <span class="bl-mega-browse-all-desc">{{ $data.browse_all.desc }}</span>
+                      <span class="bl-mega-browse-all-label">{{ i18n "menu_browse_label" | default $data.browse_all.label }}</span>
+                      <span class="bl-mega-browse-all-desc">{{ i18n "menu_browse_desc" | default $data.browse_all.desc }}</span>
                     </span>
                   </a>
                 </div>
-                <a href="/contact" class="bl-btn-primary bl-mega-cta">{{ i18n "request_a_demo" }}</a>
+                <a href="{{ partial "lurl.html" (dict "ctx" $ "url" "/contact/") }}" class="bl-btn-primary bl-mega-cta">{{ i18n "request_a_demo" }}</a>
               </div>
             </div>
           </div>
         {{ else }}
-          <a href="{{ .URL }}" class="bl-nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">{{ i18n (printf "nav_%s" .Identifier) | default .Name }}</a>
+          <a href="{{ partial "lurl.html" (dict "ctx" $ "url" (printf "/%s/" .Identifier)) }}" class="bl-nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">{{ i18n (printf "nav_%s" .Identifier) | default .Name }}</a>
         {{ end }}
         {{ end }}
       </div>
@@ -84,7 +94,7 @@
               {{ if eq .Language.Lang $siteLang }}{{ $target = .Permalink }}{{ end }}
             {{ end }}
             {{ if eq $siteLang $current.Language.Lang }}{{ $target = $current.Permalink }}{{ end }}
-            <a href="{{ $target }}" class="bl-lang-option{{ if eq $siteLang $current.Language.Lang }} active{{ end }}">
+            <a href="{{ $target }}" data-no-langify class="bl-lang-option{{ if eq $siteLang $current.Language.Lang }} active{{ end }}">
               {{ .Language.LanguageName }}
               {{ if eq $siteLang $current.Language.Lang }}<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8.5l3 3 7-7"/></svg>{{ end }}
             </a>
@@ -92,7 +102,7 @@
           </div>
         </div>
         {{ end }}
-        <a href="/contact" class="bl-btn-nav">{{ i18n "request_demo" }}</a>
+        <a href="{{ partial "lurl.html" (dict "ctx" $ "url" "/contact/") }}" class="bl-btn-nav">{{ i18n "request_demo" }}</a>
         <button type="button" class="bl-nav-burger" aria-label="{{ i18n "aria_open_menu" }}" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
@@ -112,32 +122,38 @@
             <svg class="bl-nav-caret" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
           </button>
           <div class="bl-mobile-accordion-panel">
-            <a href="{{ $.Site.Data.solutions_menu.overview.url | relLangURL }}" class="bl-mobile-overview-link">{{ $.Site.Data.solutions_menu.overview.label }} →</a>
-            {{ range $.Site.Data.solutions_menu.columns }}
+            {{ $mData := $.Site.Data.solutions_menu }}
+            {{ $mLangUrls := partialCached "lang-urls.html" $ $.Site.Language.Lang }}
+            {{ $mOvLocalized := $mData.overview.url | relLangURL }}
+            <a href="{{ cond (in $mLangUrls $mOvLocalized) $mOvLocalized $mData.overview.url }}" class="bl-mobile-overview-link">{{ i18n "menu_overview_label" | default $mData.overview.label }} →</a>
+            {{ range $mData.columns }}
+            {{ $mCol := . }}
             <div class="bl-mobile-group">
-              <span class="bl-mobile-group-label">{{ .label }}</span>
+              <span class="bl-mobile-group-label">{{ i18n (printf "solcol_%s" $mCol.key) | default $mCol.label }}</span>
               {{ range .links }}
-              <a href="{{ .url | relLangURL }}" class="bl-mobile-group-link">
+              {{ $mLocalized := .url | relLangURL }}
+              <a href="{{ cond (in $mLangUrls $mLocalized) $mLocalized .url }}" class="bl-mobile-group-link">
                 {{ if .icon }}<span class="bl-mobile-link-ico">{{ partial "feat-icon.html" .icon }}</span>{{ end }}
-                {{ .name }}
+                {{ i18n (printf "sol_%s" (path.Base .url)) | default .name }}
               </a>
               {{ end }}
             </div>
             {{ end }}
-            <a href="{{ $.Site.Data.solutions_menu.browse_all.url | relLangURL }}" class="bl-mobile-browse-all">
+            {{ $mBrLocalized := $mData.browse_all.url | relLangURL }}
+            <a href="{{ cond (in $mLangUrls $mBrLocalized) $mBrLocalized $mData.browse_all.url }}" class="bl-mobile-browse-all">
               <span class="bl-mega-browse-all-icon">{{ partial "feat-icon.html" "layers" }}</span>
               <span class="bl-mega-browse-all-text">
-                <span class="bl-mega-browse-all-label">{{ $.Site.Data.solutions_menu.browse_all.label }}</span>
-                <span class="bl-mega-browse-all-desc">{{ $.Site.Data.solutions_menu.browse_all.desc }}</span>
+                <span class="bl-mega-browse-all-label">{{ i18n "menu_browse_label" | default $mData.browse_all.label }}</span>
+                <span class="bl-mega-browse-all-desc">{{ i18n "menu_browse_desc" | default $mData.browse_all.desc }}</span>
               </span>
             </a>
           </div>
         </div>
       {{ else }}
-        <a href="{{ .URL }}" class="bl-mobile-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">{{ i18n (printf "nav_%s" .Identifier) | default .Name }}</a>
+        <a href="{{ partial "lurl.html" (dict "ctx" $ "url" (printf "/%s/" .Identifier)) }}" class="bl-mobile-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">{{ i18n (printf "nav_%s" .Identifier) | default .Name }}</a>
       {{ end }}
       {{ end }}
-      <a href="/contact" class="bl-btn-primary bl-mobile-cta">{{ i18n "request_demo" }}</a>
+      <a href="{{ partial "lurl.html" (dict "ctx" $ "url" "/contact/") }}" class="bl-btn-primary bl-mobile-cta">{{ i18n "request_demo" }}</a>
     </div>
   </div>
   <div class="bl-mobile-drawer-backdrop"></div>

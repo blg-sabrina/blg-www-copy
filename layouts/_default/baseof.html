@@ -7,7 +7,19 @@
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ .Description | default .Site.Params.description }}">
 
-  <link rel="icon" type="image/png" href="{{ "images/bigledger-logo-cropped.png" | relURL }}">
+  {{/* Favicons — the BigLedger mark, generated from the brand logo.
+       Bump $faviconVer when the icon files change so browsers and CDNs
+       drop the old cached icon instead of showing it for weeks. */}}
+  {{ $faviconVer := "2" }}
+  <link rel="icon" href="{{ "favicon.ico" | relURL }}?v={{ $faviconVer }}" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}?v={{ $faviconVer }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}?v={{ $faviconVer }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}?v={{ $faviconVer }}">
+  <link rel="icon" type="image/png" sizes="48x48" href="{{ "favicon-48x48.png" | relURL }}?v={{ $faviconVer }}">
+  <link rel="icon" type="image/png" sizes="96x96" href="{{ "favicon-96x96.png" | relURL }}?v={{ $faviconVer }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}?v={{ $faviconVer }}">
+  <link rel="manifest" href="{{ "site.webmanifest" | relURL }}?v={{ $faviconVer }}">
+  <meta name="theme-color" content="#DC143C">
   <link rel="canonical" href="{{ .Permalink }}">
   {{ range .AllTranslations }}
   <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
@@ -25,10 +37,9 @@
        Tailwind bundle (hx:-prefixed utility classes) to not look broken.
        Marketing pages (flat content/en/*.md, no section) skip this entirely so
        Hextra's base styles never touch the custom bl- design system.
-       Exception: the homepage in a non-English language has no custom bl-
-       marketing template (see layouts/index.html) and falls back to the
-       theme's hextra-home shortcodes instead, which also need this bundle. */}}
-  {{ if or (ne .Section "") (and .IsHome (ne .Site.Language.Lang "en")) }}
+       The homepage in every language now renders the custom bl- marketing
+       template (layouts/index.html) and must NOT load this bundle. */}}
+  {{ if ne .Section "" }}
     {{ $variablesCss := resources.Get "css/variables.css" | resources.ExecuteAsTemplate "css/variables.css" . }}
     {{ $mainCss := resources.Get "css/compiled/main.css" }}
     {{ if hugo.IsProduction }}
@@ -73,7 +84,15 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
-  <script src="{{ "js/main.js" | relURL }}" defer></script>
+  {{/* Language persistence: for non-English sites, expose the set of URLs that
+       exist in this language so main.js can rewrite same-origin links to their
+       localized version (English fallback when a page isn't translated). Keeps
+       the chosen language sticky across all navigation. */}}
+  {{ if ne .Site.Language.Lang "en" }}
+    {{ $langUrls := partialCached "lang-urls.html" . .Site.Language.Lang }}
+    <script>window.__blLang={{ .Site.Language.Lang }};window.__blUrls={{ $langUrls | jsonify | safeJS }};</script>
+  {{ end }}
+  <script src="{{ "js/main.js" | relURL }}?v={{ now.Unix }}" defer></script>
   {{ if ne .Section "" }}
     {{/* Sidebar collapse, TOC scroll-spy, code copy buttons, search — all scoped
          to the Hextra docs layout, which our custom main.js knows nothing about. */}}

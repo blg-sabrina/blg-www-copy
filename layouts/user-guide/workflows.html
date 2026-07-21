@@ -1,0 +1,31 @@
+{{ define "main" }}
+{{/* Workflow Library — accordion treatment for long step-by-step workflow
+     manuals (assigned via `layout: workflows` front matter). The markdown
+     body renders into .wf-content and main.js (initWorkflowLibrary) groups
+     each H2 into a category section and each H3 into a collapsible card. */}}
+
+<section class="bl-inner-hero wf-hero">
+  <div class="bl-inner-hero-bg"></div>
+  <div class="bl-container">
+    <div class="bl-inner-hero-content">
+      <p class="bl-inner-eyebrow" data-reveal="up" data-delay="0">{{ i18n "wf_eyebrow" | default "USER GUIDE · WORKFLOW LIBRARY" }}</p>
+      <h1 class="bl-inner-headline" data-reveal="up" data-delay="80">{{ .Title }}</h1>
+      <p class="bl-inner-sub" data-reveal="up" data-delay="160">{{ .Description }}</p>
+      <div class="wf-stats" data-reveal="up" data-delay="240" aria-hidden="true"></div>
+      <nav class="wf-chips" data-reveal="up" data-delay="300" aria-label="{{ i18n "wf_categories" | default "Workflow categories" }}"></nav>
+    </div>
+  </div>
+</section>
+
+<section class="bl-page-section wf-section">
+  <div class="bl-container">
+    <div class="wf-toolbar">
+      <button type="button" class="wf-tool" data-wf-expand>{{ i18n "wf_expand_all" | default "Expand all" }}</button>
+      <button type="button" class="wf-tool" data-wf-collapse>{{ i18n "wf_collapse_all" | default "Collapse all" }}</button>
+    </div>
+    <div class="wf-content">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+{{ end }}

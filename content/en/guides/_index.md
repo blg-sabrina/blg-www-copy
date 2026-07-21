@@ -1,4 +1,5 @@
 ---
+layout: hub
 title: Implementation Guides
 description: Comprehensive step-by-step guides for implementing and using BigLedger's features
 weight: 25

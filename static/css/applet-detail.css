@@ -146,15 +146,30 @@ body {
 .apd-content [class*="hx:rounded-lg"][class*="hx:border"] strong { color: var(--apd-text); }
 .apd-content [class*="hx:rounded-lg"][class*="hx:border"] p { margin: 0; }
 
-/* Hextra cards shortcode (used on a few pages) */
-.apd-content .hextra-cards { margin: 0 0 20px; }
+/* Hextra cards shortcode (used on a few pages): floating card treatment.
+   The generic `.apd-content a:hover` underline must never reach these. */
+.apd-content .hextra-cards { margin: 8px 0 24px; }
 .apd-content .hextra-card {
-  background: var(--apd-card) !important;
-  border: 1px solid var(--apd-border) !important;
-  border-radius: 14px !important;
+  background: linear-gradient(160deg, #241a1d, var(--apd-card)) !important;
+  border: 1px solid #3a2a2f !important;
+  border-radius: 16px !important;
   color: var(--apd-text) !important;
+  text-decoration: none !important;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
-.apd-content .hextra-card:hover { border-color: rgba(229, 51, 63, 0.4) !important; }
+.apd-content .hextra-card,
+.apd-content .hextra-card *,
+.apd-content .hextra-card:hover,
+.apd-content .hextra-card:hover * {
+  text-decoration: none !important;
+}
+.apd-content .hextra-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(229, 51, 63, 0.6) !important;
+  box-shadow: 0 24px 52px rgba(0, 0, 0, 0.55), 0 0 30px rgba(229, 51, 63, 0.18);
+}
+.apd-content .hextra-card:hover .hextra-card-icon { color: var(--apd-red) !important; }
 
 /* ── Previous / next navigation ─────────────────────────────── */
 .apd-pagenav {

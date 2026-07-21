@@ -1,0 +1,216 @@
+{{ define "main" }}
+{{/* User Guide — Learning Path hub for /user-guide/. Mirrors the structure of
+     content/en/user-guide/_index.md as branded cards (same design system as
+     the /guides/ hub). Links resolve through lurl.html for language fallback. */}}
+
+<section class="bl-inner-hero">
+  <div class="bl-inner-hero-bg"></div>
+  <div class="bl-container">
+    <div class="bl-inner-hero-content">
+      <p class="bl-inner-eyebrow" data-reveal="up" data-delay="0">{{ i18n "ug_eyebrow" | default "USER GUIDE" }}</p>
+      <h1 class="bl-inner-headline" data-reveal="up" data-delay="80">{{ .Title }}</h1>
+      <p class="bl-inner-sub" data-reveal="up" data-delay="160">{{ .Description }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="bl-page-section" style="padding-top:0">
+  <div class="bl-container">
+    <div class="ug-demo-banner" data-reveal="up" data-delay="0">
+      <div class="ug-demo-copy">
+        <span class="bl-label">{{ i18n "ug_demo_label" | default "INTERACTIVE DEMO PLATFORM" }}</span>
+        <h2 class="ug-demo-title">{{ i18n "ug_demo_title" | default "Experience BigLedger hands-on" }}</h2>
+        <p class="ug-demo-desc">{{ i18n "ug_demo_desc" | default "Live environment, industry scenarios, step-by-step guides, and sample data — tailored to your industry." }}</p>
+      </div>
+      <div class="ug-demo-actions">
+        <a href="{{ partial "lurl.html" (dict "ctx" $ "url" "/user-guide/demo/") }}" class="bl-btn-primary">{{ i18n "ug_demo_cta" | default "Try the Demo" }}</a>
+        <a href="{{ partial "lurl.html" (dict "ctx" $ "url" "/user-guide/demo/common-workflows/") }}" class="gd-quick-link">{{ i18n "ug_demo_workflows" | default "Common Workflows" }} <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ $path := slice
+  (dict "title" "Getting Started" "url" "/user-guide/getting-started/"
+        "desc" "Essential first steps and platform orientation."
+        "topics" (slice "Account setup" "Platform concepts" "Navigation basics" "First-time configuration")
+        "links" (slice (dict "t" "Introduction to BigLedger" "u" "/user-guide/getting-started/introduction/")
+                       (dict "t" "Platform Architecture" "u" "/user-guide/getting-started/platform-overview/")))
+  (dict "title" "Basic Operations" "url" "/user-guide/basic-operations/"
+        "desc" "Fundamental daily tasks and data management."
+        "topics" (slice "Item creation and editing" "Document types" "Data management fundamentals")
+        "links" (slice (dict "t" "Creating Items" "u" "/user-guide/basic-operations/creating-an-item/")
+                       (dict "t" "Item Management" "u" "/user-guide/basic-operations/item-maintenance/")))
+  (dict "title" "Daily Tasks" "url" "/user-guide/daily-tasks/"
+        "desc" "Common business operations and routine workflows."
+        "topics" (slice "Pricing management" "Transaction processing" "Inventory operations" "Customer management")
+        "links" (slice (dict "t" "Pricing Strategies" "u" "/user-guide/daily-tasks/pricing-scheme/")
+                       (dict "t" "Price Book Management" "u" "/user-guide/daily-tasks/price-book/")))
+  (dict "title" "Administration" "url" "/user-guide/administration/"
+        "desc" "System management and advanced configuration."
+        "topics" (slice "User and team management" "System configuration" "Security settings")
+        "links" (slice (dict "t" "User Management" "u" "/user-guide/administration/member-listing/")
+                       (dict "t" "Team Configuration" "u" "/user-guide/administration/team/")))
+  (dict "title" "Reports & Analytics" "url" "/user-guide/reports-analytics/"
+        "desc" "Business intelligence and data analysis capabilities."
+        "topics" (slice "Standard reports" "Custom dashboards" "KPI tracking" "Automated reporting"))
+  (dict "title" "Industry Solutions" "url" "/user-guide/industry-solutions/"
+        "desc" "Sector-specific implementations and best practices."
+        "topics" (slice "Industry workflows" "Success stories" "Implementation case studies")
+        "links" (slice (dict "t" "Automotive & Workshop" "u" "/user-guide/industry-solutions/automotive-and-workshop-industry/")
+                       (dict "t" "Food & Beverage" "u" "/user-guide/industry-solutions/food-and-beverage-fb-industry/")))
+  (dict "title" "Troubleshooting" "url" "/user-guide/troubleshooting/"
+        "desc" "Problem resolution and support for common issues."
+        "topics" (slice "Common error resolution" "Performance optimization" "Escalation procedures"))
+  (dict "title" "Best Practices" "url" "/user-guide/best-practices/"
+        "desc" "Expert tips and optimization strategies."
+        "topics" (slice "Implementation best practices" "Operational excellence" "Security guidelines"))
+-}}
+<section class="bl-page-section bl-section-alt">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "ug_path_label" | default "THE LEARNING PATH" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "ug_path_title" | default "Eight steps to mastery" }}</h2>
+      <p class="bl-section-desc" data-reveal="up" data-delay="120">{{ i18n "ug_path_desc" | default "The sections build on each other — follow them in order, or jump to what you need." }}</p>
+    </div>
+    <div class="ug-path-grid" data-reveal="up" data-delay="80">
+      {{ range $i, $s := $path }}
+      <div class="ug-path-card">
+        <div class="ug-path-head">
+          <span class="ug-path-num">{{ add $i 1 }}</span>
+          <a class="ug-path-name" href="{{ partial "lurl.html" (dict "ctx" $ "url" $s.url) }}">{{ $s.title }}</a>
+        </div>
+        <p class="ug-path-desc">{{ $s.desc }}</p>
+        <ul class="gd-cat-topics">
+          {{ range $s.topics }}<li>{{ . }}</li>{{ end }}
+        </ul>
+        {{ with $s.links }}
+        <div class="ug-path-links">
+          {{ range . }}<a class="gd-quick-link" href="{{ partial "lurl.html" (dict "ctx" $ "url" .u) }}">{{ .t }} <span aria-hidden="true">→</span></a>{{ end }}
+        </div>
+        {{ end }}
+        <a class="gd-cat-more" href="{{ partial "lurl.html" (dict "ctx" $ "url" $s.url) }}">{{ i18n "ug_open_section" | default "Open section" }} <span aria-hidden="true">→</span></a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ $personas := slice
+  (dict "title" (i18n "ug_persona_new" | default "New Users") "sub" (i18n "ug_persona_new_sub" | default "Week 1–2")
+        "steps" (slice
+          (dict "t" "Complete Getting Started" "u" "/user-guide/getting-started/")
+          (dict "t" "Master Basic Operations" "u" "/user-guide/basic-operations/")
+          (dict "t" "Practice Daily Tasks" "u" "/user-guide/daily-tasks/")))
+  (dict "title" (i18n "ug_persona_admin" | default "System Administrators") "sub" (i18n "ug_persona_admin_sub" | default "Week 2–4")
+        "steps" (slice
+          (dict "t" "Study the Administration guide" "u" "/user-guide/administration/")
+          (dict "t" "Configure users and security" "u" "/user-guide/administration/member-listing/")
+          (dict "t" "Set up Reports & Analytics" "u" "/user-guide/reports-analytics/")))
+  (dict "title" (i18n "ug_persona_all" | default "All Users") "sub" (i18n "ug_persona_all_sub" | default "Ongoing")
+        "steps" (slice
+          (dict "t" "Apply Best Practices" "u" "/user-guide/best-practices/")
+          (dict "t" "Reference Troubleshooting" "u" "/user-guide/troubleshooting/")
+          (dict "t" "Explore business modules" "u" "/modules/")))
+-}}
+<section class="bl-page-section">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "ug_personas_label" | default "LEARNING PATHS" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "ug_personas_title" | default "Choose your path" }}</h2>
+    </div>
+    <div class="gd-proc-list" data-reveal="up" data-delay="80">
+      {{ range $personas }}
+      <div class="gd-proc-card">
+        <h3 class="gd-proc-name">{{ .title }} <span class="ug-persona-sub">{{ .sub }}</span></h3>
+        <ol class="gd-proc-steps">
+          {{ range $i, $s := .steps }}
+          <li><span class="gd-step-num">{{ add $i 1 }}</span><a class="gd-step-name ug-step-link" href="{{ partial "lurl.html" (dict "ctx" $ "url" $s.u) }}">{{ $s.t }}</a></li>
+          {{ end }}
+        </ol>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ $mods := slice
+  (dict "title" (i18n "ug_mod_fin" | default "Financial Management")
+        "links" (slice
+          (dict "t" "Financial Accounting" "u" "/modules/financial-accounting/")
+          (dict "t" "Accounts Receivable" "u" "/business-operations/account-receivable/")
+          (dict "t" "Accounting Operations" "u" "/business-operations/accounting/")))
+  (dict "title" (i18n "ug_mod_sales" | default "Sales & Customers")
+        "links" (slice
+          (dict "t" "CRM Module" "u" "/modules/crm/")
+          (dict "t" "Sales Dashboard" "u" "/business-operations/sales-dashboard/")
+          (dict "t" "Order Management" "u" "/business-operations/order/")))
+  (dict "title" (i18n "ug_mod_inv" | default "Inventory & Supply Chain")
+        "links" (slice
+          (dict "t" "Inventory Management" "u" "/modules/inventory/")
+          (dict "t" "Procurement" "u" "/modules/procurement/")
+          (dict "t" "Manufacturing" "u" "/modules/manufacturing/")))
+  (dict "title" (i18n "ug_mod_adv" | default "Advanced & Integration")
+        "links" (slice
+          (dict "t" "E-Commerce & EcomSync" "u" "/modules/ecommerce/")
+          (dict "t" "AI Intelligence" "u" "/ai-intelligence/")
+          (dict "t" "E-Invoice & PEPPOL" "u" "/e-invoice-peppol/")
+          (dict "t" "Applets & Workflows" "u" "/applets-workflows/")))
+-}}
+<section class="bl-page-section bl-section-alt">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "ug_mods_label" | default "CORE BUSINESS MODULES" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "ug_mods_title" | default "Go deeper by operational area" }}</h2>
+    </div>
+    <div class="gd-quick-grid ug-4col" data-reveal="up" data-delay="80">
+      {{ range $mods }}
+      <div class="gd-quick-col">
+        <div class="gd-quick-head">{{ .title }}</div>
+        {{ range .links }}
+        <a class="gd-quick-link" href="{{ partial "lurl.html" (dict "ctx" $ "url" .u) }}">{{ .t }} <span aria-hidden="true">→</span></a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="bl-page-section">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "ug_support_label" | default "GETTING HELP & SUPPORT" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "ug_support_title" | default "Help is one message away" }}</h2>
+    </div>
+    <div class="gd-quick-grid" data-reveal="up" data-delay="80">
+      <div class="gd-quick-col">
+        <div class="gd-quick-head">{{ i18n "ug_support_channels" | default "Support Channels" }}</div>
+        <a class="gd-quick-link" href="mailto:sales@bigledger.com">{{ i18n "ug_support_general" | default "General Support" }} — sales@bigledger.com</a>
+        <a class="gd-quick-link" href="mailto:vincent@bigledger.com">{{ i18n "ug_support_technical" | default "Technical Support" }} — vincent@bigledger.com</a>
+        <a class="gd-quick-link" href="https://t.me/leehongfay">{{ i18n "ug_support_chat" | default "Quick Chat" }} — Telegram @leehongfay</a>
+        <a class="gd-quick-link" href="https://www.bigledger.com">{{ i18n "ug_support_web" | default "Website" }} — www.bigledger.com</a>
+      </div>
+      <div class="gd-quick-col">
+        <div class="gd-quick-head">{{ i18n "ug_resources" | default "Learning Resources" }}</div>
+        <ul class="gd-support-items">
+          <li>{{ i18n "ug_res_docs" | default "Comprehensive documentation" }}</li>
+          <li>{{ i18n "ug_res_video" | default "Video library" }}</li>
+          <li>{{ i18n "ug_res_community" | default "User community" }}</li>
+          <li>{{ i18n "ug_res_training" | default "Training & certification" }}</li>
+        </ul>
+      </div>
+      <div class="gd-quick-col">
+        <div class="gd-quick-head">{{ i18n "ug_devs" | default "Developer Resources" }}</div>
+        <a class="gd-quick-link" href="{{ partial "lurl.html" (dict "ctx" $ "url" "/developers/") }}">{{ i18n "ug_dev_docs" | default "Developer Documentation" }} <span aria-hidden="true">→</span></a>
+        <a class="gd-quick-link" href="{{ partial "lurl.html" (dict "ctx" $ "url" "/developers/api-reference/") }}">{{ i18n "ug_dev_api" | default "API Reference" }} <span aria-hidden="true">→</span></a>
+        <a class="gd-quick-link" href="{{ partial "lurl.html" (dict "ctx" $ "url" "/developers/applet-sdk/") }}">{{ i18n "ug_dev_sdk" | default "Custom Development" }} <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+    <div class="gd-contact-strip" data-reveal="up" data-delay="120">
+      <span>{{ i18n "ug_quick_help" | default "Stuck right now? Start with the Troubleshooting Guide for common issues." }}</span>
+      <a href="{{ partial "lurl.html" (dict "ctx" $ "url" "/user-guide/troubleshooting/") }}" class="bl-btn-ghost">{{ i18n "ug_open_troubleshooting" | default "Open Troubleshooting" }}</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}

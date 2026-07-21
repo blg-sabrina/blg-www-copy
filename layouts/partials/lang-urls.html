@@ -1,0 +1,9 @@
+{{/* Returns the set of RelPermalinks that exist in the CURRENT language.
+     Used (via partialCached, keyed by language) to decide whether a menu
+     link can point at a localized page or must fall back to the English
+     original — so no menu click ever 404s in zh/ms/ar. */}}
+{{ $urls := slice }}
+{{ range .Site.Pages }}
+  {{ $urls = $urls | append .RelPermalink }}
+{{ end }}
+{{ return $urls }}

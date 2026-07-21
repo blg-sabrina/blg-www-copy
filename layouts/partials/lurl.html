@@ -1,0 +1,13 @@
+{{- /* Language-aware link target. Args: dict "ctx" $page "url" "/some/path/".
+       Returns the current language's version of the URL when that page
+       exists, otherwise the English original — so cross-page links never
+       404 in languages whose translation isn't written yet. */ -}}
+{{- $ctx := .ctx -}}
+{{- $url := .url -}}
+{{- $out := $url -}}
+{{- if and $url (hasPrefix $url "/") -}}
+  {{- $localized := $url | relLangURL -}}
+  {{- $langUrls := partialCached "lang-urls.html" $ctx $ctx.Site.Language.Lang -}}
+  {{- if in $langUrls $localized -}}{{- $out = $localized -}}{{- end -}}
+{{- end -}}
+{{- return $out -}}

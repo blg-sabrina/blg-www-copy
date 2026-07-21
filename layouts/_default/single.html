@@ -10,6 +10,8 @@
   {{ partial "page-contact.html" . }}
 {{ else if eq $slug "developers" }}
   {{ partial "page-developers.html" . }}
+{{ else if eq $slug "e-invoice-peppol" }}
+  {{ partial "page-einvoice.html" . }}
 {{ else if eq $slug "preview-datalake-1" }}
   {{ partial "page-preview-datalake-1.html" . }}
 {{ else if eq $slug "preview-datalake-2" }}

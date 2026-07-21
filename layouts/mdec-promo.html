@@ -6,35 +6,35 @@
     <div class="promo-hero-logos">
       <img src="/images/partners/mdec-logo.png" alt="MDEC - Malaysia Digital Economy Corporation" class="promo-logo-mdec" />
     </div>
-    <div class="promo-hero-badge">MDEC National E-Invoicing Initiative · Official Accredited Partner</div>
-    <h1 class="promo-hero-title">Free Malaysia E-Invoicing for 3 Years</h1>
-    <p class="promo-hero-sub">As an <strong>MDEC Fully Accredited PEPPOL Service Provider</strong>, BigLedger is pleased to participate in the MDEC National E-Invoicing Initiative — helping Malaysian SMEs meet LHDN e-invoice compliance at zero cost.</p>
+    <div class="promo-hero-badge">{{ i18n "mp_hero_badge" | default "MDEC National E-Invoicing Initiative · Official Accredited Partner" }}</div>
+    <h1 class="promo-hero-title">{{ i18n "mp_hero_title" | default "Free Malaysia E-Invoicing for 3 Years" }}</h1>
+    <p class="promo-hero-sub">{{ i18n "mp_hero_sub" | default "As an <strong>MDEC Fully Accredited PEPPOL Service Provider</strong>, BigLedger is pleased to participate in the MDEC National E-Invoicing Initiative — helping Malaysian SMEs meet LHDN e-invoice compliance at zero cost." | safeHTML }}</p>
 
     <div class="promo-offer-card">
-      <div class="promo-offer-tag">Limited Promotion · MDEC Partner Offer</div>
-      <div class="promo-offer-headline">Free BigLedger Malaysia E-Invoice Applets</div>
+      <div class="promo-offer-tag">{{ i18n "mp_offer_tag" | default "Limited Promotion · MDEC Partner Offer" }}</div>
+      <div class="promo-offer-headline">{{ i18n "mp_offer_headline" | default "Free BigLedger Malaysia E-Invoice Applets" }}</div>
       <div class="promo-offer-metrics">
         <div class="promo-metric">
           <div class="promo-metric-value">200</div>
-          <div class="promo-metric-label">Transactions per month</div>
+          <div class="promo-metric-label">{{ i18n "mp_metric1" | default "Transactions per month" }}</div>
         </div>
         <div class="promo-metric-divider"></div>
         <div class="promo-metric">
           <div class="promo-metric-value">3</div>
-          <div class="promo-metric-label">Years free</div>
+          <div class="promo-metric-label">{{ i18n "mp_metric2" | default "Years free" }}</div>
         </div>
         <div class="promo-metric-divider"></div>
         <div class="promo-metric">
           <div class="promo-metric-value">RM 0</div>
-          <div class="promo-metric-label">Subscription cost</div>
+          <div class="promo-metric-label">{{ i18n "mp_metric3" | default "Subscription cost" }}</div>
         </div>
       </div>
-      <p class="promo-offer-note">BigLedger MDEC E-Invoice 2025 Edition · Full LHDN MyInvois &amp; PEPPOL compliance included</p>
+      <p class="promo-offer-note">{{ i18n "mp_offer_note" | default "BigLedger MDEC E-Invoice 2025 Edition · Full LHDN MyInvois &amp; PEPPOL compliance included" | safeHTML }}</p>
     </div>
 
     <div class="promo-cta-row">
       <a href="https://t.me/leehongfay" target="_blank" rel="noopener" class="btn-primary promo-cta-tg">
-        <span class="promo-cta-icon">💬</span> Claim via Telegram @leehongfay
+        <span class="promo-cta-icon">💬</span> {{ i18n "mp_cta_tg" | default "Claim via Telegram @leehongfay" }}
       </a>
       <a href="mailto:sales@bigledger.com?subject=MDEC%20E-Invoice%20Promotion" class="btn-secondary">
         <span class="promo-cta-icon">✉️</span> sales@bigledger.com
@@ -50,9 +50,9 @@
         <img src="/images/partners/pemangkinMD-national-e-invoicing-logo.webp" alt="Pemangkin Malaysia Digital - National E-Invoicing" class="promo-pemangkin" />
       </div>
       <div class="promo-split-text">
-        <h2>About the MDEC National E-Invoicing Initiative</h2>
-        <p>MDEC — Malaysia's Peppol Authority — launched the <strong>National E-Invoicing Initiative</strong> under Pemangkin Malaysia Digital to help businesses transition smoothly to LHDN-mandated e-invoicing. The Freemium &amp; Affordable Solutions programme partners MDEC with <strong>16 accredited solution providers</strong>, including <strong>BigLedger</strong>, to offer Malaysian SMEs heavily discounted or free e-invoicing packages.</p>
-        <p>The initiative supports Malaysia's phased e-invoice rollout, which becomes mandatory for all businesses on <strong>1 July 2025</strong>. BigLedger's offering is listed on the <a href="https://www.mdec.my/national-einvoicing/freemium-and-affordable-solutions" target="_blank" rel="noopener">official MDEC Freemium &amp; Affordable Solutions page</a>.</p>
+        <h2>{{ i18n "mp_about_h" | default "About the MDEC National E-Invoicing Initiative" }}</h2>
+        <p>{{ i18n "mp_about_p1" | default "MDEC — Malaysia's Peppol Authority — launched the <strong>National E-Invoicing Initiative</strong> under Pemangkin Malaysia Digital to help businesses transition smoothly to LHDN-mandated e-invoicing. The Freemium &amp; Affordable Solutions programme partners MDEC with <strong>16 accredited solution providers</strong>, including <strong>BigLedger</strong>, to offer Malaysian SMEs heavily discounted or free e-invoicing packages." | safeHTML }}</p>
+        <p>{{ i18n "mp_about_p2" | default "The initiative supports Malaysia's phased e-invoice rollout, which becomes mandatory for all businesses on <strong>1 July 2025</strong>. BigLedger's offering is listed on the <a href=\"https://www.mdec.my/national-einvoicing/freemium-and-affordable-solutions\" target=\"_blank\" rel=\"noopener\">official MDEC Freemium &amp; Affordable Solutions page</a>." | safeHTML }}</p>
       </div>
     </div>
   </div>
@@ -60,38 +60,38 @@
 
 <section class="features" style="background: var(--bg-1-t);">
   <div class="container">
-    <h2 style="text-align:center;">What's Included in This Promotion</h2>
-    <p class="features-subtitle">Everything you need to issue compliant Malaysia e-invoices — no hidden fees, no credit card required.</p>
+    <h2 style="text-align:center;">{{ i18n "mp_incl_h" | default "What's Included in This Promotion" }}</h2>
+    <p class="features-subtitle">{{ i18n "mp_incl_sub" | default "Everything you need to issue compliant Malaysia e-invoices — no hidden fees, no credit card required." }}</p>
     <div class="feature-grid">
       <div class="feature-card">
         <div class="feature-icon">📄</div>
-        <h3>E-Invoice Generation Applet</h3>
-        <p>Create LHDN-compliant e-invoices with automated TIN validation, tax calculation, and UBL 2.1 formatting out of the box.</p>
+        <h3>{{ i18n "mp_incl1_t" | default "E-Invoice Generation Applet" }}</h3>
+        <p>{{ i18n "mp_incl1_d" | default "Create LHDN-compliant e-invoices with automated TIN validation, tax calculation, and UBL 2.1 formatting out of the box." }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">🔗</div>
-        <h3>MyInvois Direct Submission</h3>
-        <p>Submit straight to LHDN's MyInvois portal via certified API integration, with automatic retry and real-time status tracking.</p>
+        <h3>{{ i18n "mp_incl2_t" | default "MyInvois Direct Submission" }}</h3>
+        <p>{{ i18n "mp_incl2_d" | default "Submit straight to LHDN's MyInvois portal via certified API integration, with automatic retry and real-time status tracking." }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">🌐</div>
-        <h3>PEPPOL Send &amp; Receive</h3>
-        <p>Full bidirectional Peppol exchange — issue outgoing invoices and receive incoming invoices from any Peppol-connected counterparty, through BigLedger's MDEC-accredited Access Point.</p>
+        <h3>{{ i18n "mp_incl3_t" | default "PEPPOL Send &amp; Receive" | safeHTML }}</h3>
+        <p>{{ i18n "mp_incl3_d" | default "Full bidirectional Peppol exchange — issue outgoing invoices and receive incoming invoices from any Peppol-connected counterparty, through BigLedger's MDEC-accredited Access Point." }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">✅</div>
-        <h3>Pre-Submission Validation</h3>
-        <p>Catch errors before LHDN does. Built-in validation checks for tax compliance, data completeness, and business rules.</p>
+        <h3>{{ i18n "mp_incl4_t" | default "Pre-Submission Validation" }}</h3>
+        <p>{{ i18n "mp_incl4_d" | default "Catch errors before LHDN does. Built-in validation checks for tax compliance, data completeness, and business rules." }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">🗄️</div>
-        <h3>7-Year Archive &amp; Audit Trail</h3>
-        <p>Automatic document retention that meets LHDN requirements, with full-text search and complete audit history.</p>
+        <h3>{{ i18n "mp_incl5_t" | default "7-Year Archive &amp; Audit Trail" | safeHTML }}</h3>
+        <p>{{ i18n "mp_incl5_d" | default "Automatic document retention that meets LHDN requirements, with full-text search and complete audit history." }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">📱</div>
-        <h3>Cloud Access, Any Device</h3>
-        <p>Issue invoices from your laptop, tablet, or phone. No installation, no server maintenance — just sign in and go.</p>
+        <h3>{{ i18n "mp_incl6_t" | default "Cloud Access, Any Device" }}</h3>
+        <p>{{ i18n "mp_incl6_d" | default "Issue invoices from your laptop, tablet, or phone. No installation, no server maintenance — just sign in and go." }}</p>
       </div>
     </div>
   </div>
@@ -99,59 +99,59 @@
 
 <section class="features promo-sendrecv">
   <div class="container">
-    <h2 style="text-align:center;">Full Send &amp; Receive Capability via Peppol</h2>
-    <p class="features-subtitle">BigLedger is a 4-corner Peppol Access Point — both <strong>outbound (sending)</strong> and <strong>inbound (receiving)</strong> document flows are fully supported, in line with MDEC and OpenPeppol specifications.</p>
+    <h2 style="text-align:center;">{{ i18n "mp_sr_h" | default "Full Send &amp; Receive Capability via Peppol" | safeHTML }}</h2>
+    <p class="features-subtitle">{{ i18n "mp_sr_sub" | default "BigLedger is a 4-corner Peppol Access Point — both <strong>outbound (sending)</strong> and <strong>inbound (receiving)</strong> document flows are fully supported, in line with MDEC and OpenPeppol specifications." | safeHTML }}</p>
     <div class="promo-sendrecv-grid">
       <div class="promo-sendrecv-card">
         <div class="promo-sendrecv-head">
           <span class="promo-sendrecv-icon">📤</span>
-          <h3>Sending (Outbound)</h3>
+          <h3>{{ i18n "mp_sr_out_h" | default "Sending (Outbound)" }}</h3>
         </div>
         <ul>
-          <li><strong>Issue compliant e-invoices</strong> in UBL 2.1 / PINT MY format from BigLedger's web app, mobile app, or API.</li>
-          <li><strong>LHDN MyInvois submission</strong> via certified API integration with automated TIN validation, signing, and QR-code embedding.</li>
-          <li><strong>Peppol BIS Billing 3.0 / MY PINT</strong> dispatch to any Peppol-registered counterparty domestically and across borders.</li>
-          <li><strong>Document types:</strong> Invoice, Credit Note, Debit Note, Self-billed Invoice, Refund Note.</li>
-          <li><strong>Real-time delivery status</strong> with automated retry, MLR (Message Level Response) handling, and exception alerts.</li>
+          <li>{{ i18n "mp_sr_out1" | default "<strong>Issue compliant e-invoices</strong> in UBL 2.1 / PINT MY format from BigLedger's web app, mobile app, or API." | safeHTML }}</li>
+          <li>{{ i18n "mp_sr_out2" | default "<strong>LHDN MyInvois submission</strong> via certified API integration with automated TIN validation, signing, and QR-code embedding." | safeHTML }}</li>
+          <li>{{ i18n "mp_sr_out3" | default "<strong>Peppol BIS Billing 3.0 / MY PINT</strong> dispatch to any Peppol-registered counterparty domestically and across borders." | safeHTML }}</li>
+          <li>{{ i18n "mp_sr_out4" | default "<strong>Document types:</strong> Invoice, Credit Note, Debit Note, Self-billed Invoice, Refund Note." | safeHTML }}</li>
+          <li>{{ i18n "mp_sr_out5" | default "<strong>Real-time delivery status</strong> with automated retry, MLR (Message Level Response) handling, and exception alerts." | safeHTML }}</li>
         </ul>
       </div>
       <div class="promo-sendrecv-card">
         <div class="promo-sendrecv-head">
           <span class="promo-sendrecv-icon">📥</span>
-          <h3>Receiving (Inbound)</h3>
+          <h3>{{ i18n "mp_sr_in_h" | default "Receiving (Inbound)" }}</h3>
         </div>
         <ul>
-          <li><strong>Receive Peppol documents</strong> from any 4-corner Access Point worldwide, routed to your BigLedger inbox.</li>
-          <li><strong>Automatic validation</strong> against PINT MY / Peppol BIS schematron rules with structured error reporting back to the sender.</li>
-          <li><strong>Inbound document types:</strong> Invoice, Credit Note, Debit Note, Order, Order Response, Despatch Advice.</li>
-          <li><strong>Auto-matching</strong> with purchase orders and goods receipts, with one-click posting into Accounts Payable.</li>
-          <li><strong>Peppol Directory registration</strong> (SMP) handled by BigLedger so trading partners can discover and route to your Peppol ID.</li>
+          <li>{{ i18n "mp_sr_in1" | default "<strong>Receive Peppol documents</strong> from any 4-corner Access Point worldwide, routed to your BigLedger inbox." | safeHTML }}</li>
+          <li>{{ i18n "mp_sr_in2" | default "<strong>Automatic validation</strong> against PINT MY / Peppol BIS schematron rules with structured error reporting back to the sender." | safeHTML }}</li>
+          <li>{{ i18n "mp_sr_in3" | default "<strong>Inbound document types:</strong> Invoice, Credit Note, Debit Note, Order, Order Response, Despatch Advice." | safeHTML }}</li>
+          <li>{{ i18n "mp_sr_in4" | default "<strong>Auto-matching</strong> with purchase orders and goods receipts, with one-click posting into Accounts Payable." | safeHTML }}</li>
+          <li>{{ i18n "mp_sr_in5" | default "<strong>Peppol Directory registration</strong> (SMP) handled by BigLedger so trading partners can discover and route to your Peppol ID." | safeHTML }}</li>
         </ul>
       </div>
     </div>
-    <p class="promo-sendrecv-note">BigLedger Peppol ID format: <code>0230:&lt;your-LHDN-TIN&gt;</code> (Malaysia scheme). Both production and pre-production (test) environments are operated and monitored 24/7.</p>
+    <p class="promo-sendrecv-note">{{ i18n "mp_sr_note" | default "BigLedger Peppol ID format: <code>0230:&lt;your-LHDN-TIN&gt;</code> (Malaysia scheme). Both production and pre-production (test) environments are operated and monitored 24/7." | safeHTML }}</p>
   </div>
 </section>
 
 <section class="features">
   <div class="container">
-    <h2 style="text-align:center;">Who Qualifies</h2>
-    <p class="features-subtitle">This MDEC-backed promotion is designed for Malaysian businesses preparing for the July 2025 e-invoice mandate.</p>
+    <h2 style="text-align:center;">{{ i18n "mp_qual_h" | default "Who Qualifies" }}</h2>
+    <p class="features-subtitle">{{ i18n "mp_qual_sub" | default "This MDEC-backed promotion is designed for Malaysian businesses preparing for the July 2025 e-invoice mandate." }}</p>
     <div class="feature-grid">
       <div class="feature-card">
         <div class="feature-icon">🏪</div>
-        <h3>SMEs &amp; Micro-Businesses</h3>
-        <p>Malaysian small and medium enterprises with up to 200 invoice transactions per month — retail, F&amp;B, services, trading, and more.</p>
+        <h3>{{ i18n "mp_qual1_t" | default "SMEs &amp; Micro-Businesses" | safeHTML }}</h3>
+        <p>{{ i18n "mp_qual1_d" | default "Malaysian small and medium enterprises with up to 200 invoice transactions per month — retail, F&amp;B, services, trading, and more." | safeHTML }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">📈</div>
-        <h3>Phase 3 Mandate Businesses</h3>
-        <p>Any Malaysian business required to comply with LHDN e-invoicing from 1 July 2025 onwards — regardless of industry.</p>
+        <h3>{{ i18n "mp_qual2_t" | default "Phase 3 Mandate Businesses" }}</h3>
+        <p>{{ i18n "mp_qual2_d" | default "Any Malaysian business required to comply with LHDN e-invoicing from 1 July 2025 onwards — regardless of industry." }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">🆕</div>
-        <h3>New &amp; Transitioning Users</h3>
-        <p>Whether you're moving from manual invoicing, spreadsheets, or a legacy system, onboarding is fast and guided.</p>
+        <h3>{{ i18n "mp_qual3_t" | default "New &amp; Transitioning Users" | safeHTML }}</h3>
+        <p>{{ i18n "mp_qual3_d" | default "Whether you're moving from manual invoicing, spreadsheets, or a legacy system, onboarding is fast and guided." }}</p>
       </div>
     </div>
   </div>
@@ -159,23 +159,23 @@
 
 <section class="features promo-why">
   <div class="container">
-    <h2 style="text-align:center; color: white;">Why BigLedger for Malaysia E-Invoice</h2>
-    <p class="features-subtitle" style="color: rgba(255,255,255,0.9);">One of only 16 MDEC-accredited providers — and the only one giving you a full 3-year runway at 200 transactions/month.</p>
+    <h2 style="text-align:center; color: white;">{{ i18n "mp_why_h" | default "Why BigLedger for Malaysia E-Invoice" }}</h2>
+    <p class="features-subtitle" style="color: rgba(255,255,255,0.9);">{{ i18n "mp_why_sub" | default "One of only 16 MDEC-accredited providers — and the only one giving you a full 3-year runway at 200 transactions/month." }}</p>
     <div class="feature-grid">
       <div class="feature-card">
         <div class="feature-icon">🏅</div>
-        <h3>MDEC Fully Accredited</h3>
-        <p>Certified PEPPOL Service Provider under MDEC, the Malaysian Peppol Authority. Listed on MDEC's official e-invoicing partner directory.</p>
+        <h3>{{ i18n "mp_why1_t" | default "MDEC Fully Accredited" }}</h3>
+        <p>{{ i18n "mp_why1_d" | default "Certified PEPPOL Service Provider under MDEC, the Malaysian Peppol Authority. Listed on MDEC's official e-invoicing partner directory." }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">🇲🇾</div>
-        <h3>Built for Malaysia</h3>
-        <p>Native support for LHDN MyInvois, SST, EPF, SOCSO, PDPA, and local bank integrations — not a retrofitted overseas product.</p>
+        <h3>{{ i18n "mp_why2_t" | default "Built for Malaysia" }}</h3>
+        <p>{{ i18n "mp_why2_d" | default "Native support for LHDN MyInvois, SST, EPF, SOCSO, PDPA, and local bank integrations — not a retrofitted overseas product." }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">🚀</div>
-        <h3>Scale When You're Ready</h3>
-        <p>Grow beyond 200/month? Plug into BigLedger's full ERP: accounting, POS, inventory, e-commerce, CRM — all on one platform.</p>
+        <h3>{{ i18n "mp_why3_t" | default "Scale When You're Ready" }}</h3>
+        <p>{{ i18n "mp_why3_d" | default "Grow beyond 200/month? Plug into BigLedger's full ERP: accounting, POS, inventory, e-commerce, CRM — all on one platform." }}</p>
       </div>
     </div>
   </div>
@@ -183,38 +183,38 @@
 
 <section class="features promo-support" style="background: var(--bg-1-t);">
   <div class="container">
-    <h2 style="text-align:center;">Support Services Included</h2>
-    <p class="features-subtitle">Every business on the MDEC promotion gets the full BigLedger support package — at no extra cost. We do not leave you to figure compliance out alone.</p>
+    <h2 style="text-align:center;">{{ i18n "mp_sup_h" | default "Support Services Included" }}</h2>
+    <p class="features-subtitle">{{ i18n "mp_sup_sub" | default "Every business on the MDEC promotion gets the full BigLedger support package — at no extra cost. We do not leave you to figure compliance out alone." }}</p>
     <div class="feature-grid">
       <div class="feature-card">
         <div class="feature-icon">🚀</div>
-        <h3>Onboarding Support</h3>
-        <p>Guided setup with a dedicated onboarding specialist: company profile, LHDN MyInvois credential linking, Peppol ID registration in the SMP directory, chart-of-account mapping, and your first test invoice — typically completed within 3 business days.</p>
+        <h3>{{ i18n "mp_sup1_t" | default "Onboarding Support" }}</h3>
+        <p>{{ i18n "mp_sup1_d" | default "Guided setup with a dedicated onboarding specialist: company profile, LHDN MyInvois credential linking, Peppol ID registration in the SMP directory, chart-of-account mapping, and your first test invoice — typically completed within 3 business days." }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">🛠️</div>
-        <h3>Technical Assistance</h3>
-        <p>API integration help, data-mapping for UBL 2.1 / PINT MY fields, troubleshooting LHDN validation rejections, Peppol delivery exceptions, and webhook/SFTP setup — handled by BigLedger's Malaysia-based engineering team.</p>
+        <h3>{{ i18n "mp_sup2_t" | default "Technical Assistance" }}</h3>
+        <p>{{ i18n "mp_sup2_d" | default "API integration help, data-mapping for UBL 2.1 / PINT MY fields, troubleshooting LHDN validation rejections, Peppol delivery exceptions, and webhook/SFTP setup — handled by BigLedger's Malaysia-based engineering team." }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">🎓</div>
-        <h3>Training</h3>
-        <p>Live online training sessions for your finance and operations staff, on-demand video tutorials, step-by-step user guides, and quick-reference cheat sheets — all in English, Bahasa Malaysia, and Mandarin.</p>
+        <h3>{{ i18n "mp_sup3_t" | default "Training" }}</h3>
+        <p>{{ i18n "mp_sup3_d" | default "Live online training sessions for your finance and operations staff, on-demand video tutorials, step-by-step user guides, and quick-reference cheat sheets — all in English, Bahasa Malaysia, and Mandarin." }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">☎️</div>
-        <h3>Helpdesk</h3>
-        <p>Multi-channel helpdesk: email <a href="mailto:support@bigledger.com">support@bigledger.com</a>, in-app ticketing, Telegram, and WhatsApp. Business-hours response within 4 working hours; critical-issue escalation 24/7.</p>
+        <h3>{{ i18n "mp_sup4_t" | default "Helpdesk" }}</h3>
+        <p>{{ i18n "mp_sup4_d" | default "Multi-channel helpdesk: email <a href=\"mailto:support@bigledger.com\">support@bigledger.com</a>, in-app ticketing, Telegram, and WhatsApp. Business-hours response within 4 working hours; critical-issue escalation 24/7." | safeHTML }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">📚</div>
-        <h3>Knowledge Base &amp; Docs</h3>
-        <p>Full public documentation at <a href="https://wiki.bigledger.com/" target="_blank" rel="noopener">wiki.bigledger.com</a>, including LHDN compliance guides, Peppol configuration, API references, and FAQs. Continuously updated as LHDN and MDEC publish new rules.</p>
+        <h3>{{ i18n "mp_sup5_t" | default "Knowledge Base &amp; Docs" | safeHTML }}</h3>
+        <p>{{ i18n "mp_sup5_d" | default "Full public documentation at <a href=\"https://wiki.bigledger.com/\" target=\"_blank\" rel=\"noopener\">wiki.bigledger.com</a>, including LHDN compliance guides, Peppol configuration, API references, and FAQs. Continuously updated as LHDN and MDEC publish new rules." | safeHTML }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">🔄</div>
-        <h3>Ongoing Compliance Updates</h3>
-        <p>BigLedger automatically updates schemas, validation rules, and document templates whenever LHDN or MDEC publishes changes — so you stay compliant without lifting a finger.</p>
+        <h3>{{ i18n "mp_sup6_t" | default "Ongoing Compliance Updates" }}</h3>
+        <p>{{ i18n "mp_sup6_d" | default "BigLedger automatically updates schemas, validation rules, and document templates whenever LHDN or MDEC publishes changes — so you stay compliant without lifting a finger." }}</p>
       </div>
     </div>
   </div>
@@ -222,23 +222,23 @@
 
 <section class="features">
   <div class="container">
-    <h2 style="text-align:center;">How to Claim Your Free E-Invoice Package</h2>
-    <p class="features-subtitle">Three simple steps to get compliant — most businesses are up and running within a week.</p>
+    <h2 style="text-align:center;">{{ i18n "mp_claim_h" | default "How to Claim Your Free E-Invoice Package" }}</h2>
+    <p class="features-subtitle">{{ i18n "mp_claim_sub" | default "Three simple steps to get compliant — most businesses are up and running within a week." }}</p>
     <div class="feature-grid">
       <div class="feature-card">
         <div class="feature-icon">1️⃣</div>
-        <h3>Contact Us</h3>
-        <p>Reach out via Telegram <a href="https://t.me/leehongfay" target="_blank" rel="noopener"><strong>@leehongfay</strong></a> or email <a href="mailto:sales@bigledger.com"><strong>sales@bigledger.com</strong></a>. Mention the MDEC promotion.</p>
+        <h3>{{ i18n "mp_claim1_t" | default "Contact Us" }}</h3>
+        <p>{{ i18n "mp_claim1_d" | default "Reach out via Telegram <a href=\"https://t.me/leehongfay\" target=\"_blank\" rel=\"noopener\"><strong>@leehongfay</strong></a> or email <a href=\"mailto:sales@bigledger.com\"><strong>sales@bigledger.com</strong></a>. Mention the MDEC promotion." | safeHTML }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">2️⃣</div>
-        <h3>Quick Onboarding</h3>
-        <p>We'll verify your business details, set up your company profile, and configure your LHDN MyInvois credentials with you.</p>
+        <h3>{{ i18n "mp_claim2_t" | default "Quick Onboarding" }}</h3>
+        <p>{{ i18n "mp_claim2_d" | default "We'll verify your business details, set up your company profile, and configure your LHDN MyInvois credentials with you." }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">3️⃣</div>
-        <h3>Start Issuing E-Invoices</h3>
-        <p>Issue your first compliant e-invoice the same day. Free for 200 transactions/month, for 3 full years.</p>
+        <h3>{{ i18n "mp_claim3_t" | default "Start Issuing E-Invoices" }}</h3>
+        <p>{{ i18n "mp_claim3_d" | default "Issue your first compliant e-invoice the same day. Free for 200 transactions/month, for 3 full years." }}</p>
       </div>
     </div>
   </div>
@@ -246,17 +246,26 @@
 
 <section class="features">
   <div class="container" style="max-width: 900px; margin: 0 auto;">
-    <h2 style="text-align:center;">Frequently Asked Questions</h2>
+    <h2 style="text-align:center;">{{ i18n "mp_faq_h" | default "Frequently Asked Questions" }}</h2>
     {{ $faqs := slice
-      (dict "q" "Is this promotion really free? Any hidden charges?" "a" "Yes, genuinely free for 3 years on up to 200 invoice transactions per month. No setup fees, no credit card required. This is part of BigLedger's commitment under the MDEC National E-Invoicing Initiative to help Malaysian SMEs adopt e-invoicing.")
-      (dict "q" "What counts as a \"transaction\"?" "a" "One transaction = one invoice, credit note, or debit note successfully submitted to LHDN's MyInvois portal. Drafts, validations, and re-submissions of the same document do not count.")
-      (dict "q" "What happens after 3 years, or if I exceed 200/month?" "a" "You can seamlessly upgrade to a paid BigLedger plan at standard pricing. Your data, settings, and history carry over — no migration required.")
-      (dict "q" "Does this cover PEPPOL cross-border invoicing?" "a" "Yes. BigLedger is an MDEC-accredited Peppol Access Point with full 4-corner send and receive capability, so you can issue and receive invoices across the international Peppol network within your 200/month allowance.")
-      (dict "q" "Can BigLedger both send and receive invoices via Peppol?" "a" "Yes — BigLedger operates a full 4-corner Peppol Access Point. <strong>Sending:</strong> issue invoices, credit notes, debit notes, self-billed invoices and refund notes in UBL 2.1 / PINT MY format to LHDN MyInvois and to any Peppol counterparty worldwide. <strong>Receiving:</strong> accept inbound invoices, credit notes, debit notes, orders, order responses and despatch advices from any Peppol Access Point, with automatic validation, MLR feedback, and AP auto-matching.")
-      (dict "q" "What support do I get during and after onboarding?" "a" "The promotion includes the full BigLedger support package at no extra cost: a dedicated onboarding specialist (typical go-live in 3 business days), technical assistance from our Malaysia-based engineering team, live and on-demand training in English / Bahasa Malaysia / Mandarin, multi-channel helpdesk (email, in-app, Telegram, WhatsApp) with 4-hour business-hour response and 24/7 critical escalation, plus automatic compliance updates whenever LHDN or MDEC publishes new rules.")
-      (dict "q" "Can I integrate my existing accounting system?" "a" "Absolutely. BigLedger provides REST APIs, SFTP batch imports, and CSV/Excel upload options. Popular integrations are available out of the box.")
-      (dict "q" "Is my data stored in Malaysia?" "a" "Yes. BigLedger hosts data in Malaysian data centres, compliant with PDPA and LHDN's 7-year retention rules.")
-      (dict "q" "How do I verify BigLedger is officially part of the MDEC initiative?" "a" "BigLedger is listed among the 16 accredited providers on the <a href=\"https://www.mdec.my/national-einvoicing/freemium-and-affordable-solutions\" target=\"_blank\" rel=\"noopener\">MDEC Freemium & Affordable Solutions page</a>.")
+      (dict "q" (i18n "mp_faq1_q" | default "Is this promotion really free? Any hidden charges?")
+            "a" (i18n "mp_faq1_a" | default "Yes, genuinely free for 3 years on up to 200 invoice transactions per month. No setup fees, no credit card required. This is part of BigLedger's commitment under the MDEC National E-Invoicing Initiative to help Malaysian SMEs adopt e-invoicing."))
+      (dict "q" (i18n "mp_faq2_q" | default "What counts as a transaction?")
+            "a" (i18n "mp_faq2_a" | default "One transaction = one invoice, credit note, or debit note successfully submitted to LHDN's MyInvois portal. Drafts, validations, and re-submissions of the same document do not count."))
+      (dict "q" (i18n "mp_faq3_q" | default "What happens after 3 years, or if I exceed 200/month?")
+            "a" (i18n "mp_faq3_a" | default "You can seamlessly upgrade to a paid BigLedger plan at standard pricing. Your data, settings, and history carry over — no migration required."))
+      (dict "q" (i18n "mp_faq4_q" | default "Does this cover PEPPOL cross-border invoicing?")
+            "a" (i18n "mp_faq4_a" | default "Yes. BigLedger is an MDEC-accredited Peppol Access Point with full 4-corner send and receive capability, so you can issue and receive invoices across the international Peppol network within your 200/month allowance."))
+      (dict "q" (i18n "mp_faq5_q" | default "Can BigLedger both send and receive invoices via Peppol?")
+            "a" (i18n "mp_faq5_a" | default "Yes — BigLedger operates a full 4-corner Peppol Access Point. <strong>Sending:</strong> issue invoices, credit notes, debit notes, self-billed invoices and refund notes in UBL 2.1 / PINT MY format to LHDN MyInvois and to any Peppol counterparty worldwide. <strong>Receiving:</strong> accept inbound invoices, credit notes, debit notes, orders, order responses and despatch advices from any Peppol Access Point, with automatic validation, MLR feedback, and AP auto-matching."))
+      (dict "q" (i18n "mp_faq6_q" | default "What support do I get during and after onboarding?")
+            "a" (i18n "mp_faq6_a" | default "The promotion includes the full BigLedger support package at no extra cost: a dedicated onboarding specialist (typical go-live in 3 business days), technical assistance from our Malaysia-based engineering team, live and on-demand training in English / Bahasa Malaysia / Mandarin, multi-channel helpdesk (email, in-app, Telegram, WhatsApp) with 4-hour business-hour response and 24/7 critical escalation, plus automatic compliance updates whenever LHDN or MDEC publishes new rules."))
+      (dict "q" (i18n "mp_faq7_q" | default "Can I integrate my existing accounting system?")
+            "a" (i18n "mp_faq7_a" | default "Absolutely. BigLedger provides REST APIs, SFTP batch imports, and CSV/Excel upload options. Popular integrations are available out of the box."))
+      (dict "q" (i18n "mp_faq8_q" | default "Is my data stored in Malaysia?")
+            "a" (i18n "mp_faq8_a" | default "Yes. BigLedger hosts data in Malaysian data centres, compliant with PDPA and LHDN's 7-year retention rules."))
+      (dict "q" (i18n "mp_faq9_q" | default "How do I verify BigLedger is officially part of the MDEC initiative?")
+            "a" (i18n "mp_faq9_a" | default "BigLedger is listed among the 16 accredited providers on the <a href=\"https://www.mdec.my/national-einvoicing/freemium-and-affordable-solutions\" target=\"_blank\" rel=\"noopener\">MDEC Freemium &amp; Affordable Solutions page</a>."))
     }}
     <div class="promo-faq">
       {{ range $faqs }}
@@ -289,33 +298,33 @@
 
 <section class="features promo-test-env">
   <div class="container">
-    <h2 style="text-align:center;">Test Environment &amp; Demo Access</h2>
-    <p class="features-subtitle">For MDEC reviewers, accredited partners, and prospective customers who want to validate Peppol send/receive capability before committing.</p>
+    <h2 style="text-align:center;">{{ i18n "mp_test_h" | default "Test Environment &amp; Demo Access" | safeHTML }}</h2>
+    <p class="features-subtitle">{{ i18n "mp_test_sub" | default "For MDEC reviewers, accredited partners, and prospective customers who want to validate Peppol send/receive capability before committing." }}</p>
 
     <div class="promo-test-grid">
       <div class="promo-test-card">
-        <div class="promo-test-tag">Sandbox · For external testers</div>
-        <h3>Request Demo Access</h3>
-        <p>Want to test the BigLedger / akaun.com pre-production environment? Send us an inquiry and we will set you up personally.</p>
-        <a href="mailto:support@bigledger.com?subject=Demo%20Access%20Request%20-%20MDEC%20E-Invoice" class="btn-primary" style="display:inline-block;margin-top:12px;background:var(--primary-red);color:#fff;border-color:var(--primary-red);">✉️ Request Demo Access</a>
+        <div class="promo-test-tag">{{ i18n "mp_test1_tag" | default "Sandbox · For external testers" }}</div>
+        <h3>{{ i18n "mp_test1_t" | default "Request Demo Access" }}</h3>
+        <p>{{ i18n "mp_test1_d" | default "Want to test the BigLedger / akaun.com pre-production environment? Send us an inquiry and we will set you up personally." }}</p>
+        <a href="mailto:support@bigledger.com?subject=Demo%20Access%20Request%20-%20MDEC%20E-Invoice" class="btn-primary" style="display:inline-block;margin-top:12px;background:var(--primary-red);color:#fff;border-color:var(--primary-red);">✉️ {{ i18n "mp_test1_btn" | default "Request Demo Access" }}</a>
       </div>
 
       <div class="promo-test-card">
-        <div class="promo-test-tag">Peppol testing</div>
-        <h3>Peppol Test Environment</h3>
-        <p>BigLedger operates a dedicated Peppol pre-production Access Point connected to the OpenPeppol test SMP/SML, used for MDEC accreditation and partner conformance testing.</p>
+        <div class="promo-test-tag">{{ i18n "mp_test2_tag" | default "Peppol testing" }}</div>
+        <h3>{{ i18n "mp_test2_t" | default "Peppol Test Environment" }}</h3>
+        <p>{{ i18n "mp_test2_d" | default "BigLedger operates a dedicated Peppol pre-production Access Point connected to the OpenPeppol test SMP/SML, used for MDEC accreditation and partner conformance testing." }}</p>
         <ul class="promo-test-list">
-          <li>Both <strong>Sender</strong> and <strong>Receiver</strong> roles enabled</li>
-          <li>Document types: Invoice, Credit Note, Debit Note, Self-billed Invoice, Order, Order Response, Despatch Advice</li>
-          <li>Profiles: Peppol BIS Billing 3.0, Peppol PINT MY (Malaysia)</li>
-          <li>MLR (Message Level Response) and conformance reporting available</li>
+          <li>{{ i18n "mp_test2_1" | default "Both <strong>Sender</strong> and <strong>Receiver</strong> roles enabled" | safeHTML }}</li>
+          <li>{{ i18n "mp_test2_2" | default "Document types: Invoice, Credit Note, Debit Note, Self-billed Invoice, Order, Order Response, Despatch Advice" }}</li>
+          <li>{{ i18n "mp_test2_3" | default "Profiles: Peppol BIS Billing 3.0, Peppol PINT MY (Malaysia)" }}</li>
+          <li>{{ i18n "mp_test2_4" | default "MLR (Message Level Response) and conformance reporting available" }}</li>
         </ul>
-        <p class="promo-test-note"><strong>Test PEPPOL ID for MDEC conformance testing</strong> is issued per requesting authority. MDEC reviewers, please email <a href="mailto:support@bigledger.com?subject=MDEC%20Peppol%20Test%20ID%20Request">support@bigledger.com</a> or contact <a href="https://t.me/leehongfay" target="_blank" rel="noopener">@leehongfay</a> on Telegram and we will share the active test Peppol ID, SMP endpoint, and conformance evidence within the same business day.</p>
+        <p class="promo-test-note">{{ i18n "mp_test2_note" | default "<strong>Test PEPPOL ID for MDEC conformance testing</strong> is issued per requesting authority. MDEC reviewers, please email <a href=\"mailto:support@bigledger.com?subject=MDEC%20Peppol%20Test%20ID%20Request\">support@bigledger.com</a> or contact <a href=\"https://t.me/leehongfay\" target=\"_blank\" rel=\"noopener\">@leehongfay</a> on Telegram and we will share the active test Peppol ID, SMP endpoint, and conformance evidence within the same business day." | safeHTML }}</p>
       </div>
     </div>
 
     <div class="promo-test-cta">
-      <a href="mailto:support@bigledger.com?subject=MDEC%20Test%20Environment%20Access" class="btn-primary">✉️ Request Test Access · support@bigledger.com</a>
+      <a href="mailto:support@bigledger.com?subject=MDEC%20Test%20Environment%20Access" class="btn-primary">✉️ {{ i18n "mp_test_cta1" | default "Request Test Access" }} · support@bigledger.com</a>
       <a href="https://t.me/leehongfay" target="_blank" rel="noopener" class="btn-secondary">💬 Telegram @leehongfay</a>
     </div>
   </div>
@@ -323,13 +332,13 @@
 
 <section class="promo-final-cta">
   <div class="container">
-    <h2 style="color: white; text-align:center;">Ready to go compliant — for free?</h2>
-    <p style="color: rgba(255,255,255,0.95); text-align:center; font-size: 18px; max-width: 720px; margin: 16px auto 40px;">Join the MDEC National E-Invoicing Initiative with BigLedger. 200 transactions/month, 3 years free, full MyInvois &amp; PEPPOL compliance.</p>
+    <h2 style="color: white; text-align:center;">{{ i18n "mp_final_h" | default "Ready to go compliant — for free?" }}</h2>
+    <p style="color: rgba(255,255,255,0.95); text-align:center; font-size: 18px; max-width: 720px; margin: 16px auto 40px;">{{ i18n "mp_final_sub" | default "Join the MDEC National E-Invoicing Initiative with BigLedger. 200 transactions/month, 3 years free, full MyInvois &amp; PEPPOL compliance." | safeHTML }}</p>
     <div class="hero-cta">
       <a href="https://t.me/leehongfay" target="_blank" rel="noopener" class="btn-primary" style="background: white; color: var(--primary-red);">💬 Telegram @leehongfay</a>
       <a href="mailto:sales@bigledger.com?subject=MDEC%20E-Invoice%20Promotion" class="btn-secondary" style="background: transparent; color: white; border-color: white;">✉️ sales@bigledger.com</a>
     </div>
-    <p style="color: rgba(255,255,255,0.8); text-align:center; font-size: 14px; margin-top: 32px;">Mon–Fri, 9:00 AM – 6:00 PM MYT · Response typically within a few hours</p>
+    <p style="color: rgba(255,255,255,0.8); text-align:center; font-size: 14px; margin-top: 32px;">{{ i18n "mp_final_hours" | default "Mon–Fri, 9:00 AM – 6:00 PM MYT · Response typically within a few hours" }}</p>
   </div>
 </section>
 </div><!-- /promo-page-wrapper -->

@@ -1,0 +1,481 @@
+# Malay overlay for data/solution_features.yaml (name/desc only;
+# icon/badge/link stay in the base file). Missing entries fall back to English.
+
+add-modules-without-migration:
+  name: "Tambah modul tanpa penghijrahan"
+  desc: "Oleh kerana modul berkongsi seni bina aplet yang sama, menambah modul baharu hanyalah pemasangan, bukan pertukaran platform — laluan yang disarankan ialah berkembang secara berperingkat, bukan pelancaran serentak."
+advanced-reporting-bi:
+  name: "Pelaporan lanjutan & BI"
+  desc: "Pembina laporan fleksibel merangkumi laporan tersuai dan perbandingan antara tempoh, disokong analitik papan pemuka masa nyata — dengan aplet Kecerdasan Perniagaan khusus tersedia untuk pergudangan data dan pemodelan ramalan pada skala perusahaan."
+api-webhook-access:
+  name: "Akses API & webhook"
+  desc: "REST API disertakan SDK untuk JS/TS, Python, PHP, Java, .NET dan Go, dihadkan 1,000 permintaan/jam pada pelan standard dengan had lebih tinggi untuk Enterprise. Webhook merangkumi 200+ jenis acara hingga 10,000 acara/saat dengan jaminan penghantaran 99.9%."
+appointment-scheduling-reminders:
+  name: "Penjadualan temu janji & peringatan"
+  desc: "Tempahan temu janji, permintaan isian semula preskripsi dan peringatan kesihatan berjalan melalui aplet pemesejan omnisaluran platform, dengan integrasi kalendar dan penghalaan keutamaan untuk kes segera."
+audit-trail-every-transaction:
+  name: "Jejak audit pada setiap transaksi"
+  desc: "Setiap transaksi membawa jejak audit lengkap secara lalai, berlapis dengan akses berasaskan peranan dan aliran kelulusan berbilang peringkat — pengelogan aktiviti dan pengekalan audit boleh dikonfigurasi hingga 7 tahun."
+automated-bank-reconciliation:
+  name: "Penyesuaian bank automatik"
+  desc: "Penyesuaian penyata bank berjalan secara automatik terhadap import penyata harian dan bukannya padanan manual bulanan — Cashbook dibina dengan ini sebagai fungsi utama."
+automated-order-routing:
+  name: "Penghalaan pesanan automatik"
+  desc: "Pesanan dihalakan ke pembekal optimum secara automatik — pemilihan berkuasa AI menimbang kos, lokasi, ketersediaan dan prestasi, malah satu pesanan boleh dipecahkan merentas beberapa pembekal secara automatik."
+automated-payroll-statutory-filing:
+  name: "Gaji automatik & pemfailan berkanun"
+  desc: "Gaji berjalan melalui kitaran yang jelas — masa & kehadiran, pengiraan, kelulusan, pembayaran, pelaporan — dengan cukai pendapatan dan potongan berkanun (EPF, SOCSO) dikira automatik pada langkah pengiraan."
+b2b-customer-portal:
+  name: "Portal pelanggan B2B"
+  desc: "Aplet portal B2B khusus memberi pelanggan borong harga khusus pelanggan, pemprosesan pesanan pukal, pengurusan had kredit dan katalog tersuai — pesanan layan diri, bukan tempahan telefon dan e-mel."
+basic-to-advanced-module-path:
+  name: "Laluan modul asas ke lanjutan"
+bill-of-materials-bom:
+  name: "Senarai Bahan (BOM)"
+  desc: "BOM membawa versi penuh dengan pengurusan perubahan kejuruteraan, dan pengekosan menggabungkan kos standard dan sebenar — jadi semakan BOM tidak merosakkan garis asas kos anda secara senyap."
+bundle-kitting-support:
+  name: "Sokongan himpunan & kit"
+  desc: "Produk kit dan himpunan ialah konfigurasi produk kelas pertama, bukan penyelesaian sementara — operasi pemasangan kompleks dan penggabungan produk disokong secara jelas."
+cash-flow-forecasting:
+  name: "Ramalan aliran tunai"
+  desc: "Cashbook menjejak kedudukan tunai masa nyata sebagai fungsi teras, dengan pelaporan ramalan dan analisis aliran tunai khusus — keupayaan yang sama diketengahkan untuk perniagaan perkhidmatan dengan pendapatan tidak sekata."
+centralized-pricing-promotions:
+  name: "Harga & promosi berpusat"
+  desc: "Promosi seluruh rangkaian ialah ciri bernama dalam persediaan Rangkaian Berbilang Kedai, dengan Pricebook mengkonfigurasi promosi dan kempen mengikut segmen, pelanggan, entiti atau tempoh merentas semua cawangan serentak."
+claim-cycle-tracking:
+  name: "Penjejakan kitaran tuntutan"
+client-billing-invoicing:
+  name: "Pengebilan & invois pelanggan"
+  desc: "Tukar masa dan perbelanjaan yang dijejak terus kepada invois pelanggan — tiada kemasukan semula. Menyokong bil pencapaian, penahan dan penghantaran e-invois MY/LHDN dalam aliran yang sama."
+co-marketing-opportunities:
+  name: "Peluang pemasaran bersama"
+combined-finance-operations-modules:
+  name: "Modul kewangan + operasi digabung"
+commission-schemes:
+  name: "Skim komisen"
+commission-tracking:
+  name: "Penjejakan komisen"
+  desc: "Pampasan jualan dikira automatik daripada data urus niaga yang sama dalam saluran, dengan struktur komisen (cth. 3% daripada jualan) disimpan terus pada rekod pampasan pekerja."
+compliance-update-tracking:
+  name: "Penjejakan kemas kini pematuhan"
+  desc: "Kadar dan peraturan cukai membawa tarikh kuat kuasa, jadi perubahan peraturan (seperti pelarasan kadar SST) dijadualkan lebih awal. Kalendar pematuhan menjejak tarikh akhir pemfailan dengan pemantauan dan amaran."
+configurable-approval-workflows:
+  name: "Aliran kelulusan boleh konfigurasi"
+  desc: "Tuntutan mengikut penghalaan kelulusan yang sama digunakan merentas HR — permohonan, kelulusan pengurus, semakan HR — bukannya proses selari yang berasingan."
+configuration-training:
+  name: "Konfigurasi & latihan"
+consolidated-group-reporting:
+  name: "Pelaporan kumpulan disatukan"
+  desc: "Aplet Pemprosesan Penyatuan khusus menggulung kewangan peringkat entiti ke dalam pelaporan kumpulan, menggunakan struktur induk-subsidiari yang sama dalam persediaan organisasi anda."
+consolidated-reporting-franchise:
+  name: "Pelaporan disatukan"
+  desc: "Penyatuan kewangan berbilang entiti dan analitik prestasi merentas tenan berskala hingga 100 hierarki penyatuan, menjana laporan seluruh perusahaan dalam beberapa minit — dengan pemantauan prestasi francaisi sebagai kes penggunaan khusus."
+core-accounting-einvoice-day-one:
+  name: "Perakaunan teras + e-invois dari hari pertama"
+  desc: "Perakaunan Kewangan disertakan pematuhan GST/SST dan pengiraan cukai automatik terbina dalam, dan e-invois mandat kerajaan sebahagian daripada modul yang sama — bukan pembelian berasingan."
+crm-pipeline-tracking:
+  name: "CRM & penjejakan saluran"
+  desc: "Jejak petunjuk melalui saluran 5 peringkat (Prospek → Kelayakan → Cadangan → Rundingan → Berjaya) dengan pemarkahan petunjuk terbina dalam, supaya pasukan tahu peluang mana untuk diutamakan."
+cross-outlet-redemption:
+  name: "Penebusan merentas cawangan"
+  desc: "Keahlian berjalan atas asas POS berbilang cawangan yang sama digunakan untuk inventori berpusat, jadi mata ahli tidak terkunci pada cawangan tempat ia diperoleh."
+custom-slas-security-review:
+  name: "SLA tersuai & semakan keselamatan"
+  desc: "Penempatan perusahaan berjalan pada sasaran masa operasi 99.9% yang sama dengan pengurusan akses istimewa dan akses kecemasan di atasnya — berlapis dengan pengesahan berbilang faktor, RBAC dan penyulitan."
+data-migration-assistance:
+  name: "Bantuan penghijrahan data"
+data-migration-quickbooks:
+  name: "Penghijrahan data daripada QuickBooks"
+data-migration-services:
+  name: "Perkhidmatan penghijrahan data"
+data-residency-policy:
+  name: "Polisi residensi data"
+  desc: "Kawalan residensi dan kedaulatan data geografi membolehkan penempatan terkawal menyimpan data dalam wilayah yang diperlukan, disokong rangka kerja pematuhan tempatan untuk pelancaran serantau."
+dedicated-account-support:
+  name: "Sokongan akaun khusus"
+  desc: "Pelaksanaan perusahaan mendapat pasukan projek khusus serta pengurusan kejayaan pelanggan berterusan, disokong sokongan teknikal 24/7 untuk isu kritikal dan semakan kesihatan berkala."
+dedicated-onboarding-specialist:
+  name: "Pakar permulaan khusus"
+dedicated-partner-support:
+  name: "Sokongan rakan kongsi khusus"
+delivery-route-optimization:
+  name: "Pengoptimuman laluan penghantaran"
+  desc: "Rekod pelanggan membawa koordinat GPS khusus untuk pengoptimuman laluan, bersama zon penghantaran, keutamaan dan penetapan wilayah perkhidmatan — penghalaan bukan langkah perancangan manual berasingan."
+digital-claim-submission:
+  name: "Penghantaran tuntutan digital"
+dropship-specific-reporting:
+  name: "Pelaporan khusus dropship"
+  desc: "KPI khusus menjejak apa yang benar-benar penting untuk dropship — masa pemprosesan pesanan, ketepatan pemenuhan, kadar penghantaran tepat masa, skor kebolehpercayaan pembekal, margin kasar setiap pesanan dan kadar pulangan."
+einvoice-lhdn-submission:
+  name: "Penghantaran e-invois/LHDN"
+  desc: "Invois dihantar terus ke LHDN melalui integrasi API dengan pengesahan masa nyata, cubaan semula automatik dan pemprosesan pukal — mengikut mandat MyInvois berfasa Malaysia (perolehan >RM100J dari Ogos 2024, >RM25J dari Jan 2025, semua perniagaan menjelang Julai 2025)."
+employee-self-service-portal:
+  name: "Portal layan diri pekerja"
+  desc: "Pekerja mengemas kini maklumat peribadi dan menghantar permohonan cuti terus, pengurus mendapat papan pemuka kelulusan pasukan, dan slip gaji/sijil/polisi tersedia atas permintaan — semuanya melalui aplikasi mudah alih yang sama."
+encryption-at-rest-transit:
+  name: "Penyulitan semasa rehat & transit"
+  desc: "Data disulitkan semasa rehat dan dalam transit secara lalai, dengan pembahagian tersulit antara tenan supaya data satu pelanggan tidak boleh dicapai oleh yang lain. Ini tingkah laku asas setiap modul."
+epf-socso-pcb-automation:
+  name: "Automasi EPF/SOCSO/PCB"
+  desc: "Caruman berkanun — EPF, SOCSO dan potongan cukai pendapatan — dikira secara automatik dalam setiap kitaran gaji. Kitaran gaji bergerak terus daripada pengiraan ke pemfailan berkanun, jadi tiada apa dikira semula secara manual di hujung bulan."
+equipment-asset-tracking:
+  name: "Penjejakan peralatan/aset"
+  desc: "Pembekal sewaan peralatan dijejak sebagai jenis pembekal tersendiri, dan penjejakan peralatan umum ialah kes penggunaan biasa untuk perniagaan perkhidmatan — belum ada daftar aset tetap khusus, jadi anggap ini penjejakan peringkat pembekal dan inventori."
+faster-implementation-legacy-erp:
+  name: "Pelaksanaan lebih pantas daripada ERP lama"
+  desc: "Modul ditambah berperingkat atas seni bina aplet dikongsi dan bukannya pelancaran besar-besaran serentak — anda skop dan mula guna jabatan demi jabatan."
+feature-comparison-autocount:
+  name: "Perbandingan ciri vs AutoCount"
+feature-comparison-sql-account:
+  name: "Perbandingan ciri vs SQL Account"
+flexible-pricing-tiers:
+  name: "Peringkat harga fleksibel"
+  desc: "Peringkat harga berasaskan jumlah dan harga khusus pelanggan menyokong berbilang harga jualan setiap produk — kes penggunaan yang didokumenkan ialah pengedar B2B menjalankan pecahan harga berbeza."
+fn-ai-customer-analytics:
+  name: "Analitik pelanggan AI"
+  desc: "Analitik dipacu sejarah pembelian yang menonjolkan risiko churn, cadangan produk terbaik seterusnya dan segmen pelanggan daripada data sedia ada dalam lejar anda — bukan gudang berasingan yang perlu disuap."
+fn-bank-reconciliation:
+  name: "Penyesuaian bank"
+  desc: "Padankan penyata bank dengan buku tunai anda baris demi baris, tanda percanggahan, dan tutup jurang antara baki buku dan baki bank pada jadual yang anda kawal."
+fn-billing-by-stage:
+  name: "Pengebilan mengikut peringkat"
+  desc: "Bilkan peringkat yuran tetap, peratusan kemajuan, atau masa dan bahan daripada item dokumen yang dikonfigurasi setiap penglibatan — invois terikat kembali kepada projek supaya kerja belum dibil sentiasa kelihatan."
+fn-bom-management:
+  name: "Pengurusan BOM"
+  desc: "Takrifkan senarai bahan berbilang peringkat dengan penggantian komponen dan versi, supaya pesanan pengeluaran terurai kepada keperluan bahan tepat — dikoskan daripada nilai inventori langsung."
+fn-claims-integration:
+  name: "Integrasi tuntutan"
+  desc: "Tuntutan perbelanjaan melalui kitaran kelulusan boleh konfigurasi dan diselesaikan melalui gaji terhadap rekod pekerja yang sama — status tuntutan kelihatan bersama data pampasan pekerja yang lain."
+fn-cp-commerce-storefront:
+  name: "Kedai CP-Commerce"
+  desc: "Jalankan kedai dalam talian berjenama sendiri di CP-Commerce, disokong oleh 13 aplet Teras yang sama seperti platform lain — katalog, troli, pembayaran dan pemenuhan termasuk."
+fn-customer-master-data:
+  name: "Data induk pelanggan"
+  desc: "Satu rekod pelanggan membawa profil, had kredit, terma pembayaran dan sokongan berbilang alamat merentas jualan, invois dan sokongan. Kemas kini sekali dan setiap sebut harga, pesanan dan penyata mencerminkannya."
+fn-digital-crm:
+  name: "CRM Digital"
+  desc: "Pengurusan saluran, aktiviti dan akaun yang membaca daripada data induk pelanggan sama seperti invois anda — urus niaga yang berjaya menjadi pesanan tanpa kemasukan semula."
+fn-ecommerce-catalog:
+  name: "Katalog e-dagang"
+  desc: "Urus katalog produk dalam talian — penerangan, imej, varian dan harga khusus saluran — dalam satu aplet yang menyuap kedai anda dan penyenaraian pasaran sekali gus."
+fn-ecomsync-marketplaces:
+  name: "Penyegerakan pasaran EcomSync"
+  desc: "Segerakkan penyenaraian, stok dan pesanan dengan Lazada, Shopee dan pasaran lain daripada satu katalog. Pesanan pasaran masuk ke aliran pesanan yang sama, dan stok berkurang merentas saluran dalam masa nyata."
+fn-einvoice-generation:
+  name: "Penjanaan e-invois"
+  desc: "Aplet Penjanaan E-Invois mencipta invois elektronik patuh daripada aliran jualan biasa anda — tiada kemasukan semula ke portal. Nota kredit, nota debit dan pembatalan mengikut laluan yang sama."
+fn-einvoice-validation:
+  name: "Peraturan pengesahan"
+  desc: "Invois disahkan terhadap keperluan medan dan format LHDN sebelum penghantaran, jadi penolakan ditangkap dalam BigLedger dan bukannya dilantun oleh pihak berkuasa cukai beberapa hari kemudian."
+fn-employee-records:
+  name: "Rekod pekerja"
+  desc: "Satu rekod induk pekerja membawa profil, penetapan jabatan, peranan dan data pampasan — rekod yang sama dibaca oleh gaji, tuntutan dan kawalan akses, jadi tiada apa diselenggara dua kali."
+fn-financial-reporting:
+  name: "Pelaporan kewangan"
+  desc: "Jana penyata untung rugi, kunci kira-kira dan aliran tunai terus daripada lejar — tiada eksport atau pemasangan manual. Pemetaan penyata ditakrifkan dalam carta akaun."
+fn-general-ledger-coa:
+  name: "Lejar am & carta akaun"
+  desc: "Setiap transaksi direkod ke lejar catatan bergu yang dibina atas carta akaun yang anda susun sekali — hierarki akaun, pemetaan penyata kewangan dan sokongan berbilang mata wang termasuk."
+fn-goods-receiving:
+  name: "Penerimaan barangan & penghantaran dalaman"
+  desc: "Terima terhadap pesanan belian dan pindahkan barangan secara dalaman dengan pesanan penghantaran yang mengemas kini stok sebaik disahkan, memastikan gudang dan lejar pada angka yang sama."
+fn-job-costing:
+  name: "Pengekosan kerja"
+  desc: "Buruh, bahan dan overhed direkod ke kerja semasa ia berlaku, jadi margin setiap kerja ialah angka langsung — bukan rekonstruksi selepas invois dikeluarkan."
+fn-job-orders:
+  name: "Pesanan kerja dalaman"
+  desc: "Jejak kerja dalaman — pemasangan, kit, kerja semula — dengan pesanan, pengeluaran bahan dan catatan penyiapan tersendiri, diasingkan daripada pesanan pelanggan tetapi kelihatan dalam paparan operasi yang sama."
+fn-membership-at-checkout:
+  name: "Keahlian semasa pembayaran"
+  desc: "Ahli memperoleh dan menebus mata di kaunter melalui aliran yang sama seperti jualan biasa — mata wang mata, peringkat dan penebusan merentas cawangan berjalan pada sistem keahlian."
+fn-multi-outlet-pos:
+  name: "Operasi berbilang cawangan"
+  desc: "Jalankan setiap cawangan pada katalog, harga dan keterlihatan stok yang sama, dengan buku tunai setiap cawangan dan pelaporan disatukan di ibu pejabat."
+fn-myinvois-integration:
+  name: "Integrasi MyInvois"
+  desc: "Hantar invois ke sistem MyInvois LHDN terus daripada BigLedger sebagai penyedia perkhidmatan PEPPOL diiktiraf MDEC. Panduan persediaan merangkumi pendaftaran, konfigurasi persekitaran dan penghantaran langsung pertama anda."
+fn-payroll-statutory:
+  name: "Pematuhan EPF, SOCSO & PCB"
+  desc: "Gaji mengira EPF, SOCSO, EIS dan PCB terhadap kadar berkanun semasa dan menjana fail penghantaran yang dijangka agensi. Kemas kini kadar disertakan dengan platform."
+fn-peppol-network:
+  name: "Rangkaian PEPPOL"
+  desc: "Bertukar invois dengan mana-mana peserta PEPPOL — tempatan atau antarabangsa — melalui rangkaian yang sama digunakan di Eropah dan Asia-Pasifik."
+fn-pos-terminal:
+  name: "Terminal POS"
+  desc: "Terminal tempat jualan penuh — operasi juruwang, resit, pulangan dan penutupan akhir hari — yang merekod setiap jualan terus ke lejar dan inventori. Tiada kelompok semalaman, tiada sistem berasingan untuk diselaraskan."
+fn-pricing-promotions:
+  name: "Harga & promosi"
+  desc: "Buku harga mengendalikan harga khusus cawangan, pecahan kuantiti dan promosi bermasa secara berpusat — tolak perubahan harga sekali dan setiap kaunter menggunakannya serta-merta."
+fn-procurement-controls:
+  name: "Kawalan perolehan"
+  desc: "Semakan bajet, ambang kelulusan dan padanan tiga hala memastikan perbelanjaan dalam polisi sebelum komitmen dibuat — bukan ditemui di hujung bulan."
+fn-production-planning:
+  name: "Perancangan pengeluaran"
+  desc: "Rancang larian pengeluaran terhadap permintaan sebenar dan ketersediaan bahan, dengan pesanan kerja yang menempah stok dan menjadualkan kapasiti."
+fn-project-tracking:
+  name: "Penjejakan projek"
+  desc: "Jejak peringkat, tugasan dan status setiap projek berbanding rancangan dalam satu paparan, dengan masa dan kos terkumpul pada projek semasa kerja berlaku."
+fn-project-workflows:
+  name: "Aliran kelulusan"
+  desc: "Variasi, tandatangan peringkat dan pencapaian pengebilan melalui proses kelulusan aplet Reka Bentuk Aliran Kerja, jadi keputusan projek meninggalkan jejak audit dan bukannya tinggal dalam e-mel."
+fn-purchase-workflows:
+  name: "Aliran kerja belian"
+  desc: "Rekuisisi, pesanan belian, penerimaan dan padanan invois pembekal berjalan sebagai satu aliran bersambung dengan langkah kelulusan di mana anda perlukan."
+fn-quality-control:
+  name: "Kawalan kualiti"
+  desc: "Titik pemeriksaan semasa penerimaan, dalam proses dan pra-penghantaran merekod keputusan lulus/gagal terhadap pesanan kerja, jadi tahanan kualiti menghalang kelompok bermasalah sebelum sampai kepada pelanggan."
+fn-receivables-cashbook:
+  name: "Belum terima & buku tunai"
+  desc: "Jejak pengebilan pelanggan, kutipan dan penuaan daripada aplet Akaun Belum Terima, dengan akaun tunai dan bank diurus dalam aplet Cashbook. Kedua-duanya direkod ke lejar yang sama."
+fn-shopify-integration:
+  name: "Integrasi Shopify"
+  desc: "Sambungkan kedai Shopify supaya produk, inventori dan pesanan mengalir dua hala — panduan merangkumi sambungan kedai, pemetaan item dan muat turun pesanan tanpa kod tersuai."
+fn-stock-adjustment:
+  name: "Pelarasan stok dalaman"
+  desc: "Hapus kira kerosakan, betulkan ralat kiraan dan rekod stok ditemui dengan kod sebab dan kawalan kelulusan, supaya setiap pelarasan dijelaskan dan boleh diaudit."
+fn-stock-balance:
+  name: "Baki stok"
+  desc: "Kuantiti sedia ada, ditempah dan tersedia secara langsung bagi setiap item setiap lokasi — angka yang sama disemak pesanan jualan, kaunter POS dan pasaran anda sebelum stok dijanjikan."
+fn-stock-take:
+  name: "Pengiraan stok"
+  desc: "Jalankan kiraan fizikal dengan pengimbasan berbantu mudah alih, pilihan kiraan buta dan catatan varians automatik selepas kiraan diluluskan. Kiraan boleh diskop kepada lokasi, zon atau kategori."
+fn-stock-transfer:
+  name: "Prosedur pemindahan stok"
+  desc: "Pindahkan stok antara cawangan dan gudang dengan pesanan pemindahan didokumenkan — status dihantar, dalam transit dan diterima — supaya stok tidak hilang antara lokasi."
+fn-supplier-master-data:
+  name: "Data induk pembekal"
+  desc: "Satu rekod pembekal membawa terma pembayaran, perjanjian belian dan penetapan kategori merentas perolehan dan akaun belum bayar. Sejarah prestasi pembekal terkumpul pada rekod yang sama."
+fn-tax-configuration:
+  name: "Konfigurasi cukai"
+  desc: "Konfigurasikan kod, kadar dan kumpulan GST, SST dan VAT sekali dalam aplet Konfigurasi Cukai — setiap modul yang menimbulkan transaksi bercukai menggunakan peraturan yang sama."
+fn-team-management:
+  name: "Pengurusan pasukan"
+  desc: "Susun pekerja ke dalam pasukan dengan kebenaran berasaskan pasukan dan barisan pelaporan, diurus dalam satu aplet yang dikongsi HR dan pentadbir sistem."
+fn-unified-contact-center:
+  name: "Pusat hubungan bersatu"
+  desc: "Kendalikan panggilan sokongan, sembang dan tiket dengan pesanan, invois dan status pembayaran pelanggan pada skrin yang sama. Ejen menjawab daripada sistem rekod dan bukannya meminta pelanggan mengulang."
+franchisee-royalty-tracking:
+  name: "Penjejakan royalti francaisi"
+full-module-catalog-access:
+  name: "Akses katalog modul penuh"
+  desc: "Modul ERP penuh menghimpunkan kesemua 41 aplet — setiap aplet Perakaunan dan POS serta aplet khusus ERP — dan kedai aplet menyokong pemasangan tanpa had setiap tenan."
+full-mrp-integration:
+  name: "Integrasi MRP penuh"
+  desc: "Perancangan Keperluan Bahan dan MRP Dipacu Permintaan berjalan bersama Perancangan & Penjadualan Lanjutan berasaskan kekangan, mengikuti rantaian penuh daripada ramalan jualan hingga jadual pengeluaran."
+full-service-history:
+  name: "Sejarah servis penuh"
+  desc: "Rekod pelanggan terpaut terus kepada sejarah servis dan kontrak sebagai sebahagian daripada integrasi pengurusan pelanggan standard."
+guided-data-import-templates:
+  name: "Templat import data berpandu"
+guided-onboarding:
+  name: "Permulaan berpandu"
+hipaa-ready-infrastructure:
+  name: "Infrastruktur sedia HIPAA"
+historical-data-migration:
+  name: "Penghijrahan data sejarah"
+implementation-reseller-partnerships:
+  name: "Perkongsian pelaksanaan & penjualan semula"
+inter-company-transactions:
+  name: "Transaksi antara syarikat"
+  desc: "Aplet Pemprosesan Transaksi Antara Syarikat khusus mengendalikan transaksi berbilang entiti secara langsung, merangkumi senario transaksi antara cawangan yang sama."
+inventory-analytics:
+  name: "Analitik inventori"
+  desc: "Analisis stok merangkumi titik pesanan semula dan stok keselamatan, analisis pergerakan (pantas/perlahan, kadar pusing ganti) dan penilaian mengikut lokasi atau kaedah — dengan klasifikasi ABC dan pengiraan Kuantiti Pesanan Ekonomi terbina dalam."
+iso27001-certified-infrastructure:
+  name: "Infrastruktur diperakui ISO 27001"
+  desc: "Infrastruktur dibina mengikut piawaian ISO 27001 dan PCI DSS, dengan sokongan pematuhan SOC 2 Type II dan GDPR berlapis untuk penempatan perusahaan. Ini berjalan bersama pengesahan berbilang faktor dan penyulitan sebagai garis asas keselamatan yang sama."
+job-costing-profitability:
+  name: "Pengekosan kerja & keuntungan"
+  desc: "Tangkapan kos projek, penggunaan sumber dan keuntungan semuanya digulung setiap projek, dengan pemantauan bajet dan pengiktirafan hasil dikendalikan sebagai sebahagian daripada kewangan projek yang sama."
+leave-claims-workflows:
+  name: "Aliran cuti & tuntutan"
+  desc: "Permohonan cuti mengikut aliran kelulusan yang jelas — permohonan, kelulusan pengurus, potongan cuti, kesan gaji, kemas kini rekod — dan tuntutan perbelanjaan dijejak dalam rekod faedah yang sama."
+live-inventory-aware-quoting:
+  name: "Sebut harga sedar inventori langsung"
+  desc: "Penjanaan sebut harga dalam CRM menggunakan paras stok masa nyata yang dijejak langsung merentas setiap lokasi, jadi sebut harga mencerminkan apa yang benar-benar tersedia."
+local-compliance-built-in:
+  name: "Pematuhan tempatan terbina dalam"
+  desc: "Pematuhan MyInvois (LHDN) dan PEPPOL adalah asli kepada modul e-invois, dan konfigurasi cukai disertakan kes penggunaan GST/SST Malaysia sedia ada — pendaftaran, cukai perkhidmatan, penyata GST bulanan, pelaporan SST suku tahunan."
+local-support-transition:
+  name: "Sokongan tempatan semasa peralihan"
+loyalty-membership:
+  name: "Kesetiaan & keahlian"
+  desc: "Konfigurasikan mata wang mata bernama dengan kadar perolehan dan penebusan tersendiri — model rata $1 = 1 mata atau kadar bertingkat seperti 1.5x untuk Perak hingga 3x untuk Platinum. Mata direkod automatik semasa pembayaran."
+marketplace-integrations:
+  name: "Integrasi pasaran"
+  desc: "Penyegerakan inventori masa nyata dan penyatuan pesanan bersambung ke Lazada, Shopee dan Shopify secara lalai, dengan Amazon dan eBay tersedia melalui aplet pasaran perdagangan."
+marketplace-payout-reconciliation:
+  name: "Penyesuaian bayaran pasaran"
+medical-billing:
+  name: "Pengebilan perubatan"
+  desc: "Item perkhidmatan boleh bil — konsultasi, prosedur, diagnostik, laporan perubatan — dikonfigurasi melalui alatan pengebilan item perkhidmatan umum platform, digunakan pada kes penggunaan amalan perubatan yang didokumenkan."
+membership-program-management:
+  name: "Pengurusan program keahlian"
+  desc: "Sediakan kelas ahli, label dan mata wang mata melalui urutan berpandu — cipta kelas ahli, tetapkan label, kemudian konfigurasi mata wang mata. Berjalan di atas persediaan Organisasi dan Pricebook sedia ada anda."
+mobile-access-owners:
+  name: "Akses mudah alih"
+  desc: "Fungsi CRM dan HR teras berjalan secara asli pada iOS, Android dan sebagai aplikasi web progresif dengan keupayaan luar talian — jadi pengawasan tidak berhenti di pintu pejabat."
+mobile-friendly-solo-teams:
+  name: "Mesra mudah alih untuk pasukan kecil"
+  desc: "CRM penuh berjalan pada iOS, Android dan sebagai aplikasi web progresif, dengan keupayaan luar talian. Corak mudah alih yang sama merangkumi HR — jam masa, permohonan cuti dan kelulusan."
+modular-pay-for-use:
+  name: "Modular, bayar ikut guna"
+  desc: "Setiap modul ialah kumpulan aplet asas yang sama — anda memasang dan membayar aplet individu daripada pasaran dan bukannya melesenkan himpunan ciri yang tidak akan anda sentuh."
+multi-branch-inventory:
+  name: "Inventori berbilang cawangan"
+  desc: "Kawalan berpusat merangkumi berbilang gudang dengan peruntukan stok mengikut cawangan, pemindahan antara lokasi dan penjejakan peringkat zon/bin — setiap cawangan masih boleh membawa harga khusus lokasinya."
+multi-department-workflows:
+  name: "Aliran kerja berbilang jabatan"
+  desc: "Penghalaan kelulusan dibina dengan pereka aliran kerja seret-dan-lepas visual — hingga 50 langkah dan 10 peringkat kelulusan — jadi pesanan belian boleh dihalakan daripada pengurus jabatan, ke pengarah kewangan, ke CEO mengikut ambang nilai."
+multi-entity-consolidation:
+  name: "Penyatuan berbilang entiti"
+  desc: "Pelaporan disatukan merentas entiti ialah keupayaan Perakaunan Kewangan bernama, dengan aplet Pemprosesan Penyatuan khusus dan struktur induk-subsidiari peringkat organisasi menyuapnya."
+multi-entity-multi-currency-gl:
+  name: "GL berbilang entiti, berbilang mata wang"
+  desc: "Transaksi antarabangsa direkod secara asli dalam mata wang masing-masing, dan hubungan syarikat induk-subsidiari dimodelkan terus dalam struktur organisasi."
+multi-marketplace-listing-management:
+  name: "Pengurusan penyenaraian berbilang pasaran"
+  desc: "Paparan penyenaraian khusus menjejak item yang disegerak daripada katalog dalaman anda berbanding apa yang benar-benar aktif di setiap pasaran, dengan EcomSync menghubungkan Lazada, Shopee dan Shopify."
+multi-outlet-management:
+  name: "Pengurusan berbilang cawangan"
+  desc: "Persediaan Rangkaian Berbilang Kedai merangkumi rangkaian runcit, francais dan kedai pusat beli-belah dengan inventori berpusat, pemindahan antara kedai dan promosi seluruh rangkaian. Setiap cawangan masih boleh menjalankan harga sendiri."
+multi-outlet-performance-view:
+  name: "Paparan prestasi berbilang cawangan"
+  desc: "Persediaan Rangkaian Berbilang Kedai menyatukan pelaporan dan promosi merentas lokasi, dengan aplet Laporan POS khusus dibina untuk membandingkan prestasi kedai ke kedai."
+multi-outlet-ready:
+  name: "Sedia berbilang cawangan"
+  desc: "Persediaan Rangkaian Berbilang Kedai mengendalikan inventori berpusat, pemindahan antara kedai, pelaporan disatukan dan promosi seluruh rangkaian terus daripada kotak."
+multi-outlet-stock-transfers:
+  name: "Pemindahan stok berbilang cawangan"
+  desc: "Pemindahan kedai-ke-kedai adalah standard dalam rangkaian, dan pemindahan inventori merentas jenama ialah keupayaan didokumenkan untuk operasi berbilang jenama."
+multi-project-tracking:
+  name: "Penjejakan berbilang projek"
+  desc: "Projek berbilang fasa mendapat Struktur Pecahan Kerja penuh, carta Gantt dan analisis laluan kritikal, dengan analitik portfolio menggulung projek individu ke paparan merentas projek."
+multi-warehouse-management:
+  name: "Pengurusan berbilang gudang"
+  desc: "Pengurusan zon, pengoptimuman slot dan perancangan gelombang menyelaras pemilihan dan penyimpanan merentas kemudahan, dengan sokongan cross-docking untuk pusat pengedaran dan operasi 3PL."
+offline-capable-pos:
+  name: "POS boleh luar talian"
+  desc: "Aplet penyegerakan luar talian khusus memastikan jualan berterusan semasa gangguan sambungan — menyimpan transaksi secara tempatan, kemudian menyegerak automatik dengan penyelesaian konflik apabila talian kembali. Dibina khusus untuk pasar, pameran dan unit jualan bergerak."
+order-to-delivery-tracking:
+  name: "Penjejakan pesanan ke penghantaran"
+  desc: "Pesanan bergerak melalui proses pengeluaran stok yang jelas — tempahan, senarai pilih, penghantaran, kemas kini stok — dengan pesanan penghantaran menjejak butiran kenderaan dan syarikat pengangkutan."
+parallel-run-support:
+  name: "Sokongan larian selari"
+parts-catalog-management:
+  name: "Pengurusan katalog alat ganti"
+  desc: "Produk membawa berbilang kod (SKU, UPC, kod pengeluar) serta medan spesifikasi teknikal dan integrasi katalog vendor — alatan induk item yang sama digunakan untuk mana-mana katalog alat ganti."
+patient-record-management:
+  name: "Pengurusan rekod pesakit"
+pay-as-you-grow-pricing:
+  name: "Harga bayar sambil berkembang"
+  desc: "Peringkat Bayar-Setiap-Guna khusus menghapuskan komitmen bulanan sepenuhnya — harga setiap invois dengan semua ciri termasuk, dibina untuk volum bermusim atau peringkat awal."
+per-entity-compliance-sst-einvoice:
+  name: "Pematuhan setiap entiti (SST/e-invois)"
+  desc: "Konfigurasi cukai berbilang negara mengendalikan peraturan khusus negara dan cukai transaksi antara syarikat, kemudian digulung ke pelaporan cukai disatukan — setiap entiti kekal patuh tempatan."
+per-outlet-performance-reporting:
+  name: "Pelaporan prestasi setiap cawangan"
+  desc: "Laporan perbandingan kedai dan prestasi juruwang meletakkan cawangan bersebelahan secara langsung, bersama analisis jualan produk dan pecahan kaedah pembayaran."
+pharmacy-inventory:
+  name: "Inventori farmasi"
+points-currency-configuration:
+  name: "Konfigurasi mata & mata wang"
+  desc: "Takrifkan mata wang mata bernama (cth. LOYPTS, GOLDPTS, VIPPTS) dengan kadar perolehan dan penebusan tersendiri — model mudah $1 = 1 mata atau kadar bertingkat. Mata direkod automatik semasa pembayaran."
+policy-enforcement:
+  name: "Penguatkuasaan polisi"
+post-launch-support:
+  name: "Sokongan selepas pelancaran"
+production-planning-scheduling:
+  name: "Perancangan & penjadualan pengeluaran"
+  desc: "Jadual Pengeluaran Induk dipacu permintaan menyuap Perancangan Keperluan Bahan automatik, dengan penjadualan lantai kilang berjalan terhadap kapasiti terhingga atau tak terhingga setiap pusat kerja."
+progress-billing:
+  name: "Pengebilan kemajuan"
+  desc: "Aplet penjejakan kos projek khusus mengendalikan pengebilan kemajuan bersama tangkapan kos, peruntukan masa dan perbelanjaan, dan keuntungan projek — pengebilan terikat kepada kemajuan projek sebenar."
+project-time-tracking:
+  name: "Penjejakan masa projek"
+  desc: "Log jam boleh bil dan tidak boleh bil mengikut projek, tugasan dan ahli pasukan. Helaian masa digulung automatik ke laporan penggunaan supaya anda nampak kapasiti sebenar."
+proposal-management:
+  name: "Pengurusan cadangan"
+  desc: "Bina dan hantar cadangan berskop dengan harga daripada buku harga anda, jejak status penerimaan pelanggan, dan tukar cadangan diterima terus kepada projek — tiada serahan manual."
+public-status-page:
+  name: "Halaman status awam"
+  desc: "Status sistem semasa dan sebarang tetingkap penyelenggaraan dirancang diterbitkan langsung di status.bigledger.com, bukannya hanya melalui tiket sokongan."
+quality-inspection:
+  name: "Pemeriksaan kualiti"
+  desc: "Rancangan kawalan kualiti adalah khusus operasi, dengan titik pemeriksaan dalam proses masa nyata dan kawalan proses statistik menyuap pengurusan ketakakuran. Rangka kerja pematuhan terbina dalam — ISO 9001, AS9100, TS 16949."
+quick-setup-no-it:
+  name: "Persediaan pantas, tanpa pasukan IT"
+  desc: "Aplet dipasang satu klik daripada katalog, atau pukal dengan tindakan \"Pasang Semua\" — tiada peruntukan pelayan atau tiket IT diperlukan. Persediaan e-invois untuk perniagaan kecil dibina sekitar kerumitan IT minimum."
+real-time-business-dashboard:
+  name: "Papan pemuka perniagaan masa nyata"
+  desc: "Aplet Papan Pemuka Perusahaan khusus menyampaikan pemantauan KPI peringkat eksekutif — metrik masa nyata, kad skor prestasi dan analitik ramalan."
+real-time-stock-sync:
+  name: "Penyegerakan stok masa nyata"
+  desc: "Stok dikemas kini dan berkurang dalam masa nyata merentas POS dan e-dagang, dengan amaran stok rendah dan pemindahan antara kedai terbina dalam — serta pengurusan stok penampan dan pengendalian prapesanan."
+redundant-infrastructure:
+  name: "Infrastruktur berlebihan"
+  desc: "Seni bina ketersediaan tinggi di sebalik SLA masa operasi berjalan merentas berbilang pusat data dengan pengimbangan beban, failover automatik dan replikasi masa nyata."
+referral-commissions:
+  name: "Komisen rujukan"
+regular-security-audits:
+  name: "Audit keselamatan berkala"
+  desc: "Pemantauan keselamatan masa nyata dan pengesanan ancaman berjalan berterusan, dengan pelaporan pematuhan automatik dijana terhadap berbilang rangka kerja kawal selia serentak."
+reimbursement-tracking:
+  name: "Penjejakan bayaran balik"
+  desc: "Tuntutan perbelanjaan dan bayaran balik pekerja dijejak sebagai sebahagian daripada rekod faedah dan pampasan yang sama diselenggara HR."
+resource-scheduling:
+  name: "Penjadualan sumber"
+  desc: "Tetapkan orang kepada projek berdasarkan ketersediaan sebenar, bukan tekaan. Lihat penggunaan mengikut ahli pasukan dan imbangi semula beban kerja sebelum projek terlebih tempah."
+rma-repair-workflow:
+  name: "Aliran kerja RMA & pembaikan"
+  desc: "Pemprosesan pulangan menyokong aliran kerja pembaikan dan pembaharuan penuh, dengan logistik terbalik mengendalikan pulangan waranti — proses RMA diperkemas ialah keupayaan bernama untuk runcit dan e-dagang."
+role-based-access-control:
+  name: "Kawalan akses berasaskan peranan"
+  desc: "Kebenaran ditadbir oleh peranan dengan pewarisan dan delegasi, diskop hingga aplet individu — boleh dikonfigurasi setiap cawangan, syarikat atau lokasi. Platform menampung hingga 10,000 pengguna serentak merentas 1,000 tenan."
+sales-pipeline-automation:
+  name: "Automasi saluran jualan"
+  desc: "Urus niaga bergerak melalui saluran visual gaya Kanban dengan peringkat boleh konfigurasi dan pemberat kebarangkalian, mencetuskan automasi aliran kerja pada perubahan peringkat."
+serial-warranty-tracking:
+  name: "Penjejakan nombor siri & waranti"
+  desc: "Setiap item boleh dijejak mengikut nombor siri sepanjang kitaran hayat penuhnya, dengan pengurusan kelompok/lot dan salasilah menyokong pengurusan panggilan balik — terma waranti direkod terus pada rekod produk."
+shop-floor-control:
+  name: "Kawalan lantai kilang"
+  desc: "Pengeluaran berjalan melalui aliran yang jelas — pelepasan pesanan kerja, pengeluaran bahan, pengeluaran, kawalan kualiti, penyiapan pesanan — dengan pemantauan masa nyata pada setiap langkah."
+side-by-side-feature-comparison:
+  name: "Perbandingan ciri bersebelahan"
+sst-filing-reporting:
+  name: "Pemfailan & pelaporan SST"
+  desc: "Konfigurasikan SST sebagai kod cukai khusus (cth. cukai perkhidmatan 6%, dipetakan terus ke akaun belum bayar anda) bersama GST, VAT dan jenis cukai lain dalam satu perpustakaan. Tempoh pelaporan ditetapkan mengikut keperluan — bulanan, suku tahunan atau tahunan."
+statutory-report-generation:
+  name: "Penjanaan laporan berkanun"
+  desc: "Jana penyata cukai dan laporan berkanun terus daripada data transaksi, dengan integrasi e-pemfailan untuk hantar terus kepada pihak berkuasa berkaitan. Laporan cukai besar kembali dalam bawah 30 saat."
+subcontractor-management:
+  name: "Pengurusan subkontraktor"
+  desc: "Rekod pembekal membezakan subkontraktor daripada pembekal bahan dan peralatan secara langsung, dengan penetapan pembekal khusus projek dan penjejakan pensijilan pematuhan/keselamatan."
+supplier-price-list-management:
+  name: "Pengurusan senarai harga pembekal"
+  desc: "Rekod pembekal membawa harga volum dan struktur diskaun, perjanjian belian dan terma kredit — pada skala didokumenkan hingga 500,000 rekod pembekal."
+supplier-stock-sync:
+  name: "Penyegerakan stok pembekal"
+  desc: "Ketersediaan produk masa nyata disegerak merentas rangkaian pembekal anda melalui integrasi API pembekal terus, dengan aplet pengurusan rangkaian pembekal khusus menilai prestasi pembekal."
+technology-api-integrations:
+  name: "Integrasi teknologi & API"
+  desc: "Pasaran aplet sudah menyokong katalog awam dan persendirian untuk pengedaran aplet pihak ketiga, dan aplet webhook menyediakan integrasi API tujuan umum sebenar."
+time-attendance-tracking:
+  name: "Penjejakan masa & kehadiran"
+  desc: "Tangkapan masa menyokong kaedah biometrik, mudah alih dan web bersama, dengan corak syif fleksibel, pengiraan kerja lebih masa dan analitik kehadiran."
+training-onboarding-support:
+  name: "Sokongan latihan & permulaan"
+unified-cross-channel-inventory:
+  name: "Inventori bersatu merentas saluran"
+  desc: "Inventori kekal berpusat merentas setiap saluran, dengan pemprosesan pesanan bersatu tanpa mengira asal pesanan dan peraturan peruntukan stok mengikut keutamaan saluran."
+uptime-sla-999:
+  name: "SLA masa operasi 99.9%"
+  desc: "Platform berjalan pada seni bina ketersediaan tinggi dengan jaminan masa operasi 99.9% — dalam praktiknya, masa operasi sebenar melebihi 99.95%, mengehadkan jumlah henti bawah 9 jam setahun."
+vin-tracking:
+  name: "Penjejakan VIN"
+voucher-management:
+  name: "Pengurusan baucar"
+workshop-service-scheduling:
+  name: "Penjadualan bengkel & servis"
+  desc: "Penjadualan sumber berasaskan kemahiran memadankan juruteknik dengan kerja serta pengoptimuman jadual, dan pengurusan servis lapangan menambah penghantaran pesanan kerja, aplikasi juruteknik mudah alih dan penjejakan laluan GPS."

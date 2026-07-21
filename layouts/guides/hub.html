@@ -1,0 +1,201 @@
+{{ define "main" }}
+{{/* Guide Hub — curated landing page for /guides/. The structure mirrors
+     content/en/guides/_index.md but renders as branded cards instead of
+     raw markdown. Links resolve through lurl.html so non-EN visitors fall
+     back to the English page when a translation doesn't exist yet. */}}
+
+<section class="bl-inner-hero">
+  <div class="bl-inner-hero-bg"></div>
+  <div class="bl-container">
+    <div class="bl-inner-hero-content">
+      <p class="bl-inner-eyebrow" data-reveal="up" data-delay="0">{{ i18n "guides_eyebrow" | default "GUIDES" }}</p>
+      <h1 class="bl-inner-headline" data-reveal="up" data-delay="80">{{ .Title }}</h1>
+      <p class="bl-inner-sub" data-reveal="up" data-delay="160">{{ .Description }}</p>
+    </div>
+  </div>
+</section>
+
+{{ $cats := slice
+  (dict "icon" "chart" "title" (i18n "guides_cat_acct" | default "Accounting Guides")
+        "desc" (i18n "guides_cat_acct_desc" | default "Master financial management with BigLedger.")
+        "url" "/guides/accounting-guides/"
+        "topics" (slice "Chart of Accounts Setup" "Journal Entries Processing" "Financial Reporting" "Bank Reconciliation"))
+  (dict "icon" "doc" "title" (i18n "guides_cat_einv" | default "E-Invoice Implementation")
+        "desc" (i18n "guides_cat_einv_desc" | default "Complete e-invoice and PEPPOL setup.")
+        "url" "/guides/einvoice-guides/"
+        "topics" (slice "MyInvois Configuration" "PEPPOL Setup" "Validation Rules" "Compliance Requirements"))
+  (dict "icon" "box" "title" (i18n "guides_cat_inv" | default "Inventory Management")
+        "desc" (i18n "guides_cat_inv_desc" | default "Optimize stock and warehouse operations.")
+        "url" "/guides/inventory-guides/"
+        "topics" (slice "Stock Management" "Transfer Procedures" "Cycle Counting" "Valuation Methods"))
+-}}
+{{ $icons := dict
+  "chart" "M4 15l4-8 4 6 3-4 3 6M3 17h14"
+  "doc"   "M5 2h7l4 4v12H5zM12 2v4h4M8 11h5M8 14h5"
+  "box"   "M10 3L4 7v6l6 4 6-4V7l-6-4zM4 7l6 4 6-4M10 11v6"
+  "star"  "M10 2l2.4 5.1L18 8l-4 4 1 5.6L10 15l-5 2.6L6 12 2 8l5.6-.9L10 2z"
+  "spark" "M10 2v5M10 13v5M2 10h5M13 10h5M5 5l3 3M12 12l3 3M15 5l-3 3M8 12l-3 3"
+  "book"  "M4 3h9a3 3 0 013 3v11a2 2 0 00-2-2H4zM4 3v12M8 7h5M8 10h5"
+  "cap"   "M2 8l8-4 8 4-8 4-8-4zM6 10v4c0 1 2 2 4 2s4-1 4-2v-4"
+  "life"  "M10 18a8 8 0 110-16 8 8 0 010 16zM10 13a3 3 0 110-6 3 3 0 010 6zM4.5 4.5l3 3M12.5 12.5l3 3M15.5 4.5l-3 3M7.5 12.5l-3 3"
+-}}
+
+<section class="bl-page-section" style="padding-top:0">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "guides_categories" | default "GUIDE CATEGORIES" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "guides_pick_path" | default "Pick your path" }}</h2>
+    </div>
+    <div class="gd-cat-grid" data-reveal="up" data-delay="80">
+      {{ range $cats }}
+      <a class="gd-cat-card" href="{{ partial "lurl.html" (dict "ctx" $ "url" .url) }}">
+        <div class="gd-cat-icon"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><path d="{{ index $icons .icon }}"/></svg></div>
+        <h3 class="gd-cat-name">{{ .title }}</h3>
+        <p class="gd-cat-desc">{{ .desc }}</p>
+        <ul class="gd-cat-topics">
+          {{ range .topics }}<li>{{ . }}</li>{{ end }}
+        </ul>
+        <span class="gd-cat-more">{{ i18n "guides_browse" | default "Browse guides" }} <span aria-hidden="true">→</span></span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ $quick := slice
+  (dict "icon" "star" "title" (i18n "guides_popular" | default "Most Popular")
+        "links" (slice
+          (dict "t" "Chart of Accounts Setup" "u" "/guides/accounting-guides/chart-of-accounts-setup/")
+          (dict "t" "MyInvois Setup Guide" "u" "/guides/einvoice-guides/myinvois-setup/")
+          (dict "t" "Bank Reconciliation Step-by-Step" "u" "/guides/accounting-guides/bank-reconciliation-guide/")
+          (dict "t" "Stock Management Guide" "u" "/guides/inventory-guides/stock-management/")))
+  (dict "icon" "spark" "title" (i18n "guides_new_users" | default "New Users")
+        "links" (slice
+          (dict "t" "Platform Overview" "u" "/user-guide/introduction/")
+          (dict "t" "Creating Your First Invoice" "u" "/modules/financial-accounting/")
+          (dict "t" "Basic Navigation" "u" "/user-guide/navigation/")))
+  (dict "icon" "chart" "title" (i18n "guides_advanced" | default "Advanced Topics")
+        "links" (slice
+          (dict "t" "Financial Reporting" "u" "/guides/accounting-guides/financial-reporting/")
+          (dict "t" "E-Invoice Validation Rules" "u" "/guides/einvoice-guides/einvoice-validation/")
+          (dict "t" "Stock Transfer Procedures" "u" "/guides/inventory-guides/stock-transfer/")))
+-}}
+<section class="bl-page-section bl-section-alt">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "guides_quick_links" | default "QUICK LINKS" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "guides_jump_in" | default "Jump straight in" }}</h2>
+    </div>
+    <div class="gd-quick-grid" data-reveal="up" data-delay="80">
+      {{ range $quick }}
+      <div class="gd-quick-col">
+        <div class="gd-quick-head">
+          <span class="gd-quick-icon"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path d="{{ index $icons .icon }}"/></svg></span>
+          {{ .title }}
+        </div>
+        {{ range .links }}
+        <a class="gd-quick-link" href="{{ partial "lurl.html" (dict "ctx" $ "url" .u) }}">{{ .t }} <span aria-hidden="true">→</span></a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ $procs := slice
+  (dict "title" (i18n "guides_o2c" | default "Order-to-Cash")
+        "steps" (slice "Customer Setup" "Quotation Creation" "Sales Order Processing" "Invoice Generation" "Payment Collection" "Bank Reconciliation"))
+  (dict "title" (i18n "guides_p2p" | default "Procure-to-Pay")
+        "steps" (slice "Vendor Management" "Purchase Requisition" "Purchase Order" "Goods Receipt" "Invoice Matching" "Payment Processing"))
+  (dict "title" (i18n "guides_r2r" | default "Record-to-Report")
+        "steps" (slice "Journal Entry" "Account Reconciliation" "Period Closing" "Financial Statements" "Management Reports"))
+-}}
+<section class="bl-page-section">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "guides_by_process" | default "BY BUSINESS PROCESS" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "guides_follow_flow" | default "Follow the flow of your business" }}</h2>
+    </div>
+    <div class="gd-proc-list" data-reveal="up" data-delay="80">
+      {{ range $procs }}
+      <div class="gd-proc-card">
+        <h3 class="gd-proc-name">{{ .title }}</h3>
+        <ol class="gd-proc-steps">
+          {{ range $i, $s := .steps }}
+          <li><span class="gd-step-num">{{ add $i 1 }}</span><span class="gd-step-name">{{ $s }}</span></li>
+          {{ end }}
+        </ol>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ $phases := slice
+  (dict "name" (i18n "guides_ph1" | default "Foundation")   "items" (slice "System setup" "Master data" "User configuration" "Basic training"))
+  (dict "name" (i18n "guides_ph2" | default "Core Modules") "items" (slice "Accounting setup" "E-invoice configuration" "Inventory initialization" "Process design"))
+  (dict "name" (i18n "guides_ph3" | default "Go-Live")      "items" (slice "Data migration" "User training" "Parallel run" "Cutover"))
+  (dict "name" (i18n "guides_ph4" | default "Optimization") "items" (slice "Process refinement" "Advanced features" "Integration" "Automation"))
+-}}
+<section class="bl-page-section bl-section-alt">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "guides_methodology" | default "IMPLEMENTATION METHODOLOGY" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "guides_four_phases" | default "Four phases to go-live and beyond" }}</h2>
+    </div>
+    <div class="gd-phase-track" data-reveal="up" data-delay="80">
+      {{ range $i, $p := $phases }}
+      <div class="gd-phase">
+        <div class="gd-phase-marker"><span class="gd-phase-dot">{{ add $i 1 }}</span></div>
+        <div class="gd-phase-label">{{ i18n "guides_phase" | default "Phase" }} {{ add $i 1 }}</div>
+        <h3 class="gd-phase-name">{{ $p.name }}</h3>
+        <ul class="gd-phase-items">
+          {{ range $p.items }}<li>{{ . }}</li>{{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ $support := slice
+  (dict "icon" "book" "title" (i18n "guides_docs" | default "Documentation")
+        "links" (slice
+          (dict "t" "User Guide" "u" "/user-guide/")
+          (dict "t" "API Reference" "u" "/developers/api-reference/")
+          (dict "t" "Troubleshooting" "u" "/user-guide/")))
+  (dict "icon" "cap" "title" (i18n "guides_training" | default "Training")
+        "items" (slice "Video tutorials" "Webinars" "Certification programs" "On-site training"))
+  (dict "icon" "life" "title" (i18n "guides_help" | default "Help")
+        "items" (slice "Knowledge base" "Community forum" "Support tickets" "Consulting services"))
+-}}
+<section class="bl-page-section">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "guides_support" | default "SUPPORT RESOURCES" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "guides_never_stuck" | default "You're never stuck" }}</h2>
+    </div>
+    <div class="gd-support-grid" data-reveal="up" data-delay="80">
+      {{ range $support }}
+      <div class="gd-support-card">
+        <div class="gd-quick-head">
+          <span class="gd-quick-icon"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path d="{{ index $icons .icon }}"/></svg></span>
+          {{ .title }}
+        </div>
+        {{ with .links }}
+          {{ range . }}<a class="gd-quick-link" href="{{ partial "lurl.html" (dict "ctx" $ "url" .u) }}">{{ .t }} <span aria-hidden="true">→</span></a>{{ end }}
+        {{ end }}
+        {{ with .items }}
+          <ul class="gd-support-items">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+    <div class="gd-contact-strip" data-reveal="up" data-delay="120">
+      <span>{{ i18n "guides_cant_find" | default "Can't find what you're looking for?" }}</span>
+      <a href="mailto:support@bigledger.com" class="bl-btn-ghost">{{ i18n "guides_contact_support" | default "Contact Support" }}</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}

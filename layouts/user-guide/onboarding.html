@@ -1,0 +1,222 @@
+{{ define "main" }}
+{{/* Getting Started — onboarding journey landing page (layout: onboarding).
+     Self-contained like the guides/user-guide hubs: the sections below are
+     rendered from template data, not the markdown body, so the page reads as
+     one guided flow. Links resolve through lurl.html for non-EN fallback. */}}
+
+{{ $icons := dict
+  "compass" "M10 18a8 8 0 100-16 8 8 0 000 16zM13.5 6.5l-2 5-5 2 2-5 5-2z"
+  "layers"  "M10 2l8 4-8 4-8-4 8-4zM2 10l8 4 8-4M2 14l8 4 8-4"
+  "cursor"  "M4 3l13 6-5 2-2 5-6-13z"
+  "mail"    "M3 5h14v10H3zM3 5l7 5 7-5"
+  "chat"    "M4 4h12v8H8l-4 3z"
+  "globe"   "M10 18a8 8 0 100-16 8 8 0 000 16zM2 10h16M10 2c2.5 2 2.5 14 0 16M10 2c-2.5 2-2.5 14 0 16"
+  "phone"   "M5 3h3l1 4-2 1a8 8 0 004 4l1-2 4 1v3a1 1 0 01-1 1A13 13 0 014 4a1 1 0 011-1z"
+  "arrow"   "M4 10h11M11 5l5 5-5 5"
+-}}
+
+<section class="bl-inner-hero">
+  <div class="bl-inner-hero-bg"></div>
+  <div class="bl-container">
+    <div class="bl-inner-hero-content">
+      <p class="bl-inner-eyebrow" data-reveal="up" data-delay="0">{{ i18n "gs_eyebrow" | default "USER GUIDE · ONBOARDING" }}</p>
+      <h1 class="bl-inner-headline" data-reveal="up" data-delay="80">{{ .Title }}</h1>
+      <p class="bl-inner-sub" data-reveal="up" data-delay="160">{{ .Description }}</p>
+      <div class="gs-hero-stats" data-reveal="up" data-delay="240">
+        <span class="gs-stat"><strong>3</strong> {{ i18n "gs_stat_guides" | default "orientation guides" }}</span>
+        <span class="gs-stat-dot"></span>
+        <span class="gs-stat"><strong>6</strong> {{ i18n "gs_stat_steps" | default "setup steps" }}</span>
+        <span class="gs-stat-dot"></span>
+        <span class="gs-stat"><strong>4</strong> {{ i18n "gs_stat_weeks" | default "rollout phases" }}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* ---- 1. Start here: three orientation guides as numbered step cards ---- */}}
+{{ $guides := slice
+  (dict "icon" "compass" "title" (i18n "gs_g1" | default "Introduction to BigLedger")
+        "desc" (i18n "gs_g1_desc" | default "Platform overview, key concepts, and getting oriented with the system.")
+        "url" "/user-guide/getting-started/introduction")
+  (dict "icon" "layers" "title" (i18n "gs_g2" | default "Platform Architecture")
+        "desc" (i18n "gs_g2_desc" | default "Understand BigLedger's applet-based Business Operating System.")
+        "url" "/user-guide/getting-started/platform-overview")
+  (dict "icon" "cursor" "title" (i18n "gs_g3" | default "Navigation Guide")
+        "desc" (i18n "gs_g3_desc" | default "Master the interface, shortcuts, and efficient navigation patterns.")
+        "url" "/user-guide/getting-started/navigation")
+-}}
+<section class="bl-page-section" style="padding-top:64px">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "gs_start_label" | default "START HERE" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "gs_start_title" | default "Three guides to get oriented" }}</h2>
+    </div>
+    <div class="gs-guide-grid" data-reveal="up" data-delay="80">
+      {{ range $i, $g := $guides }}
+      <a class="gs-guide-card" href="{{ partial "lurl.html" (dict "ctx" $ "url" $g.url) }}">
+        <span class="gs-guide-num">{{ printf "%02d" (add $i 1) }}</span>
+        <div class="gs-guide-icon"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><path d="{{ index $icons $g.icon }}"/></svg></div>
+        <h3 class="gs-guide-name">{{ $g.title }}</h3>
+        <p class="gs-guide-desc">{{ $g.desc }}</p>
+        <span class="gs-guide-more">{{ i18n "gs_read_guide" | default "Read guide" }} <span aria-hidden="true">→</span></span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{/* ---- 2. First-time setup checklist ---- */}}
+{{ $checklist := slice
+  (dict "t" (i18n "gs_chk1" | default "Account Registration") "d" (i18n "gs_chk1_d" | default "Create your BigLedger account and verify your email."))
+  (dict "t" (i18n "gs_chk2" | default "Company Profile Setup") "d" (i18n "gs_chk2_d" | default "Configure your organization details and preferences."))
+  (dict "t" (i18n "gs_chk3" | default "User Management") "d" (i18n "gs_chk3_d" | default "Add team members and assign appropriate permissions."))
+  (dict "t" (i18n "gs_chk4" | default "Basic Configuration") "d" (i18n "gs_chk4_d" | default "Set up currencies, tax settings, and business rules."))
+  (dict "t" (i18n "gs_chk5" | default "Master Data Import") "d" (i18n "gs_chk5_d" | default "Add customers, suppliers, and your product catalog."))
+  (dict "t" (i18n "gs_chk6" | default "Initial Testing") "d" (i18n "gs_chk6_d" | default "Verify core functions are working correctly."))
+-}}
+<section class="bl-page-section bl-section-alt">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "gs_setup_label" | default "FIRST-TIME SETUP" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "gs_setup_title" | default "Your setup checklist" }}</h2>
+    </div>
+    <div class="gs-checklist" data-reveal="up" data-delay="80">
+      {{ range $i, $c := $checklist }}
+      <div class="gs-check-item">
+        <span class="gs-check-box"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" width="13" height="13"><path d="M4 10l4 4 8-9"/></svg></span>
+        <div class="gs-check-body">
+          <span class="gs-check-num">{{ printf "%02d" (add $i 1) }}</span>
+          <h3 class="gs-check-title">{{ $c.t }}</h3>
+          <p class="gs-check-desc">{{ $c.d }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{/* ---- 3. Choose your path (personas) ---- */}}
+{{ $paths := slice
+  (dict "title" (i18n "gs_path_owner" | default "Business Owners & Executives") "sub" (i18n "gs_path_owner_sub" | default "Strategy")
+        "steps" (slice
+          (dict "t" "Introduction to BigLedger" "u" "/user-guide/getting-started/introduction")
+          (dict "t" "Review Platform Architecture" "u" "/user-guide/getting-started/platform-overview")
+          (dict "t" "Explore Core Business Modules" "u" "/modules/")
+          (dict "t" "Plan your implementation strategy" "u" "/user-guide/best-practices/")))
+  (dict "title" (i18n "gs_path_admin" | default "System Administrators") "sub" (i18n "gs_path_admin_sub" | default "Configuration")
+        "steps" (slice
+          (dict "t" "Complete Platform Overview" "u" "/user-guide/getting-started/platform-overview")
+          (dict "t" "Master the Navigation Guide" "u" "/user-guide/getting-started/navigation")
+          (dict "t" "Set up User Administration" "u" "/user-guide/administration/")
+          (dict "t" "Configure System Settings" "u" "/user-guide/administration/")))
+  (dict "title" (i18n "gs_path_user" | default "End Users") "sub" (i18n "gs_path_user_sub" | default "Daily work")
+        "steps" (slice
+          (dict "t" "Begin with the Introduction" "u" "/user-guide/getting-started/introduction")
+          (dict "t" "Learn Navigation Basics" "u" "/user-guide/getting-started/navigation")
+          (dict "t" "Practice Basic Operations" "u" "/user-guide/basic-operations/")
+          (dict "t" "Explore relevant Daily Tasks" "u" "/user-guide/daily-tasks/")))
+-}}
+<section class="bl-page-section">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "gs_paths_label" | default "CHOOSE YOUR PATH" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "gs_paths_title" | default "A recommended path for every role" }}</h2>
+    </div>
+    <div class="gd-proc-list" data-reveal="up" data-delay="80">
+      {{ range $paths }}
+      <div class="gd-proc-card">
+        <h3 class="gd-proc-name">{{ .title }} <span class="ug-persona-sub">{{ .sub }}</span></h3>
+        <ol class="gd-proc-steps">
+          {{ range $i, $s := .steps }}
+          <li><span class="gd-step-num">{{ add $i 1 }}</span><a class="gd-step-name ug-step-link" href="{{ partial "lurl.html" (dict "ctx" $ "url" $s.u) }}">{{ $s.t }}</a></li>
+          {{ end }}
+        </ol>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{/* ---- 4. Rollout phases (illustrative order of work, not a fixed schedule) ---- */}}
+{{ $phases := slice
+  (dict "name" (i18n "gs_wk1" | default "Foundation")   "week" (i18n "gs_week1" | default "Phase 1") "items" (slice "Account setup & basic configuration" "Review platform concepts" "Set up users & permissions"))
+  (dict "name" (i18n "gs_wk2" | default "Core Setup")   "week" (i18n "gs_week2" | default "Phase 2") "items" (slice "Import master data" "Configure business settings" "Test basic workflows"))
+  (dict "name" (i18n "gs_wk3" | default "Training & Testing") "week" (i18n "gs_week3" | default "Phase 3") "items" (slice "Train team members" "Run parallel testing" "Refine configurations"))
+  (dict "name" (i18n "gs_wk4" | default "Go Live")      "week" (i18n "gs_week4" | default "Phase 4") "items" (slice "Final testing & validation" "Switch to live operations" "Monitor & support users"))
+-}}
+<section class="bl-page-section bl-section-alt">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "gs_timeline_label" | default "HOW A ROLLOUT UNFOLDS" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "gs_timeline_title" | default "A phased path to go-live" }}</h2>
+    </div>
+    <div class="gd-phase-track" data-reveal="up" data-delay="80">
+      {{ range $i, $p := $phases }}
+      <div class="gd-phase">
+        <div class="gd-phase-marker"><span class="gd-phase-dot">{{ add $i 1 }}</span></div>
+        <div class="gd-phase-label">{{ $p.week }}</div>
+        <h3 class="gd-phase-name">{{ $p.name }}</h3>
+        <ul class="gd-phase-items">
+          {{ range $p.items }}<li>{{ . }}</li>{{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </div>
+    <div class="gs-tip" data-reveal="up" data-delay="120">
+      <span class="gs-tip-badge">{{ i18n "gs_tip_badge" | default "GOOD TO KNOW" }}</span>
+      <p>{{ i18n "gs_tip_text" | default "These phases show the order of work, not a fixed schedule — actual timelines depend on your business size, data volume, and how many modules you roll out. A focused setup can move quickly, while larger or more complex projects take longer. Getting your core processes working first is the surest way to make steady progress." }}</p>
+    </div>
+  </div>
+</section>
+
+{{/* ---- 5. Next steps + support ---- */}}
+{{ $next := slice
+  (dict "title" (i18n "gs_next1" | default "Basic Operations") "desc" (i18n "gs_next1_d" | default "Learn fundamental daily tasks.") "url" "/user-guide/basic-operations/")
+  (dict "title" (i18n "gs_next2" | default "Daily Tasks") "desc" (i18n "gs_next2_d" | default "Master routine business operations.") "url" "/user-guide/daily-tasks/")
+  (dict "title" (i18n "gs_next3" | default "Administration") "desc" (i18n "gs_next3_d" | default "Configure advanced system settings.") "url" "/user-guide/administration/")
+  (dict "title" (i18n "gs_next4" | default "Best Practices") "desc" (i18n "gs_next4_d" | default "Optimize your BigLedger usage.") "url" "/user-guide/best-practices/")
+-}}
+<section class="bl-page-section">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "gs_next_label" | default "WHAT'S NEXT" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "gs_next_title" | default "Continue your journey" }}</h2>
+    </div>
+    <div class="gs-next-grid" data-reveal="up" data-delay="80">
+      {{ range $i, $n := $next }}
+      <a class="gs-next-card" href="{{ partial "lurl.html" (dict "ctx" $ "url" $n.url) }}">
+        <span class="gs-next-step">{{ i18n "gs_step" | default "Step" }} {{ add $i 1 }}</span>
+        <h3 class="gs-next-name">{{ $n.title }} <span class="gs-next-arrow" aria-hidden="true">→</span></h3>
+        <p class="gs-next-desc">{{ $n.desc }}</p>
+      </a>
+      {{ end }}
+    </div>
+
+    <div class="gs-support" data-reveal="up" data-delay="120">
+      <div class="gs-support-text">
+        <h3 class="gs-support-title">{{ i18n "gs_help_title" | default "Need help getting started?" }}</h3>
+        <p class="gs-support-sub">{{ i18n "gs_help_sub" | default "Our team is here to support your onboarding every step of the way." }}</p>
+      </div>
+      <div class="gs-support-links">
+        <a class="gs-support-link" href="mailto:sales@bigledger.com">
+          <span class="gs-support-ic"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="{{ index $icons "mail" }}"/></svg></span>
+          <span><strong>{{ i18n "gs_email" | default "Email Support" }}</strong>sales@bigledger.com</span>
+        </a>
+        <a class="gs-support-link" href="mailto:vincent@bigledger.com">
+          <span class="gs-support-ic"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="{{ index $icons "chat" }}"/></svg></span>
+          <span><strong>{{ i18n "gs_tech" | default "Technical Support" }}</strong>vincent@bigledger.com</span>
+        </a>
+        <a class="gs-support-link" href="https://t.me/leehongfay" target="_blank" rel="noopener">
+          <span class="gs-support-ic"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="{{ index $icons "phone" }}"/></svg></span>
+          <span><strong>{{ i18n "gs_chat" | default "Quick Chat" }}</strong>Telegram @leehongfay</span>
+        </a>
+        <a class="gs-support-link" href="https://www.bigledger.com" target="_blank" rel="noopener">
+          <span class="gs-support-ic"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="{{ index $icons "globe" }}"/></svg></span>
+          <span><strong>{{ i18n "gs_web" | default "Website" }}</strong>www.bigledger.com</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

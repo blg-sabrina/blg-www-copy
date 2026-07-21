@@ -20,15 +20,6 @@ Tailored solutions designed for your specific industry needs
 - Customer loyalty and rewards
 - Multi-outlet management
 
-### 🍽️ Food & Beverage
-**End-to-end F&B management**
-
-- Table management and reservations
-- Kitchen display system (KDS)
-- Recipe and ingredient management
-- Split bill and custom orders
-- Online ordering and delivery integration
-
 ### 🏭 Manufacturing
 **Production and quality management**
 

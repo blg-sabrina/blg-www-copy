@@ -1,1811 +1,1811 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>BigLedger 文档 – 用户指南</title><link>https://www.bigledger.com/zh/tags/%E7%94%A8%E6%88%B7%E6%8C%87%E5%8D%97/</link><description>Recent content in 用户指南 on BigLedger 文档</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://www.bigledger.com/zh/tags/%E7%94%A8%E6%88%B7%E6%8C%87%E5%8D%97/index.xml" rel="self" type="application/rss+xml"/><item><title>电子发票与PEPPOL</title><link>https://www.bigledger.com/zh/e-invoice-peppol/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/e-invoice-peppol/</guid><description>
-&lt;p>BigLedger是马来西亚&lt;strong>MDEC全认证PEPPOL服务提供商&lt;/strong>，为MyInvois倡议及更多提供全面的电子发票解决方案。&lt;/p>
-&lt;h2>PEPPOL认证&lt;span class="hx:absolute hx:-mt-20" id="peppol认证">&lt;/span>
-&lt;a href="#peppol%e8%ae%a4%e8%af%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>什么是PEPPOL？&lt;span class="hx:absolute hx:-mt-20" id="什么是peppol">&lt;/span>
-&lt;a href="#%e4%bb%80%e4%b9%88%e6%98%afpeppol" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>PEPPOL(泛欧洲公共采购在线)是一个国际网络，使企业能够跨境无缝交换电子文档。作为全认证的PEPPOL服务提供商，BigLedger确保：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>合规性&lt;/strong>：完全遵守国际电子发票标准&lt;/li>
-&lt;li>&lt;strong>互操作性&lt;/strong>：与全球贸易伙伴无缝文档交换&lt;/li>
-&lt;li>&lt;strong>安全性&lt;/strong>：加密、验证的文档传输&lt;/li>
-&lt;li>&lt;strong>可靠性&lt;/strong>：保证交付和接收确认&lt;/li>
-&lt;/ul>
-&lt;h3>MDEC认证&lt;span class="hx:absolute hx:-mt-20" id="mdec认证">&lt;/span>
-&lt;a href="#mdec%e8%ae%a4%e8%af%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>BigLedger已获得马来西亚数字经济公司(MDEC)的全面认证，使我们成为以下方面的可信赖合作伙伴：&lt;/p>
-&lt;ul>
-&lt;li>为强制电子发票做准备的马来西亚企业&lt;/li>
-&lt;li>与马来西亚实体进行贸易的国际公司&lt;/li>
-&lt;li>需要符合PEPPOL的交易的政府机构&lt;/li>
-&lt;li>寻求经济实惠的电子发票解决方案的中小企业&lt;/li>
-&lt;/ul>
-&lt;h2>MyInvois集成&lt;span class="hx:absolute hx:-mt-20" id="myinvois集成">&lt;/span>
-&lt;a href="#myinvois%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>概述&lt;span class="hx:absolute hx:-mt-20" id="概述">&lt;/span>
-&lt;a href="#%e6%a6%82%e8%bf%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>MyInvois是马来西亚的国家电子发票倡议，要求向内陆税收局(LHDN)提交电子发票。BigLedger的平台提供无缝的MyInvois集成，将监管合规转化为战略优势。&lt;/p>
-&lt;h3>实施时间表&lt;span class="hx:absolute hx:-mt-20" id="实施时间表">&lt;/span>
-&lt;a href="#%e5%ae%9e%e6%96%bd%e6%97%b6%e9%97%b4%e8%a1%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>第一阶段：2024年8月&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>年营业额超过1亿林吉特的企业&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>第二阶段：2025年1月&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>年营业额超过2500万林吉特的企业&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>第三阶段：2025年7月&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>所有其余企业&lt;/li>
-&lt;/ul>
-&lt;h3>BigLedger的MyInvois解决方案&lt;span class="hx:absolute hx:-mt-20" id="bigledger的myinvois解决方案">&lt;/span>
-&lt;a href="#bigledger%e7%9a%84myinvois%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>自动提交&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>与LHDN的直接API集成&lt;/li>
-&lt;li>实时发票验证&lt;/li>
-&lt;li>失败时自动重试&lt;/li>
-&lt;li>批量发票处理&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>数据验证&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>提交前验证检查&lt;/li>
-&lt;li>税务合规验证&lt;/li>
-&lt;li>格式标准化&lt;/li>
-&lt;li>错误预防和纠正&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>多源集成&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>连接现有ERP系统&lt;/li>
-&lt;li>从会计软件导入&lt;/li>
-&lt;li>Excel/CSV文件上传&lt;/li>
-&lt;li>手动输入选项&lt;/li>
-&lt;/ul>
-&lt;h2>电子发票配置模块&lt;span class="hx:absolute hx:-mt-20" id="电子发票配置模块">&lt;/span>
-&lt;a href="#%e7%94%b5%e5%ad%90%e5%8f%91%e7%a5%a8%e9%85%8d%e7%bd%ae%e6%a8%a1%e5%9d%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>关键功能&lt;span class="hx:absolute hx:-mt-20" id="关键功能">&lt;/span>
-&lt;a href="#%e5%85%b3%e9%94%ae%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>发票生成&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>从销售订单自动创建发票&lt;/li>
-&lt;li>多币种支持&lt;/li>
-&lt;li>税务计算引擎&lt;/li>
-&lt;li>自定义发票模板&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>验证引擎&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>LHDN合规检查&lt;/li>
-&lt;li>业务规则验证&lt;/li>
-&lt;li>数据完整性验证&lt;/li>
-&lt;li>重复检测&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>工作流程管理&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>审批链&lt;/li>
-&lt;li>数字签名&lt;/li>
-&lt;li>修改跟踪&lt;/li>
-&lt;li>贷记通知单处理&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>归档和检索&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>7年保留合规&lt;/li>
-&lt;li>高级搜索功能&lt;/li>
-&lt;li>审计跟踪维护&lt;/li>
-&lt;li>文档版本控制&lt;/li>
-&lt;/ul>
-&lt;h3>技术规格&lt;span class="hx:absolute hx:-mt-20" id="技术规格">&lt;/span>
-&lt;a href="#%e6%8a%80%e6%9c%af%e8%a7%84%e6%a0%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>支持的格式&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>UBL 2.1(通用业务语言)&lt;/li>
-&lt;li>JSON用于API传输&lt;/li>
-&lt;li>PDF用于人类可读的副本&lt;/li>
-&lt;li>XML用于系统集成&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>集成方法&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>REST API&lt;/li>
-&lt;li>SFTP批处理&lt;/li>
-&lt;li>Web门户访问&lt;/li>
-&lt;li>移动应用程序&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>性能&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>每小时处理10,000+张发票&lt;/li>
-&lt;li>亚秒级验证&lt;/li>
-&lt;li>99.9%正常运行时间SLA&lt;/li>
-&lt;li>实时状态更新&lt;/li>
-&lt;/ul>
-&lt;h2>与BigLedger模块集成&lt;span class="hx:absolute hx:-mt-20" id="与bigledger模块集成">&lt;/span>
-&lt;a href="#%e4%b8%8ebigledger%e6%a8%a1%e5%9d%97%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>无缝数据流&lt;span class="hx:absolute hx:-mt-20" id="无缝数据流">&lt;/span>
-&lt;a href="#%e6%97%a0%e7%bc%9d%e6%95%b0%e6%8d%ae%e6%b5%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>[销售订单] → [发票生成] → [验证] → [MyInvois/PEPPOL] → [会计]
+&lt;p&gt;BigLedger是马来西亚&lt;strong&gt;MDEC全认证PEPPOL服务提供商&lt;/strong&gt;，为MyInvois倡议及更多提供全面的电子发票解决方案。&lt;/p&gt;
+&lt;h2&gt;PEPPOL认证&lt;span class="hx:absolute hx:-mt-20" id="peppol认证"&gt;&lt;/span&gt;
+&lt;a href="#peppol%e8%ae%a4%e8%af%81" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;什么是PEPPOL？&lt;span class="hx:absolute hx:-mt-20" id="什么是peppol"&gt;&lt;/span&gt;
+&lt;a href="#%e4%bb%80%e4%b9%88%e6%98%afpeppol" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;PEPPOL(泛欧洲公共采购在线)是一个国际网络，使企业能够跨境无缝交换电子文档。作为全认证的PEPPOL服务提供商，BigLedger确保：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;合规性&lt;/strong&gt;：完全遵守国际电子发票标准&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;互操作性&lt;/strong&gt;：与全球贸易伙伴无缝文档交换&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;安全性&lt;/strong&gt;：加密、验证的文档传输&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可靠性&lt;/strong&gt;：保证交付和接收确认&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;MDEC认证&lt;span class="hx:absolute hx:-mt-20" id="mdec认证"&gt;&lt;/span&gt;
+&lt;a href="#mdec%e8%ae%a4%e8%af%81" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;BigLedger已获得马来西亚数字经济公司(MDEC)的全面认证，使我们成为以下方面的可信赖合作伙伴：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;为强制电子发票做准备的马来西亚企业&lt;/li&gt;
+&lt;li&gt;与马来西亚实体进行贸易的国际公司&lt;/li&gt;
+&lt;li&gt;需要符合PEPPOL的交易的政府机构&lt;/li&gt;
+&lt;li&gt;寻求经济实惠的电子发票解决方案的中小企业&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;MyInvois集成&lt;span class="hx:absolute hx:-mt-20" id="myinvois集成"&gt;&lt;/span&gt;
+&lt;a href="#myinvois%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;概述&lt;span class="hx:absolute hx:-mt-20" id="概述"&gt;&lt;/span&gt;
+&lt;a href="#%e6%a6%82%e8%bf%b0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;MyInvois是马来西亚的国家电子发票倡议，要求向内陆税收局(LHDN)提交电子发票。BigLedger的平台提供无缝的MyInvois集成，将监管合规转化为战略优势。&lt;/p&gt;
+&lt;h3&gt;实施时间表&lt;span class="hx:absolute hx:-mt-20" id="实施时间表"&gt;&lt;/span&gt;
+&lt;a href="#%e5%ae%9e%e6%96%bd%e6%97%b6%e9%97%b4%e8%a1%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;第一阶段：2024年8月&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;年营业额超过1亿林吉特的企业&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;第二阶段：2025年1月&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;年营业额超过2500万林吉特的企业&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;第三阶段：2025年7月&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;所有其余企业&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;BigLedger的MyInvois解决方案&lt;span class="hx:absolute hx:-mt-20" id="bigledger的myinvois解决方案"&gt;&lt;/span&gt;
+&lt;a href="#bigledger%e7%9a%84myinvois%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;自动提交&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;与LHDN的直接API集成&lt;/li&gt;
+&lt;li&gt;实时发票验证&lt;/li&gt;
+&lt;li&gt;失败时自动重试&lt;/li&gt;
+&lt;li&gt;批量发票处理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;数据验证&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;提交前验证检查&lt;/li&gt;
+&lt;li&gt;税务合规验证&lt;/li&gt;
+&lt;li&gt;格式标准化&lt;/li&gt;
+&lt;li&gt;错误预防和纠正&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;多源集成&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;连接现有ERP系统&lt;/li&gt;
+&lt;li&gt;从会计软件导入&lt;/li&gt;
+&lt;li&gt;Excel/CSV文件上传&lt;/li&gt;
+&lt;li&gt;手动输入选项&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;电子发票配置模块&lt;span class="hx:absolute hx:-mt-20" id="电子发票配置模块"&gt;&lt;/span&gt;
+&lt;a href="#%e7%94%b5%e5%ad%90%e5%8f%91%e7%a5%a8%e9%85%8d%e7%bd%ae%e6%a8%a1%e5%9d%97" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;关键功能&lt;span class="hx:absolute hx:-mt-20" id="关键功能"&gt;&lt;/span&gt;
+&lt;a href="#%e5%85%b3%e9%94%ae%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;发票生成&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;从销售订单自动创建发票&lt;/li&gt;
+&lt;li&gt;多币种支持&lt;/li&gt;
+&lt;li&gt;税务计算引擎&lt;/li&gt;
+&lt;li&gt;自定义发票模板&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;验证引擎&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LHDN合规检查&lt;/li&gt;
+&lt;li&gt;业务规则验证&lt;/li&gt;
+&lt;li&gt;数据完整性验证&lt;/li&gt;
+&lt;li&gt;重复检测&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;工作流程管理&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;审批链&lt;/li&gt;
+&lt;li&gt;数字签名&lt;/li&gt;
+&lt;li&gt;修改跟踪&lt;/li&gt;
+&lt;li&gt;贷记通知单处理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;归档和检索&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;7年保留合规&lt;/li&gt;
+&lt;li&gt;高级搜索功能&lt;/li&gt;
+&lt;li&gt;审计跟踪维护&lt;/li&gt;
+&lt;li&gt;文档版本控制&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;技术规格&lt;span class="hx:absolute hx:-mt-20" id="技术规格"&gt;&lt;/span&gt;
+&lt;a href="#%e6%8a%80%e6%9c%af%e8%a7%84%e6%a0%bc" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;支持的格式&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;UBL 2.1(通用业务语言)&lt;/li&gt;
+&lt;li&gt;JSON用于API传输&lt;/li&gt;
+&lt;li&gt;PDF用于人类可读的副本&lt;/li&gt;
+&lt;li&gt;XML用于系统集成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;集成方法&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;REST API&lt;/li&gt;
+&lt;li&gt;SFTP批处理&lt;/li&gt;
+&lt;li&gt;Web门户访问&lt;/li&gt;
+&lt;li&gt;移动应用程序&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;性能&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;每小时处理10,000+张发票&lt;/li&gt;
+&lt;li&gt;亚秒级验证&lt;/li&gt;
+&lt;li&gt;99.9%正常运行时间SLA&lt;/li&gt;
+&lt;li&gt;实时状态更新&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;与BigLedger模块集成&lt;span class="hx:absolute hx:-mt-20" id="与bigledger模块集成"&gt;&lt;/span&gt;
+&lt;a href="#%e4%b8%8ebigledger%e6%a8%a1%e5%9d%97%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;无缝数据流&lt;span class="hx:absolute hx:-mt-20" id="无缝数据流"&gt;&lt;/span&gt;
+&lt;a href="#%e6%97%a0%e7%bc%9d%e6%95%b0%e6%8d%ae%e6%b5%81" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;[销售订单] → [发票生成] → [验证] → [MyInvois/PEPPOL] → [会计]
 ↓ ↓ ↓ ↓ ↓
-[库存] [税务引擎] [合规] [归档] [报告]&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+[库存] [税务引擎] [合规] [归档] [报告]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;h3>连接的模块&lt;span class="hx:absolute hx:-mt-20" id="连接的模块">&lt;/span>
-&lt;a href="#%e8%bf%9e%e6%8e%a5%e7%9a%84%e6%a8%a1%e5%9d%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>销售点(POS)&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>结账时自动发票生成&lt;/li>
-&lt;li>实时提交到LHDN&lt;/li>
-&lt;li>整合日报&lt;/li>
-&lt;li>多网点支持&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>电子商务平台&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>B2C发票自动化&lt;/li>
-&lt;li>B2B自开票支持&lt;/li>
-&lt;li>市场集成&lt;/li>
-&lt;li>跨境交易&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>会计系统&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>总账过账自动化&lt;/li>
-&lt;li>税务对账&lt;/li>
-&lt;li>现金流跟踪&lt;/li>
-&lt;li>财务报告&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>库存管理&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>库存水平更新&lt;/li>
-&lt;li>成本跟踪&lt;/li>
-&lt;li>序列号跟踪&lt;/li>
-&lt;li>批次管理&lt;/li>
-&lt;/ul>
-&lt;h2>收益和ROI&lt;span class="hx:absolute hx:-mt-20" id="收益和roi">&lt;/span>
-&lt;a href="#%e6%94%b6%e7%9b%8a%e5%92%8croi" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>运营收益&lt;span class="hx:absolute hx:-mt-20" id="运营收益">&lt;/span>
-&lt;a href="#%e8%bf%90%e8%90%a5%e6%94%b6%e7%9b%8a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>成本削减&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>发票处理时间减少80%&lt;/li>
-&lt;li>消除手动数据录入&lt;/li>
-&lt;li>减少打印和存储成本&lt;/li>
-&lt;li>最小化与错误相关的罚款&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>效率提升&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>同日发票审批&lt;/li>
-&lt;li>自动税务计算&lt;/li>
-&lt;li>即时交付确认&lt;/li>
-&lt;li>简化争议解决&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>合规保证&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>100%LHDN合规&lt;/li>
-&lt;li>法规变更的自动更新&lt;/li>
-&lt;li>完整审计跟踪&lt;/li>
-&lt;li>主动错误预防&lt;/li>
-&lt;/ul>
-&lt;h3>战略优势&lt;span class="hx:absolute hx:-mt-20" id="战略优势">&lt;/span>
-&lt;a href="#%e6%88%98%e7%95%a5%e4%bc%98%e5%8a%bf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>现金流改善&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>更快的付款周期&lt;/li>
-&lt;li>减少争议&lt;/li>
-&lt;li>更好的信用管理&lt;/li>
-&lt;li>增强供应商关系&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>数据智能&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>实时销售分析&lt;/li>
-&lt;li>税务负债跟踪&lt;/li>
-&lt;li>客户购买模式&lt;/li>
-&lt;li>供应商绩效指标&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>竞争优势&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>先发优势&lt;/li>
-&lt;li>增强客户体验&lt;/li>
-&lt;li>国际贸易准备&lt;/li>
-&lt;li>数字转型加速&lt;/li>
-&lt;/ul>
-&lt;h2>实施流程&lt;span class="hx:absolute hx:-mt-20" id="实施流程">&lt;/span>
-&lt;a href="#%e5%ae%9e%e6%96%bd%e6%b5%81%e7%a8%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>第一阶段：评估(第1周)&lt;span class="hx:absolute hx:-mt-20" id="第一阶段评估第1周">&lt;/span>
-&lt;a href="#%e7%ac%ac%e4%b8%80%e9%98%b6%e6%ae%b5%e8%af%84%e4%bc%b0%e7%ac%ac1%e5%91%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>当前流程分析&lt;/li>
-&lt;li>系统集成要求&lt;/li>
-&lt;li>数据质量评估&lt;/li>
-&lt;li>合规差距分析&lt;/li>
-&lt;/ul>
-&lt;h3>第二阶段：配置(第2-3周)&lt;span class="hx:absolute hx:-mt-20" id="第二阶段配置第2-3周">&lt;/span>
-&lt;a href="#%e7%ac%ac%e4%ba%8c%e9%98%b6%e6%ae%b5%e9%85%8d%e7%bd%ae%e7%ac%ac2-3%e5%91%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>系统设置和配置&lt;/li>
-&lt;li>主数据迁移&lt;/li>
-&lt;li>税务规则配置&lt;/li>
-&lt;li>模板自定义&lt;/li>
-&lt;/ul>
-&lt;h3>第三阶段：集成(第4-5周)&lt;span class="hx:absolute hx:-mt-20" id="第三阶段集成第4-5周">&lt;/span>
-&lt;a href="#%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5%e9%9b%86%e6%88%90%e7%ac%ac4-5%e5%91%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>ERP/POS集成&lt;/li>
-&lt;li>API连接设置&lt;/li>
-&lt;li>测试和验证&lt;/li>
-&lt;li>用户培训&lt;/li>
-&lt;/ul>
-&lt;h3>第四阶段：试点(第6-7周)&lt;span class="hx:absolute hx:-mt-20" id="第四阶段试点第6-7周">&lt;/span>
-&lt;a href="#%e7%ac%ac%e5%9b%9b%e9%98%b6%e6%ae%b5%e8%af%95%e7%82%b9%e7%ac%ac6-7%e5%91%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>有限推出&lt;/li>
-&lt;li>性能监控&lt;/li>
-&lt;li>问题解决&lt;/li>
-&lt;li>流程改进&lt;/li>
-&lt;/ul>
-&lt;h3>第五阶段：上线(第8周)&lt;span class="hx:absolute hx:-mt-20" id="第五阶段上线第8周">&lt;/span>
-&lt;a href="#%e7%ac%ac%e4%ba%94%e9%98%b6%e6%ae%b5%e4%b8%8a%e7%ba%bf%e7%ac%ac8%e5%91%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>全面部署&lt;/li>
-&lt;li>24/7支持激活&lt;/li>
-&lt;li>性能监控&lt;/li>
-&lt;li>持续优化&lt;/li>
-&lt;/ul>
-&lt;h2>成功案例&lt;span class="hx:absolute hx:-mt-20" id="成功案例">&lt;/span>
-&lt;a href="#%e6%88%90%e5%8a%9f%e6%a1%88%e4%be%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>零售连锁店 - 500家网点&lt;span class="hx:absolute hx:-mt-20" id="零售连锁店---500家网点">&lt;/span>
-&lt;a href="#%e9%9b%b6%e5%94%ae%e8%bf%9e%e9%94%81%e5%ba%97---500%e5%ae%b6%e7%bd%91%e7%82%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>挑战&lt;/strong>：多个位置的手动发票处理
-&lt;strong>解决方案&lt;/strong>：集成POS与自动电子发票
-&lt;strong>结果&lt;/strong>：&lt;/p>
-&lt;ul>
-&lt;li>处理时间减少90%&lt;/li>
-&lt;li>零合规罚款&lt;/li>
-&lt;li>年节省200万林吉特&lt;/li>
-&lt;/ul>
-&lt;h3>制造公司&lt;span class="hx:absolute hx:-mt-20" id="制造公司">&lt;/span>
-&lt;a href="#%e5%88%b6%e9%80%a0%e5%85%ac%e5%8f%b8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>挑战&lt;/strong>：复杂的B2B发票与多种税务场景
-&lt;strong>解决方案&lt;/strong>：自定义验证规则和自动化工作流程
-&lt;strong>结果&lt;/strong>：&lt;/p>
-&lt;ul>
-&lt;li>100%按时LHDN提交&lt;/li>
-&lt;li>付款收款速度提高60%&lt;/li>
-&lt;li>完整的供应链可视性&lt;/li>
-&lt;/ul>
-&lt;h3>电子商务平台&lt;span class="hx:absolute hx:-mt-20" id="电子商务平台">&lt;/span>
-&lt;a href="#%e7%94%b5%e5%ad%90%e5%95%86%e5%8a%a1%e5%b9%b3%e5%8f%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>挑战&lt;/strong>：高量B2C交易
-&lt;strong>解决方案&lt;/strong>：实时发票生成和提交
-&lt;strong>结果&lt;/strong>：&lt;/p>
-&lt;ul>
-&lt;li>每日处理50,000张发票&lt;/li>
-&lt;li>99.99%提交成功率&lt;/li>
-&lt;li>无缝客户体验&lt;/li>
-&lt;/ul>
-&lt;h2>定价模型&lt;span class="hx:absolute hx:-mt-20" id="定价模型">&lt;/span>
-&lt;a href="#%e5%ae%9a%e4%bb%b7%e6%a8%a1%e5%9e%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>入门包&lt;span class="hx:absolute hx:-mt-20" id="入门包">&lt;/span>
-&lt;a href="#%e5%85%a5%e9%97%a8%e5%8c%85" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>每月最多1,000张发票&lt;/li>
-&lt;li>基础验证&lt;/li>
-&lt;li>Web门户访问&lt;/li>
-&lt;li>邮件支持&lt;/li>
-&lt;/ul>
-&lt;h3>专业包&lt;span class="hx:absolute hx:-mt-20" id="专业包">&lt;/span>
-&lt;a href="#%e4%b8%93%e4%b8%9a%e5%8c%85" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>每月最多10,000张发票&lt;/li>
-&lt;li>高级验证&lt;/li>
-&lt;li>API集成&lt;/li>
-&lt;li>优先支持&lt;/li>
-&lt;li>自定义工作流程&lt;/li>
-&lt;/ul>
-&lt;h3>企业包&lt;span class="hx:absolute hx:-mt-20" id="企业包">&lt;/span>
-&lt;a href="#%e4%bc%81%e4%b8%9a%e5%8c%85" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>无限发票&lt;/li>
-&lt;li>完整集成套件&lt;/li>
-&lt;li>专门支持&lt;/li>
-&lt;li>自定义开发&lt;/li>
-&lt;li>SLA保证&lt;/li>
-&lt;/ul>
-&lt;h3>按使用付费&lt;span class="hx:absolute hx:-mt-20" id="按使用付费">&lt;/span>
-&lt;a href="#%e6%8c%89%e4%bd%bf%e7%94%a8%e4%bb%98%e8%b4%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>无月度承诺&lt;/li>
-&lt;li>按发票定价&lt;/li>
-&lt;li>包含所有功能&lt;/li>
-&lt;li>适合季节性业务&lt;/li>
-&lt;/ul>
-&lt;h2>开始使用&lt;span class="hx:absolute hx:-mt-20" id="开始使用">&lt;/span>
-&lt;a href="#%e5%bc%80%e5%a7%8b%e4%bd%bf%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>快速入门指南&lt;span class="hx:absolute hx:-mt-20" id="快速入门指南">&lt;/span>
-&lt;a href="#%e5%bf%ab%e9%80%9f%e5%85%a5%e9%97%a8%e6%8c%87%e5%8d%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>&lt;strong>注册&lt;/strong>：创建您的BigLedger账户&lt;/li>
-&lt;li>&lt;strong>配置&lt;/strong>：设置公司和税务详细信息&lt;/li>
-&lt;li>&lt;strong>连接&lt;/strong>：与现有系统集成&lt;/li>
-&lt;li>&lt;strong>测试&lt;/strong>：使用样本发票验证&lt;/li>
-&lt;li>&lt;strong>部署&lt;/strong>：充满信心地上线&lt;/li>
-&lt;/ol>
-&lt;h3>资源&lt;span class="hx:absolute hx:-mt-20" id="资源">&lt;/span>
-&lt;a href="#%e8%b5%84%e6%ba%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>文档&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.bigledger.com/zh/developers/api-reference/einvoice/" >API文档&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.bigledger.com/zh/e-invoice-peppol/" >集成指南&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.bigledger.com/zh/e-invoice-peppol/" >最佳实践&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.bigledger.com/zh/e-invoice-peppol/" >常见问题&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>支持&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>24/7帮助台&lt;/li>
-&lt;li>实施顾问&lt;/li>
-&lt;li>培训计划&lt;/li>
-&lt;li>社区论坛&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>工具&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>发票验证器&lt;/li>
-&lt;li>税务计算器&lt;/li>
-&lt;li>格式转换器&lt;/li>
-&lt;li>测试环境&lt;/li>
-&lt;/ul>
-&lt;h2>联系我们的电子发票专家&lt;span class="hx:absolute hx:-mt-20" id="联系我们的电子发票专家">&lt;/span>
-&lt;a href="#%e8%81%94%e7%b3%bb%e6%88%91%e4%bb%ac%e7%9a%84%e7%94%b5%e5%ad%90%e5%8f%91%e7%a5%a8%e4%b8%93%e5%ae%b6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>准备转换您的发票流程？我们的团队在这里帮助：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>安排演示&lt;/strong>：看到平台的实际操作&lt;/li>
-&lt;li>&lt;strong>免费评估&lt;/strong>：评估您的准备情况&lt;/li>
-&lt;li>&lt;strong>实施支持&lt;/strong>：专家指导&lt;/li>
-&lt;li>&lt;strong>培训&lt;/strong>：全面的用户培训&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://www.bigledger.com/zh/e-invoice-peppol/" >请求演示&lt;/a> | &lt;a href="mailto:einvoice@bigledger.com" >联系销售&lt;/a> | &lt;a href="https://www.bigledger.com/zh/e-invoice-peppol/" >下载指南&lt;/a>&lt;/p>
-&lt;h2>合规性和认证&lt;span class="hx:absolute hx:-mt-20" id="合规性和认证">&lt;/span>
-&lt;a href="#%e5%90%88%e8%a7%84%e6%80%a7%e5%92%8c%e8%ae%a4%e8%af%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>MDEC PEPPOL认证&lt;/li>
-&lt;li>ISO 27001认证&lt;/li>
-&lt;li>LHDN批准解决方案&lt;/li>
-&lt;li>PDPA合规&lt;/li>
-&lt;li>SST/GST就绪&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;p>&lt;em>BigLedger - 您电子发票转型的可信赖合作伙伴&lt;/em>&lt;/p></description></item><item><title>小程序与工作流程</title><link>https://www.bigledger.com/zh/applets-workflows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/applets-workflows/</guid><description>
-&lt;p>BigLedger的模块化小程序架构使企业能够通过我们的中央数据枢纽无缝协作的专业化小程序来构建定制化解决方案。&lt;/p>
-&lt;h2>了解小程序&lt;span class="hx:absolute hx:-mt-20" id="了解小程序">&lt;/span>
-&lt;a href="#%e4%ba%86%e8%a7%a3%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>什么是小程序？&lt;span class="hx:absolute hx:-mt-20" id="什么是小程序">&lt;/span>
-&lt;a href="#%e4%bb%80%e4%b9%88%e6%98%af%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>小程序是独立的业务模块，具有以下特点：&lt;/p>
-&lt;ul>
-&lt;li>专注于特定业务功能&lt;/li>
-&lt;li>通过中央枢纽共享数据&lt;/li>
-&lt;li>可以独立运行或集成运行&lt;/li>
-&lt;li>根据业务需求扩展&lt;/li>
-&lt;li>更新时不影响其他小程序&lt;/li>
-&lt;/ul>
-&lt;h2>按类别分类的完整小程序列表&lt;span class="hx:absolute hx:-mt-20" id="按类别分类的完整小程序列表">&lt;/span>
-&lt;a href="#%e6%8c%89%e7%b1%bb%e5%88%ab%e5%88%86%e7%b1%bb%e7%9a%84%e5%ae%8c%e6%95%b4%e5%b0%8f%e7%a8%8b%e5%ba%8f%e5%88%97%e8%a1%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>基于BigLedger的综合小程序架构，我们的平台提供专业的小程序，组织成八个核心类别：&lt;/p>
-&lt;h3>🏢 主数据小程序&lt;span class="hx:absolute hx:-mt-20" id="-主数据小程序">&lt;/span>
-&lt;a href="#-%e4%b8%bb%e6%95%b0%e6%8d%ae%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>系统配置的基础小程序：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>组织架构&lt;/strong> - 公司结构和层次管理&lt;/li>
-&lt;li>&lt;strong>会计科目表&lt;/strong> - 财务账户结构设置&lt;/li>
-&lt;li>&lt;strong>现金账&lt;/strong> - 现金管理和跟踪&lt;/li>
-&lt;li>&lt;strong>员工管理&lt;/strong> - 员工数据库和管理&lt;/li>
-&lt;li>&lt;strong>单据项目&lt;/strong> - 文档和项目主数据&lt;/li>
-&lt;li>&lt;strong>客户管理&lt;/strong> - 客户主数据管理&lt;/li>
-&lt;li>&lt;strong>供应商管理&lt;/strong> - 供应商数据库&lt;/li>
-&lt;li>&lt;strong>价格手册&lt;/strong> - 定价规则和目录&lt;/li>
-&lt;li>&lt;strong>实体维护&lt;/strong> - 实体关系管理&lt;/li>
-&lt;li>&lt;strong>权限向导&lt;/strong> - 用户访问和权限控制&lt;/li>
-&lt;li>&lt;strong>凭证管理&lt;/strong> - 凭证类型配置&lt;/li>
-&lt;/ul>
-&lt;h3>🛒 采购工作流程小程序&lt;span class="hx:absolute hx:-mt-20" id="-采购工作流程小程序">&lt;/span>
-&lt;a href="#-%e9%87%87%e8%b4%ad%e5%b7%a5%e4%bd%9c%e6%b5%81%e7%a8%8b%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>完整的采购和采购管理：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>内部毛坯采购订单&lt;/strong> - 长期采购协议&lt;/li>
-&lt;li>&lt;strong>内部采购申请&lt;/strong> - 采购请求管理&lt;/li>
-&lt;li>&lt;strong>内部采购订单&lt;/strong> - 采购订单创建和跟踪&lt;/li>
-&lt;li>&lt;strong>内部采购入库单&lt;/strong> - 货物收据单处理&lt;/li>
-&lt;li>&lt;strong>内部采购发票&lt;/strong> - 供应商发票管理&lt;/li>
-&lt;li>&lt;strong>内部采购退货&lt;/strong> - 退还给供应商处理&lt;/li>
-&lt;li>&lt;strong>内部采购借记通知书&lt;/strong> - 采购调整&lt;/li>
-&lt;li>&lt;strong>内部采购贷记通知书&lt;/strong> - 供应商信贷&lt;/li>
-&lt;li>&lt;strong>内部采购报价&lt;/strong> - RFQ和报价管理&lt;/li>
-&lt;li>&lt;strong>采购报告&lt;/strong> - 综合采购分析&lt;/li>
-&lt;li>&lt;strong>内部采购出库单&lt;/strong> - 货物出库单&lt;/li>
-&lt;li>&lt;strong>内部采购退款单&lt;/strong> - 退款处理&lt;/li>
-&lt;/ul>
-&lt;h3>📦 库存工作流程小程序&lt;span class="hx:absolute hx:-mt-20" id="-库存工作流程小程序">&lt;/span>
-&lt;a href="#-%e5%ba%93%e5%ad%98%e5%b7%a5%e4%bd%9c%e6%b5%81%e7%a8%8b%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>高级库存和库存管理：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>内部库存申请&lt;/strong> - 库存请求管理&lt;/li>
-&lt;li>&lt;strong>库存调拨&lt;/strong> - 跨位置调拨&lt;/li>
-&lt;li>&lt;strong>内部库存调整&lt;/strong> - 库存调整&lt;/li>
-&lt;li>&lt;strong>库存可用性&lt;/strong> - 实时库存可见性&lt;/li>
-&lt;li>&lt;strong>库存补充小程序&lt;/strong> - 自动重新订购&lt;/li>
-&lt;li>&lt;strong>库存分配&lt;/strong> - 预留和分配库存&lt;/li>
-&lt;li>&lt;strong>库存报告&lt;/strong> - 库存分析和报告&lt;/li>
-&lt;/ul>
-&lt;h3>💼 销售工作流程小程序&lt;span class="hx:absolute hx:-mt-20" id="-销售工作流程小程序">&lt;/span>
-&lt;a href="#-%e9%94%80%e5%94%ae%e5%b7%a5%e4%bd%9c%e6%b5%81%e7%a8%8b%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>端到端销售和分销管理：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>POS通用&lt;/strong> - 销售点操作&lt;/li>
-&lt;li>&lt;strong>内部销售报价&lt;/strong> - 报价生成&lt;/li>
-&lt;li>&lt;strong>内部销售订单&lt;/strong> - 订单处理&lt;/li>
-&lt;li>&lt;strong>内部销售发票&lt;/strong> - 客户开票&lt;/li>
-&lt;li>&lt;strong>内部交付订单&lt;/strong> - 运输和交付&lt;/li>
-&lt;li>&lt;strong>内部销售借记通知书&lt;/strong> - 销售调整&lt;/li>
-&lt;li>&lt;strong>内部销售贷记通知书&lt;/strong> - 客户信贷&lt;/li>
-&lt;li>&lt;strong>内部销售形式发票&lt;/strong> - 形式发票文档&lt;/li>
-&lt;li>&lt;strong>交付和安装驱动程序&lt;/strong> - 服务调度&lt;/li>
-&lt;li>&lt;strong>销售报告&lt;/strong> - 销售分析&lt;/li>
-&lt;li>&lt;strong>内部销售退款单&lt;/strong> - 客户退款&lt;/li>
-&lt;li>&lt;strong>内部销售退货&lt;/strong> - 退货处理&lt;/li>
-&lt;/ul>
-&lt;h3>💰 财务小程序&lt;span class="hx:absolute hx:-mt-20" id="-财务小程序">&lt;/span>
-&lt;a href="#-%e8%b4%a2%e5%8a%a1%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>全面的财务管理：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>内部收据凭证&lt;/strong> - 付款收据&lt;/li>
-&lt;li>&lt;strong>内部付款凭证&lt;/strong> - 付款处理&lt;/li>
-&lt;li>&lt;strong>债务人报告小程序&lt;/strong> - 应收账款分析&lt;/li>
-&lt;li>&lt;strong>债权人报告小程序&lt;/strong> - 应付账款分析&lt;/li>
-&lt;li>&lt;strong>分类账和日记账&lt;/strong> - 总账分录和日记账&lt;/li>
-&lt;li>&lt;strong>财务报告小程序&lt;/strong> - 财务报表&lt;/li>
-&lt;li>&lt;strong>银行对账&lt;/strong> - 自动银行匹配&lt;/li>
-&lt;/ul>
-&lt;h3>📄 电子发票小程序&lt;span class="hx:absolute hx:-mt-20" id="-电子发票小程序">&lt;/span>
-&lt;a href="#-%e7%94%b5%e5%ad%90%e5%8f%91%e7%a5%a8%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>符合PEPPOL的电子发票解决方案：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>我的电子发票管理&lt;/strong> - 电子发票配置和管理&lt;/li>
-&lt;li>&lt;strong>客户门户&lt;/strong> - 自助发票访问&lt;/li>
-&lt;/ul>
-&lt;h3>🏛️ 税务小程序&lt;span class="hx:absolute hx:-mt-20" id="-税务小程序">&lt;/span>
-&lt;a href="#-%e7%a8%8e%e5%8a%a1%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>马来西亚税务合规：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>税务配置&lt;/strong> - 税务设置和规则&lt;/li>
-&lt;li>&lt;strong>MY-SST小程序&lt;/strong> - 销售和服务税管理&lt;/li>
-&lt;/ul>
-&lt;h3>💱 外汇小程序&lt;span class="hx:absolute hx:-mt-20" id="-外汇小程序">&lt;/span>
-&lt;a href="#-%e5%a4%96%e6%b1%87%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>外汇管理：&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>外汇小程序&lt;/strong> - 多币种操作和汇率管理&lt;/li>
-&lt;/ul>
-&lt;h2>📊 财务管理小程序&lt;span class="hx:absolute hx:-mt-20" id="-财务管理小程序">&lt;/span>
-&lt;a href="#-%e8%b4%a2%e5%8a%a1%e7%ae%a1%e7%90%86%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>总账小程序&lt;span class="hx:absolute hx:-mt-20" id="总账小程序">&lt;/span>
-&lt;a href="#%e6%80%bb%e8%b4%a6%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>工作流程集成：&lt;/strong> 财务记录 → 报告 → 分析&lt;/p>
-&lt;p>&lt;strong>关键工作流程：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>日记账分录处理&lt;/li>
-&lt;li>期末结账&lt;/li>
-&lt;li>财务合并&lt;/li>
-&lt;li>公司间交易&lt;/li>
-&lt;li>货币重估&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>连接的小程序：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>应付账款&lt;/li>
-&lt;li>应收账款&lt;/li>
-&lt;li>固定资产&lt;/li>
-&lt;li>银行对账&lt;/li>
-&lt;/ul>
-&lt;h3>应付账款小程序&lt;span class="hx:absolute hx:-mt-20" id="应付账款小程序">&lt;/span>
-&lt;a href="#%e5%ba%94%e4%bb%98%e8%b4%a6%e6%ac%be%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>工作流程集成：&lt;/strong> 采购 → 发票 → 付款 → 对账&lt;/p>
-&lt;p>&lt;strong>关键工作流程：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>供应商发票处理&lt;/li>
-&lt;li>付款运行执行&lt;/li>
-&lt;li>费用报销管理&lt;/li>
-&lt;li>账龄分析&lt;/li>
-&lt;li>现金流规划&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>连接的小程序：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>采购&lt;/li>
-&lt;li>电子发票&lt;/li>
-&lt;li>银行集成&lt;/li>
-&lt;li>总账&lt;/li>
-&lt;/ul>
-&lt;h3>应收账款小程序&lt;span class="hx:absolute hx:-mt-20" id="应收账款小程序">&lt;/span>
-&lt;a href="#%e5%ba%94%e6%94%b6%e8%b4%a6%e6%ac%be%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>工作流程集成：&lt;/strong> 销售 → 发票 → 收款 → 对账&lt;/p>
-&lt;p>&lt;strong>关键工作流程：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>客户发票生成&lt;/li>
-&lt;li>付款收款&lt;/li>
-&lt;li>信用管理&lt;/li>
-&lt;li>催收流程&lt;/li>
-&lt;li>客户对账单&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>连接的小程序：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>销售订单&lt;/li>
-&lt;li>电子发票&lt;/li>
-&lt;li>CRM&lt;/li>
-&lt;li>总账&lt;/li>
-&lt;/ul>
-&lt;h3>银行对账小程序&lt;span class="hx:absolute hx:-mt-20" id="银行对账小程序">&lt;/span>
-&lt;a href="#%e9%93%b6%e8%a1%8c%e5%af%b9%e8%b4%a6%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>工作流程集成：&lt;/strong> 交易导入 → 匹配 → 调整 → 过账&lt;/p>
-&lt;p>&lt;strong>关键功能：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>AI驱动的自动匹配(95%准确性)&lt;/li>
-&lt;li>银行数据集成&lt;/li>
-&lt;li>异常处理&lt;/li>
-&lt;li>对账报告&lt;/li>
-&lt;/ul>
-&lt;h2>🛍️ 销售与商务小程序&lt;span class="hx:absolute hx:-mt-20" id="-销售与商务小程序">&lt;/span>
-&lt;a href="#-%e9%94%80%e5%94%ae%e4%b8%8e%e5%95%86%e5%8a%a1%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>销售点(POS)小程序&lt;span class="hx:absolute hx:-mt-20" id="销售点pos小程序">&lt;/span>
-&lt;a href="#%e9%94%80%e5%94%ae%e7%82%b9pos%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>工作流程集成：&lt;/strong> 产品选择 → 结账 → 付款 → 电子发票&lt;/p>
-&lt;p>&lt;strong>关键工作流程：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>销售交易处理&lt;/li>
-&lt;li>付款处理&lt;/li>
-&lt;li>客户管理&lt;/li>
-&lt;li>班次管理&lt;/li>
-&lt;li>日结&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>连接的小程序：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>库存&lt;/li>
-&lt;li>电子发票&lt;/li>
-&lt;li>客户忠诚度&lt;/li>
-&lt;li>会计&lt;/li>
-&lt;/ul>
-&lt;h3>电子商务小程序&lt;span class="hx:absolute hx:-mt-20" id="电子商务小程序">&lt;/span>
-&lt;a href="#%e7%94%b5%e5%ad%90%e5%95%86%e5%8a%a1%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>工作流程集成：&lt;/strong> 浏览 → 购物车 → 结账 → 履行&lt;/p>
-&lt;p>&lt;strong>关键工作流程：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>产品目录管理&lt;/li>
-&lt;li>购物车处理&lt;/li>
-&lt;li>订单管理&lt;/li>
-&lt;li>支付网关集成&lt;/li>
-&lt;li>运输协调&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>连接的小程序：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>库存&lt;/li>
-&lt;li>CRM&lt;/li>
-&lt;li>仓库&lt;/li>
-&lt;li>电子发票&lt;/li>
-&lt;/ul>
-&lt;h3>销售订单管理小程序&lt;span class="hx:absolute hx:-mt-20" id="销售订单管理小程序">&lt;/span>
-&lt;a href="#%e9%94%80%e5%94%ae%e8%ae%a2%e5%8d%95%e7%ae%a1%e7%90%86%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>工作流程集成：&lt;/strong> 报价 → 订单 → 履行 → 发票&lt;/p>
-&lt;p>&lt;strong>关键工作流程：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>报价生成&lt;/li>
-&lt;li>订单处理&lt;/li>
-&lt;li>可用性检查&lt;/li>
-&lt;li>交付调度&lt;/li>
-&lt;li>佣金计算&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>连接的小程序：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>CRM&lt;/li>
-&lt;li>库存&lt;/li>
-&lt;li>仓库&lt;/li>
-&lt;li>应收账款&lt;/li>
-&lt;/ul>
-&lt;h2>📦 供应链小程序&lt;span class="hx:absolute hx:-mt-20" id="-供应链小程序">&lt;/span>
-&lt;a href="#-%e4%be%9b%e5%ba%94%e9%93%be%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>库存管理小程序&lt;span class="hx:absolute hx:-mt-20" id="库存管理小程序">&lt;/span>
-&lt;a href="#%e5%ba%93%e5%ad%98%e7%ae%a1%e7%90%86%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>工作流程集成：&lt;/strong> 收货 → 存储 → 移动 → 发货&lt;/p>
-&lt;p>&lt;strong>关键工作流程：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>库存接收&lt;/li>
-&lt;li>调拨管理&lt;/li>
-&lt;li>循环盘点&lt;/li>
-&lt;li>库存调整&lt;/li>
-&lt;li>补货处理&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>连接的小程序：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>采购订单&lt;/li>
-&lt;li>销售订单&lt;/li>
-&lt;li>仓库&lt;/li>
-&lt;li>制造&lt;/li>
-&lt;/ul>
-&lt;h3>仓库管理小程序&lt;span class="hx:absolute hx:-mt-20" id="仓库管理小程序">&lt;/span>
-&lt;a href="#%e4%bb%93%e5%ba%93%e7%ae%a1%e7%90%86%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>工作流程集成：&lt;/strong> 收货 → 上架 → 拣选 → 包装 → 发货&lt;/p>
-&lt;p>&lt;strong>关键工作流程：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>入站处理&lt;/li>
-&lt;li>位置管理&lt;/li>
-&lt;li>订单拣选&lt;/li>
-&lt;li>包装优化&lt;/li>
-&lt;li>运输协调&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>连接的小程序：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>库存&lt;/li>
-&lt;li>销售订单&lt;/li>
-&lt;li>采购订单&lt;/li>
-&lt;li>运输&lt;/li>
-&lt;/ul>
-&lt;h3>采购小程序&lt;span class="hx:absolute hx:-mt-20" id="采购小程序">&lt;/span>
-&lt;a href="#%e9%87%87%e8%b4%ad%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>工作流程集成：&lt;/strong> 申请 → RFQ → 采购订单 → 收货 → 付款&lt;/p>
-&lt;p>&lt;strong>关键工作流程：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>采购申请&lt;/li>
-&lt;li>供应商选择&lt;/li>
-&lt;li>采购订单创建&lt;/li>
-&lt;li>货物收据&lt;/li>
-&lt;li>三方匹配&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>连接的小程序：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>库存&lt;/li>
-&lt;li>应付账款&lt;/li>
-&lt;li>供应商管理&lt;/li>
-&lt;li>预算控制&lt;/li>
-&lt;/ul>
-&lt;h3>制造小程序&lt;span class="hx:absolute hx:-mt-20" id="制造小程序">&lt;/span>
-&lt;a href="#%e5%88%b6%e9%80%a0%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>工作流程集成：&lt;/strong> 规划 → 生产 → 质量 → 完成&lt;/p>
-&lt;p>&lt;strong>关键工作流程：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>生产规划&lt;/li>
-&lt;li>工作订单管理&lt;/li>
-&lt;li>材料消耗&lt;/li>
-&lt;li>质量控制&lt;/li>
-&lt;li>成本计算&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>连接的小程序：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>库存&lt;/li>
-&lt;li>BOM管理&lt;/li>
-&lt;li>质量控制
--成本会计&lt;/li>
-&lt;/ul>
-&lt;h2>📞 客户管理小程序&lt;span class="hx:absolute hx:-mt-20" id="-客户管理小程序">&lt;/span>
-&lt;a href="#-%e5%ae%a2%e6%88%b7%e7%ae%a1%e7%90%86%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>CRM小程序&lt;span class="hx:absolute hx:-mt-20" id="crm小程序">&lt;/span>
-&lt;a href="#crm%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>工作流程集成：&lt;/strong> 潜在客户 → 商机 → 客户 → 保留&lt;/p>
-&lt;p>&lt;strong>关键工作流程：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>潜在客户捕获和资格认证&lt;/li>
-&lt;li>商机管理&lt;/li>
-&lt;li>联系人管理&lt;/li>
-&lt;li>活动跟踪&lt;/li>
-&lt;li>管道分析&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>连接的小程序：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>销售订单&lt;/li>
-&lt;li>营销&lt;/li>
-&lt;li>客户服务&lt;/li>
-&lt;li>电子商务&lt;/li>
-&lt;/ul>
-&lt;h3>统一联络中心(UCC)小程序&lt;span class="hx:absolute hx:-mt-20" id="统一联络中心ucc小程序">&lt;/span>
-&lt;a href="#%e7%bb%9f%e4%b8%80%e8%81%94%e7%bb%9c%e4%b8%ad%e5%bf%83ucc%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>工作流程集成：&lt;/strong> 联系 → 路由 → 解决 → 跟进&lt;/p>
-&lt;p>&lt;strong>关键功能：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>全渠道支持&lt;/li>
-&lt;li>AI情感分析&lt;/li>
-&lt;li>工单管理&lt;/li>
-&lt;li>知识库&lt;/li>
-&lt;li>SLA跟踪&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>连接的小程序：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>CRM&lt;/li>
-&lt;li>客户门户&lt;/li>
-&lt;li>AI智能&lt;/li>
-&lt;li>工作流程引擎&lt;/li>
-&lt;/ul>
-&lt;h3>客户门户小程序&lt;span class="hx:absolute hx:-mt-20" id="客户门户小程序">&lt;/span>
-&lt;a href="#%e5%ae%a2%e6%88%b7%e9%97%a8%e6%88%b7%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>工作流程集成：&lt;/strong> 登录 → 自助服务 → 交易 → 支持&lt;/p>
-&lt;p>&lt;strong>关键功能：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>账户管理&lt;/li>
-&lt;li>订单跟踪&lt;/li>
-&lt;li>付款门户&lt;/li>
-&lt;li>支持工单&lt;/li>
-&lt;li>文档访问&lt;/li>
-&lt;/ul>
-&lt;h2>📄 合规和监管小程序&lt;span class="hx:absolute hx:-mt-20" id="-合规和监管小程序">&lt;/span>
-&lt;a href="#-%e5%90%88%e8%a7%84%e5%92%8c%e7%9b%91%e7%ae%a1%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>电子发票和PEPPOL小程序&lt;span class="hx:absolute hx:-mt-20" id="电子发票和peppol小程序">&lt;/span>
-&lt;a href="#%e7%94%b5%e5%ad%90%e5%8f%91%e7%a5%a8%e5%92%8cpeppol%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>工作流程集成：&lt;/strong> 生成 → 验证 → 提交 → 归档&lt;/p>
-&lt;p>&lt;strong>关键功能：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>MyInvois集成&lt;/li>
-&lt;li>LHDN提交&lt;/li>
-&lt;li>PEPPOL合规&lt;/li>
-&lt;li>税务计算&lt;/li>
-&lt;li>归档管理&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>连接的小程序：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>销售订单&lt;/li>
-&lt;li>POS&lt;/li>
-&lt;li>应收账款&lt;/li>
-&lt;li>税务管理&lt;/li>
-&lt;/ul>
-&lt;h3>税务管理小程序&lt;span class="hx:absolute hx:-mt-20" id="税务管理小程序">&lt;/span>
-&lt;a href="#%e7%a8%8e%e5%8a%a1%e7%ae%a1%e7%90%86%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>工作流程集成：&lt;/strong> 计算 → 报告 → 申报 → 支付&lt;/p>
-&lt;p>&lt;strong>关键功能：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>SST/GST计算&lt;/li>
-&lt;li>税务报告&lt;/li>
-&lt;li>申报提交&lt;/li>
-&lt;li>审计支持&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>连接的小程序：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>电子发票&lt;/li>
-&lt;li>会计&lt;/li>
-&lt;li>采购&lt;/li>
-&lt;li>工资单&lt;/li>
-&lt;/ul>
-&lt;h2>🤖 智能与分析小程序&lt;span class="hx:absolute hx:-mt-20" id="-智能与分析小程序">&lt;/span>
-&lt;a href="#-%e6%99%ba%e8%83%bd%e4%b8%8e%e5%88%86%e6%9e%90%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>商业智能小程序&lt;span class="hx:absolute hx:-mt-20" id="商业智能小程序">&lt;/span>
-&lt;a href="#%e5%95%86%e4%b8%9a%e6%99%ba%e8%83%bd%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>工作流程集成：&lt;/strong> 提取 → 转换 → 分析 → 可视化&lt;/p>
-&lt;p>&lt;strong>关键功能：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>实时仪表板&lt;/li>
-&lt;li>自定义报告&lt;/li>
-&lt;li>KPI监控&lt;/li>
-&lt;li>预测分析&lt;/li>
-&lt;li>数据挖掘&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>连接的小程序：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>所有运营小程序&lt;/li>
-&lt;li>数据枢纽&lt;/li>
-&lt;li>AI服务&lt;/li>
-&lt;/ul>
-&lt;h3>AI服务小程序&lt;span class="hx:absolute hx:-mt-20" id="ai服务小程序">&lt;/span>
-&lt;a href="#ai%e6%9c%8d%e5%8a%a1%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>工作流程集成：&lt;/strong> 捕获 → 处理 → 学习 → 预测&lt;/p>
-&lt;p>&lt;strong>关键功能：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>OCR处理&lt;/li>
-&lt;li>NLP分析&lt;/li>
-&lt;li>预测模型&lt;/li>
-&lt;li>异常检测&lt;/li>
-&lt;li>流程自动化&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>集成点：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>文档管理&lt;/li>
-&lt;li>客户服务&lt;/li>
-&lt;li>财务分析&lt;/li>
-&lt;li>质量控制&lt;/li>
-&lt;/ul>
-&lt;h2>工作流程编排&lt;span class="hx:absolute hx:-mt-20" id="工作流程编排">&lt;/span>
-&lt;a href="#%e5%b7%a5%e4%bd%9c%e6%b5%81%e7%a8%8b%e7%bc%96%e6%8e%92" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>跨小程序工作流程&lt;span class="hx:absolute hx:-mt-20" id="跨小程序工作流程">&lt;/span>
-&lt;a href="#%e8%b7%a8%e5%b0%8f%e7%a8%8b%e5%ba%8f%e5%b7%a5%e4%bd%9c%e6%b5%81%e7%a8%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>订单到现金(O2C)&lt;span class="hx:absolute hx:-mt-20" id="订单到现金o2c">&lt;/span>
-&lt;a href="#%e8%ae%a2%e5%8d%95%e5%88%b0%e7%8e%b0%e9%87%91o2c" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>CRM → 报价 → 销售订单 → 库存检查 → 交付 → 电子发票 → 付款 → 银行对账 → 总账过账&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;连接的模块&lt;span class="hx:absolute hx:-mt-20" id="连接的模块"&gt;&lt;/span&gt;
+&lt;a href="#%e8%bf%9e%e6%8e%a5%e7%9a%84%e6%a8%a1%e5%9d%97" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;销售点(POS)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;结账时自动发票生成&lt;/li&gt;
+&lt;li&gt;实时提交到LHDN&lt;/li&gt;
+&lt;li&gt;整合日报&lt;/li&gt;
+&lt;li&gt;多网点支持&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;电子商务平台&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;B2C发票自动化&lt;/li&gt;
+&lt;li&gt;B2B自开票支持&lt;/li&gt;
+&lt;li&gt;市场集成&lt;/li&gt;
+&lt;li&gt;跨境交易&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;会计系统&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;总账过账自动化&lt;/li&gt;
+&lt;li&gt;税务对账&lt;/li&gt;
+&lt;li&gt;现金流跟踪&lt;/li&gt;
+&lt;li&gt;财务报告&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;库存管理&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;库存水平更新&lt;/li&gt;
+&lt;li&gt;成本跟踪&lt;/li&gt;
+&lt;li&gt;序列号跟踪&lt;/li&gt;
+&lt;li&gt;批次管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;收益和ROI&lt;span class="hx:absolute hx:-mt-20" id="收益和roi"&gt;&lt;/span&gt;
+&lt;a href="#%e6%94%b6%e7%9b%8a%e5%92%8croi" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;运营收益&lt;span class="hx:absolute hx:-mt-20" id="运营收益"&gt;&lt;/span&gt;
+&lt;a href="#%e8%bf%90%e8%90%a5%e6%94%b6%e7%9b%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;成本削减&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;发票处理时间减少80%&lt;/li&gt;
+&lt;li&gt;消除手动数据录入&lt;/li&gt;
+&lt;li&gt;减少打印和存储成本&lt;/li&gt;
+&lt;li&gt;最小化与错误相关的罚款&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;效率提升&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;同日发票审批&lt;/li&gt;
+&lt;li&gt;自动税务计算&lt;/li&gt;
+&lt;li&gt;即时交付确认&lt;/li&gt;
+&lt;li&gt;简化争议解决&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;合规保证&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;100%LHDN合规&lt;/li&gt;
+&lt;li&gt;法规变更的自动更新&lt;/li&gt;
+&lt;li&gt;完整审计跟踪&lt;/li&gt;
+&lt;li&gt;主动错误预防&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;战略优势&lt;span class="hx:absolute hx:-mt-20" id="战略优势"&gt;&lt;/span&gt;
+&lt;a href="#%e6%88%98%e7%95%a5%e4%bc%98%e5%8a%bf" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;现金流改善&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;更快的付款周期&lt;/li&gt;
+&lt;li&gt;减少争议&lt;/li&gt;
+&lt;li&gt;更好的信用管理&lt;/li&gt;
+&lt;li&gt;增强供应商关系&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;数据智能&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;实时销售分析&lt;/li&gt;
+&lt;li&gt;税务负债跟踪&lt;/li&gt;
+&lt;li&gt;客户购买模式&lt;/li&gt;
+&lt;li&gt;供应商绩效指标&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;竞争优势&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;先发优势&lt;/li&gt;
+&lt;li&gt;增强客户体验&lt;/li&gt;
+&lt;li&gt;国际贸易准备&lt;/li&gt;
+&lt;li&gt;数字转型加速&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;实施流程&lt;span class="hx:absolute hx:-mt-20" id="实施流程"&gt;&lt;/span&gt;
+&lt;a href="#%e5%ae%9e%e6%96%bd%e6%b5%81%e7%a8%8b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;第一阶段：评估(第1周)&lt;span class="hx:absolute hx:-mt-20" id="第一阶段评估第1周"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ac%ac%e4%b8%80%e9%98%b6%e6%ae%b5%e8%af%84%e4%bc%b0%e7%ac%ac1%e5%91%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;当前流程分析&lt;/li&gt;
+&lt;li&gt;系统集成要求&lt;/li&gt;
+&lt;li&gt;数据质量评估&lt;/li&gt;
+&lt;li&gt;合规差距分析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;第二阶段：配置(第2-3周)&lt;span class="hx:absolute hx:-mt-20" id="第二阶段配置第2-3周"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ac%ac%e4%ba%8c%e9%98%b6%e6%ae%b5%e9%85%8d%e7%bd%ae%e7%ac%ac2-3%e5%91%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;系统设置和配置&lt;/li&gt;
+&lt;li&gt;主数据迁移&lt;/li&gt;
+&lt;li&gt;税务规则配置&lt;/li&gt;
+&lt;li&gt;模板自定义&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;第三阶段：集成(第4-5周)&lt;span class="hx:absolute hx:-mt-20" id="第三阶段集成第4-5周"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5%e9%9b%86%e6%88%90%e7%ac%ac4-5%e5%91%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;ERP/POS集成&lt;/li&gt;
+&lt;li&gt;API连接设置&lt;/li&gt;
+&lt;li&gt;测试和验证&lt;/li&gt;
+&lt;li&gt;用户培训&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;第四阶段：试点(第6-7周)&lt;span class="hx:absolute hx:-mt-20" id="第四阶段试点第6-7周"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ac%ac%e5%9b%9b%e9%98%b6%e6%ae%b5%e8%af%95%e7%82%b9%e7%ac%ac6-7%e5%91%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;有限推出&lt;/li&gt;
+&lt;li&gt;性能监控&lt;/li&gt;
+&lt;li&gt;问题解决&lt;/li&gt;
+&lt;li&gt;流程改进&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;第五阶段：上线(第8周)&lt;span class="hx:absolute hx:-mt-20" id="第五阶段上线第8周"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ac%ac%e4%ba%94%e9%98%b6%e6%ae%b5%e4%b8%8a%e7%ba%bf%e7%ac%ac8%e5%91%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;全面部署&lt;/li&gt;
+&lt;li&gt;24/7支持激活&lt;/li&gt;
+&lt;li&gt;性能监控&lt;/li&gt;
+&lt;li&gt;持续优化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;成功案例&lt;span class="hx:absolute hx:-mt-20" id="成功案例"&gt;&lt;/span&gt;
+&lt;a href="#%e6%88%90%e5%8a%9f%e6%a1%88%e4%be%8b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;零售连锁店 - 500家网点&lt;span class="hx:absolute hx:-mt-20" id="零售连锁店---500家网点"&gt;&lt;/span&gt;
+&lt;a href="#%e9%9b%b6%e5%94%ae%e8%bf%9e%e9%94%81%e5%ba%97---500%e5%ae%b6%e7%bd%91%e7%82%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;挑战&lt;/strong&gt;：多个位置的手动发票处理
+&lt;strong&gt;解决方案&lt;/strong&gt;：集成POS与自动电子发票
+&lt;strong&gt;结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;处理时间减少90%&lt;/li&gt;
+&lt;li&gt;零合规罚款&lt;/li&gt;
+&lt;li&gt;年节省200万林吉特&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;制造公司&lt;span class="hx:absolute hx:-mt-20" id="制造公司"&gt;&lt;/span&gt;
+&lt;a href="#%e5%88%b6%e9%80%a0%e5%85%ac%e5%8f%b8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;挑战&lt;/strong&gt;：复杂的B2B发票与多种税务场景
+&lt;strong&gt;解决方案&lt;/strong&gt;：自定义验证规则和自动化工作流程
+&lt;strong&gt;结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;100%按时LHDN提交&lt;/li&gt;
+&lt;li&gt;付款收款速度提高60%&lt;/li&gt;
+&lt;li&gt;完整的供应链可视性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;电子商务平台&lt;span class="hx:absolute hx:-mt-20" id="电子商务平台"&gt;&lt;/span&gt;
+&lt;a href="#%e7%94%b5%e5%ad%90%e5%95%86%e5%8a%a1%e5%b9%b3%e5%8f%b0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;挑战&lt;/strong&gt;：高量B2C交易
+&lt;strong&gt;解决方案&lt;/strong&gt;：实时发票生成和提交
+&lt;strong&gt;结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;每日处理50,000张发票&lt;/li&gt;
+&lt;li&gt;99.99%提交成功率&lt;/li&gt;
+&lt;li&gt;无缝客户体验&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;定价模型&lt;span class="hx:absolute hx:-mt-20" id="定价模型"&gt;&lt;/span&gt;
+&lt;a href="#%e5%ae%9a%e4%bb%b7%e6%a8%a1%e5%9e%8b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;入门包&lt;span class="hx:absolute hx:-mt-20" id="入门包"&gt;&lt;/span&gt;
+&lt;a href="#%e5%85%a5%e9%97%a8%e5%8c%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;每月最多1,000张发票&lt;/li&gt;
+&lt;li&gt;基础验证&lt;/li&gt;
+&lt;li&gt;Web门户访问&lt;/li&gt;
+&lt;li&gt;邮件支持&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;专业包&lt;span class="hx:absolute hx:-mt-20" id="专业包"&gt;&lt;/span&gt;
+&lt;a href="#%e4%b8%93%e4%b8%9a%e5%8c%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;每月最多10,000张发票&lt;/li&gt;
+&lt;li&gt;高级验证&lt;/li&gt;
+&lt;li&gt;API集成&lt;/li&gt;
+&lt;li&gt;优先支持&lt;/li&gt;
+&lt;li&gt;自定义工作流程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;企业包&lt;span class="hx:absolute hx:-mt-20" id="企业包"&gt;&lt;/span&gt;
+&lt;a href="#%e4%bc%81%e4%b8%9a%e5%8c%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;无限发票&lt;/li&gt;
+&lt;li&gt;完整集成套件&lt;/li&gt;
+&lt;li&gt;专门支持&lt;/li&gt;
+&lt;li&gt;自定义开发&lt;/li&gt;
+&lt;li&gt;SLA保证&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;按使用付费&lt;span class="hx:absolute hx:-mt-20" id="按使用付费"&gt;&lt;/span&gt;
+&lt;a href="#%e6%8c%89%e4%bd%bf%e7%94%a8%e4%bb%98%e8%b4%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;无月度承诺&lt;/li&gt;
+&lt;li&gt;按发票定价&lt;/li&gt;
+&lt;li&gt;包含所有功能&lt;/li&gt;
+&lt;li&gt;适合季节性业务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;开始使用&lt;span class="hx:absolute hx:-mt-20" id="开始使用"&gt;&lt;/span&gt;
+&lt;a href="#%e5%bc%80%e5%a7%8b%e4%bd%bf%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;快速入门指南&lt;span class="hx:absolute hx:-mt-20" id="快速入门指南"&gt;&lt;/span&gt;
+&lt;a href="#%e5%bf%ab%e9%80%9f%e5%85%a5%e9%97%a8%e6%8c%87%e5%8d%97" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;注册&lt;/strong&gt;：创建您的BigLedger账户&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;配置&lt;/strong&gt;：设置公司和税务详细信息&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;连接&lt;/strong&gt;：与现有系统集成&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;测试&lt;/strong&gt;：使用样本发票验证&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;部署&lt;/strong&gt;：充满信心地上线&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;资源&lt;span class="hx:absolute hx:-mt-20" id="资源"&gt;&lt;/span&gt;
+&lt;a href="#%e8%b5%84%e6%ba%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;文档&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/zh/developers/api-reference/einvoice/" &gt;API文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/zh/e-invoice-peppol/" &gt;集成指南&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/zh/e-invoice-peppol/" &gt;最佳实践&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/zh/e-invoice-peppol/" &gt;常见问题&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;支持&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;24/7帮助台&lt;/li&gt;
+&lt;li&gt;实施顾问&lt;/li&gt;
+&lt;li&gt;培训计划&lt;/li&gt;
+&lt;li&gt;社区论坛&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;工具&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;发票验证器&lt;/li&gt;
+&lt;li&gt;税务计算器&lt;/li&gt;
+&lt;li&gt;格式转换器&lt;/li&gt;
+&lt;li&gt;测试环境&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;联系我们的电子发票专家&lt;span class="hx:absolute hx:-mt-20" id="联系我们的电子发票专家"&gt;&lt;/span&gt;
+&lt;a href="#%e8%81%94%e7%b3%bb%e6%88%91%e4%bb%ac%e7%9a%84%e7%94%b5%e5%ad%90%e5%8f%91%e7%a5%a8%e4%b8%93%e5%ae%b6" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;准备转换您的发票流程？我们的团队在这里帮助：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;安排演示&lt;/strong&gt;：看到平台的实际操作&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;免费评估&lt;/strong&gt;：评估您的准备情况&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实施支持&lt;/strong&gt;：专家指导&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;培训&lt;/strong&gt;：全面的用户培训&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://www.bigledger.com/zh/e-invoice-peppol/" &gt;请求演示&lt;/a&gt; | &lt;a href="mailto:einvoice@bigledger.com" &gt;联系销售&lt;/a&gt; | &lt;a href="https://www.bigledger.com/zh/e-invoice-peppol/" &gt;下载指南&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;合规性和认证&lt;span class="hx:absolute hx:-mt-20" id="合规性和认证"&gt;&lt;/span&gt;
+&lt;a href="#%e5%90%88%e8%a7%84%e6%80%a7%e5%92%8c%e8%ae%a4%e8%af%81" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;MDEC PEPPOL认证&lt;/li&gt;
+&lt;li&gt;ISO 27001认证&lt;/li&gt;
+&lt;li&gt;LHDN批准解决方案&lt;/li&gt;
+&lt;li&gt;PDPA合规&lt;/li&gt;
+&lt;li&gt;SST/GST就绪&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;BigLedger - 您电子发票转型的可信赖合作伙伴&lt;/em&gt;&lt;/p&gt;</description></item><item><title>小程序与工作流程</title><link>https://www.bigledger.com/zh/applets-workflows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/applets-workflows/</guid><description>
+&lt;p&gt;BigLedger的模块化小程序架构使企业能够通过我们的中央数据枢纽无缝协作的专业化小程序来构建定制化解决方案。&lt;/p&gt;
+&lt;h2&gt;了解小程序&lt;span class="hx:absolute hx:-mt-20" id="了解小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e4%ba%86%e8%a7%a3%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;什么是小程序？&lt;span class="hx:absolute hx:-mt-20" id="什么是小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e4%bb%80%e4%b9%88%e6%98%af%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;小程序是独立的业务模块，具有以下特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;专注于特定业务功能&lt;/li&gt;
+&lt;li&gt;通过中央枢纽共享数据&lt;/li&gt;
+&lt;li&gt;可以独立运行或集成运行&lt;/li&gt;
+&lt;li&gt;根据业务需求扩展&lt;/li&gt;
+&lt;li&gt;更新时不影响其他小程序&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;按类别分类的完整小程序列表&lt;span class="hx:absolute hx:-mt-20" id="按类别分类的完整小程序列表"&gt;&lt;/span&gt;
+&lt;a href="#%e6%8c%89%e7%b1%bb%e5%88%ab%e5%88%86%e7%b1%bb%e7%9a%84%e5%ae%8c%e6%95%b4%e5%b0%8f%e7%a8%8b%e5%ba%8f%e5%88%97%e8%a1%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;基于BigLedger的综合小程序架构，我们的平台提供专业的小程序，组织成八个核心类别：&lt;/p&gt;
+&lt;h3&gt;🏢 主数据小程序&lt;span class="hx:absolute hx:-mt-20" id="-主数据小程序"&gt;&lt;/span&gt;
+&lt;a href="#-%e4%b8%bb%e6%95%b0%e6%8d%ae%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;系统配置的基础小程序：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;组织架构&lt;/strong&gt; - 公司结构和层次管理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;会计科目表&lt;/strong&gt; - 财务账户结构设置&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;现金账&lt;/strong&gt; - 现金管理和跟踪&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;员工管理&lt;/strong&gt; - 员工数据库和管理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;单据项目&lt;/strong&gt; - 文档和项目主数据&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;客户管理&lt;/strong&gt; - 客户主数据管理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;供应商管理&lt;/strong&gt; - 供应商数据库&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;价格手册&lt;/strong&gt; - 定价规则和目录&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实体维护&lt;/strong&gt; - 实体关系管理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;权限向导&lt;/strong&gt; - 用户访问和权限控制&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;凭证管理&lt;/strong&gt; - 凭证类型配置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🛒 采购工作流程小程序&lt;span class="hx:absolute hx:-mt-20" id="-采购工作流程小程序"&gt;&lt;/span&gt;
+&lt;a href="#-%e9%87%87%e8%b4%ad%e5%b7%a5%e4%bd%9c%e6%b5%81%e7%a8%8b%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;完整的采购和采购管理：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;内部毛坯采购订单&lt;/strong&gt; - 长期采购协议&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部采购申请&lt;/strong&gt; - 采购请求管理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部采购订单&lt;/strong&gt; - 采购订单创建和跟踪&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部采购入库单&lt;/strong&gt; - 货物收据单处理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部采购发票&lt;/strong&gt; - 供应商发票管理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部采购退货&lt;/strong&gt; - 退还给供应商处理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部采购借记通知书&lt;/strong&gt; - 采购调整&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部采购贷记通知书&lt;/strong&gt; - 供应商信贷&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部采购报价&lt;/strong&gt; - RFQ和报价管理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;采购报告&lt;/strong&gt; - 综合采购分析&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部采购出库单&lt;/strong&gt; - 货物出库单&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部采购退款单&lt;/strong&gt; - 退款处理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📦 库存工作流程小程序&lt;span class="hx:absolute hx:-mt-20" id="-库存工作流程小程序"&gt;&lt;/span&gt;
+&lt;a href="#-%e5%ba%93%e5%ad%98%e5%b7%a5%e4%bd%9c%e6%b5%81%e7%a8%8b%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;高级库存和库存管理：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;内部库存申请&lt;/strong&gt; - 库存请求管理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;库存调拨&lt;/strong&gt; - 跨位置调拨&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部库存调整&lt;/strong&gt; - 库存调整&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;库存可用性&lt;/strong&gt; - 实时库存可见性&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;库存补充小程序&lt;/strong&gt; - 自动重新订购&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;库存分配&lt;/strong&gt; - 预留和分配库存&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;库存报告&lt;/strong&gt; - 库存分析和报告&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;💼 销售工作流程小程序&lt;span class="hx:absolute hx:-mt-20" id="-销售工作流程小程序"&gt;&lt;/span&gt;
+&lt;a href="#-%e9%94%80%e5%94%ae%e5%b7%a5%e4%bd%9c%e6%b5%81%e7%a8%8b%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;端到端销售和分销管理：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;POS通用&lt;/strong&gt; - 销售点操作&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部销售报价&lt;/strong&gt; - 报价生成&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部销售订单&lt;/strong&gt; - 订单处理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部销售发票&lt;/strong&gt; - 客户开票&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部交付订单&lt;/strong&gt; - 运输和交付&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部销售借记通知书&lt;/strong&gt; - 销售调整&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部销售贷记通知书&lt;/strong&gt; - 客户信贷&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部销售形式发票&lt;/strong&gt; - 形式发票文档&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;交付和安装驱动程序&lt;/strong&gt; - 服务调度&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;销售报告&lt;/strong&gt; - 销售分析&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部销售退款单&lt;/strong&gt; - 客户退款&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部销售退货&lt;/strong&gt; - 退货处理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;💰 财务小程序&lt;span class="hx:absolute hx:-mt-20" id="-财务小程序"&gt;&lt;/span&gt;
+&lt;a href="#-%e8%b4%a2%e5%8a%a1%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;全面的财务管理：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;内部收据凭证&lt;/strong&gt; - 付款收据&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内部付款凭证&lt;/strong&gt; - 付款处理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;债务人报告小程序&lt;/strong&gt; - 应收账款分析&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;债权人报告小程序&lt;/strong&gt; - 应付账款分析&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;分类账和日记账&lt;/strong&gt; - 总账分录和日记账&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;财务报告小程序&lt;/strong&gt; - 财务报表&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;银行对账&lt;/strong&gt; - 自动银行匹配&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📄 电子发票小程序&lt;span class="hx:absolute hx:-mt-20" id="-电子发票小程序"&gt;&lt;/span&gt;
+&lt;a href="#-%e7%94%b5%e5%ad%90%e5%8f%91%e7%a5%a8%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;符合PEPPOL的电子发票解决方案：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;我的电子发票管理&lt;/strong&gt; - 电子发票配置和管理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;客户门户&lt;/strong&gt; - 自助发票访问&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🏛️ 税务小程序&lt;span class="hx:absolute hx:-mt-20" id="-税务小程序"&gt;&lt;/span&gt;
+&lt;a href="#-%e7%a8%8e%e5%8a%a1%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;马来西亚税务合规：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;税务配置&lt;/strong&gt; - 税务设置和规则&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MY-SST小程序&lt;/strong&gt; - 销售和服务税管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;💱 外汇小程序&lt;span class="hx:absolute hx:-mt-20" id="-外汇小程序"&gt;&lt;/span&gt;
+&lt;a href="#-%e5%a4%96%e6%b1%87%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;外汇管理：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;外汇小程序&lt;/strong&gt; - 多币种操作和汇率管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📊 财务管理小程序&lt;span class="hx:absolute hx:-mt-20" id="-财务管理小程序"&gt;&lt;/span&gt;
+&lt;a href="#-%e8%b4%a2%e5%8a%a1%e7%ae%a1%e7%90%86%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;总账小程序&lt;span class="hx:absolute hx:-mt-20" id="总账小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e6%80%bb%e8%b4%a6%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;工作流程集成：&lt;/strong&gt; 财务记录 → 报告 → 分析&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键工作流程：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;日记账分录处理&lt;/li&gt;
+&lt;li&gt;期末结账&lt;/li&gt;
+&lt;li&gt;财务合并&lt;/li&gt;
+&lt;li&gt;公司间交易&lt;/li&gt;
+&lt;li&gt;货币重估&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;连接的小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;应付账款&lt;/li&gt;
+&lt;li&gt;应收账款&lt;/li&gt;
+&lt;li&gt;固定资产&lt;/li&gt;
+&lt;li&gt;银行对账&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;应付账款小程序&lt;span class="hx:absolute hx:-mt-20" id="应付账款小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e5%ba%94%e4%bb%98%e8%b4%a6%e6%ac%be%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;工作流程集成：&lt;/strong&gt; 采购 → 发票 → 付款 → 对账&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键工作流程：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;供应商发票处理&lt;/li&gt;
+&lt;li&gt;付款运行执行&lt;/li&gt;
+&lt;li&gt;费用报销管理&lt;/li&gt;
+&lt;li&gt;账龄分析&lt;/li&gt;
+&lt;li&gt;现金流规划&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;连接的小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;采购&lt;/li&gt;
+&lt;li&gt;电子发票&lt;/li&gt;
+&lt;li&gt;银行集成&lt;/li&gt;
+&lt;li&gt;总账&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;应收账款小程序&lt;span class="hx:absolute hx:-mt-20" id="应收账款小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e5%ba%94%e6%94%b6%e8%b4%a6%e6%ac%be%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;工作流程集成：&lt;/strong&gt; 销售 → 发票 → 收款 → 对账&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键工作流程：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;客户发票生成&lt;/li&gt;
+&lt;li&gt;付款收款&lt;/li&gt;
+&lt;li&gt;信用管理&lt;/li&gt;
+&lt;li&gt;催收流程&lt;/li&gt;
+&lt;li&gt;客户对账单&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;连接的小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;销售订单&lt;/li&gt;
+&lt;li&gt;电子发票&lt;/li&gt;
+&lt;li&gt;CRM&lt;/li&gt;
+&lt;li&gt;总账&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;银行对账小程序&lt;span class="hx:absolute hx:-mt-20" id="银行对账小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e9%93%b6%e8%a1%8c%e5%af%b9%e8%b4%a6%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;工作流程集成：&lt;/strong&gt; 交易导入 → 匹配 → 调整 → 过账&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键功能：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AI驱动的自动匹配(95%准确性)&lt;/li&gt;
+&lt;li&gt;银行数据集成&lt;/li&gt;
+&lt;li&gt;异常处理&lt;/li&gt;
+&lt;li&gt;对账报告&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🛍️ 销售与商务小程序&lt;span class="hx:absolute hx:-mt-20" id="-销售与商务小程序"&gt;&lt;/span&gt;
+&lt;a href="#-%e9%94%80%e5%94%ae%e4%b8%8e%e5%95%86%e5%8a%a1%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;销售点(POS)小程序&lt;span class="hx:absolute hx:-mt-20" id="销售点pos小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e9%94%80%e5%94%ae%e7%82%b9pos%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;工作流程集成：&lt;/strong&gt; 产品选择 → 结账 → 付款 → 电子发票&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键工作流程：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;销售交易处理&lt;/li&gt;
+&lt;li&gt;付款处理&lt;/li&gt;
+&lt;li&gt;客户管理&lt;/li&gt;
+&lt;li&gt;班次管理&lt;/li&gt;
+&lt;li&gt;日结&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;连接的小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;库存&lt;/li&gt;
+&lt;li&gt;电子发票&lt;/li&gt;
+&lt;li&gt;客户忠诚度&lt;/li&gt;
+&lt;li&gt;会计&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;电子商务小程序&lt;span class="hx:absolute hx:-mt-20" id="电子商务小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e7%94%b5%e5%ad%90%e5%95%86%e5%8a%a1%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;工作流程集成：&lt;/strong&gt; 浏览 → 购物车 → 结账 → 履行&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键工作流程：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;产品目录管理&lt;/li&gt;
+&lt;li&gt;购物车处理&lt;/li&gt;
+&lt;li&gt;订单管理&lt;/li&gt;
+&lt;li&gt;支付网关集成&lt;/li&gt;
+&lt;li&gt;运输协调&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;连接的小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;库存&lt;/li&gt;
+&lt;li&gt;CRM&lt;/li&gt;
+&lt;li&gt;仓库&lt;/li&gt;
+&lt;li&gt;电子发票&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;销售订单管理小程序&lt;span class="hx:absolute hx:-mt-20" id="销售订单管理小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e9%94%80%e5%94%ae%e8%ae%a2%e5%8d%95%e7%ae%a1%e7%90%86%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;工作流程集成：&lt;/strong&gt; 报价 → 订单 → 履行 → 发票&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键工作流程：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;报价生成&lt;/li&gt;
+&lt;li&gt;订单处理&lt;/li&gt;
+&lt;li&gt;可用性检查&lt;/li&gt;
+&lt;li&gt;交付调度&lt;/li&gt;
+&lt;li&gt;佣金计算&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;连接的小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CRM&lt;/li&gt;
+&lt;li&gt;库存&lt;/li&gt;
+&lt;li&gt;仓库&lt;/li&gt;
+&lt;li&gt;应收账款&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📦 供应链小程序&lt;span class="hx:absolute hx:-mt-20" id="-供应链小程序"&gt;&lt;/span&gt;
+&lt;a href="#-%e4%be%9b%e5%ba%94%e9%93%be%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;库存管理小程序&lt;span class="hx:absolute hx:-mt-20" id="库存管理小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e5%ba%93%e5%ad%98%e7%ae%a1%e7%90%86%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;工作流程集成：&lt;/strong&gt; 收货 → 存储 → 移动 → 发货&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键工作流程：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;库存接收&lt;/li&gt;
+&lt;li&gt;调拨管理&lt;/li&gt;
+&lt;li&gt;循环盘点&lt;/li&gt;
+&lt;li&gt;库存调整&lt;/li&gt;
+&lt;li&gt;补货处理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;连接的小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;采购订单&lt;/li&gt;
+&lt;li&gt;销售订单&lt;/li&gt;
+&lt;li&gt;仓库&lt;/li&gt;
+&lt;li&gt;制造&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;仓库管理小程序&lt;span class="hx:absolute hx:-mt-20" id="仓库管理小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e4%bb%93%e5%ba%93%e7%ae%a1%e7%90%86%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;工作流程集成：&lt;/strong&gt; 收货 → 上架 → 拣选 → 包装 → 发货&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键工作流程：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;入站处理&lt;/li&gt;
+&lt;li&gt;位置管理&lt;/li&gt;
+&lt;li&gt;订单拣选&lt;/li&gt;
+&lt;li&gt;包装优化&lt;/li&gt;
+&lt;li&gt;运输协调&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;连接的小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;库存&lt;/li&gt;
+&lt;li&gt;销售订单&lt;/li&gt;
+&lt;li&gt;采购订单&lt;/li&gt;
+&lt;li&gt;运输&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;采购小程序&lt;span class="hx:absolute hx:-mt-20" id="采购小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e9%87%87%e8%b4%ad%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;工作流程集成：&lt;/strong&gt; 申请 → RFQ → 采购订单 → 收货 → 付款&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键工作流程：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;采购申请&lt;/li&gt;
+&lt;li&gt;供应商选择&lt;/li&gt;
+&lt;li&gt;采购订单创建&lt;/li&gt;
+&lt;li&gt;货物收据&lt;/li&gt;
+&lt;li&gt;三方匹配&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;连接的小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;库存&lt;/li&gt;
+&lt;li&gt;应付账款&lt;/li&gt;
+&lt;li&gt;供应商管理&lt;/li&gt;
+&lt;li&gt;预算控制&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;制造小程序&lt;span class="hx:absolute hx:-mt-20" id="制造小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e5%88%b6%e9%80%a0%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;工作流程集成：&lt;/strong&gt; 规划 → 生产 → 质量 → 完成&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键工作流程：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;生产规划&lt;/li&gt;
+&lt;li&gt;工作订单管理&lt;/li&gt;
+&lt;li&gt;材料消耗&lt;/li&gt;
+&lt;li&gt;质量控制&lt;/li&gt;
+&lt;li&gt;成本计算&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;连接的小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;库存&lt;/li&gt;
+&lt;li&gt;BOM管理&lt;/li&gt;
+&lt;li&gt;质量控制
+-成本会计&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📞 客户管理小程序&lt;span class="hx:absolute hx:-mt-20" id="-客户管理小程序"&gt;&lt;/span&gt;
+&lt;a href="#-%e5%ae%a2%e6%88%b7%e7%ae%a1%e7%90%86%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;CRM小程序&lt;span class="hx:absolute hx:-mt-20" id="crm小程序"&gt;&lt;/span&gt;
+&lt;a href="#crm%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;工作流程集成：&lt;/strong&gt; 潜在客户 → 商机 → 客户 → 保留&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键工作流程：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;潜在客户捕获和资格认证&lt;/li&gt;
+&lt;li&gt;商机管理&lt;/li&gt;
+&lt;li&gt;联系人管理&lt;/li&gt;
+&lt;li&gt;活动跟踪&lt;/li&gt;
+&lt;li&gt;管道分析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;连接的小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;销售订单&lt;/li&gt;
+&lt;li&gt;营销&lt;/li&gt;
+&lt;li&gt;客户服务&lt;/li&gt;
+&lt;li&gt;电子商务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;统一联络中心(UCC)小程序&lt;span class="hx:absolute hx:-mt-20" id="统一联络中心ucc小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e7%bb%9f%e4%b8%80%e8%81%94%e7%bb%9c%e4%b8%ad%e5%bf%83ucc%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;工作流程集成：&lt;/strong&gt; 联系 → 路由 → 解决 → 跟进&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键功能：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;全渠道支持&lt;/li&gt;
+&lt;li&gt;AI情感分析&lt;/li&gt;
+&lt;li&gt;工单管理&lt;/li&gt;
+&lt;li&gt;知识库&lt;/li&gt;
+&lt;li&gt;SLA跟踪&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;连接的小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CRM&lt;/li&gt;
+&lt;li&gt;客户门户&lt;/li&gt;
+&lt;li&gt;AI智能&lt;/li&gt;
+&lt;li&gt;工作流程引擎&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;客户门户小程序&lt;span class="hx:absolute hx:-mt-20" id="客户门户小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e5%ae%a2%e6%88%b7%e9%97%a8%e6%88%b7%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;工作流程集成：&lt;/strong&gt; 登录 → 自助服务 → 交易 → 支持&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键功能：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;账户管理&lt;/li&gt;
+&lt;li&gt;订单跟踪&lt;/li&gt;
+&lt;li&gt;付款门户&lt;/li&gt;
+&lt;li&gt;支持工单&lt;/li&gt;
+&lt;li&gt;文档访问&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📄 合规和监管小程序&lt;span class="hx:absolute hx:-mt-20" id="-合规和监管小程序"&gt;&lt;/span&gt;
+&lt;a href="#-%e5%90%88%e8%a7%84%e5%92%8c%e7%9b%91%e7%ae%a1%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;电子发票和PEPPOL小程序&lt;span class="hx:absolute hx:-mt-20" id="电子发票和peppol小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e7%94%b5%e5%ad%90%e5%8f%91%e7%a5%a8%e5%92%8cpeppol%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;工作流程集成：&lt;/strong&gt; 生成 → 验证 → 提交 → 归档&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键功能：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MyInvois集成&lt;/li&gt;
+&lt;li&gt;LHDN提交&lt;/li&gt;
+&lt;li&gt;PEPPOL合规&lt;/li&gt;
+&lt;li&gt;税务计算&lt;/li&gt;
+&lt;li&gt;归档管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;连接的小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;销售订单&lt;/li&gt;
+&lt;li&gt;POS&lt;/li&gt;
+&lt;li&gt;应收账款&lt;/li&gt;
+&lt;li&gt;税务管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;税务管理小程序&lt;span class="hx:absolute hx:-mt-20" id="税务管理小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e7%a8%8e%e5%8a%a1%e7%ae%a1%e7%90%86%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;工作流程集成：&lt;/strong&gt; 计算 → 报告 → 申报 → 支付&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键功能：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SST/GST计算&lt;/li&gt;
+&lt;li&gt;税务报告&lt;/li&gt;
+&lt;li&gt;申报提交&lt;/li&gt;
+&lt;li&gt;审计支持&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;连接的小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;电子发票&lt;/li&gt;
+&lt;li&gt;会计&lt;/li&gt;
+&lt;li&gt;采购&lt;/li&gt;
+&lt;li&gt;工资单&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🤖 智能与分析小程序&lt;span class="hx:absolute hx:-mt-20" id="-智能与分析小程序"&gt;&lt;/span&gt;
+&lt;a href="#-%e6%99%ba%e8%83%bd%e4%b8%8e%e5%88%86%e6%9e%90%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;商业智能小程序&lt;span class="hx:absolute hx:-mt-20" id="商业智能小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e5%95%86%e4%b8%9a%e6%99%ba%e8%83%bd%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;工作流程集成：&lt;/strong&gt; 提取 → 转换 → 分析 → 可视化&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键功能：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;实时仪表板&lt;/li&gt;
+&lt;li&gt;自定义报告&lt;/li&gt;
+&lt;li&gt;KPI监控&lt;/li&gt;
+&lt;li&gt;预测分析&lt;/li&gt;
+&lt;li&gt;数据挖掘&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;连接的小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;所有运营小程序&lt;/li&gt;
+&lt;li&gt;数据枢纽&lt;/li&gt;
+&lt;li&gt;AI服务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI服务小程序&lt;span class="hx:absolute hx:-mt-20" id="ai服务小程序"&gt;&lt;/span&gt;
+&lt;a href="#ai%e6%9c%8d%e5%8a%a1%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;工作流程集成：&lt;/strong&gt; 捕获 → 处理 → 学习 → 预测&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键功能：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OCR处理&lt;/li&gt;
+&lt;li&gt;NLP分析&lt;/li&gt;
+&lt;li&gt;预测模型&lt;/li&gt;
+&lt;li&gt;异常检测&lt;/li&gt;
+&lt;li&gt;流程自动化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;集成点：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;文档管理&lt;/li&gt;
+&lt;li&gt;客户服务&lt;/li&gt;
+&lt;li&gt;财务分析&lt;/li&gt;
+&lt;li&gt;质量控制&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;工作流程编排&lt;span class="hx:absolute hx:-mt-20" id="工作流程编排"&gt;&lt;/span&gt;
+&lt;a href="#%e5%b7%a5%e4%bd%9c%e6%b5%81%e7%a8%8b%e7%bc%96%e6%8e%92" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;跨小程序工作流程&lt;span class="hx:absolute hx:-mt-20" id="跨小程序工作流程"&gt;&lt;/span&gt;
+&lt;a href="#%e8%b7%a8%e5%b0%8f%e7%a8%8b%e5%ba%8f%e5%b7%a5%e4%bd%9c%e6%b5%81%e7%a8%8b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;订单到现金(O2C)&lt;span class="hx:absolute hx:-mt-20" id="订单到现金o2c"&gt;&lt;/span&gt;
+&lt;a href="#%e8%ae%a2%e5%8d%95%e5%88%b0%e7%8e%b0%e9%87%91o2c" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;CRM → 报价 → 销售订单 → 库存检查 → 交付 → 电子发票 → 付款 → 银行对账 → 总账过账&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>涉及的小程序：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>CRM&lt;/li>
-&lt;li>销售订单管理&lt;/li>
-&lt;li>库存&lt;/li>
-&lt;li>仓库&lt;/li>
-&lt;li>电子发票&lt;/li>
-&lt;li>应收账款&lt;/li>
-&lt;li>银行对账&lt;/li>
-&lt;li>总账&lt;/li>
-&lt;/ul>
-&lt;h4>采购到付款(P2P)&lt;span class="hx:absolute hx:-mt-20" id="采购到付款p2p">&lt;/span>
-&lt;a href="#%e9%87%87%e8%b4%ad%e5%88%b0%e4%bb%98%e6%ac%bep2p" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>申请 → RFQ → 采购订单 → 货物收据 → 发票匹配 → 付款 → 银行对账 → 总账过账&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;涉及的小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CRM&lt;/li&gt;
+&lt;li&gt;销售订单管理&lt;/li&gt;
+&lt;li&gt;库存&lt;/li&gt;
+&lt;li&gt;仓库&lt;/li&gt;
+&lt;li&gt;电子发票&lt;/li&gt;
+&lt;li&gt;应收账款&lt;/li&gt;
+&lt;li&gt;银行对账&lt;/li&gt;
+&lt;li&gt;总账&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;采购到付款(P2P)&lt;span class="hx:absolute hx:-mt-20" id="采购到付款p2p"&gt;&lt;/span&gt;
+&lt;a href="#%e9%87%87%e8%b4%ad%e5%88%b0%e4%bb%98%e6%ac%bep2p" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;申请 → RFQ → 采购订单 → 货物收据 → 发票匹配 → 付款 → 银行对账 → 总账过账&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>涉及的小程序：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>采购&lt;/li>
-&lt;li>供应商管理&lt;/li>
-&lt;li>库存&lt;/li>
-&lt;li>应付账款&lt;/li>
-&lt;li>电子发票&lt;/li>
-&lt;li>银行集成&lt;/li>
-&lt;li>总账&lt;/li>
-&lt;/ul>
-&lt;h4>记录到报告(R2R)&lt;span class="hx:absolute hx:-mt-20" id="记录到报告r2r">&lt;/span>
-&lt;a href="#%e8%ae%b0%e5%bd%95%e5%88%b0%e6%8a%a5%e5%91%8ar2r" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>交易分录 → 验证 → 过账 → 对账 → 调整 → 结账 → 报告 → 分析&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;涉及的小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;采购&lt;/li&gt;
+&lt;li&gt;供应商管理&lt;/li&gt;
+&lt;li&gt;库存&lt;/li&gt;
+&lt;li&gt;应付账款&lt;/li&gt;
+&lt;li&gt;电子发票&lt;/li&gt;
+&lt;li&gt;银行集成&lt;/li&gt;
+&lt;li&gt;总账&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;记录到报告(R2R)&lt;span class="hx:absolute hx:-mt-20" id="记录到报告r2r"&gt;&lt;/span&gt;
+&lt;a href="#%e8%ae%b0%e5%bd%95%e5%88%b0%e6%8a%a5%e5%91%8ar2r" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;交易分录 → 验证 → 过账 → 对账 → 调整 → 结账 → 报告 → 分析&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>涉及的小程序：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>总账&lt;/li>
-&lt;li>子分类账&lt;/li>
-&lt;li>银行对账&lt;/li>
-&lt;li>固定资产&lt;/li>
-&lt;li>财务报告&lt;/li>
-&lt;li>商业智能&lt;/li>
-&lt;/ul>
-&lt;h2>实施模式&lt;span class="hx:absolute hx:-mt-20" id="实施模式">&lt;/span>
-&lt;a href="#%e5%ae%9e%e6%96%bd%e6%a8%a1%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>常见业务挑战与解决方案&lt;span class="hx:absolute hx:-mt-20" id="常见业务挑战与解决方案">&lt;/span>
-&lt;a href="#%e5%b8%b8%e8%a7%81%e4%b8%9a%e5%8a%a1%e6%8c%91%e6%88%98%e4%b8%8e%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>挑战：人工数据录入&lt;span class="hx:absolute hx:-mt-20" id="挑战人工数据录入">&lt;/span>
-&lt;a href="#%e6%8c%91%e6%88%98%e4%ba%ba%e5%b7%a5%e6%95%b0%e6%8d%ae%e5%bd%95%e5%85%a5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;strong>解决方案模式：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>部署OCR小程序进行文档捕获&lt;/li>
-&lt;li>实施电子发票进行自动开票&lt;/li>
-&lt;li>使用银行集成进行交易导入&lt;/li>
-&lt;li>启用API连接进行数据流&lt;/li>
-&lt;/ul>
-&lt;h4>挑战：库存不准确&lt;span class="hx:absolute hx:-mt-20" id="挑战库存不准确">&lt;/span>
-&lt;a href="#%e6%8c%91%e6%88%98%e5%ba%93%e5%ad%98%e4%b8%8d%e5%87%86%e7%a1%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;strong>解决方案模式：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>实施库存管理小程序&lt;/li>
-&lt;li>部署仓库管理系统&lt;/li>
-&lt;li>使用条码/RFID扫描&lt;/li>
-&lt;li>启用实时同步&lt;/li>
-&lt;/ul>
-&lt;h4>挑战：现金流可见性&lt;span class="hx:absolute hx:-mt-20" id="挑战现金流可见性">&lt;/span>
-&lt;a href="#%e6%8c%91%e6%88%98%e7%8e%b0%e9%87%91%e6%b5%81%e5%8f%af%e8%a7%81%e6%80%a7" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;strong>解决方案模式：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>部署账龄应收账款&lt;/li>
-&lt;li>实施收款工作流程&lt;/li>
-&lt;li>使用预测现金流分析&lt;/li>
-&lt;li>启用支付网关集成&lt;/li>
-&lt;/ul>
-&lt;h4>挑战：监管合规&lt;span class="hx:absolute hx:-mt-20" id="挑战监管合规">&lt;/span>
-&lt;a href="#%e6%8c%91%e6%88%98%e7%9b%91%e7%ae%a1%e5%90%88%e8%a7%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;strong>解决方案模式：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>实施电子发票和PEPPOL&lt;/li>
-&lt;li>部署税务管理&lt;/li>
-&lt;li>使用审计跟踪小程序&lt;/li>
-&lt;li>启用合规报告&lt;/li>
-&lt;/ul>
-&lt;h3>行业特定实施&lt;span class="hx:absolute hx:-mt-20" id="行业特定实施">&lt;/span>
-&lt;a href="#%e8%a1%8c%e4%b8%9a%e7%89%b9%e5%ae%9a%e5%ae%9e%e6%96%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>零售实施&lt;span class="hx:absolute hx:-mt-20" id="零售实施">&lt;/span>
-&lt;a href="#%e9%9b%b6%e5%94%ae%e5%ae%9e%e6%96%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;strong>核心小程序：&lt;/strong>&lt;/p>
-&lt;ol>
-&lt;li>POS系统&lt;/li>
-&lt;li>库存管理&lt;/li>
-&lt;li>电子商务&lt;/li>
-&lt;li>客户忠诚度&lt;/li>
-&lt;li>电子发票&lt;/li>
-&lt;/ol>
-&lt;p>&lt;strong>工作流程重点：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>多渠道销售&lt;/li>
-&lt;li>实时库存&lt;/li>
-&lt;li>客户体验&lt;/li>
-&lt;li>合规自动化&lt;/li>
-&lt;/ul>
-&lt;h4>制造实施&lt;span class="hx:absolute hx:-mt-20" id="制造实施">&lt;/span>
-&lt;a href="#%e5%88%b6%e9%80%a0%e5%ae%9e%e6%96%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;strong>核心小程序：&lt;/strong>&lt;/p>
-&lt;ol>
-&lt;li>制造执行&lt;/li>
-&lt;li>BOM管理&lt;/li>
-&lt;li>质量控制&lt;/li>
-&lt;li>仓库管理&lt;/li>
-&lt;li>采购&lt;/li>
-&lt;/ol>
-&lt;p>&lt;strong>工作流程重点：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>生产规划&lt;/li>
-&lt;li>材料管理&lt;/li>
-&lt;li>质量保证&lt;/li>
-&lt;li>成本控制&lt;/li>
-&lt;/ul>
-&lt;h4>分销实施&lt;span class="hx:absolute hx:-mt-20" id="分销实施">&lt;/span>
-&lt;a href="#%e5%88%86%e9%94%80%e5%ae%9e%e6%96%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;strong>核心小程序：&lt;/strong>&lt;/p>
-&lt;ol>
-&lt;li>销售订单管理&lt;/li>
-&lt;li>仓库管理&lt;/li>
-&lt;li>运输&lt;/li>
-&lt;li>库存控制&lt;/li>
-&lt;li>客户门户&lt;/li>
-&lt;/ol>
-&lt;p>&lt;strong>工作流程重点：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>订单履行&lt;/li>
-&lt;li>物流优化&lt;/li>
-&lt;li>多位置库存&lt;/li>
-&lt;li>客户服务&lt;/li>
-&lt;/ul>
-&lt;h2>最佳实践&lt;span class="hx:absolute hx:-mt-20" id="最佳实践">&lt;/span>
-&lt;a href="#%e6%9c%80%e4%bd%b3%e5%ae%9e%e8%b7%b5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>小程序选择策略&lt;span class="hx:absolute hx:-mt-20" id="小程序选择策略">&lt;/span>
-&lt;a href="#%e5%b0%8f%e7%a8%8b%e5%ba%8f%e9%80%89%e6%8b%a9%e7%ad%96%e7%95%a5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>&lt;strong>从核心开始&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>会计和电子发票(合规)&lt;/li>
-&lt;li>中央数据枢纽设置&lt;/li>
-&lt;li>用户管理&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>添加运营&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>行业特定小程序&lt;/li>
-&lt;li>面向客户的系统&lt;/li>
-&lt;li>供应链模块&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>用智能增强&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>分析和报告&lt;/li>
-&lt;li>AI服务&lt;/li>
-&lt;li>自动化工具&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;h3>集成最佳实践&lt;span class="hx:absolute hx:-mt-20" id="集成最佳实践">&lt;/span>
-&lt;a href="#%e9%9b%86%e6%88%90%e6%9c%80%e4%bd%b3%e5%ae%9e%e8%b7%b5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>数据一致性&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>使用中央数据枢纽&lt;/li>
-&lt;li>实施主数据管理&lt;/li>
-&lt;li>维护单一数据源&lt;/li>
-&lt;li>定期数据验证&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>性能优化&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>异步处理&lt;/li>
-&lt;li>批量操作&lt;/li>
-&lt;li>缓存策略&lt;/li>
-&lt;li>负载均衡&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>安全考虑&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>基于角色的访问&lt;/li>
-&lt;li>API认证&lt;/li>
-&lt;li>数据加密&lt;/li>
-&lt;li>审计日志&lt;/li>
-&lt;/ul>
-&lt;h2>小程序市场&lt;span class="hx:absolute hx:-mt-20" id="小程序市场">&lt;/span>
-&lt;a href="#%e5%b0%8f%e7%a8%8b%e5%ba%8f%e5%b8%82%e5%9c%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>可用小程序&lt;span class="hx:absolute hx:-mt-20" id="可用小程序">&lt;/span>
-&lt;a href="#%e5%8f%af%e7%94%a8%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>浏览我们不断增长的业务小程序库：&lt;/p>
-&lt;p>&lt;strong>特色小程序：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>MyInvois连接器(免费)&lt;/li>
-&lt;li>WhatsApp集成&lt;/li>
-&lt;li>Shopee/Lazada连接器&lt;/li>
-&lt;li>Google Analytics集成&lt;/li>
-&lt;li>SMS网关&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>行业包：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>零售套件&lt;/li>
-&lt;li>制造套件&lt;/li>
-&lt;li>餐饮包&lt;/li>
-&lt;li>医疗保健包&lt;/li>
-&lt;li>教育套件&lt;/li>
-&lt;/ul>
-&lt;h3>自定义小程序开发&lt;span class="hx:absolute hx:-mt-20" id="自定义小程序开发">&lt;/span>
-&lt;a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e5%b0%8f%e7%a8%8b%e5%ba%8f%e5%bc%80%e5%8f%91" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>开发选项：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>低代码构建器&lt;/li>
-&lt;li>API框架&lt;/li>
-&lt;li>专业服务&lt;/li>
-&lt;li>合作伙伴生态系统&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>开发流程：&lt;/strong>&lt;/p>
-&lt;ol>
-&lt;li>需求分析&lt;/li>
-&lt;li>设计和架构&lt;/li>
-&lt;li>开发和测试&lt;/li>
-&lt;li>集成和部署&lt;/li>
-&lt;li>维护和支持&lt;/li>
-&lt;/ol>
-&lt;h2>开始使用小程序&lt;span class="hx:absolute hx:-mt-20" id="开始使用小程序">&lt;/span>
-&lt;a href="#%e5%bc%80%e5%a7%8b%e4%bd%bf%e7%94%a8%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>发现流程&lt;span class="hx:absolute hx:-mt-20" id="发现流程">&lt;/span>
-&lt;a href="#%e5%8f%91%e7%8e%b0%e6%b5%81%e7%a8%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>&lt;strong>业务评估&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>当前流程&lt;/li>
-&lt;li>痛点&lt;/li>
-&lt;li>集成需求&lt;/li>
-&lt;li>合规要求&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>小程序映射&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>核心要求&lt;/li>
-&lt;li>工作流程设计&lt;/li>
-&lt;li>集成点&lt;/li>
-&lt;li>分阶段计划&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>实施路线图&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>优先级小程序&lt;/li>
-&lt;li>时间表&lt;/li>
-&lt;li>资源分配&lt;/li>
-&lt;li>成功指标&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;h3>请求咨询&lt;span class="hx:absolute hx:-mt-20" id="请求咨询">&lt;/span>
-&lt;a href="#%e8%af%b7%e6%b1%82%e5%92%a8%e8%af%a2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>我们的小程序专家可以帮助您：&lt;/p>
-&lt;ul>
-&lt;li>选择合适的小程序&lt;/li>
-&lt;li>设计最佳工作流程&lt;/li>
-&lt;li>规划实施&lt;/li>
-&lt;li>计算ROI&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://www.bigledger.com/zh/demos-resources/" >安排咨询&lt;/a> | &lt;a href="https://www.bigledger.com/zh/applets/applet-store/" >浏览小程序&lt;/a> | &lt;a href="https://www.bigledger.com/zh/applets/" >下载指南&lt;/a>&lt;/p>
-&lt;hr>
-&lt;p>&lt;em>BigLedger - 通过智能小程序的模块化业务解决方案&lt;/em>&lt;/p></description></item><item><title>AI智能解决方案</title><link>https://www.bigledger.com/zh/ai-intelligence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/ai-intelligence/</guid><description>
-&lt;p>BigLedger的AI智能解决方案将人工智能集成到您的业务流程中，通过智能自动化、预测分析和智能决策支持提升运营效率。&lt;/p>
-&lt;h2>🧠 AI驱动的智能见解&lt;span class="hx:absolute hx:-mt-20" id="-ai驱动的智能见解">&lt;/span>
-&lt;a href="#-ai%e9%a9%b1%e5%8a%a8%e7%9a%84%e6%99%ba%e8%83%bd%e8%a7%81%e8%a7%a3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>预测分析引擎&lt;span class="hx:absolute hx:-mt-20" id="预测分析引擎">&lt;/span>
-&lt;a href="#%e9%a2%84%e6%b5%8b%e5%88%86%e6%9e%90%e5%bc%95%e6%93%8e" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>业务预测&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>销售预测和需求规划&lt;/li>
-&lt;li>库存优化建议&lt;/li>
-&lt;li>现金流预测&lt;/li>
-&lt;li>客户行为分析&lt;/li>
-&lt;li>市场趋势识别&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>风险管理&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>欺诈检测系统&lt;/li>
-&lt;li>信用风险评估&lt;/li>
-&lt;li>供应链风险预警&lt;/li>
-&lt;li>合规风险监控&lt;/li>
-&lt;li>运营异常检测&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>性能优化&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>流程效率分析&lt;/li>
-&lt;li>资源分配优化&lt;/li>
-&lt;li>定价策略建议&lt;/li>
-&lt;li>成本优化机会识别&lt;/li>
-&lt;li>质量改进建议&lt;/li>
-&lt;/ul>
-&lt;h3>智能数据处理&lt;span class="hx:absolute hx:-mt-20" id="智能数据处理">&lt;/span>
-&lt;a href="#%e6%99%ba%e8%83%bd%e6%95%b0%e6%8d%ae%e5%a4%84%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>文档智能&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>OCR文档扫描和提取&lt;/li>
-&lt;li>发票自动处理&lt;/li>
-&lt;li>合同条款分析&lt;/li>
-&lt;li>报表自动生成&lt;/li>
-&lt;li>数据验证和清理&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>自然语言处理&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>客户查询自动分类&lt;/li>
-&lt;li>情感分析&lt;/li>
-&lt;li>聊天机器人支持&lt;/li>
-&lt;li>多语言文档翻译&lt;/li>
-&lt;li>智能搜索功能&lt;/li>
-&lt;/ul>
-&lt;h2>🎯 行业特定AI解决方案&lt;span class="hx:absolute hx:-mt-20" id="-行业特定ai解决方案">&lt;/span>
-&lt;a href="#-%e8%a1%8c%e4%b8%9a%e7%89%b9%e5%ae%9aai%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>零售与电商&lt;span class="hx:absolute hx:-mt-20" id="零售与电商">&lt;/span>
-&lt;a href="#%e9%9b%b6%e5%94%ae%e4%b8%8e%e7%94%b5%e5%95%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>智能库存管理&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>基于AI的需求预测&lt;/li>
-&lt;li>动态库存补充建议&lt;/li>
-&lt;li>季节性趋势分析&lt;/li>
-&lt;li>滞销品识别&lt;/li>
-&lt;li>供应商表现评估&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>个性化营销&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>客户行为分析&lt;/li>
-&lt;li>产品推荐引擎&lt;/li>
-&lt;li>定价优化&lt;/li>
-&lt;li>促销活动效果预测&lt;/li>
-&lt;li>客户生命周期价值分析&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>欺诈防护&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>实时交易监控&lt;/li>
-&lt;li>异常支付模式检测&lt;/li>
-&lt;li>账户安全评估&lt;/li>
-&lt;li>退款欺诈预防&lt;/li>
-&lt;li>身份验证增强&lt;/li>
-&lt;/ul>
-&lt;h3>制造业&lt;span class="hx:absolute hx:-mt-20" id="制造业">&lt;/span>
-&lt;a href="#%e5%88%b6%e9%80%a0%e4%b8%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>预测性维护&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>设备故障预测&lt;/li>
-&lt;li>维护计划优化&lt;/li>
-&lt;li>备件需求预测&lt;/li>
-&lt;li>生产计划调整&lt;/li>
-&lt;li>质量问题早期预警&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>生产优化&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>产能利用分析&lt;/li>
-&lt;li>工艺参数优化&lt;/li>
-&lt;li>材料消耗预测&lt;/li>
-&lt;li>能源效率优化&lt;/li>
-&lt;li>浪费减少建议&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>供应链智能&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>供应商风险评估&lt;/li>
-&lt;li>交付时间预测&lt;/li>
-&lt;li>采购价格优化&lt;/li>
-&lt;li>物流路径规划&lt;/li>
-&lt;li>库存策略优化&lt;/li>
-&lt;/ul>
-&lt;h3>服务业&lt;span class="hx:absolute hx:-mt-20" id="服务业">&lt;/span>
-&lt;a href="#%e6%9c%8d%e5%8a%a1%e4%b8%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>客户服务AI&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>智能工单路由&lt;/li>
-&lt;li>响应时间优化&lt;/li>
-&lt;li>客户满意度预测&lt;/li>
-&lt;li>服务质量监控&lt;/li>
-&lt;li>资源配置优化&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>收入管理&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>动态定价策略&lt;/li>
-&lt;li>需求波动分析&lt;/li>
-&lt;li>产能优化&lt;/li>
-&lt;li>交叉销售机会识别&lt;/li>
-&lt;li>客户流失预防&lt;/li>
-&lt;/ul>
-&lt;h2>🔄 AI工作流程集成&lt;span class="hx:absolute hx:-mt-20" id="-ai工作流程集成">&lt;/span>
-&lt;a href="#-ai%e5%b7%a5%e4%bd%9c%e6%b5%81%e7%a8%8b%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>智能流程自动化&lt;span class="hx:absolute hx:-mt-20" id="智能流程自动化">&lt;/span>
-&lt;a href="#%e6%99%ba%e8%83%bd%e6%b5%81%e7%a8%8b%e8%87%aa%e5%8a%a8%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>采购到付款(P2P)&lt;/strong>&lt;/p>
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>AI需求预测 → 智能采购建议 → 自动供应商选择 → 智能发票处理 → 预测现金流&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;涉及的小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;总账&lt;/li&gt;
+&lt;li&gt;子分类账&lt;/li&gt;
+&lt;li&gt;银行对账&lt;/li&gt;
+&lt;li&gt;固定资产&lt;/li&gt;
+&lt;li&gt;财务报告&lt;/li&gt;
+&lt;li&gt;商业智能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;实施模式&lt;span class="hx:absolute hx:-mt-20" id="实施模式"&gt;&lt;/span&gt;
+&lt;a href="#%e5%ae%9e%e6%96%bd%e6%a8%a1%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;常见业务挑战与解决方案&lt;span class="hx:absolute hx:-mt-20" id="常见业务挑战与解决方案"&gt;&lt;/span&gt;
+&lt;a href="#%e5%b8%b8%e8%a7%81%e4%b8%9a%e5%8a%a1%e6%8c%91%e6%88%98%e4%b8%8e%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;挑战：人工数据录入&lt;span class="hx:absolute hx:-mt-20" id="挑战人工数据录入"&gt;&lt;/span&gt;
+&lt;a href="#%e6%8c%91%e6%88%98%e4%ba%ba%e5%b7%a5%e6%95%b0%e6%8d%ae%e5%bd%95%e5%85%a5" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;解决方案模式：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;部署OCR小程序进行文档捕获&lt;/li&gt;
+&lt;li&gt;实施电子发票进行自动开票&lt;/li&gt;
+&lt;li&gt;使用银行集成进行交易导入&lt;/li&gt;
+&lt;li&gt;启用API连接进行数据流&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;挑战：库存不准确&lt;span class="hx:absolute hx:-mt-20" id="挑战库存不准确"&gt;&lt;/span&gt;
+&lt;a href="#%e6%8c%91%e6%88%98%e5%ba%93%e5%ad%98%e4%b8%8d%e5%87%86%e7%a1%ae" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;解决方案模式：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;实施库存管理小程序&lt;/li&gt;
+&lt;li&gt;部署仓库管理系统&lt;/li&gt;
+&lt;li&gt;使用条码/RFID扫描&lt;/li&gt;
+&lt;li&gt;启用实时同步&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;挑战：现金流可见性&lt;span class="hx:absolute hx:-mt-20" id="挑战现金流可见性"&gt;&lt;/span&gt;
+&lt;a href="#%e6%8c%91%e6%88%98%e7%8e%b0%e9%87%91%e6%b5%81%e5%8f%af%e8%a7%81%e6%80%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;解决方案模式：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;部署账龄应收账款&lt;/li&gt;
+&lt;li&gt;实施收款工作流程&lt;/li&gt;
+&lt;li&gt;使用预测现金流分析&lt;/li&gt;
+&lt;li&gt;启用支付网关集成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;挑战：监管合规&lt;span class="hx:absolute hx:-mt-20" id="挑战监管合规"&gt;&lt;/span&gt;
+&lt;a href="#%e6%8c%91%e6%88%98%e7%9b%91%e7%ae%a1%e5%90%88%e8%a7%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;解决方案模式：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;实施电子发票和PEPPOL&lt;/li&gt;
+&lt;li&gt;部署税务管理&lt;/li&gt;
+&lt;li&gt;使用审计跟踪小程序&lt;/li&gt;
+&lt;li&gt;启用合规报告&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;行业特定实施&lt;span class="hx:absolute hx:-mt-20" id="行业特定实施"&gt;&lt;/span&gt;
+&lt;a href="#%e8%a1%8c%e4%b8%9a%e7%89%b9%e5%ae%9a%e5%ae%9e%e6%96%bd" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;零售实施&lt;span class="hx:absolute hx:-mt-20" id="零售实施"&gt;&lt;/span&gt;
+&lt;a href="#%e9%9b%b6%e5%94%ae%e5%ae%9e%e6%96%bd" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;核心小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;POS系统&lt;/li&gt;
+&lt;li&gt;库存管理&lt;/li&gt;
+&lt;li&gt;电子商务&lt;/li&gt;
+&lt;li&gt;客户忠诚度&lt;/li&gt;
+&lt;li&gt;电子发票&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;工作流程重点：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;多渠道销售&lt;/li&gt;
+&lt;li&gt;实时库存&lt;/li&gt;
+&lt;li&gt;客户体验&lt;/li&gt;
+&lt;li&gt;合规自动化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;制造实施&lt;span class="hx:absolute hx:-mt-20" id="制造实施"&gt;&lt;/span&gt;
+&lt;a href="#%e5%88%b6%e9%80%a0%e5%ae%9e%e6%96%bd" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;核心小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;制造执行&lt;/li&gt;
+&lt;li&gt;BOM管理&lt;/li&gt;
+&lt;li&gt;质量控制&lt;/li&gt;
+&lt;li&gt;仓库管理&lt;/li&gt;
+&lt;li&gt;采购&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;工作流程重点：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;生产规划&lt;/li&gt;
+&lt;li&gt;材料管理&lt;/li&gt;
+&lt;li&gt;质量保证&lt;/li&gt;
+&lt;li&gt;成本控制&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;分销实施&lt;span class="hx:absolute hx:-mt-20" id="分销实施"&gt;&lt;/span&gt;
+&lt;a href="#%e5%88%86%e9%94%80%e5%ae%9e%e6%96%bd" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;核心小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;销售订单管理&lt;/li&gt;
+&lt;li&gt;仓库管理&lt;/li&gt;
+&lt;li&gt;运输&lt;/li&gt;
+&lt;li&gt;库存控制&lt;/li&gt;
+&lt;li&gt;客户门户&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;工作流程重点：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;订单履行&lt;/li&gt;
+&lt;li&gt;物流优化&lt;/li&gt;
+&lt;li&gt;多位置库存&lt;/li&gt;
+&lt;li&gt;客户服务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;最佳实践&lt;span class="hx:absolute hx:-mt-20" id="最佳实践"&gt;&lt;/span&gt;
+&lt;a href="#%e6%9c%80%e4%bd%b3%e5%ae%9e%e8%b7%b5" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;小程序选择策略&lt;span class="hx:absolute hx:-mt-20" id="小程序选择策略"&gt;&lt;/span&gt;
+&lt;a href="#%e5%b0%8f%e7%a8%8b%e5%ba%8f%e9%80%89%e6%8b%a9%e7%ad%96%e7%95%a5" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;从核心开始&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;会计和电子发票(合规)&lt;/li&gt;
+&lt;li&gt;中央数据枢纽设置&lt;/li&gt;
+&lt;li&gt;用户管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;添加运营&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;行业特定小程序&lt;/li&gt;
+&lt;li&gt;面向客户的系统&lt;/li&gt;
+&lt;li&gt;供应链模块&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;用智能增强&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;分析和报告&lt;/li&gt;
+&lt;li&gt;AI服务&lt;/li&gt;
+&lt;li&gt;自动化工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;集成最佳实践&lt;span class="hx:absolute hx:-mt-20" id="集成最佳实践"&gt;&lt;/span&gt;
+&lt;a href="#%e9%9b%86%e6%88%90%e6%9c%80%e4%bd%b3%e5%ae%9e%e8%b7%b5" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;数据一致性&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用中央数据枢纽&lt;/li&gt;
+&lt;li&gt;实施主数据管理&lt;/li&gt;
+&lt;li&gt;维护单一数据源&lt;/li&gt;
+&lt;li&gt;定期数据验证&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;性能优化&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;异步处理&lt;/li&gt;
+&lt;li&gt;批量操作&lt;/li&gt;
+&lt;li&gt;缓存策略&lt;/li&gt;
+&lt;li&gt;负载均衡&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;安全考虑&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;基于角色的访问&lt;/li&gt;
+&lt;li&gt;API认证&lt;/li&gt;
+&lt;li&gt;数据加密&lt;/li&gt;
+&lt;li&gt;审计日志&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;小程序市场&lt;span class="hx:absolute hx:-mt-20" id="小程序市场"&gt;&lt;/span&gt;
+&lt;a href="#%e5%b0%8f%e7%a8%8b%e5%ba%8f%e5%b8%82%e5%9c%ba" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;可用小程序&lt;span class="hx:absolute hx:-mt-20" id="可用小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e5%8f%af%e7%94%a8%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;浏览我们不断增长的业务小程序库：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;特色小程序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MyInvois连接器(免费)&lt;/li&gt;
+&lt;li&gt;WhatsApp集成&lt;/li&gt;
+&lt;li&gt;Shopee/Lazada连接器&lt;/li&gt;
+&lt;li&gt;Google Analytics集成&lt;/li&gt;
+&lt;li&gt;SMS网关&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;行业包：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;零售套件&lt;/li&gt;
+&lt;li&gt;制造套件&lt;/li&gt;
+&lt;li&gt;餐饮包&lt;/li&gt;
+&lt;li&gt;医疗保健包&lt;/li&gt;
+&lt;li&gt;教育套件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;自定义小程序开发&lt;span class="hx:absolute hx:-mt-20" id="自定义小程序开发"&gt;&lt;/span&gt;
+&lt;a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e5%b0%8f%e7%a8%8b%e5%ba%8f%e5%bc%80%e5%8f%91" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;开发选项：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;低代码构建器&lt;/li&gt;
+&lt;li&gt;API框架&lt;/li&gt;
+&lt;li&gt;专业服务&lt;/li&gt;
+&lt;li&gt;合作伙伴生态系统&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;开发流程：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;需求分析&lt;/li&gt;
+&lt;li&gt;设计和架构&lt;/li&gt;
+&lt;li&gt;开发和测试&lt;/li&gt;
+&lt;li&gt;集成和部署&lt;/li&gt;
+&lt;li&gt;维护和支持&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;开始使用小程序&lt;span class="hx:absolute hx:-mt-20" id="开始使用小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e5%bc%80%e5%a7%8b%e4%bd%bf%e7%94%a8%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;发现流程&lt;span class="hx:absolute hx:-mt-20" id="发现流程"&gt;&lt;/span&gt;
+&lt;a href="#%e5%8f%91%e7%8e%b0%e6%b5%81%e7%a8%8b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;业务评估&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;当前流程&lt;/li&gt;
+&lt;li&gt;痛点&lt;/li&gt;
+&lt;li&gt;集成需求&lt;/li&gt;
+&lt;li&gt;合规要求&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;小程序映射&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;核心要求&lt;/li&gt;
+&lt;li&gt;工作流程设计&lt;/li&gt;
+&lt;li&gt;集成点&lt;/li&gt;
+&lt;li&gt;分阶段计划&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;实施路线图&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;优先级小程序&lt;/li&gt;
+&lt;li&gt;时间表&lt;/li&gt;
+&lt;li&gt;资源分配&lt;/li&gt;
+&lt;li&gt;成功指标&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;请求咨询&lt;span class="hx:absolute hx:-mt-20" id="请求咨询"&gt;&lt;/span&gt;
+&lt;a href="#%e8%af%b7%e6%b1%82%e5%92%a8%e8%af%a2" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;我们的小程序专家可以帮助您：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;选择合适的小程序&lt;/li&gt;
+&lt;li&gt;设计最佳工作流程&lt;/li&gt;
+&lt;li&gt;规划实施&lt;/li&gt;
+&lt;li&gt;计算ROI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://www.bigledger.com/zh/demos-resources/" &gt;安排咨询&lt;/a&gt; | &lt;a href="https://www.bigledger.com/zh/applets/applet-store/" &gt;浏览小程序&lt;/a&gt; | &lt;a href="https://www.bigledger.com/zh/applets/" &gt;下载指南&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;BigLedger - 通过智能小程序的模块化业务解决方案&lt;/em&gt;&lt;/p&gt;</description></item><item><title>AI智能解决方案</title><link>https://www.bigledger.com/zh/ai-intelligence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/ai-intelligence/</guid><description>
+&lt;p&gt;BigLedger的AI智能解决方案将人工智能集成到您的业务流程中，通过智能自动化、预测分析和智能决策支持提升运营效率。&lt;/p&gt;
+&lt;h2&gt;🧠 AI驱动的智能见解&lt;span class="hx:absolute hx:-mt-20" id="-ai驱动的智能见解"&gt;&lt;/span&gt;
+&lt;a href="#-ai%e9%a9%b1%e5%8a%a8%e7%9a%84%e6%99%ba%e8%83%bd%e8%a7%81%e8%a7%a3" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;预测分析引擎&lt;span class="hx:absolute hx:-mt-20" id="预测分析引擎"&gt;&lt;/span&gt;
+&lt;a href="#%e9%a2%84%e6%b5%8b%e5%88%86%e6%9e%90%e5%bc%95%e6%93%8e" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;业务预测&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;销售预测和需求规划&lt;/li&gt;
+&lt;li&gt;库存优化建议&lt;/li&gt;
+&lt;li&gt;现金流预测&lt;/li&gt;
+&lt;li&gt;客户行为分析&lt;/li&gt;
+&lt;li&gt;市场趋势识别&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;风险管理&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;欺诈检测系统&lt;/li&gt;
+&lt;li&gt;信用风险评估&lt;/li&gt;
+&lt;li&gt;供应链风险预警&lt;/li&gt;
+&lt;li&gt;合规风险监控&lt;/li&gt;
+&lt;li&gt;运营异常检测&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;性能优化&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;流程效率分析&lt;/li&gt;
+&lt;li&gt;资源分配优化&lt;/li&gt;
+&lt;li&gt;定价策略建议&lt;/li&gt;
+&lt;li&gt;成本优化机会识别&lt;/li&gt;
+&lt;li&gt;质量改进建议&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;智能数据处理&lt;span class="hx:absolute hx:-mt-20" id="智能数据处理"&gt;&lt;/span&gt;
+&lt;a href="#%e6%99%ba%e8%83%bd%e6%95%b0%e6%8d%ae%e5%a4%84%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;文档智能&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OCR文档扫描和提取&lt;/li&gt;
+&lt;li&gt;发票自动处理&lt;/li&gt;
+&lt;li&gt;合同条款分析&lt;/li&gt;
+&lt;li&gt;报表自动生成&lt;/li&gt;
+&lt;li&gt;数据验证和清理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;自然语言处理&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;客户查询自动分类&lt;/li&gt;
+&lt;li&gt;情感分析&lt;/li&gt;
+&lt;li&gt;聊天机器人支持&lt;/li&gt;
+&lt;li&gt;多语言文档翻译&lt;/li&gt;
+&lt;li&gt;智能搜索功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🎯 行业特定AI解决方案&lt;span class="hx:absolute hx:-mt-20" id="-行业特定ai解决方案"&gt;&lt;/span&gt;
+&lt;a href="#-%e8%a1%8c%e4%b8%9a%e7%89%b9%e5%ae%9aai%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;零售与电商&lt;span class="hx:absolute hx:-mt-20" id="零售与电商"&gt;&lt;/span&gt;
+&lt;a href="#%e9%9b%b6%e5%94%ae%e4%b8%8e%e7%94%b5%e5%95%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;智能库存管理&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;基于AI的需求预测&lt;/li&gt;
+&lt;li&gt;动态库存补充建议&lt;/li&gt;
+&lt;li&gt;季节性趋势分析&lt;/li&gt;
+&lt;li&gt;滞销品识别&lt;/li&gt;
+&lt;li&gt;供应商表现评估&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;个性化营销&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;客户行为分析&lt;/li&gt;
+&lt;li&gt;产品推荐引擎&lt;/li&gt;
+&lt;li&gt;定价优化&lt;/li&gt;
+&lt;li&gt;促销活动效果预测&lt;/li&gt;
+&lt;li&gt;客户生命周期价值分析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;欺诈防护&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;实时交易监控&lt;/li&gt;
+&lt;li&gt;异常支付模式检测&lt;/li&gt;
+&lt;li&gt;账户安全评估&lt;/li&gt;
+&lt;li&gt;退款欺诈预防&lt;/li&gt;
+&lt;li&gt;身份验证增强&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;制造业&lt;span class="hx:absolute hx:-mt-20" id="制造业"&gt;&lt;/span&gt;
+&lt;a href="#%e5%88%b6%e9%80%a0%e4%b8%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;预测性维护&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;设备故障预测&lt;/li&gt;
+&lt;li&gt;维护计划优化&lt;/li&gt;
+&lt;li&gt;备件需求预测&lt;/li&gt;
+&lt;li&gt;生产计划调整&lt;/li&gt;
+&lt;li&gt;质量问题早期预警&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;生产优化&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;产能利用分析&lt;/li&gt;
+&lt;li&gt;工艺参数优化&lt;/li&gt;
+&lt;li&gt;材料消耗预测&lt;/li&gt;
+&lt;li&gt;能源效率优化&lt;/li&gt;
+&lt;li&gt;浪费减少建议&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;供应链智能&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;供应商风险评估&lt;/li&gt;
+&lt;li&gt;交付时间预测&lt;/li&gt;
+&lt;li&gt;采购价格优化&lt;/li&gt;
+&lt;li&gt;物流路径规划&lt;/li&gt;
+&lt;li&gt;库存策略优化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;服务业&lt;span class="hx:absolute hx:-mt-20" id="服务业"&gt;&lt;/span&gt;
+&lt;a href="#%e6%9c%8d%e5%8a%a1%e4%b8%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;客户服务AI&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;智能工单路由&lt;/li&gt;
+&lt;li&gt;响应时间优化&lt;/li&gt;
+&lt;li&gt;客户满意度预测&lt;/li&gt;
+&lt;li&gt;服务质量监控&lt;/li&gt;
+&lt;li&gt;资源配置优化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;收入管理&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;动态定价策略&lt;/li&gt;
+&lt;li&gt;需求波动分析&lt;/li&gt;
+&lt;li&gt;产能优化&lt;/li&gt;
+&lt;li&gt;交叉销售机会识别&lt;/li&gt;
+&lt;li&gt;客户流失预防&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🔄 AI工作流程集成&lt;span class="hx:absolute hx:-mt-20" id="-ai工作流程集成"&gt;&lt;/span&gt;
+&lt;a href="#-ai%e5%b7%a5%e4%bd%9c%e6%b5%81%e7%a8%8b%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;智能流程自动化&lt;span class="hx:absolute hx:-mt-20" id="智能流程自动化"&gt;&lt;/span&gt;
+&lt;a href="#%e6%99%ba%e8%83%bd%e6%b5%81%e7%a8%8b%e8%87%aa%e5%8a%a8%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;采购到付款(P2P)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;AI需求预测 → 智能采购建议 → 自动供应商选择 → 智能发票处理 → 预测现金流&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>订单到现金(O2C)&lt;/strong>&lt;/p>
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>AI销售预测 → 智能定价 → 自动库存分配 → 智能配送 → 预测收款&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;订单到现金(O2C)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;AI销售预测 → 智能定价 → 自动库存分配 → 智能配送 → 预测收款&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>记录到报告(R2R)&lt;/strong>&lt;/p>
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>AI数据验证 → 智能分录 → 自动对账 → 智能分析 → 预测报告&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;记录到报告(R2R)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;AI数据验证 → 智能分录 → 自动对账 → 智能分析 → 预测报告&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;h3>跨模块AI功能&lt;span class="hx:absolute hx:-mt-20" id="跨模块ai功能">&lt;/span>
-&lt;a href="#%e8%b7%a8%e6%a8%a1%e5%9d%97ai%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>财务管理&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>智能会计分录建议&lt;/li>
-&lt;li>异常交易检测&lt;/li>
-&lt;li>现金流预测&lt;/li>
-&lt;li>信用风险评估&lt;/li>
-&lt;li>自动对账&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>销售与营销&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>线索评分和优先级排序&lt;/li>
-&lt;li>销售机会预测&lt;/li>
-&lt;li>客户细分和定位&lt;/li>
-&lt;li>价格优化建议&lt;/li>
-&lt;li>促销效果分析&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>库存管理&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>需求预测和计划&lt;/li>
-&lt;li>安全库存优化&lt;/li>
-&lt;li>滞销品识别&lt;/li>
-&lt;li>采购时机建议&lt;/li>
-&lt;li>供应商表现评估&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>客户服务&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>智能工单分配&lt;/li>
-&lt;li>客户情绪分析&lt;/li>
-&lt;li>响应时间优化&lt;/li>
-&lt;li>解决方案推荐&lt;/li>
-&lt;li>满意度预测&lt;/li>
-&lt;/ul>
-&lt;h2>🛠️ AI配置和自定义&lt;span class="hx:absolute hx:-mt-20" id="-ai配置和自定义">&lt;/span>
-&lt;a href="#-ai%e9%85%8d%e7%bd%ae%e5%92%8c%e8%87%aa%e5%ae%9a%e4%b9%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>机器学习模型管理&lt;span class="hx:absolute hx:-mt-20" id="机器学习模型管理">&lt;/span>
-&lt;a href="#%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0%e6%a8%a1%e5%9e%8b%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>预建模型&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>销售预测模型&lt;/li>
-&lt;li>客户流失预测&lt;/li>
-&lt;li>欺诈检测模型&lt;/li>
-&lt;li>库存优化模型&lt;/li>
-&lt;li>价格推荐模型&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>自定义模型&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>业务特定算法&lt;/li>
-&lt;li>行业适配模型&lt;/li>
-&lt;li>本地化调整&lt;/li>
-&lt;li>实时学习更新&lt;/li>
-&lt;li>A/B测试支持&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>模型监控&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>准确性跟踪&lt;/li>
-&lt;li>性能基准测试&lt;/li>
-&lt;li>漂移检测&lt;/li>
-&lt;li>自动重训练&lt;/li>
-&lt;li>结果验证&lt;/li>
-&lt;/ul>
-&lt;h3>AI数据管理&lt;span class="hx:absolute hx:-mt-20" id="ai数据管理">&lt;/span>
-&lt;a href="#ai%e6%95%b0%e6%8d%ae%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>数据准备&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>自动数据清理&lt;/li>
-&lt;li>特征工程&lt;/li>
-&lt;li>数据质量评估&lt;/li>
-&lt;li>缺失值处理&lt;/li>
-&lt;li>异常值检测&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>数据治理&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>数据血缘追踪&lt;/li>
-&lt;li>隐私保护合规&lt;/li>
-&lt;li>访问控制管理&lt;/li>
-&lt;li>审计日志记录&lt;/li>
-&lt;li>数据版本控制&lt;/li>
-&lt;/ul>
-&lt;h2>📊 AI分析和洞察&lt;span class="hx:absolute hx:-mt-20" id="-ai分析和洞察">&lt;/span>
-&lt;a href="#-ai%e5%88%86%e6%9e%90%e5%92%8c%e6%b4%9e%e5%af%9f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>智能仪表板&lt;span class="hx:absolute hx:-mt-20" id="智能仪表板">&lt;/span>
-&lt;a href="#%e6%99%ba%e8%83%bd%e4%bb%aa%e8%a1%a8%e6%9d%bf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>执行层面板&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>KPI趋势预测&lt;/li>
-&lt;li>业务健康评分&lt;/li>
-&lt;li>风险指标监控&lt;/li>
-&lt;li>机会识别&lt;/li>
-&lt;li>战略建议&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>运营监控&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>实时性能指标&lt;/li>
-&lt;li>异常预警&lt;/li>
-&lt;li>流程效率分析&lt;/li>
-&lt;li>资源利用监控&lt;/li>
-&lt;li>质量指标跟踪&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>财务洞察&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>收入预测&lt;/li>
-&lt;li>成本分析&lt;/li>
-&lt;li>利润优化机会&lt;/li>
-&lt;li>现金流管理&lt;/li>
-&lt;li>投资回报分析&lt;/li>
-&lt;/ul>
-&lt;h3>预测报告&lt;span class="hx:absolute hx:-mt-20" id="预测报告">&lt;/span>
-&lt;a href="#%e9%a2%84%e6%b5%8b%e6%8a%a5%e5%91%8a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>业务预测&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>销售业绩预测&lt;/li>
-&lt;li>市场需求分析&lt;/li>
-&lt;li>竞争态势评估&lt;/li>
-&lt;li>增长机会识别&lt;/li>
-&lt;li>风险评估报告&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>运营预测&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>产能需求预测&lt;/li>
-&lt;li>库存需求计划&lt;/li>
-&lt;li>人力资源需求&lt;/li>
-&lt;li>维护计划优化&lt;/li>
-&lt;li>成本节约机会&lt;/li>
-&lt;/ul>
-&lt;h2>🚀 实施路径&lt;span class="hx:absolute hx:-mt-20" id="-实施路径">&lt;/span>
-&lt;a href="#-%e5%ae%9e%e6%96%bd%e8%b7%af%e5%be%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>第一阶段：评估和规划(第1-2周)&lt;span class="hx:absolute hx:-mt-20" id="第一阶段评估和规划第1-2周">&lt;/span>
-&lt;a href="#%e7%ac%ac%e4%b8%80%e9%98%b6%e6%ae%b5%e8%af%84%e4%bc%b0%e5%92%8c%e8%a7%84%e5%88%92%e7%ac%ac1-2%e5%91%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>业务评估&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>当前流程分析&lt;/li>
-&lt;li>数据质量评估&lt;/li>
-&lt;li>AI应用场景识别&lt;/li>
-&lt;li>ROI潜力评估&lt;/li>
-&lt;li>技术可行性研究&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>策略制定&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>AI应用优先级排序&lt;/li>
-&lt;li>实施路径规划&lt;/li>
-&lt;li>资源需求评估&lt;/li>
-&lt;li>风险缓解计划&lt;/li>
-&lt;li>成功指标定义&lt;/li>
-&lt;/ul>
-&lt;h3>第二阶段：基础设施准备(第3-4周)&lt;span class="hx:absolute hx:-mt-20" id="第二阶段基础设施准备第3-4周">&lt;/span>
-&lt;a href="#%e7%ac%ac%e4%ba%8c%e9%98%b6%e6%ae%b5%e5%9f%ba%e7%a1%80%e8%ae%be%e6%96%bd%e5%87%86%e5%a4%87%e7%ac%ac3-4%e5%91%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>数据准备&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>数据仓库设置&lt;/li>
-&lt;li>数据集成配置&lt;/li>
-&lt;li>数据清理和标准化&lt;/li>
-&lt;li>安全配置&lt;/li>
-&lt;li>备份和恢复设置&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>平台配置&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>AI引擎部署&lt;/li>
-&lt;li>模型库设置&lt;/li>
-&lt;li>API配置&lt;/li>
-&lt;li>用户权限配置&lt;/li>
-&lt;li>监控系统设置&lt;/li>
-&lt;/ul>
-&lt;h3>第三阶段：模型部署(第5-6周)&lt;span class="hx:absolute hx:-mt-20" id="第三阶段模型部署第5-6周">&lt;/span>
-&lt;a href="#%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5%e6%a8%a1%e5%9e%8b%e9%83%a8%e7%bd%b2%e7%ac%ac5-6%e5%91%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>预建模型实施&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>标准模型配置&lt;/li>
-&lt;li>业务规则集成&lt;/li>
-&lt;li>参数调优&lt;/li>
-&lt;li>测试和验证&lt;/li>
-&lt;li>性能优化&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>自定义开发&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>特定需求分析&lt;/li>
-&lt;li>算法选择和调优&lt;/li>
-&lt;li>模型训练&lt;/li>
-&lt;li>验证测试&lt;/li>
-&lt;li>部署准备&lt;/li>
-&lt;/ul>
-&lt;h3>第四阶段：用户培训和推广(第7-8周)&lt;span class="hx:absolute hx:-mt-20" id="第四阶段用户培训和推广第7-8周">&lt;/span>
-&lt;a href="#%e7%ac%ac%e5%9b%9b%e9%98%b6%e6%ae%b5%e7%94%a8%e6%88%b7%e5%9f%b9%e8%ae%ad%e5%92%8c%e6%8e%a8%e5%b9%bf%e7%ac%ac7-8%e5%91%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>培训计划&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>用户角色培训&lt;/li>
-&lt;li>系统操作培训&lt;/li>
-&lt;li>AI洞察解读培训&lt;/li>
-&lt;li>故障排除培训&lt;/li>
-&lt;li>最佳实践分享&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>推广策略&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>试点部门选择&lt;/li>
-&lt;li>反馈收集机制&lt;/li>
-&lt;li>持续改进流程&lt;/li>
-&lt;li>成功案例分享&lt;/li>
-&lt;li>全面推广计划&lt;/li>
-&lt;/ul>
-&lt;h2>💡 AI最佳实践&lt;span class="hx:absolute hx:-mt-20" id="-ai最佳实践">&lt;/span>
-&lt;a href="#-ai%e6%9c%80%e4%bd%b3%e5%ae%9e%e8%b7%b5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>数据质量管理&lt;span class="hx:absolute hx:-mt-20" id="数据质量管理">&lt;/span>
-&lt;a href="#%e6%95%b0%e6%8d%ae%e8%b4%a8%e9%87%8f%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>数据完整性&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>定期数据审核&lt;/li>
-&lt;li>缺失数据处理&lt;/li>
-&lt;li>重复数据清理&lt;/li>
-&lt;li>一致性检查&lt;/li>
-&lt;li>及时数据更新&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>数据安全&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>加密存储传输&lt;/li>
-&lt;li>访问权限控制&lt;/li>
-&lt;li>审计日志记录&lt;/li>
-&lt;li>隐私保护合规&lt;/li>
-&lt;li>安全备份策略&lt;/li>
-&lt;/ul>
-&lt;h3>模型管理&lt;span class="hx:absolute hx:-mt-20" id="模型管理">&lt;/span>
-&lt;a href="#%e6%a8%a1%e5%9e%8b%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>性能监控&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>准确性跟踪&lt;/li>
-&lt;li>响应时间监控&lt;/li>
-&lt;li>资源使用情况&lt;/li>
-&lt;li>用户满意度测量&lt;/li>
-&lt;li>业务影响评估&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>持续改进&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>定期模型重训练&lt;/li>
-&lt;li>新数据整合&lt;/li>
-&lt;li>算法优化&lt;/li>
-&lt;li>反馈整合&lt;/li>
-&lt;li>版本控制管理&lt;/li>
-&lt;/ul>
-&lt;h2>📈 ROI和成功指标&lt;span class="hx:absolute hx:-mt-20" id="-roi和成功指标">&lt;/span>
-&lt;a href="#-roi%e5%92%8c%e6%88%90%e5%8a%9f%e6%8c%87%e6%a0%87" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>量化收益&lt;span class="hx:absolute hx:-mt-20" id="量化收益">&lt;/span>
-&lt;a href="#%e9%87%8f%e5%8c%96%e6%94%b6%e7%9b%8a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>效率提升&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>处理时间减少80%&lt;/li>
-&lt;li>人工错误减少95%&lt;/li>
-&lt;li>决策速度提升3倍&lt;/li>
-&lt;li>资源利用率提高40%&lt;/li>
-&lt;li>客户满意度提升25%&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>成本节约&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>运营成本减少30%&lt;/li>
-&lt;li>人工成本节省50%&lt;/li>
-&lt;li>错误修复成本减少90%&lt;/li>
-&lt;li>库存持有成本优化20%&lt;/li>
-&lt;li>合规成本降低60%&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>收入增长&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>销售预测准确性提升85%&lt;/li>
-&lt;li>客户保留率增加35%&lt;/li>
-&lt;li>交叉销售机会增加45%&lt;/li>
-&lt;li>新客户获取成本降低25%&lt;/li>
-&lt;li>定价优化带来15%收入增长&lt;/li>
-&lt;/ul>
-&lt;h3>成功案例&lt;span class="hx:absolute hx:-mt-20" id="成功案例">&lt;/span>
-&lt;a href="#%e6%88%90%e5%8a%9f%e6%a1%88%e4%be%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>制造企业&lt;span class="hx:absolute hx:-mt-20" id="制造企业">&lt;/span>
-&lt;a href="#%e5%88%b6%e9%80%a0%e4%bc%81%e4%b8%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;strong>挑战&lt;/strong>：复杂的需求预测和生产计划
-&lt;strong>解决方案&lt;/strong>：AI预测分析和优化算法
-&lt;strong>结果&lt;/strong>：&lt;/p>
-&lt;ul>
-&lt;li>预测准确性提升70%&lt;/li>
-&lt;li>库存成本减少25%&lt;/li>
-&lt;li>客户满意度提升40%&lt;/li>
-&lt;/ul>
-&lt;h4>零售连锁店&lt;span class="hx:absolute hx:-mt-20" id="零售连锁店">&lt;/span>
-&lt;a href="#%e9%9b%b6%e5%94%ae%e8%bf%9e%e9%94%81%e5%ba%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;strong>挑战&lt;/strong>：多渠道库存管理和定价优化
-&lt;strong>解决方案&lt;/strong>：智能库存和动态定价系统
-&lt;strong>结果&lt;/strong>：&lt;/p>
-&lt;ul>
-&lt;li>库存周转率提高50%&lt;/li>
-&lt;li>毛利率提升12%&lt;/li>
-&lt;li>缺货率减少80%&lt;/li>
-&lt;/ul>
-&lt;h4>服务公司&lt;span class="hx:absolute hx:-mt-20" id="服务公司">&lt;/span>
-&lt;a href="#%e6%9c%8d%e5%8a%a1%e5%85%ac%e5%8f%b8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;strong>挑战&lt;/strong>：客户服务效率和质量提升
-&lt;strong>解决方案&lt;/strong>：AI客服和智能工单系统
-&lt;strong>结果&lt;/strong>：&lt;/p>
-&lt;ul>
-&lt;li>响应时间缩短60%&lt;/li>
-&lt;li>客户满意度提升30%&lt;/li>
-&lt;li>服务成本减少35%&lt;/li>
-&lt;/ul>
-&lt;h2>🔧 技术规格&lt;span class="hx:absolute hx:-mt-20" id="-技术规格">&lt;/span>
-&lt;a href="#-%e6%8a%80%e6%9c%af%e8%a7%84%e6%a0%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>AI引擎要求&lt;span class="hx:absolute hx:-mt-20" id="ai引擎要求">&lt;/span>
-&lt;a href="#ai%e5%bc%95%e6%93%8e%e8%a6%81%e6%b1%82" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>计算资源&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>GPU加速支持&lt;/li>
-&lt;li>分布式计算能力&lt;/li>
-&lt;li>弹性扩展架构&lt;/li>
-&lt;li>高可用性保证&lt;/li>
-&lt;li>实时处理能力&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>数据处理&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>大数据分析平台&lt;/li>
-&lt;li>实时流处理&lt;/li>
-&lt;li>批处理优化&lt;/li>
-&lt;li>多源数据整合&lt;/li>
-&lt;li>增量更新支持&lt;/li>
-&lt;/ul>
-&lt;h3>集成能力&lt;span class="hx:absolute hx:-mt-20" id="集成能力">&lt;/span>
-&lt;a href="#%e9%9b%86%e6%88%90%e8%83%bd%e5%8a%9b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>API接口&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>RESTful API&lt;/li>
-&lt;li>GraphQL支持&lt;/li>
-&lt;li>实时WebSocket&lt;/li>
-&lt;li>批量数据接口&lt;/li>
-&lt;li>事件驱动架构&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>第三方集成&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>主流ERP系统&lt;/li>
-&lt;li>CRM平台&lt;/li>
-&lt;li>电商系统&lt;/li>
-&lt;li>支付网关&lt;/li>
-&lt;li>云服务平台&lt;/li>
-&lt;/ul>
-&lt;h2>开始使用AI智能解决方案&lt;span class="hx:absolute hx:-mt-20" id="开始使用ai智能解决方案">&lt;/span>
-&lt;a href="#%e5%bc%80%e5%a7%8b%e4%bd%bf%e7%94%a8ai%e6%99%ba%e8%83%bd%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>快速启动&lt;span class="hx:absolute hx:-mt-20" id="快速启动">&lt;/span>
-&lt;a href="#%e5%bf%ab%e9%80%9f%e5%90%af%e5%8a%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>&lt;strong>评估需求&lt;/strong>：识别AI应用场景&lt;/li>
-&lt;li>&lt;strong>数据准备&lt;/strong>：整理和清理业务数据&lt;/li>
-&lt;li>&lt;strong>配置系统&lt;/strong>：设置AI引擎和模型&lt;/li>
-&lt;li>&lt;strong>培训团队&lt;/strong>：提供AI工具使用培训&lt;/li>
-&lt;li>&lt;strong>监控优化&lt;/strong>：持续监控和改进性能&lt;/li>
-&lt;/ol>
-&lt;h3>专家咨询&lt;span class="hx:absolute hx:-mt-20" id="专家咨询">&lt;/span>
-&lt;a href="#%e4%b8%93%e5%ae%b6%e5%92%a8%e8%af%a2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>我们的AI专家团队可以帮助您：&lt;/p>
-&lt;ul>
-&lt;li>识别最佳AI应用场景&lt;/li>
-&lt;li>制定实施策略&lt;/li>
-&lt;li>设计自定义解决方案&lt;/li>
-&lt;li>提供技术支持&lt;/li>
-&lt;li>确保项目成功&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://www.bigledger.com/zh/demos-resources/" >预约AI咨询&lt;/a> | &lt;a href="https://www.bigledger.com/zh/demos-resources/" >查看演示&lt;/a> | &lt;a href="https://www.bigledger.com/zh/ai-intelligence/" >下载指南&lt;/a>&lt;/p>
-&lt;hr>
-&lt;p>&lt;em>BigLedger - 用AI智能驱动业务增长&lt;/em>&lt;/p></description></item><item><title>演示与资源</title><link>https://www.bigledger.com/zh/demos-resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/demos-resources/</guid><description>
-&lt;p>通过我们全面的演示视频和演示材料体验BigLedger的功能。&lt;/p>
-&lt;h2>视频演示&lt;span class="hx:absolute hx:-mt-20" id="视频演示">&lt;/span>
-&lt;a href="#%e8%a7%86%e9%a2%91%e6%bc%94%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>🛒 销售点演示&lt;span class="hx:absolute hx:-mt-20" id="-销售点演示">&lt;/span>
-&lt;a href="#-%e9%94%80%e5%94%ae%e7%82%b9%e6%bc%94%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>观看我们为零售和餐饮企业设计的现代POS系统的实际操作。&lt;/p>
-&lt;p>&lt;strong>您将看到：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>多网点配置&lt;/li>
-&lt;li>实时库存更新&lt;/li>
-&lt;li>客户管理&lt;/li>
-&lt;li>付款处理&lt;/li>
-&lt;li>结账时电子发票生成&lt;/li>
-&lt;li>销售分析仪表板&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://drive.google.com/file/d/1rXo1-n2tb2UTs09D52ae4wuQl1nspZEP/view?usp=sharing" target="_blank" rel="noopener">观看POS演示&lt;/a>&lt;/p>
-&lt;h3>📄 电子发票配置和PEPPOL-ID&lt;span class="hx:absolute hx:-mt-20" id="-电子发票配置和peppol-id">&lt;/span>
-&lt;a href="#-%e7%94%b5%e5%ad%90%e5%8f%91%e7%a5%a8%e9%85%8d%e7%bd%ae%e5%92%8cpeppol-id" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>了解如何配置电子发票和设置您的PEPPOL标识符。&lt;/p>
-&lt;p>&lt;strong>涵盖的主题：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>PEPPOL-ID注册&lt;/li>
-&lt;li>MyInvois配置&lt;/li>
-&lt;li>税务设置配置&lt;/li>
-&lt;li>发票模板自定义&lt;/li>
-&lt;li>验证规则配置&lt;/li>
-&lt;li>测试和上线流程&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://drive.google.com/file/d/1-yBzaXhODKNo9CKXKVlrd5HPT8cbilWJ/view?usp=sharing" target="_blank" rel="noopener">观看电子发票配置&lt;/a>&lt;/p>
-&lt;h3>🔗 完整集成演示&lt;span class="hx:absolute hx:-mt-20" id="-完整集成演示">&lt;/span>
-&lt;a href="#-%e5%ae%8c%e6%95%b4%e9%9b%86%e6%88%90%e6%bc%94%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>了解电子发票、CP-Commerce和UCC如何无缝协作。&lt;/p>
-&lt;p>&lt;strong>集成点：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>电子商务到电子发票流程&lt;/li>
-&lt;li>客户门户集成&lt;/li>
-&lt;li>统一联络中心连接&lt;/li>
-&lt;li>实时数据同步&lt;/li>
-&lt;li>跨模块工作流程&lt;/li>
-&lt;li>集中报告&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://drive.google.com/file/d/1x8qyOpULZSGwp_NsIV7ICAPQWSlnh-c7/view" target="_blank" rel="noopener">观看集成演示&lt;/a>&lt;/p>
-&lt;h3>🏭 制造模块演示&lt;span class="hx:absolute hx:-mt-20" id="-制造模块演示">&lt;/span>
-&lt;a href="#-%e5%88%b6%e9%80%a0%e6%a8%a1%e5%9d%97%e6%bc%94%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>探索我们的综合制造解决方案。&lt;/p>
-&lt;p>&lt;strong>演示功能：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>生产规划&lt;/li>
-&lt;li>物料清单管理&lt;/li>
-&lt;li>车间控制&lt;/li>
-&lt;li>质量控制流程&lt;/li>
-&lt;li>库存集成&lt;/li>
-&lt;li>成本跟踪&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://drive.google.com/file/d/1qaReDOiaYTUYk2e_k03BW4z9qdZ3CXjs/view?usp=sharing" target="_blank" rel="noopener">观看制造演示&lt;/a>&lt;/p>
-&lt;h2>演示材料&lt;span class="hx:absolute hx:-mt-20" id="演示材料">&lt;/span>
-&lt;a href="#%e6%bc%94%e7%a4%ba%e6%9d%90%e6%96%99" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>📊 平台概述&lt;span class="hx:absolute hx:-mt-20" id="-平台概述">&lt;/span>
-&lt;a href="#-%e5%b9%b3%e5%8f%b0%e6%a6%82%e8%bf%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>BigLedger平台概述&lt;/strong>
-BigLedger数据枢纽和模块化ERP系统的全面介绍。&lt;/p>
-&lt;p>主题：&lt;/p>
-&lt;ul>
-&lt;li>平台架构&lt;/li>
-&lt;li>核心价值主张&lt;/li>
-&lt;li>模块生态系统&lt;/li>
-&lt;li>集成能力&lt;/li>
-&lt;li>实施方法&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://docs.google.com/presentation/d/1e7Atu0d_cc05Z-E1uhH-z8wcXaVSPFpI29YQ0-RPGco/edit#slide=id.p1" target="_blank" rel="noopener">查看演示文稿&lt;/a>&lt;/p>
-&lt;h3>模块特定演示文稿&lt;span class="hx:absolute hx:-mt-20" id="模块特定演示文稿">&lt;/span>
-&lt;a href="#%e6%a8%a1%e5%9d%97%e7%89%b9%e5%ae%9a%e6%bc%94%e7%a4%ba%e6%96%87%e7%a8%bf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>💰 会计模块&lt;span class="hx:absolute hx:-mt-20" id="-会计模块">&lt;/span>
-&lt;a href="#-%e4%bc%9a%e8%ae%a1%e6%a8%a1%e5%9d%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>完整的财务管理系统概述。&lt;/p>
-&lt;p>关键功能：&lt;/p>
-&lt;ul>
-&lt;li>会计科目表设置&lt;/li>
-&lt;li>日记账分录&lt;/li>
-&lt;li>财务报告&lt;/li>
-&lt;li>银行对账&lt;/li>
-&lt;li>多币种处理&lt;/li>
-&lt;li>税务合规&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://docs.google.com/presentation/d/1ybYhXEBNS4wkhqzEvz7K_gpdm0SUBmyhvniJkg4XZwI/edit#slide=id.g25ede371b18_0_0" target="_blank" rel="noopener">查看会计演示文稿&lt;/a>&lt;/p>
-&lt;h4>🛍️ 销售点&lt;span class="hx:absolute hx:-mt-20" id="-销售点">&lt;/span>
-&lt;a href="#-%e9%94%80%e5%94%ae%e7%82%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>卓越零售的现代POS解决方案。&lt;/p>
-&lt;p>亮点：&lt;/p>
-&lt;ul>
-&lt;li>终端设置&lt;/li>
-&lt;li>产品管理&lt;/li>
-&lt;li>促销引擎&lt;/li>
-&lt;li>付款方式&lt;/li>
-&lt;li>客户忠诚度&lt;/li>
-&lt;li>分析仪表板&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://docs.google.com/presentation/d/1meJZyP_Ue87wEiGaxjtad3KmxhG1moJUZ3_jQ4SVLWc/edit#slide=id.p1" target="_blank" rel="noopener">查看POS演示文稿&lt;/a>&lt;/p>
-&lt;h4>🌐 电子商务平台&lt;span class="hx:absolute hx:-mt-20" id="-电子商务平台">&lt;/span>
-&lt;a href="#-%e7%94%b5%e5%ad%90%e5%95%86%e5%8a%a1%e5%b9%b3%e5%8f%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>全面的电子商务和市场解决方案。&lt;/p>
-&lt;p>覆盖范围：&lt;/p>
-&lt;ul>
-&lt;li>商店设置&lt;/li>
-&lt;li>产品目录&lt;/li>
-&lt;li>购物车&lt;/li>
-&lt;li>支付网关&lt;/li>
-&lt;li>市场集成&lt;/li>
-&lt;li>订单履行&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://docs.google.com/presentation/d/1agVrwrKQV2x3qTT5lLWxXNxzNhvBTgalcxqDAPO8loM/edit#slide=id.gbc0b1cd0c5_1_0" target="_blank" rel="noopener">查看电子商务演示文稿&lt;/a>&lt;/p>
-&lt;h4>📞 CRM和统一联络中心&lt;span class="hx:absolute hx:-mt-20" id="-crm和统一联络中心">&lt;/span>
-&lt;a href="#-crm%e5%92%8c%e7%bb%9f%e4%b8%80%e8%81%94%e7%bb%9c%e4%b8%ad%e5%bf%83" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>智能客户关系管理。&lt;/p>
-&lt;p>功能：&lt;/p>
-&lt;ul>
-&lt;li>客户360度视图&lt;/li>
-&lt;li>线索管理&lt;/li>
-&lt;li>销售管道&lt;/li>
-&lt;li>联络中心操作&lt;/li>
-&lt;li>AI驱动洞察&lt;/li>
-&lt;li>全渠道支持&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://docs.google.com/presentation/d/1DWItZCNdrXTFnD12BLC02oWC5sL2ISPqiTy37Frl7Sc/edit#slide=id.g25c089a8be4_2_83" target="_blank" rel="noopener">查看CRM/UCC演示文稿&lt;/a>&lt;/p>
-&lt;h4>🛒 采购模块&lt;span class="hx:absolute hx:-mt-20" id="-采购模块">&lt;/span>
-&lt;a href="#-%e9%87%87%e8%b4%ad%e6%a8%a1%e5%9d%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>简化采购和供应商管理。&lt;/p>
-&lt;p>主题：&lt;/p>
-&lt;ul>
-&lt;li>采购申请&lt;/li>
-&lt;li>供应商管理&lt;/li>
-&lt;li>RFQ流程&lt;/li>
-&lt;li>采购订单&lt;/li>
-&lt;li>货物收据&lt;/li>
-&lt;li>发票匹配&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://docs.google.com/presentation/d/1TLginU0YaLGB8TN8uSWdjZtIaHnfUNFFWKhfDztIqIc/edit#slide=id.g30c35ef4581_0_214" target="_blank" rel="noopener">查看采购演示文稿&lt;/a>&lt;/p>
-&lt;h4>📊 数据智能模块&lt;span class="hx:absolute hx:-mt-20" id="-数据智能模块">&lt;/span>
-&lt;a href="#-%e6%95%b0%e6%8d%ae%e6%99%ba%e8%83%bd%e6%a8%a1%e5%9d%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>将数据转化为可操作的洞察。&lt;/p>
-&lt;p>能力：&lt;/p>
-&lt;ul>
-&lt;li>数据集成&lt;/li>
-&lt;li>实时分析&lt;/li>
-&lt;li>自定义仪表板&lt;/li>
-&lt;li>预测分析&lt;/li>
-&lt;li>报表构建器&lt;/li>
-&lt;li>KPI监控&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://docs.google.com/presentation/d/1wGm5iQUEBEDeIOgEwDb-dZs5GOLwJlwtrZ19G875qUs/edit#slide=id.p1" target="_blank" rel="noopener">查看DI模块演示文稿&lt;/a>&lt;/p>
-&lt;h4>📦 仓库管理&lt;span class="hx:absolute hx:-mt-20" id="-仓库管理">&lt;/span>
-&lt;a href="#-%e4%bb%93%e5%ba%93%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>优化仓库运营。&lt;/p>
-&lt;p>功能：&lt;/p>
-&lt;ul>
-&lt;li>收货和上架&lt;/li>
-&lt;li>拣货和包装&lt;/li>
-&lt;li>库存跟踪&lt;/li>
-&lt;li>循环盘点&lt;/li>
-&lt;li>调拨管理&lt;/li>
-&lt;li>绩效指标&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://docs.google.com/presentation/d/15zCjrGjvlzYbEfD8EWWXeJiDk-VBACLG/edit#slide=id.p11" target="_blank" rel="noopener">查看WMS演示文稿&lt;/a>&lt;/p>
-&lt;h4>📄 电子发票解决方案&lt;span class="hx:absolute hx:-mt-20" id="-电子发票解决方案">&lt;/span>
-&lt;a href="#-%e7%94%b5%e5%ad%90%e5%8f%91%e7%a5%a8%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>完整的电子发票和PEPPOL合规。&lt;/p>
-&lt;p>覆盖范围：&lt;/p>
-&lt;ul>
-&lt;li>MyInvois集成&lt;/li>
-&lt;li>PEPPOL标准&lt;/li>
-&lt;li>配置步骤&lt;/li>
-&lt;li>验证规则&lt;/li>
-&lt;li>提交流程&lt;/li>
-&lt;li>合规报告&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://docs.google.com/presentation/d/1ME-PLMvxTKRvze1jmXvsqAoidAN-qgcOmbwHyBo0AcM/edit#slide=id.g27c9e84bfc5_2_242" target="_blank" rel="noopener">查看电子发票演示文稿&lt;/a>&lt;/p>
-&lt;h2>其他资源&lt;span class="hx:absolute hx:-mt-20" id="其他资源">&lt;/span>
-&lt;a href="#%e5%85%b6%e4%bb%96%e8%b5%84%e6%ba%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>📚 文档&lt;span class="hx:absolute hx:-mt-20" id="-文档">&lt;/span>
-&lt;a href="#-%e6%96%87%e6%a1%a3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>入门指南&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.bigledger.com/zh/user-guide/" >平台设置指南&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.bigledger.com/zh/modules/" >模块配置&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.bigledger.com/zh/developers/" >集成手册&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.bigledger.com/zh/guides/" >最佳实践&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>技术文档&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.bigledger.com/zh/developers/api-reference/" >API参考&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.bigledger.com/zh/developers/" >数据字典&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.bigledger.com/zh/developers/" >安全指南&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.bigledger.com/zh/developers/" >性能调优&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3>🎓 培训材料&lt;span class="hx:absolute hx:-mt-20" id="-培训材料">&lt;/span>
-&lt;a href="#-%e5%9f%b9%e8%ae%ad%e6%9d%90%e6%96%99" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>视频教程&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>平台基础(2小时)&lt;/li>
-&lt;li>模块深入探讨(每个1小时)&lt;/li>
-&lt;li>集成研讨会&lt;/li>
-&lt;li>管理员培训&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>认证计划&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>BigLedger认证用户&lt;/li>
-&lt;li>BigLedger管理员&lt;/li>
-&lt;li>BigLedger开发者&lt;/li>
-&lt;li>实施专家&lt;/li>
-&lt;/ul>
-&lt;h3>🔧 工具和实用程序&lt;span class="hx:absolute hx:-mt-20" id="-工具和实用程序">&lt;/span>
-&lt;a href="#-%e5%b7%a5%e5%85%b7%e5%92%8c%e5%ae%9e%e7%94%a8%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>下载中心&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>数据导入模板&lt;/li>
-&lt;li>报表模板&lt;/li>
-&lt;li>配置工具&lt;/li>
-&lt;li>移动应用程序&lt;/li>
-&lt;li>浏览器扩展&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>测试资源&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>沙盒环境访问&lt;/li>
-&lt;li>样本数据集&lt;/li>
-&lt;li>测试场景&lt;/li>
-&lt;li>验证工具&lt;/li>
-&lt;/ul>
-&lt;h3>📰 最新更新&lt;span class="hx:absolute hx:-mt-20" id="-最新更新">&lt;/span>
-&lt;a href="#-%e6%9c%80%e6%96%b0%e6%9b%b4%e6%96%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>新闻和公告&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.businesstoday.com.my/2024/07/20/bigledger-now-a-mdec-fully-accredited-peppol-service-provider-ahead-of-myinvois-initiative/" target="_blank" rel="noopener">BigLedger获得MDEC PEPPOL认证&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.malaysian-business.com/index.php/wordpress/item/9699-bigledger-data-hubs-and-erp-integration-drive-sustainable-business-evolution-ideal-for-myinvois" target="_blank" rel="noopener">数据枢纽推动业务发展&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.bizvantage360.com/bigledger-stresses-on-data-efficiency-for-growth/" target="_blank" rel="noopener">专注数据效率促进增长&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>产品更新&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>MyInvois第二阶段准备&lt;/li>
-&lt;li>新的AI功能&lt;/li>
-&lt;li>增强的移动功能&lt;/li>
-&lt;li>性能改进&lt;/li>
-&lt;/ul>
-&lt;h2>安排个性化演示&lt;span class="hx:absolute hx:-mt-20" id="安排个性化演示">&lt;/span>
-&lt;a href="#%e5%ae%89%e6%8e%92%e4%b8%aa%e6%80%a7%e5%8c%96%e6%bc%94%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>现场演示会话&lt;span class="hx:absolute hx:-mt-20" id="现场演示会话">&lt;/span>
-&lt;a href="#%e7%8e%b0%e5%9c%ba%e6%bc%94%e7%a4%ba%e4%bc%9a%e8%af%9d" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>通过个性化演示体验BigLedger：&lt;/p>
-&lt;p>&lt;strong>包含内容：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>60分钟现场会话&lt;/li>
-&lt;li>您的业务场景&lt;/li>
-&lt;li>与专家问答&lt;/li>
-&lt;li>实施路线图&lt;/li>
-&lt;li>ROI评估&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>演示选项：&lt;/strong>&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>执行概述&lt;/strong> - 高级平台导览&lt;/li>
-&lt;li>&lt;strong>模块深入探讨&lt;/strong> - 详细模块探索&lt;/li>
-&lt;li>&lt;strong>集成重点&lt;/strong> - API和连接性&lt;/li>
-&lt;li>&lt;strong>行业特定&lt;/strong> - 针对您的行业定制&lt;/li>
-&lt;/ol>
-&lt;h3>请求您的演示&lt;span class="hx:absolute hx:-mt-20" id="请求您的演示">&lt;/span>
-&lt;a href="#%e8%af%b7%e6%b1%82%e6%82%a8%e7%9a%84%e6%bc%94%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>填写我们的演示请求表：&lt;/p>
-&lt;ul>
-&lt;li>公司名称&lt;/li>
-&lt;li>行业&lt;/li>
-&lt;li>公司规模&lt;/li>
-&lt;li>当前系统&lt;/li>
-&lt;li>关键要求&lt;/li>
-&lt;li>首选日期/时间&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://www.bigledger.com/zh/demos-resources/" >立即安排演示&lt;/a> | &lt;a href="mailto:sales@bigledger.com" >联系销售&lt;/a>&lt;/p>
-&lt;h2>客户成功案例&lt;span class="hx:absolute hx:-mt-20" id="客户成功案例">&lt;/span>
-&lt;a href="#%e5%ae%a2%e6%88%b7%e6%88%90%e5%8a%9f%e6%a1%88%e4%be%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>🏪 零售连锁店&lt;span class="hx:absolute hx:-mt-20" id="-零售连锁店">&lt;/span>
-&lt;a href="#-%e9%9b%b6%e5%94%ae%e8%bf%9e%e9%94%81%e5%ba%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>挑战：&lt;/strong> 500家网点的手动流程
-&lt;strong>解决方案：&lt;/strong> POS + 电子发票 + 库存
-&lt;strong>结果：&lt;/strong> 效率提升90%&lt;/p>
-&lt;h3>🏭 制造公司&lt;span class="hx:absolute hx:-mt-20" id="-制造公司">&lt;/span>
-&lt;a href="#-%e5%88%b6%e9%80%a0%e5%85%ac%e5%8f%b8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>挑战：&lt;/strong> 复杂的生产规划
-&lt;strong>解决方案：&lt;/strong> 制造 + WMS + 采购
-&lt;strong>结果：&lt;/strong> 交付时间减少40%&lt;/p>
-&lt;h3>📦 分销业务&lt;span class="hx:absolute hx:-mt-20" id="-分销业务">&lt;/span>
-&lt;a href="#-%e5%88%86%e9%94%80%e4%b8%9a%e5%8a%a1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>挑战：&lt;/strong> 多渠道订单管理
-&lt;strong>解决方案：&lt;/strong> 电子商务 + WMS + CRM
-&lt;strong>结果：&lt;/strong> 订单处理能力提升3倍&lt;/p>
-&lt;h2>支持资源&lt;span class="hx:absolute hx:-mt-20" id="支持资源">&lt;/span>
-&lt;a href="#%e6%94%af%e6%8c%81%e8%b5%84%e6%ba%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>📞 获取帮助&lt;span class="hx:absolute hx:-mt-20" id="-获取帮助">&lt;/span>
-&lt;a href="#-%e8%8e%b7%e5%8f%96%e5%b8%ae%e5%8a%a9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>支持渠道：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>24/7帮助台：support@bigledger.com&lt;/li>
-&lt;li>电话：+60 3-xxxx xxxx&lt;/li>
-&lt;li>在线聊天：平台上可用&lt;/li>
-&lt;li>社区论坛：forum.bigledger.com&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>响应时间：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>关键：1小时&lt;/li>
-&lt;li>高：4小时&lt;/li>
-&lt;li>正常：24小时&lt;/li>
-&lt;li>低：48小时&lt;/li>
-&lt;/ul>
-&lt;h3>🤝 专业服务&lt;span class="hx:absolute hx:-mt-20" id="-专业服务">&lt;/span>
-&lt;a href="#-%e4%b8%93%e4%b8%9a%e6%9c%8d%e5%8a%a1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>实施服务&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>项目管理&lt;/li>
-&lt;li>系统配置&lt;/li>
-&lt;li>数据迁移&lt;/li>
-&lt;li>集成开发&lt;/li>
-&lt;li>用户培训&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>咨询服务&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>业务流程优化&lt;/li>
-&lt;li>变更管理&lt;/li>
-&lt;li>自定义开发&lt;/li>
-&lt;li>性能优化&lt;/li>
-&lt;li>合规咨询&lt;/li>
-&lt;/ul>
-&lt;h2>保持联系&lt;span class="hx:absolute hx:-mt-20" id="保持联系">&lt;/span>
-&lt;a href="#%e4%bf%9d%e6%8c%81%e8%81%94%e7%b3%bb" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>关注我们&lt;span class="hx:absolute hx:-mt-20" id="关注我们">&lt;/span>
-&lt;a href="#%e5%85%b3%e6%b3%a8%e6%88%91%e4%bb%ac" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>LinkedIn：&lt;a href="https://linkedin.com/company/bigledger" target="_blank" rel="noopener">BigLedger Malaysia&lt;/a>&lt;/li>
-&lt;li>Facebook：&lt;a href="https://facebook.com/bigledger" target="_blank" rel="noopener">BigLedger&lt;/a>&lt;/li>
-&lt;li>YouTube：&lt;a href="https://youtube.com/bigledger" target="_blank" rel="noopener">BigLedger频道&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3>订阅更新&lt;span class="hx:absolute hx:-mt-20" id="订阅更新">&lt;/span>
-&lt;a href="#%e8%ae%a2%e9%98%85%e6%9b%b4%e6%96%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>产品新闻通讯&lt;/li>
-&lt;li>网络研讨会邀请&lt;/li>
-&lt;li>行业洞察&lt;/li>
-&lt;li>监管更新&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://www.bigledger.com/zh/demos-resources/" >立即订阅&lt;/a>&lt;/p>
-&lt;hr>
-&lt;p>&lt;em>BigLedger - 通过数据驱动的卓越赋能马来西亚企业&lt;/em>&lt;/p></description></item></channel></rss>
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;跨模块AI功能&lt;span class="hx:absolute hx:-mt-20" id="跨模块ai功能"&gt;&lt;/span&gt;
+&lt;a href="#%e8%b7%a8%e6%a8%a1%e5%9d%97ai%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;财务管理&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;智能会计分录建议&lt;/li&gt;
+&lt;li&gt;异常交易检测&lt;/li&gt;
+&lt;li&gt;现金流预测&lt;/li&gt;
+&lt;li&gt;信用风险评估&lt;/li&gt;
+&lt;li&gt;自动对账&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;销售与营销&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;线索评分和优先级排序&lt;/li&gt;
+&lt;li&gt;销售机会预测&lt;/li&gt;
+&lt;li&gt;客户细分和定位&lt;/li&gt;
+&lt;li&gt;价格优化建议&lt;/li&gt;
+&lt;li&gt;促销效果分析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;库存管理&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;需求预测和计划&lt;/li&gt;
+&lt;li&gt;安全库存优化&lt;/li&gt;
+&lt;li&gt;滞销品识别&lt;/li&gt;
+&lt;li&gt;采购时机建议&lt;/li&gt;
+&lt;li&gt;供应商表现评估&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;客户服务&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;智能工单分配&lt;/li&gt;
+&lt;li&gt;客户情绪分析&lt;/li&gt;
+&lt;li&gt;响应时间优化&lt;/li&gt;
+&lt;li&gt;解决方案推荐&lt;/li&gt;
+&lt;li&gt;满意度预测&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🛠️ AI配置和自定义&lt;span class="hx:absolute hx:-mt-20" id="-ai配置和自定义"&gt;&lt;/span&gt;
+&lt;a href="#-ai%e9%85%8d%e7%bd%ae%e5%92%8c%e8%87%aa%e5%ae%9a%e4%b9%89" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;机器学习模型管理&lt;span class="hx:absolute hx:-mt-20" id="机器学习模型管理"&gt;&lt;/span&gt;
+&lt;a href="#%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0%e6%a8%a1%e5%9e%8b%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;预建模型&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;销售预测模型&lt;/li&gt;
+&lt;li&gt;客户流失预测&lt;/li&gt;
+&lt;li&gt;欺诈检测模型&lt;/li&gt;
+&lt;li&gt;库存优化模型&lt;/li&gt;
+&lt;li&gt;价格推荐模型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;自定义模型&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;业务特定算法&lt;/li&gt;
+&lt;li&gt;行业适配模型&lt;/li&gt;
+&lt;li&gt;本地化调整&lt;/li&gt;
+&lt;li&gt;实时学习更新&lt;/li&gt;
+&lt;li&gt;A/B测试支持&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;模型监控&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;准确性跟踪&lt;/li&gt;
+&lt;li&gt;性能基准测试&lt;/li&gt;
+&lt;li&gt;漂移检测&lt;/li&gt;
+&lt;li&gt;自动重训练&lt;/li&gt;
+&lt;li&gt;结果验证&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AI数据管理&lt;span class="hx:absolute hx:-mt-20" id="ai数据管理"&gt;&lt;/span&gt;
+&lt;a href="#ai%e6%95%b0%e6%8d%ae%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;数据准备&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自动数据清理&lt;/li&gt;
+&lt;li&gt;特征工程&lt;/li&gt;
+&lt;li&gt;数据质量评估&lt;/li&gt;
+&lt;li&gt;缺失值处理&lt;/li&gt;
+&lt;li&gt;异常值检测&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;数据治理&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;数据血缘追踪&lt;/li&gt;
+&lt;li&gt;隐私保护合规&lt;/li&gt;
+&lt;li&gt;访问控制管理&lt;/li&gt;
+&lt;li&gt;审计日志记录&lt;/li&gt;
+&lt;li&gt;数据版本控制&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📊 AI分析和洞察&lt;span class="hx:absolute hx:-mt-20" id="-ai分析和洞察"&gt;&lt;/span&gt;
+&lt;a href="#-ai%e5%88%86%e6%9e%90%e5%92%8c%e6%b4%9e%e5%af%9f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;智能仪表板&lt;span class="hx:absolute hx:-mt-20" id="智能仪表板"&gt;&lt;/span&gt;
+&lt;a href="#%e6%99%ba%e8%83%bd%e4%bb%aa%e8%a1%a8%e6%9d%bf" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;执行层面板&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;KPI趋势预测&lt;/li&gt;
+&lt;li&gt;业务健康评分&lt;/li&gt;
+&lt;li&gt;风险指标监控&lt;/li&gt;
+&lt;li&gt;机会识别&lt;/li&gt;
+&lt;li&gt;战略建议&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;运营监控&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;实时性能指标&lt;/li&gt;
+&lt;li&gt;异常预警&lt;/li&gt;
+&lt;li&gt;流程效率分析&lt;/li&gt;
+&lt;li&gt;资源利用监控&lt;/li&gt;
+&lt;li&gt;质量指标跟踪&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;财务洞察&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;收入预测&lt;/li&gt;
+&lt;li&gt;成本分析&lt;/li&gt;
+&lt;li&gt;利润优化机会&lt;/li&gt;
+&lt;li&gt;现金流管理&lt;/li&gt;
+&lt;li&gt;投资回报分析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;预测报告&lt;span class="hx:absolute hx:-mt-20" id="预测报告"&gt;&lt;/span&gt;
+&lt;a href="#%e9%a2%84%e6%b5%8b%e6%8a%a5%e5%91%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;业务预测&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;销售业绩预测&lt;/li&gt;
+&lt;li&gt;市场需求分析&lt;/li&gt;
+&lt;li&gt;竞争态势评估&lt;/li&gt;
+&lt;li&gt;增长机会识别&lt;/li&gt;
+&lt;li&gt;风险评估报告&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;运营预测&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;产能需求预测&lt;/li&gt;
+&lt;li&gt;库存需求计划&lt;/li&gt;
+&lt;li&gt;人力资源需求&lt;/li&gt;
+&lt;li&gt;维护计划优化&lt;/li&gt;
+&lt;li&gt;成本节约机会&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🚀 实施路径&lt;span class="hx:absolute hx:-mt-20" id="-实施路径"&gt;&lt;/span&gt;
+&lt;a href="#-%e5%ae%9e%e6%96%bd%e8%b7%af%e5%be%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;第一阶段：评估和规划(第1-2周)&lt;span class="hx:absolute hx:-mt-20" id="第一阶段评估和规划第1-2周"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ac%ac%e4%b8%80%e9%98%b6%e6%ae%b5%e8%af%84%e4%bc%b0%e5%92%8c%e8%a7%84%e5%88%92%e7%ac%ac1-2%e5%91%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;业务评估&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;当前流程分析&lt;/li&gt;
+&lt;li&gt;数据质量评估&lt;/li&gt;
+&lt;li&gt;AI应用场景识别&lt;/li&gt;
+&lt;li&gt;ROI潜力评估&lt;/li&gt;
+&lt;li&gt;技术可行性研究&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;策略制定&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AI应用优先级排序&lt;/li&gt;
+&lt;li&gt;实施路径规划&lt;/li&gt;
+&lt;li&gt;资源需求评估&lt;/li&gt;
+&lt;li&gt;风险缓解计划&lt;/li&gt;
+&lt;li&gt;成功指标定义&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;第二阶段：基础设施准备(第3-4周)&lt;span class="hx:absolute hx:-mt-20" id="第二阶段基础设施准备第3-4周"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ac%ac%e4%ba%8c%e9%98%b6%e6%ae%b5%e5%9f%ba%e7%a1%80%e8%ae%be%e6%96%bd%e5%87%86%e5%a4%87%e7%ac%ac3-4%e5%91%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;数据准备&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;数据仓库设置&lt;/li&gt;
+&lt;li&gt;数据集成配置&lt;/li&gt;
+&lt;li&gt;数据清理和标准化&lt;/li&gt;
+&lt;li&gt;安全配置&lt;/li&gt;
+&lt;li&gt;备份和恢复设置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;平台配置&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AI引擎部署&lt;/li&gt;
+&lt;li&gt;模型库设置&lt;/li&gt;
+&lt;li&gt;API配置&lt;/li&gt;
+&lt;li&gt;用户权限配置&lt;/li&gt;
+&lt;li&gt;监控系统设置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;第三阶段：模型部署(第5-6周)&lt;span class="hx:absolute hx:-mt-20" id="第三阶段模型部署第5-6周"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5%e6%a8%a1%e5%9e%8b%e9%83%a8%e7%bd%b2%e7%ac%ac5-6%e5%91%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;预建模型实施&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;标准模型配置&lt;/li&gt;
+&lt;li&gt;业务规则集成&lt;/li&gt;
+&lt;li&gt;参数调优&lt;/li&gt;
+&lt;li&gt;测试和验证&lt;/li&gt;
+&lt;li&gt;性能优化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;自定义开发&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;特定需求分析&lt;/li&gt;
+&lt;li&gt;算法选择和调优&lt;/li&gt;
+&lt;li&gt;模型训练&lt;/li&gt;
+&lt;li&gt;验证测试&lt;/li&gt;
+&lt;li&gt;部署准备&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;第四阶段：用户培训和推广(第7-8周)&lt;span class="hx:absolute hx:-mt-20" id="第四阶段用户培训和推广第7-8周"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ac%ac%e5%9b%9b%e9%98%b6%e6%ae%b5%e7%94%a8%e6%88%b7%e5%9f%b9%e8%ae%ad%e5%92%8c%e6%8e%a8%e5%b9%bf%e7%ac%ac7-8%e5%91%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;培训计划&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用户角色培训&lt;/li&gt;
+&lt;li&gt;系统操作培训&lt;/li&gt;
+&lt;li&gt;AI洞察解读培训&lt;/li&gt;
+&lt;li&gt;故障排除培训&lt;/li&gt;
+&lt;li&gt;最佳实践分享&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;推广策略&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;试点部门选择&lt;/li&gt;
+&lt;li&gt;反馈收集机制&lt;/li&gt;
+&lt;li&gt;持续改进流程&lt;/li&gt;
+&lt;li&gt;成功案例分享&lt;/li&gt;
+&lt;li&gt;全面推广计划&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;💡 AI最佳实践&lt;span class="hx:absolute hx:-mt-20" id="-ai最佳实践"&gt;&lt;/span&gt;
+&lt;a href="#-ai%e6%9c%80%e4%bd%b3%e5%ae%9e%e8%b7%b5" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;数据质量管理&lt;span class="hx:absolute hx:-mt-20" id="数据质量管理"&gt;&lt;/span&gt;
+&lt;a href="#%e6%95%b0%e6%8d%ae%e8%b4%a8%e9%87%8f%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;数据完整性&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;定期数据审核&lt;/li&gt;
+&lt;li&gt;缺失数据处理&lt;/li&gt;
+&lt;li&gt;重复数据清理&lt;/li&gt;
+&lt;li&gt;一致性检查&lt;/li&gt;
+&lt;li&gt;及时数据更新&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;数据安全&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;加密存储传输&lt;/li&gt;
+&lt;li&gt;访问权限控制&lt;/li&gt;
+&lt;li&gt;审计日志记录&lt;/li&gt;
+&lt;li&gt;隐私保护合规&lt;/li&gt;
+&lt;li&gt;安全备份策略&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;模型管理&lt;span class="hx:absolute hx:-mt-20" id="模型管理"&gt;&lt;/span&gt;
+&lt;a href="#%e6%a8%a1%e5%9e%8b%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;性能监控&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;准确性跟踪&lt;/li&gt;
+&lt;li&gt;响应时间监控&lt;/li&gt;
+&lt;li&gt;资源使用情况&lt;/li&gt;
+&lt;li&gt;用户满意度测量&lt;/li&gt;
+&lt;li&gt;业务影响评估&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;持续改进&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;定期模型重训练&lt;/li&gt;
+&lt;li&gt;新数据整合&lt;/li&gt;
+&lt;li&gt;算法优化&lt;/li&gt;
+&lt;li&gt;反馈整合&lt;/li&gt;
+&lt;li&gt;版本控制管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📈 ROI和成功指标&lt;span class="hx:absolute hx:-mt-20" id="-roi和成功指标"&gt;&lt;/span&gt;
+&lt;a href="#-roi%e5%92%8c%e6%88%90%e5%8a%9f%e6%8c%87%e6%a0%87" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;量化收益&lt;span class="hx:absolute hx:-mt-20" id="量化收益"&gt;&lt;/span&gt;
+&lt;a href="#%e9%87%8f%e5%8c%96%e6%94%b6%e7%9b%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;效率提升&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;处理时间减少80%&lt;/li&gt;
+&lt;li&gt;人工错误减少95%&lt;/li&gt;
+&lt;li&gt;决策速度提升3倍&lt;/li&gt;
+&lt;li&gt;资源利用率提高40%&lt;/li&gt;
+&lt;li&gt;客户满意度提升25%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;成本节约&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;运营成本减少30%&lt;/li&gt;
+&lt;li&gt;人工成本节省50%&lt;/li&gt;
+&lt;li&gt;错误修复成本减少90%&lt;/li&gt;
+&lt;li&gt;库存持有成本优化20%&lt;/li&gt;
+&lt;li&gt;合规成本降低60%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;收入增长&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;销售预测准确性提升85%&lt;/li&gt;
+&lt;li&gt;客户保留率增加35%&lt;/li&gt;
+&lt;li&gt;交叉销售机会增加45%&lt;/li&gt;
+&lt;li&gt;新客户获取成本降低25%&lt;/li&gt;
+&lt;li&gt;定价优化带来15%收入增长&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;成功案例&lt;span class="hx:absolute hx:-mt-20" id="成功案例"&gt;&lt;/span&gt;
+&lt;a href="#%e6%88%90%e5%8a%9f%e6%a1%88%e4%be%8b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;制造企业&lt;span class="hx:absolute hx:-mt-20" id="制造企业"&gt;&lt;/span&gt;
+&lt;a href="#%e5%88%b6%e9%80%a0%e4%bc%81%e4%b8%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;挑战&lt;/strong&gt;：复杂的需求预测和生产计划
+&lt;strong&gt;解决方案&lt;/strong&gt;：AI预测分析和优化算法
+&lt;strong&gt;结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;预测准确性提升70%&lt;/li&gt;
+&lt;li&gt;库存成本减少25%&lt;/li&gt;
+&lt;li&gt;客户满意度提升40%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;零售连锁店&lt;span class="hx:absolute hx:-mt-20" id="零售连锁店"&gt;&lt;/span&gt;
+&lt;a href="#%e9%9b%b6%e5%94%ae%e8%bf%9e%e9%94%81%e5%ba%97" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;挑战&lt;/strong&gt;：多渠道库存管理和定价优化
+&lt;strong&gt;解决方案&lt;/strong&gt;：智能库存和动态定价系统
+&lt;strong&gt;结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;库存周转率提高50%&lt;/li&gt;
+&lt;li&gt;毛利率提升12%&lt;/li&gt;
+&lt;li&gt;缺货率减少80%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;服务公司&lt;span class="hx:absolute hx:-mt-20" id="服务公司"&gt;&lt;/span&gt;
+&lt;a href="#%e6%9c%8d%e5%8a%a1%e5%85%ac%e5%8f%b8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;挑战&lt;/strong&gt;：客户服务效率和质量提升
+&lt;strong&gt;解决方案&lt;/strong&gt;：AI客服和智能工单系统
+&lt;strong&gt;结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;响应时间缩短60%&lt;/li&gt;
+&lt;li&gt;客户满意度提升30%&lt;/li&gt;
+&lt;li&gt;服务成本减少35%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🔧 技术规格&lt;span class="hx:absolute hx:-mt-20" id="-技术规格"&gt;&lt;/span&gt;
+&lt;a href="#-%e6%8a%80%e6%9c%af%e8%a7%84%e6%a0%bc" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;AI引擎要求&lt;span class="hx:absolute hx:-mt-20" id="ai引擎要求"&gt;&lt;/span&gt;
+&lt;a href="#ai%e5%bc%95%e6%93%8e%e8%a6%81%e6%b1%82" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;计算资源&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GPU加速支持&lt;/li&gt;
+&lt;li&gt;分布式计算能力&lt;/li&gt;
+&lt;li&gt;弹性扩展架构&lt;/li&gt;
+&lt;li&gt;高可用性保证&lt;/li&gt;
+&lt;li&gt;实时处理能力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;数据处理&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;大数据分析平台&lt;/li&gt;
+&lt;li&gt;实时流处理&lt;/li&gt;
+&lt;li&gt;批处理优化&lt;/li&gt;
+&lt;li&gt;多源数据整合&lt;/li&gt;
+&lt;li&gt;增量更新支持&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;集成能力&lt;span class="hx:absolute hx:-mt-20" id="集成能力"&gt;&lt;/span&gt;
+&lt;a href="#%e9%9b%86%e6%88%90%e8%83%bd%e5%8a%9b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;API接口&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;RESTful API&lt;/li&gt;
+&lt;li&gt;GraphQL支持&lt;/li&gt;
+&lt;li&gt;实时WebSocket&lt;/li&gt;
+&lt;li&gt;批量数据接口&lt;/li&gt;
+&lt;li&gt;事件驱动架构&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;第三方集成&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;主流ERP系统&lt;/li&gt;
+&lt;li&gt;CRM平台&lt;/li&gt;
+&lt;li&gt;电商系统&lt;/li&gt;
+&lt;li&gt;支付网关&lt;/li&gt;
+&lt;li&gt;云服务平台&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;开始使用AI智能解决方案&lt;span class="hx:absolute hx:-mt-20" id="开始使用ai智能解决方案"&gt;&lt;/span&gt;
+&lt;a href="#%e5%bc%80%e5%a7%8b%e4%bd%bf%e7%94%a8ai%e6%99%ba%e8%83%bd%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;快速启动&lt;span class="hx:absolute hx:-mt-20" id="快速启动"&gt;&lt;/span&gt;
+&lt;a href="#%e5%bf%ab%e9%80%9f%e5%90%af%e5%8a%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;评估需求&lt;/strong&gt;：识别AI应用场景&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据准备&lt;/strong&gt;：整理和清理业务数据&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;配置系统&lt;/strong&gt;：设置AI引擎和模型&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;培训团队&lt;/strong&gt;：提供AI工具使用培训&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;监控优化&lt;/strong&gt;：持续监控和改进性能&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;专家咨询&lt;span class="hx:absolute hx:-mt-20" id="专家咨询"&gt;&lt;/span&gt;
+&lt;a href="#%e4%b8%93%e5%ae%b6%e5%92%a8%e8%af%a2" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;我们的AI专家团队可以帮助您：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;识别最佳AI应用场景&lt;/li&gt;
+&lt;li&gt;制定实施策略&lt;/li&gt;
+&lt;li&gt;设计自定义解决方案&lt;/li&gt;
+&lt;li&gt;提供技术支持&lt;/li&gt;
+&lt;li&gt;确保项目成功&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://www.bigledger.com/zh/demos-resources/" &gt;预约AI咨询&lt;/a&gt; | &lt;a href="https://www.bigledger.com/zh/demos-resources/" &gt;查看演示&lt;/a&gt; | &lt;a href="https://www.bigledger.com/zh/ai-intelligence/" &gt;下载指南&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;BigLedger - 用AI智能驱动业务增长&lt;/em&gt;&lt;/p&gt;</description></item><item><title>演示与资源</title><link>https://www.bigledger.com/zh/demos-resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/demos-resources/</guid><description>
+&lt;p&gt;通过我们全面的演示视频和演示材料体验BigLedger的功能。&lt;/p&gt;
+&lt;h2&gt;视频演示&lt;span class="hx:absolute hx:-mt-20" id="视频演示"&gt;&lt;/span&gt;
+&lt;a href="#%e8%a7%86%e9%a2%91%e6%bc%94%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;🛒 销售点演示&lt;span class="hx:absolute hx:-mt-20" id="-销售点演示"&gt;&lt;/span&gt;
+&lt;a href="#-%e9%94%80%e5%94%ae%e7%82%b9%e6%bc%94%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;观看我们为零售和餐饮企业设计的现代POS系统的实际操作。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;您将看到：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;多网点配置&lt;/li&gt;
+&lt;li&gt;实时库存更新&lt;/li&gt;
+&lt;li&gt;客户管理&lt;/li&gt;
+&lt;li&gt;付款处理&lt;/li&gt;
+&lt;li&gt;结账时电子发票生成&lt;/li&gt;
+&lt;li&gt;销售分析仪表板&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/file/d/1rXo1-n2tb2UTs09D52ae4wuQl1nspZEP/view?usp=sharing" target="_blank" rel="noopener"&gt;观看POS演示&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;📄 电子发票配置和PEPPOL-ID&lt;span class="hx:absolute hx:-mt-20" id="-电子发票配置和peppol-id"&gt;&lt;/span&gt;
+&lt;a href="#-%e7%94%b5%e5%ad%90%e5%8f%91%e7%a5%a8%e9%85%8d%e7%bd%ae%e5%92%8cpeppol-id" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;了解如何配置电子发票和设置您的PEPPOL标识符。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;涵盖的主题：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PEPPOL-ID注册&lt;/li&gt;
+&lt;li&gt;MyInvois配置&lt;/li&gt;
+&lt;li&gt;税务设置配置&lt;/li&gt;
+&lt;li&gt;发票模板自定义&lt;/li&gt;
+&lt;li&gt;验证规则配置&lt;/li&gt;
+&lt;li&gt;测试和上线流程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/file/d/1-yBzaXhODKNo9CKXKVlrd5HPT8cbilWJ/view?usp=sharing" target="_blank" rel="noopener"&gt;观看电子发票配置&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;🔗 完整集成演示&lt;span class="hx:absolute hx:-mt-20" id="-完整集成演示"&gt;&lt;/span&gt;
+&lt;a href="#-%e5%ae%8c%e6%95%b4%e9%9b%86%e6%88%90%e6%bc%94%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;了解电子发票、CP-Commerce和UCC如何无缝协作。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;集成点：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;电子商务到电子发票流程&lt;/li&gt;
+&lt;li&gt;客户门户集成&lt;/li&gt;
+&lt;li&gt;统一联络中心连接&lt;/li&gt;
+&lt;li&gt;实时数据同步&lt;/li&gt;
+&lt;li&gt;跨模块工作流程&lt;/li&gt;
+&lt;li&gt;集中报告&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/file/d/1x8qyOpULZSGwp_NsIV7ICAPQWSlnh-c7/view" target="_blank" rel="noopener"&gt;观看集成演示&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;🏭 制造模块演示&lt;span class="hx:absolute hx:-mt-20" id="-制造模块演示"&gt;&lt;/span&gt;
+&lt;a href="#-%e5%88%b6%e9%80%a0%e6%a8%a1%e5%9d%97%e6%bc%94%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;探索我们的综合制造解决方案。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;演示功能：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;生产规划&lt;/li&gt;
+&lt;li&gt;物料清单管理&lt;/li&gt;
+&lt;li&gt;车间控制&lt;/li&gt;
+&lt;li&gt;质量控制流程&lt;/li&gt;
+&lt;li&gt;库存集成&lt;/li&gt;
+&lt;li&gt;成本跟踪&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/file/d/1qaReDOiaYTUYk2e_k03BW4z9qdZ3CXjs/view?usp=sharing" target="_blank" rel="noopener"&gt;观看制造演示&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;演示材料&lt;span class="hx:absolute hx:-mt-20" id="演示材料"&gt;&lt;/span&gt;
+&lt;a href="#%e6%bc%94%e7%a4%ba%e6%9d%90%e6%96%99" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;📊 平台概述&lt;span class="hx:absolute hx:-mt-20" id="-平台概述"&gt;&lt;/span&gt;
+&lt;a href="#-%e5%b9%b3%e5%8f%b0%e6%a6%82%e8%bf%b0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;BigLedger平台概述&lt;/strong&gt;
+BigLedger数据枢纽和模块化ERP系统的全面介绍。&lt;/p&gt;
+&lt;p&gt;主题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;平台架构&lt;/li&gt;
+&lt;li&gt;核心价值主张&lt;/li&gt;
+&lt;li&gt;模块生态系统&lt;/li&gt;
+&lt;li&gt;集成能力&lt;/li&gt;
+&lt;li&gt;实施方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://docs.google.com/presentation/d/1e7Atu0d_cc05Z-E1uhH-z8wcXaVSPFpI29YQ0-RPGco/edit#slide=id.p1" target="_blank" rel="noopener"&gt;查看演示文稿&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;模块特定演示文稿&lt;span class="hx:absolute hx:-mt-20" id="模块特定演示文稿"&gt;&lt;/span&gt;
+&lt;a href="#%e6%a8%a1%e5%9d%97%e7%89%b9%e5%ae%9a%e6%bc%94%e7%a4%ba%e6%96%87%e7%a8%bf" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;💰 会计模块&lt;span class="hx:absolute hx:-mt-20" id="-会计模块"&gt;&lt;/span&gt;
+&lt;a href="#-%e4%bc%9a%e8%ae%a1%e6%a8%a1%e5%9d%97" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;完整的财务管理系统概述。&lt;/p&gt;
+&lt;p&gt;关键功能：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;会计科目表设置&lt;/li&gt;
+&lt;li&gt;日记账分录&lt;/li&gt;
+&lt;li&gt;财务报告&lt;/li&gt;
+&lt;li&gt;银行对账&lt;/li&gt;
+&lt;li&gt;多币种处理&lt;/li&gt;
+&lt;li&gt;税务合规&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://docs.google.com/presentation/d/1ybYhXEBNS4wkhqzEvz7K_gpdm0SUBmyhvniJkg4XZwI/edit#slide=id.g25ede371b18_0_0" target="_blank" rel="noopener"&gt;查看会计演示文稿&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;🛍️ 销售点&lt;span class="hx:absolute hx:-mt-20" id="-销售点"&gt;&lt;/span&gt;
+&lt;a href="#-%e9%94%80%e5%94%ae%e7%82%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;卓越零售的现代POS解决方案。&lt;/p&gt;
+&lt;p&gt;亮点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;终端设置&lt;/li&gt;
+&lt;li&gt;产品管理&lt;/li&gt;
+&lt;li&gt;促销引擎&lt;/li&gt;
+&lt;li&gt;付款方式&lt;/li&gt;
+&lt;li&gt;客户忠诚度&lt;/li&gt;
+&lt;li&gt;分析仪表板&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://docs.google.com/presentation/d/1meJZyP_Ue87wEiGaxjtad3KmxhG1moJUZ3_jQ4SVLWc/edit#slide=id.p1" target="_blank" rel="noopener"&gt;查看POS演示文稿&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;🌐 电子商务平台&lt;span class="hx:absolute hx:-mt-20" id="-电子商务平台"&gt;&lt;/span&gt;
+&lt;a href="#-%e7%94%b5%e5%ad%90%e5%95%86%e5%8a%a1%e5%b9%b3%e5%8f%b0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;全面的电子商务和市场解决方案。&lt;/p&gt;
+&lt;p&gt;覆盖范围：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;商店设置&lt;/li&gt;
+&lt;li&gt;产品目录&lt;/li&gt;
+&lt;li&gt;购物车&lt;/li&gt;
+&lt;li&gt;支付网关&lt;/li&gt;
+&lt;li&gt;市场集成&lt;/li&gt;
+&lt;li&gt;订单履行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://docs.google.com/presentation/d/1agVrwrKQV2x3qTT5lLWxXNxzNhvBTgalcxqDAPO8loM/edit#slide=id.gbc0b1cd0c5_1_0" target="_blank" rel="noopener"&gt;查看电子商务演示文稿&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;📞 CRM和统一联络中心&lt;span class="hx:absolute hx:-mt-20" id="-crm和统一联络中心"&gt;&lt;/span&gt;
+&lt;a href="#-crm%e5%92%8c%e7%bb%9f%e4%b8%80%e8%81%94%e7%bb%9c%e4%b8%ad%e5%bf%83" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;智能客户关系管理。&lt;/p&gt;
+&lt;p&gt;功能：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;客户360度视图&lt;/li&gt;
+&lt;li&gt;线索管理&lt;/li&gt;
+&lt;li&gt;销售管道&lt;/li&gt;
+&lt;li&gt;联络中心操作&lt;/li&gt;
+&lt;li&gt;AI驱动洞察&lt;/li&gt;
+&lt;li&gt;全渠道支持&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://docs.google.com/presentation/d/1DWItZCNdrXTFnD12BLC02oWC5sL2ISPqiTy37Frl7Sc/edit#slide=id.g25c089a8be4_2_83" target="_blank" rel="noopener"&gt;查看CRM/UCC演示文稿&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;🛒 采购模块&lt;span class="hx:absolute hx:-mt-20" id="-采购模块"&gt;&lt;/span&gt;
+&lt;a href="#-%e9%87%87%e8%b4%ad%e6%a8%a1%e5%9d%97" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;简化采购和供应商管理。&lt;/p&gt;
+&lt;p&gt;主题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;采购申请&lt;/li&gt;
+&lt;li&gt;供应商管理&lt;/li&gt;
+&lt;li&gt;RFQ流程&lt;/li&gt;
+&lt;li&gt;采购订单&lt;/li&gt;
+&lt;li&gt;货物收据&lt;/li&gt;
+&lt;li&gt;发票匹配&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://docs.google.com/presentation/d/1TLginU0YaLGB8TN8uSWdjZtIaHnfUNFFWKhfDztIqIc/edit#slide=id.g30c35ef4581_0_214" target="_blank" rel="noopener"&gt;查看采购演示文稿&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;📊 数据智能模块&lt;span class="hx:absolute hx:-mt-20" id="-数据智能模块"&gt;&lt;/span&gt;
+&lt;a href="#-%e6%95%b0%e6%8d%ae%e6%99%ba%e8%83%bd%e6%a8%a1%e5%9d%97" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;将数据转化为可操作的洞察。&lt;/p&gt;
+&lt;p&gt;能力：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;数据集成&lt;/li&gt;
+&lt;li&gt;实时分析&lt;/li&gt;
+&lt;li&gt;自定义仪表板&lt;/li&gt;
+&lt;li&gt;预测分析&lt;/li&gt;
+&lt;li&gt;报表构建器&lt;/li&gt;
+&lt;li&gt;KPI监控&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://docs.google.com/presentation/d/1wGm5iQUEBEDeIOgEwDb-dZs5GOLwJlwtrZ19G875qUs/edit#slide=id.p1" target="_blank" rel="noopener"&gt;查看DI模块演示文稿&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;📦 仓库管理&lt;span class="hx:absolute hx:-mt-20" id="-仓库管理"&gt;&lt;/span&gt;
+&lt;a href="#-%e4%bb%93%e5%ba%93%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;优化仓库运营。&lt;/p&gt;
+&lt;p&gt;功能：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;收货和上架&lt;/li&gt;
+&lt;li&gt;拣货和包装&lt;/li&gt;
+&lt;li&gt;库存跟踪&lt;/li&gt;
+&lt;li&gt;循环盘点&lt;/li&gt;
+&lt;li&gt;调拨管理&lt;/li&gt;
+&lt;li&gt;绩效指标&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://docs.google.com/presentation/d/15zCjrGjvlzYbEfD8EWWXeJiDk-VBACLG/edit#slide=id.p11" target="_blank" rel="noopener"&gt;查看WMS演示文稿&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;📄 电子发票解决方案&lt;span class="hx:absolute hx:-mt-20" id="-电子发票解决方案"&gt;&lt;/span&gt;
+&lt;a href="#-%e7%94%b5%e5%ad%90%e5%8f%91%e7%a5%a8%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;完整的电子发票和PEPPOL合规。&lt;/p&gt;
+&lt;p&gt;覆盖范围：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MyInvois集成&lt;/li&gt;
+&lt;li&gt;PEPPOL标准&lt;/li&gt;
+&lt;li&gt;配置步骤&lt;/li&gt;
+&lt;li&gt;验证规则&lt;/li&gt;
+&lt;li&gt;提交流程&lt;/li&gt;
+&lt;li&gt;合规报告&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://docs.google.com/presentation/d/1ME-PLMvxTKRvze1jmXvsqAoidAN-qgcOmbwHyBo0AcM/edit#slide=id.g27c9e84bfc5_2_242" target="_blank" rel="noopener"&gt;查看电子发票演示文稿&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;其他资源&lt;span class="hx:absolute hx:-mt-20" id="其他资源"&gt;&lt;/span&gt;
+&lt;a href="#%e5%85%b6%e4%bb%96%e8%b5%84%e6%ba%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;📚 文档&lt;span class="hx:absolute hx:-mt-20" id="-文档"&gt;&lt;/span&gt;
+&lt;a href="#-%e6%96%87%e6%a1%a3" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;入门指南&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/zh/user-guide/" &gt;平台设置指南&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/zh/modules/" &gt;模块配置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/zh/developers/" &gt;集成手册&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/zh/guides/" &gt;最佳实践&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;技术文档&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/zh/developers/api-reference/" &gt;API参考&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/zh/developers/" &gt;数据字典&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/zh/developers/" &gt;安全指南&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/zh/developers/" &gt;性能调优&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🎓 培训材料&lt;span class="hx:absolute hx:-mt-20" id="-培训材料"&gt;&lt;/span&gt;
+&lt;a href="#-%e5%9f%b9%e8%ae%ad%e6%9d%90%e6%96%99" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;视频教程&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;平台基础(2小时)&lt;/li&gt;
+&lt;li&gt;模块深入探讨(每个1小时)&lt;/li&gt;
+&lt;li&gt;集成研讨会&lt;/li&gt;
+&lt;li&gt;管理员培训&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;认证计划&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BigLedger认证用户&lt;/li&gt;
+&lt;li&gt;BigLedger管理员&lt;/li&gt;
+&lt;li&gt;BigLedger开发者&lt;/li&gt;
+&lt;li&gt;实施专家&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔧 工具和实用程序&lt;span class="hx:absolute hx:-mt-20" id="-工具和实用程序"&gt;&lt;/span&gt;
+&lt;a href="#-%e5%b7%a5%e5%85%b7%e5%92%8c%e5%ae%9e%e7%94%a8%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;下载中心&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;数据导入模板&lt;/li&gt;
+&lt;li&gt;报表模板&lt;/li&gt;
+&lt;li&gt;配置工具&lt;/li&gt;
+&lt;li&gt;移动应用程序&lt;/li&gt;
+&lt;li&gt;浏览器扩展&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;测试资源&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;沙盒环境访问&lt;/li&gt;
+&lt;li&gt;样本数据集&lt;/li&gt;
+&lt;li&gt;测试场景&lt;/li&gt;
+&lt;li&gt;验证工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📰 最新更新&lt;span class="hx:absolute hx:-mt-20" id="-最新更新"&gt;&lt;/span&gt;
+&lt;a href="#-%e6%9c%80%e6%96%b0%e6%9b%b4%e6%96%b0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;新闻和公告&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.businesstoday.com.my/2024/07/20/bigledger-now-a-mdec-fully-accredited-peppol-service-provider-ahead-of-myinvois-initiative/" target="_blank" rel="noopener"&gt;BigLedger获得MDEC PEPPOL认证&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.malaysian-business.com/index.php/wordpress/item/9699-bigledger-data-hubs-and-erp-integration-drive-sustainable-business-evolution-ideal-for-myinvois" target="_blank" rel="noopener"&gt;数据枢纽推动业务发展&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bizvantage360.com/bigledger-stresses-on-data-efficiency-for-growth/" target="_blank" rel="noopener"&gt;专注数据效率促进增长&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;产品更新&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MyInvois第二阶段准备&lt;/li&gt;
+&lt;li&gt;新的AI功能&lt;/li&gt;
+&lt;li&gt;增强的移动功能&lt;/li&gt;
+&lt;li&gt;性能改进&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;安排个性化演示&lt;span class="hx:absolute hx:-mt-20" id="安排个性化演示"&gt;&lt;/span&gt;
+&lt;a href="#%e5%ae%89%e6%8e%92%e4%b8%aa%e6%80%a7%e5%8c%96%e6%bc%94%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;现场演示会话&lt;span class="hx:absolute hx:-mt-20" id="现场演示会话"&gt;&lt;/span&gt;
+&lt;a href="#%e7%8e%b0%e5%9c%ba%e6%bc%94%e7%a4%ba%e4%bc%9a%e8%af%9d" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;通过个性化演示体验BigLedger：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;包含内容：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;60分钟现场会话&lt;/li&gt;
+&lt;li&gt;您的业务场景&lt;/li&gt;
+&lt;li&gt;与专家问答&lt;/li&gt;
+&lt;li&gt;实施路线图&lt;/li&gt;
+&lt;li&gt;ROI评估&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;演示选项：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;执行概述&lt;/strong&gt; - 高级平台导览&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;模块深入探讨&lt;/strong&gt; - 详细模块探索&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;集成重点&lt;/strong&gt; - API和连接性&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;行业特定&lt;/strong&gt; - 针对您的行业定制&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;请求您的演示&lt;span class="hx:absolute hx:-mt-20" id="请求您的演示"&gt;&lt;/span&gt;
+&lt;a href="#%e8%af%b7%e6%b1%82%e6%82%a8%e7%9a%84%e6%bc%94%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;填写我们的演示请求表：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;公司名称&lt;/li&gt;
+&lt;li&gt;行业&lt;/li&gt;
+&lt;li&gt;公司规模&lt;/li&gt;
+&lt;li&gt;当前系统&lt;/li&gt;
+&lt;li&gt;关键要求&lt;/li&gt;
+&lt;li&gt;首选日期/时间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://www.bigledger.com/zh/demos-resources/" &gt;立即安排演示&lt;/a&gt; | &lt;a href="mailto:sales@bigledger.com" &gt;联系销售&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;客户成功案例&lt;span class="hx:absolute hx:-mt-20" id="客户成功案例"&gt;&lt;/span&gt;
+&lt;a href="#%e5%ae%a2%e6%88%b7%e6%88%90%e5%8a%9f%e6%a1%88%e4%be%8b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;🏪 零售连锁店&lt;span class="hx:absolute hx:-mt-20" id="-零售连锁店"&gt;&lt;/span&gt;
+&lt;a href="#-%e9%9b%b6%e5%94%ae%e8%bf%9e%e9%94%81%e5%ba%97" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;挑战：&lt;/strong&gt; 500家网点的手动流程
+&lt;strong&gt;解决方案：&lt;/strong&gt; POS + 电子发票 + 库存
+&lt;strong&gt;结果：&lt;/strong&gt; 效率提升90%&lt;/p&gt;
+&lt;h3&gt;🏭 制造公司&lt;span class="hx:absolute hx:-mt-20" id="-制造公司"&gt;&lt;/span&gt;
+&lt;a href="#-%e5%88%b6%e9%80%a0%e5%85%ac%e5%8f%b8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;挑战：&lt;/strong&gt; 复杂的生产规划
+&lt;strong&gt;解决方案：&lt;/strong&gt; 制造 + WMS + 采购
+&lt;strong&gt;结果：&lt;/strong&gt; 交付时间减少40%&lt;/p&gt;
+&lt;h3&gt;📦 分销业务&lt;span class="hx:absolute hx:-mt-20" id="-分销业务"&gt;&lt;/span&gt;
+&lt;a href="#-%e5%88%86%e9%94%80%e4%b8%9a%e5%8a%a1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;挑战：&lt;/strong&gt; 多渠道订单管理
+&lt;strong&gt;解决方案：&lt;/strong&gt; 电子商务 + WMS + CRM
+&lt;strong&gt;结果：&lt;/strong&gt; 订单处理能力提升3倍&lt;/p&gt;
+&lt;h2&gt;支持资源&lt;span class="hx:absolute hx:-mt-20" id="支持资源"&gt;&lt;/span&gt;
+&lt;a href="#%e6%94%af%e6%8c%81%e8%b5%84%e6%ba%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;📞 获取帮助&lt;span class="hx:absolute hx:-mt-20" id="-获取帮助"&gt;&lt;/span&gt;
+&lt;a href="#-%e8%8e%b7%e5%8f%96%e5%b8%ae%e5%8a%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;支持渠道：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;24/7帮助台：support@bigledger.com&lt;/li&gt;
+&lt;li&gt;电话：+60 3-xxxx xxxx&lt;/li&gt;
+&lt;li&gt;在线聊天：平台上可用&lt;/li&gt;
+&lt;li&gt;社区论坛：forum.bigledger.com&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;响应时间：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;关键：1小时&lt;/li&gt;
+&lt;li&gt;高：4小时&lt;/li&gt;
+&lt;li&gt;正常：24小时&lt;/li&gt;
+&lt;li&gt;低：48小时&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🤝 专业服务&lt;span class="hx:absolute hx:-mt-20" id="-专业服务"&gt;&lt;/span&gt;
+&lt;a href="#-%e4%b8%93%e4%b8%9a%e6%9c%8d%e5%8a%a1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;实施服务&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;项目管理&lt;/li&gt;
+&lt;li&gt;系统配置&lt;/li&gt;
+&lt;li&gt;数据迁移&lt;/li&gt;
+&lt;li&gt;集成开发&lt;/li&gt;
+&lt;li&gt;用户培训&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;咨询服务&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;业务流程优化&lt;/li&gt;
+&lt;li&gt;变更管理&lt;/li&gt;
+&lt;li&gt;自定义开发&lt;/li&gt;
+&lt;li&gt;性能优化&lt;/li&gt;
+&lt;li&gt;合规咨询&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;保持联系&lt;span class="hx:absolute hx:-mt-20" id="保持联系"&gt;&lt;/span&gt;
+&lt;a href="#%e4%bf%9d%e6%8c%81%e8%81%94%e7%b3%bb" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;关注我们&lt;span class="hx:absolute hx:-mt-20" id="关注我们"&gt;&lt;/span&gt;
+&lt;a href="#%e5%85%b3%e6%b3%a8%e6%88%91%e4%bb%ac" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;LinkedIn：&lt;a href="https://linkedin.com/company/bigledger" target="_blank" rel="noopener"&gt;BigLedger Malaysia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Facebook：&lt;a href="https://facebook.com/bigledger" target="_blank" rel="noopener"&gt;BigLedger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;YouTube：&lt;a href="https://youtube.com/bigledger" target="_blank" rel="noopener"&gt;BigLedger频道&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;订阅更新&lt;span class="hx:absolute hx:-mt-20" id="订阅更新"&gt;&lt;/span&gt;
+&lt;a href="#%e8%ae%a2%e9%98%85%e6%9b%b4%e6%96%b0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;产品新闻通讯&lt;/li&gt;
+&lt;li&gt;网络研讨会邀请&lt;/li&gt;
+&lt;li&gt;行业洞察&lt;/li&gt;
+&lt;li&gt;监管更新&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://www.bigledger.com/zh/demos-resources/" &gt;立即订阅&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;BigLedger - 通过数据驱动的卓越赋能马来西亚企业&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>

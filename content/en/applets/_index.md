@@ -3,6 +3,8 @@ title: Applets and Workflows
 description: Comprehensive guide to BigLedger applets and workflow automation
 weight: 1
 bookCollapseSection: false
+cascade:
+  applet_tabs: true
 tags:
 - applets
 - workflows

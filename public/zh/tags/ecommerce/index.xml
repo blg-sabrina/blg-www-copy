@@ -1,5 +1,192 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>BigLedger 文档 – Ecommerce</title><link>https://www.bigledger.com/zh/tags/ecommerce/</link><description>Recent content in Ecommerce on BigLedger 文档</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://www.bigledger.com/zh/tags/ecommerce/index.xml" rel="self" type="application/rss+xml"/><item><title>EcomSync 相关小程序</title><link>https://www.bigledger.com/zh/applets/90-ecomsync-related-applets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/applets/90-ecomsync-related-applets/</guid><description>
-&lt;p>Ecomsync 组织小程序
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>BigLedger 文档 – Ecommerce</title><link>https://www.bigledger.com/zh/tags/ecommerce/</link><description>Recent content in Ecommerce on BigLedger 文档</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://www.bigledger.com/zh/tags/ecommerce/index.xml" rel="self" type="application/rss+xml"/><item><title>2.0 网站配置﻿</title><link>https://www.bigledger.com/zh/modules/ecommerce/20-website-configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/20-website-configuration/</guid><description>
+&lt;h1&gt;2.0 网站配置﻿&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3187343370
+&lt;strong&gt;最后更新&lt;/strong&gt;：2024-11-17T11:07:01.283Z&lt;/p&gt;
+&lt;h2&gt;2.1 搭建您的网站﻿&lt;span class="hx:absolute hx:-mt-20" id="21-搭建您的网站"&gt;&lt;/span&gt;
+&lt;a href="#21-%e6%90%ad%e5%bb%ba%e6%82%a8%e7%9a%84%e7%bd%91%e7%ab%99" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;CP-Commerce 提供了友好易用的网站配置界面。请参阅“网站配置”章节，了解搭建和自定义网站的详细说明。&lt;/p&gt;
+&lt;h2&gt;2.2 自定义网站内容﻿&lt;span class="hx:absolute hx:-mt-20" id="22-自定义网站内容"&gt;&lt;/span&gt;
+&lt;a href="#22-%e8%87%aa%e5%ae%9a%e4%b9%89%e7%bd%91%e7%ab%99%e5%86%85%e5%ae%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;了解如何定制您网站的内容，包括商品列表、图片、描述与定价，为您的客户打造具有吸引力的线上购物体验。&lt;/p&gt;</description></item><item><title>B2B</title><link>https://www.bigledger.com/zh/modules/ecommerce/b2b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/b2b/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3153822181
+&lt;strong&gt;最后更新&lt;/strong&gt;：2021-06-05T09:01:05.690Z&lt;/p&gt;</description></item><item><title>CP-Commerce</title><link>https://www.bigledger.com/zh/modules/ecommerce/cp-commerce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/cp-commerce/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3153887626
+&lt;strong&gt;最后更新&lt;/strong&gt;：2024-11-17T11:04:53.671Z
+CP-Commerce 模块是一款强大的解决方案，旨在帮助企业在线提供产品与服务。它是一个一体化平台，将电商能力与中央数据管理相结合，并与其他各类业务系统无缝集成。通过消除重复的数据录入并提供运营数据湖功能，CP-Commerce 助力企业建立稳固的线上业务并实现持续增长。&lt;/p&gt;</description></item><item><title>EcomSync 功能</title><link>https://www.bigledger.com/zh/modules/ecommerce/ecomsync-features/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/ecomsync-features/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3299247174
+&lt;strong&gt;最后更新&lt;/strong&gt;：2021-07-19T02:40:30.908Z
+就绪状态：5 - 最佳绿色 4 - 良好黄色 3 - 一般蓝色 2 - 欠佳紫色 1 - 最差红色
+第一阶段
+1模块
+子模块
+相关小程序
+就绪状态
+2Lazada 集成
+组织小程序
+4 - 良好黄色
+3商品管理
+GL 科目选择
+单据商品维护
+4 - 良好黄色
+4库存跟踪
+4 - 良好黄色
+5添加尺寸详情
+4 - 良好黄色
+6添加商品图片
+4 - 良好黄色
+7选择图片类目
+4 - 良好黄色
+8电商平台管理
+添加电商平台
+组织小程序
+4 - 良好黄色
+9选择商品类目（组合或单品）
+4 - 良好黄色
+10选择要在电商平台发布的商品
+4 - 良好黄色
+11EMP 同步为销售订单（ERP 系统）
+EMP 同步
+4 - 良好黄色
+12Lazada 属性同步
+选择 Lazada 商品类目
+4 - 良好黄色
+13根据所选类目填写 Lazada 属性字段
+4 - 良好黄色
+14在属性页面添加更多图片
+4 - 良好黄色
+15库存可用性 / 库存管理
+自动库存配置
+4 - 良好黄色
+16手动库存配置
+4 - 良好黄色
+17设置库存缓冲量
+4 - 良好黄色
+18销售订单管理
+启用销售订单配置
+4 - 良好黄色
+19停用销售订单配置
+4 - 良好黄色
+20选择性启用销售订单配置
+4 - 良好黄色
+21从卖家账号同步 Lazada 订单
+4 - 良好黄色
+22状态筛选
+4 - 良好黄色
+23多选订单打印发票
+4 - 良好黄色
+24打印快递面单
+4 - 良好黄色
+25打印拣货单
+4 - 良好黄色
+26导出订单至 Excel
+4 - 良好黄色
+27创建交货清单
+4 - 良好黄色
+28查看订单详情（商品、物流、客户信息）
+4 - 良好黄色
+29仪表板 / 报表
+按 30 天筛选仪表板
+4 - 良好黄色
+30按 7 天筛选仪表板
+4 - 良好黄色
+31输入自定义日期报表
+4 - 良好黄色
+32查看总销售报表
+4 - 良好黄色
+33查看各店铺每日销售报表
+4 - 良好黄色
+34查看订单总数
+4 - 良好黄色
+35查看已取消订单
+4 - 良好黄色
+36CP Commerce 集成
+在 EcomSync 中汇总来自 CP Commerce 的订单
+4 - 良好黄色
+37在 EcomSync 中管理库存余额
+4 - 良好黄色
+38第二阶段
+39Shopee 集成
+销售订单、库存余额同步至 EMP
+从 Shopee 到 EcomSync 的属性与类目管理
+库存 / 订单履行
+订单管理（创建托运单、发票等）
+40Shopify 集成
+销售订单、库存余额同步至 EMP
+从 Shopify 到 EcomSync 的属性与类目管理
+库存 / 订单履行
+订单管理（创建托运单、发票等）
+41Zalora 集成
+销售订单、库存余额同步至 EMP
+从 Zalora 到 EcomSync 的属性与类目管理
+库存 / 订单履行
+订单管理（创建托运单、发票等）
+42OpenCart 集成
+销售订单、库存余额同步至 EMP
+从 OpenCart 到 EcomSync 的属性与类目管理
+库存 / 订单履行
+订单管理（创建托运单、发票等）
+43Magento 集成
+销售订单、库存余额同步至 EMP
+从 Magento 到 EcomSync 的属性与类目管理
+库存 / 订单履行
+订单管理（创建托运单、发票等）
+44审计日志
+45库存履行&lt;/p&gt;</description></item><item><title>EcomSync 简介</title><link>https://www.bigledger.com/zh/modules/ecommerce/introduction-to-ecomsync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/introduction-to-ecomsync/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3196485958
+&lt;strong&gt;最后更新&lt;/strong&gt;：2021-06-18T01:46:53.953Z&lt;/p&gt;
+&lt;h2&gt;简介&lt;span class="hx:absolute hx:-mt-20" id="简介"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ae%80%e4%bb%8b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;EcomSync 小程序是一款帮助用户组织和管理商品/产品、订单并查看各电商平台业绩表现的小程序。EcomSync 小程序旨在帮助用户全面掌握电商平台各方面的管理。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.bigledger.com/diagrams/ecomsync-integration-flow.svg" alt="EcomSync 集成流程" loading="lazy" /&gt;
+&lt;em&gt;图 1：EcomSync 集成架构——将 BigLedger 与马来西亚主流电商平台连接&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;该小程序能为您带来诸多益处：从管理角度看，EcomSync 让您更好、更灵活地掌控您的卖家店铺。您可以将商品同时同步到多个卖家账号。除此之外，EcomSync 还扮演着“节拍器”的角色，您可以管理订单及其状态，并可与您的企业管理门户（EMP）联通，让产品管理流程更加轻松。&lt;/p&gt;
+&lt;h2&gt;前置条件&lt;span class="hx:absolute hx:-mt-20" id="前置条件"&gt;&lt;/span&gt;
+&lt;a href="#%e5%89%8d%e7%bd%ae%e6%9d%a1%e4%bb%b6" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;在开始使用 EcomSync 小程序之前，请确保您已在组织小程序（Organization Applet）中创建了组织与分支机构信息。&lt;/p&gt;
+&lt;h3&gt;核心功能&lt;span class="hx:absolute hx:-mt-20" id="核心功能"&gt;&lt;/span&gt;
+&lt;a href="#%e6%a0%b8%e5%bf%83%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;多平台管理&lt;/strong&gt;：连接 Shopee、Lazada 及自定义商城&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实时同步&lt;/strong&gt;：库存、价格与订单自动同步&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;马来西亚电商支持&lt;/strong&gt;：为本地支付方式与物流而构建&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;集中管控&lt;/strong&gt;：在一个仪表板中管理您的全部线上销售&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>EcomSync 小程序</title><link>https://www.bigledger.com/zh/modules/ecommerce/ecomsync-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/ecomsync-applet/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3259346357
+&lt;strong&gt;最后更新&lt;/strong&gt;：2021-07-23T05:51:22.732Z
+目录
+EcomSync 简介
+EcomSync 功能
+商品维护
+订单
+订单列表
+订单筛选
+订单详情
+仪表板
+主仪表板
+销售仪表板
+订单仪表板
+设置
+与 Shopify 集成&lt;/p&gt;</description></item><item><title>创建单个商品标签页</title><link>https://www.bigledger.com/zh/modules/ecommerce/create-single-tab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/create-single-tab/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3196191946
+&lt;strong&gt;最后更新&lt;/strong&gt;：2021-06-18T06:09:58.079Z
+创建（Create）——用于将所选商品同步至电商平台店铺。创建分为两种类型：
+创建单个（Create Single）——当用户想要将 1（一）个商品同步至电商平台时使用
+创建单个商品包含 2 个标签页：
+店铺标签页（Store Tab）——用于选择要同步的店铺，用户可选择多个店铺。
+选定店铺后，用户需要选择类目：
+2. 商品标签页（Item Tab）——用于选择当前正在编辑并希望同步至电商平台的商品：
+选定店铺与类目后，用户需点击“开始刊登（start listing）”按钮，进入摘要页面：
+用户必须点击商品并填写全部属性详情：
+属性详情填写完成后，点击“提交（Submit）”按钮即可同步至电商平台。&lt;/p&gt;</description></item><item><title>电商平台标签页</title><link>https://www.bigledger.com/zh/modules/ecommerce/marketplace-tab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/marketplace-tab/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3196191832
+&lt;strong&gt;最后更新&lt;/strong&gt;：2021-07-23T05:24:07.943Z
+电商平台标签页（Marketplace Tab）用于用户创建、编辑、更新和删除要同步到电商平台的商品。您可以在此选择要在电商平台展示的商品类型。
+点击保存。——在本模块中，每次在各标签页编辑商品详情后“务必点击保存”。&lt;/p&gt;</description></item><item><title>更新与删除商品</title><link>https://www.bigledger.com/zh/modules/ecommerce/update-and-delete-item/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/update-and-delete-item/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3196191957
+&lt;strong&gt;最后更新&lt;/strong&gt;：2021-06-18T06:15:40.294Z
+更新/删除商品——当用户想要更新或删除已同步至电商平台的商品时，需前往“电商平台标签页（Marketplace Tab）”，在当前列表中选择店铺，然后对商品执行更新/删除操作：&lt;/p&gt;</description></item><item><title>商品列表</title><link>https://www.bigledger.com/zh/modules/ecommerce/listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/listing/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3196846319
+&lt;strong&gt;最后更新&lt;/strong&gt;：2021-06-18T02:06:35.534Z
+商品列表展示您从 EMP 与电商平台同步的全部商品。列表中的商品分为两个层级：第一层级是从 EMP 同步或用户自行创建的商品，第二层级展示已同步至电商平台的商品：
+用户可以自定义 AG-Grid 列表，包括拖动调整和筛选列表的表头。&lt;/p&gt;</description></item><item><title>与 Shopify 集成</title><link>https://www.bigledger.com/zh/modules/ecommerce/integration-with-shopify/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/integration-with-shopify/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3292758065
+&lt;strong&gt;最后更新&lt;/strong&gt;：2021-07-15T07:56:28.266Z
+步骤，..&lt;/p&gt;</description></item><item><title>EcomSync 相关小程序</title><link>https://www.bigledger.com/zh/applets/90-ecomsync-related-applets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/applets/90-ecomsync-related-applets/</guid><description>
+&lt;p&gt;Ecomsync 组织小程序
 Ecomsync - 组织小程序 - 创建公司
 Ecomsync - 组织小程序：创建虚拟分支机构（市场）
 Ecomsync - 组织小程序 - 市场：按分支机构配置库存和销售订单
@@ -9,50 +196,50 @@ Ecomsync - 文档项目维护小程序：创建分组项目
 Ecomsync - 文档项目维护小程序：配置单一/捆绑项目到市场
 Ecomsync - 文档项目维护小程序：配置分组项目到市场
 Ecomsync - 文档项目维护小程序：配置库存余额和销售订单
-Ecomsync - 内部销售订单小程序：更新市场订单状态&lt;/p></description></item><item><title>电子商务目录小程序</title><link>https://www.bigledger.com/zh/applets/ecommerce-catalog-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/applets/ecommerce-catalog-applet/</guid><description>
-&lt;h2>目的和概述&lt;span class="hx:absolute hx:-mt-20" id="目的和概述">&lt;/span>
-&lt;a href="#%e7%9b%ae%e7%9a%84%e5%92%8c%e6%a6%82%e8%bf%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';">⚠️&lt;/div>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;strong>待办事项&lt;/strong>：此小程序文档需要详细扩展。这是一个包含基本结构和关键信息的占位符。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>电子商务目录小程序是BigLedger的CP-Commerce模块的专业组件，为电子商务运营提供全面的在线产品目录管理、SEO优化和数字商务功能。&lt;/p>
-&lt;h3>主要功能&lt;span class="hx:absolute hx:-mt-20" id="主要功能">&lt;/span>
-&lt;a href="#%e4%b8%bb%e8%a6%81%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>产品目录管理&lt;/strong> - 在线产品展示和组织&lt;/li>
-&lt;li>&lt;strong>SEO优化&lt;/strong> - 产品的搜索引擎优化&lt;/li>
-&lt;li>&lt;strong>类别管理&lt;/strong> - 产品分类和导航&lt;/li>
-&lt;li>&lt;strong>内容管理&lt;/strong> - 丰富的产品内容和多媒体&lt;/li>
-&lt;li>&lt;strong>定价管理&lt;/strong> - 在线定价策略和促销&lt;/li>
-&lt;/ul>
-&lt;h2>主要特性&lt;span class="hx:absolute hx:-mt-20" id="主要特性">&lt;/span>
-&lt;a href="#%e4%b8%bb%e8%a6%81%e7%89%b9%e6%80%a7" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>待办事项：扩展主要特性部分&lt;span class="hx:absolute hx:-mt-20" id="待办事项扩展主要特性部分">&lt;/span>
-&lt;a href="#%e5%be%85%e5%8a%9e%e4%ba%8b%e9%a1%b9%e6%89%a9%e5%b1%95%e4%b8%bb%e8%a6%81%e7%89%b9%e6%80%a7%e9%83%a8%e5%88%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>丰富的产品内容管理&lt;/li>
-&lt;li>多语言目录支持&lt;/li>
-&lt;li>SEO友好的URL和元数据&lt;/li>
-&lt;li>产品推荐引擎&lt;/li>
-&lt;li>高级搜索和过滤&lt;/li>
-&lt;/ul>
-&lt;h2>集成点&lt;span class="hx:absolute hx:-mt-20" id="集成点">&lt;/span>
-&lt;a href="#%e9%9b%86%e6%88%90%e7%82%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>核心模块依赖项&lt;span class="hx:absolute hx:-mt-20" id="核心模块依赖项">&lt;/span>
-&lt;a href="#%e6%a0%b8%e5%bf%83%e6%a8%a1%e5%9d%97%e4%be%9d%e8%b5%96%e9%a1%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>&lt;a href="https://www.bigledger.com/zh/applets/inv-item-maintenance-applet/" >库存项目维护小程序&lt;/a>&lt;/strong> - 产品主数据&lt;/li>
-&lt;li>&lt;strong>&lt;a href="https://www.bigledger.com/zh/applets/tax-configuration-applet/" >税务配置小程序&lt;/a>&lt;/strong> - 产品税务设置&lt;/li>
-&lt;li>&lt;strong>&lt;a href="https://www.bigledger.com/zh/applets/organization-applet/" >组织小程序&lt;/a>&lt;/strong> - 多店支持&lt;/li>
-&lt;/ul>
-&lt;h2>相关小程序&lt;span class="hx:absolute hx:-mt-20" id="相关小程序">&lt;/span>
-&lt;a href="#%e7%9b%b8%e5%85%b3%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>待办事项：记录相关小程序&lt;span class="hx:absolute hx:-mt-20" id="待办事项记录相关小程序">&lt;/span>
-&lt;a href="#%e5%be%85%e5%8a%9e%e4%ba%8b%e9%a1%b9%e8%ae%b0%e5%bd%95%e7%9b%b8%e5%85%b3%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>购物车小程序&lt;/li>
-&lt;li>在线支付小程序&lt;/li>
-&lt;li>客户门户小程序&lt;/li>
-&lt;li>数字营销小程序&lt;/li>
-&lt;/ul>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';">ℹ️&lt;/div>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;strong>文档状态&lt;/strong>：此小程序需要全面的文档，包括详细功能、SEO配置、内容管理指南和电子商务实施示例。&lt;/div>
-&lt;/div>
-&lt;/div></description></item></channel></rss>
+Ecomsync - 内部销售订单小程序：更新市场订单状态&lt;/p&gt;</description></item><item><title>电子商务目录小程序</title><link>https://www.bigledger.com/zh/applets/ecommerce-catalog-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/applets/ecommerce-catalog-applet/</guid><description>
+&lt;h2&gt;目的和概述&lt;span class="hx:absolute hx:-mt-20" id="目的和概述"&gt;&lt;/span&gt;
+&lt;a href="#%e7%9b%ae%e7%9a%84%e5%92%8c%e6%a6%82%e8%bf%b0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;待办事项&lt;/strong&gt;：此小程序文档需要详细扩展。这是一个包含基本结构和关键信息的占位符。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;电子商务目录小程序是BigLedger的CP-Commerce模块的专业组件，为电子商务运营提供全面的在线产品目录管理、SEO优化和数字商务功能。&lt;/p&gt;
+&lt;h3&gt;主要功能&lt;span class="hx:absolute hx:-mt-20" id="主要功能"&gt;&lt;/span&gt;
+&lt;a href="#%e4%b8%bb%e8%a6%81%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;产品目录管理&lt;/strong&gt; - 在线产品展示和组织&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SEO优化&lt;/strong&gt; - 产品的搜索引擎优化&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;类别管理&lt;/strong&gt; - 产品分类和导航&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内容管理&lt;/strong&gt; - 丰富的产品内容和多媒体&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;定价管理&lt;/strong&gt; - 在线定价策略和促销&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;主要特性&lt;span class="hx:absolute hx:-mt-20" id="主要特性"&gt;&lt;/span&gt;
+&lt;a href="#%e4%b8%bb%e8%a6%81%e7%89%b9%e6%80%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;待办事项：扩展主要特性部分&lt;span class="hx:absolute hx:-mt-20" id="待办事项扩展主要特性部分"&gt;&lt;/span&gt;
+&lt;a href="#%e5%be%85%e5%8a%9e%e4%ba%8b%e9%a1%b9%e6%89%a9%e5%b1%95%e4%b8%bb%e8%a6%81%e7%89%b9%e6%80%a7%e9%83%a8%e5%88%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;丰富的产品内容管理&lt;/li&gt;
+&lt;li&gt;多语言目录支持&lt;/li&gt;
+&lt;li&gt;SEO友好的URL和元数据&lt;/li&gt;
+&lt;li&gt;产品推荐引擎&lt;/li&gt;
+&lt;li&gt;高级搜索和过滤&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;集成点&lt;span class="hx:absolute hx:-mt-20" id="集成点"&gt;&lt;/span&gt;
+&lt;a href="#%e9%9b%86%e6%88%90%e7%82%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;核心模块依赖项&lt;span class="hx:absolute hx:-mt-20" id="核心模块依赖项"&gt;&lt;/span&gt;
+&lt;a href="#%e6%a0%b8%e5%bf%83%e6%a8%a1%e5%9d%97%e4%be%9d%e8%b5%96%e9%a1%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/zh/applets/inv-item-maintenance-applet/" &gt;库存项目维护小程序&lt;/a&gt;&lt;/strong&gt; - 产品主数据&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/zh/applets/tax-configuration-applet/" &gt;税务配置小程序&lt;/a&gt;&lt;/strong&gt; - 产品税务设置&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/zh/applets/organization-applet/" &gt;组织小程序&lt;/a&gt;&lt;/strong&gt; - 多店支持&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;相关小程序&lt;span class="hx:absolute hx:-mt-20" id="相关小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e7%9b%b8%e5%85%b3%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;待办事项：记录相关小程序&lt;span class="hx:absolute hx:-mt-20" id="待办事项记录相关小程序"&gt;&lt;/span&gt;
+&lt;a href="#%e5%be%85%e5%8a%9e%e4%ba%8b%e9%a1%b9%e8%ae%b0%e5%bd%95%e7%9b%b8%e5%85%b3%e5%b0%8f%e7%a8%8b%e5%ba%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;购物车小程序&lt;/li&gt;
+&lt;li&gt;在线支付小程序&lt;/li&gt;
+&lt;li&gt;客户门户小程序&lt;/li&gt;
+&lt;li&gt;数字营销小程序&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;文档状态&lt;/strong&gt;：此小程序需要全面的文档，包括详细功能、SEO配置、内容管理指南和电子商务实施示例。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

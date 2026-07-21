@@ -1,0 +1,529 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>BigLedger 文档 – 电商模块</title><link>https://www.bigledger.com/zh/modules/ecommerce/</link><description>Recent content in 电商模块 on BigLedger 文档</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://www.bigledger.com/zh/modules/ecommerce/index.xml" rel="self" type="application/rss+xml"/><item><title>2.0 网站配置﻿</title><link>https://www.bigledger.com/zh/modules/ecommerce/20-website-configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/20-website-configuration/</guid><description>
+&lt;h1&gt;2.0 网站配置﻿&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3187343370
+&lt;strong&gt;最后更新&lt;/strong&gt;：2024-11-17T11:07:01.283Z&lt;/p&gt;
+&lt;h2&gt;2.1 搭建您的网站﻿&lt;span class="hx:absolute hx:-mt-20" id="21-搭建您的网站"&gt;&lt;/span&gt;
+&lt;a href="#21-%e6%90%ad%e5%bb%ba%e6%82%a8%e7%9a%84%e7%bd%91%e7%ab%99" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;CP-Commerce 提供了友好易用的网站配置界面。请参阅“网站配置”章节，了解搭建和自定义网站的详细说明。&lt;/p&gt;
+&lt;h2&gt;2.2 自定义网站内容﻿&lt;span class="hx:absolute hx:-mt-20" id="22-自定义网站内容"&gt;&lt;/span&gt;
+&lt;a href="#22-%e8%87%aa%e5%ae%9a%e4%b9%89%e7%bd%91%e7%ab%99%e5%86%85%e5%ae%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;了解如何定制您网站的内容，包括商品列表、图片、描述与定价，为您的客户打造具有吸引力的线上购物体验。&lt;/p&gt;</description></item><item><title>B2B</title><link>https://www.bigledger.com/zh/modules/ecommerce/b2b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/b2b/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3153822181
+&lt;strong&gt;最后更新&lt;/strong&gt;：2021-06-05T09:01:05.690Z&lt;/p&gt;</description></item><item><title>CP-Commerce</title><link>https://www.bigledger.com/zh/modules/ecommerce/cp-commerce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/cp-commerce/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3153887626
+&lt;strong&gt;最后更新&lt;/strong&gt;：2024-11-17T11:04:53.671Z
+CP-Commerce 模块是一款强大的解决方案，旨在帮助企业在线提供产品与服务。它是一个一体化平台，将电商能力与中央数据管理相结合，并与其他各类业务系统无缝集成。通过消除重复的数据录入并提供运营数据湖功能，CP-Commerce 助力企业建立稳固的线上业务并实现持续增长。&lt;/p&gt;</description></item><item><title>EcomSync 功能</title><link>https://www.bigledger.com/zh/modules/ecommerce/ecomsync-features/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/ecomsync-features/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3299247174
+&lt;strong&gt;最后更新&lt;/strong&gt;：2021-07-19T02:40:30.908Z
+就绪状态：5 - 最佳绿色 4 - 良好黄色 3 - 一般蓝色 2 - 欠佳紫色 1 - 最差红色
+第一阶段
+1模块
+子模块
+相关小程序
+就绪状态
+2Lazada 集成
+组织小程序
+4 - 良好黄色
+3商品管理
+GL 科目选择
+单据商品维护
+4 - 良好黄色
+4库存跟踪
+4 - 良好黄色
+5添加尺寸详情
+4 - 良好黄色
+6添加商品图片
+4 - 良好黄色
+7选择图片类目
+4 - 良好黄色
+8电商平台管理
+添加电商平台
+组织小程序
+4 - 良好黄色
+9选择商品类目（组合或单品）
+4 - 良好黄色
+10选择要在电商平台发布的商品
+4 - 良好黄色
+11EMP 同步为销售订单（ERP 系统）
+EMP 同步
+4 - 良好黄色
+12Lazada 属性同步
+选择 Lazada 商品类目
+4 - 良好黄色
+13根据所选类目填写 Lazada 属性字段
+4 - 良好黄色
+14在属性页面添加更多图片
+4 - 良好黄色
+15库存可用性 / 库存管理
+自动库存配置
+4 - 良好黄色
+16手动库存配置
+4 - 良好黄色
+17设置库存缓冲量
+4 - 良好黄色
+18销售订单管理
+启用销售订单配置
+4 - 良好黄色
+19停用销售订单配置
+4 - 良好黄色
+20选择性启用销售订单配置
+4 - 良好黄色
+21从卖家账号同步 Lazada 订单
+4 - 良好黄色
+22状态筛选
+4 - 良好黄色
+23多选订单打印发票
+4 - 良好黄色
+24打印快递面单
+4 - 良好黄色
+25打印拣货单
+4 - 良好黄色
+26导出订单至 Excel
+4 - 良好黄色
+27创建交货清单
+4 - 良好黄色
+28查看订单详情（商品、物流、客户信息）
+4 - 良好黄色
+29仪表板 / 报表
+按 30 天筛选仪表板
+4 - 良好黄色
+30按 7 天筛选仪表板
+4 - 良好黄色
+31输入自定义日期报表
+4 - 良好黄色
+32查看总销售报表
+4 - 良好黄色
+33查看各店铺每日销售报表
+4 - 良好黄色
+34查看订单总数
+4 - 良好黄色
+35查看已取消订单
+4 - 良好黄色
+36CP Commerce 集成
+在 EcomSync 中汇总来自 CP Commerce 的订单
+4 - 良好黄色
+37在 EcomSync 中管理库存余额
+4 - 良好黄色
+38第二阶段
+39Shopee 集成
+销售订单、库存余额同步至 EMP
+从 Shopee 到 EcomSync 的属性与类目管理
+库存 / 订单履行
+订单管理（创建托运单、发票等）
+40Shopify 集成
+销售订单、库存余额同步至 EMP
+从 Shopify 到 EcomSync 的属性与类目管理
+库存 / 订单履行
+订单管理（创建托运单、发票等）
+41Zalora 集成
+销售订单、库存余额同步至 EMP
+从 Zalora 到 EcomSync 的属性与类目管理
+库存 / 订单履行
+订单管理（创建托运单、发票等）
+42OpenCart 集成
+销售订单、库存余额同步至 EMP
+从 OpenCart 到 EcomSync 的属性与类目管理
+库存 / 订单履行
+订单管理（创建托运单、发票等）
+43Magento 集成
+销售订单、库存余额同步至 EMP
+从 Magento 到 EcomSync 的属性与类目管理
+库存 / 订单履行
+订单管理（创建托运单、发票等）
+44审计日志
+45库存履行&lt;/p&gt;</description></item><item><title>EcomSync 简介</title><link>https://www.bigledger.com/zh/modules/ecommerce/introduction-to-ecomsync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/introduction-to-ecomsync/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3196485958
+&lt;strong&gt;最后更新&lt;/strong&gt;：2021-06-18T01:46:53.953Z&lt;/p&gt;
+&lt;h2&gt;简介&lt;span class="hx:absolute hx:-mt-20" id="简介"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ae%80%e4%bb%8b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;EcomSync 小程序是一款帮助用户组织和管理商品/产品、订单并查看各电商平台业绩表现的小程序。EcomSync 小程序旨在帮助用户全面掌握电商平台各方面的管理。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.bigledger.com/diagrams/ecomsync-integration-flow.svg" alt="EcomSync 集成流程" loading="lazy" /&gt;
+&lt;em&gt;图 1：EcomSync 集成架构——将 BigLedger 与马来西亚主流电商平台连接&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;该小程序能为您带来诸多益处：从管理角度看，EcomSync 让您更好、更灵活地掌控您的卖家店铺。您可以将商品同时同步到多个卖家账号。除此之外，EcomSync 还扮演着“节拍器”的角色，您可以管理订单及其状态，并可与您的企业管理门户（EMP）联通，让产品管理流程更加轻松。&lt;/p&gt;
+&lt;h2&gt;前置条件&lt;span class="hx:absolute hx:-mt-20" id="前置条件"&gt;&lt;/span&gt;
+&lt;a href="#%e5%89%8d%e7%bd%ae%e6%9d%a1%e4%bb%b6" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;在开始使用 EcomSync 小程序之前，请确保您已在组织小程序（Organization Applet）中创建了组织与分支机构信息。&lt;/p&gt;
+&lt;h3&gt;核心功能&lt;span class="hx:absolute hx:-mt-20" id="核心功能"&gt;&lt;/span&gt;
+&lt;a href="#%e6%a0%b8%e5%bf%83%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;多平台管理&lt;/strong&gt;：连接 Shopee、Lazada 及自定义商城&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实时同步&lt;/strong&gt;：库存、价格与订单自动同步&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;马来西亚电商支持&lt;/strong&gt;：为本地支付方式与物流而构建&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;集中管控&lt;/strong&gt;：在一个仪表板中管理您的全部线上销售&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>EcomSync 小程序</title><link>https://www.bigledger.com/zh/modules/ecommerce/ecomsync-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/ecomsync-applet/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3259346357
+&lt;strong&gt;最后更新&lt;/strong&gt;：2021-07-23T05:51:22.732Z
+目录
+EcomSync 简介
+EcomSync 功能
+商品维护
+订单
+订单列表
+订单筛选
+订单详情
+仪表板
+主仪表板
+销售仪表板
+订单仪表板
+设置
+与 Shopify 集成&lt;/p&gt;</description></item><item><title>创建单个商品标签页</title><link>https://www.bigledger.com/zh/modules/ecommerce/create-single-tab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/create-single-tab/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3196191946
+&lt;strong&gt;最后更新&lt;/strong&gt;：2021-06-18T06:09:58.079Z
+创建（Create）——用于将所选商品同步至电商平台店铺。创建分为两种类型：
+创建单个（Create Single）——当用户想要将 1（一）个商品同步至电商平台时使用
+创建单个商品包含 2 个标签页：
+店铺标签页（Store Tab）——用于选择要同步的店铺，用户可选择多个店铺。
+选定店铺后，用户需要选择类目：
+2. 商品标签页（Item Tab）——用于选择当前正在编辑并希望同步至电商平台的商品：
+选定店铺与类目后，用户需点击“开始刊登（start listing）”按钮，进入摘要页面：
+用户必须点击商品并填写全部属性详情：
+属性详情填写完成后，点击“提交（Submit）”按钮即可同步至电商平台。&lt;/p&gt;</description></item><item><title>电商平台标签页</title><link>https://www.bigledger.com/zh/modules/ecommerce/marketplace-tab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/marketplace-tab/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3196191832
+&lt;strong&gt;最后更新&lt;/strong&gt;：2021-07-23T05:24:07.943Z
+电商平台标签页（Marketplace Tab）用于用户创建、编辑、更新和删除要同步到电商平台的商品。您可以在此选择要在电商平台展示的商品类型。
+点击保存。——在本模块中，每次在各标签页编辑商品详情后“务必点击保存”。&lt;/p&gt;</description></item><item><title>更新与删除商品</title><link>https://www.bigledger.com/zh/modules/ecommerce/update-and-delete-item/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/update-and-delete-item/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3196191957
+&lt;strong&gt;最后更新&lt;/strong&gt;：2021-06-18T06:15:40.294Z
+更新/删除商品——当用户想要更新或删除已同步至电商平台的商品时，需前往“电商平台标签页（Marketplace Tab）”，在当前列表中选择店铺，然后对商品执行更新/删除操作：&lt;/p&gt;</description></item><item><title>商品列表</title><link>https://www.bigledger.com/zh/modules/ecommerce/listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/listing/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3196846319
+&lt;strong&gt;最后更新&lt;/strong&gt;：2021-06-18T02:06:35.534Z
+商品列表展示您从 EMP 与电商平台同步的全部商品。列表中的商品分为两个层级：第一层级是从 EMP 同步或用户自行创建的商品，第二层级展示已同步至电商平台的商品：
+用户可以自定义 AG-Grid 列表，包括拖动调整和筛选列表的表头。&lt;/p&gt;</description></item><item><title>与 Shopify 集成</title><link>https://www.bigledger.com/zh/modules/ecommerce/integration-with-shopify/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/integration-with-shopify/</guid><description>
+&lt;p&gt;&lt;strong&gt;页面 ID&lt;/strong&gt;：3292758065
+&lt;strong&gt;最后更新&lt;/strong&gt;：2021-07-15T07:56:28.266Z
+步骤，..&lt;/p&gt;</description></item><item><title>CP-Commerce 菜单与页面配置</title><link>https://www.bigledger.com/zh/modules/ecommerce/cp-commerce-menu-pages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/zh/modules/ecommerce/cp-commerce-menu-pages/</guid><description>
+&lt;p&gt;CP-Commerce 提供灵活的工具来管理电商网站的导航菜单与静态内容页面。本指南涵盖菜单模块与页面模块的配置。&lt;/p&gt;
+&lt;h2&gt;菜单模块&lt;span class="hx:absolute hx:-mt-20" id="菜单模块"&gt;&lt;/span&gt;
+&lt;a href="#%e8%8f%9c%e5%8d%95%e6%a8%a1%e5%9d%97" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;菜单模块控制 CP-Commerce 网站的导航结构，允许您创建包含多种链接类型的多级菜单。&lt;/p&gt;
+&lt;h3&gt;理解菜单结构&lt;span class="hx:absolute hx:-mt-20" id="理解菜单结构"&gt;&lt;/span&gt;
+&lt;a href="#%e7%90%86%e8%a7%a3%e8%8f%9c%e5%8d%95%e7%bb%93%e6%9e%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;CP-Commerce 的菜单项支持：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;多级层次结构&lt;/strong&gt; —— 创建父级与子级菜单项&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多种链接类型&lt;/strong&gt; —— 链接到页面、商品、类目或外部网址&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灵活的排序&lt;/strong&gt; —— 控制菜单顺序与嵌套&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;按条件显示&lt;/strong&gt; —— 启用/停用状态控制&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;菜单列表视图&lt;span class="hx:absolute hx:-mt-20" id="菜单列表视图"&gt;&lt;/span&gt;
+&lt;a href="#%e8%8f%9c%e5%8d%95%e5%88%97%e8%a1%a8%e8%a7%86%e5%9b%be" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;菜单列表显示：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;列&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;标题&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;向用户展示的菜单项名称&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;菜单层级&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;层次级别（1 = 顶级，2 = 子菜单，以此类推）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;链接&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;链接类型与目标&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;状态&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;启用或停用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;操作&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;编辑、删除、重新排序&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;创建菜单项&lt;span class="hx:absolute hx:-mt-20" id="创建菜单项"&gt;&lt;/span&gt;
+&lt;a href="#%e5%88%9b%e5%bb%ba%e8%8f%9c%e5%8d%95%e9%a1%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;第 1 步：基本信息&lt;span class="hx:absolute hx:-mt-20" id="第-1-步基本信息"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ac%ac-1-%e6%ad%a5%e5%9f%ba%e6%9c%ac%e4%bf%a1%e6%81%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;前往 &lt;strong&gt;CP-Commerce&lt;/strong&gt; &amp;gt; &lt;strong&gt;菜单模块&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;点击 &lt;strong&gt;“创建新菜单项”&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;填写必填字段：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;标题&lt;/strong&gt;：菜单项的显示名称&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;保持简洁、有描述性&lt;/li&gt;
+&lt;li&gt;使用动作性词语提升用户体验（如“立即选购”“浏览类目”）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;第 2 步：配置链接类型&lt;span class="hx:absolute hx:-mt-20" id="第-2-步配置链接类型"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ac%ac-2-%e6%ad%a5%e9%85%8d%e7%bd%ae%e9%93%be%e6%8e%a5%e7%b1%bb%e5%9e%8b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;链接类型&lt;/strong&gt;决定菜单项的行为：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;类型&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;th&gt;使用场景&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;页面&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;链接到在页面模块中创建的静态页面&lt;/td&gt;
+&lt;td&gt;关于我们、条款、隐私&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;商品&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;直接链接到特定商品&lt;/td&gt;
+&lt;td&gt;精选商品、热销商品&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;商品类目&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;链接到类目列表&lt;/td&gt;
+&lt;td&gt;按部门选购&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;内容类目&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;链接到内容合集&lt;/td&gt;
+&lt;td&gt;博客、新闻、资源&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;外部链接&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;链接到外部网址或自定义页面&lt;/td&gt;
+&lt;td&gt;社交媒体、合作伙伴网站&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;第 3 步：链接配置&lt;span class="hx:absolute hx:-mt-20" id="第-3-步链接配置"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ac%ac-3-%e6%ad%a5%e9%93%be%e6%8e%a5%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;根据所选链接类型：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;页面&lt;/strong&gt;：从已创建页面的下拉列表中选择&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;商品&lt;/strong&gt;：搜索并选择特定商品&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;商品类目&lt;/strong&gt;：从类目树中选择&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内容类目&lt;/strong&gt;：选择内容类目&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;外部链接&lt;/strong&gt;：输入完整网址（https://&amp;hellip;）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;第 4 步：显示设置&lt;span class="hx:absolute hx:-mt-20" id="第-4-步显示设置"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ac%ac-4-%e6%ad%a5%e6%98%be%e7%a4%ba%e8%ae%be%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;状态&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;启用 —— 菜单项可见&lt;/li&gt;
+&lt;li&gt;停用 —— 在网站上隐藏&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;跳转方式&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;当前窗口 —— 在当前标签页打开（默认）&lt;/li&gt;
+&lt;li&gt;新窗口 —— 在新标签页打开（适用于外部链接）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;第 5 步：菜单层级&lt;span class="hx:absolute hx:-mt-20" id="第-5-步菜单层级"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ac%ac-5-%e6%ad%a5%e8%8f%9c%e5%8d%95%e5%b1%82%e7%ba%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;嵌套菜单项&lt;/strong&gt;：勾选后此项成为子菜单项&lt;/p&gt;
+&lt;p&gt;启用嵌套后：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;父级菜单&lt;/strong&gt;：选择父级菜单项&lt;/li&gt;
+&lt;li&gt;该项将以下拉形式显示在父级菜单下&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;菜单层级示例&lt;span class="hx:absolute hx:-mt-20" id="菜单层级示例"&gt;&lt;/span&gt;
+&lt;a href="#%e8%8f%9c%e5%8d%95%e5%b1%82%e7%ba%a7%e7%a4%ba%e4%be%8b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;首页（第 1 级）
+选购（第 1 级）
+├── 电子产品（第 2 级）
+│ ├── 电脑（第 3 级）
+│ ├── 手机（第 3 级）
+│ └── 配件（第 3 级）
+├── 时尚服饰（第 2 级）
+│ ├── 男装（第 3 级）
+│ └── 女装（第 3 级）
+└── 清仓特卖（第 2 级）
+关于我们（第 1 级）
+联系我们（第 1 级）&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;页面模块&lt;span class="hx:absolute hx:-mt-20" id="页面模块"&gt;&lt;/span&gt;
+&lt;a href="#%e9%a1%b5%e9%9d%a2%e6%a8%a1%e5%9d%97" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;页面模块用于为您的 CP-Commerce 网站创建静态内容页面，非常适合信息页、政策条款与自定义内容。&lt;/p&gt;
+&lt;h3&gt;创建静态页面&lt;span class="hx:absolute hx:-mt-20" id="创建静态页面"&gt;&lt;/span&gt;
+&lt;a href="#%e5%88%9b%e5%bb%ba%e9%9d%99%e6%80%81%e9%a1%b5%e9%9d%a2" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;第 1 步：页面设置&lt;span class="hx:absolute hx:-mt-20" id="第-1-步页面设置"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ac%ac-1-%e6%ad%a5%e9%a1%b5%e9%9d%a2%e8%ae%be%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;前往 &lt;strong&gt;CP-Commerce&lt;/strong&gt; &amp;gt; &lt;strong&gt;页面模块&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;点击 &lt;strong&gt;“创建新页面”&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;第 2 步：页面配置&lt;span class="hx:absolute hx:-mt-20" id="第-2-步页面配置"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ac%ac-2-%e6%ad%a5%e9%a1%b5%e9%9d%a2%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;标题&lt;/strong&gt;：页面标题&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;显示在浏览器标签页中&lt;/li&gt;
+&lt;li&gt;用于页面头部&lt;/li&gt;
+&lt;li&gt;对 SEO 很重要&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;URL 键&lt;/strong&gt;：页面的网址&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;必须唯一&lt;/li&gt;
+&lt;li&gt;使用小写字母与连字符&lt;/li&gt;
+&lt;li&gt;示例：&lt;code&gt;about-us&lt;/code&gt;、&lt;code&gt;return-policy&lt;/code&gt;、&lt;code&gt;shipping-info&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;状态&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;启用 —— 页面可访问&lt;/li&gt;
+&lt;li&gt;停用 —— 页面隐藏（适用于草稿）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;内容类目&lt;/strong&gt;：（可选）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;将相关页面分组&lt;/li&gt;
+&lt;li&gt;便于内容组织&lt;/li&gt;
+&lt;li&gt;可用于自动生成菜单&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;第 3 步：页面内容&lt;span class="hx:absolute hx:-mt-20" id="第-3-步页面内容"&gt;&lt;/span&gt;
+&lt;a href="#%e7%ac%ac-3-%e6%ad%a5%e9%a1%b5%e9%9d%a2%e5%86%85%e5%ae%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;内容编辑器&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;支持 HTML 与纯文本&lt;/li&gt;
+&lt;li&gt;提供富文本排版&lt;/li&gt;
+&lt;li&gt;可包含：
+&lt;ul&gt;
+&lt;li&gt;文本与标题&lt;/li&gt;
+&lt;li&gt;图片与媒体&lt;/li&gt;
+&lt;li&gt;表格与列表&lt;/li&gt;
+&lt;li&gt;自定义 HTML/CSS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;常用静态页面&lt;span class="hx:absolute hx:-mt-20" id="常用静态页面"&gt;&lt;/span&gt;
+&lt;a href="#%e5%b8%b8%e7%94%a8%e9%9d%99%e6%80%81%e9%a1%b5%e9%9d%a2" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;必备页面&lt;span class="hx:absolute hx:-mt-20" id="必备页面"&gt;&lt;/span&gt;
+&lt;a href="#%e5%bf%85%e5%a4%87%e9%a1%b5%e9%9d%a2" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;关于我们&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;公司历史&lt;/li&gt;
+&lt;li&gt;使命与价值观&lt;/li&gt;
+&lt;li&gt;团队信息&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;条款与条件&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;服务条款&lt;/li&gt;
+&lt;li&gt;用户协议&lt;/li&gt;
+&lt;li&gt;法律免责声明&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;隐私政策&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;数据收集实践&lt;/li&gt;
+&lt;li&gt;用户权利&lt;/li&gt;
+&lt;li&gt;Cookie 政策&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;配送信息&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;配送区域&lt;/li&gt;
+&lt;li&gt;运费标准&lt;/li&gt;
+&lt;li&gt;预计时效&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;退货政策&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;退货条件&lt;/li&gt;
+&lt;li&gt;流程步骤&lt;/li&gt;
+&lt;li&gt;退款时限&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;营销页面&lt;span class="hx:absolute hx:-mt-20" id="营销页面"&gt;&lt;/span&gt;
+&lt;a href="#%e8%90%a5%e9%94%80%e9%a1%b5%e9%9d%a2" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;落地页&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;活动专属内容&lt;/li&gt;
+&lt;li&gt;新品发布&lt;/li&gt;
+&lt;li&gt;季节性促销&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;常见问题页&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;常见问题&lt;/li&gt;
+&lt;li&gt;商品指南&lt;/li&gt;
+&lt;li&gt;支持信息&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;内容最佳实践&lt;span class="hx:absolute hx:-mt-20" id="内容最佳实践"&gt;&lt;/span&gt;
+&lt;a href="#%e5%86%85%e5%ae%b9%e6%9c%80%e4%bd%b3%e5%ae%9e%e8%b7%b5" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;SEO 优化&lt;span class="hx:absolute hx:-mt-20" id="seo-优化"&gt;&lt;/span&gt;
+&lt;a href="#seo-%e4%bc%98%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;使用包含关键词的描述性标题&lt;/li&gt;
+&lt;li&gt;创建唯一的 URL 键&lt;/li&gt;
+&lt;li&gt;填写元描述（meta description）&lt;/li&gt;
+&lt;li&gt;使用正确的标题层级（H1、H2、H3）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;内容结构&lt;span class="hx:absolute hx:-mt-20" id="内容结构"&gt;&lt;/span&gt;
+&lt;a href="#%e5%86%85%e5%ae%b9%e7%bb%93%e6%9e%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;h1&lt;/span&gt;&amp;gt;页面标题&amp;lt;/&lt;span style="color:#f92672"&gt;h1&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;p&lt;/span&gt;&amp;gt;引言段落……&amp;lt;/&lt;span style="color:#f92672"&gt;p&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;h2&lt;/span&gt;&amp;gt;章节标题&amp;lt;/&lt;span style="color:#f92672"&gt;h2&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;p&lt;/span&gt;&amp;gt;章节内容……&amp;lt;/&lt;span style="color:#f92672"&gt;p&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;h3&lt;/span&gt;&amp;gt;小节&amp;lt;/&lt;span style="color:#f92672"&gt;h3&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;ul&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &amp;lt;&lt;span style="color:#f92672"&gt;li&lt;/span&gt;&amp;gt;要点 1&amp;lt;/&lt;span style="color:#f92672"&gt;li&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &amp;lt;&lt;span style="color:#f92672"&gt;li&lt;/span&gt;&amp;gt;要点 2&amp;lt;/&lt;span style="color:#f92672"&gt;li&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;/&lt;span style="color:#f92672"&gt;ul&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;移动端适配&lt;span class="hx:absolute hx:-mt-20" id="移动端适配"&gt;&lt;/span&gt;
+&lt;a href="#%e7%a7%bb%e5%8a%a8%e7%ab%af%e9%80%82%e9%85%8d" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;在移动设备上测试内容&lt;/li&gt;
+&lt;li&gt;使用响应式图片&lt;/li&gt;
+&lt;li&gt;避免复杂表格&lt;/li&gt;
+&lt;li&gt;保持段落简短&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;集成技巧&lt;span class="hx:absolute hx:-mt-20" id="集成技巧"&gt;&lt;/span&gt;
+&lt;a href="#%e9%9b%86%e6%88%90%e6%8a%80%e5%b7%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;将菜单链接到页面&lt;span class="hx:absolute hx:-mt-20" id="将菜单链接到页面"&gt;&lt;/span&gt;
+&lt;a href="#%e5%b0%86%e8%8f%9c%e5%8d%95%e9%93%be%e6%8e%a5%e5%88%b0%e9%a1%b5%e9%9d%a2" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;先在页面模块中创建页面&lt;/li&gt;
+&lt;li&gt;将页面状态设为“启用”&lt;/li&gt;
+&lt;li&gt;创建链接类型为“页面”的菜单项&lt;/li&gt;
+&lt;li&gt;从下拉列表中选择已创建的页面&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;动态内容集成&lt;span class="hx:absolute hx:-mt-20" id="动态内容集成"&gt;&lt;/span&gt;
+&lt;a href="#%e5%8a%a8%e6%80%81%e5%86%85%e5%ae%b9%e9%9b%86%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;页面模块创建的是静态内容，您还可以通过以下方式增强：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;商品挂件&lt;/li&gt;
+&lt;li&gt;类目列表&lt;/li&gt;
+&lt;li&gt;邮件订阅表单&lt;/li&gt;
+&lt;li&gt;联系表单&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;多语言支持&lt;span class="hx:absolute hx:-mt-20" id="多语言支持"&gt;&lt;/span&gt;
+&lt;a href="#%e5%a4%9a%e8%af%ad%e8%a8%80%e6%94%af%e6%8c%81" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;针对多语言网站：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;为每种语言分别创建页面&lt;/li&gt;
+&lt;li&gt;使用语言专属的 URL 键&lt;/li&gt;
+&lt;li&gt;按语言用内容类目进行组织&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;故障排查&lt;span class="hx:absolute hx:-mt-20" id="故障排查"&gt;&lt;/span&gt;
+&lt;a href="#%e6%95%85%e9%9a%9c%e6%8e%92%e6%9f%a5" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;菜单不显示&lt;span class="hx:absolute hx:-mt-20" id="菜单不显示"&gt;&lt;/span&gt;
+&lt;a href="#%e8%8f%9c%e5%8d%95%e4%b8%8d%e6%98%be%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;检查菜单状态是否为“启用”&lt;/li&gt;
+&lt;li&gt;确认父级菜单（如有嵌套）为“启用”&lt;/li&gt;
+&lt;li&gt;清除网站缓存&lt;/li&gt;
+&lt;li&gt;检查用户权限&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;页面未找到（404）&lt;span class="hx:absolute hx:-mt-20" id="页面未找到404"&gt;&lt;/span&gt;
+&lt;a href="#%e9%a1%b5%e9%9d%a2%e6%9c%aa%e6%89%be%e5%88%b0404" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;核对 URL 键是否正确&lt;/li&gt;
+&lt;li&gt;确保页面状态为“启用”&lt;/li&gt;
+&lt;li&gt;检查是否存在重复的 URL 键&lt;/li&gt;
+&lt;li&gt;清除浏览器缓存&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;内容未更新&lt;span class="hx:absolute hx:-mt-20" id="内容未更新"&gt;&lt;/span&gt;
+&lt;a href="#%e5%86%85%e5%ae%b9%e6%9c%aa%e6%9b%b4%e6%96%b0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;清除 CP-Commerce 缓存&lt;/li&gt;
+&lt;li&gt;确认更改已保存&lt;/li&gt;
+&lt;li&gt;确认编辑的是正确的页面&lt;/li&gt;
+&lt;li&gt;尝试强制刷新（Ctrl+F5）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;相关文档&lt;span class="hx:absolute hx:-mt-20" id="相关文档"&gt;&lt;/span&gt;
+&lt;a href="#%e7%9b%b8%e5%85%b3%e6%96%87%e6%a1%a3" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/zh/modules/ecommerce/cp-commerce/" &gt;CP-Commerce 概览&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/modules/ecommerce/website-configuration/" &gt;网站配置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/zh/modules/ecommerce/" &gt;电商集成&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/zh/user-guide/" &gt;内容管理最佳实践&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

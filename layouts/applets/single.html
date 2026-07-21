@@ -1,5 +1,7 @@
 {{ define "main" }}
-<link rel="stylesheet" href="{{ "css/applet-detail.css" | relURL }}">
+{{/* ?v= busts browser caches whenever the site is rebuilt */}}
+<link rel="stylesheet" href="{{ "css/applet-detail.css" | relURL }}?v={{ now.Unix }}">
+{{ if .Params.applet_tabs }}<link rel="stylesheet" href="{{ "css/applet-tabs.css" | relURL }}?v={{ now.Unix }}">{{ end }}
 
 {{ $toc := .TableOfContents }}
 {{ $hasToc := strings.Contains $toc "<li>" }}
@@ -98,6 +100,7 @@
   {{ end }}
 </div>
 
+{{ if not .Params.applet_tabs }}
 <script>
 (function () {
   var toc = document.querySelector('.apd-toc');
@@ -130,4 +133,6 @@
   onScroll();
 })();
 </script>
+{{ end }}
+{{ if .Params.applet_tabs }}<script src="{{ "js/applet-tabs.js" | relURL }}?v={{ now.Unix }}" defer></script>{{ end }}
 {{ end }}

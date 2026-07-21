@@ -17,7 +17,7 @@
       {{ range $categories }}
       <button type="button" class="modp-cat-btn{{ if eq .id $curCategory }} active{{ end }}"
               data-cat="{{ .id }}" role="tab" aria-selected="{{ if eq .id $curCategory }}true{{ else }}false{{ end }}">
-        {{ .label }}
+        {{ i18n (printf "modcat_%s" .id) | default .label }}
       </button>
       {{ end }}
     </div>
@@ -27,8 +27,8 @@
       <div class="modp-cat-panel" data-cat-panel="{{ .id }}" role="tabpanel"{{ if ne .id $curCategory }} hidden{{ end }}>
         {{ range $chapters }}
         {{ if eq .category $cid }}
-        <a href="{{ .url | relLangURL }}" class="modp-explorer-mod{{ if eq (.url | relLangURL) $cur }} current{{ end }}">
-          <span>{{ .name }}</span>
+        <a href="{{ partial "lurl.html" (dict "ctx" $ "url" .url) }}" class="modp-explorer-mod{{ if eq (.url | relLangURL) $cur }} current{{ end }}">
+          <span>{{ i18n (printf "mod_%s" (path.Base .url)) | default .name }}</span>
           {{ with .count }}<span class="modp-explorer-count">{{ . }}</span>{{ end }}
         </a>
         {{ end }}
@@ -40,12 +40,12 @@
 
   <article class="modp-main">
     <nav class="modp-crumb" aria-label="Breadcrumb">
-      <a href="{{ "/" | relLangURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "crumb_home" | default "Home" }}</a>
       <span>&rsaquo;</span>
-      <a href="{{ "/modules/" | relLangURL }}">Modules</a>
+      <a href="{{ "/modules/" | relLangURL }}">{{ i18n "crumb_modules" | default "Modules" }}</a>
       {{ if and $chapter (ne ($chapter.url | relLangURL) $cur) }}
       <span>&rsaquo;</span>
-      <a href="{{ $chapter.url | relLangURL }}">{{ $chapter.name }}</a>
+      <a href="{{ partial "lurl.html" (dict "ctx" $ "url" $chapter.url) }}">{{ i18n (printf "mod_%s" (path.Base $chapter.url)) | default $chapter.name }}</a>
       {{ end }}
       <span>&rsaquo;</span>
       <span>{{ .Title }}</span>
@@ -55,7 +55,7 @@
 
     {{ if and $chapter (eq ($chapter.url | relLangURL) $cur) }}
     <div class="modp-badges">
-      {{ with $chapter.count }}<span class="modp-badge modp-badge-red">{{ . }} applets</span>{{ end }}
+      {{ with $chapter.count }}<span class="modp-badge modp-badge-red">{{ . }} {{ i18n "applets_word" | default "applets" }}</span>{{ end }}
       {{ with $chapter.role }}<span class="modp-badge modp-badge-neutral">{{ . }}</span>{{ end }}
     </div>
     {{ end }}
@@ -69,32 +69,32 @@
     <!-- Chapter navigation -->
     <nav class="modp-chapter" aria-label="Module navigation">
       {{ if ge $idx 0 }}
-      <p class="modp-chapter-label">Module {{ add $idx 1 }} of {{ len $chapters }} &mdash; {{ $chapter.name }}</p>
+      <p class="modp-chapter-label">{{ i18n "module_word" | default "Module" }} {{ add $idx 1 }} / {{ len $chapters }} &mdash; {{ i18n (printf "mod_%s" (path.Base $chapter.url)) | default $chapter.name }}</p>
       <div class="modp-chapter-cards">
         {{ if gt $idx 0 }}{{ $prev := index $chapters (sub $idx 1) }}
-        <a href="{{ $prev.url | relLangURL }}" class="modp-chapter-card">
-          <span class="modp-chapter-dir">&larr; Previous</span>
-          <span class="modp-chapter-name">{{ $prev.name }}</span>
-          {{ with $prev.count }}<span class="modp-chapter-count">{{ . }} applets</span>{{ end }}
+        <a href="{{ partial "lurl.html" (dict "ctx" $ "url" $prev.url) }}" class="modp-chapter-card">
+          <span class="modp-chapter-dir">&larr; {{ i18n "nav_previous" | default "Previous" }}</span>
+          <span class="modp-chapter-name">{{ i18n (printf "mod_%s" (path.Base $prev.url)) | default $prev.name }}</span>
+          {{ with $prev.count }}<span class="modp-chapter-count">{{ . }} {{ i18n "applets_word" | default "applets" }}</span>{{ end }}
         </a>
         {{ else }}<span class="modp-chapter-card modp-chapter-empty"></span>{{ end }}
         {{ if lt (add $idx 1) (len $chapters) }}{{ $next := index $chapters (add $idx 1) }}
-        <a href="{{ $next.url | relLangURL }}" class="modp-chapter-card modp-chapter-next">
-          <span class="modp-chapter-dir">Next &rarr;</span>
-          <span class="modp-chapter-name">{{ $next.name }}</span>
-          {{ with $next.count }}<span class="modp-chapter-count">{{ . }} applets</span>{{ end }}
+        <a href="{{ partial "lurl.html" (dict "ctx" $ "url" $next.url) }}" class="modp-chapter-card modp-chapter-next">
+          <span class="modp-chapter-dir">{{ i18n "nav_next" | default "Next" }} &rarr;</span>
+          <span class="modp-chapter-name">{{ i18n (printf "mod_%s" (path.Base $next.url)) | default $next.name }}</span>
+          {{ with $next.count }}<span class="modp-chapter-count">{{ . }} {{ i18n "applets_word" | default "applets" }}</span>{{ end }}
         </a>
         {{ else }}<span class="modp-chapter-card modp-chapter-empty"></span>{{ end }}
       </div>
       {{ end }}
-      <button type="button" class="modp-allmods-btn" id="modpAllBtn" aria-expanded="false">All modules
+      <button type="button" class="modp-allmods-btn" id="modpAllBtn" aria-expanded="false">{{ i18n "all_modules" | default "All modules" }}
         <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
       </button>
       <div class="modp-allmods" id="modpAllGrid" hidden>
         {{ range $i, $c := $chapters }}
-        <a href="{{ $c.url | relLangURL }}" class="modp-allmods-item{{ if eq $i $idx }} current{{ end }}">
+        <a href="{{ partial "lurl.html" (dict "ctx" $ "url" $c.url) }}" class="modp-allmods-item{{ if eq $i $idx }} current{{ end }}">
           <span class="modp-allmods-num">{{ printf "%02d" (add $i 1) }}</span>
-          <span class="modp-allmods-name">{{ $c.name }}</span>
+          <span class="modp-allmods-name">{{ i18n (printf "mod_%s" (path.Base $c.url)) | default $c.name }}</span>
           {{ with $c.count }}<span class="modp-allmods-count">{{ . }}</span>{{ end }}
         </a>
         {{ end }}
@@ -103,7 +103,7 @@
   </article>
 
   <aside class="modp-toc" id="modpToc" hidden aria-label="On this page">
-    <span class="modp-toc-title">On this page</span>
+    <span class="modp-toc-title">{{ i18n "on_this_page" | default "On this page" }}</span>
     <nav id="modpTocNav"></nav>
   </aside>
 </div>

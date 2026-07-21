@@ -1,0 +1,481 @@
+# Chinese overlay for data/solution_features.yaml (name/desc only;
+# icon/badge/link stay in the base file). Missing entries fall back to English.
+
+add-modules-without-migration:
+  name: "添加模块无需迁移"
+  desc: "模块底层共享同一应用架构，新增模块只是一次安装而非更换平台 — 官方推荐的路径是分阶段逐步实施，而不是一次性全面上线。"
+advanced-reporting-bi:
+  name: "高级报表与 BI"
+  desc: "灵活的报表生成器支持自定义与期间对比报告，并配有实时仪表盘分析 — 企业级还可选用专用商业智能应用，进行数据仓库与预测建模。"
+api-webhook-access:
+  name: "API 与 Webhook 访问"
+  desc: "REST API 提供 JS/TS、Python、PHP、Java、.NET、Go 的 SDK，标准套餐限速每小时 1,000 次请求，企业版更高。Webhook 覆盖 200+ 事件类型，峰值每秒 10,000 事件，交付保证 99.9%。"
+appointment-scheduling-reminders:
+  name: "预约排程与提醒"
+  desc: "预约、处方续配请求与健康提醒通过平台的全渠道消息应用运行，支持日历集成与急诊优先路由 — 是应用于医疗流程的通用消息自动化，而非专用诊所排程系统。"
+audit-trail-every-transaction:
+  name: "每笔交易的审计轨迹"
+  desc: "每笔交易默认携带完整审计轨迹，叠加基于角色的访问控制与多级审批流程 — 活动日志与审计保留期可配置长达 7 年。"
+automated-bank-reconciliation:
+  name: "自动银行对账"
+  desc: "银行对账基于每日流水导入自动运行，而非每月手工核对 — 现金簿以此为主要功能构建，并非偶尔使用的工具。"
+automated-order-routing:
+  name: "自动订单路由"
+  desc: "订单自动路由至最优供应商 — AI 综合权衡成本、位置、库存与绩效，必要时一张订单还可自动拆分给多个供应商。"
+automated-payroll-statutory-filing:
+  name: "自动薪资与法定申报"
+  desc: "薪资按既定周期运行 — 考勤、计算、审批、发放、报告 — 所得税与法定扣缴（EPF、SOCSO）在计算环节自动完成，无需事后调整。"
+b2b-customer-portal:
+  name: "B2B 客户门户"
+  desc: "专用 B2B 门户应用为批发客户提供专属价格、批量下单、信用额度管理与自定义目录 — 自助下单，而非电话邮件接单。"
+basic-to-advanced-module-path:
+  name: "由基础到高级的模块路径"
+bill-of-materials-bom:
+  name: "物料清单（BOM）"
+  desc: "BOM 带完整版本管理与工程变更管理，成本同时按标准与实际汇总 — BOM 修订不会悄然破坏成本基线。"
+bundle-kitting-support:
+  name: "组合与套装支持"
+  desc: "套装与组合商品是一等公民的产品配置而非变通方案 — 复杂装配与增值包装的商品捆绑均获明确支持。"
+cash-flow-forecasting:
+  name: "现金流预测"
+  desc: "现金簿以实时现金头寸追踪为核心功能，并提供专门的现金流预测与分析报告 — 平台特别为收入不规律的服务型企业强调这一能力。"
+centralized-pricing-promotions:
+  name: "集中定价与促销"
+  desc: "全链促销是多店连锁方案的明确功能，底层价格簿可按客群、客户、实体或期间配置促销与活动，一次设置覆盖所有门店。"
+claim-cycle-tracking:
+  name: "报销周期追踪"
+client-billing-invoicing:
+  name: "客户计费与开票"
+  desc: "已记录的工时与费用直接转为客户发票 — 无需重复录入。支持里程碑计费、预付款，以及同流程内的马来西亚电子发票/LHDN 提交。"
+co-marketing-opportunities:
+  name: "联合营销机会"
+combined-finance-operations-modules:
+  name: "财务与运营模块并举"
+commission-schemes:
+  name: "佣金方案"
+commission-tracking:
+  name: "佣金追踪"
+  desc: "销售提成基于管道中的同一成交数据自动计算，佣金结构（如销售额 3%）直接存于员工薪酬档案，而非另一张表格。"
+compliance-update-tracking:
+  name: "合规更新追踪"
+  desc: "税率与规则带生效日期，法规变化（如 SST 税率调整）可提前排期而非临期打补丁。合规日历追踪申报期限并附监控与提醒。"
+configurable-approval-workflows:
+  name: "可配置审批流程"
+  desc: "报销沿用 HR 通用的审批路由 — 申请、经理审批、HR 复核 — 而非另行维护一套平行流程。"
+configuration-training:
+  name: "配置与培训"
+consolidated-group-reporting:
+  name: "集团合并报表"
+  desc: "专用合并处理应用将实体级财务汇总为集团报表，直接使用组织设置中定义的母子公司结构。"
+consolidated-reporting-franchise:
+  name: "合并报表"
+  desc: "多实体财务合并与跨租户绩效分析可扩展至 100 个合并层级，数分钟生成企业级报表 — 加盟商绩效监控是特许经营的明确用例。"
+core-accounting-einvoice-day-one:
+  name: "核心会计 + 首日即备电子发票"
+  desc: "财务会计内置 GST/SST 合规与自动税额计算，政府强制的电子发票属于同一模块 — 不是壮大后才另购的附加件。"
+crm-pipeline-tracking:
+  name: "CRM 与管道追踪"
+  desc: "以 5 阶段管道（潜在 → 资格 → 提案 → 谈判 → 成交）追踪线索，内置线索评分，项目型团队在投入资源前即知优先级。"
+cross-outlet-redemption:
+  name: "跨门店兑换"
+  desc: "会员体系运行在与集中库存相同的多门店 POS 基础上，会员积分不会被锁定在赚取积分的那家门店。"
+custom-slas-security-review:
+  name: "定制 SLA 与安全评审"
+  desc: "企业部署运行在同样的 99.9% 可用性目标上，叠加特权访问管理与紧急破窗访问 — 再加多因素认证、RBAC 及传输与静态加密。"
+data-migration-assistance:
+  name: "数据迁移协助"
+data-migration-quickbooks:
+  name: "QuickBooks 数据迁移"
+data-migration-services:
+  name: "数据迁移服务"
+data-residency-policy:
+  name: "数据驻留政策"
+  desc: "地理数据驻留与主权控制让受监管的部署将数据保留在要求的区域内，辅以面向区域推广的本地合规框架，而非一刀切的全球设置。"
+dedicated-account-support:
+  name: "专属客户支持"
+  desc: "企业实施配备专属项目团队与持续客户成功管理，重大问题 7×24 技术支持，并定期健康检查 — 而非共享工单队列。"
+dedicated-onboarding-specialist:
+  name: "专属上线顾问"
+dedicated-partner-support:
+  name: "专属伙伴支持"
+delivery-route-optimization:
+  name: "配送路线优化"
+  desc: "客户档案专为路线优化携带 GPS 坐标，连同配送区域、偏好与服务辖区分配 — 路由不再是独立的手工排程环节。"
+digital-claim-submission:
+  name: "数字化报销提交"
+dropship-specific-reporting:
+  name: "代发专属报表"
+  desc: "专为一件代发设计的 KPI：订单处理时长、履约准确率、准时交付率、供应商可靠性综合评分、单均毛利与退货率。"
+einvoice-lhdn-submission:
+  name: "电子发票/LHDN 提交"
+  desc: "发票经 API 直连 LHDN 提交，带实时校验、失败自动重试与批量处理 — 对齐马来西亚 MyInvois 分阶段强制时间表（2024 年 8 月起营业额 >RM1 亿，2025 年 1 月起 >RM2500 万，2025 年 7 月覆盖全部企业）。"
+employee-self-service-portal:
+  name: "员工自助门户"
+  desc: "员工自行更新个人信息、提交请假；经理有团队审批仪表盘；工资单/证明/制度随取随用 — 全部通过同一款考勤移动应用完成。"
+encryption-at-rest-transit:
+  name: "静态与传输加密"
+  desc: "数据默认在静态与传输中均加密，租户间加密分区确保一家客户的数据绝不会被另一家寻址。这是每个模块的基线行为，不是企业版的增值项。"
+epf-socso-pcb-automation:
+  name: "EPF/SOCSO/PCB 自动化"
+  desc: "法定缴纳 — EPF、SOCSO 与所得税扣缴 — 在每次薪资运行中自动计算，而非事后补挂。薪资周期从计算直通法定申报，月末无需手工重算。"
+equipment-asset-tracking:
+  name: "设备/资产追踪"
+  desc: "设备租赁供应商作为独立供应商类型管理，通用设备追踪是服务型企业的常见文档用例 — 尚无专用固定资产台账，请视为供应商与库存层面的追踪而非完整资产账。"
+faster-implementation-legacy-erp:
+  name: "比传统 ERP 更快实施"
+  desc: "模块基于共享应用架构分阶段添加，而非一次性大爆炸上线 — 按部门分步上线，无需等待单一的整体切换。"
+feature-comparison-autocount:
+  name: "与 AutoCount 功能对比"
+feature-comparison-sql-account:
+  name: "与 SQL Account 功能对比"
+flexible-pricing-tiers:
+  name: "灵活价格层级"
+  desc: "数量阶梯价与客户专属价支持同一商品多个售价 — 文档用例正是 B2B 分销商跨多个供应商关系运行不同价格档。"
+fn-ai-customer-analytics:
+  name: "AI 客户分析"
+  desc: "基于购买历史的分析直接从账中数据得出流失风险、下一最佳商品建议与客户细分 — 不需要另建一个要喂数据的数据仓库。"
+fn-bank-reconciliation:
+  name: "银行对账"
+  desc: "将银行流水与现金簿逐行匹配、标记差异，按您掌控的节奏消除账面与银行余额的差距。指南覆盖完整对账流程。"
+fn-billing-by-stage:
+  name: "按阶段计费"
+  desc: "按固定费阶段、进度百分比或工时材料计费，单据项目按项目配置 — 发票挂回项目，未开票工作始终可见。"
+fn-bom-management:
+  name: "BOM 管理"
+  desc: "定义多级物料清单，支持组件替代与版本管理，生产订单可展开为准确的物料需求 — 按实时库存价值核算成本。"
+fn-claims-integration:
+  name: "报销集成"
+  desc: "费用报销经可配置审批流转，并通过薪资结算到同一员工档案 — 报销状态与员工其他薪酬数据并排可见。"
+fn-cp-commerce-storefront:
+  name: "CP-Commerce 商城"
+  desc: "在 CP-Commerce 上运营自有品牌网店，背后是与平台其余部分相同的 13 个核心应用 — 目录、购物车、支付与履约全含。完整应用清单见模块文档。"
+fn-customer-master-data:
+  name: "客户主数据"
+  desc: "一份客户档案承载资料、信用额度、账期与多地址，贯通销售、开票与客服。更新一次，每份报价、订单与对账单同步生效。"
+fn-digital-crm:
+  name: "数字 CRM"
+  desc: "管道、活动与客户管理读取与发票相同的客户主数据 — 标记成交的商机无需重录即成订单。完整应用集见数字 CRM 模块文档。"
+fn-ecommerce-catalog:
+  name: "电商目录"
+  desc: "在一个应用中管理线上商品目录 — 描述、图片、变体与渠道专属定价 — 同时供给自有商城与平台刊登。"
+fn-ecomsync-marketplaces:
+  name: "EcomSync 平台同步"
+  desc: "用一个目录与 Lazada、Shopee 等平台同步刊登、库存与订单。平台订单进入与其他订单相同的流程，库存跨渠道实时扣减。"
+fn-einvoice-generation:
+  name: "电子发票生成"
+  desc: "电子发票生成应用从正常销售流程创建合规电子发票 — 无需向门户重复录入。贷记单、借记单与作废走同一路径。"
+fn-einvoice-validation:
+  name: "校验规则"
+  desc: "发票在提交前按 LHDN 的字段与格式要求校验，拒收在 BigLedger 内即被拦截，而非数日后被税务机关退回。校验失败直接指向出错字段。"
+fn-employee-records:
+  name: "员工档案"
+  desc: "一份员工主档案承载资料、部门、职务与薪酬数据 — 薪资、报销与访问控制读取同一份档案，任何数据不用维护两遍。"
+fn-financial-reporting:
+  name: "财务报表"
+  desc: "损益表、资产负债表与现金流量表直接由总账生成 — 无需导出或手工拼装。报表映射定义在会计科目表中，业务增长报表依然正确。"
+fn-general-ledger-coa:
+  name: "总账与会计科目表"
+  desc: "每笔交易过账到复式总账，科目表一次设计 — 含科目层级、报表映射与多币种。同一总账服务所有模块，无需同步。"
+fn-goods-receiving:
+  name: "收货与内部配送"
+  desc: "按采购单收货，用配送单在内部移动货物，确认瞬间库存即更新，仓库与总账保持同一数字。"
+fn-job-costing:
+  name: "作业成本"
+  desc: "人工、材料与间接费用随发生即计入作业，单个作业的利润是实时数字 — 而非发票开出后的重构。会计流程指南展示过账流。"
+fn-job-orders:
+  name: "内部作业单"
+  desc: "以独立的订单、领料与完工过账追踪内部作业 — 装配、组包、返工 — 与客户订单分开，但在同一运营视图中可见。"
+fn-membership-at-checkout:
+  name: "收银台会员"
+  desc: "会员在收银台与普通销售同一流程中赚取与兑换积分 — 积分币种、等级与跨店兑换由会员体系承载，并非外挂。"
+fn-multi-outlet-pos:
+  name: "多门店运营"
+  desc: "所有门店共用同一目录、价格与库存可见性，分店独立现金簿，总部合并报表。POS 模块文档覆盖门店设置全程。"
+fn-myinvois-integration:
+  name: "MyInvois 集成"
+  desc: "以 MDEC 认证 PEPPOL 服务商身份，从 BigLedger 直接向 LHDN 的 MyInvois 系统提交发票。设置指南涵盖注册、环境配置与首次正式提交。"
+fn-payroll-statutory:
+  name: "EPF、SOCSO 与 PCB 合规"
+  desc: "薪资按现行法定费率计算 EPF、SOCSO、EIS 与 PCB，并生成机构要求的申报文件。费率更新随平台发布，而非您自行维护的表格。"
+fn-peppol-network:
+  name: "PEPPOL 网络"
+  desc: "与任何 PEPPOL 参与方交换发票 — 本地或国际 — 使用欧洲与亚太通用的同一网络。配置涵盖参与方 ID、单据类型与路由。"
+fn-pos-terminal:
+  name: "POS 终端"
+  desc: "完整的收银终端 — 收银操作、小票、退货与日结 — 每笔销售直接过账到总账与库存。没有隔夜批处理，没有需要对账的独立收银系统。"
+fn-pricing-promotions:
+  name: "定价与促销"
+  desc: "价格簿集中处理门店专属价、数量折扣与限时促销 — 改价一次推送，每台收银机即刻生效。"
+fn-procurement-controls:
+  name: "采购管控"
+  desc: "预算检查、审批阈值与三单匹配在承诺发生前把支出关进政策笼子 — 而不是月末才发现。控制点详见采购文档。"
+fn-production-planning:
+  name: "生产计划"
+  desc: "依据真实需求与物料可用性规划生产，工单预留库存并排程产能。制造模块文档涵盖计划设置。"
+fn-project-tracking:
+  name: "项目追踪"
+  desc: "在一个视图中对照计划追踪项目阶段、任务与状态，工时与成本随工作发生累计到项目。项目模块文档涵盖设置。"
+fn-project-workflows:
+  name: "审批流程"
+  desc: "变更、阶段签核与计费里程碑经由工作流设计应用的审批流程流转，项目决策留下审计轨迹而非散落在邮件里。"
+fn-purchase-workflows:
+  name: "采购流程"
+  desc: "请购、采购单、收货与供应商发票匹配作为一条连贯流程运行，审批环节按需设置。采购模块文档覆盖全周期。"
+fn-quality-control:
+  name: "质量控制"
+  desc: "在收货、过程与出货前设检验点，按工单记录合格/不合格结果，质量拦截让问题批次到不了客户手上。"
+fn-receivables-cashbook:
+  name: "应收与现金簿"
+  desc: "应收账款应用追踪客户开票、回款与账龄；现金簿应用管理现金与银行账户、支付方式与现金流。两者过账到您其余账簿共用的同一总账。"
+fn-shopify-integration:
+  name: "Shopify 集成"
+  desc: "连接 Shopify 商城，商品、库存与订单双向流动 — 教程覆盖商店连接、商品映射与订单下载，无需自定义代码。"
+fn-stock-adjustment:
+  name: "内部库存调整"
+  desc: "以原因代码与审批控制核销损坏、纠正盘点误差、登记盘盈 — 每次调整都有解释、可审计，而非无声改数。"
+fn-stock-balance:
+  name: "库存结余"
+  desc: "每商品每仓位的在库、预留与可用数量实时可见 — 销售订单、POS 收银与电商平台在占用库存前查的正是这些数字。"
+fn-stock-take:
+  name: "库存盘点"
+  desc: "以移动扫码辅助盘点，支持盲盘与批准后自动过账差异。盘点范围可限定到仓位、区域或类别，运营不停摆。"
+fn-stock-transfer:
+  name: "库存调拨流程"
+  desc: "以有单据的调拨单在分店与仓库间移库 — 发出、在途与收货状态明确 — 货物绝不会在两地之间失踪。指南涵盖完整流程。"
+fn-supplier-master-data:
+  name: "供应商主数据"
+  desc: "一份供应商档案承载账期、采购协议与类别归属，贯通采购与应付。供应商绩效历史在同一档案上持续累积。"
+fn-tax-configuration:
+  name: "税务配置"
+  desc: "在税务配置应用中一次设置 GST、SST、VAT 的代码、税率与分组 — 每个产生应税交易的模块使用同一规则。内置多辖区支持与电子申报集成。"
+fn-team-management:
+  name: "团队管理"
+  desc: "将员工组织为团队，配套团队级权限与汇报线，HR 与系统管理员共用一个应用管理，而非两套平行组织架构。"
+fn-unified-contact-center:
+  name: "统一客服中心"
+  desc: "处理客服电话、聊天与工单时，客户的订单、发票与付款状态同屏可见。坐席以系统记录作答，无需让客户复述。"
+franchisee-royalty-tracking:
+  name: "加盟权利金追踪"
+full-module-catalog-access:
+  name: "完整模块目录访问"
+  desc: "完整 ERP 打包全部 41 个应用 — 所有会计与 POS 应用加上 ERP 专属应用 — 应用商店支持每租户无限安装，覆盖公共与私有目录。"
+full-mrp-integration:
+  name: "完整 MRP 集成"
+  desc: "物料需求计划与需求驱动 MRP 与基于约束的高级计划排程并行，贯通销售预测、主计划、MRP 运行、产能规划到生产排程的完整链条。"
+full-service-history:
+  name: "完整服务历史"
+  desc: "客户档案直接关联服务历史与合同，是标准客户管理集成的一部分。"
+guided-data-import-templates:
+  name: "引导式数据导入模板"
+guided-onboarding:
+  name: "引导式上线"
+hipaa-ready-infrastructure:
+  name: "HIPAA 就绪基础设施"
+historical-data-migration:
+  name: "历史数据迁移"
+implementation-reseller-partnerships:
+  name: "实施与分销合作"
+inter-company-transactions:
+  name: "公司间交易"
+  desc: "专用公司间交易处理应用直接处理多实体交易，覆盖多分支运营中常见的同类跨分支交易场景。"
+inventory-analytics:
+  name: "库存分析"
+  desc: "库存分析覆盖再订货点与安全库存、动销分析（快慢动销、周转率）、按仓位或方法的估值 — 库存优化内置 ABC 分类与经济订货量计算。"
+iso27001-certified-infrastructure:
+  name: "ISO 27001 认证基础设施"
+  desc: "基础设施按 ISO 27001 与 PCI DSS 标准构建，企业部署再叠加 SOC 2 Type II 与 GDPR 合规支持。与多因素认证和加密同属一条安全基线，并非单独附加。"
+job-costing-profitability:
+  name: "作业成本与盈利"
+  desc: "项目成本采集、资源利用率与盈利能力按项目汇总，预算监控与收入确认同属项目财务 — 无需月末另行调节。"
+leave-claims-workflows:
+  name: "请假与报销流程"
+  desc: "请假走既定审批流 — 申请、经理批准、假期扣减、薪资联动、档案更新 — 费用报销记录于同一福利档案，不在另一套系统。"
+live-inventory-aware-quoting:
+  name: "实时库存感知报价"
+  desc: "CRM 报价读取所有仓位实时库存，报价反映真实可售，而非过期快照。"
+local-compliance-built-in:
+  name: "本地合规内置"
+  desc: "MyInvois（LHDN）与 PEPPOL 合规是电子发票模块的原生能力，税务配置自带马来西亚 GST/SST 现成用例 — 注册、服务税、月度 GST 申报、季度 SST 报告 — 而非从零配置。"
+local-support-transition:
+  name: "过渡期本地支持"
+loyalty-membership:
+  name: "忠诚与会员"
+  desc: "配置命名积分币种及各自的赚取与兑换比率 — 简单的 1 元 = 1 分模式，或银卡 1.5 倍到白金 3 倍的阶梯。积分在结账时自动入账，无需另一套要对账的忠诚系统。"
+marketplace-integrations:
+  name: "平台集成"
+  desc: "实时库存同步与订单归集默认连通 Lazada、Shopee 与 Shopify，Amazon 与 eBay 可通过商务平台应用接入。"
+marketplace-payout-reconciliation:
+  name: "平台货款对账"
+medical-billing:
+  name: "医疗收费"
+  desc: "可计费服务项目 — 诊费、处置、检验、医疗报告 — 通过平台的通用服务项目计费工具配置，应用于医疗实践的文档用例，而非围绕保险理赔编码专门构建。"
+membership-program-management:
+  name: "会员计划管理"
+  desc: "通过引导流程建立会员等级、标签与积分币种 — 先建等级、再挂标签、后配币种 — 而非一张扁平会员表。运行在既有的组织与价格簿设置之上，不重复建设。"
+mobile-access-owners:
+  name: "移动访问"
+  desc: "核心 CRM 与 HR 功能原生运行于 iOS、Android 及渐进式 Web 应用，支持离线 — 管理视野不止步于办公室门口。"
+mobile-friendly-solo-teams:
+  name: "适合个人/小团队的移动体验"
+  desc: "完整 CRM 运行于 iOS、Android 与渐进式 Web 应用，离线可用，查客户档案不依赖信号。同一移动模式覆盖 HR — 打卡、请假与审批 — 适合小到不设后勤的团队。"
+modular-pay-for-use:
+  name: "模块化，按用付费"
+  desc: "每个模块都是同一批底层应用的组合 — 您从市场安装并只为单个应用付费，而非为一堆用不上的功能买捆绑授权。免费与付费应用并列于同一目录。"
+multi-branch-inventory:
+  name: "多分支库存"
+  desc: "集中控制横跨多个仓库，含分支配货、跨仓调拨与区位/货位级追踪 — 各分支仍可保留本地专属定价。"
+multi-department-workflows:
+  name: "跨部门流程"
+  desc: "审批路由用可视化拖拽流程设计器搭建 — 最多 50 步、10 级审批 — 采购单可纯按金额阈值从部门经理、财务总监到 CEO 流转，入职流程同样贯通 HR、IT 与用人经理。"
+multi-entity-consolidation:
+  name: "多实体合并"
+  desc: "跨实体合并报表是财务会计的明确能力，配有专用合并处理应用，组织级母子结构直接供给数据。"
+multi-entity-multi-currency-gl:
+  name: "多实体多币种总账"
+  desc: "国际交易以原币原生过账，母子公司关系直接建模于组织结构 — 而非在单实体科目表里用变通方案模拟。"
+multi-marketplace-listing-management:
+  name: "多平台刊登管理"
+  desc: "专用刊登视图对照内部目录同步项与各平台实际在线内容，EcomSync 连通 Lazada、Shopee 与 Shopify 保持刊登最新。"
+multi-outlet-management:
+  name: "多门店管理"
+  desc: "多店连锁方案覆盖零售连锁、加盟与商场专柜：集中库存、店间调拨与全链促销。各分店仍可自定价格、结算方式与平台连接 — 东西马差异化定价是文档示例。"
+multi-outlet-performance-view:
+  name: "多门店绩效视图"
+  desc: "多店连锁方案跨门店合并报表与促销，并配备专为店与店比较打造的 POS 报表应用。"
+multi-outlet-ready:
+  name: "多门店就绪"
+  desc: "多店连锁方案开箱即含集中库存、店间调拨、合并报表与全链促销，并配有店间绩效对比的专用报表。"
+multi-outlet-stock-transfers:
+  name: "多门店调拨"
+  desc: "店间调拨是连锁标配，跨品牌库存调拨是共享同一分销设施的多品牌运营的文档能力。"
+multi-project-tracking:
+  name: "多项目追踪"
+  desc: "多阶段项目获得完整 WBS、甘特图与关键路径分析，组合分析把单个项目汇总为跨项目视图 — 固定价、工时材料与预付制项目并行支持。"
+multi-warehouse-management:
+  name: "多仓库管理"
+  desc: "区域管理、货位优化与波次计划跨设施协调拣选与上架，越库支持（直通、在途合并、拆包）专为配送中心与 3PL 运营设计。"
+offline-capable-pos:
+  name: "可离线 POS"
+  desc: "专用离线同步应用让断网也能继续销售 — 交易本地暂存，恢复联网后自动同步，带冲突解决与数据完整性校验。专为集市、展会、移动销售等弱网场景打造，而不仅是应急模式。"
+order-to-delivery-tracking:
+  name: "订单到交付追踪"
+  desc: "订单沿既定出库流程流转 — 预留、拣货单、配送、库存更新 — 配送单记录车辆与承运商明细，而不只是一个订单状态标志。"
+parallel-run-support:
+  name: "并行运行支持"
+parts-catalog-management:
+  name: "配件目录管理"
+  desc: "商品可带多种编码（SKU、UPC、厂商码）加技术规格字段与供应商目录集成 — 与任何配件目录共用同一商品主档工具，并非汽车专用配件数据库。"
+patient-record-management:
+  name: "病历管理"
+pay-as-you-grow-pricing:
+  name: "随成长付费"
+  desc: "专用按次付费档完全免除月度承诺 — 按发票计价、功能全含，为季节性或早期业务量而设。应用市场按应用镜像这一模式，免费与付费订阅并存。"
+per-entity-compliance-sst-einvoice:
+  name: "按实体合规（SST/电子发票）"
+  desc: "多国税务配置处理各国规则与公司间交易税务，再汇入合并税务报告 — 每个实体本地合规，集团级可见性不受影响。"
+per-outlet-performance-reporting:
+  name: "按门店绩效报表"
+  desc: "门店对比与收银员绩效报表直接把门店并排呈现，辅以商品销售分析与支付方式拆解 — 为比较门店而生，而非各自孤立报告。"
+pharmacy-inventory:
+  name: "药房库存"
+points-currency-configuration:
+  name: "积分与币种配置"
+  desc: "定义命名积分币种（如 LOYPTS、GOLDPTS、VIPPTS）及各自赚取与兑换比率 — 简单 1 元 = 1 分，或银卡 1.5 倍、白金 3 倍的阶梯。积分经与销售相同的流程在结账时自动入账。"
+policy-enforcement:
+  name: "政策执行"
+post-launch-support:
+  name: "上线后支持"
+production-planning-scheduling:
+  name: "生产计划与排程"
+  desc: "需求驱动的主生产计划喂给自动化 MRP，车间排程按工作中心以有限或无限产能运行 — 不是无视产能的扁平排程。"
+progress-billing:
+  name: "进度开票"
+  desc: "专用项目成本追踪应用在成本采集、工时费用分摊与项目盈利之外处理进度开票 — 开票紧扣实际项目进度，而非固定里程碑日历。"
+project-time-tracking:
+  name: "项目工时追踪"
+  desc: "按项目、任务与成员记录计费与非计费工时。工时表自动汇总为利用率报告，在承诺下一个工作范围前看清真实产能。"
+proposal-management:
+  name: "提案管理"
+  desc: "以价格簿取价构建并发送带范围的提案，追踪客户接受状态，接受后直接转为项目 — 无需人工交接。"
+public-status-page:
+  name: "公开状态页"
+  desc: "系统当前状态与计划维护窗口在 status.bigledger.com 实时公示，而非只有提工单才知道故障。"
+quality-inspection:
+  name: "质量检验"
+  desc: "质量控制计划按工序定义，过程中实时检验点与统计过程控制喂给不合格管理。合规框架按名内置 — ISO 9001、航空 AS9100、汽车 TS 16949。"
+quick-setup-no-it:
+  name: "快速上手，无需 IT 团队"
+  desc: "应用从目录一键安装，或用 \"全部安装\" 批量完成 — 无需服务器或 IT 工单即可运行。小企业电子发票设置明确围绕最小 IT 复杂度设计，用预配置模板而非定制实施。"
+real-time-business-dashboard:
+  name: "实时经营仪表盘"
+  desc: "专用企业仪表盘应用提供高管级 KPI 监控 — 实时指标、绩效记分卡与预测分析 — 叠加在财务会计已内置的实时仪表盘分析之上。"
+real-time-stock-sync:
+  name: "实时库存同步"
+  desc: "库存跨 POS 与电商实时更新与扣减，内置低库存预警与店间调拨 — 电商侧另有缓冲库存管理与预售处理，绝不超卖已售罄商品。"
+redundant-infrastructure:
+  name: "冗余基础设施"
+  desc: "支撑正常运行 SLA 的高可用架构跨多数据中心运行，带负载均衡、自动故障转移与实时复制 — 单节点故障不会演变成面向客户的停机。"
+referral-commissions:
+  name: "推荐佣金"
+regular-security-audits:
+  name: "定期安全审计"
+  desc: "实时安全监控与威胁检测持续运行，自动化合规报告同时对齐多个监管框架，而非每次审计手工拼装。"
+reimbursement-tracking:
+  name: "报销追踪"
+  desc: "员工费用报销记录于 HR 既有的福利与薪酬档案，报销状态与员工薪资数据并排可见。"
+resource-scheduling:
+  name: "资源排程"
+  desc: "按真实可用性给项目派人，而非拍脑袋。按成员查看利用率，在项目超订前重新平衡工作量。"
+rma-repair-workflow:
+  name: "RMA 与维修流程"
+  desc: "退货处理支持完整维修与翻新流程，逆向物流承接保修退货 — 精简 RMA 流程是零售与电商的明确能力。"
+role-based-access-control:
+  name: "基于角色的访问控制"
+  desc: "权限由带继承与委托的角色治理，可精确到单个应用 — 按分支、公司或地点配置。平台按规模构建：单部署支持 1,000 租户共 10,000 并发用户。"
+sales-pipeline-automation:
+  name: "销售管道自动化"
+  desc: "商机沿看板式可视管道流转，阶段与概率可配置（潜在 10% 到成交 100%），阶段变化触发工作流自动化，而非依赖人工跟进记录。"
+serial-warranty-tracking:
+  name: "序列号与保修追踪"
+  desc: "每件商品可按序列号全生命周期追踪，批次管理与族谱（用在哪、来自哪）支撑召回管理 — 保修条款直接记录在商品档案上。"
+shop-floor-control:
+  name: "车间控制"
+  desc: "生产沿既定流程运行 — 工单下达、领料、生产、质检、完工 — 每步实时监控，含资源指派与人工追踪。"
+side-by-side-feature-comparison:
+  name: "并排功能对比"
+sst-filing-reporting:
+  name: "SST 申报与报告"
+  desc: "将 SST 配置为专用税码（如 6% 服务税，直接映射到应付科目），与 GST、VAT 等税种同库管理。申报期按要求设置 — 月、季或年 — 与马来西亚 SST 实际申报节奏一致。"
+statutory-report-generation:
+  name: "法定报告生成"
+  desc: "由交易数据直接生成纳税申报与法定报告，电子申报集成直达主管机关。大型税务报告 30 秒内返回，10 年以上交易历史支撑审计。"
+subcontractor-management:
+  name: "分包商管理"
+  desc: "供应商档案直接区分分包商与材料、设备供应商，支持项目专属供应商指派与合规/安全资质追踪 — 建筑行业的文档用例，而非泛泛的供应商名单。"
+supplier-price-list-management:
+  name: "供应商价目管理"
+  desc: "供应商档案承载数量折扣结构、采购协议与信用条款 — 文档规模达 50 万供应商记录，数量阶梯价可按商品-供应商关系配置。"
+supplier-stock-sync:
+  name: "供应商库存同步"
+  desc: "经供应商 API 直连，商品可用性跨供应商网络实时同步，专用供应商网络管理应用在同步中为供应商绩效打分。"
+technology-api-integrations:
+  name: "技术与 API 集成"
+  desc: "应用市场已支持公共与私有目录分发第三方应用，Webhook 应用提供真实的通用 API 集成 — 任何伙伴系统都可对接的事件驱动通知。"
+time-attendance-tracking:
+  name: "考勤追踪"
+  desc: "同时支持生物识别、移动与网页打卡，弹性班次、加班计算与考勤分析呈现规律，而不只是原始打卡数据。"
+training-onboarding-support:
+  name: "培训与上线支持"
+unified-cross-channel-inventory:
+  name: "跨渠道统一库存"
+  desc: "库存跨所有渠道集中管理，订单无论来源统一处理，按渠道优先级配置库存分配规则。POS 与电商共享同一库存画面，连同店取订单。"
+uptime-sla-999:
+  name: "99.9% 正常运行 SLA"
+  desc: "平台运行于高可用架构，保证 99.9% 正常运行 — 实际达 99.95% 以上，全年停机不足 9 小时。"
+vin-tracking:
+  name: "VIN 追踪"
+voucher-management:
+  name: "优惠券管理"
+workshop-service-scheduling:
+  name: "车间与服务排程"
+  desc: "按技能匹配技师与工单并优化排程，现场服务管理再加工单派遣、技师移动应用与 GPS 路线追踪。基于平台通用现场服务工具运行，而非汽车专用车间模块。"

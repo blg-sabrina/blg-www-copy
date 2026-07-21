@@ -10,11 +10,10 @@ browse_all:
 
 columns:
   - label: "By Industry"
+    key: "by_industry"
     links:
       - name: "Retail & E-Commerce"
         url: "/solutions/retail-ecommerce/"
-      - name: "Food & Beverage"
-        url: "/solutions/food-beverage/"
       - name: "Wholesale & Distribution"
         url: "/solutions/wholesale-distribution/"
       - name: "Manufacturing"
@@ -35,6 +34,7 @@ columns:
         url: "/solutions/drop-shipping/"
 
   - label: "By Business Size"
+    key: "by_size"
     links:
       - name: "Startups"
         url: "/solutions/startups/"
@@ -48,6 +48,7 @@ columns:
         url: "/solutions/enterprise/"
 
   - label: "By Role"
+    key: "by_role"
     links:
       - name: "Business Owners"
         url: "/solutions/business-owners/"
@@ -63,6 +64,7 @@ columns:
         url: "/partners/"
 
   - label: "Compliance & Trust"
+    key: "compliance"
     links:
       - name: "E-Invoice & PEPPOL"
         url: "/e-invoice-peppol/"
@@ -74,6 +76,7 @@ columns:
         url: "/security/"
 
   - label: "Switch to BigLedger"
+    key: "switch"
     links:
       - name: "From AutoCount"
         url: "/switch/autocount/"
@@ -87,6 +90,7 @@ columns:
         url: "/switch/onboarding/"
 
   - label: "By Function"
+    key: "by_function"
     wide: true
     links:
       # Every tile leads to a marketing landing page; count = applets in the

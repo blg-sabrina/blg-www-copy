@@ -9,8 +9,8 @@
       <p class="bl-inner-sub" data-reveal="up" data-delay="160">{{ .Description }}</p>
       {{ if or .Params.docs_url .Params.catalog_url }}
       <div class="bl-inner-links" data-reveal="up" data-delay="240">
-        {{ with .Params.docs_url }}<a href="{{ . }}" class="bl-inner-link">View full documentation <span aria-hidden="true">→</span></a>{{ end }}
-        {{ with .Params.catalog_url }}<a href="{{ . }}" class="bl-inner-link">{{ $.Params.catalog_label | default "Browse the applet catalog" }} <span aria-hidden="true">→</span></a>{{ end }}
+        {{ with .Params.docs_url }}<a href="{{ partial "lurl.html" (dict "ctx" $ "url" .) }}" class="bl-inner-link">{{ i18n "view_full_docs" | default "View full documentation" }} <span aria-hidden="true">→</span></a>{{ end }}
+        {{ with .Params.catalog_url }}<a href="{{ partial "lurl.html" (dict "ctx" $ "url" .) }}" class="bl-inner-link">{{ $.Params.catalog_label | default (i18n "browse_applet_catalog" | default "Browse the applet catalog") }} <span aria-hidden="true">→</span></a>{{ end }}
       </div>
       {{ end }}
     </div>
@@ -21,8 +21,8 @@
 <section class="bl-page-section" style="padding-top:0">
   <div class="bl-container">
     <div class="bl-section-header">
-      <span class="bl-label" data-reveal="up" data-delay="0">KEY FEATURES</span>
-      <h2 class="bl-section-title" data-reveal="up" data-delay="60">Everything you need, built in</h2>
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "key_features" | default "KEY FEATURES" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "everything_built_in" | default "Everything you need, built in" }}</h2>
     </div>
     <div class="bl-feat-grid" data-reveal="up" data-delay="80">
       {{ range . }}{{ partial "feat-card.html" . }}{{ end }}
@@ -49,15 +49,15 @@
 <section class="bl-cta-section">
   <div class="bl-container">
     <div class="bl-cta-inner">
-      <span class="bl-label" data-reveal="up" data-delay="0">GET STARTED</span>
-      <h2 class="bl-cta-headline" data-reveal="up" data-delay="80">Ready to see it in action?</h2>
-      <p class="bl-cta-sub" data-reveal="up" data-delay="160">Talk to our team about how BigLedger fits your business — configured for your compliance and workflow needs from day one.</p>
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "get_started" | default "GET STARTED" }}</span>
+      <h2 class="bl-cta-headline" data-reveal="up" data-delay="80">{{ i18n "ready_see_action" | default "Ready to see it in action?" }}</h2>
+      <p class="bl-cta-sub" data-reveal="up" data-delay="160">{{ i18n "solution_cta_sub" | default "Talk to our team about how BigLedger fits your business — configured for your compliance and workflow needs from day one." }}</p>
       <div class="bl-cta-actions" data-reveal="up" data-delay="240">
         <a href="/contact" class="bl-btn-primary bl-btn-lg">
-          Request a Demo
+          {{ i18n "request_a_demo" | default "Request a Demo" }}
           <svg class="bl-btn-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
         </a>
-        <a href="/pricing" class="bl-btn-outline">View Pricing</a>
+        <a href="/pricing" class="bl-btn-outline">{{ i18n "home_view_pricing" | default "View Pricing" }}</a>
       </div>
     </div>
   </div>
