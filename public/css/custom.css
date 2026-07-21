@@ -76,7 +76,11 @@
 /* ── Base ───────────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { background: var(--bg-0); scroll-behavior: smooth; }
+/* overflow-x: clip, not hidden — hidden would turn <html> into a scroll
+   container and break the sticky header. This stops the closed mobile drawer,
+   which is position:fixed and parked past the right edge, from widening the
+   document and making the browser zoom the whole page out. */
+html { background: var(--bg-0); scroll-behavior: smooth; overflow-x: clip; }
 
 body {
   font-family: var(--fs);
@@ -459,10 +463,17 @@ body > footer {
   backdrop-filter: blur(24px) saturate(180%); -webkit-backdrop-filter: blur(24px) saturate(180%);
   border-left: 1px solid var(--bd-m);
   transform: translateX(100%);
-  transition: transform 0.32s var(--sharp);
+  /* hidden while closed so it adds no scrollable width and its links stay
+     out of the tab order; visibility flips only after the slide-out ends */
+  visibility: hidden;
+  transition: transform 0.32s var(--sharp), visibility 0s linear 0.32s;
   z-index: 1300; overflow-y: auto;
 }
-.bl-mobile-drawer.open { transform: translateX(0); }
+.bl-mobile-drawer.open {
+  transform: translateX(0);
+  visibility: visible;
+  transition: transform 0.32s var(--sharp), visibility 0s;
+}
 .bl-mobile-drawer-scroll { padding: 84px 24px 40px; display: flex; flex-direction: column; gap: 2px; }
 
 .bl-mobile-link {
@@ -3533,4 +3544,18 @@ a.ug-step-link:hover { color: var(--tx-1); }
 @media (prefers-reduced-motion: reduce) {
   .bl-mod-marquee.is-marquee { overflow-x: auto; }
   .bl-mod-marquee.is-marquee .bl-mod-track { animation: none; }
+}
+
+/* ── Mobile hero: undo the desktop overlap offsets ───────────────
+   The hero deliberately overlaps its own blocks on desktop with large
+   negative margins (-3cm on the headline row, -4cm on the sub, -0.2cm on
+   the actions). Once the layout stacks below 980px those offsets drag each
+   block over the one above it — most visibly pulling the paragraph straight
+   through the animated widget. Reset them here, after the language-specific
+   .bl-hero-sub rules above so this wins the cascade. */
+@media (max-width: 980px) {
+  .bl-hero-sub,
+  html[dir="rtl"] .bl-hero-sub,
+  html[lang="ms"] .bl-hero-sub { margin-top: 32px; }
+  .bl-hero-actions { margin-top: 0; }
 }
