@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initCursor();
   initParticles();
   initSiteNetwork();
-  initModMarquee();
+  initSpotlight();
   initScrollReveal();
   initCardTilt();
   initStatsCounter();
@@ -508,72 +508,119 @@ function initSiteNetwork() {
   });
 }
 
-/* ── Module slider ───────────────────────────────────────────── */
-/* Duplicates the card set so translateX(-50%) loops with no visible seam.
-   Runs before initScrollReveal so the clone never inherits a pre-reveal
-   state that would leave it permanently invisible. */
-function initModMarquee() {
-  const wrap = document.querySelector('[data-mod-marquee]');
-  if (!wrap) return;
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+/* ── Spotlight tiles ─────────────────────────────────────────── */
+/* Writes the pointer position into each card as --mx/--my so its radial
+   wash follows the cursor. Listener sits on the grid, not on nine cards,
+   and all writes are batched into one animation frame. */
+function initSpotlight() {
+  const grid = document.querySelector('[data-spotlight-grid]');
+  if (!grid) return;
+  if (!window.matchMedia('(hover: hover)').matches) return;
 
-  const track = wrap.querySelector('.bl-mod-track');
-  const set   = track && track.querySelector('.bl-mod-set');
-  if (!track || !set) return;
+  const cards = Array.from(grid.querySelectorAll('.bl-mod-card'));
+  let frame = null, pending = null;
 
-  const clone = set.cloneNode(true);
-  clone.setAttribute('aria-hidden', 'true');
-  clone.querySelectorAll('a[href]').forEach(a => a.setAttribute('tabindex', '-1'));
-  track.appendChild(clone);
-  wrap.classList.add('is-marquee');
+  const paint = () => {
+    frame = null;
+    if (!pending) return;
+    const { x, y } = pending;
+    cards.forEach(card => {
+      const r = card.getBoundingClientRect();
+      const inside = x >= r.left && x <= r.right && y >= r.top && y <= r.bottom;
+      card.style.setProperty('--spot', inside ? '1' : '0');
+      if (inside) {
+        card.style.setProperty('--mx', (x - r.left) + 'px');
+        card.style.setProperty('--my', (y - r.top) + 'px');
+      }
+    });
+  };
+
+  grid.addEventListener('pointermove', (e) => {
+    pending = { x: e.clientX, y: e.clientY };
+    if (!frame) frame = requestAnimationFrame(paint);
+  });
+  grid.addEventListener('pointerleave', () => {
+    cards.forEach(c => c.style.setProperty('--spot', '0'));
+  });
 }
 
-/* ── Scroll reveal ───────────────────────────────────────────── */
+/* ── Progressive dissolve ────────────────────────────────────── */
+/* Opacity is a function of where the element sits in the viewport rather
+   than a class that flips once. Scrolling down dims a block as it climbs
+   out of view; scrolling back up restores it along the same curve, so the
+   motion is symmetric and tracks the scroll position exactly.
+
+   Cards inside a grid get a small offset per position, which turns the
+   uniform curve into a diagonal wave without any timers. */
 function initScrollReveal() {
-  const els = document.querySelectorAll('[data-reveal]');
+  const els = Array.from(document.querySelectorAll('[data-reveal]'));
   if (!els.length) return;
 
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    els.forEach(el => el.classList.add('revealed'));
+    els.forEach(el => el.classList.add('bl-fade-off'));
     return;
   }
 
-  /* Stagger. Authored data-delay values repeat per row (0/60/120, 0/60/120…),
-     which makes a 9-card grid arrive in three clumps instead of a cascade.
-     Where three or more siblings animate together, derive the delay from the
-     element's position in that group so the whole grid ripples once. */
+  const MIN_OPACITY = 0.06;   /* how faint a block gets once it is away */
+  const LIFT        = 18;     /* px of travel, kept small so text stays readable */
+  const BAND        = 0.42;   /* fraction of the viewport the fade plays over */
+
+  /* Stagger by grid position: later cards start their fade slightly later,
+     which reads as a diagonal wave across a 3-column grid. */
   const groups = new Map();
   els.forEach(el => {
-    const parent = el.parentElement;
-    if (!parent) return;
-    if (!groups.has(parent)) groups.set(parent, []);
-    groups.get(parent).push(el);
+    const p = el.parentElement;
+    if (!p) return;
+    if (!groups.has(p)) groups.set(p, []);
+    groups.get(p).push(el);
   });
   groups.forEach(group => {
     if (group.length < 3) return;
-    group.forEach((el, i) => { el.dataset.delay = Math.min(i * 65, 480); });
+    group.forEach((el, i) => { el.dataset.fadeOffset = Math.min(i * 0.05, 0.34); });
   });
 
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      const el = entry.target;
-      if (entry.isIntersecting) {
-        el.style.transitionDelay = (parseInt(el.dataset.delay, 10) || 0) + 'ms';
-        el.classList.add('revealed');
-      } else if (entry.boundingClientRect.top > 0) {
-        /* Left the viewport downwards — i.e. we scrolled back up past it.
-           Reset so it fades in again on the way down. Elements that scroll
-           off the TOP stay visible; re-hiding those would be disorienting. */
-        el.style.transitionDelay = '0ms';
-        el.classList.remove('revealed');
+  els.forEach(el => el.classList.add('bl-fade-ready'));
+
+  const easeOut = t => 1 - Math.pow(1 - t, 3);
+  const clamp01 = v => (v < 0 ? 0 : v > 1 ? 1 : v);
+
+  let frame = null;
+  const update = () => {
+    frame = null;
+    const vh = window.innerHeight;
+    const band = vh * BAND;
+
+    for (const el of els) {
+      const r = el.getBoundingClientRect();
+
+      /* completely outside, plus a margin — park it and skip the maths */
+      if (r.bottom < -vh * 0.5 || r.top > vh * 1.5) {
+        el.style.opacity = MIN_OPACITY;
+        continue;
       }
-    });
-  }, { threshold: 0.05, rootMargin: '0px 0px -60px 0px' });
 
-  els.forEach(el => {
-    el.classList.add('pre-reveal');
-    io.observe(el);
-  });
+      const offset = parseFloat(el.dataset.fadeOffset || 0) * vh;
+
+      /* arriving from below: 0 when the top is still under the fold,
+         1 once it has climbed a full band above it */
+      const arriving = clamp01(((vh - offset) - r.top) / band);
+      /* leaving past the top: 1 while the bottom is well below the top
+         edge, easing to 0 as it exits */
+      const leaving  = clamp01(r.bottom / band);
+
+      const p = easeOut(Math.min(arriving, leaving));
+      el.style.opacity   = (MIN_OPACITY + (1 - MIN_OPACITY) * p).toFixed(3);
+      el.style.transform = p >= 0.999 ? '' : 'translateY(' + ((1 - p) * LIFT).toFixed(1) + 'px)';
+    }
+  };
+
+  const schedule = () => { if (!frame) frame = requestAnimationFrame(update); };
+
+  update();
+  window.addEventListener('scroll', schedule, { passive: true });
+  window.addEventListener('resize', schedule);
+  /* late-loading fonts and images shift layout; re-measure once settled */
+  window.addEventListener('load', schedule);
 }
 
 /* ── 3D card tilt ────────────────────────────────────────────── */

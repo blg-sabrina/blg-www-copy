@@ -161,35 +161,23 @@ body > footer {
 .bl-cursor-dot.click  { transform: translate(-50%,-50%) scale(0.6); }
 
 /* ── Scroll reveal ──────────────────────────────────────────── */
-/* Scroll reveal — the transition lives on the element itself (not on .revealed)
-   so it plays in BOTH directions: elements fade back out when you scroll up
-   past them and replay on the way down. */
+/* Progressive dissolve — opacity and lift are driven directly from scroll
+   position in main.js, not toggled by a class. Content dims as it travels
+   away from the middle of the screen and comes back as it returns, so the
+   motion tracks the scroll exactly in both directions. No CSS transition
+   here on purpose: a transition would lag behind the finger. */
 [data-reveal] {
-  transition:
-    opacity   0.72s cubic-bezier(0.22, 1, 0.36, 1),
-    transform 0.72s cubic-bezier(0.22, 1, 0.36, 1),
-    filter    0.72s cubic-bezier(0.22, 1, 0.36, 1);
+  opacity: 0;
   will-change: opacity, transform;
 }
+.bl-fade-ready { transition: none; }
 
-.pre-reveal { opacity: 0; transform: translateY(26px); filter: blur(3px); }
-.pre-reveal[data-reveal="left"]  { transform: translateX(-30px); }
-.pre-reveal[data-reveal="right"] { transform: translateX( 30px); }
-.pre-reveal[data-reveal="scale"] { transform: scale(0.94); }
-
-.revealed {
-  opacity: 1 !important;
-  transform: none !important;
-  filter: none !important;
-}
-
-/* module cards lift a little further, with a subtle scale — reads as the grid
-   assembling itself rather than nine boxes appearing at once */
-.bl-mod-card.pre-reveal { transform: translateY(34px) scale(0.972); }
+/* Fallback for no-JS and reduced-motion: everything simply visible. */
+.no-js [data-reveal],
+[data-reveal].bl-fade-off { opacity: 1 !important; transform: none !important; }
 
 @media (prefers-reduced-motion: reduce) {
-  [data-reveal] { transition: none; }
-  .pre-reveal, .bl-mod-card.pre-reveal { opacity: 1; transform: none; filter: none; }
+  [data-reveal] { opacity: 1 !important; transform: none !important; }
 }
 
 /* ── Container ──────────────────────────────────────────────── */
@@ -3490,62 +3478,6 @@ a.ug-step-link:hover { color: var(--tx-1); }
   .bl-ei-stats-section { padding-bottom: 64px; }
 }
 
-/* ══════════════════════════════════════════════════════════════
-   MODULE SLIDER (homepage — "Every function. One system.")
-   Same continuous-slide idiom as the integrations / clients
-   marquees. Without JS the track is simply a scrollable row, so
-   the cards are always reachable.
-   ══════════════════════════════════════════════════════════════ */
-.bl-mod-marquee {
-  position: relative;
-  border: 1px solid var(--bd); border-radius: 16px;
-  overflow-x: auto; overflow-y: hidden;
-  scrollbar-width: thin;
-}
-.bl-mod-marquee.is-marquee { overflow: hidden; }
-
-/* edge fades, matching .bl-marquee-wrapper */
-.bl-mod-marquee.is-marquee::before,
-.bl-mod-marquee.is-marquee::after {
-  content: ''; position: absolute; top: 0; bottom: 0;
-  width: 90px; z-index: 2; pointer-events: none;
-}
-.bl-mod-marquee.is-marquee::before { inset-inline-start: 0; background: linear-gradient(to right, var(--bg-0-t), transparent); }
-.bl-mod-marquee.is-marquee::after  { inset-inline-end: 0;   background: linear-gradient(to left,  var(--bg-0-t), transparent); }
-
-.bl-mod-track { display: flex; width: max-content; }
-.bl-mod-set   { display: flex; }
-
-.bl-mod-marquee.is-marquee .bl-mod-track {
-  animation: bl-mod-slide 58s linear infinite;
-  will-change: transform;
-}
-.bl-mod-marquee.is-marquee:hover .bl-mod-track { animation-play-state: paused; }
-@keyframes bl-mod-slide { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-
-/* RTL slides the other way so it still reads "forwards" in Arabic */
-[dir="rtl"] .bl-mod-marquee.is-marquee .bl-mod-track { animation-name: bl-mod-slide-rtl; }
-@keyframes bl-mod-slide-rtl { from { transform: translateX(0); } to { transform: translateX(50%); } }
-
-/* cards become fixed-width slides instead of grid cells */
-.bl-mod-marquee .bl-mod-card {
-  flex: 0 0 340px; width: 340px;
-  border-bottom: none;
-  border-inline-end: 1px solid var(--bd); border-right: none;
-}
-
-@media (max-width: 768px) {
-  .bl-mod-marquee .bl-mod-card { flex-basis: 280px; width: 280px; }
-  .bl-mod-marquee.is-marquee::before,
-  .bl-mod-marquee.is-marquee::after { width: 40px; }
-}
-
-/* Someone who asked for less motion gets a static, scrollable row. */
-@media (prefers-reduced-motion: reduce) {
-  .bl-mod-marquee.is-marquee { overflow-x: auto; }
-  .bl-mod-marquee.is-marquee .bl-mod-track { animation: none; }
-}
-
 /* ── Mobile hero: undo the desktop overlap offsets ───────────────
    The hero deliberately overlaps its own blocks on desktop with large
    negative margins (-3cm on the headline row, -4cm on the sub, -0.2cm on
@@ -3558,4 +3490,58 @@ a.ug-step-link:hover { color: var(--tx-1); }
   html[dir="rtl"] .bl-hero-sub,
   html[lang="ms"] .bl-hero-sub { margin-top: 32px; }
   .bl-hero-actions { margin-top: 0; }
+}
+
+/* ══════════════════════════════════════════════════════════════
+   SPOTLIGHT TILES — homepage "Every function. One system."
+   Nine tiles in one bordered block. Each carries a crimson wash
+   that follows the cursor: main.js writes --mx/--my per card and
+   --spot toggles the wash on, so nothing paints until the pointer
+   is actually over a tile.
+   ══════════════════════════════════════════════════════════════ */
+.bl-mod-card { isolation: isolate; }
+
+.bl-mod-card::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(
+    340px circle at var(--mx, 50%) var(--my, 50%),
+    rgba(220, 20, 60, 0.16),
+    rgba(220, 20, 60, 0.05) 38%,
+    transparent 68%);
+  opacity: var(--spot, 0);
+  transition: opacity 0.35s var(--ease);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* a hairline of crimson picks out the hovered tile against its neighbours */
+.bl-mod-card::after {
+  content: '';
+  position: absolute; inset: 0;
+  border: 1px solid transparent;
+  transition: border-color 0.3s var(--ease);
+  pointer-events: none;
+  z-index: 1;
+}
+.bl-mod-card:hover::after { border-color: rgba(220, 20, 60, 0.32); }
+
+/* keep the tile's own content above the wash */
+.bl-mod-icon, .bl-mod-body, .bl-mod-tag { position: relative; z-index: 2; }
+
+.bl-mod-icon {
+  transition: color 0.3s var(--ease), transform 0.35s var(--spring),
+              filter 0.35s var(--ease);
+}
+.bl-mod-card:hover .bl-mod-icon {
+  color: var(--cr-b);
+  transform: translateY(-2px);
+  filter: drop-shadow(0 0 10px rgba(255, 31, 71, 0.55));
+}
+.bl-mod-card:hover .bl-mod-name { color: var(--tx-1); }
+
+/* Touch devices have no cursor to follow — give every tile a fixed wash from
+   its top-left instead, so the section still reads as designed on a phone. */
+@media (hover: none) {
+  .bl-mod-card::before { --mx: 20%; --my: 0%; opacity: 0.5; }
 }
