@@ -156,6 +156,22 @@ deployment:
       URL: s3://bigledger.com?region=ap-southeast-5
       cloudFrontDistributionID: ELHXIGVKWA8XV
 
+  # Without these, objects are uploaded with no Cache-Control header at all.
+  # Browsers then fall back to heuristic caching and keep serving an old copy
+  # of a page long after a deploy — invalidating CloudFront does not help,
+  # because the stale copy lives in the visitor's own browser.
+  matchers:
+    # Pages must revalidate on every visit so a deploy is visible immediately.
+    - pattern: ^.+\.(html|xml|json|webmanifest|txt)$
+      cacheControl: "public, max-age=0, must-revalidate"
+    # CSS/JS carry a ?v= cache-buster, so an hour is safe and still lets a
+    # forgotten bump correct itself the same day.
+    - pattern: ^.+\.(css|js)$
+      cacheControl: "public, max-age=3600, must-revalidate"
+    # Images and fonts are content-stable; cache them hard.
+    - pattern: ^.+\.(png|jpe?g|gif|svg|ico|webp|avif|woff2?|ttf|eot)$
+      cacheControl: "public, max-age=2592000"
+
 # Permalink configuration to ensure consistent URLs
 permalinks:
   pages: /:slug/
