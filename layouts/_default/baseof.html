@@ -30,7 +30,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+  {{/* Content-hash cache busters. Without one on the stylesheet, a visitor
+       kept the previous custom.css for the full max-age (an hour) and simply
+       did not see a deploy. Hashing the file rather than stamping the build
+       time means the URL only changes when the file actually changes, so
+       repeat visitors still get a cache hit between deploys. */}}
+  {{ $cssVer := substr (md5 (readFile "static/css/custom.css")) 0 10 }}
+  <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}?v={{ $cssVer }}">
 
   {{/* Docs-wiki pages (content/en/modules/, /applets/, /user-guide/, etc.) render
        through Hextra's sidebar/TOC layouts and need the theme's own compiled
@@ -92,7 +98,8 @@
     {{ $langUrls := partialCached "lang-urls.html" . .Site.Language.Lang }}
     <script>window.__blLang={{ .Site.Language.Lang }};window.__blUrls={{ $langUrls | jsonify | safeJS }};</script>
   {{ end }}
-  <script src="{{ "js/main.js" | relURL }}?v={{ now.Unix }}" defer></script>
+  {{ $jsVer := substr (md5 (readFile "static/js/main.js")) 0 10 }}
+  <script src="{{ "js/main.js" | relURL }}?v={{ $jsVer }}" defer></script>
   {{ if ne .Section "" }}
     {{/* Sidebar collapse, TOC scroll-spy, code copy buttons, search — all scoped
          to the Hextra docs layout, which our custom main.js knows nothing about. */}}
