@@ -637,10 +637,20 @@ body.bl-drawer-open { overflow: hidden; }
 }
 .bl-hero-widget-canvas { width: 100%; max-width: 640px; aspect-ratio: 1 / 1.3; display: block; }
 .bl-hero-has-widget .bl-hero-headline { font-size: clamp(44px, 7vw, 88px); }
+/* Below 980px the row stacks, so the desktop overlap tricks stop working:
+   the -3cm pull drags the headline straight over the accreditation pill, and
+   the 1.5cm left margin shoves the animated widget off-centre and past the
+   right edge. Both are reset here, and the headline is scaled to a phone so
+   the widget still lands on the first screen instead of far below the fold. */
 @media (max-width: 980px) {
-  .bl-hero-headline-row { grid-template-columns: 1fr; }
-  .bl-hero-widget-col { margin-top: 24px; }
-  .bl-hero-has-widget .bl-hero-headline { font-size: clamp(56px, 10vw, 116px); }
+  .bl-hero-headline-row { grid-template-columns: 1fr; margin-top: 0; }
+  .bl-hero-widget-col {
+    margin-top: 8px;
+    margin-left: 0; margin-right: 0;
+    margin-inline: 0;
+  }
+  .bl-hero-widget-canvas { aspect-ratio: 1 / 0.95; max-height: 320px; margin: 0 auto; }
+  .bl-hero-has-widget .bl-hero-headline { font-size: clamp(40px, 9.5vw, 72px); }
 }
 
 /* Chapter tag */
@@ -652,6 +662,11 @@ body.bl-drawer-open { overflow: hidden; }
   border: 1px solid var(--bd); border-radius: 999px;
   background: var(--gl1); margin-bottom: 40px;
   animation: fade-in-down 0.8s var(--ease) both;
+}
+/* Must come after the base rule above, not in the earlier hero media block —
+   a media query adds no specificity, so a later declaration would win. */
+@media (max-width: 980px) {
+  .bl-chapter-tag { margin-bottom: 2cm; }
 }
 @keyframes fade-in-down {
   from { opacity: 0; transform: translateY(-12px); }
