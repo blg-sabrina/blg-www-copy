@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initCursor();
   initParticles();
   initSiteNetwork();
+  initModMarquee();
   initScrollReveal();
   initCardTilt();
   initStatsCounter();
@@ -505,6 +506,26 @@ function initSiteNetwork() {
     animRunning = !document.hidden;
     if (animRunning) requestAnimationFrame(animate);
   });
+}
+
+/* ── Module slider ───────────────────────────────────────────── */
+/* Duplicates the card set so translateX(-50%) loops with no visible seam.
+   Runs before initScrollReveal so the clone never inherits a pre-reveal
+   state that would leave it permanently invisible. */
+function initModMarquee() {
+  const wrap = document.querySelector('[data-mod-marquee]');
+  if (!wrap) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  const track = wrap.querySelector('.bl-mod-track');
+  const set   = track && track.querySelector('.bl-mod-set');
+  if (!track || !set) return;
+
+  const clone = set.cloneNode(true);
+  clone.setAttribute('aria-hidden', 'true');
+  clone.querySelectorAll('a[href]').forEach(a => a.setAttribute('tabindex', '-1'));
+  track.appendChild(clone);
+  wrap.classList.add('is-marquee');
 }
 
 /* ── Scroll reveal ───────────────────────────────────────────── */

@@ -85,9 +85,14 @@
       <p class="bl-section-desc">{{ i18n "home_platform_desc" | default "Composable modules that work independently or as a unified Business Operating System. Deploy what you need, scale when ready." }}</p>
     </div>
 
-    <div class="bl-mod-grid">
+    {{/* Continuous left-to-right slider, same idiom as the integrations and
+         client marquees below. main.js clones the card set for a seamless
+         loop and adds .is-marquee; without JS this stays a scrollable row. */}}
+    <div class="bl-mod-marquee" data-mod-marquee data-reveal="up" data-delay="0">
+      <div class="bl-mod-track">
+        <div class="bl-mod-set">
 
-      <div class="bl-mod-card" data-reveal="up" data-delay="0">
+      <div class="bl-mod-card">
         <div class="bl-mod-icon">
           <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4">
             <path d="M3 10h14M3 6h14M3 14h9"/>
@@ -100,7 +105,7 @@
         <div class="bl-mod-tag">PEPPOL</div>
       </div>
 
-      <div class="bl-mod-card" data-reveal="up" data-delay="60">
+      <div class="bl-mod-card">
         <div class="bl-mod-icon">
           <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4">
             <path d="M3 3h14v14H3zM3 8h14M8 8v9"/>
@@ -113,7 +118,7 @@
         <div class="bl-mod-tag">{{ i18n "home_tag_omnichannel" | default "Omnichannel" }}</div>
       </div>
 
-      <div class="bl-mod-card" data-reveal="up" data-delay="120">
+      <div class="bl-mod-card">
         <div class="bl-mod-icon">
           <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4">
             <path d="M4 15l4-8 4 6 3-4 3 6"/>
@@ -126,7 +131,7 @@
         <div class="bl-mod-tag">{{ i18n "home_tag_ai_powered" | default "AI-Powered" }}</div>
       </div>
 
-      <div class="bl-mod-card" data-reveal="up" data-delay="60">
+      <div class="bl-mod-card">
         <div class="bl-mod-icon">
           <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4">
             <path d="M5 3h10v5l-5 4-5-4V3zM10 12v5M7 17h6"/>
@@ -139,7 +144,7 @@
         <div class="bl-mod-tag">MRP</div>
       </div>
 
-      <div class="bl-mod-card" data-reveal="up" data-delay="120">
+      <div class="bl-mod-card">
         <div class="bl-mod-icon">
           <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4">
             <path d="M10 3L4 7v5c0 3.3 2.6 6.4 6 7 3.4-.6 6-3.7 6-7V7l-6-4z"/>
@@ -152,7 +157,7 @@
         <div class="bl-mod-tag">{{ i18n "home_tag_realtime" | default "Real-time" }}</div>
       </div>
 
-      <div class="bl-mod-card" data-reveal="up" data-delay="180">
+      <div class="bl-mod-card">
         <div class="bl-mod-icon">
           <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4">
             <path d="M2 5a1 1 0 011-1h3a1 1 0 011 1v10a1 1 0 01-1 1H3a1 1 0 01-1-1V5zm7-2a1 1 0 011-1h4a1 1 0 011 1v12a1 1 0 01-1 1h-4a1 1 0 01-1-1V3zm7 5a1 1 0 011-1h1a1 1 0 011 1v7a1 1 0 01-1 1h-1a1 1 0 01-1-1V8z"/>
@@ -165,7 +170,7 @@
         <div class="bl-mod-tag">AI CRM</div>
       </div>
 
-      <div class="bl-mod-card" data-reveal="up" data-delay="120">
+      <div class="bl-mod-card">
         <div class="bl-mod-icon">
           <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4">
             <path d="M9 12h6m-6 4h6M5 12h.01M5 16h.01M7 3H5a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2h-2M9 3h6l1 4H8L9 3z"/>
@@ -178,7 +183,7 @@
         <div class="bl-mod-tag">LHDN</div>
       </div>
 
-      <div class="bl-mod-card" data-reveal="up" data-delay="180">
+      <div class="bl-mod-card">
         <div class="bl-mod-icon">
           <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4">
             <path d="M17 20H3a2 2 0 01-2-2V6l9-4 9 4v12a2 2 0 01-2 2zM10 12a3 3 0 110-6 3 3 0 010 6z"/>
@@ -191,7 +196,7 @@
         <div class="bl-mod-tag">EPF/SOCSO</div>
       </div>
 
-      <div class="bl-mod-card" data-reveal="up" data-delay="240">
+      <div class="bl-mod-card">
         <div class="bl-mod-icon">
           <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4">
             <path d="M3 7h14M3 12h9M10 2l3 5H7l3-5zM10 18l3-5H7l3 5z"/>
@@ -204,7 +209,9 @@
         <div class="bl-mod-tag">{{ i18n "home_tag_billing" | default "Billing" }}</div>
       </div>
 
-    </div>
+        </div><!-- /bl-mod-set -->
+      </div><!-- /bl-mod-track -->
+    </div><!-- /bl-mod-marquee -->
 
     <div class="bl-platform-footer" data-reveal="up" data-delay="80">
       <p class="bl-platform-more">{{ i18n "home_platform_more" | default "Plus 90+ additional modules across procurement, hospitality, automotive, healthcare, and more." }}</p>

@@ -3463,3 +3463,59 @@ a.ug-step-link:hover { color: var(--tx-1); }
   .bl-ei-cap-grid, .bl-ei-price-grid, .bl-ei-ben-grid, .bl-ei-proc { grid-template-columns: 1fr; }
   .bl-ei-stats-section { padding-bottom: 64px; }
 }
+
+/* ══════════════════════════════════════════════════════════════
+   MODULE SLIDER (homepage — "Every function. One system.")
+   Same continuous-slide idiom as the integrations / clients
+   marquees. Without JS the track is simply a scrollable row, so
+   the cards are always reachable.
+   ══════════════════════════════════════════════════════════════ */
+.bl-mod-marquee {
+  position: relative;
+  border: 1px solid var(--bd); border-radius: 16px;
+  overflow-x: auto; overflow-y: hidden;
+  scrollbar-width: thin;
+}
+.bl-mod-marquee.is-marquee { overflow: hidden; }
+
+/* edge fades, matching .bl-marquee-wrapper */
+.bl-mod-marquee.is-marquee::before,
+.bl-mod-marquee.is-marquee::after {
+  content: ''; position: absolute; top: 0; bottom: 0;
+  width: 90px; z-index: 2; pointer-events: none;
+}
+.bl-mod-marquee.is-marquee::before { inset-inline-start: 0; background: linear-gradient(to right, var(--bg-0-t), transparent); }
+.bl-mod-marquee.is-marquee::after  { inset-inline-end: 0;   background: linear-gradient(to left,  var(--bg-0-t), transparent); }
+
+.bl-mod-track { display: flex; width: max-content; }
+.bl-mod-set   { display: flex; }
+
+.bl-mod-marquee.is-marquee .bl-mod-track {
+  animation: bl-mod-slide 58s linear infinite;
+  will-change: transform;
+}
+.bl-mod-marquee.is-marquee:hover .bl-mod-track { animation-play-state: paused; }
+@keyframes bl-mod-slide { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+/* RTL slides the other way so it still reads "forwards" in Arabic */
+[dir="rtl"] .bl-mod-marquee.is-marquee .bl-mod-track { animation-name: bl-mod-slide-rtl; }
+@keyframes bl-mod-slide-rtl { from { transform: translateX(0); } to { transform: translateX(50%); } }
+
+/* cards become fixed-width slides instead of grid cells */
+.bl-mod-marquee .bl-mod-card {
+  flex: 0 0 340px; width: 340px;
+  border-bottom: none;
+  border-inline-end: 1px solid var(--bd); border-right: none;
+}
+
+@media (max-width: 768px) {
+  .bl-mod-marquee .bl-mod-card { flex-basis: 280px; width: 280px; }
+  .bl-mod-marquee.is-marquee::before,
+  .bl-mod-marquee.is-marquee::after { width: 40px; }
+}
+
+/* Someone who asked for less motion gets a static, scrollable row. */
+@media (prefers-reduced-motion: reduce) {
+  .bl-mod-marquee.is-marquee { overflow-x: auto; }
+  .bl-mod-marquee.is-marquee .bl-mod-track { animation: none; }
+}
