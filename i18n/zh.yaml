@@ -1007,3 +1007,6 @@ ac_card_intro_membership: "介绍：会员管理控制台"
 ac_card_intro_stock_take: "介绍：盘点"
 ac_card_intro_team: "介绍：团队维护"
 
+
+nav_modules: "模块"
+nav_applets: "小程序"

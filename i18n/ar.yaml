@@ -1005,3 +1005,6 @@ ac_card_intro_membership: "مقدمة: لوحة إدارة العضوية"
 ac_card_intro_stock_take: "مقدمة: جرد المخزون"
 ac_card_intro_team: "مقدمة: صيانة الفِرق"
 
+
+nav_modules: "الوحدات"
+nav_applets: "التطبيقات"
