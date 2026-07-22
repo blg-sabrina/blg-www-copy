@@ -1,0 +1,43 @@
+{{/* Shared branded landing layout for documentation sections that otherwise
+     render as raw markdown (business-operations, support, …). Renders a hero
+     from the section's translated title/description, then a card grid of the
+     child pages/sub-sections. Card blurbs come from the content summary with
+     the legacy "Page ID: … Last Updated: …" metadata stripped out, so the
+     auto-generated junk never shows. Cards localize automatically because the
+     titles and summaries come from the translated content. */}}
+<section class="bl-inner-hero">
+  <div class="bl-inner-hero-bg"></div>
+  <div class="bl-container">
+    <div class="bl-inner-hero-content">
+      <p class="bl-inner-eyebrow" data-reveal="up" data-delay="0">{{ i18n "sec_eyebrow" | default "DOCUMENTATION" }}</p>
+      <h1 class="bl-inner-headline" data-reveal="up" data-delay="80">{{ .Title }}</h1>
+      {{ with .Description }}<p class="bl-inner-sub" data-reveal="up" data-delay="160">{{ . }}</p>{{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="bl-page-section" style="padding-top:0">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "sec_topics_label" | default "TOPICS" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "sec_explore" | default "Explore the topics" }}</h2>
+    </div>
+    <div class="gd-cat-grid" data-reveal="up" data-delay="80">
+      {{ range .Pages.ByWeight }}
+      <a class="gd-cat-card" href="{{ .RelPermalink }}">
+        <h3 class="gd-cat-name">{{ .Title }}</h3>
+        {{/* clean the summary: drop legacy Page ID / Last Updated metadata and collapse whitespace */}}
+        {{ $s := .Summary | plainify | htmlUnescape }}
+        {{ $s = replaceRE `[\x{feff}\x{200b}\x{00a0}]` " " $s }}
+        {{ $s = replaceRE `(?i)page id:\s*[0-9]+` "" $s }}
+        {{ $s = replaceRE `(?i)last updated:\s*[0-9tz:.+\-]+` "" $s }}
+        {{ $s = replaceRE `[0-9]{4}-[0-9]{2}-[0-9]{2}t[0-9:.z+\-]*` "" $s }}
+        {{ $s = replaceRE `\s+` " " $s }}
+        {{ $s = trim $s " " }}
+        {{ with $s }}<p class="gd-cat-desc">{{ . | truncate 150 }}</p>{{ end }}
+        <span class="gd-cat-more">{{ i18n "sec_read_more" | default "Read more" }} <span aria-hidden="true">→</span></span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
