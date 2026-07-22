@@ -7,12 +7,12 @@
   <div class="bl-inner-hero-bg"></div>
   <div class="bl-container">
     <div class="bl-inner-hero-content">
-      <p class="bl-inner-eyebrow" data-reveal="up" data-delay="0">Solutions</p>
+      <p class="bl-inner-eyebrow" data-reveal="up" data-delay="0">{{ i18n "solp_eyebrow" | default "Solutions" }}</p>
       <h1 class="bl-inner-headline" data-reveal="up" data-delay="80">
-        Every industry.<br>One intelligent platform.
+        {{ i18n "solp_hero_a" | default "Every industry." }}<br>{{ i18n "solp_hero_b" | default "One intelligent platform." }}
       </h1>
       <p class="bl-inner-sub" data-reveal="up" data-delay="160">
-        Industry-specific modules pre-configured for your sector's compliance, workflows, and reporting requirements. Deploy what you need, scale when you're ready.
+        {{ i18n "solp_hero_sub" | default "Industry-specific modules pre-configured for your sector's compliance, workflows, and reporting requirements. Deploy what you need, scale when you're ready." }}
       </p>
     </div>
   </div>
@@ -22,9 +22,9 @@
 <section class="bl-page-section" style="padding-top:0">
   <div class="bl-container">
     <div class="bl-section-header">
-      <span class="bl-label" data-reveal="up" data-delay="0">INDUSTRY SOLUTIONS</span>
-      <h2 class="bl-section-title" data-reveal="up" data-delay="60">Built for the way your industry works</h2>
-      <p class="bl-section-desc" data-reveal="up" data-delay="120">Each solution comes pre-configured with the modules, compliance rules, and workflows your industry depends on.</p>
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "solp_ind_label" | default "INDUSTRY SOLUTIONS" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "solp_ind_title" | default "Built for the way your industry works" }}</h2>
+      <p class="bl-section-desc" data-reveal="up" data-delay="120">{{ i18n "solp_ind_desc" | default "Each solution comes pre-configured with the modules, compliance rules, and workflows your industry depends on." }}</p>
     </div>
 
     <div class="bl-sol-grid">
@@ -39,10 +39,10 @@
           </div>
           <span class="bl-sol-num">01</span>
         </div>
-        <h3 class="bl-sol-name">Retail &amp; E-Commerce</h3>
-        <p class="bl-sol-desc">Omnichannel selling with offline-capable POS, unified inventory, and seamless Shopify, Lazada, Shopee, and TikTok Shop integrations.</p>
+        <h3 class="bl-sol-name">{{ i18n "solp_c1_name" | default "Retail &amp; E-Commerce" }}</h3>
+        <p class="bl-sol-desc">{{ i18n "solp_c1_desc" | default "Omnichannel selling with offline-capable POS, unified inventory, and seamless Shopify, Lazada, Shopee, and TikTok Shop integrations." }}</p>
         <div class="bl-sol-tags">
-          <span>POS</span><span>Omnichannel</span><span>Loyalty</span><span>Multi-outlet</span>
+          <span>{{ i18n "solp_tag_pos" | default "POS" }}</span><span>{{ i18n "solp_tag_omnichannel" | default "Omnichannel" }}</span><span>{{ i18n "solp_tag_loyalty" | default "Loyalty" }}</span><span>{{ i18n "solp_tag_multioutlet" | default "Multi-outlet" }}</span>
         </div>
       </div>
 
@@ -56,10 +56,10 @@
           </div>
           <span class="bl-sol-num">02</span>
         </div>
-        <h3 class="bl-sol-name">Custom Solutions</h3>
-        <p class="bl-sol-desc">Don't see your exact industry? BigLedger's composable architecture is built to adapt — custom modules, fields, and workflows tailored around how your business actually runs, on request.</p>
+        <h3 class="bl-sol-name">{{ i18n "solp_c2_name" | default "Custom Solutions" }}</h3>
+        <p class="bl-sol-desc">{{ i18n "solp_c2_desc" | default "Don't see your exact industry? BigLedger's composable architecture is built to adapt — custom modules, fields, and workflows tailored around how your business actually runs, on request." }}</p>
         <div class="bl-sol-tags">
-          <span>Custom Modules</span><span>Flexible Workflows</span><span>Bespoke Integration</span><span>On Request</span>
+          <span>{{ i18n "solp_tag_custommod" | default "Custom Modules" }}</span><span>{{ i18n "solp_tag_flexwf" | default "Flexible Workflows" }}</span><span>{{ i18n "solp_tag_bespoke" | default "Bespoke Integration" }}</span><span>{{ i18n "solp_tag_onreq" | default "On Request" }}</span>
         </div>
       </div>
 
@@ -73,10 +73,10 @@
           </div>
           <span class="bl-sol-num">03</span>
         </div>
-        <h3 class="bl-sol-name">Manufacturing</h3>
-        <p class="bl-sol-desc">Bill of Materials, production planning and scheduling, shop floor control, quality inspection, and full Material Requirements Planning (MRP).</p>
+        <h3 class="bl-sol-name">{{ i18n "solp_c3_name" | default "Manufacturing" }}</h3>
+        <p class="bl-sol-desc">{{ i18n "solp_c3_desc" | default "Bill of Materials, production planning and scheduling, shop floor control, quality inspection, and full Material Requirements Planning (MRP)." }}</p>
         <div class="bl-sol-tags">
-          <span>BOM</span><span>MRP</span><span>Shop Floor</span><span>Quality</span>
+          <span>{{ i18n "solp_tag_bom" | default "BOM" }}</span><span>{{ i18n "solp_tag_mrp" | default "MRP" }}</span><span>{{ i18n "solp_tag_shopfloor" | default "Shop Floor" }}</span><span>{{ i18n "solp_tag_quality" | default "Quality" }}</span>
         </div>
       </div>
 
@@ -89,10 +89,10 @@
           </div>
           <span class="bl-sol-num">04</span>
         </div>
-        <h3 class="bl-sol-name">Wholesale &amp; Distribution</h3>
-        <p class="bl-sol-desc">Multi-warehouse management, delivery route optimization, B2B customer portal, flexible pricing tiers, and advanced inventory analytics.</p>
+        <h3 class="bl-sol-name">{{ i18n "solp_c4_name" | default "Wholesale &amp; Distribution" }}</h3>
+        <p class="bl-sol-desc">{{ i18n "solp_c4_desc" | default "Multi-warehouse management, delivery route optimization, B2B customer portal, flexible pricing tiers, and advanced inventory analytics." }}</p>
         <div class="bl-sol-tags">
-          <span>Multi-warehouse</span><span>Routes</span><span>B2B Portal</span>
+          <span>{{ i18n "solp_tag_multiwh" | default "Multi-warehouse" }}</span><span>{{ i18n "solp_tag_routes" | default "Routes" }}</span><span>{{ i18n "solp_tag_b2b" | default "B2B Portal" }}</span>
         </div>
       </div>
 
@@ -106,10 +106,10 @@
           </div>
           <span class="bl-sol-num">05</span>
         </div>
-        <h3 class="bl-sol-name">Services &amp; Professional</h3>
-        <p class="bl-sol-desc">Project time tracking, client billing, resource scheduling, proposal management, and professional services automation in one workspace.</p>
+        <h3 class="bl-sol-name">{{ i18n "solp_c5_name" | default "Services &amp; Professional" }}</h3>
+        <p class="bl-sol-desc">{{ i18n "solp_c5_desc" | default "Project time tracking, client billing, resource scheduling, proposal management, and professional services automation in one workspace." }}</p>
         <div class="bl-sol-tags">
-          <span>Projects</span><span>Billing</span><span>CRM</span><span>Scheduling</span>
+          <span>{{ i18n "solp_tag_projects" | default "Projects" }}</span><span>{{ i18n "solp_tag_billing" | default "Billing" }}</span><span>{{ i18n "solp_tag_crm" | default "CRM" }}</span><span>{{ i18n "solp_tag_scheduling" | default "Scheduling" }}</span>
         </div>
       </div>
 
@@ -122,10 +122,10 @@
           </div>
           <span class="bl-sol-num">06</span>
         </div>
-        <h3 class="bl-sol-name">Construction &amp; Engineering</h3>
-        <p class="bl-sol-desc">Multi-project tracking, subcontractor management, progress billing, equipment tracking, and granular job costing and profitability analysis.</p>
+        <h3 class="bl-sol-name">{{ i18n "solp_c6_name" | default "Construction &amp; Engineering" }}</h3>
+        <p class="bl-sol-desc">{{ i18n "solp_c6_desc" | default "Multi-project tracking, subcontractor management, progress billing, equipment tracking, and granular job costing and profitability analysis." }}</p>
         <div class="bl-sol-tags">
-          <span>Job Costing</span><span>Progress Billing</span><span>Assets</span>
+          <span>{{ i18n "solp_tag_jobcost" | default "Job Costing" }}</span><span>{{ i18n "solp_tag_progbill" | default "Progress Billing" }}</span><span>{{ i18n "solp_tag_assets" | default "Assets" }}</span>
         </div>
       </div>
 
@@ -139,10 +139,10 @@
           </div>
           <span class="bl-sol-num">07</span>
         </div>
-        <h3 class="bl-sol-name">Automotive</h3>
-        <p class="bl-sol-desc">Vehicle inventory with VIN tracking, workshop and service scheduling, parts catalog management, full service history, and marketplace integrations.</p>
+        <h3 class="bl-sol-name">{{ i18n "solp_c7_name" | default "Automotive" }}</h3>
+        <p class="bl-sol-desc">{{ i18n "solp_c7_desc" | default "Vehicle inventory with VIN tracking, workshop and service scheduling, parts catalog management, full service history, and marketplace integrations." }}</p>
         <div class="bl-sol-tags">
-          <span>VIN Tracking</span><span>Workshop</span><span>Parts</span><span>History</span>
+          <span>{{ i18n "solp_tag_vin" | default "VIN Tracking" }}</span><span>{{ i18n "solp_tag_workshop" | default "Workshop" }}</span><span>{{ i18n "solp_tag_parts" | default "Parts" }}</span><span>{{ i18n "solp_tag_history" | default "History" }}</span>
         </div>
       </div>
 
@@ -155,10 +155,10 @@
           </div>
           <span class="bl-sol-num">08</span>
         </div>
-        <h3 class="bl-sol-name">Healthcare</h3>
-        <p class="bl-sol-desc">Patient record management, appointment scheduling and reminders, medical billing, pharmacy inventory, and HIPAA-ready infrastructure.</p>
+        <h3 class="bl-sol-name">{{ i18n "solp_c8_name" | default "Healthcare" }}</h3>
+        <p class="bl-sol-desc">{{ i18n "solp_c8_desc" | default "Patient record management, appointment scheduling and reminders, medical billing, pharmacy inventory, and HIPAA-ready infrastructure." }}</p>
         <div class="bl-sol-tags">
-          <span>Patient Records</span><span>Billing</span><span>Pharmacy</span>
+          <span>{{ i18n "solp_tag_patient" | default "Patient Records" }}</span><span>{{ i18n "solp_tag_billing" | default "Billing" }}</span><span>{{ i18n "solp_tag_pharmacy" | default "Pharmacy" }}</span>
         </div>
       </div>
 
@@ -170,40 +170,40 @@
 <section class="bl-page-section bl-section-alt">
   <div class="bl-container">
     <div class="bl-section-header">
-      <span class="bl-label" data-reveal="up" data-delay="0">CORE MODULES</span>
-      <h2 class="bl-section-title" data-reveal="up" data-delay="60">Available across every solution</h2>
-      <p class="bl-section-desc" data-reveal="up" data-delay="120">These modules form the foundation of every BigLedger deployment — battle-tested, fully integrated, and always compliant.</p>
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "solp_core_label" | default "CORE MODULES" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "solp_core_title" | default "Available across every solution" }}</h2>
+      <p class="bl-section-desc" data-reveal="up" data-delay="120">{{ i18n "solp_core_desc" | default "These modules form the foundation of every BigLedger deployment — battle-tested, fully integrated, and always compliant." }}</p>
     </div>
     <div class="bl-core-list" data-reveal="up" data-delay="80">
       <div class="bl-core-item">
         <span class="bl-core-dot"></span>
-        <span class="bl-core-name">Financial Accounting</span>
-        <span class="bl-core-note">GL · AR · AP · Multi-currency · Bank reconciliation</span>
+        <span class="bl-core-name">{{ i18n "solp_core1_name" | default "Financial Accounting" }}</span>
+        <span class="bl-core-note">{{ i18n "solp_core1_note" | default "GL · AR · AP · Multi-currency · Bank reconciliation" }}</span>
       </div>
       <div class="bl-core-item">
         <span class="bl-core-dot"></span>
-        <span class="bl-core-name">E-Invoice &amp; Compliance</span>
-        <span class="bl-core-note">PEPPOL · MyInvois · SST · LHDN submission</span>
+        <span class="bl-core-name">{{ i18n "solp_core2_name" | default "E-Invoice &amp; Compliance" }}</span>
+        <span class="bl-core-note">{{ i18n "solp_core2_note" | default "PEPPOL · MyInvois · SST · LHDN submission" }}</span>
       </div>
       <div class="bl-core-item">
         <span class="bl-core-dot"></span>
-        <span class="bl-core-name">Inventory &amp; Warehouse</span>
-        <span class="bl-core-note">Multi-location · Serial/batch · Barcode · RFID</span>
+        <span class="bl-core-name">{{ i18n "solp_core3_name" | default "Inventory &amp; Warehouse" }}</span>
+        <span class="bl-core-note">{{ i18n "solp_core3_note" | default "Multi-location · Serial/batch · Barcode · RFID" }}</span>
       </div>
       <div class="bl-core-item">
         <span class="bl-core-dot"></span>
-        <span class="bl-core-name">HR &amp; Payroll</span>
-        <span class="bl-core-note">EPF · SOCSO · PCB · Leave · Attendance</span>
+        <span class="bl-core-name">{{ i18n "solp_core4_name" | default "HR &amp; Payroll" }}</span>
+        <span class="bl-core-note">{{ i18n "solp_core4_note" | default "EPF · SOCSO · PCB · Leave · Attendance" }}</span>
       </div>
       <div class="bl-core-item">
         <span class="bl-core-dot"></span>
-        <span class="bl-core-name">Business Intelligence</span>
-        <span class="bl-core-note">AI dashboards · Predictive analytics · Reports</span>
+        <span class="bl-core-name">{{ i18n "solp_core5_name" | default "Business Intelligence" }}</span>
+        <span class="bl-core-note">{{ i18n "solp_core5_note" | default "AI dashboards · Predictive analytics · Reports" }}</span>
       </div>
       <div class="bl-core-item">
         <span class="bl-core-dot"></span>
-        <span class="bl-core-name">Sales &amp; CRM</span>
-        <span class="bl-core-note">Pipeline · AI insights · Campaigns · Quotes</span>
+        <span class="bl-core-name">{{ i18n "solp_core6_name" | default "Sales &amp; CRM" }}</span>
+        <span class="bl-core-note">{{ i18n "solp_core6_note" | default "Pipeline · AI insights · Campaigns · Quotes" }}</span>
       </div>
     </div>
   </div>
@@ -213,15 +213,15 @@
 <section class="bl-cta-section">
   <div class="bl-container">
     <div class="bl-cta-inner">
-      <span class="bl-label" data-reveal="up" data-delay="0">GET STARTED</span>
-      <h2 class="bl-cta-headline" data-reveal="up" data-delay="80">Find your solution.<br>Book a demo today.</h2>
-      <p class="bl-cta-sub" data-reveal="up" data-delay="160">Our team will walk you through the exact modules your industry needs — configured for your compliance requirements from day one.</p>
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "solp_cta_label" | default "GET STARTED" }}</span>
+      <h2 class="bl-cta-headline" data-reveal="up" data-delay="80">{{ i18n "solp_cta_head_a" | default "Find your solution." }}<br>{{ i18n "solp_cta_head_b" | default "Book a demo today." }}</h2>
+      <p class="bl-cta-sub" data-reveal="up" data-delay="160">{{ i18n "solp_cta_sub" | default "Our team will walk you through the exact modules your industry needs — configured for your compliance requirements from day one." }}</p>
       <div class="bl-cta-actions" data-reveal="up" data-delay="240">
         <a href="/contact" class="bl-btn-primary bl-btn-lg">
-          Request a Demo
+          {{ i18n "solp_cta_btn" | default "Request a Demo" }}
           <svg class="bl-btn-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
         </a>
-        <a href="/pricing" class="bl-btn-outline">View Pricing</a>
+        <a href="/pricing" class="bl-btn-outline">{{ i18n "solp_cta_pricing" | default "View Pricing" }}</a>
       </div>
     </div>
   </div>

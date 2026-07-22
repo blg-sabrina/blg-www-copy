@@ -7,13 +7,13 @@
     </a>
 
     <nav class="ac-links" id="acLinks">
-      <a href="{{ "/about" | relLangURL }}">About</a>
-      <a href="{{ "/solutions" | relLangURL }}">Solutions</a>
-      <a href="{{ "/applets/" | relLangURL }}" class="active" aria-current="page">Applets</a>
-      <a href="{{ "/modules/" | relLangURL }}">Modules</a>
-      <a href="{{ "/pricing" | relLangURL }}">Pricing</a>
-      <a href="{{ "/developers" | relLangURL }}">Developers</a>
-      <a href="{{ "/contact" | relLangURL }}">Contact</a>
+      <a href="{{ "/about" | relLangURL }}">{{ i18n "nav_about" }}</a>
+      <a href="{{ "/solutions" | relLangURL }}">{{ i18n "nav_solutions" }}</a>
+      <a href="{{ "/applets/" | relLangURL }}" class="active" aria-current="page">{{ i18n "nav_applets" | default "Applets" }}</a>
+      <a href="{{ "/modules/" | relLangURL }}">{{ i18n "nav_modules" | default "Modules" }}</a>
+      <a href="{{ "/pricing" | relLangURL }}">{{ i18n "nav_pricing" }}</a>
+      <a href="{{ "/developers" | relLangURL }}">{{ i18n "nav_developers" }}</a>
+      <a href="{{ "/contact" | relLangURL }}">{{ i18n "nav_contact" }}</a>
     </nav>
 
     <div class="ac-actions">
@@ -38,8 +38,8 @@
         </div>
       </div>
       {{ end }}
-      <a href="{{ "/contact" | relLangURL }}" class="ac-btn">Request Demo</a>
-      <button type="button" class="ac-burger" id="acBurger" aria-label="Open menu" aria-expanded="false">
+      <a href="{{ "/contact" | relLangURL }}" class="ac-btn">{{ i18n "request_demo" }}</a>
+      <button type="button" class="ac-burger" id="acBurger" aria-label="{{ i18n "ac_menu_open" | default "Open menu" }}" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -50,106 +50,106 @@
 {{ define "main" }}
 {{/* ---- catalog data: display name + slug per section, in spec order ---- */}}
 {{ $sections := slice
-  (dict "name" "Marketplace &amp; directories" "cat" "marketplace-guides" "items" (slice
-    (dict "n" "Complete Applet Catalog" "s" "applet-catalog" "badge" "Start here")
-    (dict "n" "Applet Directory" "s" "applet-directory")
-    (dict "n" "Applet Store" "s" "applet-store")))
-  (dict "name" "Core module" "cat" "core" "items" (slice
-    (dict "n" "Tenant Admin" "s" "tenant-admin-applet")
-    (dict "n" "Chart of Accounts" "s" "chart-of-account-applet")
-    (dict "n" "General Ledger" "s" "general-ledger-applet")
-    (dict "n" "Cashbook" "s" "cashbook-applet")
-    (dict "n" "Tax Configuration" "s" "tax-configuration-applet")
-    (dict "n" "Organization" "s" "organization-applet")
-    (dict "n" "Customer Maintenance" "s" "customer-maintenance-applet")
-    (dict "n" "Supplier Maintenance" "s" "supplier-maintenance-applet")
-    (dict "n" "Employee Maintenance" "s" "employee-maintenance-applet")
-    (dict "n" "Inventory Item Maintenance" "s" "inv-item-maintenance-applet")
-    (dict "n" "Document Item Maintenance" "s" "doc-item-maintenance-applet")
-    (dict "n" "Accounts Receivable" "s" "accounts-receivable-applet")
-    (dict "n" "Workflow Design" "s" "workflow-design-applet")))
-  (dict "name" "Organization &amp; admin" "cat" "org" "items" (slice
-    (dict "n" "Company Organization" "s" "company-organization-applet")
-    (dict "n" "Branch Organization" "s" "branch-organization-applet")
-    (dict "n" "Location Organization" "s" "location-organization-applet")
-    (dict "n" "Settings of Organization" "s" "settings-of-organization-applet")
-    (dict "n" "Group Maintenance" "s" "group-maintenance-applet")
-    (dict "n" "Team Maintenance" "s" "team-maintenance-applet")
-    (dict "n" "T2T Admin" "s" "t2t-admin-applet")
-    (dict "n" "Process Monitoring" "s" "process-monitoring-applet")
-    (dict "n" "Webhook" "s" "webhook-applet")))
-  (dict "name" "Inventory &amp; operations" "cat" "inventory" "items" (slice
-    (dict "n" "Stock Take" "s" "stock-take-applet")
-    (dict "n" "Stock Balance" "s" "stock-balance-applet")
-    (dict "n" "Internal Stock Adjustment" "s" "internal-stock-adjustment-applet")
-    (dict "n" "Internal Delivery Order" "s" "internal-delivery-order-applet")
-    (dict "n" "Related Applets: Internal Job Order" "s" "related-applets-internal-job-order")
-    (dict "n" "Related Applets: Internal Stock Adjustment" "s" "related-applets-internal-stock-adjustment")
-    (dict "n" "Related Applets: Process Monitoring" "s" "related-applets-process-monitoring")
-    (dict "n" "Related Applets: Stock Balance" "s" "related-applets-stock-balance")))
-  (dict "name" "Customer engagement" "cat" "customer" "items" (slice
-    (dict "n" "Membership Admin Console" "s" "membership-admin-console-applet")
-    (dict "n" "Membership Program" "s" "membership-program")
-    (dict "n" "Membership Points Currency" "s" "membership-points-currency")
-    (dict "n" "Unified Contact Center (UCC)" "s" "unified-contact-center-ucc-applet")
-    (dict "n" "AI Customer Analytics" "s" "ai-customer-analytics-applet")))
-  (dict "name" "Pricing &amp; commerce" "cat" "pricing" "items" (slice
-    (dict "n" "Pricebook" "s" "pricebook-applet")
-    (dict "n" "POS Terminal" "s" "pos-terminal-applet")
-    (dict "n" "E-Commerce Catalog" "s" "ecommerce-catalog-applet")
-    (dict "n" "EcomSync Related" "s" "90-ecomsync-related-applets")
-    (dict "n" "E-Invoice Generation" "s" "einvoice-generation-applet")
-    (dict "n" "Ingram Micro MS ESD" "s" "ingram-micro-ms-esd-applet")
-    (dict "n" "VSTECS MS ESD Order" "s" "vstecs-ms-esd-order-applet")))
-  (dict "name" "Installation &amp; introductions" "cat" "marketplace-guides" "items" (slice
-    (dict "n" "Installation: Group Maintenance" "s" "installation-of-group-maintenance-applet")
-    (dict "n" "Installation: Pricebook" "s" "installation-of-pricebook-applet")
-    (dict "n" "Installation: Team Maintenance" "s" "installation-of-team-maintenance-applet")
-    (dict "n" "Introduction: Membership Admin Console" "s" "introduction-to-membership-admin-console-applet")
-    (dict "n" "Introduction: Stock Take" "s" "introduction-to-stock-take-applet")
-    (dict "n" "Introduction: Team Maintenance" "s" "introduction-to-team-maintenance-applet")))
+  (dict "name" (i18n "ac_sec_marketplace" | default "Marketplace & directories") "cat" "marketplace-guides" "items" (slice
+    (dict "n" (i18n "ac_card_complete_catalog" | default "Complete Applet Catalog") "s" "applet-catalog" "badge" (i18n "ac_badge_start" | default "Start here"))
+    (dict "n" (i18n "ac_card_directory" | default "Applet Directory") "s" "applet-directory")
+    (dict "n" (i18n "ac_card_store" | default "Applet Store") "s" "applet-store")))
+  (dict "name" (i18n "ac_sec_core" | default "Core module") "cat" "core" "items" (slice
+    (dict "n" (i18n "ac_card_tenant_admin" | default "Tenant Admin") "s" "tenant-admin-applet")
+    (dict "n" (i18n "ac_card_chart_accounts" | default "Chart of Accounts") "s" "chart-of-account-applet")
+    (dict "n" (i18n "ac_card_general_ledger" | default "General Ledger") "s" "general-ledger-applet")
+    (dict "n" (i18n "ac_card_cashbook" | default "Cashbook") "s" "cashbook-applet")
+    (dict "n" (i18n "ac_card_tax_config" | default "Tax Configuration") "s" "tax-configuration-applet")
+    (dict "n" (i18n "ac_card_organization" | default "Organization") "s" "organization-applet")
+    (dict "n" (i18n "ac_card_customer_maint" | default "Customer Maintenance") "s" "customer-maintenance-applet")
+    (dict "n" (i18n "ac_card_supplier_maint" | default "Supplier Maintenance") "s" "supplier-maintenance-applet")
+    (dict "n" (i18n "ac_card_employee_maint" | default "Employee Maintenance") "s" "employee-maintenance-applet")
+    (dict "n" (i18n "ac_card_inv_item_maint" | default "Inventory Item Maintenance") "s" "inv-item-maintenance-applet")
+    (dict "n" (i18n "ac_card_doc_item_maint" | default "Document Item Maintenance") "s" "doc-item-maintenance-applet")
+    (dict "n" (i18n "ac_card_accounts_receivable" | default "Accounts Receivable") "s" "accounts-receivable-applet")
+    (dict "n" (i18n "ac_card_workflow_design" | default "Workflow Design") "s" "workflow-design-applet")))
+  (dict "name" (i18n "ac_sec_org" | default "Organization & admin") "cat" "org" "items" (slice
+    (dict "n" (i18n "ac_card_company_org" | default "Company Organization") "s" "company-organization-applet")
+    (dict "n" (i18n "ac_card_branch_org" | default "Branch Organization") "s" "branch-organization-applet")
+    (dict "n" (i18n "ac_card_location_org" | default "Location Organization") "s" "location-organization-applet")
+    (dict "n" (i18n "ac_card_settings_org" | default "Settings of Organization") "s" "settings-of-organization-applet")
+    (dict "n" (i18n "ac_card_group_maint" | default "Group Maintenance") "s" "group-maintenance-applet")
+    (dict "n" (i18n "ac_card_team_maint" | default "Team Maintenance") "s" "team-maintenance-applet")
+    (dict "n" (i18n "ac_card_t2t_admin" | default "T2T Admin") "s" "t2t-admin-applet")
+    (dict "n" (i18n "ac_card_process_monitoring" | default "Process Monitoring") "s" "process-monitoring-applet")
+    (dict "n" (i18n "ac_card_webhook" | default "Webhook") "s" "webhook-applet")))
+  (dict "name" (i18n "ac_sec_inventory" | default "Inventory & operations") "cat" "inventory" "items" (slice
+    (dict "n" (i18n "ac_card_stock_take" | default "Stock Take") "s" "stock-take-applet")
+    (dict "n" (i18n "ac_card_stock_balance" | default "Stock Balance") "s" "stock-balance-applet")
+    (dict "n" (i18n "ac_card_internal_stock_adj" | default "Internal Stock Adjustment") "s" "internal-stock-adjustment-applet")
+    (dict "n" (i18n "ac_card_internal_delivery" | default "Internal Delivery Order") "s" "internal-delivery-order-applet")
+    (dict "n" (i18n "ac_card_rel_job_order" | default "Related Applets: Internal Job Order") "s" "related-applets-internal-job-order")
+    (dict "n" (i18n "ac_card_rel_stock_adj" | default "Related Applets: Internal Stock Adjustment") "s" "related-applets-internal-stock-adjustment")
+    (dict "n" (i18n "ac_card_rel_process_mon" | default "Related Applets: Process Monitoring") "s" "related-applets-process-monitoring")
+    (dict "n" (i18n "ac_card_rel_stock_balance" | default "Related Applets: Stock Balance") "s" "related-applets-stock-balance")))
+  (dict "name" (i18n "ac_sec_customer" | default "Customer engagement") "cat" "customer" "items" (slice
+    (dict "n" (i18n "ac_card_membership_console" | default "Membership Admin Console") "s" "membership-admin-console-applet")
+    (dict "n" (i18n "ac_card_membership_program" | default "Membership Program") "s" "membership-program")
+    (dict "n" (i18n "ac_card_membership_points" | default "Membership Points Currency") "s" "membership-points-currency")
+    (dict "n" (i18n "ac_card_ucc" | default "Unified Contact Center (UCC)") "s" "unified-contact-center-ucc-applet")
+    (dict "n" (i18n "ac_card_ai_analytics" | default "AI Customer Analytics") "s" "ai-customer-analytics-applet")))
+  (dict "name" (i18n "ac_sec_pricing" | default "Pricing & commerce") "cat" "pricing" "items" (slice
+    (dict "n" (i18n "ac_card_pricebook" | default "Pricebook") "s" "pricebook-applet")
+    (dict "n" (i18n "ac_card_pos_terminal" | default "POS Terminal") "s" "pos-terminal-applet")
+    (dict "n" (i18n "ac_card_ecommerce_catalog" | default "E-Commerce Catalog") "s" "ecommerce-catalog-applet")
+    (dict "n" (i18n "ac_card_ecomsync_related" | default "EcomSync Related") "s" "90-ecomsync-related-applets")
+    (dict "n" (i18n "ac_card_einvoice_gen" | default "E-Invoice Generation") "s" "einvoice-generation-applet")
+    (dict "n" (i18n "ac_card_ingram_micro" | default "Ingram Micro MS ESD") "s" "ingram-micro-ms-esd-applet")
+    (dict "n" (i18n "ac_card_vstecs" | default "VSTECS MS ESD Order") "s" "vstecs-ms-esd-order-applet")))
+  (dict "name" (i18n "ac_sec_install" | default "Installation & introductions") "cat" "marketplace-guides" "items" (slice
+    (dict "n" (i18n "ac_card_install_group" | default "Installation: Group Maintenance") "s" "installation-of-group-maintenance-applet")
+    (dict "n" (i18n "ac_card_install_pricebook" | default "Installation: Pricebook") "s" "installation-of-pricebook-applet")
+    (dict "n" (i18n "ac_card_install_team" | default "Installation: Team Maintenance") "s" "installation-of-team-maintenance-applet")
+    (dict "n" (i18n "ac_card_intro_membership" | default "Introduction: Membership Admin Console") "s" "introduction-to-membership-admin-console-applet")
+    (dict "n" (i18n "ac_card_intro_stock_take" | default "Introduction: Stock Take") "s" "introduction-to-stock-take-applet")
+    (dict "n" (i18n "ac_card_intro_team" | default "Introduction: Team Maintenance") "s" "introduction-to-team-maintenance-applet")))
 }}
 
 <div class="ac-page">
   <!-- Hero -->
   <section class="ac-hero">
-    <nav class="ac-crumb" aria-label="Breadcrumb">
-      <a href="{{ "/" | relLangURL }}">Home</a>
+    <nav class="ac-crumb" aria-label="{{ i18n "ac_crumb_label" | default "Breadcrumb" }}">
+      <a href="{{ "/" | relLangURL }}">{{ i18n "ac_crumb_home" | default "Home" }}</a>
       <span class="ac-crumb-sep">&rsaquo;</span>
-      <span>Applets and Workflows</span>
+      <span>{{ i18n "ac_crumb_current" | default "Applets and Workflows" }}</span>
     </nav>
-    <h1>Applets &amp; <span class="ac-red">Workflows</span></h1>
-    <p class="ac-hero-intro">BigLedger&rsquo;s modular architecture is built on applets &mdash; reusable components that provide specific business functionality. Each applet can be used by multiple modules, ensuring consistency across your entire system.</p>
+    <h1>{{ i18n "ac_hero_a" | default "Applets &" }} <span class="ac-red">{{ i18n "ac_hero_b" | default "Workflows" }}</span></h1>
+    <p class="ac-hero-intro">{{ i18n "ac_hero_intro" | default "BigLedger’s modular architecture is built on applets — reusable components that provide specific business functionality. Each applet can be used by multiple modules, ensuring consistency across your entire system." }}</p>
   </section>
 
   <!-- Search + category pills -->
   <section class="ac-controls">
     <div class="ac-search">
       <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="9" cy="9" r="6.5"/><path d="M14 14l4 4"/></svg>
-      <input type="search" id="acSearch" placeholder="Search applets by name&hellip;" aria-label="Search applets">
+      <input type="search" id="acSearch" placeholder="{{ i18n "ac_search_ph" | default "Search applets by name…" }}" aria-label="{{ i18n "ac_search_label" | default "Search applets" }}">
     </div>
-    <div class="ac-pills" role="group" aria-label="Filter by category">
-      <button type="button" class="ac-pill active" data-cat="all">All</button>
-      <button type="button" class="ac-pill" data-cat="core">Core module</button>
-      <button type="button" class="ac-pill" data-cat="org">Organization &amp; admin</button>
-      <button type="button" class="ac-pill" data-cat="inventory">Inventory &amp; operations</button>
-      <button type="button" class="ac-pill" data-cat="customer">Customer engagement</button>
-      <button type="button" class="ac-pill" data-cat="pricing">Pricing &amp; commerce</button>
-      <button type="button" class="ac-pill" data-cat="marketplace-guides">Marketplace &amp; guides</button>
+    <div class="ac-pills" role="group" aria-label="{{ i18n "ac_pills_label" | default "Filter by category" }}">
+      <button type="button" class="ac-pill active" data-cat="all">{{ i18n "ac_pill_all" | default "All" }}</button>
+      <button type="button" class="ac-pill" data-cat="core">{{ i18n "ac_pill_core" | default "Core module" }}</button>
+      <button type="button" class="ac-pill" data-cat="org">{{ i18n "ac_pill_org" | default "Organization & admin" }}</button>
+      <button type="button" class="ac-pill" data-cat="inventory">{{ i18n "ac_pill_inventory" | default "Inventory & operations" }}</button>
+      <button type="button" class="ac-pill" data-cat="customer">{{ i18n "ac_pill_customer" | default "Customer engagement" }}</button>
+      <button type="button" class="ac-pill" data-cat="pricing">{{ i18n "ac_pill_pricing" | default "Pricing & commerce" }}</button>
+      <button type="button" class="ac-pill" data-cat="marketplace-guides">{{ i18n "ac_pill_marketplace" | default "Marketplace & guides" }}</button>
     </div>
   </section>
 
   <!-- Feature tiles -->
   <section class="ac-tiles">
-    <div class="ac-tile"><h3>Reusable</h3><p>One applet serves multiple modules.</p></div>
-    <div class="ac-tile"><h3>Configurable</h3><p>Customize to your business needs.</p></div>
-    <div class="ac-tile"><h3>Integrated</h3><p>Applets work together seamlessly.</p></div>
-    <div class="ac-tile"><h3>Independent</h3><p>Updated without affecting others.</p></div>
+    <div class="ac-tile"><h3>{{ i18n "ac_tile1_h" | default "Reusable" }}</h3><p>{{ i18n "ac_tile1_p" | default "One applet serves multiple modules." }}</p></div>
+    <div class="ac-tile"><h3>{{ i18n "ac_tile2_h" | default "Configurable" }}</h3><p>{{ i18n "ac_tile2_p" | default "Customize to your business needs." }}</p></div>
+    <div class="ac-tile"><h3>{{ i18n "ac_tile3_h" | default "Integrated" }}</h3><p>{{ i18n "ac_tile3_p" | default "Applets work together seamlessly." }}</p></div>
+    <div class="ac-tile"><h3>{{ i18n "ac_tile4_h" | default "Independent" }}</h3><p>{{ i18n "ac_tile4_p" | default "Updated without affecting others." }}</p></div>
   </section>
 
   <!-- Many-to-many note -->
   <aside class="ac-note">
-    <strong>Many-to-many by design:</strong> applets are shared across modules. For example, the Tax Configuration Applet is used by the Financial Accounting, Sales, Purchasing, and E-Commerce modules &mdash; one applet, one source of truth, consistent behavior everywhere.
+    <strong>{{ i18n "ac_note_lead" | default "Many-to-many by design:" }}</strong> {{ i18n "ac_note_body" | default "applets are shared across modules. For example, the Tax Configuration Applet is used by the Financial Accounting, Sales, Purchasing, and E-Commerce modules — one applet, one source of truth, consistent behavior everywhere." }}
   </aside>
 
   <!-- Card catalog -->
@@ -163,7 +163,7 @@
   {{ if $items }}
   <section class="ac-section" data-cat="{{ $sec.cat }}">
     <div class="ac-section-head">
-      <h2>{{ $sec.name | safeHTML }}</h2>
+      <h2>{{ $sec.name }}</h2>
       <span class="ac-count">{{ len $items }}</span>
     </div>
     <div class="ac-grid">
@@ -183,7 +183,7 @@
   {{ end }}
 
   <div class="ac-empty" id="acEmpty" hidden>
-    <p>No applets match your search.</p>
+    <p>{{ i18n "ac_empty" | default "No applets match your search." }}</p>
   </div>
 </div>
 

@@ -7,12 +7,12 @@
   <div class="bl-inner-hero-bg"></div>
   <div class="bl-container">
     <div class="bl-inner-hero-content">
-      <p class="bl-inner-eyebrow" data-reveal="up" data-delay="0">About BigLedger</p>
+      <p class="bl-inner-eyebrow" data-reveal="up" data-delay="0">{{ i18n "about_eyebrow" | default "About BigLedger" }}</p>
       <h1 class="bl-inner-headline" data-reveal="up" data-delay="80">
-        Built for the businesses<br>Southeast Asia deserves
+        {{ i18n "about_headline_a" | default "Built for the businesses" }}<br>{{ i18n "about_headline_b" | default "Southeast Asia deserves" }}
       </h1>
       <p class="bl-inner-sub" data-reveal="up" data-delay="160">
-        We started with a simple belief: enterprise-grade software shouldn't require an enterprise budget. BigLedger exists to give every Malaysian business — from a single-outlet retailer to a multi-entity manufacturer — the tools that were once reserved for Fortune 500 companies.
+        {{ i18n "about_hero_sub" | default "We started with a simple belief: enterprise-grade software shouldn't require an enterprise budget. BigLedger exists to give every Malaysian business — from a single-outlet retailer to a multi-entity manufacturer — the tools that were once reserved for Fortune 500 companies." }}
       </p>
     </div>
   </div>
@@ -24,22 +24,22 @@
     <div class="bl-about-stats" data-reveal="up" data-delay="0">
       <div class="bl-about-stat">
         <div class="bl-about-stat-val" data-count="100" data-suffix="+">100+</div>
-        <div class="bl-about-stat-key">Business Modules</div>
+        <div class="bl-about-stat-key">{{ i18n "about_stat_modules" | default "Business Modules" }}</div>
       </div>
       <div class="bl-about-stat-div"></div>
       <div class="bl-about-stat">
         <div class="bl-about-stat-val">SEA</div>
-        <div class="bl-about-stat-key">Regional Presence</div>
+        <div class="bl-about-stat-key">{{ i18n "about_stat_presence" | default "Regional Presence" }}</div>
       </div>
       <div class="bl-about-stat-div"></div>
       <div class="bl-about-stat">
         <div class="bl-about-stat-val" data-count="99.9" data-suffix="%">99.9%</div>
-        <div class="bl-about-stat-key">Uptime SLA</div>
+        <div class="bl-about-stat-key">{{ i18n "about_stat_uptime" | default "Uptime SLA" }}</div>
       </div>
       <div class="bl-about-stat-div"></div>
       <div class="bl-about-stat">
         <div class="bl-about-stat-val">MDEC</div>
-        <div class="bl-about-stat-key">PEPPOL Accredited</div>
+        <div class="bl-about-stat-key">{{ i18n "about_stat_peppol" | default "PEPPOL Accredited" }}</div>
       </div>
     </div>
   </div>
@@ -50,10 +50,10 @@
   <div class="bl-container">
     <div class="bl-about-split">
       <div data-reveal="left" data-delay="0">
-        <span class="bl-label">OUR MISSION</span>
-        <h2 class="bl-page-h2">Making enterprise power<br>accessible to all</h2>
-        <p class="bl-page-body">BigLedger was founded with a single conviction: the tools that help businesses grow, comply, and scale shouldn't be limited to the largest corporations. We built a platform that rivals global ERP giants — at a fraction of the cost and with a fraction of the complexity.</p>
-        <p class="bl-page-body">Today, hundreds of thousands of users across Southeast Asia trust BigLedger to process millions of transactions every month — across retail, F&B, manufacturing, services, healthcare, and beyond.</p>
+        <span class="bl-label">{{ i18n "about_mission_label" | default "OUR MISSION" }}</span>
+        <h2 class="bl-page-h2">{{ i18n "about_mission_h2_a" | default "Making enterprise power" }}<br>{{ i18n "about_mission_h2_b" | default "accessible to all" }}</h2>
+        <p class="bl-page-body">{{ i18n "about_mission_p1" | default "BigLedger was founded with a single conviction: the tools that help businesses grow, comply, and scale shouldn't be limited to the largest corporations. We built a platform that rivals global ERP giants — at a fraction of the cost and with a fraction of the complexity." }}</p>
+        <p class="bl-page-body">{{ i18n "about_mission_p2" | default "Today, hundreds of thousands of users across Southeast Asia trust BigLedger to process millions of transactions every month — across retail, F&B, manufacturing, services, healthcare, and beyond." }}</p>
       </div>
       <div class="bl-about-visual" data-reveal="right" data-delay="80">
         <div class="bl-about-card-stack">
@@ -62,8 +62,8 @@
               <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18"><path d="M10 3L4 7v5c0 3.3 2.6 6.4 6 7 3.4-.6 6-3.7 6-7V7l-6-4z"/></svg>
             </div>
             <div class="bl-ac-text">
-              <div class="bl-ac-title">Malaysia-First</div>
-              <div class="bl-ac-sub">PEPPOL · SST · EPF · SOCSO</div>
+              <div class="bl-ac-title">{{ i18n "about_card1_title" | default "Malaysia-First" }}</div>
+              <div class="bl-ac-sub">{{ i18n "about_card1_sub" | default "PEPPOL · SST · EPF · SOCSO" }}</div>
             </div>
             <div class="bl-ac-badge">✓</div>
           </div>
@@ -72,8 +72,8 @@
               <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18"><path d="M9 2v4m0 8v4M2 9h4m8 0h4M4.2 4.2l3 3m6 6 3 3M4.2 15.8l3-3m6-6 3-3"/></svg>
             </div>
             <div class="bl-ac-text">
-              <div class="bl-ac-title">AI-Powered</div>
-              <div class="bl-ac-sub">OCR · Predictive · Automation</div>
+              <div class="bl-ac-title">{{ i18n "about_card2_title" | default "AI-Powered" }}</div>
+              <div class="bl-ac-sub">{{ i18n "about_card2_sub" | default "OCR · Predictive · Automation" }}</div>
             </div>
             <div class="bl-ac-badge ac-badge-r">AI</div>
           </div>
@@ -82,8 +82,8 @@
               <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18"><path d="M3 3h14v14H3zM3 8h14M8 8v9"/></svg>
             </div>
             <div class="bl-ac-text">
-              <div class="bl-ac-title">Composable ERP</div>
-              <div class="bl-ac-sub">100+ modules, deploy what you need</div>
+              <div class="bl-ac-title">{{ i18n "about_card3_title" | default "Composable ERP" }}</div>
+              <div class="bl-ac-sub">{{ i18n "about_card3_sub" | default "100+ modules, deploy what you need" }}</div>
             </div>
             <div class="bl-ac-badge ac-badge-g">100+</div>
           </div>
@@ -97,8 +97,8 @@
 <section class="bl-page-section bl-section-alt">
   <div class="bl-container">
     <div class="bl-section-header">
-      <span class="bl-label" data-reveal="up" data-delay="0">OUR VALUES</span>
-      <h2 class="bl-section-title" data-reveal="up" data-delay="60">What we stand for</h2>
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "about_values_label" | default "OUR VALUES" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "about_values_title" | default "What we stand for" }}</h2>
     </div>
     <div class="bl-values-grid">
       <div class="bl-value-card" data-reveal="up" data-delay="0">
@@ -108,8 +108,8 @@
             <path d="M12 2l2 6h6l-5 4 2 6-5-4-5 4 2-6-5-4h6z"/>
           </svg>
         </div>
-        <h3 class="bl-value-name">Innovation First</h3>
-        <p class="bl-value-desc">We invest continuously in AI, machine learning, and automation — not as buzzwords, but as capabilities that reduce your team's workload by up to 80%.</p>
+        <h3 class="bl-value-name">{{ i18n "about_val1_name" | default "Innovation First" }}</h3>
+        <p class="bl-value-desc">{{ i18n "about_val1_desc" | default "We invest continuously in AI, machine learning, and automation — not as buzzwords, but as capabilities that reduce your team's workload by up to 80%." }}</p>
       </div>
       <div class="bl-value-card" data-reveal="up" data-delay="80">
         <div class="bl-value-num">02</div>
@@ -118,8 +118,8 @@
             <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
           </svg>
         </div>
-        <h3 class="bl-value-name">Customer Success</h3>
-        <p class="bl-value-desc">Our success is measured only through yours. Every feature, support interaction, and product decision is filtered through one question: does this make our customers more successful?</p>
+        <h3 class="bl-value-name">{{ i18n "about_val2_name" | default "Customer Success" }}</h3>
+        <p class="bl-value-desc">{{ i18n "about_val2_desc" | default "Our success is measured only through yours. Every feature, support interaction, and product decision is filtered through one question: does this make our customers more successful?" }}</p>
       </div>
       <div class="bl-value-card" data-reveal="up" data-delay="160">
         <div class="bl-value-num">03</div>
@@ -129,8 +129,8 @@
             <path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/>
           </svg>
         </div>
-        <h3 class="bl-value-name">Malaysia-First</h3>
-        <p class="bl-value-desc">We build with Malaysian compliance at the core — not as an afterthought. PEPPOL accreditation, MyInvois integration, and regulatory updates ship first for the Malaysian market.</p>
+        <h3 class="bl-value-name">{{ i18n "about_val3_name" | default "Malaysia-First" }}</h3>
+        <p class="bl-value-desc">{{ i18n "about_val3_desc" | default "We build with Malaysian compliance at the core — not as an afterthought. PEPPOL accreditation, MyInvois integration, and regulatory updates ship first for the Malaysian market." }}</p>
       </div>
     </div>
   </div>
@@ -145,54 +145,54 @@
           <div class="bl-why-item">
             <div class="bl-why-check">✓</div>
             <div class="bl-why-text">
-              <div class="bl-why-title">Proven at scale</div>
-              <div class="bl-why-sub">Millions of transactions processed monthly</div>
+              <div class="bl-why-title">{{ i18n "about_why1_title" | default "Proven at scale" }}</div>
+              <div class="bl-why-sub">{{ i18n "about_why1_sub" | default "Millions of transactions processed monthly" }}</div>
             </div>
           </div>
           <div class="bl-why-item">
             <div class="bl-why-check">✓</div>
             <div class="bl-why-text">
-              <div class="bl-why-title">Cloud-native from day one</div>
-              <div class="bl-why-sub">99.9% uptime, access from any device</div>
+              <div class="bl-why-title">{{ i18n "about_why2_title" | default "Cloud-native from day one" }}</div>
+              <div class="bl-why-sub">{{ i18n "about_why2_sub" | default "99.9% uptime, access from any device" }}</div>
             </div>
           </div>
           <div class="bl-why-item">
             <div class="bl-why-check">✓</div>
             <div class="bl-why-text">
-              <div class="bl-why-title">Developer-friendly</div>
-              <div class="bl-why-sub">REST APIs, webhooks, custom applets</div>
+              <div class="bl-why-title">{{ i18n "about_why3_title" | default "Developer-friendly" }}</div>
+              <div class="bl-why-sub">{{ i18n "about_why3_sub" | default "REST APIs, webhooks, custom applets" }}</div>
             </div>
           </div>
           <div class="bl-why-item">
             <div class="bl-why-check">✓</div>
             <div class="bl-why-text">
-              <div class="bl-why-title">Bank-level security</div>
-              <div class="bl-why-sub">ISO 27001 · Encrypted · Malaysian data centers</div>
+              <div class="bl-why-title">{{ i18n "about_why4_title" | default "Bank-level security" }}</div>
+              <div class="bl-why-sub">{{ i18n "about_why4_sub" | default "ISO 27001 · Encrypted · Malaysian data centers" }}</div>
             </div>
           </div>
           <div class="bl-why-item">
             <div class="bl-why-check">✓</div>
             <div class="bl-why-text">
-              <div class="bl-why-title">Every regulation, built in</div>
-              <div class="bl-why-sub">PEPPOL · SST · EPF · SOCSO · PCB</div>
+              <div class="bl-why-title">{{ i18n "about_why5_title" | default "Every regulation, built in" }}</div>
+              <div class="bl-why-sub">{{ i18n "about_why5_sub" | default "PEPPOL · SST · EPF · SOCSO · PCB" }}</div>
             </div>
           </div>
           <div class="bl-why-item">
             <div class="bl-why-check">✓</div>
             <div class="bl-why-text">
-              <div class="bl-why-title">Composable, not monolithic</div>
-              <div class="bl-why-sub">Deploy 1 module or 100 — your choice</div>
+              <div class="bl-why-title">{{ i18n "about_why6_title" | default "Composable, not monolithic" }}</div>
+              <div class="bl-why-sub">{{ i18n "about_why6_sub" | default "Deploy 1 module or 100 — your choice" }}</div>
             </div>
           </div>
         </div>
       </div>
       <div data-reveal="right" data-delay="80">
-        <span class="bl-label">WHY BIGLEDGER</span>
-        <h2 class="bl-page-h2">A track record<br>you can trust</h2>
-        <p class="bl-page-body">Processing millions of transactions monthly for hundreds of thousands of users across retail, F&B, manufacturing, services, and e-commerce — BigLedger has proven it can scale with businesses at every stage.</p>
-        <p class="bl-page-body">We're not just compliant with Malaysian regulations. We build them into the product before they become mandatory, so your business is always ahead of the curve.</p>
+        <span class="bl-label">{{ i18n "about_why_label" | default "WHY BIGLEDGER" }}</span>
+        <h2 class="bl-page-h2">{{ i18n "about_why_h2_a" | default "A track record" }}<br>{{ i18n "about_why_h2_b" | default "you can trust" }}</h2>
+        <p class="bl-page-body">{{ i18n "about_why_p1" | default "Processing millions of transactions monthly for hundreds of thousands of users across retail, F&B, manufacturing, services, and e-commerce — BigLedger has proven it can scale with businesses at every stage." }}</p>
+        <p class="bl-page-body">{{ i18n "about_why_p2" | default "We're not just compliant with Malaysian regulations. We build them into the product before they become mandatory, so your business is always ahead of the curve." }}</p>
         <a href="/contact" class="bl-btn-primary" style="margin-top:28px;display:inline-flex">
-          Talk to our team
+          {{ i18n "about_why_cta" | default "Talk to our team" }}
           <svg class="bl-btn-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
         </a>
       </div>
@@ -204,15 +204,15 @@
 <section class="bl-cta-section">
   <div class="bl-container">
     <div class="bl-cta-inner">
-      <span class="bl-label" data-reveal="up" data-delay="0">JOIN US</span>
-      <h2 class="bl-cta-headline" data-reveal="up" data-delay="80">Ready to see what BigLedger can do for your business?</h2>
-      <p class="bl-cta-sub" data-reveal="up" data-delay="160">Get a personalized demo and see your industry's modules in action.</p>
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "about_cta_label" | default "JOIN US" }}</span>
+      <h2 class="bl-cta-headline" data-reveal="up" data-delay="80">{{ i18n "about_cta_headline" | default "Ready to see what BigLedger can do for your business?" }}</h2>
+      <p class="bl-cta-sub" data-reveal="up" data-delay="160">{{ i18n "about_cta_sub" | default "Get a personalized demo and see your industry's modules in action." }}</p>
       <div class="bl-cta-actions" data-reveal="up" data-delay="240">
         <a href="/contact" class="bl-btn-primary bl-btn-lg">
-          Request a Demo
+          {{ i18n "about_cta_btn" | default "Request a Demo" }}
           <svg class="bl-btn-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
         </a>
-        <a href="/solutions" class="bl-btn-outline">View Solutions</a>
+        <a href="/solutions" class="bl-btn-outline">{{ i18n "about_cta_btn2" | default "View Solutions" }}</a>
       </div>
     </div>
   </div>
