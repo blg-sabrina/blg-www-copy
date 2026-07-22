@@ -20,14 +20,14 @@
 | Field | Value |
 |---|---|
 | Document title | UAT Report — BigLedger Corporate Website Rebuild |
-| Version | 1.1 |
-| Status | **Awaiting client sign-off** |
+| Version | 2.0 |
+| Status | **Deployed to production — awaiting client sign-off** |
 | Date issued | 22 July 2026 |
 | Prepared by | Awanjasa |
 | Prepared for | BigLedger Sdn Bhd |
 | Repository | `bigledger/blg-www` |
-| Release under test | `ae205497` |
-| Environment | Production — AWS S3 + CloudFront (`ELHXIGVKWA8XV`) |
+| Release deployed | `f6f09779` |
+| Environment | Production — AWS S3 + CloudFront (`ELHXIGVKWA8XV`) — **live at https://www.bigledger.com/** |
 
 ### Revision history
 
@@ -35,6 +35,7 @@
 |---|---|---|
 | 1.0 | 22 July 2026 | Initial UAT report for the rebuilt website (release `3eef0e1d`). |
 | 1.1 | 22 July 2026 | Documentation tree translated to full parity in Chinese, Bahasa Malaysia and Arabic (release `ae205497`); §7 open translation items closed. |
+| 2.0 | 22 July 2026 | Full-parity translation release **deployed to production** (`f6f09779`, deploy run `29891196921`); live site verified stable across all four languages. |
 
 ---
 
@@ -42,7 +43,9 @@
 
 This report records the User Acceptance Testing of the rebuilt BigLedger corporate website, which now replaces the previous site at `www.bigledger.com`. It states what was delivered, what was tested and how, the defects found and resolved during testing, the limitations that remain open, and the deployment record — so that BigLedger can accept or reject the release on evidence rather than assertion.
 
-**Version 1.1** additionally records the completion of the multi-language documentation tree: every English content page now has a Chinese, Bahasa Malaysia and Arabic counterpart, closing the translation gaps that were listed as open items in version 1.0.
+**Version 1.1** recorded the completion of the multi-language documentation tree: every English content page now has a Chinese, Bahasa Malaysia and Arabic counterpart, closing the translation gaps that were listed as open items in version 1.0.
+
+**Version 2.0** records that this full-parity release has been **deployed to production** and that the live site at `https://www.bigledger.com/` was verified stable across all four languages after deployment (§5.5).
 
 ## 2. Scope
 
@@ -66,15 +69,15 @@ This report records the User Acceptance Testing of the rebuilt BigLedger corpora
 | Measure | Value |
 |---|---|
 | Content source files | 1,028 (257 per language × 4) |
-| Pages published | 2,656 |
+| Pages published | 2,656 (build) — 1,713 canonical URLs indexed in the live sitemaps |
 | Languages | 4 (en, zh, ms, ar) — full content parity |
-| Commits in project history | 88 |
+| Commits in project history | 89 |
 | Project period | 12 August 2025 – 22 July 2026 |
-| Release under test | `ae205497` |
+| Release deployed | `f6f09779` (deploy run `29891196921`, success) |
 
 ### 3.1 Final release contents
 
-The release under test consolidates the following work:
+The deployed release consolidates the following work:
 
 | Commit | Delivered |
 |---|---|
@@ -99,10 +102,11 @@ Testing was performed against the **live production site** at `https://www.bigle
 - **Layout measurement** via the DOM — element geometry read directly rather than judged by eye
 - **Byte comparison** of deployed files against the approved build (SHA-256)
 
-The translation delivery (release `ae205497`) was additionally verified at the **production build** level, before deployment:
+The translation delivery was verified at the **production build** level before deployment and again on the **live site** after deployment:
 
 - **File-parity check** — every English content path compared against each language tree
 - **Full production build** (`hugo --gc --minify`) — all four language sites compiled with zero errors; front matter, Hugo shortcodes and internal links validated by the build
+- **Post-deployment live crawl** — a random sample of translated URLs drawn from the live sitemaps was checked for HTTP status, response time and correct language rendering (§5.5)
 
 Viewports exercised: 1440×950 (desktop), 414×896, 390×844 and 360×800 (mobile).
 
@@ -152,6 +156,20 @@ Viewports exercised: 1440×950 (desktop), 414×896, 390×844 and 360×800 (mobil
 | L3 | Front matter preserved (weight, tags, layout) | Build validation + diff sampling | **Pass** — only `title`/`description` translated |
 | L4 | Internal links language-prefixed correctly | Grep audit + build | **Pass** — static asset paths kept unprefixed (see D9) |
 | L5 | Hugo shortcodes and code blocks intact | Build validation | **Pass** — no shortcode/parse errors |
+
+### 5.5 Post-deployment live verification (v2.0)
+
+Performed against `https://www.bigledger.com/` immediately after deploy run `29891196921`, once the CloudFront invalidation completed.
+
+| # | Test | Method | Result |
+|---|---|---|---|
+| P1 | Translated pages live and reachable | 24 targeted URLs across all sections and languages, incl. custom-URL pages | **Pass** — 24/24 return 200 |
+| P2 | No regressions across the translated tree | 45 URLs randomly sampled from the live `zh`/`ms`/`ar` sitemaps | **Pass** — 45/45 return 200, 0 failures |
+| P3 | Response time acceptable under live CDN | Same crawls | **Pass** — all responses under 0.2 s, none over 1 s |
+| P4 | Correct language and direction served | `<html lang>` / `dir` attribute inspection | **Pass** — `lang=ar dir=rtl`, `lang=zh`, `lang=ms` as expected |
+| P5 | Translated content actually rendered (not English fallback) | Script-range check of live page bodies | **Pass** — Arabic and Chinese text present in the respective pages |
+| P6 | Custom-URL pages carry the language prefix without collision | `url:` override audit + live checks | **Pass** — 40 override pages per language, all prefixed, no clash with English |
+| P7 | Live sitemaps advertise full coverage | Sitemap fetch per language | **Pass** — zh 429, ms 428, ar 428 URLs |
 
 ---
 
@@ -204,7 +222,7 @@ Two files use a data-driven catalog layout whose display content lives in struct
 
 ### 7.3 Operational notes for BigLedger
 
-1. **Deployment is manual.** The workflow declares an `on: push` trigger, but push events do not start a run on this repository — every deployment in its history has been a manual `workflow_dispatch`. **Pushing to `main` alone will not publish the site**; the workflow must be run manually from the Actions tab. The v1.1 translation release (`ae205497`) is committed and build-verified and is ready to deploy by this manual trigger.
+1. **Deployment is manual.** The workflow declares an `on: push` trigger, but push events do not start a run on this repository — every deployment in its history has been a manual `workflow_dispatch`. **Pushing to `main` alone will not publish the site**; the workflow must be run manually from the Actions tab. The full-parity translation release (`f6f09779`) was deployed this way and is now live (§8).
 2. **Deployment removes files not in the build.** `hugo deploy` runs with `--maxDeletes -1`, so anything on S3 that the build does not produce is deleted. This is intentional synchronisation behaviour and should be understood before uploading files to the bucket by hand.
 3. **Hugo version constraint.** The build requires Hugo **extended, v0.146–v0.157**. Below v0.146 the theme fails; v0.158 and above break on removed template APIs. v0.150.0 is verified working.
 4. **Assets are not compressed.** Files are served without gzip or Brotli. Enabling compression is a straightforward performance improvement and is recommended as a follow-up.
@@ -223,9 +241,9 @@ Production deployments for this release, in order:
 | 29853418642 | `383c03df` | Success | 2026-07-21 17:33 |
 | 29853930911 | `451837ba` | Success | 2026-07-21 17:40 |
 | 29854353385 | `3eef0e1d` | Success | 2026-07-21 17:46 |
-| _pending_ | `ae205497` | Ready to deploy (v1.1 translations) | — |
+| 29891196921 | `f6f09779` | **Success — full-parity translation release (v2.0)** | 2026-07-22 04:31 |
 
-Each run builds the site with Hugo, synchronises to the S3 bucket and invalidates CloudFront distribution `ELHXIGVKWA8XV`.
+Each run builds the site with Hugo, synchronises to the S3 bucket and invalidates CloudFront distribution `ELHXIGVKWA8XV`. The final run above published the fully-translated site now live at `https://www.bigledger.com/`.
 
 **Rollback:** the previous site is recoverable from Git history. Checking out an earlier commit and running the deploy workflow restores it, as the bucket is synchronised from the build output rather than modified in place.
 
@@ -233,9 +251,9 @@ Each run builds the site with Hugo, synchronises to the S3 bucket and invalidate
 
 ## 9. Acceptance and sign-off
 
-The release described in this document has been delivered to the repository and tested as recorded in §5. Awanjasa submits it for BigLedger's acceptance.
+The release described in this document has been **deployed to production** and tested as recorded in §5, including live post-deployment verification (§5.5). Awanjasa submits it for BigLedger's acceptance.
 
-**Recommendation:** accept. All open translation items from version 1.0 are closed; the site builds cleanly in all four languages at full content parity.
+**Recommendation:** accept. All open translation items from version 1.0 are closed; the site builds cleanly in all four languages at full content parity, and the deployed live site was verified stable across all four languages.
 
 | Role | Name | Signature | Date |
 |---|---|---|---|
@@ -251,4 +269,4 @@ _Conditions or comments:_
 
 ---
 
-<p align="center"><sub>Prepared by Awanjasa for BigLedger Sdn Bhd · UAT Report v1.1 · 22 July 2026</sub></p>
+<p align="center"><sub>Prepared by Awanjasa for BigLedger Sdn Bhd · UAT Report v2.0 · 22 July 2026</sub></p>
