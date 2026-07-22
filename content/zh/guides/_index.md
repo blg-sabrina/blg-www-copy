@@ -1,4 +1,5 @@
 ---
+layout: hub
 title: "指南"
 description: "BigLedger平台的全面指南和最佳实践"
 weight: 5

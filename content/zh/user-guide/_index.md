@@ -1,4 +1,5 @@
 ---
+layout: hub
 bookCollapseSection: true
 description: 通过我们全面的分步用户指南，掌握 BigLedger 集成平台的日常业务运营。
 tags:

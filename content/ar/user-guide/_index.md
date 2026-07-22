@@ -1,4 +1,5 @@
 ---
+layout: hub
 title: دليل المستخدم
 description: أدلة شاملة لاستخدام منصة BigLedger
 weight: 30

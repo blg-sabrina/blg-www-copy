@@ -19,15 +19,27 @@
   (dict "icon" "chart" "title" (i18n "guides_cat_acct" | default "Accounting Guides")
         "desc" (i18n "guides_cat_acct_desc" | default "Master financial management with BigLedger.")
         "url" "/guides/accounting-guides/"
-        "topics" (slice "Chart of Accounts Setup" "Journal Entries Processing" "Financial Reporting" "Bank Reconciliation"))
+        "topics" (slice
+          (i18n "guides_topic_coa_setup" | default "Chart of Accounts Setup")
+          (i18n "guides_topic_journal_entries" | default "Journal Entries Processing")
+          (i18n "guides_topic_fin_reporting" | default "Financial Reporting")
+          (i18n "guides_topic_bank_recon" | default "Bank Reconciliation")))
   (dict "icon" "doc" "title" (i18n "guides_cat_einv" | default "E-Invoice Implementation")
         "desc" (i18n "guides_cat_einv_desc" | default "Complete e-invoice and PEPPOL setup.")
         "url" "/guides/einvoice-guides/"
-        "topics" (slice "MyInvois Configuration" "PEPPOL Setup" "Validation Rules" "Compliance Requirements"))
+        "topics" (slice
+          (i18n "guides_topic_myinvois_config" | default "MyInvois Configuration")
+          (i18n "guides_topic_peppol_setup" | default "PEPPOL Setup")
+          (i18n "guides_topic_validation_rules" | default "Validation Rules")
+          (i18n "guides_topic_compliance" | default "Compliance Requirements")))
   (dict "icon" "box" "title" (i18n "guides_cat_inv" | default "Inventory Management")
         "desc" (i18n "guides_cat_inv_desc" | default "Optimize stock and warehouse operations.")
         "url" "/guides/inventory-guides/"
-        "topics" (slice "Stock Management" "Transfer Procedures" "Cycle Counting" "Valuation Methods"))
+        "topics" (slice
+          (i18n "guides_topic_stock_mgmt" | default "Stock Management")
+          (i18n "guides_topic_transfer_proc" | default "Transfer Procedures")
+          (i18n "guides_topic_cycle_count" | default "Cycle Counting")
+          (i18n "guides_topic_valuation" | default "Valuation Methods")))
 -}}
 {{ $icons := dict
   "chart" "M4 15l4-8 4 6 3-4 3 6M3 17h14"
@@ -65,20 +77,20 @@
 {{ $quick := slice
   (dict "icon" "star" "title" (i18n "guides_popular" | default "Most Popular")
         "links" (slice
-          (dict "t" "Chart of Accounts Setup" "u" "/guides/accounting-guides/chart-of-accounts-setup/")
-          (dict "t" "MyInvois Setup Guide" "u" "/guides/einvoice-guides/myinvois-setup/")
-          (dict "t" "Bank Reconciliation Step-by-Step" "u" "/guides/accounting-guides/bank-reconciliation-guide/")
-          (dict "t" "Stock Management Guide" "u" "/guides/inventory-guides/stock-management/")))
+          (dict "t" (i18n "guides_quick_coa" | default "Chart of Accounts Setup") "u" "/guides/accounting-guides/chart-of-accounts-setup/")
+          (dict "t" (i18n "guides_quick_myinvois" | default "MyInvois Setup Guide") "u" "/guides/einvoice-guides/myinvois-setup/")
+          (dict "t" (i18n "guides_quick_bank_recon" | default "Bank Reconciliation Step-by-Step") "u" "/guides/accounting-guides/bank-reconciliation-guide/")
+          (dict "t" (i18n "guides_quick_stock" | default "Stock Management Guide") "u" "/guides/inventory-guides/stock-management/")))
   (dict "icon" "spark" "title" (i18n "guides_new_users" | default "New Users")
         "links" (slice
-          (dict "t" "Platform Overview" "u" "/user-guide/introduction/")
-          (dict "t" "Creating Your First Invoice" "u" "/modules/financial-accounting/")
-          (dict "t" "Basic Navigation" "u" "/user-guide/navigation/")))
+          (dict "t" (i18n "guides_quick_platform" | default "Platform Overview") "u" "/user-guide/introduction/")
+          (dict "t" (i18n "guides_quick_first_invoice" | default "Creating Your First Invoice") "u" "/modules/financial-accounting/")
+          (dict "t" (i18n "guides_quick_navigation" | default "Basic Navigation") "u" "/user-guide/navigation/")))
   (dict "icon" "chart" "title" (i18n "guides_advanced" | default "Advanced Topics")
         "links" (slice
-          (dict "t" "Financial Reporting" "u" "/guides/accounting-guides/financial-reporting/")
-          (dict "t" "E-Invoice Validation Rules" "u" "/guides/einvoice-guides/einvoice-validation/")
-          (dict "t" "Stock Transfer Procedures" "u" "/guides/inventory-guides/stock-transfer/")))
+          (dict "t" (i18n "guides_quick_fin_report" | default "Financial Reporting") "u" "/guides/accounting-guides/financial-reporting/")
+          (dict "t" (i18n "guides_quick_einv_validation" | default "E-Invoice Validation Rules") "u" "/guides/einvoice-guides/einvoice-validation/")
+          (dict "t" (i18n "guides_quick_stock_transfer" | default "Stock Transfer Procedures") "u" "/guides/inventory-guides/stock-transfer/")))
 -}}
 <section class="bl-page-section bl-section-alt">
   <div class="bl-container">
@@ -104,11 +116,28 @@
 
 {{ $procs := slice
   (dict "title" (i18n "guides_o2c" | default "Order-to-Cash")
-        "steps" (slice "Customer Setup" "Quotation Creation" "Sales Order Processing" "Invoice Generation" "Payment Collection" "Bank Reconciliation"))
+        "steps" (slice
+          (i18n "guides_o2c_s1" | default "Customer Setup")
+          (i18n "guides_o2c_s2" | default "Quotation Creation")
+          (i18n "guides_o2c_s3" | default "Sales Order Processing")
+          (i18n "guides_o2c_s4" | default "Invoice Generation")
+          (i18n "guides_o2c_s5" | default "Payment Collection")
+          (i18n "guides_o2c_s6" | default "Bank Reconciliation")))
   (dict "title" (i18n "guides_p2p" | default "Procure-to-Pay")
-        "steps" (slice "Vendor Management" "Purchase Requisition" "Purchase Order" "Goods Receipt" "Invoice Matching" "Payment Processing"))
+        "steps" (slice
+          (i18n "guides_p2p_s1" | default "Vendor Management")
+          (i18n "guides_p2p_s2" | default "Purchase Requisition")
+          (i18n "guides_p2p_s3" | default "Purchase Order")
+          (i18n "guides_p2p_s4" | default "Goods Receipt")
+          (i18n "guides_p2p_s5" | default "Invoice Matching")
+          (i18n "guides_p2p_s6" | default "Payment Processing")))
   (dict "title" (i18n "guides_r2r" | default "Record-to-Report")
-        "steps" (slice "Journal Entry" "Account Reconciliation" "Period Closing" "Financial Statements" "Management Reports"))
+        "steps" (slice
+          (i18n "guides_r2r_s1" | default "Journal Entry")
+          (i18n "guides_r2r_s2" | default "Account Reconciliation")
+          (i18n "guides_r2r_s3" | default "Period Closing")
+          (i18n "guides_r2r_s4" | default "Financial Statements")
+          (i18n "guides_r2r_s5" | default "Management Reports")))
 -}}
 <section class="bl-page-section">
   <div class="bl-container">
@@ -132,10 +161,26 @@
 </section>
 
 {{ $phases := slice
-  (dict "name" (i18n "guides_ph1" | default "Foundation")   "items" (slice "System setup" "Master data" "User configuration" "Basic training"))
-  (dict "name" (i18n "guides_ph2" | default "Core Modules") "items" (slice "Accounting setup" "E-invoice configuration" "Inventory initialization" "Process design"))
-  (dict "name" (i18n "guides_ph3" | default "Go-Live")      "items" (slice "Data migration" "User training" "Parallel run" "Cutover"))
-  (dict "name" (i18n "guides_ph4" | default "Optimization") "items" (slice "Process refinement" "Advanced features" "Integration" "Automation"))
+  (dict "name" (i18n "guides_ph1" | default "Foundation")   "items" (slice
+          (i18n "guides_ph1_i1" | default "System setup")
+          (i18n "guides_ph1_i2" | default "Master data")
+          (i18n "guides_ph1_i3" | default "User configuration")
+          (i18n "guides_ph1_i4" | default "Basic training")))
+  (dict "name" (i18n "guides_ph2" | default "Core Modules") "items" (slice
+          (i18n "guides_ph2_i1" | default "Accounting setup")
+          (i18n "guides_ph2_i2" | default "E-invoice configuration")
+          (i18n "guides_ph2_i3" | default "Inventory initialization")
+          (i18n "guides_ph2_i4" | default "Process design")))
+  (dict "name" (i18n "guides_ph3" | default "Go-Live")      "items" (slice
+          (i18n "guides_ph3_i1" | default "Data migration")
+          (i18n "guides_ph3_i2" | default "User training")
+          (i18n "guides_ph3_i3" | default "Parallel run")
+          (i18n "guides_ph3_i4" | default "Cutover")))
+  (dict "name" (i18n "guides_ph4" | default "Optimization") "items" (slice
+          (i18n "guides_ph4_i1" | default "Process refinement")
+          (i18n "guides_ph4_i2" | default "Advanced features")
+          (i18n "guides_ph4_i3" | default "Integration")
+          (i18n "guides_ph4_i4" | default "Automation")))
 -}}
 <section class="bl-page-section bl-section-alt">
   <div class="bl-container">
@@ -161,13 +206,21 @@
 {{ $support := slice
   (dict "icon" "book" "title" (i18n "guides_docs" | default "Documentation")
         "links" (slice
-          (dict "t" "User Guide" "u" "/user-guide/")
-          (dict "t" "API Reference" "u" "/developers/api-reference/")
-          (dict "t" "Troubleshooting" "u" "/user-guide/")))
+          (dict "t" (i18n "guides_support_user_guide" | default "User Guide") "u" "/user-guide/")
+          (dict "t" (i18n "guides_support_api_ref" | default "API Reference") "u" "/developers/api-reference/")
+          (dict "t" (i18n "guides_support_troubleshoot" | default "Troubleshooting") "u" "/user-guide/")))
   (dict "icon" "cap" "title" (i18n "guides_training" | default "Training")
-        "items" (slice "Video tutorials" "Webinars" "Certification programs" "On-site training"))
+        "items" (slice
+          (i18n "guides_support_video" | default "Video tutorials")
+          (i18n "guides_support_webinars" | default "Webinars")
+          (i18n "guides_support_cert" | default "Certification programs")
+          (i18n "guides_support_onsite" | default "On-site training")))
   (dict "icon" "life" "title" (i18n "guides_help" | default "Help")
-        "items" (slice "Knowledge base" "Community forum" "Support tickets" "Consulting services"))
+        "items" (slice
+          (i18n "guides_support_kb" | default "Knowledge base")
+          (i18n "guides_support_forum" | default "Community forum")
+          (i18n "guides_support_tickets" | default "Support tickets")
+          (i18n "guides_support_consulting" | default "Consulting services")))
 -}}
 <section class="bl-page-section">
   <div class="bl-container">

@@ -1,4 +1,5 @@
 ---
+layout: hub
 title: "Panduan Pengguna"
 description: "Panduan menyeluruh untuk menggunakan BigLedger Business Operating System"
 weight: 20
