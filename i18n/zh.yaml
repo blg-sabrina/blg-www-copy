@@ -1233,3 +1233,8 @@ ug_modadv_l2: "AI 智能"
 ug_modadv_l3: "电子发票与 PEPPOL"
 ug_modadv_l4: "Applets 与工作流程"
 
+
+# --- Guides sub-section list layout ---
+guides_available: "可用指南"
+guides_pick_guide: "选择一篇指南"
+guides_read: "阅读指南"

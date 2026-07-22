@@ -1231,3 +1231,8 @@ ug_modadv_l2: "الذكاء الاصطناعي AI"
 ug_modadv_l3: "الفاتورة الإلكترونية وPEPPOL"
 ug_modadv_l4: "Applets وسير العمل"
 
+
+# --- Guides sub-section list layout ---
+guides_available: "الأدلة المتاحة"
+guides_pick_guide: "اختر دليلاً"
+guides_read: "اقرأ الدليل"

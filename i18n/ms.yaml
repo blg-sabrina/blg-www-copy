@@ -1231,3 +1231,8 @@ ug_modadv_l2: "Kecerdasan AI"
 ug_modadv_l3: "E-Invois & PEPPOL"
 ug_modadv_l4: "Applets & Aliran Kerja"
 
+
+# --- Guides sub-section list layout ---
+guides_available: "PANDUAN TERSEDIA"
+guides_pick_guide: "Pilih panduan"
+guides_read: "Baca panduan"
