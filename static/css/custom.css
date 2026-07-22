@@ -2424,6 +2424,41 @@ html[dir="rtl"] .bl-stream-ts { direction: ltr; unicode-bidi: embed; }
 .gd-cat-more { margin-top: auto; font-size: 13px; font-weight: 600; color: var(--cr-b); }
 .gd-cat-card:hover .gd-cat-more { color: var(--tx-1); }
 
+/* Prose container for documentation section bodies (api-reference, applications,
+   developer-docs, tutorials) rendered via partials/doc-section-content.html.
+   Gives the raw Markdown proper rhythm, hierarchy and readable width. */
+.bl-doc-body { max-width: 860px; color: var(--tx-2); font-size: 15px; line-height: 1.72; }
+.bl-doc-body > :first-child { margin-top: 0; }
+.bl-doc-body h2 {
+  font-size: 22px; font-weight: 700; color: var(--tx-1);
+  margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 1px solid var(--bd);
+  letter-spacing: -0.2px;
+}
+.bl-doc-body h3 { font-size: 16.5px; font-weight: 600; color: var(--tx-1); margin: 28px 0 10px; }
+.bl-doc-body h4 { font-size: 14.5px; font-weight: 600; color: var(--tx-1); margin: 22px 0 8px; }
+.bl-doc-body p { margin: 0 0 16px; }
+.bl-doc-body ul, .bl-doc-body ol { margin: 0 0 20px; padding-left: 22px; }
+.bl-doc-body li { margin-bottom: 9px; }
+.bl-doc-body li::marker { color: var(--cr-b); }
+.bl-doc-body strong { color: var(--tx-1); font-weight: 600; }
+.bl-doc-body a { color: var(--cr-b); text-decoration: none; }
+.bl-doc-body a:hover { text-decoration: underline; }
+.bl-doc-body code {
+  font-family: "JetBrains Mono", monospace; font-size: 0.86em;
+  background: var(--gl2); border: 1px solid var(--bd-faint);
+  border-radius: 5px; padding: 1px 6px; color: var(--tx-1);
+}
+.bl-doc-body pre { background: var(--bg-2); border: 1px solid var(--bd); border-radius: 10px; padding: 16px 18px; overflow-x: auto; margin: 0 0 20px; }
+.bl-doc-body pre code { background: none; border: 0; padding: 0; }
+.bl-doc-body hr { border: 0; border-top: 1px solid var(--bd); margin: 32px 0; }
+.bl-doc-body blockquote { margin: 0 0 20px; padding: 4px 16px; border-left: 3px solid var(--cr); color: var(--tx-3); }
+.bl-doc-body table { width: 100%; border-collapse: collapse; margin: 0 0 20px; font-size: 14px; }
+.bl-doc-body th, .bl-doc-body td { border: 1px solid var(--bd); padding: 9px 12px; text-align: left; }
+.bl-doc-body th { background: var(--gl2); color: var(--tx-1); font-weight: 600; }
+/* The Hextra cards shortcode used inside some bodies keeps its own styling;
+   just give it top spacing so it sits well under a heading. */
+.bl-doc-body .hextra-cards, .bl-doc-body .hx\:mt-4 { margin-top: 12px; }
+
 .gd-quick-grid, .gd-support-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .gd-quick-col, .gd-support-card {
   padding: 22px; border-radius: 14px;

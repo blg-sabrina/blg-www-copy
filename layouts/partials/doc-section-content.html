@@ -1,0 +1,23 @@
+{{/* Branded landing for documentation sections whose value is in their own body
+     content (api-reference, applications, developer-docs, tutorials) rather than a
+     list of child pages. Renders a hero from the translated title/description, then
+     the section's Markdown content in a styled prose container. Content localizes
+     automatically from the translated _index.md. */}}
+<section class="bl-inner-hero">
+  <div class="bl-inner-hero-bg"></div>
+  <div class="bl-container">
+    <div class="bl-inner-hero-content">
+      <p class="bl-inner-eyebrow" data-reveal="up" data-delay="0">{{ i18n "sec_eyebrow" | default "DOCUMENTATION" }}</p>
+      <h1 class="bl-inner-headline" data-reveal="up" data-delay="80">{{ .Title }}</h1>
+      {{ with .Description }}<p class="bl-inner-sub" data-reveal="up" data-delay="160">{{ . }}</p>{{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="bl-page-section" style="padding-top:0">
+  <div class="bl-container">
+    <div class="bl-doc-body" data-reveal="up" data-delay="0">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
