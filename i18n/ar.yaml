@@ -1236,3 +1236,9 @@ ug_modadv_l4: "Applets وسير العمل"
 guides_available: "الأدلة المتاحة"
 guides_pick_guide: "اختر دليلاً"
 guides_read: "اقرأ الدليل"
+
+# --- Generic doc-section list layout ---
+sec_eyebrow: "التوثيق"
+sec_topics_label: "المواضيع"
+sec_explore: "استكشف المواضيع"
+sec_read_more: "اقرأ المزيد"

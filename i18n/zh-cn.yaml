@@ -1238,3 +1238,9 @@ ug_modadv_l4: "Applets 与工作流程"
 guides_available: "可用指南"
 guides_pick_guide: "选择一篇指南"
 guides_read: "阅读指南"
+
+# --- Generic doc-section list layout ---
+sec_eyebrow: "文档"
+sec_topics_label: "主题"
+sec_explore: "浏览主题"
+sec_read_more: "了解更多"

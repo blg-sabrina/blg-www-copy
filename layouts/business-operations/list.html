@@ -1,0 +1,37 @@
+{{ define "main" }}
+{{/* Branded landing page for the Business Operations doc section. No custom layout
+     existed, so this section previously rendered as raw markdown (a bare list). Cards
+     are built from the child pages and localize automatically from the translated
+     titles/content. The child pages carry auto-generated (page-id/timestamp)
+     descriptions, so the card blurb uses the content summary, never .Description. */}}
+
+<section class="bl-inner-hero">
+  <div class="bl-inner-hero-bg"></div>
+  <div class="bl-container">
+    <div class="bl-inner-hero-content">
+      <p class="bl-inner-eyebrow" data-reveal="up" data-delay="0">{{ i18n "sec_eyebrow" | default "DOCUMENTATION" }}</p>
+      <h1 class="bl-inner-headline" data-reveal="up" data-delay="80">{{ .Title }}</h1>
+      {{ with .Description }}<p class="bl-inner-sub" data-reveal="up" data-delay="160">{{ . }}</p>{{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="bl-page-section" style="padding-top:0">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "sec_topics_label" | default "TOPICS" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "sec_explore" | default "Explore the topics" }}</h2>
+    </div>
+    <div class="gd-cat-grid" data-reveal="up" data-delay="80">
+      {{ range .Pages.ByWeight }}
+      <a class="gd-cat-card" href="{{ .RelPermalink }}">
+        <h3 class="gd-cat-name">{{ .Title }}</h3>
+        {{ $blurb := .Summary | plainify | truncate 150 }}
+        {{ with $blurb }}<p class="gd-cat-desc">{{ . }}</p>{{ end }}
+        <span class="gd-cat-more">{{ i18n "sec_read_more" | default "Read more" }} <span aria-hidden="true">→</span></span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

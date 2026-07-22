@@ -1236,3 +1236,9 @@ ug_modadv_l4: "Applets & Aliran Kerja"
 guides_available: "PANDUAN TERSEDIA"
 guides_pick_guide: "Pilih panduan"
 guides_read: "Baca panduan"
+
+# --- Generic doc-section list layout ---
+sec_eyebrow: "DOKUMENTASI"
+sec_topics_label: "TOPIK"
+sec_explore: "Terokai topik"
+sec_read_more: "Baca lanjut"

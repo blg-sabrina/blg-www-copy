@@ -465,3 +465,9 @@ ug_modadv_l4: "Applets & Workflows"
 guides_available: "AVAILABLE GUIDES"
 guides_pick_guide: "Choose a guide"
 guides_read: "Read guide"
+
+# --- Generic doc-section list layout ---
+sec_eyebrow: "DOCUMENTATION"
+sec_topics_label: "TOPICS"
+sec_explore: "Explore the topics"
+sec_read_more: "Read more"
