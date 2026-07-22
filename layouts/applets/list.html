@@ -33,7 +33,7 @@
             {{ if eq .Language.Lang $siteLang }}{{ $target = .Permalink }}{{ end }}
           {{ end }}
           {{ if eq $siteLang $current.Language.Lang }}{{ $target = $current.Permalink }}{{ end }}
-          <a href="{{ $target }}"{{ if eq $siteLang $current.Language.Lang }} class="active"{{ end }}>{{ .Language.LanguageName }}</a>
+          <a href="{{ $target }}" data-no-langify{{ if eq $siteLang $current.Language.Lang }} class="active"{{ end }}>{{ .Language.LanguageName }}</a>
           {{ end }}
         </div>
       </div>
