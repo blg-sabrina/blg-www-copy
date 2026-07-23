@@ -1,23 +1,12 @@
 ---
 bookCollapseSection: true
-description: Complete API reference for BigLedger services.
+description: API documentation for BigLedger, available to customers and approved partners.
 tags:
 - user-guide
 title: API Reference
 weight: 30
 ---
 
-
-Complete API reference for BigLedger services.
-
-## Available APIs
-
-### Core APIs
-- **Transaction API** - Create, query, and manage transactions
-- **Account API** - Account management and authentication
-- **Wallet API** - Wallet operations and balance queries
-
-### Advanced APIs
-- **Smart Contract API** - Deploy and interact with smart contracts
-- **Analytics API** - Access transaction analytics and reports
-- **Webhook API** - Configure and manage webhooks
+BigLedger provides a REST API and SDKs for building on the platform. Access to
+the full reference is granted to customers and approved integration partners on
+request.

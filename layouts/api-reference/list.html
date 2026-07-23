@@ -1,217 +1,64 @@
 {{ define "main" }}
-{{/* API Reference landing (/api-reference/). The section's markdown body is a
-     short list of API names, which renders as a very thin page. This template
-     presents the same catalogue as a branded reference: a quick-start panel
-     built from the documented SDK setup (see content/en/developer-docs/installation.md),
-     grouped API cards, the essentials worth knowing before building, and
-     onward links. Every visible string goes through i18n so zh/ms/ar localize. */}}
+{{/* API Reference access gate (/api-reference/).
 
-{{ $icons := dict
-  "swap"   "M3 7h11l-3-3M17 13H6l3 3"
-  "user"   "M10 10a3.2 3.2 0 100-6.4 3.2 3.2 0 000 6.4zM4 17c0-3 2.7-4.6 6-4.6s6 1.6 6 4.6"
-  "wallet" "M3 6.5A2.5 2.5 0 015.5 4H15v3M3 6.5V15a2 2 0 002 2h11v-4M13.5 11h3.5v2h-3.5a1 1 0 010-2z"
-  "code"   "M6 2h6l4 4v12H6zM12 2v4h4M8.6 11l-1.5 1.5 1.5 1.5M11.4 11l1.5 1.5-1.5 1.5"
-  "chart"  "M4 15l4-8 4 6 3-4 3 6M3 17h14"
-  "link"   "M8.5 11.5a3 3 0 004.2 0l2.3-2.3a3 3 0 00-4.2-4.2l-.8.8M11.5 8.5a3 3 0 00-4.2 0L5 10.8a3 3 0 004.2 4.2l.8-.8"
-  "key"    "M12.5 3a4.5 4.5 0 00-4.3 5.9L3 14.1V17h2.9l.6-.6v-1.5h1.5l.6-.6v-1.5h1.5l1.2-1.2A4.5 4.5 0 1012.5 3z"
-  "globe"  "M10 18a8 8 0 110-16 8 8 0 010 16zM2 10h16M10 2a12 12 0 010 16 12 12 0 010-16z"
-  "clock"  "M10 18a8 8 0 110-16 8 8 0 010 16zM10 6v4.3l2.8 1.7"
-  "shield" "M10 2.5l6 2.2v5c0 3.7-2.5 6.7-6 7.8-3.5-1.1-6-4.1-6-7.8v-5l6-2.2zM7.4 10l1.9 1.9 3.3-3.6"
--}}
+     The API surface, quickstart code and SDK configuration are NOT public.
+     This template renders a request-access page only; it deliberately does
+     not render .Content, and the section's markdown body has been reduced to
+     a short public blurb so the detail cannot leak through any other output
+     format. Do not reintroduce endpoint names, credentials, config samples or
+     code snippets here — see the git history for the previous public version
+     if access is ever opened up again. */}}
 
 <section class="bl-inner-hero">
   <div class="bl-inner-hero-bg"></div>
   <div class="bl-container">
     <div class="bl-inner-hero-content">
       <p class="bl-inner-eyebrow" data-reveal="up" data-delay="0">{{ i18n "api_eyebrow" | default "API REFERENCE" }}</p>
-      <h1 class="bl-inner-headline" data-reveal="up" data-delay="80">{{ .Title }}</h1>
-      {{ with .Description }}<p class="bl-inner-sub" data-reveal="up" data-delay="160">{{ . }}</p>{{ end }}
-      <div class="api-chips" data-reveal="up" data-delay="220">
-        <span class="api-chip">{{ i18n "api_chip_node" | default "Node.js SDK" }}</span>
-        <span class="api-chip">{{ i18n "api_chip_python" | default "Python SDK" }}</span>
-        <span class="api-chip">{{ i18n "api_chip_docker" | default "Docker" }}</span>
-      </div>
+      <h1 class="bl-inner-headline" data-reveal="up" data-delay="80">{{ i18n "apigate_headline" | default "Built for developers" }}</h1>
+      <p class="bl-inner-sub" data-reveal="up" data-delay="160">{{ i18n "apigate_sub" | default "BigLedger exposes a full REST API and SDKs for building on the platform." }}</p>
     </div>
   </div>
 </section>
 
-{{/* ── Quick start ─────────────────────────────────────────── */}}
 <section class="bl-page-section" style="padding-top:0">
   <div class="bl-container">
-    <div class="bl-section-header">
-      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "api_start_label" | default "GET STARTED" }}</span>
-      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "api_start_title" | default "Make your first API call" }}</h2>
-    </div>
-    <div class="api-start" data-reveal="up" data-delay="80">
-      <div class="api-panel">
-        <ol class="api-steps">
-          <li>
-            <span class="api-step-num">1</span>
-            <div>
-              <h3 class="api-step-name">{{ i18n "api_step1" | default "Install the SDK" }}</h3>
-              <p class="api-step-desc">{{ i18n "api_step1_desc" | default "Add the BigLedger SDK to your project with npm, pip or Docker." }}</p>
-            </div>
-          </li>
-          <li>
-            <span class="api-step-num">2</span>
-            <div>
-              <h3 class="api-step-name">{{ i18n "api_step2" | default "Add your API key" }}</h3>
-              <p class="api-step-desc">{{ i18n "api_step2_desc" | default "Create a client with your account API key and the network you want to target." }}</p>
-            </div>
-          </li>
-          <li>
-            <span class="api-step-num">3</span>
-            <div>
-              <h3 class="api-step-name">{{ i18n "api_step3" | default "Call the API" }}</h3>
-              <p class="api-step-desc">{{ i18n "api_step3_desc" | default "Check connectivity first, then start using the APIs listed below." }}</p>
-            </div>
-          </li>
-        </ol>
-        <a class="api-panel-link" href="{{ partial "lurl.html" (dict "ctx" . "url" "/developer-docs/installation/") }}">{{ i18n "api_install_link" | default "Full installation guide" }} <span aria-hidden="true">→</span></a>
+    <div class="apigate-panel" data-reveal="up" data-delay="0">
+      <span class="apigate-lock" aria-hidden="true">
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="26" height="26">
+          <path d="M4.5 8.5h11a1 1 0 011 1v7a1 1 0 01-1 1h-11a1 1 0 01-1-1v-7a1 1 0 011-1zM6.8 8.5V6a3.2 3.2 0 016.4 0v2.5M10 12.3v2"/>
+        </svg>
+      </span>
+      <h2 class="apigate-title">{{ i18n "apigate_title" | default "Documentation available on request" }}</h2>
+      <p class="apigate-text">{{ i18n "apigate_text" | default "Our API reference is shared with customers and approved integration partners. Tell us what you are building and we will get you set up with access." }}</p>
+
+      <ul class="apigate-list">
+        <li>{{ i18n "apigate_item1" | default "Full endpoint reference and authentication guide" }}</li>
+        <li>{{ i18n "apigate_item2" | default "SDKs, quickstarts and sample projects" }}</li>
+        <li>{{ i18n "apigate_item3" | default "Sandbox environment and test credentials" }}</li>
+        <li>{{ i18n "apigate_item4" | default "Webhook setup and integration support" }}</li>
+      </ul>
+
+      <div class="apigate-actions">
+        <a class="bl-btn-primary" href="{{ partial "lurl.html" (dict "ctx" . "url" "/contact/") }}">{{ i18n "apigate_cta_request" | default "Request API access" }} <span class="bl-btn-icon" aria-hidden="true">→</span></a>
+        <a class="bl-btn-ghost" href="mailto:sales@bigledger.com">{{ i18n "apigate_cta_sales" | default "Talk to sales" }}</a>
       </div>
 
-      <div class="api-code">
-        <div class="api-code-head">
-          <span class="api-code-dots"><span></span><span></span><span></span></span>
-          <span class="api-code-file">quickstart.js</span>
-        </div>
-<pre><code><span class="api-c">// npm install @bigledger/sdk</span>
-<span class="api-k">const</span> BigLedger = <span class="api-f">require</span>(<span class="api-s">'@bigledger/sdk'</span>);
-
-<span class="api-k">const</span> client = <span class="api-k">new</span> <span class="api-f">BigLedger</span>({
-  apiKey: <span class="api-s">'YOUR_API_KEY'</span>,
-  network: <span class="api-s">'mainnet'</span>,
-  timeout: <span class="api-n">30000</span>
-});
-
-client.<span class="api-f">getStatus</span>().<span class="api-f">then</span>(console.log);</code></pre>
-      </div>
-    </div>
-  </div>
-</section>
-
-{{/* ── Core APIs ───────────────────────────────────────────── */}}
-{{ $core := slice
-  (dict "icon" "swap" "title" (i18n "api_tx" | default "Transaction API")
-        "desc" (i18n "api_tx_desc" | default "Create, query, and manage transactions.")
-        "caps" (slice
-          (i18n "api_tx_c1" | default "Create transactions")
-          (i18n "api_tx_c2" | default "Query transaction history")
-          (i18n "api_tx_c3" | default "Manage transaction status")))
-  (dict "icon" "user" "title" (i18n "api_acct" | default "Account API")
-        "desc" (i18n "api_acct_desc" | default "Account management and authentication.")
-        "caps" (slice
-          (i18n "api_acct_c1" | default "Manage accounts")
-          (i18n "api_acct_c2" | default "Authenticate users")
-          (i18n "api_acct_c3" | default "Control access permissions")))
-  (dict "icon" "wallet" "title" (i18n "api_wallet" | default "Wallet API")
-        "desc" (i18n "api_wallet_desc" | default "Wallet operations and balance queries.")
-        "caps" (slice
-          (i18n "api_wallet_c1" | default "Wallet operations")
-          (i18n "api_wallet_c2" | default "Balance queries")
-          (i18n "api_wallet_c3" | default "Movement history")))
--}}
-{{ $advanced := slice
-  (dict "icon" "code" "title" (i18n "api_sc" | default "Smart Contract API")
-        "desc" (i18n "api_sc_desc" | default "Deploy and interact with smart contracts.")
-        "caps" (slice
-          (i18n "api_sc_c1" | default "Deploy contracts")
-          (i18n "api_sc_c2" | default "Call contract methods")
-          (i18n "api_sc_c3" | default "Read contract state")))
-  (dict "icon" "chart" "title" (i18n "api_an" | default "Analytics API")
-        "desc" (i18n "api_an_desc" | default "Access transaction analytics and reports.")
-        "caps" (slice
-          (i18n "api_an_c1" | default "Transaction analytics")
-          (i18n "api_an_c2" | default "Generate reports")
-          (i18n "api_an_c3" | default "Export result sets")))
-  (dict "icon" "link" "title" (i18n "api_wh" | default "Webhook API")
-        "desc" (i18n "api_wh_desc" | default "Configure and manage webhooks.")
-        "caps" (slice
-          (i18n "api_wh_c1" | default "Register endpoints")
-          (i18n "api_wh_c2" | default "Subscribe to events")
-          (i18n "api_wh_c3" | default "Inspect delivery status")))
--}}
-
-<section class="bl-page-section" style="padding-top:0">
-  <div class="bl-container">
-    <div class="bl-section-header">
-      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "api_core_label" | default "CORE APIS" }}</span>
-      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "api_core_title" | default "Everyday operations" }}</h2>
-    </div>
-    <div class="gd-cat-grid" data-reveal="up" data-delay="80">
-      {{ range $core }}
-      <div class="gd-cat-card api-card">
-        <div class="gd-cat-icon"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><path d="{{ index $icons .icon }}"/></svg></div>
-        <h3 class="gd-cat-name">{{ .title }}</h3>
-        <p class="gd-cat-desc">{{ .desc }}</p>
-        <ul class="gd-cat-topics">{{ range .caps }}<li>{{ . }}</li>{{ end }}</ul>
-      </div>
-      {{ end }}
+      <p class="apigate-note">{{ i18n "apigate_existing" | default "Already a customer?" }} <a href="{{ partial "lurl.html" (dict "ctx" . "url" "/support/") }}">{{ i18n "apigate_existing_link" | default "Contact support" }}</a></p>
     </div>
 
-    <div class="bl-section-header api-group-gap">
-      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "api_adv_label" | default "ADVANCED APIS" }}</span>
-      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "api_adv_title" | default "Extend the platform" }}</h2>
-    </div>
-    <div class="gd-cat-grid" data-reveal="up" data-delay="80">
-      {{ range $advanced }}
-      <div class="gd-cat-card api-card">
-        <div class="gd-cat-icon"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><path d="{{ index $icons .icon }}"/></svg></div>
-        <h3 class="gd-cat-name">{{ .title }}</h3>
-        <p class="gd-cat-desc">{{ .desc }}</p>
-        <ul class="gd-cat-topics">{{ range .caps }}<li>{{ . }}</li>{{ end }}</ul>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-
-{{/* ── Essentials ──────────────────────────────────────────── */}}
-{{ $notes := slice
-  (dict "icon" "key" "title" (i18n "api_ess_auth" | default "Authentication")
-        "text" (i18n "api_ess_auth_desc" | default "Every request is authenticated with your account API key. Keep it in an environment variable and never expose it in client-side code."))
-  (dict "icon" "globe" "title" (i18n "api_ess_env" | default "Environments")
-        "text" (i18n "api_ess_env_desc" | default "Point the client at mainnet for production traffic, or testnet while you are still building and testing."))
-  (dict "icon" "clock" "title" (i18n "api_ess_timeout" | default "Timeouts")
-        "text" (i18n "api_ess_timeout_desc" | default "Requests time out after 30 seconds by default. Adjust the timeout value in your client configuration when a call needs longer."))
-  (dict "icon" "shield" "title" (i18n "api_ess_errors" | default "Troubleshooting")
-        "text" (i18n "api_ess_errors_desc" | default "Connection errors usually point to an invalid API key or network setting. Version conflicts mean the SDK and platform versions do not match."))
--}}
-<section class="bl-page-section" style="padding-top:0">
-  <div class="bl-container">
-    <div class="bl-section-header">
-      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "api_ess_label" | default "BEFORE YOU BUILD" }}</span>
-      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "api_ess_title" | default "Things worth knowing" }}</h2>
-    </div>
-    <div class="api-note-grid" data-reveal="up" data-delay="80">
-      {{ range $notes }}
-      <div class="api-note">
-        <div class="api-note-head">
-          <span class="api-note-icon"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><path d="{{ index $icons .icon }}"/></svg></span>
-          <h3 class="api-note-title">{{ .title }}</h3>
-        </div>
-        <p class="api-note-text">{{ .text }}</p>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-
-{{/* ── Where to next ───────────────────────────────────────── */}}
-{{ $next := slice
-  (dict "title" (i18n "api_next_dev" | default "Developer Documentation")
-        "desc" (i18n "api_next_dev_desc" | default "SDK installation, integration patterns, security considerations and best practices.")
-        "url" "/developer-docs/")
-  (dict "title" (i18n "api_next_apps" | default "Applications")
-        "desc" (i18n "api_next_apps_desc" | default "The business applications you can build on and integrate with.")
-        "url" "/applications/")
-  (dict "title" (i18n "api_next_tut" | default "Tutorials")
-        "desc" (i18n "api_next_tut_desc" | default "Step-by-step walkthroughs that put the platform to work.")
-        "url" "/tutorials/")
--}}
-<section class="bl-page-section" style="padding-top:0">
-  <div class="bl-container">
-    <div class="bl-section-header">
+    {{/* Public, non-sensitive onward links so the page is still useful. */}}
+    {{ $next := slice
+      (dict "title" (i18n "api_next_apps" | default "Applications")
+            "desc" (i18n "api_next_apps_desc" | default "The business applications you can build on and integrate with.")
+            "url" "/applications/")
+      (dict "title" (i18n "api_next_tut" | default "Tutorials")
+            "desc" (i18n "api_next_tut_desc" | default "Step-by-step walkthroughs that put the platform to work.")
+            "url" "/tutorials/")
+      (dict "title" (i18n "apigate_next_support" | default "Support")
+            "desc" (i18n "apigate_next_support_desc" | default "FAQs, troubleshooting guides and ways to reach the team.")
+            "url" "/support/")
+    -}}
+    <div class="bl-section-header apigate-next-gap">
       <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "api_next_label" | default "KEEP GOING" }}</span>
       <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "api_next_title" | default "Where to next" }}</h2>
     </div>
