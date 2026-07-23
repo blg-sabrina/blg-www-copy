@@ -1,0 +1,129 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dokumentasi BigLedger – Basic-Operations</title><link>https://www.bigledger.com/ms/tags/basic-operations/</link><description>Recent content in Basic-Operations on Dokumentasi BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ms</language><atom:link href="https://www.bigledger.com/ms/tags/basic-operations/index.xml" rel="self" type="application/rss+xml"/><item><title>Operasi Asas</title><link>https://www.bigledger.com/ms/user-guide/basic-operations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/user-guide/basic-operations/</guid><description>
+&lt;p&gt;Kuasai tugas harian asas yang membentuk tulang belakang operasi perniagaan anda dalam BigLedger. Bahagian ini merangkumi pengurusan data penting, pengendalian item, dan tugas pemprosesan dokumen.&lt;/p&gt;
+&lt;h2&gt;Pengurusan Data Teras&lt;span class="hx:absolute hx:-mt-20" id="pengurusan-data-teras"&gt;&lt;/span&gt;
+&lt;a href="#pengurusan-data-teras" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Belajar mengurus data penting yang menggerakkan perniagaan anda:&lt;/p&gt;
+&lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 3;"&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ms/user-guide/basic-operations/creating-an-item"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;Mencipta Item&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;Panduan langkah demi langkah untuk menambah produk dan perkhidmatan ke katalog anda&lt;/div&gt;&lt;/a&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ms/user-guide/basic-operations/item-maintenance"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;Pengurusan Item&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;Panduan menyeluruh untuk menyelenggara katalog produk anda&lt;/div&gt;&lt;/a&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ms/user-guide/basic-operations/editing-an-item"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;Menyunting Item&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;Mengubah suai produk, harga, dan spesifikasi sedia ada&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;h2&gt;Pengurusan Dokumen&lt;span class="hx:absolute hx:-mt-20" id="pengurusan-dokumen"&gt;&lt;/span&gt;
+&lt;a href="#pengurusan-dokumen" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Kendalikan dokumen perniagaan dengan cekap:&lt;/p&gt;
+&lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 3;"&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ms/user-guide/basic-operations/document-item-types"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;Jenis Dokumen&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;Memahami pelbagai jenis dokumen dan penggunaannya&lt;/div&gt;&lt;/a&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ms/user-guide/basic-operations/document-item-maintenance"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;Pengurusan Dokumen&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;Mencipta, menyunting, dan mengurus dokumen perniagaan&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;h2&gt;Objektif Pembelajaran Utama&lt;span class="hx:absolute hx:-mt-20" id="objektif-pembelajaran-utama"&gt;&lt;/span&gt;
+&lt;a href="#objektif-pembelajaran-utama" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Selepas melengkapkan bahagian ini, anda akan dapat:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ Cipta dan konfigurasikan item dalam katalog produk anda&lt;/li&gt;
+&lt;li&gt;✅ Uruskan item inventori dengan klasifikasi yang betul&lt;/li&gt;
+&lt;li&gt;✅ Sunting item sedia ada dan kemas kini spesifikasi&lt;/li&gt;
+&lt;li&gt;✅ Bekerja dengan pelbagai jenis dokumen dengan berkesan&lt;/li&gt;
+&lt;li&gt;✅ Kekalkan integriti data merentasi semua operasi&lt;/li&gt;
+&lt;li&gt;✅ Gunakan konvensyen penamaan dan organisasi yang konsisten&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Senarai Semak Kemahiran Penting&lt;span class="hx:absolute hx:-mt-20" id="senarai-semak-kemahiran-penting"&gt;&lt;/span&gt;
+&lt;a href="#senarai-semak-kemahiran-penting" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Kemahiran Pengurusan Item&lt;span class="hx:absolute hx:-mt-20" id="kemahiran-pengurusan-item"&gt;&lt;/span&gt;
+&lt;a href="#kemahiran-pengurusan-item" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Cipta produk dan perkhidmatan baharu&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Sediakan klasifikasi item yang betul&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Konfigurasikan unit ukuran dengan betul&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Dayakan integrasi e-dagang (EcomSync)&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Sunting butiran dan spesifikasi item&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Uruskan kategori dan organisasi item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Kemahiran Pemprosesan Dokumen&lt;span class="hx:absolute hx:-mt-20" id="kemahiran-pemprosesan-dokumen"&gt;&lt;/span&gt;
+&lt;a href="#kemahiran-pemprosesan-dokumen" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Fahami pelbagai jenis dokumen&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Cipta dokumen perniagaan dengan betul&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Sunting dan ubah suai dokumen sedia ada&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Gunakan aliran kerja dokumen yang betul&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Kekalkan piawaian pematuhan dokumen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Amalan Terbaik&lt;span class="hx:absolute hx:-mt-20" id="amalan-terbaik"&gt;&lt;/span&gt;
+&lt;a href="#amalan-terbaik" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Piawaian Kemasukan Data&lt;span class="hx:absolute hx:-mt-20" id="piawaian-kemasukan-data"&gt;&lt;/span&gt;
+&lt;a href="#piawaian-kemasukan-data" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Konsistensi&lt;/strong&gt;: Gunakan konvensyen penamaan yang seragam merentasi semua item&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kelengkapan&lt;/strong&gt;: Isi semua medan yang diperlukan untuk memastikan operasi sistem yang betul&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ketepatan&lt;/strong&gt;: Semak semula maklumat kritikal sebelum menyimpan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organisasi&lt;/strong&gt;: Gunakan pengkategorian logik untuk pengambilan yang mudah&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Kawalan Kualiti&lt;span class="hx:absolute hx:-mt-20" id="kawalan-kualiti"&gt;&lt;/span&gt;
+&lt;a href="#kawalan-kualiti" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Semakan Berkala&lt;/strong&gt;: Jadualkan audit berkala data anda&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pengesahan&lt;/strong&gt;: Uji item dalam transaksi sebelum digunakan secara langsung&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dokumentasi&lt;/strong&gt;: Simpan nota tentang prosedur atau pengecualian khas&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Latihan&lt;/strong&gt;: Pastikan semua ahli pasukan mengikut prosedur yang sama&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;Petua Kecekapan&lt;/strong&gt;: Sediakan templat dan piawaian untuk jenis item biasa. Ini mengurangkan ralat dan mempercepatkan kemasukan data untuk produk yang serupa.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Aliran Kerja Biasa&lt;span class="hx:absolute hx:-mt-20" id="aliran-kerja-biasa"&gt;&lt;/span&gt;
+&lt;a href="#aliran-kerja-biasa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Pengenalan Produk Baharu&lt;span class="hx:absolute hx:-mt-20" id="pengenalan-produk-baharu"&gt;&lt;/span&gt;
+&lt;a href="#pengenalan-produk-baharu" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Penyelidikan &amp;amp; Perancangan&lt;/strong&gt; - Kumpulkan semua spesifikasi produk&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Penciptaan Item&lt;/strong&gt; - Gunakan wizard penciptaan item&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Konfigurasi&lt;/strong&gt; - Sediakan harga, kategori, dan pilihan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pengujian&lt;/strong&gt; - Sahkan item berfungsi dalam transaksi sampel&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pengaktifan&lt;/strong&gt; - Jadikan tersedia untuk penggunaan perniagaan biasa&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Kemas Kini Inventori&lt;span class="hx:absolute hx:-mt-20" id="kemas-kini-inventori"&gt;&lt;/span&gt;
+&lt;a href="#kemas-kini-inventori" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Semak Data Semasa&lt;/strong&gt; - Semak maklumat item sedia ada&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rancang Perubahan&lt;/strong&gt; - Dokumenkan apa yang perlu dikemas kini&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Laksanakan Kemas Kini&lt;/strong&gt; - Buat perubahan secara sistematik&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pengesahan&lt;/strong&gt; - Sahkan kemas kini adalah betul&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Komunikasi&lt;/strong&gt; - Maklumkan pasukan tentang perubahan&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Titik Integrasi&lt;span class="hx:absolute hx:-mt-20" id="titik-integrasi"&gt;&lt;/span&gt;
+&lt;a href="#titik-integrasi" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Operasi Asas berhubung dengan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/daily-tasks/" &gt;Tugas Harian&lt;/a&gt;&lt;/strong&gt; - Gunakan item dalam penetapan harga dan transaksi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ms/modules/" &gt;Modul&lt;/a&gt;&lt;/strong&gt; - Item mengalir melalui semua modul perniagaan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ms/modules/ecommerce/" &gt;E-Dagang&lt;/a&gt;&lt;/strong&gt; - Item disegerakkan ke kedai dalam talian&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ms/modules/inventory/" &gt;Inventori&lt;/a&gt;&lt;/strong&gt; - Jejaki tahap stok dan pergerakan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ms/modules/financial-accounting/" &gt;Perakaunan&lt;/a&gt;&lt;/strong&gt; - Item muncul dalam transaksi kewangan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Rujukan Pantas Menyelesaikan Masalah&lt;span class="hx:absolute hx:-mt-20" id="rujukan-pantas-menyelesaikan-masalah"&gt;&lt;/span&gt;
+&lt;a href="#rujukan-pantas-menyelesaikan-masalah" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Tidak boleh mencipta item?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Semak kebenaran pengguna dengan pentadbir&lt;/li&gt;
+&lt;li&gt;Pastikan applet yang diperlukan dipasang dan diaktifkan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;EcomSync tidak tersedia?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sahkan applet EcomSync dipasang&lt;/li&gt;
+&lt;li&gt;Semak tetapan integrasi dan kelayakan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Item tidak muncul dalam transaksi?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sahkan status item adalah aktif&lt;/li&gt;
+&lt;li&gt;Semak sama ada jenis item sepadan dengan keperluan transaksi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Langkah Seterusnya&lt;span class="hx:absolute hx:-mt-20" id="langkah-seterusnya"&gt;&lt;/span&gt;
+&lt;a href="#langkah-seterusnya" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Selepas menguasai Operasi Asas:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/daily-tasks/" &gt;Tugas Harian&lt;/a&gt;&lt;/strong&gt; - Gunakan kemahiran pengurusan item anda untuk operasi rutin&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/administration/" &gt;Pentadbiran&lt;/a&gt;&lt;/strong&gt; - Belajar pilihan konfigurasi lanjutan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/reports-analytics/" &gt;Laporan &amp;amp; Analitik&lt;/a&gt;&lt;/strong&gt; - Analisis data dan prestasi item anda&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;Penunjuk Penguasaan&lt;/strong&gt;: Anda telah menguasai Operasi Asas apabila anda boleh mencipta, menyunting, dan mengurus item dengan yakin tanpa merujuk dokumentasi.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

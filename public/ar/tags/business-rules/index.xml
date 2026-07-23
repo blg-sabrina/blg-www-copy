@@ -1,0 +1,824 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>وثائق BigLedger – Business-Rules</title><link>https://www.bigledger.com/ar/tags/business-rules/</link><description>Recent content in Business-Rules on وثائق BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ar</language><atom:link href="https://www.bigledger.com/ar/tags/business-rules/index.xml" rel="self" type="application/rss+xml"/><item><title>تهيئة مجموعة الأسعار ومنطق التسعير المتقدم</title><link>https://www.bigledger.com/ar/user-guide/daily-tasks/price-set/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/user-guide/daily-tasks/price-set/</guid><description>
+&lt;p&gt;توفر مجموعات الأسعار في BigLedger قدرات تسعير متطورة قائمة على القواعد تمكّن من استراتيجيات تسعير معقدة قابلة للتكيف مع ظروف الأعمال المتنوعة، وشرائح العملاء، والسيناريوهات التشغيلية. يدعم نظام التسعير المتقدم هذا متطلبات مستوى المؤسسات بمحركات منطق قوية وخيارات تهيئة مرنة.&lt;/p&gt;
+&lt;h2&gt;نظرة عامة&lt;span class="hx:absolute hx:-mt-20" id="نظرة-عامة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%86%d8%b8%d8%b1%d8%a9-%d8%b9%d8%a7%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;تمثّل مجموعات الأسعار المستوى الأكثر تقدماً في بنية التسعير في BigLedger، إذ تقدّم منطقاً قائماً على القواعد يمكنه تطبيق استراتيجيات تسعير مختلفة تلقائياً بناءً على شروط قابلة للتهيئة. وهي تعمل بسلاسة مع دفاتر الأسعار وأنظمة التسعير لإنشاء حلول تسعير شاملة وذكية.&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;بنية الأساس&lt;/strong&gt;: تعمل مجموعات الأسعار ضمن التسلسل الهرمي: دفاتر الأسعار ← أنظمة التسعير ← مجموعات الأسعار ← أسعار العناصر، مما يوفر طبقة المنطق التي تحدد الأسعار الواجب تطبيقها في ظل ظروف أعمال محددة.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;فهم بنية مجموعة الأسعار&lt;span class="hx:absolute hx:-mt-20" id="فهم-بنية-مجموعة-الأسعار"&gt;&lt;/span&gt;
+&lt;a href="#%d9%81%d9%87%d9%85-%d8%a8%d9%86%d9%8a%d8%a9-%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9-%d8%a7%d9%84%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;المكونات الأساسية والعلاقات&lt;span class="hx:absolute hx:-mt-20" id="المكونات-الأساسية-والعلاقات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d9%83%d9%88%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d8%b9%d9%84%d8%a7%d9%82%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;الهيكل الهرمي&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;دفاتر الأسعار&lt;/strong&gt;: حاويات تنظيمية لمعلومات التسعير&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أنظمة التسعير&lt;/strong&gt;: قوالب تحدد طرق حساب الأسعار&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مجموعات الأسعار&lt;/strong&gt;: محركات منطق قائمة على القواعد للتسعير الشرطي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قواعد التسعير&lt;/strong&gt;: شروط ومعالجات محددة تتحكم في تطبيق السعر&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;تدفق منطق الأعمال&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;تقييم الشرط&lt;/strong&gt;: يقيّم النظام شروط رأس المستند وبنود السطر&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مطابقة القاعدة&lt;/strong&gt;: يحدد مجموعات الأسعار المطبّقة بناءً على قواعد الأعمال&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تطبيق الأولوية&lt;/strong&gt;: يطبّق القواعد ذات الأولوية الأعلى عند مطابقة مجموعات متعددة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تنفيذ المعالجة&lt;/strong&gt;: يحسب الأسعار النهائية بناءً على المعالجات المهيّأة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحقق&lt;/strong&gt;: يضمن سلامة التسعير والامتثال لقواعد الأعمال&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;مجموعة الأسعار مقابل مكونات التسعير الأخرى&lt;span class="hx:absolute hx:-mt-20" id="مجموعة-الأسعار-مقابل-مكونات-التسعير-الأخرى"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9-%d8%a7%d9%84%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d9%85%d9%82%d8%a7%d8%a8%d9%84-%d9%85%d9%83%d9%88%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b3%d8%b9%d9%8a%d8%b1-%d8%a7%d9%84%d8%a3%d8%ae%d8%b1%d9%89" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;مجموعات الأسعار مقابل أنظمة التسعير&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;أنظمة التسعير&lt;/strong&gt;: قوالب ثابتة تحدد أنواع الأسعار وطرق الحساب&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مجموعات الأسعار&lt;/strong&gt;: محركات قواعد ديناميكية تطبّق التسعير بشكل شرطي بناءً على منطق الأعمال&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;مجموعات الأسعار مقابل دفاتر الأسعار&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;دفاتر الأسعار&lt;/strong&gt;: حاويات تنظيمية تجمّع معلومات التسعير ذات الصلة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مجموعات الأسعار&lt;/strong&gt;: أنظمة منطق ذكية تحدد متى وكيف يُطبَّق تسعير محدد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;القدرات المتقدمة&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المنطق الشرطي&lt;/strong&gt;: مجموعات قواعد AND/OR معقدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة الأولوية&lt;/strong&gt;: تطبيق قواعد هرمي مع إمكانات التجاوز&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحسين الأداء&lt;/strong&gt;: تقييم قواعد فعّال للعمليات واسعة النطاق&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;دعم التكامل&lt;/strong&gt;: تشغيل سلس مع جميع وحدات BigLedger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;إنشاء مجموعة الأسعار وتهيئتها&lt;span class="hx:absolute hx:-mt-20" id="إنشاء-مجموعة-الأسعار-وتهيئتها"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9-%d8%a7%d9%84%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d9%88%d8%aa%d9%87%d9%8a%d8%a6%d8%aa%d9%87%d8%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;الوصول إلى إدارة مجموعة الأسعار&lt;span class="hx:absolute hx:-mt-20" id="الوصول-إلى-إدارة-مجموعة-الأسعار"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%88%d8%b5%d9%88%d9%84-%d8%a5%d9%84%d9%89-%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9-%d8%a7%d9%84%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;التنقل والإعداد&lt;span class="hx:absolute hx:-mt-20" id="التنقل-والإعداد"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d9%86%d9%82%d9%84-%d9%88%d8%a7%d9%84%d8%a5%d8%b9%d8%af%d8%a7%d8%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;انتقل إلى &lt;strong&gt;تهيئة مجموعة الأسعار&lt;/strong&gt; من قائمة إدارة التسعير&lt;/li&gt;
+&lt;li&gt;تأكد من تهيئة المكونات المطلوبة مسبقاً:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;دفاتر الأسعار&lt;/strong&gt;: مُنشأة ومهيّأة بشكل صحيح&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أنظمة التسعير&lt;/strong&gt;: محدّدة بأنواع أسعار مناسبة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;بيانات العناصر الرئيسية&lt;/strong&gt;: منتجات بمعلومات تسعير أساسية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ادخل إلى واجهة إنشاء مجموعة الأسعار&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;المتطلبات المسبقة والتبعيات&lt;span class="hx:absolute hx:-mt-20" id="المتطلبات-المسبقة-والتبعيات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%aa%d8%b7%d9%84%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b3%d8%a8%d9%82%d8%a9-%d9%88%d8%a7%d9%84%d8%aa%d8%a8%d8%b9%d9%8a%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;المكونات المطلوبة&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;دفتر أسعار نشط&lt;/strong&gt;: يجب أن ترتبط مجموعات الأسعار بدفتر أسعار موجود&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;نظام التسعير&lt;/strong&gt;: يجب تهيئة نظام تسعير واحد على الأقل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أذونات المستخدم&lt;/strong&gt;: حقوق وصول مناسبة لإدارة مجموعة الأسعار&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;موارد النظام&lt;/strong&gt;: سعة نظام كافية لمعالجة القواعد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;عملية إنشاء مجموعة الأسعار&lt;span class="hx:absolute hx:-mt-20" id="عملية-إنشاء-مجموعة-الأسعار"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9-%d8%a7%d9%84%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;معلومات التهيئة الأساسية&lt;span class="hx:absolute hx:-mt-20" id="معلومات-التهيئة-الأساسية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%87%d9%8a%d8%a6%d8%a9-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;تعريف مجموعة الأسعار&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;اختيار دفتر الأسعار&lt;/strong&gt;: اختر دفتر الأسعار الذي سيحتوي على مجموعة الأسعار هذه&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;رمز مجموعة الأسعار&lt;/strong&gt;: معرّف فريد مُولّد بواسطة النظام (للقراءة فقط بعد الإنشاء)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اسم مجموعة الأسعار&lt;/strong&gt;: اسم وصفي لسهولة التعريف والإدارة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الوصف&lt;/strong&gt;: شرح مفصّل لغرض مجموعة الأسعار ومنطق الأعمال&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;إدارة الأولوية والحالة&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;مستوى الأولوية&lt;/strong&gt;: أولوية رقمية لترتيب تطبيق القاعدة (1 = أعلى أولوية)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحالة&lt;/strong&gt;: حالة نشطة أو غير نشطة أو مسودة للنشر المتحكّم به&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تواريخ السريان&lt;/strong&gt;: نطاقات تواريخ اختيارية للتسعير الحساس للوقت&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أذونات التجاوز&lt;/strong&gt;: تحديد من يمكنه تجاوز قواعد التسعير هذه&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;خيارات التهيئة المتقدمة&lt;span class="hx:absolute hx:-mt-20" id="خيارات-التهيئة-المتقدمة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%ae%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%87%d9%8a%d8%a6%d8%a9-%d8%a7%d9%84%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;إعدادات الأداء&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تعقيد القاعدة&lt;/strong&gt;: التوازن بين المنطق المتطور وأداء النظام&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خيارات التخزين المؤقت&lt;/strong&gt;: تهيئة التخزين المؤقت لمجموعات الأسعار المتكررة الوصول&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مستوى التحقق&lt;/strong&gt;: ضبط صرامة التحقق لتعارضات القواعد&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المراقبة&lt;/strong&gt;: تمكين مراقبة الأداء لمجموعات القواعد المعقدة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;إعدادات التكامل&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تكامل الوحدات&lt;/strong&gt;: تهيئة التكامل مع نقاط البيع والتجارة الإلكترونية والوحدات الأخرى&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;وصول API&lt;/strong&gt;: تمكين وصول النظام الخارجي إلى منطق مجموعة الأسعار&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المعالجة في الوقت الفعلي&lt;/strong&gt;: تهيئة حساب التسعير في الوقت الفعلي مقابل الدفعي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تسجيل التدقيق&lt;/strong&gt;: تمكين تسجيل مفصّل لتطبيق قواعد مجموعة الأسعار&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;تهيئة القواعد والمنطق&lt;span class="hx:absolute hx:-mt-20" id="تهيئة-القواعد-والمنطق"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%87%d9%8a%d8%a6%d8%a9-%d8%a7%d9%84%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d9%88%d8%a7%d9%84%d9%85%d9%86%d8%b7%d9%82" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;قواعد رأس المستند&lt;span class="hx:absolute hx:-mt-20" id="قواعد-رأس-المستند"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d8%b1%d8%a3%d8%b3-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%86%d8%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;تقيّم قواعد رأس المستند الشروط على مستوى المعاملة الإجمالي، مع مراعاة معلومات العميل، وتواريخ المعاملة، وسياق الأعمال.&lt;/p&gt;
+&lt;h4&gt;القواعد القائمة على العميل&lt;span class="hx:absolute hx:-mt-20" id="القواعد-القائمة-على-العميل"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%b9%d9%85%d9%8a%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;قواعد تصنيف العميل&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;نوع العميل&lt;/strong&gt;: تطبيق تسعير مختلف بناءً على تصنيف التجزئة أو الجملة أو VIP&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مجموعة العميل&lt;/strong&gt;: استهداف مجموعات عملاء أو شرائح سوق محددة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;موقع العميل&lt;/strong&gt;: تسعير قائم على الموقع الجغرافي للاختلافات الإقليمية في السوق&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;علاقة العميل&lt;/strong&gt;: تسعير بناءً على مدة العميل أو حجمه أو حالة علاقته&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;مثال على تهيئة قاعدة عميل&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Rule Name: VIP Customer Discount
+Condition: Customer.Type = &amp;#34;VIP&amp;#34; AND Customer.TotalPurchases &amp;gt; $10,000
+Treatment: Apply 15% discount to all items
+Priority: 1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;منطق العميل المتقدم&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تاريخ الشراء&lt;/strong&gt;: قواعد بناءً على أنماط شراء العميل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;حالة الائتمان&lt;/strong&gt;: تعديلات تسعير بناءً على شروط الدفع والتصنيف الائتماني&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;برنامج الولاء&lt;/strong&gt;: التكامل مع برامج ولاء العملاء ومكافآتهم&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تسعير العقد&lt;/strong&gt;: تسعير خاص للعملاء ذوي العقود المتفاوض عليها&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;القواعد القائمة على التاريخ والوقت&lt;span class="hx:absolute hx:-mt-20" id="القواعد-القائمة-على-التاريخ-والوقت"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%aa%d8%a7%d8%b1%d9%8a%d8%ae-%d9%88%d8%a7%d9%84%d9%88%d9%82%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;منطق التسعير الزمني&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التسعير الموسمي&lt;/strong&gt;: تسعير مختلف لمواسم الذروة وخارج الذروة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الفترات الترويجية&lt;/strong&gt;: حملات تسعير خاصة محدودة الوقت&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;يوم الأسبوع&lt;/strong&gt;: تسعير مختلف لأيام الأسبوع مقابل عطلات نهاية الأسبوع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;وقت اليوم&lt;/strong&gt;: تسعير خاص بالساعة لنماذج أعمال معينة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;أمثلة قواعد التاريخ&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Rule Name: Holiday Season Premium
+Condition: Date BETWEEN &amp;#34;2024-11-15&amp;#34; AND &amp;#34;2024-12-31&amp;#34;
+Treatment: Apply 10% markup to selected categories
+Priority: 2
+Rule Name: Off-Season Discount
+Condition: Date BETWEEN &amp;#34;2024-01-15&amp;#34; AND &amp;#34;2024-03-15&amp;#34;
+Treatment: Apply 20% discount to seasonal items
+Priority: 3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;قواعد الكيان وسياق الأعمال&lt;span class="hx:absolute hx:-mt-20" id="قواعد-الكيان-وسياق-الأعمال"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d9%83%d9%8a%d8%a7%d9%86-%d9%88%d8%b3%d9%8a%d8%a7%d9%82-%d8%a7%d9%84%d8%a3%d8%b9%d9%85%d8%a7%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;القواعد التنظيمية&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;قناة المبيعات&lt;/strong&gt;: تسعير مختلف لقنوات التجزئة وعبر الإنترنت والجملة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;وحدة الأعمال&lt;/strong&gt;: قواعد تسعير خاصة بالقسم أو الإدارة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الموقع&lt;/strong&gt;: تسعير قائم على موقع المتجر أو المستودع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;العملة&lt;/strong&gt;: تسعير متعدد العملات مع تحويل تلقائي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;أمثلة سياق الأعمال&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;حجم الطلب&lt;/strong&gt;: كميات طلب دنيا لتسعير الجملة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;شروط الدفع&lt;/strong&gt;: اختلافات التسعير النقدي مقابل الائتماني&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;طريقة التسليم&lt;/strong&gt;: تعديلات تسعير للاستلام مقابل التسليم&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الطلبات العاجلة&lt;/strong&gt;: تسعير مميز للمعالجة السريعة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;قواعد بنود السطر&lt;span class="hx:absolute hx:-mt-20" id="قواعد-بنود-السطر"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d8%a8%d9%86%d9%88%d8%af-%d8%a7%d9%84%d8%b3%d8%b7%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;تقيّم قواعد بنود السطر الشروط على مستوى المنتج أو الخدمة الفردي، مما يمكّن من منطق تسعير متطور خاص بالمنتج.&lt;/p&gt;
+&lt;h4&gt;القواعد الخاصة بالمنتج&lt;span class="hx:absolute hx:-mt-20" id="القواعد-الخاصة-بالمنتج"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d8%ae%d8%a7%d8%b5%d8%a9-%d8%a8%d8%a7%d9%84%d9%85%d9%86%d8%aa%d8%ac" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;قواعد تصنيف العنصر&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;فئة المنتج&lt;/strong&gt;: قواعد وتعديلات تسعير قائمة على الفئة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;العلامة التجارية&lt;/strong&gt;: استراتيجيات وهوامش تسعير خاصة بالعلامة التجارية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;دورة حياة المنتج&lt;/strong&gt;: تسعير مختلف للمنتجات الجديدة والراسخة ونهاية العمر&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;حالة المخزون&lt;/strong&gt;: تعديلات تسعير بناءً على مستويات المخزون والدوران&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;تهيئة قاعدة المنتج&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Rule Name: Electronics Category Discount
+Condition: Item.Category = &amp;#34;Electronics&amp;#34; AND Quantity &amp;gt;= 5
+Treatment: Apply 8% discount
+Priority: 1
+Rule Name: Clearance Pricing
+Condition: Item.Status = &amp;#34;Discontinued&amp;#34; AND Inventory.Level &amp;lt; 10
+Treatment: Apply 30% discount
+Priority: 2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;القواعد القائمة على الكمية&lt;span class="hx:absolute hx:-mt-20" id="القواعد-القائمة-على-الكمية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%83%d9%85%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;منطق تسعير الحجم&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;فواصل الكمية&lt;/strong&gt;: تسعير متدرج بناءً على كميات الطلب&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خصومات الجملة&lt;/strong&gt;: خصومات تصاعدية للطلبات الأكبر&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الكمية المختلطة&lt;/strong&gt;: قواعد لمجموعات من منتجات مختلفة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الطلبات الدنيا&lt;/strong&gt;: متطلبات تسعير لكميات الطلب الدنيا&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;أمثلة فواصل الكمية&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Rule Name: Volume Discount Tier 1
+Condition: Quantity BETWEEN 10 AND 49
+Treatment: Apply 5% discount
+Priority: 1
+Rule Name: Volume Discount Tier 2
+Condition: Quantity BETWEEN 50 AND 99
+Treatment: Apply 10% discount
+Priority: 1
+Rule Name: Volume Discount Tier 3
+Condition: Quantity &amp;gt;= 100
+Treatment: Apply 15% discount
+Priority: 1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;منطق العنصر المتقدم&lt;span class="hx:absolute hx:-mt-20" id="منطق-العنصر-المتقدم"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%86%d8%b7%d9%82-%d8%a7%d9%84%d8%b9%d9%86%d8%b5%d8%b1-%d8%a7%d9%84%d9%85%d8%aa%d9%82%d8%af%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;قواعد المنتج المعقدة&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;عبر الفئات&lt;/strong&gt;: قواعد تؤثر على فئات منتجات متعددة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المنتجات المكمّلة&lt;/strong&gt;: تسعير للعناصر ذات الصلة أو المجمّعة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;منطق الاستبدال&lt;/strong&gt;: تسعير المنتج البديل عندما تكون العناصر الأساسية غير متوفرة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قائم على السمات&lt;/strong&gt;: قواعد بناءً على سمات أو مواصفات منتج محددة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;مطابقة التعبيرات النمطية&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;مطابقة النمط&lt;/strong&gt;: استخدام regex لأنماط رموز عناصر معقدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التصنيف الديناميكي&lt;/strong&gt;: تصنيف تلقائي بناءً على سمات العنصر&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التجميع المرن&lt;/strong&gt;: تجميع العناصر بناءً على اصطلاحات التسمية أو الرموز&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;معالجة الاستثناءات&lt;/strong&gt;: قواعد محددة للعناصر التي لا تطابق الأنماط القياسية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;تهيئة المعالجة والحسابات&lt;span class="hx:absolute hx:-mt-20" id="تهيئة-المعالجة-والحسابات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%87%d9%8a%d8%a6%d8%a9-%d8%a7%d9%84%d9%85%d8%b9%d8%a7%d9%84%d8%ac%d8%a9-%d9%88%d8%a7%d9%84%d8%ad%d8%b3%d8%a7%d8%a8%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;أنواع المعالجة والطرق&lt;span class="hx:absolute hx:-mt-20" id="أنواع-المعالجة-والطرق"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d9%86%d9%88%d8%a7%d8%b9-%d8%a7%d9%84%d9%85%d8%b9%d8%a7%d9%84%d8%ac%d8%a9-%d9%88%d8%a7%d9%84%d8%b7%d8%b1%d9%82" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;تحدد معالجات مجموعة الأسعار كيفية حساب تعديلات التسعير وتطبيقها بمجرد استيفاء شروط القاعدة.&lt;/p&gt;
+&lt;h4&gt;معالجات الخصم&lt;span class="hx:absolute hx:-mt-20" id="معالجات-الخصم"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b9%d8%a7%d9%84%d8%ac%d8%a7%d8%aa-%d8%a7%d9%84%d8%ae%d8%b5%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;الخصومات المئوية&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;النسبة المئوية الثابتة&lt;/strong&gt;: تطبيق خصم بنسبة مئوية متسقة (مثال: 10% خصم)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;النسبة المئوية المتدرجة&lt;/strong&gt;: خصومات تصاعدية بناءً على قيمة الطلب&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خاص بالفئة&lt;/strong&gt;: نسب خصم مختلفة لفئات منتجات مختلفة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خاص بالعميل&lt;/strong&gt;: نسب خصم مخصصة بناءً على تصنيف العميل&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;خصومات المبلغ&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المبلغ الثابت&lt;/strong&gt;: خصم نقدي محدد (مثال: 50$ خصم)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خصم لكل وحدة&lt;/strong&gt;: خصم ثابت لكل عنصر يُشترى&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قائم على العتبة&lt;/strong&gt;: خصومات مبلغ تُفعّل عند مستويات شراء محددة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المبلغ التصاعدي&lt;/strong&gt;: خصومات مبلغ متزايدة للطلبات الأكبر&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;معالجات الهامش&lt;span class="hx:absolute hx:-mt-20" id="معالجات-الهامش"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b9%d8%a7%d9%84%d8%ac%d8%a7%d8%aa-%d8%a7%d9%84%d9%87%d8%a7%d9%85%d8%b4" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;التسعير بالتكلفة زائد&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الهامش الثابت&lt;/strong&gt;: نسبة هامش متسقة فوق التكلفة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الهامش المتغير&lt;/strong&gt;: هوامش مختلفة بناءً على فئات المنتجات أو أنواع العملاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الهامش التنافسي&lt;/strong&gt;: حسابات هامش قائمة على السوق&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الهامش القائم على القيمة&lt;/strong&gt;: هامش بناءً على القيمة المدركة للعميل&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;التسعير القائم على السوق&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التموضع المميز&lt;/strong&gt;: هوامش أعلى للمنتجات أو الخدمات المميزة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تسعير الاختراق&lt;/strong&gt;: هوامش أقل لدخول السوق أو النمو&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التكافؤ التنافسي&lt;/strong&gt;: هوامش مصممة لمطابقة تسعير المنافسين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التعديل الديناميكي&lt;/strong&gt;: تعديلات هامش في الوقت الفعلي بناءً على ظروف السوق&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;معالجات السعر الثابت&lt;span class="hx:absolute hx:-mt-20" id="معالجات-السعر-الثابت"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b9%d8%a7%d9%84%d8%ac%d8%a7%d8%aa-%d8%a7%d9%84%d8%b3%d8%b9%d8%b1-%d8%a7%d9%84%d8%ab%d8%a7%d8%a8%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;التسعير المطلق&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تسعير العقد&lt;/strong&gt;: أسعار ثابتة متفاوض عليها مع عملاء محددين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التسعير الترويجي&lt;/strong&gt;: أسعار ثابتة خاصة للحملات التسويقية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تسعير التصفية&lt;/strong&gt;: أسعار منخفضة ثابتة لتصفية المخزون&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تسعير الحزمة&lt;/strong&gt;: أسعار ثابتة لحزم المنتجات أو الخدمات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;التسعير الثابت الشرطي&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الثابت القائم على الحجم&lt;/strong&gt;: أسعار ثابتة تُفعّل عند كميات معينة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الثابت المحدود بالوقت&lt;/strong&gt;: أسعار ثابتة لفترات زمنية محددة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الثابت الخاص بالعميل&lt;/strong&gt;: أسعار ثابتة متفاوض عليها للحسابات الرئيسية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الثابت الخاص بالقناة&lt;/strong&gt;: أسعار ثابتة مختلفة لقنوات مبيعات مختلفة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;طرق الحساب والصيغ&lt;span class="hx:absolute hx:-mt-20" id="طرق-الحساب-والصيغ"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b7%d8%b1%d9%82-%d8%a7%d9%84%d8%ad%d8%b3%d8%a7%d8%a8-%d9%88%d8%a7%d9%84%d8%b5%d9%8a%d8%ba" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;صيغ الحساب القياسية&lt;span class="hx:absolute hx:-mt-20" id="صيغ-الحساب-القياسية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b5%d9%8a%d8%ba-%d8%a7%d9%84%d8%ad%d8%b3%d8%a7%d8%a8-%d8%a7%d9%84%d9%82%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;الحسابات المئوية&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Final Price = Base Price × (1 ± Percentage/100)
+Example: $100 × (1 - 15/100) = $85 (15% discount)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;حسابات المبلغ&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Final Price = Base Price ± Fixed Amount
+Example: $100 - $25 = $75 (fixed $25 discount)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;الحسابات المركّبة&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Multiple Rules: Apply in priority order
+Rule 1: 10% discount = $100 × 0.9 = $90
+Rule 2: $5 discount = $90 - $5 = $85&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;منطق الحساب المتقدم&lt;span class="hx:absolute hx:-mt-20" id="منطق-الحساب-المتقدم"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%86%d8%b7%d9%82-%d8%a7%d9%84%d8%ad%d8%b3%d8%a7%d8%a8-%d8%a7%d9%84%d9%85%d8%aa%d9%82%d8%af%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;الحسابات الشرطية&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الحسابات المتدرجة&lt;/strong&gt;: طرق حساب مختلفة لمستويات كمية أو قيمة مختلفة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحسابات التصاعدية&lt;/strong&gt;: حسابات تتغير بناءً على قيمة الطلب التراكمية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الفائدة المركّبة&lt;/strong&gt;: حسابات معقدة للمنتجات أو الخدمات المالية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تسعير المصفوفة&lt;/strong&gt;: تسعير متعدد الأبعاد بناءً على متغيرات متعددة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;دعم الصيغة المخصصة&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تكامل قواعد الأعمال&lt;/strong&gt;: صيغ مخصصة تدمج منطق أعمال محدد&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تكامل البيانات الخارجية&lt;/strong&gt;: حسابات تستخدم بيانات أو معدلات سوق خارجية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التعديلات في الوقت الفعلي&lt;/strong&gt;: صيغ تتكيف بناءً على ظروف السوق الحالية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;منطق التحقق&lt;/strong&gt;: تحقق مدمج لضمان دقة الحساب والامتثال لقواعد الأعمال&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;سيناريوهات الأعمال المعقدة&lt;span class="hx:absolute hx:-mt-20" id="سيناريوهات-الأعمال-المعقدة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%b9%d9%85%d8%a7%d9%84-%d8%a7%d9%84%d9%85%d8%b9%d9%82%d8%af%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;تسعير التوزيع متعدد المستويات&lt;span class="hx:absolute hx:-mt-20" id="تسعير-التوزيع-متعدد-المستويات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%b3%d8%b9%d9%8a%d8%b1-%d8%a7%d9%84%d8%aa%d9%88%d8%b2%d9%8a%d8%b9-%d9%85%d8%aa%d8%b9%d8%af%d8%af-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%88%d9%8a%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;غالباً ما تتطلب سيناريوهات التوزيع المؤسسية هياكل تسعير متطورة تستوعب مستويات متعددة من قنوات التوزيع، والأسواق الإقليمية، وعلاقات العملاء.&lt;/p&gt;
+&lt;h4&gt;التسلسل الهرمي لقناة التوزيع&lt;span class="hx:absolute hx:-mt-20" id="التسلسل-الهرمي-لقناة-التوزيع"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%b3%d9%84%d8%b3%d9%84-%d8%a7%d9%84%d9%87%d8%b1%d9%85%d9%8a-%d9%84%d9%82%d9%86%d8%a7%d8%a9-%d8%a7%d9%84%d8%aa%d9%88%d8%b2%d9%8a%d8%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;استراتيجية التسعير الخاصة بالقناة&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;من المصنّع إلى الموزع&lt;/strong&gt;: تسعير الجملة مع حوافز الحجم&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;من الموزع إلى بائع التجزئة&lt;/strong&gt;: تسعير جملة التجزئة مع دعم تسويقي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;من بائع التجزئة إلى المستهلك&lt;/strong&gt;: تسعير المستخدم النهائي مع التموضع في السوق&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المبيعات المباشرة&lt;/strong&gt;: تسعير مباشر من المصنّع مع إدارة تعارض القنوات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;التمييز في السوق الجغرافي&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التسعير الإقليمي&lt;/strong&gt;: تسعير مختلف لأسواق جغرافية مختلفة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;توطين العملة&lt;/strong&gt;: تسعير بالعملة المحلية مع تحويل تلقائي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الامتثال الضريبي&lt;/strong&gt;: حساب ضريبي تلقائي لولايات قضائية مختلفة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تعديل اللوجستيات&lt;/strong&gt;: تعديلات تسعير لتكاليف الشحن والمناولة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;قواعد التوزيع المعقدة&lt;span class="hx:absolute hx:-mt-20" id="قواعد-التوزيع-المعقدة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d8%aa%d9%88%d8%b2%d9%8a%d8%b9-%d8%a7%d9%84%d9%85%d8%b9%d9%82%d8%af%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;مثال: توزيع إلكترونيات متعدد المستويات&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Rule Set 1: Distributor Pricing
+Condition: Customer.Type = &amp;#34;Distributor&amp;#34; AND Order.Value &amp;gt;= $50,000
+Treatment: Apply distributor pricing schedule (40% off MSRP)
+Priority: 1
+Rule Set 2: Volume Incentives
+Condition: Customer.Type = &amp;#34;Distributor&amp;#34; AND Quarterly.Volume &amp;gt;= $200,000
+Treatment: Additional 5% discount
+Priority: 2
+Rule Set 3: Regional Adjustment
+Condition: Customer.Region = &amp;#34;Asia-Pacific&amp;#34; AND Product.Category = &amp;#34;Electronics&amp;#34;
+Treatment: Apply 8% regional adjustment
+Priority: 3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;التسعير الموسمي والترويجي&lt;span class="hx:absolute hx:-mt-20" id="التسعير-الموسمي-والترويجي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%b3%d8%b9%d9%8a%d8%b1-%d8%a7%d9%84%d9%85%d9%88%d8%b3%d9%85%d9%8a-%d9%88%d8%a7%d9%84%d8%aa%d8%b1%d9%88%d9%8a%d8%ac%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;تتطلب استراتيجيات التسعير الموسمية قواعد متطورة قائمة على الوقت يمكنها تعديل التسعير تلقائياً بناءً على أحداث التقويم، ومستويات المخزون، وظروف السوق.&lt;/p&gt;
+&lt;h4&gt;استراتيجيات التسعير الموسمية&lt;span class="hx:absolute hx:-mt-20" id="استراتيجيات-التسعير-الموسمية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b3%d8%b9%d9%8a%d8%b1-%d8%a7%d9%84%d9%85%d9%88%d8%b3%d9%85%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;تسعير الأعياد والفعاليات&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;البناء قبل الموسم&lt;/strong&gt;: زيادات أسعار تدريجية تقود إلى موسم الذروة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;علاوة موسم الذروة&lt;/strong&gt;: أقصى تسعير خلال فترات الطلب العالي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تصفية ما بعد الموسم&lt;/strong&gt;: خصم عدواني لتصفية المخزون الموسمي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;صيانة خارج الموسم&lt;/strong&gt;: تسعير خط الأساس للحفاظ على الحضور في السوق&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;التسعير الموسمي المدفوع بالمخزون&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تكامل مستوى المخزون&lt;/strong&gt;: تعديلات تسعير بناءً على مستويات المخزون الحالية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;معدل الدوران&lt;/strong&gt;: تعديلات تسعير بناءً على سرعة دوران المخزون&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تكامل التنبؤ&lt;/strong&gt;: تسعير تنبؤي بناءً على التنبؤ بالطلب&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التعديل التلقائي&lt;/strong&gt;: تغييرات تسعير في الوقت الفعلي بناءً على مقاييس المخزون&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;التسعير الترويجي الديناميكي&lt;span class="hx:absolute hx:-mt-20" id="التسعير-الترويجي-الديناميكي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%b3%d8%b9%d9%8a%d8%b1-%d8%a7%d9%84%d8%aa%d8%b1%d9%88%d9%8a%d8%ac%d9%8a-%d8%a7%d9%84%d8%af%d9%8a%d9%86%d8%a7%d9%85%d9%8a%d9%83%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;التسعير القائم على الحملة&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Rule Set: Black Friday Electronics Sale
+Condition: Date = &amp;#34;2024-11-29&amp;#34; AND Category = &amp;#34;Electronics&amp;#34;
+Treatment: Apply 25% discount with maximum $500 discount per item
+Priority: 1
+Effective: 2024-11-29 00:00 to 2024-11-29 23:59
+Rule Set: Buy-One-Get-One Promotion
+Condition: Product.Code LIKE &amp;#34;PROMO_*&amp;#34; AND Quantity &amp;gt;= 2
+Treatment: Apply 50% discount to lowest-priced item
+Priority: 2
+Effective: 2024-12-01 to 2024-12-31&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;تكامل بوابة B2B والتجارة الإلكترونية&lt;span class="hx:absolute hx:-mt-20" id="تكامل-بوابة-b2b-والتجارة-الإلكترونية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d8%a8%d9%88%d8%a7%d8%a8%d8%a9-b2b-%d9%88%d8%a7%d9%84%d8%aa%d8%ac%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%a5%d9%84%d9%83%d8%aa%d8%b1%d9%88%d9%86%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;تتطلب الشركات الحديثة أنظمة تسعير تعمل بسلاسة عبر قنوات رقمية متعددة مع الحفاظ على الاتساق ودعم الاستراتيجيات الخاصة بالقناة.&lt;/p&gt;
+&lt;h4&gt;تسعير بوابة B2B&lt;span class="hx:absolute hx:-mt-20" id="تسعير-بوابة-b2b"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%b3%d8%b9%d9%8a%d8%b1-%d8%a8%d9%88%d8%a7%d8%a8%d8%a9-b2b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;التسعير القائم على الحساب&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;كتالوجات خاصة بالعميل&lt;/strong&gt;: كتالوجات منتجات مخصصة بتسعير خاص بالعميل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تكامل تسعير العقد&lt;/strong&gt;: تطبيق تلقائي لشروط العقد المتفاوض عليها&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;سير عمل الموافقة&lt;/strong&gt;: عمليات موافقة مدمجة لطلبات التسعير الخاصة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تتبع التزام الحجم&lt;/strong&gt;: مراقبة وإنفاذ التزامات الحجم&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;أدوات التسعير ذاتية الخدمة&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;إنشاء عرض السعر&lt;/strong&gt;: قدرة العميل على إنشاء عروض أسعار بتسعير في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تاريخ السعر&lt;/strong&gt;: الوصول إلى التسعير التاريخي لتخطيط الميزانية والتحليل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أدوات تسعير الجملة&lt;/strong&gt;: أدوات للعملاء لتحليل التسعير للطلبات الكبيرة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أدوات المقارنة&lt;/strong&gt;: مقارنة جنباً إلى جنب لخيارات منتجات وتسعير مختلفة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;تكامل تسعير التجارة الإلكترونية&lt;span class="hx:absolute hx:-mt-20" id="تكامل-تسعير-التجارة-الإلكترونية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d8%aa%d8%b3%d8%b9%d9%8a%d8%b1-%d8%a7%d9%84%d8%aa%d8%ac%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%a5%d9%84%d9%83%d8%aa%d8%b1%d9%88%d9%86%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;المزامنة متعددة المنصات&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التحديثات في الوقت الفعلي&lt;/strong&gt;: تحديثات تسعير فورية عبر جميع منصات التجارة الإلكترونية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قواعد خاصة بالمنصة&lt;/strong&gt;: استراتيجيات تسعير مختلفة لمنصات مختلفة عبر الإنترنت&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الاستخبارات التنافسية&lt;/strong&gt;: التكامل مع أدوات مراقبة التسعير التنافسي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التعديل الديناميكي&lt;/strong&gt;: تعديلات تسعير تلقائية بناءً على ظروف السوق&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;تحسين تجربة العملاء&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التسعير المخصص&lt;/strong&gt;: تسعير خاص بالعميل يُعرض عند تسجيل الدخول&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;العرض القائم على الكمية&lt;/strong&gt;: عرض في الوقت الفعلي لتسعير فواصل الكمية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تكامل العروض الترويجية&lt;/strong&gt;: تطبيق وعرض تلقائي للتسعير الترويجي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحسين الجوال&lt;/strong&gt;: تجربة تسعير متسقة عبر جميع أنواع الأجهزة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;إدارة الأولوية وحل تعارض القواعد&lt;span class="hx:absolute hx:-mt-20" id="إدارة-الأولوية-وحل-تعارض-القواعد"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%a3%d9%88%d9%84%d9%88%d9%8a%d8%a9-%d9%88%d8%ad%d9%84-%d8%aa%d8%b9%d8%a7%d8%b1%d8%b6-%d8%a7%d9%84%d9%82%d9%88%d8%a7%d8%b9%d8%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;فهم أنظمة الأولوية&lt;span class="hx:absolute hx:-mt-20" id="فهم-أنظمة-الأولوية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%81%d9%87%d9%85-%d8%a3%d9%86%d8%b8%d9%85%d8%a9-%d8%a7%d9%84%d8%a3%d9%88%d9%84%d9%88%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;تضمن إدارة الأولوية أنه عندما يمكن أن تنطبق عدة مجموعات أسعار على المعاملة نفسها، يطبّق النظام التسعير الأكثر ملاءمة بطريقة قابلة للتنبؤ ومنطقية للأعمال.&lt;/p&gt;
+&lt;h4&gt;التسلسل الهرمي للأولوية&lt;span class="hx:absolute hx:-mt-20" id="التسلسل-الهرمي-للأولوية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%b3%d9%84%d8%b3%d9%84-%d8%a7%d9%84%d9%87%d8%b1%d9%85%d9%8a-%d9%84%d9%84%d8%a3%d9%88%d9%84%d9%88%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;نظام الأولوية الرقمية&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الأولوية 1&lt;/strong&gt;: قواعد ذات أولوية أعلى (الأكثر تحديداً، قواعد أعمال حرجة)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الأولوية 2-5&lt;/strong&gt;: أولويات متوسطة المستوى لقواعد الأعمال القياسية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الأولوية 6-10&lt;/strong&gt;: أولويات أقل للقواعد العامة والافتراضية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المعالجة الافتراضية&lt;/strong&gt;: سلوك النظام عندما لا تطابق قواعد محددة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;استراتيجية تعيين الأولوية&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;خاص بالعميل&lt;/strong&gt;: أعلى أولوية لتسعير العميل المتفاوض عليه&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ترويجي&lt;/strong&gt;: أولوية عالية للحملات الترويجية الحساسة للوقت&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قائم على الحجم&lt;/strong&gt;: أولوية متوسطة لقواعد التسعير القائمة على الكمية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;عام&lt;/strong&gt;: أولوية أقل لتسعير الفئة أو السوق العام&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;منطق حل التعارض&lt;span class="hx:absolute hx:-mt-20" id="منطق-حل-التعارض"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%86%d8%b7%d9%82-%d8%ad%d9%84-%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d8%b1%d8%b6" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;إدارة تداخل القواعد&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Example Conflict Scenario:
+Rule A (Priority 1): VIP Customer gets 20% discount
+Rule B (Priority 2): Electronics category gets 15% discount
+Rule C (Priority 3): Orders over $1000 get 10% discount
+Resolution: VIP customer buying electronics over $1000 gets 20% discount (Priority 1 wins)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;الدمج مقابل التجاوز&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;منطق التجاوز&lt;/strong&gt;: القواعد ذات الأولوية الأعلى تتجاوز تماماً القواعد ذات الأولوية الأقل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المنطق الإضافي&lt;/strong&gt;: يمكن دمج بعض القواعد لتأثيرات تراكمية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المنطق الحصري&lt;/strong&gt;: لا يمكن دمج قواعد معينة (منع التعارض)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحقق من منطق الأعمال&lt;/strong&gt;: تحقق النظام لمنع المجموعات غير المنطقية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;سيناريوهات الأولوية المتقدمة&lt;span class="hx:absolute hx:-mt-20" id="سيناريوهات-الأولوية-المتقدمة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d9%88%d9%84%d9%88%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;قواعد الأعمال المعقدة&lt;span class="hx:absolute hx:-mt-20" id="قواعد-الأعمال-المعقدة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d8%a3%d8%b9%d9%85%d8%a7%d9%84-%d8%a7%d9%84%d9%85%d8%b9%d9%82%d8%af%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;الأولوية متعددة الأبعاد&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;العميل + المنتج&lt;/strong&gt;: قواعد مجمّعة خاصة بالعميل والمنتج&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الوقت + الحجم&lt;/strong&gt;: قواعد زمنية مدمجة مع قواعد قائمة على الكمية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الجغرافي + القناة&lt;/strong&gt;: قواعد دمج الموقع وقناة المبيعات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;العقد + العرض الترويجي&lt;/strong&gt;: تسعير متفاوض عليه مع طبقات ترويجية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;معالجة الاستثناءات&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التسعير الطارئ&lt;/strong&gt;: أعلى أولوية للأزمات أو المواقف الطارئة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تجاوز الإدارة&lt;/strong&gt;: أحكام خاصة لقرارات تسعير الإدارة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;صيانة النظام&lt;/strong&gt;: سلوك التسعير أثناء صيانة النظام أو التحديثات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحقق من البيانات&lt;/strong&gt;: معالجة سيناريوهات البيانات غير المكتملة أو غير الصالحة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;تحسين الأداء وأفضل الممارسات&lt;span class="hx:absolute hx:-mt-20" id="تحسين-الأداء-وأفضل-الممارسات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1-%d9%88%d8%a3%d9%81%d8%b6%d9%84-%d8%a7%d9%84%d9%85%d9%85%d8%a7%d8%b1%d8%b3%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;اعتبارات أداء النظام&lt;span class="hx:absolute hx:-mt-20" id="اعتبارات-أداء-النظام"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d8%b9%d8%aa%d8%a8%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d9%86%d8%b8%d8%a7%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;تتطلب عمليات التسعير واسعة النطاق اهتماماً دقيقاً بأداء النظام، خاصة عند تنفيذ تسعير قائم على القواعد معقد عبر كتالوجات منتجات واسعة وقواعد عملاء.&lt;/p&gt;
+&lt;h4&gt;استراتيجيات تحسين القواعد&lt;span class="hx:absolute hx:-mt-20" id="استراتيجيات-تحسين-القواعد"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a7%d8%aa-%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%a7%d9%84%d9%82%d9%88%d8%a7%d8%b9%d8%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;تصميم قواعد فعّال&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الشروط المحددة&lt;/strong&gt;: استخدم شروطاً محددة لتقليل عبء تقييم القاعدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحقول المفهرسة&lt;/strong&gt;: أسّس القواعد على حقول مفهرسة في قاعدة البيانات لتقييم أسرع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تجميع القواعد&lt;/strong&gt;: اجمع القواعد ذات الصلة لتقليل التقييمات المتكررة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;استراتيجية التخزين المؤقت&lt;/strong&gt;: نفّذ تخزيناً مؤقتاً ذكياً للتسعير المتكرر الوصول&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;مراقبة الأداء&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;وقت تنفيذ القاعدة&lt;/strong&gt;: راقب الوقت المطلوب لتقييمات القواعد المعقدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تأثير قاعدة البيانات&lt;/strong&gt;: تتبّع أداء قاعدة البيانات تحت حمل التسعير&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المعالجة المتزامنة&lt;/strong&gt;: حسّن لطلبات تسعير متزامنة متعددة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;استخدام الموارد&lt;/strong&gt;: راقب استخدام وحدة المعالجة المركزية والذاكرة أثناء عمليات التسعير&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;تخطيط القابلية للتوسع&lt;span class="hx:absolute hx:-mt-20" id="تخطيط-القابلية-للتوسع"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%ae%d8%b7%d9%8a%d8%b7-%d8%a7%d9%84%d9%82%d8%a7%d8%a8%d9%84%d9%8a%d8%a9-%d9%84%d9%84%d8%aa%d9%88%d8%b3%d8%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;إدارة الكتالوج الكبير&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المعالجة الدفعية&lt;/strong&gt;: نفّذ المعالجة الدفعية لتحديثات التسعير بالجملة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحديثات التدريجية&lt;/strong&gt;: استخدم تحديثات تدريجية بدلاً من تحديثات كتالوج كاملة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المعالجة المتوازية&lt;/strong&gt;: استفد من المعالجة المتوازية للحسابات المعقدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحسين قاعدة البيانات&lt;/strong&gt;: حسّن هيكل قاعدة البيانات لعمليات التسعير&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;المعاملات عالية الحجم&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;موازنة الحمل&lt;/strong&gt;: وزّع حسابات التسعير عبر خوادم متعددة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;طبقات التخزين المؤقت&lt;/strong&gt;: نفّذ مستويات متعددة من التخزين المؤقت للبيانات المتكررة الوصول&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة قوائم الانتظار&lt;/strong&gt;: استخدم أنظمة قوائم الانتظار لطلبات التسعير عالية الحجم&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الوقت الفعلي مقابل الدفعي&lt;/strong&gt;: وازن بين احتياجات الوقت الفعلي وأداء النظام&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;أفضل ممارسات التنفيذ&lt;span class="hx:absolute hx:-mt-20" id="أفضل-ممارسات-التنفيذ"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d9%81%d8%b6%d9%84-%d9%85%d9%85%d8%a7%d8%b1%d8%b3%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;نهج التنفيذ الاستراتيجي&lt;span class="hx:absolute hx:-mt-20" id="نهج-التنفيذ-الاستراتيجي"&gt;&lt;/span&gt;
+&lt;a href="#%d9%86%d9%87%d8%ac-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;استراتيجية الطرح المرحلي&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;المرحلة 1&lt;/strong&gt;: نفّذ مجموعات أسعار أساسية لشرائح العملاء الأساسية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المرحلة 2&lt;/strong&gt;: أضف قواعد متقدمة للتسعير الترويجي والموسمي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المرحلة 3&lt;/strong&gt;: نفّذ سيناريوهات تسعير معقدة متعددة الأبعاد&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المرحلة 4&lt;/strong&gt;: حسّن الأداء وأضف تحليلات متقدمة&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;إدارة التغيير&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تدريب المستخدمين&lt;/strong&gt;: تدريب شامل لمديري التسعير&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التوثيق&lt;/strong&gt;: توثيق مفصّل لجميع قواعد التسعير والمنطق&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إجراءات الاختبار&lt;/strong&gt;: اختبار شامل لقواعد التسعير قبل النشر&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خطط التراجع&lt;/strong&gt;: إجراءات للتراجع عن تغييرات التسعير عند الحاجة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;التميز التشغيلي&lt;span class="hx:absolute hx:-mt-20" id="التميز-التشغيلي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d9%85%d9%8a%d8%b2-%d8%a7%d9%84%d8%aa%d8%b4%d8%ba%d9%8a%d9%84%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;المراقبة والصيانة&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;عمليات التدقيق المنتظمة&lt;/strong&gt;: مراجعة دورية لفعالية قاعدة التسعير&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مراقبة الأداء&lt;/strong&gt;: مراقبة مستمرة لأداء النظام&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحليل الأثر التجاري&lt;/strong&gt;: تحليل منتظم للأثر التجاري لقاعدة التسعير&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحسين المستمر&lt;/strong&gt;: تحسين مستمر لاستراتيجيات التسعير&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ضمان الجودة&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التحقق من القاعدة&lt;/strong&gt;: تحقق آلي من منطق قاعدة التسعير&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;كشف التعارض&lt;/strong&gt;: تحديد استباقي لتعارضات القواعد المحتملة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اختبار الدقة&lt;/strong&gt;: اختبار منتظم لدقة حساب التسعير&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الامتثال لقواعد الأعمال&lt;/strong&gt;: التحقق من أن قواعد التسعير تلبي متطلبات الأعمال&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;استكشاف الأخطاء وإصلاحها والمشكلات الشائعة&lt;span class="hx:absolute hx:-mt-20" id="استكشاف-الأخطاء-وإصلاحها-والمشكلات-الشائعة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d8%b3%d8%aa%d9%83%d8%b4%d8%a7%d9%81-%d8%a7%d9%84%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-%d9%88%d8%a5%d8%b5%d9%84%d8%a7%d8%ad%d9%87%d8%a7-%d9%88%d8%a7%d9%84%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%b4%d8%a7%d8%a6%d8%b9%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;مشكلات تهيئة القواعد&lt;span class="hx:absolute hx:-mt-20" id="مشكلات-تهيئة-القواعد"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%aa%d9%87%d9%8a%d8%a6%d8%a9-%d8%a7%d9%84%d9%82%d9%88%d8%a7%d8%b9%d8%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;مشكلات القواعد الشائعة&lt;span class="hx:absolute hx:-mt-20" id="مشكلات-القواعد-الشائعة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d8%b4%d8%a7%d8%a6%d8%b9%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;أخطاء المنطق&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: القواعد لا تُقيَّم كما هو متوقع بسبب أخطاء المنطق&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الأسباب الشائعة&lt;/strong&gt;: منطق AND/OR غير صحيح، أقواس مفقودة، أنواع بيانات خاطئة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحلول&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;استخدم أدوات اختبار القواعد للتحقق من المنطق&lt;/li&gt;
+&lt;li&gt;قسّم القواعد المعقدة إلى مكونات أبسط&lt;/li&gt;
+&lt;li&gt;وثّق منطق القاعدة بوضوح للمراجعة&lt;/li&gt;
+&lt;li&gt;نفّذ تسجيل تقييم قاعدة خطوة بخطوة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الوقاية&lt;/strong&gt;: أرسِ معايير تطوير القواعد وعمليات مراجعة الأقران&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;تعارضات الأولوية&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: نتائج تسعير غير متوقعة بسبب تعارضات الأولوية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الأسباب الشائعة&lt;/strong&gt;: مستويات أولوية متداخلة، تعيين أولوية غير واضح&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحلول&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;راجع وأعد هيكلة تعيينات الأولوية&lt;/li&gt;
+&lt;li&gt;نفّذ سيناريوهات اختبار الأولوية&lt;/li&gt;
+&lt;li&gt;أنشئ توثيق وإرشادات الأولوية&lt;/li&gt;
+&lt;li&gt;استخدم أدوات محاكاة الأولوية للسيناريوهات المعقدة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الوقاية&lt;/strong&gt;: طوّر منهجية واضحة لتعيين الأولوية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;مشكلات البيانات والتكامل&lt;span class="hx:absolute hx:-mt-20" id="مشكلات-البيانات-والتكامل"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;مشكلات مزامنة البيانات&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: قواعد التسعير تشير إلى بيانات قديمة أو غير صحيحة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الأسباب الشائعة&lt;/strong&gt;: تأخر تحديثات البيانات، فشل التكامل، مشكلات التخزين المؤقت&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحلول&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;نفّذ التحقق من البيانات في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;أنشئ مراقبة مزامنة البيانات&lt;/li&gt;
+&lt;li&gt;أرسِ إجراءات تحديث البيانات&lt;/li&gt;
+&lt;li&gt;وفّر إمكانات تجاوز البيانات يدوياً&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الوقاية&lt;/strong&gt;: فحوصات سلامة بيانات منتظمة ومراقبة آلية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;تدهور الأداء&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: حساب تسعير بطيء بسبب مجموعات قواعد معقدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الأسباب الشائعة&lt;/strong&gt;: قواعد غير فعّالة، مجموعات بيانات كبيرة، أجهزة غير كافية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحلول&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;حسّن منطق القاعدة وشروطها&lt;/li&gt;
+&lt;li&gt;نفّذ استراتيجيات تخزين مؤقت ذكية&lt;/li&gt;
+&lt;li&gt;راجع وطوّر موارد النظام&lt;/li&gt;
+&lt;li&gt;نفّذ المعالجة المتوازية حيثما كان مناسباً&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الوقاية&lt;/strong&gt;: اختبار الأداء أثناء تطوير القواعد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;مشكلات عملية الأعمال&lt;span class="hx:absolute hx:-mt-20" id="مشكلات-عملية-الأعمال"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d8%b9%d9%85%d8%a7%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;مشكلات تجربة المستخدم&lt;span class="hx:absolute hx:-mt-20" id="مشكلات-تجربة-المستخدم"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%aa%d8%ac%d8%b1%d8%a8%d8%a9-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d8%ae%d8%af%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;إدارة القواعد المعقدة&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: صعوبة إدارة أعداد كبيرة من قواعد تسعير معقدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحلول&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;نفّذ أنظمة تصنيف وتنظيم القواعد&lt;/li&gt;
+&lt;li&gt;أنشئ واجهات إدارة قواعد سهلة الاستخدام&lt;/li&gt;
+&lt;li&gt;وفّر تدريباً وتوثيقاً شاملين&lt;/li&gt;
+&lt;li&gt;أرسِ عمليات حوكمة القواعد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الوقاية&lt;/strong&gt;: صمّم أنظمة إدارة قواعد متمحورة حول المستخدم&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;شفافية التسعير&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: صعوبة فهم كيفية حساب الأسعار النهائية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحلول&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;نفّذ أدوات شرح التسعير&lt;/li&gt;
+&lt;li&gt;أنشئ سجلات حساب تسعير مفصّلة&lt;/li&gt;
+&lt;li&gt;وفّر معلومات تسعير موجّهة للعملاء&lt;/li&gt;
+&lt;li&gt;أرسِ إجراءات تواصل تسعير واضحة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الوقاية&lt;/strong&gt;: صمّم أنظمة تسعير شفافة بتوثيق واضح&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;التكامل مع عمليات الأعمال&lt;span class="hx:absolute hx:-mt-20" id="التكامل-مع-عمليات-الأعمال"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d9%85%d8%b9-%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%b9%d9%85%d8%a7%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;تكامل عملية المبيعات&lt;span class="hx:absolute hx:-mt-20" id="تكامل-عملية-المبيعات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%a8%d9%8a%d8%b9%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;معالجة عروض الأسعار والطلبات&lt;span class="hx:absolute hx:-mt-20" id="معالجة-عروض-الأسعار-والطلبات"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b9%d8%a7%d9%84%d8%ac%d8%a9-%d8%b9%d8%b1%d9%88%d8%b6-%d8%a7%d9%84%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d9%88%d8%a7%d9%84%d8%b7%d9%84%d8%a8%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;إنشاء عرض سعر ديناميكي&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التسعير في الوقت الفعلي&lt;/strong&gt;: حساب سعر فوري أثناء إنشاء عرض السعر&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قواعد خاصة بالعميل&lt;/strong&gt;: تطبيق تلقائي للتسعير الخاص بالعميل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;سير عمل الموافقة&lt;/strong&gt;: موافقة مدمجة للتسعير غير القياسي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;صلاحية السعر&lt;/strong&gt;: تسعير محدود بالوقت مع انتهاء صلاحية تلقائي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;تحسين معالجة الطلبات&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المعالجة الدفعية&lt;/strong&gt;: معالجة فعّالة للطلبات الكبيرة بتسعير معقد&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;فحوصات التحقق&lt;/strong&gt;: تحقق تلقائي من التسعير مقابل قواعد الأعمال&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;معالجة الاستثناءات&lt;/strong&gt;: إجراءات للتعامل مع استثناءات التسعير&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;نقاط التكامل&lt;/strong&gt;: تكامل سلس مع أنظمة المخزون والتلبية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;تكامل خدمة العملاء&lt;span class="hx:absolute hx:-mt-20" id="تكامل-خدمة-العملاء"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d8%ae%d8%af%d9%85%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d8%a7%d8%a1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;دعم استفسار السعر&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;أدوات خدمة العملاء&lt;/strong&gt;: أدوات لممثلي خدمة العملاء لشرح التسعير&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الوصول إلى تاريخ السعر&lt;/strong&gt;: معلومات تسعير تاريخية لاستفسارات العملاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إمكانات التجاوز&lt;/strong&gt;: إمكانات تجاوز متحكم بها لخدمة العملاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أدوات التوثيق&lt;/strong&gt;: أدوات لتوثيق قرارات التسعير والاستثناءات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;التكامل المالي&lt;span class="hx:absolute hx:-mt-20" id="التكامل-المالي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;المحاسبة وإعداد التقارير&lt;span class="hx:absolute hx:-mt-20" id="المحاسبة-وإعداد-التقارير"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%ad%d8%a7%d8%b3%d8%a8%d8%a9-%d9%88%d8%a5%d8%b9%d8%af%d8%a7%d8%af-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;الاعتراف بالإيرادات&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الترحيل التلقائي&lt;/strong&gt;: ترحيل تلقائي لتعديلات التسعير إلى الحسابات المناسبة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحليل الهامش&lt;/strong&gt;: تحليل هامش في الوقت الفعلي بناءً على قواعد التسعير المطبّقة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;محاسبة التكاليف&lt;/strong&gt;: التكامل مع محاسبة التكاليف لتحليل ربح دقيق&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إعداد التقارير المالية&lt;/strong&gt;: التكامل مع إعداد التقارير المالية للتحليل الشامل&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;تكامل الميزانية والتخطيط&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التنبؤ بالإيرادات&lt;/strong&gt;: التكامل مع أنظمة التنبؤ بالإيرادات والتخطيط&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحليل تأثير التسعير&lt;/strong&gt;: تحليل تأثير قاعدة التسعير على الأداء المالي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تباين الميزانية&lt;/strong&gt;: تتبّع تأثير التسعير على أداء الميزانية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التخطيط الاستراتيجي&lt;/strong&gt;: التكامل مع أدوات التخطيط والتحليل الاستراتيجي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;الميزات المتقدمة والتحسينات المستقبلية&lt;span class="hx:absolute hx:-mt-20" id="الميزات-المتقدمة-والتحسينات-المستقبلية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9-%d9%88%d8%a7%d9%84%d8%aa%d8%ad%d8%b3%d9%8a%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%82%d8%a8%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;تكامل الذكاء الاصطناعي&lt;span class="hx:absolute hx:-mt-20" id="تكامل-الذكاء-الاصطناعي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;قدرات التعلم الآلي&lt;span class="hx:absolute hx:-mt-20" id="قدرات-التعلم-الآلي"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d8%af%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%85-%d8%a7%d9%84%d8%a2%d9%84%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;التسعير التنبؤي&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التنبؤ بالطلب&lt;/strong&gt;: تنبؤ بالطلب مدعوم بالذكاء الاصطناعي للتسعير الأمثل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحليل السوق&lt;/strong&gt;: تحليل آلي لظروف السوق وتسعير المنافسين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;سلوك العملاء&lt;/strong&gt;: تحليل سلوك العملاء وحساسيتهم للسعر&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خوارزميات التحسين&lt;/strong&gt;: تحسين مدفوع بالذكاء الاصطناعي لاستراتيجيات التسعير&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;إنشاء القواعد الآلي&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التعرف على الأنماط&lt;/strong&gt;: تحديد تلقائي لأنماط وفرص التسعير&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اقتراح القاعدة&lt;/strong&gt;: اقتراحات مدعومة بالذكاء الاصطناعي لقواعد تسعير جديدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحسين الأداء&lt;/strong&gt;: تحسين تلقائي لقواعد التسعير الحالية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;كشف الشذوذ&lt;/strong&gt;: تحديد شذوذ التسعير والمشكلات المحتملة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;التحليلات المتقدمة&lt;span class="hx:absolute hx:-mt-20" id="التحليلات-المتقدمة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%ad%d9%84%d9%8a%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;التحليلات في الوقت الفعلي&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;أداء التسعير&lt;/strong&gt;: تحليل في الوقت الفعلي لأداء قاعدة التسعير&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;استجابة العملاء&lt;/strong&gt;: تحليل استجابة العملاء لتغييرات التسعير&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تأثير السوق&lt;/strong&gt;: تحليل في الوقت الفعلي لتأثير التسعير على الموقع في السوق&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الاستخبارات التنافسية&lt;/strong&gt;: التكامل مع أنظمة الاستخبارات التنافسية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;النمذجة التنبؤية&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;مرونة السعر&lt;/strong&gt;: نمذجة مرونة السعر لمنتجات وشرائح عملاء مختلفة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحسين الإيرادات&lt;/strong&gt;: نمذجة تنبؤية لتحسين الإيرادات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;القيمة مدى الحياة للعميل&lt;/strong&gt;: التكامل مع حسابات القيمة مدى الحياة للعميل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;محاكاة السوق&lt;/strong&gt;: محاكاة استراتيجيات التسعير واستجابة السوق&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;خارطة طريق التقنية&lt;span class="hx:absolute hx:-mt-20" id="خارطة-طريق-التقنية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%ae%d8%a7%d8%b1%d8%b7%d8%a9-%d8%b7%d8%b1%d9%8a%d9%82-%d8%a7%d9%84%d8%aa%d9%82%d9%86%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;ميزات الجيل التالي&lt;span class="hx:absolute hx:-mt-20" id="ميزات-الجيل-التالي"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d9%8a%d9%84-%d8%a7%d9%84%d8%aa%d8%a7%d9%84%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;التكامل المتقدم&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تكامل إنترنت الأشياء&lt;/strong&gt;: التكامل مع إنترنت الأشياء لبيانات تسعير في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;البلوكتشين&lt;/strong&gt;: تكامل البلوكتشين لشفافية التسعير ومسارات التدقيق&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحسين API&lt;/strong&gt;: قدرات API محسّنة لتكامل النظام الخارجي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قابلية التوسع السحابية&lt;/strong&gt;: قابلية توسع سحابية محسّنة للعمليات العالمية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;تحسين تجربة المستخدم&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تحسين الجوال&lt;/strong&gt;: قدرات جوال محسّنة لإدارة التسعير&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التكامل الصوتي&lt;/strong&gt;: استفسار وإدارة تسعير مفعّلة صوتياً&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الواقع المعزز&lt;/strong&gt;: تكامل الواقع المعزز للعرض المرئي للتسعير&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اللغة الطبيعية&lt;/strong&gt;: معالجة اللغة الطبيعية لإنشاء قواعد التسعير&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;الموارد ذات الصلة&lt;span class="hx:absolute hx:-mt-20" id="الموارد-ذات-الصلة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d9%88%d8%a7%d8%b1%d8%af-%d8%b0%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d9%84%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;وسّع خبرتك في التسعير المتقدم:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/daily-tasks/pricing-scheme/" &gt;أنظمة التسعير وإدارة الاستراتيجية&lt;/a&gt; - نظام قوالب التسعير الأساسي&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/daily-tasks/price-book/" &gt;إدارة دفتر الأسعار وتسعير العملاء&lt;/a&gt; - إدارة قوائم الأسعار الأساسية وتعيين العملاء&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/basic-operations/item-maintenance/" &gt;صيانة العناصر&lt;/a&gt; - تسعير وإدارة العناصر الفردية&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ar/modules/crm/" &gt;إدارة العملاء&lt;/a&gt; - علاقة العملاء وتكامل التسعير&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ar/modules/pos/" &gt;تهيئة نقاط البيع&lt;/a&gt; - تنفيذ وتكامل تسعير التجزئة&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ar/modules/ecommerce/" &gt;تكامل التجارة الإلكترونية&lt;/a&gt; - مزامنة التسعير متعددة القنوات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;الحصول على المساعدة والدعم&lt;span class="hx:absolute hx:-mt-20" id="الحصول-على-المساعدة-والدعم"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ad%d8%b5%d9%88%d9%84-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%85%d8%b3%d8%a7%d8%b9%d8%af%d8%a9-%d9%88%d8%a7%d9%84%d8%af%d8%b9%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;موارد الدعم الفني&lt;span class="hx:absolute hx:-mt-20" id="موارد-الدعم-الفني"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%88%d8%a7%d8%b1%d8%af-%d8%a7%d9%84%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d9%81%d9%86%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;المساعدة الفورية&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الدعم الفني&lt;/strong&gt;: &lt;a href="mailto:vincent@bigledger.com" &gt;vincent@bigledger.com&lt;/a&gt; لمشكلات التهيئة والمشكلات الفنية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;دعم التنفيذ&lt;/strong&gt;: &lt;a href="mailto:sales@bigledger.com" &gt;sales@bigledger.com&lt;/a&gt; لتخطيط التنفيذ والاستشارة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;موارد التدريب&lt;/strong&gt;: مكتبة دروس فيديو وتوثيق شاملة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;دعم المجتمع&lt;/strong&gt;: منتديات المستخدمين وقاعدة المعرفة لدعم الأقران والحلول&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;الخدمات الاحترافية&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التهيئة المتقدمة&lt;/strong&gt;: مساعدة خبيرة مع سيناريوهات مجموعة الأسعار المعقدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تطوير القواعد&lt;/strong&gt;: تطوير احترافي لقواعد تسعير متطورة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحسين الأداء&lt;/strong&gt;: تحسين أداء النظام للعمليات واسعة النطاق&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خدمات التكامل&lt;/strong&gt;: تكامل متقدم مع أنظمة الأعمال الحالية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;موارد أفضل الممارسات&lt;span class="hx:absolute hx:-mt-20" id="موارد-أفضل-الممارسات"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%88%d8%a7%d8%b1%d8%af-%d8%a3%d9%81%d8%b6%d9%84-%d8%a7%d9%84%d9%85%d9%85%d8%a7%d8%b1%d8%b3%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;التوثيق والتدريب&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;أدلة المستخدم المتقدمة&lt;/strong&gt;: أدلة شاملة لسيناريوهات التسعير المعقدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;دروس الفيديو&lt;/strong&gt;: دروس فيديو خطوة بخطوة لتهيئة مجموعة الأسعار&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;سلسلة الندوات عبر الإنترنت&lt;/strong&gt;: ندوات تدريب منتظمة حول استراتيجيات التسعير المتقدمة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;دراسات الحالة&lt;/strong&gt;: دراسات حالة تنفيذ واقعية وقصص نجاح&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;الاستشارات الاستراتيجية&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تطوير استراتيجية التسعير&lt;/strong&gt;: استشارات وتطوير استراتيجية تسعير شاملة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحليل السوق&lt;/strong&gt;: استشارات التحليل التنافسي والتموضع في السوق&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحسين عمليات الأعمال&lt;/strong&gt;: تحسين عمليات الأعمال من البداية إلى النهاية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة التغيير&lt;/strong&gt;: دعم لتنفيذ نظام التسعير وتبنيه&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;نجاح التسعير المتقدم&lt;/strong&gt;: تحقق المؤسسات التي تنفّذ تهيئات مجموعة أسعار متطورة عادةً تحسّناً بنسبة 35% في دقة التسعير، وزيادة بنسبة 25% في هوامش الربح، وانخفاضاً بنسبة 50% في وقت إدارة التسعير.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

@@ -1,4 +1,532 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dokumentasi BigLedger – Modul BigLedger</title><link>https://www.bigledger.com/ms/modules/</link><description>Recent content in Modul BigLedger on Dokumentasi BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ms</language><atom:link href="https://www.bigledger.com/ms/modules/index.xml" rel="self" type="application/rss+xml"/><item><title>Pengurusan Hubungan Pelanggan (CRM)</title><link>https://www.bigledger.com/ms/modules/crm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/crm/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dokumentasi BigLedger – Modul BigLedger</title><link>https://www.bigledger.com/ms/modules/</link><description>Recent content in Modul BigLedger on Dokumentasi BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ms</language><atom:link href="https://www.bigledger.com/ms/modules/index.xml" rel="self" type="application/rss+xml"/><item><title>2.0 Konfigurasi Laman Web﻿</title><link>https://www.bigledger.com/ms/modules/ecommerce/20-website-configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/20-website-configuration/</guid><description>
+&lt;h1&gt;2.0 Konfigurasi Laman Web﻿&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3187343370
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2024-11-17T11:07:01.283Z&lt;/p&gt;
+&lt;h2&gt;2.1 Menyediakan Laman Web Anda﻿&lt;span class="hx:absolute hx:-mt-20" id="21-menyediakan-laman-web-anda"&gt;&lt;/span&gt;
+&lt;a href="#21-menyediakan-laman-web-anda" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;CP-Commerce menawarkan antara muka mesra pengguna untuk mengkonfigurasi laman web anda. Rujuk bahagian Konfigurasi Laman Web untuk arahan terperinci tentang menyediakan dan menyesuaikan laman web anda.&lt;/p&gt;
+&lt;h2&gt;2.2 Menyesuaikan Kandungan Laman Web﻿&lt;span class="hx:absolute hx:-mt-20" id="22-menyesuaikan-kandungan-laman-web"&gt;&lt;/span&gt;
+&lt;a href="#22-menyesuaikan-kandungan-laman-web" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Ketahui cara menyesuaikan kandungan laman web anda, termasuk penyenaraian produk, imej, penerangan, dan penetapan harga, untuk mewujudkan pengalaman membeli-belah dalam talian yang menarik bagi pelanggan anda.&lt;/p&gt;</description></item><item><title>B2B</title><link>https://www.bigledger.com/ms/modules/ecommerce/b2b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/b2b/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3153822181
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-06-05T09:01:05.690Z&lt;/p&gt;</description></item><item><title>CP-Commerce</title><link>https://www.bigledger.com/ms/modules/ecommerce/cp-commerce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/cp-commerce/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3153887626
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2024-11-17T11:04:53.671Z
+Modul CP-Commerce ialah penyelesaian berkuasa yang direka untuk membantu perniagaan menawarkan produk dan perkhidmatan dalam talian. Ia berfungsi sebagai platform bersepadu yang menggabungkan keupayaan eCommerce dengan pengurusan data berpusat dan integrasi lancar dengan pelbagai sistem perniagaan lain. Dengan menghapuskan kemasukan data berganda dan menyediakan fungsi tasik data operasi, CP-Commerce memperkasakan perniagaan untuk membina kehadiran dalam talian yang mantap dan mengembangkan operasi mereka.&lt;/p&gt;</description></item><item><title>Create Single Tab</title><link>https://www.bigledger.com/ms/modules/ecommerce/create-single-tab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/create-single-tab/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3196191946
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-06-18T06:09:58.079Z
+Create - digunakan untuk menyegerakkan item yang dipilih ke dalam kedai pasaran (marketplace). Create terdiri daripada 2 jenis:
+Create Single - digunakan apabila pengguna ingin menyegerakkan 1 (satu) item ke dalam pasaran
+Create single item terdiri daripada 2 tab:
+Store Tab - digunakan untuk memilih kedai yang ingin disegerakkan oleh pengguna di mana pengguna boleh memilih berbilang kedai.
+Setelah Store dipilih, pengguna perlu memilih kategori:
+2. Item Tab - digunakan untuk memilih item semasa yang sedang anda sunting dan ingin disegerakkan ke pasaran:
+Setelah kedai dan kategori dipilih, pengguna perlu menekan butang &amp;ldquo;start listing&amp;rdquo; yang akan membawa ke halaman ringkasan:
+Pengguna mesti klik pada item dan mengisi semua butiran atribut:
+Setelah pengguna selesai mengisi butiran atribut, mereka boleh klik pada butang &amp;ldquo;Submit&amp;rdquo; untuk menyegerakkan ke pasaran.&lt;/p&gt;</description></item><item><title>EcomSync Applet</title><link>https://www.bigledger.com/ms/modules/ecommerce/ecomsync-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/ecomsync-applet/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3259346357
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-07-23T05:51:22.732Z
+Kandungan
+Pengenalan kepada Ecomsync
+Ciri-ciri Ecomsync
+Penyelenggaraan Item
+Pesanan
+Senarai Pesanan
+Penapisan Pesanan
+Butiran Pesanan
+Papan Pemuka
+Papan Pemuka Utama
+Papan Pemuka Jualan
+Papan Pemuka Pesanan
+Tetapan
+Integrasi dengan Shopify&lt;/p&gt;</description></item><item><title>Ecomsync Features</title><link>https://www.bigledger.com/ms/modules/ecommerce/ecomsync-features/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/ecomsync-features/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3299247174
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-07-19T02:40:30.908Z
+Status Kesediaan: 5 - Terbaik mungkinHijau 4 - optimumKuning 3 - purataBiru 2 - kurang optimumUngu 1 - paling teruk mungkinMerah
+FASA 1
+1Modul
+Sub-Modul
+Applet Berkaitan
+Kesediaan
+2Integrasi Lazada
+Organisation Applet
+4 - optimumKuning
+3Pengurusan Produk
+Pemilihan Kod GL
+Doc Item Maintenance
+4 - optimumKuning&lt;br&gt;
+4Penjejakan inventori
+4 - optimumKuning&lt;br&gt;
+5Tambah butiran dimensi
+4 - optimumKuning&lt;br&gt;
+6Tambah imej produk
+4 - optimumKuning&lt;br&gt;
+7Pilih kategori imej
+4 - optimumKuning&lt;br&gt;
+8Pengurusan pasaran
+Tambah pasaran
+Organisation Applet
+4 - optimumKuning&lt;br&gt;
+9Pilih kategori item sebagai berkumpulan atau tunggal
+4 - optimumKuning&lt;br&gt;
+10Pilih item untuk disiarkan di pasaran
+4 - optimumKuning&lt;br&gt;
+11EMP Sync sebagai Sales Order (sistem ERP)
+EMP Sync
+4 - optimumKuning&lt;br&gt;
+12Penyegerakan Atribut Lazada
+Pilih kategori item Lazada
+4 - optimumKuning&lt;br&gt;
+13Isi medan atribut lazada mengikut kategori yang dipilih
+4 - optimumKuning&lt;br&gt;
+14Tambah lebih banyak imej dalam halaman atribut
+4 - optimumKuning&lt;br&gt;
+15Ketersediaan Stok / Pengurusan Inventori
+Konfigurasi stok automatik
+4 - optimumKuning&lt;br&gt;
+16Konfigurasi stok manual
+4 - optimumKuning&lt;br&gt;
+17Tetapkan jumlah penimbal stok
+4 - optimumKuning&lt;br&gt;
+18Pengurusan Sales Order
+Konfigurasi Active Sales Order
+4 - optimumKuning&lt;br&gt;
+19Konfigurasi SO Tidak Aktif
+4 - optimumKuning&lt;br&gt;
+20Konfigurasi SO aktif terpilih
+4 - optimumKuning&lt;br&gt;
+21Penyegerakan pesanan Lazada dari akaun Seller
+4 - optimumKuning&lt;br&gt;
+22Penapis status
+4 - optimumKuning&lt;br&gt;
+23Pilihan berbilang pesanan untuk cetakan Invois
+4 - optimumKuning&lt;br&gt;
+24Cetak label penghantaran
+4 - optimumKuning&lt;br&gt;
+25Cetak senarai pemetikan
+4 - optimumKuning&lt;br&gt;
+26Eksport Pesanan ke Excel
+4 - optimumKuning&lt;br&gt;
+27Cipta manifes
+4 - optimumKuning&lt;br&gt;
+28Lihat butiran Pesanan (Item, penghantaran, butiran pelanggan)
+4 - optimumKuning&lt;br&gt;
+29Papan Pemuka / Laporan
+Tapis papan pemuka mengikut 30 hari
+4 - optimumKuning&lt;br&gt;
+30Tapis papan pemuka mengikut 7 hari
+4 - optimumKuning&lt;br&gt;
+31Masukkan laporan tarikh tersuai
+4 - optimumKuning&lt;br&gt;
+32Lihat laporan jumlah jualan
+4 - optimumKuning&lt;br&gt;
+33Lihat laporan Jualan Harian mengikut kedai
+4 - optimumKuning&lt;br&gt;
+34Lihat jumlah pesanan
+4 - optimumKuning&lt;br&gt;
+35Lihat pesanan yang dibatalkan
+4 - optimumKuning&lt;br&gt;
+36Integrasi CP Commerce
+Menyatukan pesanan dari CP Commerce dalam Ecomsync
+4 - optimumKuning&lt;br&gt;
+37Urus baki stok dalam Ecomsync
+4 - optimumKuning&lt;br&gt;
+38FASA 2
+39Integrasi Shopee
+Sales Order, baki stok disegerakkan ke EMP
+Pengurusan atribut dan kategori dari Shopee ke Ecomsync
+Pemenuhan Stok / pesanan
+Pengurusan pesanan (Cipta Nota Konsainan, invois dll)
+40Integrasi Shopify
+Sales Order, baki stok disegerakkan ke EMP
+Pengurusan atribut dan kategori dari Shopify ke Ecomsync
+Pemenuhan Stok / pesanan
+Pengurusan pesanan (Cipta Nota Konsainan, invois dll)
+41Integrasi Zalora
+Sales Order, baki stok disegerakkan ke EMP
+Pengurusan atribut dan kategori dari Zalora ke Ecomsync
+Pemenuhan Stok / pesanan
+Pengurusan pesanan (Cipta Nota Konsainan, invois dll)
+42Integrasi OpenCart
+Sales Order, baki stok disegerakkan ke EMP
+Pengurusan atribut dan kategori dari OpenCart ke Ecomsync
+Pemenuhan Stok / pesanan
+Pengurusan pesanan (Cipta Nota Konsainan, invois dll)
+43Integrasi Magento
+Sales Order, baki stok disegerakkan ke EMP
+Pengurusan atribut dan kategori dari Magento ke Ecomsync
+Pemenuhan Stok / pesanan
+Pengurusan pesanan (Cipta Nota Konsainan, invois dll)
+44Jejak Audit
+45Pemenuhan stok&lt;/p&gt;</description></item><item><title>Integration with Shopify</title><link>https://www.bigledger.com/ms/modules/ecommerce/integration-with-shopify/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/integration-with-shopify/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3292758065
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-07-15T07:56:28.266Z
+langkah-langkah,..&lt;/p&gt;</description></item><item><title>Introduction to EcomSync</title><link>https://www.bigledger.com/ms/modules/ecommerce/introduction-to-ecomsync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/introduction-to-ecomsync/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3196485958
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-06-18T01:46:53.953Z&lt;/p&gt;
+&lt;h2&gt;Pengenalan&lt;span class="hx:absolute hx:-mt-20" id="pengenalan"&gt;&lt;/span&gt;
+&lt;a href="#pengenalan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;EcomSync Applet ialah applet yang membolehkan pengguna menyusun dan mengurus item/produk, pesanan mereka serta melihat prestasi pasaran mereka. Matlamat EcomSync Applet adalah untuk melengkapkan pengguna dengan pemahaman tentang cara mengurus aspek pasaran mereka.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.bigledger.com/diagrams/ecomsync-integration-flow.svg" alt="EcomSync Integration Flow" loading="lazy" /&gt;
+&lt;em&gt;Rajah 1: Seni Bina Integrasi EcomSync - menghubungkan BigLedger dengan pasaran utama Malaysia&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Anda boleh mengalami banyak manfaat daripada applet ini seperti dari perspektif pengurusan, EcomSync menyediakan kawalan yang lebih baik dan boleh dilaksanakan ke atas kedai penjual anda. Anda boleh menyegerakkan item ke dalam berbilang akaun penjual secara serentak. Selain itu, EcomSync bertindak sebagai perentak jantung yang membolehkan anda mengurus pesanan dan statusnya serta boleh dipautkan dengan Enterprise Management Portal (EMP) anda yang menjadikan proses pengurusan produk anda lebih mudah.&lt;/p&gt;
+&lt;h2&gt;Prasyarat&lt;span class="hx:absolute hx:-mt-20" id="prasyarat"&gt;&lt;/span&gt;
+&lt;a href="#prasyarat" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Untuk meneruskan dan memulakan EcomSync Applet, sila pastikan anda telah mencipta butiran organisasi dan cawangan dalam Organization Applet.&lt;/p&gt;
+&lt;h3&gt;Ciri Utama&lt;span class="hx:absolute hx:-mt-20" id="ciri-utama"&gt;&lt;/span&gt;
+&lt;a href="#ciri-utama" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pengurusan Berbilang Pasaran&lt;/strong&gt;: Sambung ke Shopee, Lazada, dan kedai tersuai&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Penyegerakan Masa Nyata&lt;/strong&gt;: Inventori, harga, dan pesanan disegerakkan secara automatik&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sokongan E-dagang Malaysia&lt;/strong&gt;: Dibina untuk kaedah pembayaran dan penghantaran tempatan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kawalan Berpusat&lt;/strong&gt;: Urus semua jualan dalam talian anda dari satu papan pemuka&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Listing</title><link>https://www.bigledger.com/ms/modules/ecommerce/listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/listing/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3196846319
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-06-18T02:06:35.534Z
+Listing menunjukkan semua Item anda yang disegerakkan dari EMP dan Pasaran. Di dalam listing, item boleh mempunyai 2 aras, di mana aras pertama ialah item yang disegerakkan dari EMP atau item yang dicipta sendiri oleh pengguna, dan aras ke-2 menunjukkan item yang disegerakkan ke pasaran:
+Pengguna boleh menyesuaikan listing AG-Grid, di mana mereka boleh mengalihkan dan menapis pengepala listing tersebut.&lt;/p&gt;</description></item><item><title>Marketplace Tab</title><link>https://www.bigledger.com/ms/modules/ecommerce/marketplace-tab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/marketplace-tab/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3196191832
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-07-23T05:24:07.943Z
+Marketplace Tab digunakan oleh Pengguna untuk Mencipta, Menyunting, Mengemas Kini dan Memadam Item yang akan disegerakkan ke dalam pasaran. Bahagian ini membolehkan anda memilih Jenis Item untuk dipaparkan dalam Pasaran.
+Klik Save. - Untuk Modul ini, setiap kali menyunting butiran Item merentasi tab, anda &amp;ldquo;MESTI KLIK SAVE&amp;rdquo;.&lt;/p&gt;</description></item><item><title>Update and Delete Item</title><link>https://www.bigledger.com/ms/modules/ecommerce/update-and-delete-item/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/update-and-delete-item/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3196191957
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-06-18T06:15:40.294Z
+Update/Delete Item - apabila pengguna ingin mengemas kini atau memadam item yang telah disegerakkan ke pasaran, mereka perlu pergi ke &amp;ldquo;Marketplace Tab&amp;rdquo;, pilih kedai daripada listing semasa dan kemas kini/padam item tersebut:&lt;/p&gt;</description></item><item><title>Konfigurasi Menu &amp; Halaman CP-Commerce</title><link>https://www.bigledger.com/ms/modules/ecommerce/cp-commerce-menu-pages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/cp-commerce-menu-pages/</guid><description>
+&lt;p&gt;CP-Commerce menyediakan alat yang fleksibel untuk mengurus menu navigasi dan halaman kandungan statik laman web e-dagang anda. Panduan ini merangkumi konfigurasi Modul Menu dan Modul Halaman.&lt;/p&gt;
+&lt;h2&gt;Modul Menu&lt;span class="hx:absolute hx:-mt-20" id="modul-menu"&gt;&lt;/span&gt;
+&lt;a href="#modul-menu" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Modul Menu mengawal struktur navigasi laman web CP-Commerce anda, membolehkan anda mencipta menu berhierarki dengan pelbagai jenis pautan.&lt;/p&gt;
+&lt;h3&gt;Memahami Struktur Menu&lt;span class="hx:absolute hx:-mt-20" id="memahami-struktur-menu"&gt;&lt;/span&gt;
+&lt;a href="#memahami-struktur-menu" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Item menu dalam CP-Commerce menyokong:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hierarki berbilang aras&lt;/strong&gt; - Cipta item menu induk dan anak&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pelbagai jenis pautan&lt;/strong&gt; - Pautkan ke halaman, produk, kategori, atau URL luaran&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kedudukan yang fleksibel&lt;/strong&gt; - Kawal susunan menu dan penyusunan bersarang&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paparan bersyarat&lt;/strong&gt; - Kawalan status Aktif/Tidak Aktif&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Paparan Senarai Menu&lt;span class="hx:absolute hx:-mt-20" id="paparan-senarai-menu"&gt;&lt;/span&gt;
+&lt;a href="#paparan-senarai-menu" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Senarai menu memaparkan:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Lajur&lt;/th&gt;
+&lt;th&gt;Penerangan&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Tajuk&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Nama item menu yang dipaparkan kepada pengguna&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Aras Menu&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Aras hierarki (1 = aras atas, 2 = sub-menu, dsb.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Dipaut&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Jenis pautan dan destinasi&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Aktif atau Tidak Aktif&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Tindakan&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Sunting, Padam, Susun Semula&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Mencipta Item Menu&lt;span class="hx:absolute hx:-mt-20" id="mencipta-item-menu"&gt;&lt;/span&gt;
+&lt;a href="#mencipta-item-menu" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Langkah 1: Maklumat Asas&lt;span class="hx:absolute hx:-mt-20" id="langkah-1-maklumat-asas"&gt;&lt;/span&gt;
+&lt;a href="#langkah-1-maklumat-asas" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Navigasi ke &lt;strong&gt;CP-Commerce&lt;/strong&gt; &amp;gt; &lt;strong&gt;Modul Menu&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Klik &lt;strong&gt;&amp;ldquo;Cipta Item Menu Baharu&amp;rdquo;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Isikan medan yang diperlukan:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Tajuk&lt;/strong&gt;: Nama paparan untuk item menu&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pastikan ia ringkas dan deskriptif&lt;/li&gt;
+&lt;li&gt;Gunakan perkataan tindakan untuk UX yang lebih baik (cth., &amp;ldquo;Beli Sekarang&amp;rdquo;, &amp;ldquo;Lihat Kategori&amp;rdquo;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Langkah 2: Konfigurasikan Jenis Pautan&lt;span class="hx:absolute hx:-mt-20" id="langkah-2-konfigurasikan-jenis-pautan"&gt;&lt;/span&gt;
+&lt;a href="#langkah-2-konfigurasikan-jenis-pautan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Jenis Pautan&lt;/strong&gt; menentukan tingkah laku item menu:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Jenis&lt;/th&gt;
+&lt;th&gt;Penerangan&lt;/th&gt;
+&lt;th&gt;Kes Penggunaan&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Halaman&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Memaut ke halaman statik yang dicipta dalam Modul Halaman&lt;/td&gt;
+&lt;td&gt;Tentang Kami, Terma, Privasi&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Produk&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Pautan terus ke produk tertentu&lt;/td&gt;
+&lt;td&gt;Item pilihan, Terlaris&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Kategori Produk&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Memaut ke senarai kategori&lt;/td&gt;
+&lt;td&gt;Beli mengikut Jabatan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Kategori Kandungan&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Memaut ke koleksi kandungan&lt;/td&gt;
+&lt;td&gt;Blog, Berita, Sumber&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Pautan Luaran&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Memaut ke URL luaran atau halaman tersuai&lt;/td&gt;
+&lt;td&gt;Media sosial, Laman rakan kongsi&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;Langkah 3: Konfigurasi Pautan&lt;span class="hx:absolute hx:-mt-20" id="langkah-3-konfigurasi-pautan"&gt;&lt;/span&gt;
+&lt;a href="#langkah-3-konfigurasi-pautan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Berdasarkan Jenis Pautan yang dipilih:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Untuk Halaman&lt;/strong&gt;: Pilih daripada senarai juntai bawah halaman yang dicipta&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Untuk Produk&lt;/strong&gt;: Cari dan pilih produk tertentu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Untuk Kategori Produk&lt;/strong&gt;: Pilih daripada pepohon kategori&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Untuk Kategori Kandungan&lt;/strong&gt;: Pilih kategori kandungan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Untuk Pautan Luaran&lt;/strong&gt;: Masukkan URL penuh (https://&amp;hellip;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Langkah 4: Tetapan Paparan&lt;span class="hx:absolute hx:-mt-20" id="langkah-4-tetapan-paparan"&gt;&lt;/span&gt;
+&lt;a href="#langkah-4-tetapan-paparan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Status&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Aktif - Item menu kelihatan&lt;/li&gt;
+&lt;li&gt;Tidak Aktif - Tersembunyi daripada laman web&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Jenis Ubah Hala&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tetingkap Sama - Membuka dalam tab semasa (lalai)&lt;/li&gt;
+&lt;li&gt;Tetingkap Baharu - Membuka dalam tab baharu (untuk pautan luaran)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Langkah 5: Hierarki Menu&lt;span class="hx:absolute hx:-mt-20" id="langkah-5-hierarki-menu"&gt;&lt;/span&gt;
+&lt;a href="#langkah-5-hierarki-menu" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Sarangkan Item Menu&lt;/strong&gt;: Tandakan untuk menjadikan ini item sub-menu&lt;/p&gt;
+&lt;p&gt;Jika penyusunan bersarang didayakan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Menu Induk&lt;/strong&gt;: Pilih item menu induk&lt;/li&gt;
+&lt;li&gt;Item akan muncul sebagai juntai bawah di bawah induk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Contoh Hierarki Menu&lt;span class="hx:absolute hx:-mt-20" id="contoh-hierarki-menu"&gt;&lt;/span&gt;
+&lt;a href="#contoh-hierarki-menu" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Home (Level 1)
+Shop (Level 1)
+├── Electronics (Level 2)
+│ ├── Computers (Level 3)
+│ ├── Mobile Phones (Level 3)
+│ └── Accessories (Level 3)
+├── Fashion (Level 2)
+│ ├── Men&amp;#39;s Clothing (Level 3)
+│ └── Women&amp;#39;s Clothing (Level 3)
+└── Clearance (Level 2)
+About Us (Level 1)
+Contact (Level 1)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Modul Halaman&lt;span class="hx:absolute hx:-mt-20" id="modul-halaman"&gt;&lt;/span&gt;
+&lt;a href="#modul-halaman" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Modul Halaman membolehkan penciptaan halaman kandungan statik untuk laman web CP-Commerce anda, sesuai untuk halaman maklumat, dasar, dan kandungan tersuai.&lt;/p&gt;
+&lt;h3&gt;Mencipta Halaman Statik&lt;span class="hx:absolute hx:-mt-20" id="mencipta-halaman-statik"&gt;&lt;/span&gt;
+&lt;a href="#mencipta-halaman-statik" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Langkah 1: Persediaan Halaman&lt;span class="hx:absolute hx:-mt-20" id="langkah-1-persediaan-halaman"&gt;&lt;/span&gt;
+&lt;a href="#langkah-1-persediaan-halaman" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Navigasi ke &lt;strong&gt;CP-Commerce&lt;/strong&gt; &amp;gt; &lt;strong&gt;Modul Halaman&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Klik &lt;strong&gt;&amp;ldquo;Cipta Halaman Baharu&amp;rdquo;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Langkah 2: Konfigurasi Halaman&lt;span class="hx:absolute hx:-mt-20" id="langkah-2-konfigurasi-halaman"&gt;&lt;/span&gt;
+&lt;a href="#langkah-2-konfigurasi-halaman" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Tajuk&lt;/strong&gt;: Tajuk halaman&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dipaparkan dalam tab pelayar&lt;/li&gt;
+&lt;li&gt;Digunakan dalam pengepala halaman&lt;/li&gt;
+&lt;li&gt;Penting untuk SEO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Kunci URL&lt;/strong&gt;: Alamat web halaman&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mesti unik&lt;/li&gt;
+&lt;li&gt;Gunakan huruf kecil dan tanda sempang&lt;/li&gt;
+&lt;li&gt;Contoh: &lt;code&gt;about-us&lt;/code&gt;, &lt;code&gt;return-policy&lt;/code&gt;, &lt;code&gt;shipping-info&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Status&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Aktif - Halaman boleh diakses&lt;/li&gt;
+&lt;li&gt;Tidak Aktif - Halaman tersembunyi (berguna untuk draf)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Kategori Kandungan&lt;/strong&gt;: (Pilihan)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kumpulkan halaman berkaitan&lt;/li&gt;
+&lt;li&gt;Membantu dalam penyusunan&lt;/li&gt;
+&lt;li&gt;Boleh digunakan untuk menu automatik&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Langkah 3: Kandungan Halaman&lt;span class="hx:absolute hx:-mt-20" id="langkah-3-kandungan-halaman"&gt;&lt;/span&gt;
+&lt;a href="#langkah-3-kandungan-halaman" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Penyunting Kandungan&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Menyokong HTML dan teks biasa&lt;/li&gt;
+&lt;li&gt;Pemformatan teks kaya tersedia&lt;/li&gt;
+&lt;li&gt;Boleh merangkumi:
+&lt;ul&gt;
+&lt;li&gt;Teks dan tajuk&lt;/li&gt;
+&lt;li&gt;Imej dan media&lt;/li&gt;
+&lt;li&gt;Jadual dan senarai&lt;/li&gt;
+&lt;li&gt;HTML/CSS tersuai&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Halaman Statik Lazim&lt;span class="hx:absolute hx:-mt-20" id="halaman-statik-lazim"&gt;&lt;/span&gt;
+&lt;a href="#halaman-statik-lazim" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Halaman Penting&lt;span class="hx:absolute hx:-mt-20" id="halaman-penting"&gt;&lt;/span&gt;
+&lt;a href="#halaman-penting" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Tentang Kami&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sejarah syarikat&lt;/li&gt;
+&lt;li&gt;Misi dan nilai&lt;/li&gt;
+&lt;li&gt;Maklumat pasukan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Terma &amp;amp; Syarat&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Terma perkhidmatan&lt;/li&gt;
+&lt;li&gt;Perjanjian pengguna&lt;/li&gt;
+&lt;li&gt;Penafian undang-undang&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Dasar Privasi&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Amalan pengumpulan data&lt;/li&gt;
+&lt;li&gt;Hak pengguna&lt;/li&gt;
+&lt;li&gt;Dasar kuki&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Maklumat Penghantaran&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zon penghantaran&lt;/li&gt;
+&lt;li&gt;Kadar penghantaran&lt;/li&gt;
+&lt;li&gt;Anggaran masa&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Dasar Pemulangan&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Syarat pemulangan&lt;/li&gt;
+&lt;li&gt;Langkah proses&lt;/li&gt;
+&lt;li&gt;Garis masa bayaran balik&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Halaman Pemasaran&lt;span class="hx:absolute hx:-mt-20" id="halaman-pemasaran"&gt;&lt;/span&gt;
+&lt;a href="#halaman-pemasaran" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Halaman Pendaratan&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kandungan khusus kempen&lt;/li&gt;
+&lt;li&gt;Pelancaran produk&lt;/li&gt;
+&lt;li&gt;Promosi bermusim&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Halaman Soalan Lazim&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Soalan lazim&lt;/li&gt;
+&lt;li&gt;Panduan produk&lt;/li&gt;
+&lt;li&gt;Maklumat sokongan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Amalan Terbaik Kandungan&lt;span class="hx:absolute hx:-mt-20" id="amalan-terbaik-kandungan"&gt;&lt;/span&gt;
+&lt;a href="#amalan-terbaik-kandungan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Pengoptimuman SEO&lt;span class="hx:absolute hx:-mt-20" id="pengoptimuman-seo"&gt;&lt;/span&gt;
+&lt;a href="#pengoptimuman-seo" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Gunakan tajuk deskriptif dengan kata kunci&lt;/li&gt;
+&lt;li&gt;Cipta kunci URL yang unik&lt;/li&gt;
+&lt;li&gt;Sertakan penerangan meta&lt;/li&gt;
+&lt;li&gt;Gunakan hierarki tajuk yang betul (H1, H2, H3)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Struktur Kandungan&lt;span class="hx:absolute hx:-mt-20" id="struktur-kandungan"&gt;&lt;/span&gt;
+&lt;a href="#struktur-kandungan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;h1&lt;/span&gt;&amp;gt;Page Title&amp;lt;/&lt;span style="color:#f92672"&gt;h1&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;p&lt;/span&gt;&amp;gt;Introduction paragraph...&amp;lt;/&lt;span style="color:#f92672"&gt;p&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;h2&lt;/span&gt;&amp;gt;Section Heading&amp;lt;/&lt;span style="color:#f92672"&gt;h2&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;p&lt;/span&gt;&amp;gt;Section content...&amp;lt;/&lt;span style="color:#f92672"&gt;p&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;h3&lt;/span&gt;&amp;gt;Subsection&amp;lt;/&lt;span style="color:#f92672"&gt;h3&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;ul&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &amp;lt;&lt;span style="color:#f92672"&gt;li&lt;/span&gt;&amp;gt;Point 1&amp;lt;/&lt;span style="color:#f92672"&gt;li&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &amp;lt;&lt;span style="color:#f92672"&gt;li&lt;/span&gt;&amp;gt;Point 2&amp;lt;/&lt;span style="color:#f92672"&gt;li&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt;/&lt;span style="color:#f92672"&gt;ul&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;Keresponsifan Mudah Alih&lt;span class="hx:absolute hx:-mt-20" id="keresponsifan-mudah-alih"&gt;&lt;/span&gt;
+&lt;a href="#keresponsifan-mudah-alih" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Uji kandungan pada peranti mudah alih&lt;/li&gt;
+&lt;li&gt;Gunakan imej responsif&lt;/li&gt;
+&lt;li&gt;Elakkan jadual yang rumit&lt;/li&gt;
+&lt;li&gt;Pastikan perenggan pendek&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Petua Integrasi&lt;span class="hx:absolute hx:-mt-20" id="petua-integrasi"&gt;&lt;/span&gt;
+&lt;a href="#petua-integrasi" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Memautkan Menu ke Halaman&lt;span class="hx:absolute hx:-mt-20" id="memautkan-menu-ke-halaman"&gt;&lt;/span&gt;
+&lt;a href="#memautkan-menu-ke-halaman" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Cipta halaman terlebih dahulu dalam Modul Halaman&lt;/li&gt;
+&lt;li&gt;Tetapkan status halaman kepada Aktif&lt;/li&gt;
+&lt;li&gt;Cipta item menu dengan Jenis Pautan = Halaman&lt;/li&gt;
+&lt;li&gt;Pilih halaman yang dicipta daripada senarai juntai bawah&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Integrasi Kandungan Dinamik&lt;span class="hx:absolute hx:-mt-20" id="integrasi-kandungan-dinamik"&gt;&lt;/span&gt;
+&lt;a href="#integrasi-kandungan-dinamik" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Walaupun Modul Halaman mencipta kandungan statik, anda boleh mempertingkatkannya dengan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Widget produk&lt;/li&gt;
+&lt;li&gt;Senarai kategori&lt;/li&gt;
+&lt;li&gt;Borang pendaftaran surat berita&lt;/li&gt;
+&lt;li&gt;Borang hubungan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sokongan Berbilang Bahasa&lt;span class="hx:absolute hx:-mt-20" id="sokongan-berbilang-bahasa"&gt;&lt;/span&gt;
+&lt;a href="#sokongan-berbilang-bahasa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Untuk laman berbilang bahasa:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Cipta halaman berasingan untuk setiap bahasa&lt;/li&gt;
+&lt;li&gt;Gunakan kunci URL khusus bahasa&lt;/li&gt;
+&lt;li&gt;Susun dengan kategori kandungan mengikut bahasa&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Penyelesaian Masalah&lt;span class="hx:absolute hx:-mt-20" id="penyelesaian-masalah"&gt;&lt;/span&gt;
+&lt;a href="#penyelesaian-masalah" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Menu Tidak Muncul&lt;span class="hx:absolute hx:-mt-20" id="menu-tidak-muncul"&gt;&lt;/span&gt;
+&lt;a href="#menu-tidak-muncul" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Semak status menu adalah Aktif&lt;/li&gt;
+&lt;li&gt;Sahkan menu induk (jika bersarang) adalah Aktif&lt;/li&gt;
+&lt;li&gt;Kosongkan cache laman web&lt;/li&gt;
+&lt;li&gt;Semak kebenaran pengguna&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Halaman Tidak Ditemui (404)&lt;span class="hx:absolute hx:-mt-20" id="halaman-tidak-ditemui-404"&gt;&lt;/span&gt;
+&lt;a href="#halaman-tidak-ditemui-404" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Sahkan kunci URL adalah betul&lt;/li&gt;
+&lt;li&gt;Pastikan status halaman adalah Aktif&lt;/li&gt;
+&lt;li&gt;Semak kunci URL yang berganda&lt;/li&gt;
+&lt;li&gt;Kosongkan cache pelayar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Kandungan Tidak Dikemas Kini&lt;span class="hx:absolute hx:-mt-20" id="kandungan-tidak-dikemas-kini"&gt;&lt;/span&gt;
+&lt;a href="#kandungan-tidak-dikemas-kini" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Kosongkan cache CP-Commerce&lt;/li&gt;
+&lt;li&gt;Semak sama ada perubahan telah disimpan&lt;/li&gt;
+&lt;li&gt;Sahkan anda menyunting halaman yang betul&lt;/li&gt;
+&lt;li&gt;Cuba muat semula keras (Ctrl+F5)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Dokumentasi Berkaitan&lt;span class="hx:absolute hx:-mt-20" id="dokumentasi-berkaitan"&gt;&lt;/span&gt;
+&lt;a href="#dokumentasi-berkaitan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/modules/ecommerce/cp-commerce/" &gt;Gambaran Keseluruhan CP-Commerce&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/modules/ecommerce/website-configuration/" &gt;Konfigurasi Laman Web&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/modules/ecommerce/" &gt;Integrasi E-Dagang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/" &gt;Amalan Terbaik Pengurusan Kandungan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Pengurusan Hubungan Pelanggan (CRM)</title><link>https://www.bigledger.com/ms/modules/crm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/crm/</guid><description>
 &lt;h1&gt;Modul Pengurusan Hubungan Pelanggan (CRM)&lt;/h1&gt;&lt;h2&gt;Gambaran Keseluruhan&lt;span class="hx:absolute hx:-mt-20" id="gambaran-keseluruhan"&gt;&lt;/span&gt;
 &lt;a href="#gambaran-keseluruhan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Modul CRM BigLedger menyediakan penyelesaian komprehensif untuk mengurus hubungan pelanggan, pipeline jualan, dan kempen pemasaran. Dibina untuk membantu perniagaan memahami, melibatkan, dan mengekalkan pelanggan dengan lebih berkesan, ia bersepadu dengan lancar dengan semua modul BigLedger lain.&lt;/p&gt;
 &lt;h2&gt;Ciri-ciri Utama&lt;span class="hx:absolute hx:-mt-20" id="ciri-ciri-utama"&gt;&lt;/span&gt;
@@ -276,4 +804,516 @@ title="Copy code"
 &lt;li&gt;📊 &lt;a href="https://www.bigledger.com/templates/crm/" &gt;Templat Laporan&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;💬 &lt;a href="https://forum.bigledger.com/crm" target="_blank" rel="noopener"&gt;Forum Komuniti&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;📧 &lt;a href="mailto:crm-support@bigledger.com" &gt;Sokongan&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item></channel></rss>
+&lt;/ul&gt;</description></item><item><title>Pengurusan Kumpulan Kategori</title><link>https://www.bigledger.com/ms/modules/inventory/category-groups/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/inventory/category-groups/</guid><description>
+&lt;p&gt;Kumpulan Kategori menyediakan struktur berhierarki untuk menyusun kategori inventori anda dalam BigLedger. Sistem ini membantu mengekalkan konsistensi merentasi katalog produk anda dan memudahkan pengurusan inventori.&lt;/p&gt;
+&lt;h2&gt;Gambaran Keseluruhan&lt;span class="hx:absolute hx:-mt-20" id="gambaran-keseluruhan"&gt;&lt;/span&gt;
+&lt;a href="#gambaran-keseluruhan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Di bawah kumpulan kategori, pengguna boleh mencipta dan menyunting kategori serta menentukan hubungan antara kumpulan kategori dan kategori individu. Apabila mencipta item dalam menu Item, anda menentukan penetapan kategorinya.&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;Nota&lt;/strong&gt;: Kumpulan kategori dan kategori item boleh diurus daripada kedua-dua applet Document Item Maintenance dan Inventory Item Maintenance. Setiap kategori dipautkan ke Kumpulan Kategori untuk penyusunan yang lebih baik.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Mencipta Kumpulan Kategori&lt;span class="hx:absolute hx:-mt-20" id="mencipta-kumpulan-kategori"&gt;&lt;/span&gt;
+&lt;a href="#mencipta-kumpulan-kategori" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Langkah 1: Akses Kumpulan Kategori&lt;span class="hx:absolute hx:-mt-20" id="langkah-1-akses-kumpulan-kategori"&gt;&lt;/span&gt;
+&lt;a href="#langkah-1-akses-kumpulan-kategori" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Navigasi ke &lt;strong&gt;Inventori&lt;/strong&gt; &amp;gt; &lt;strong&gt;Kumpulan Kategori&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Klik butang &lt;strong&gt;&amp;quot;+&amp;quot;&lt;/strong&gt; untuk mencipta kumpulan kategori baharu&lt;/li&gt;
+&lt;li&gt;Bekas ketiga akan terbuka untuk penciptaan kumpulan kategori&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Langkah 2: Isikan Butiran Kumpulan Kategori&lt;span class="hx:absolute hx:-mt-20" id="langkah-2-isikan-butiran-kumpulan-kategori"&gt;&lt;/span&gt;
+&lt;a href="#langkah-2-isikan-butiran-kumpulan-kategori" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Lengkapkan medan yang diperlukan ini dalam tab utama:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Medan&lt;/th&gt;
+&lt;th&gt;Penerangan&lt;/th&gt;
+&lt;th&gt;Contoh&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Kod Kumpulan Kategori&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Pengecam unik untuk kumpulan&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;ELEC&lt;/code&gt;, &lt;code&gt;FURN&lt;/code&gt;, &lt;code&gt;FOOD&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Nama Kumpulan Kategori&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Nama deskriptif untuk kumpulan&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Electronics&lt;/code&gt;, &lt;code&gt;Furniture&lt;/code&gt;, &lt;code&gt;Food &amp;amp; Beverage&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Jenis&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Jenis klasifikasi&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Product&lt;/code&gt;, &lt;code&gt;Service&lt;/code&gt;, &lt;code&gt;Raw Material&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Kod Param&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Kod parameter untuk integrasi sistem&lt;/td&gt;
+&lt;td&gt;Pilihan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Nama Param&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Penerangan parameter&lt;/td&gt;
+&lt;td&gt;Pilihan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Status Aktif/Tidak Aktif&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Active&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Langkah 3: Simpan Kumpulan Kategori&lt;span class="hx:absolute hx:-mt-20" id="langkah-3-simpan-kumpulan-kategori"&gt;&lt;/span&gt;
+&lt;a href="#langkah-3-simpan-kumpulan-kategori" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Klik &lt;strong&gt;Simpan&lt;/strong&gt; untuk mencipta kumpulan kategori. Sistem akan mengesahkan kod berganda dan medan yang diperlukan.&lt;/p&gt;
+&lt;h2&gt;Menyunting Kumpulan Kategori&lt;span class="hx:absolute hx:-mt-20" id="menyunting-kumpulan-kategori"&gt;&lt;/span&gt;
+&lt;a href="#menyunting-kumpulan-kategori" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Mengakses Mod Sunting&lt;span class="hx:absolute hx:-mt-20" id="mengakses-mod-sunting"&gt;&lt;/span&gt;
+&lt;a href="#mengakses-mod-sunting" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Klik pada mana-mana kumpulan kategori dalam senarai&lt;/li&gt;
+&lt;li&gt;Bekas kedua terbuka dengan butiran kumpulan kategori&lt;/li&gt;
+&lt;li&gt;Dua tab tersedia untuk penyuntingan&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Tab Utama&lt;span class="hx:absolute hx:-mt-20" id="tab-utama"&gt;&lt;/span&gt;
+&lt;a href="#tab-utama" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Tab Utama memaparkan semua maklumat yang dimasukkan semasa penciptaan kategori:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sunting sifat kumpulan kategori&lt;/li&gt;
+&lt;li&gt;Kemas kini status (Aktif/Tidak Aktif)&lt;/li&gt;
+&lt;li&gt;Padam kumpulan kategori (jika tiada kategori dipautkan)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;Awas&lt;/strong&gt;: Memadam kumpulan kategori akan menjejaskan semua kategori yang dipautkan. Pastikan tiada item aktif menggunakan kategori ini sebelum pemadaman.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;Tab Kategori&lt;span class="hx:absolute hx:-mt-20" id="tab-kategori"&gt;&lt;/span&gt;
+&lt;a href="#tab-kategori" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Tab Kategori menunjukkan semua kategori yang dipautkan dalam kumpulan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lihat semua kategori dalam kumpulan&lt;/li&gt;
+&lt;li&gt;Tambah kategori baharu&lt;/li&gt;
+&lt;li&gt;Sunting kategori sedia ada&lt;/li&gt;
+&lt;li&gt;Buang kaitan kategori&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Mengurus Kategori&lt;span class="hx:absolute hx:-mt-20" id="mengurus-kategori"&gt;&lt;/span&gt;
+&lt;a href="#mengurus-kategori" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Mencipta Kategori&lt;span class="hx:absolute hx:-mt-20" id="mencipta-kategori"&gt;&lt;/span&gt;
+&lt;a href="#mencipta-kategori" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Untuk menambah kategori ke kumpulan:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Buka kumpulan kategori&lt;/li&gt;
+&lt;li&gt;Navigasi ke tab &lt;strong&gt;Kategori&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Klik butang &lt;strong&gt;&amp;quot;+&amp;quot;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Isikan butiran kategori:
+&lt;ul&gt;
+&lt;li&gt;Kod Kategori&lt;/li&gt;
+&lt;li&gt;Nama Kategori&lt;/li&gt;
+&lt;li&gt;Penerangan&lt;/li&gt;
+&lt;li&gt;Susunan Isih&lt;/li&gt;
+&lt;li&gt;Status&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Menyunting/Memadam Kategori&lt;span class="hx:absolute hx:-mt-20" id="menyuntingmemadam-kategori"&gt;&lt;/span&gt;
+&lt;a href="#menyuntingmemadam-kategori" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Akses butiran kategori dengan mengklik mana-mana kategori dalam senarai:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Tab Utama&lt;/strong&gt;: Sunting sifat kategori&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kemas kini maklumat kategori&lt;/li&gt;
+&lt;li&gt;Tukar status&lt;/li&gt;
+&lt;li&gt;Padam kategori&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Tab Urus Imej&lt;/strong&gt;: Uruskan imej kategori&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Muat naik imej kategori&lt;/li&gt;
+&lt;li&gt;Gantikan imej sedia ada&lt;/li&gt;
+&lt;li&gt;Sokongan untuk pelbagai format imej (JPG, PNG, GIF)&lt;/li&gt;
+&lt;li&gt;Saiz imej disyorkan: 500x500 piksel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Amalan Terbaik&lt;span class="hx:absolute hx:-mt-20" id="amalan-terbaik"&gt;&lt;/span&gt;
+&lt;a href="#amalan-terbaik" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Konvensyen Penamaan&lt;span class="hx:absolute hx:-mt-20" id="konvensyen-penamaan"&gt;&lt;/span&gt;
+&lt;a href="#konvensyen-penamaan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Gunakan corak pengekodan yang konsisten (cth., &lt;code&gt;ELEC-001&lt;/code&gt;, &lt;code&gt;ELEC-002&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Pastikan nama deskriptif tetapi ringkas&lt;/li&gt;
+&lt;li&gt;Elakkan aksara khas dalam kod&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Hierarki Kategori&lt;span class="hx:absolute hx:-mt-20" id="hierarki-kategori"&gt;&lt;/span&gt;
+&lt;a href="#hierarki-kategori" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Contoh struktur:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Electronics (ELEC)
+├── Computers (ELEC-COMP)
+│ ├── Laptops (ELEC-COMP-LAP)
+│ ├── Desktops (ELEC-COMP-DSK)
+│ └── Tablets (ELEC-COMP-TAB)
+├── Mobile Devices (ELEC-MOB)
+│ ├── Smartphones (ELEC-MOB-PHN)
+│ └── Accessories (ELEC-MOB-ACC)
+└── Audio/Video (ELEC-AV)
+├── Televisions (ELEC-AV-TV)
+└── Sound Systems (ELEC-AV-SND)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;Petua Penyelenggaraan&lt;span class="hx:absolute hx:-mt-20" id="petua-penyelenggaraan"&gt;&lt;/span&gt;
+&lt;a href="#petua-penyelenggaraan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Semakan Berkala&lt;/strong&gt;: Semak struktur kategori secara berkala&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Penyatuan&lt;/strong&gt;: Cantumkan kategori serupa untuk mengelakkan pertindihan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dokumentasi&lt;/strong&gt;: Kekalkan panduan kategori untuk rujukan kakitangan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Latihan&lt;/strong&gt;: Pastikan kakitangan memahami peraturan penetapan kategori&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Integrasi dengan Modul Lain&lt;span class="hx:absolute hx:-mt-20" id="integrasi-dengan-modul-lain"&gt;&lt;/span&gt;
+&lt;a href="#integrasi-dengan-modul-lain" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Kumpulan Kategori berintegrasi dengan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pengurusan Inventori&lt;/strong&gt;: Klasifikasi produk&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pembelian&lt;/strong&gt;: Keutamaan kategori pembekal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jualan&lt;/strong&gt;: Promosi berasaskan kategori&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pelaporan&lt;/strong&gt;: Analisis prestasi kategori&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;E-Dagang&lt;/strong&gt;: Navigasi kedai dalam talian&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Kes Penggunaan Lazim&lt;span class="hx:absolute hx:-mt-20" id="kes-penggunaan-lazim"&gt;&lt;/span&gt;
+&lt;a href="#kes-penggunaan-lazim" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Operasi Runcit&lt;span class="hx:absolute hx:-mt-20" id="operasi-runcit"&gt;&lt;/span&gt;
+&lt;a href="#operasi-runcit" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Pengkategorian berasaskan jabatan&lt;/li&gt;
+&lt;li&gt;Pengumpulan produk bermusim&lt;/li&gt;
+&lt;li&gt;Penyusunan berasaskan jenama&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Pembuatan&lt;span class="hx:absolute hx:-mt-20" id="pembuatan"&gt;&lt;/span&gt;
+&lt;a href="#pembuatan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Klasifikasi bahan mentah&lt;/li&gt;
+&lt;li&gt;Pengkategorian barangan siap&lt;/li&gt;
+&lt;li&gt;Pengumpulan komponen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Perkhidmatan&lt;span class="hx:absolute hx:-mt-20" id="perkhidmatan"&gt;&lt;/span&gt;
+&lt;a href="#perkhidmatan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Pengkategorian jenis perkhidmatan&lt;/li&gt;
+&lt;li&gt;Pengumpulan berasaskan kemahiran&lt;/li&gt;
+&lt;li&gt;Klasifikasi perkhidmatan berasaskan masa&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Penyelesaian Masalah&lt;span class="hx:absolute hx:-mt-20" id="penyelesaian-masalah"&gt;&lt;/span&gt;
+&lt;a href="#penyelesaian-masalah" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Tidak Dapat Memadam Kumpulan Kategori&lt;span class="hx:absolute hx:-mt-20" id="tidak-dapat-memadam-kumpulan-kategori"&gt;&lt;/span&gt;
+&lt;a href="#tidak-dapat-memadam-kumpulan-kategori" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Semak kategori yang dipautkan&lt;/li&gt;
+&lt;li&gt;Sahkan tiada item aktif menggunakan kategori tersebut&lt;/li&gt;
+&lt;li&gt;Semak sebarang transaksi yang belum selesai&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Kategori Tidak Muncul dalam Penciptaan Item&lt;span class="hx:absolute hx:-mt-20" id="kategori-tidak-muncul-dalam-penciptaan-item"&gt;&lt;/span&gt;
+&lt;a href="#kategori-tidak-muncul-dalam-penciptaan-item" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Sahkan status kategori adalah Aktif&lt;/li&gt;
+&lt;li&gt;Semak status kumpulan kategori&lt;/li&gt;
+&lt;li&gt;Sahkan kebenaran pengguna&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Isu Muat Naik Imej&lt;span class="hx:absolute hx:-mt-20" id="isu-muat-naik-imej"&gt;&lt;/span&gt;
+&lt;a href="#isu-muat-naik-imej" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Semak format fail (JPG, PNG, GIF)&lt;/li&gt;
+&lt;li&gt;Sahkan saiz fail (&amp;lt; 5MB disyorkan)&lt;/li&gt;
+&lt;li&gt;Kosongkan cache pelayar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Dokumentasi Berkaitan&lt;span class="hx:absolute hx:-mt-20" id="dokumentasi-berkaitan"&gt;&lt;/span&gt;
+&lt;a href="#dokumentasi-berkaitan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/item-maintenance/" &gt;Penyelenggaraan Item&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/document-item-types/" &gt;Jenis Item Dokumen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/modules/inventory/" &gt;Pengurusan Inventori&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/price-book/" &gt;Konfigurasi Buku Harga&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Perolehan</title><link>https://www.bigledger.com/ms/modules/procurement/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/procurement/</guid><description>
+&lt;h2&gt;Gambaran Keseluruhan&lt;span class="hx:absolute hx:-mt-20" id="gambaran-keseluruhan"&gt;&lt;/span&gt;
+&lt;a href="#gambaran-keseluruhan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Modul Perolehan BigLedger memperkemas keseluruhan proses beli-hingga-bayar anda, daripada permintaan sehingga pembayaran. Ia membantu organisasi mengurangkan kos, memperbaik hubungan pembekal, dan memastikan pematuhan terhadap dasar pembelian.&lt;/p&gt;
+&lt;h2&gt;Ciri Utama&lt;span class="hx:absolute hx:-mt-20" id="ciri-utama"&gt;&lt;/span&gt;
+&lt;a href="#ciri-utama" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Permintaan Pembelian&lt;span class="hx:absolute hx:-mt-20" id="permintaan-pembelian"&gt;&lt;/span&gt;
+&lt;a href="#permintaan-pembelian" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Aliran kerja kelulusan pelbagai peringkat&lt;/li&gt;
+&lt;li&gt;Pengesahan bajet&lt;/li&gt;
+&lt;li&gt;Pesanan berasaskan katalog&lt;/li&gt;
+&lt;li&gt;Templat permintaan&lt;/li&gt;
+&lt;li&gt;Kelulusan mudah alih&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Pesanan Pembelian&lt;span class="hx:absolute hx:-mt-20" id="pesanan-pembelian"&gt;&lt;/span&gt;
+&lt;a href="#pesanan-pembelian" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Penjanaan PO automatik&lt;/li&gt;
+&lt;li&gt;RFQ pelbagai vendor&lt;/li&gt;
+&lt;li&gt;Pesanan pukal&lt;/li&gt;
+&lt;li&gt;Pengurusan kontrak&lt;/li&gt;
+&lt;li&gt;Penjejakan pesanan perubahan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Pengurusan Vendor&lt;span class="hx:absolute hx:-mt-20" id="pengurusan-vendor"&gt;&lt;/span&gt;
+&lt;a href="#pengurusan-vendor" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Pendaftaran vendor&lt;/li&gt;
+&lt;li&gt;Kad skor prestasi&lt;/li&gt;
+&lt;li&gt;Penjejakan pematuhan&lt;/li&gt;
+&lt;li&gt;Penilaian risiko&lt;/li&gt;
+&lt;li&gt;Portal vendor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Penerimaan &amp;amp; Pemeriksaan&lt;span class="hx:absolute hx:-mt-20" id="penerimaan--pemeriksaan"&gt;&lt;/span&gt;
+&lt;a href="#penerimaan--pemeriksaan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Padanan tiga hala&lt;/li&gt;
+&lt;li&gt;Kawalan kualiti&lt;/li&gt;
+&lt;li&gt;Pengurusan pemulangan&lt;/li&gt;
+&lt;li&gt;Percanggahan resit&lt;/li&gt;
+&lt;li&gt;Pemprosesan ASN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Pemprosesan Invois&lt;span class="hx:absolute hx:-mt-20" id="pemprosesan-invois"&gt;&lt;/span&gt;
+&lt;a href="#pemprosesan-invois" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Tangkapan invois OCR&lt;/li&gt;
+&lt;li&gt;Padanan automatik&lt;/li&gt;
+&lt;li&gt;Pengendalian pengecualian&lt;/li&gt;
+&lt;li&gt;Diskaun pembayaran awal&lt;/li&gt;
+&lt;li&gt;Aliran kerja kelulusan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Manfaat&lt;span class="hx:absolute hx:-mt-20" id="manfaat"&gt;&lt;/span&gt;
+&lt;a href="#manfaat" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pengurangan Kos&lt;/strong&gt;: Rundingkan harga lebih baik melalui pembelian bersepadu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kecekapan Proses&lt;/strong&gt;: Automasikan tugas manual dan kelulusan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pematuhan&lt;/strong&gt;: Memastikan pematuhan terhadap dasar pembelian&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ketampakan&lt;/strong&gt;: Analitik perbelanjaan masa nyata&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hubungan Pembekal&lt;/strong&gt;: Memperbaik kerjasama vendor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Integrasi&lt;span class="hx:absolute hx:-mt-20" id="integrasi"&gt;&lt;/span&gt;
+&lt;a href="#integrasi" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Perakaunan Kewangan untuk pemprosesan invois&lt;/li&gt;
+&lt;li&gt;Inventori untuk penambahan stok&lt;/li&gt;
+&lt;li&gt;Projek untuk pembelian berasaskan projek&lt;/li&gt;
+&lt;li&gt;Pengurusan Kualiti untuk aliran kerja pemeriksaan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Untuk Bermula&lt;span class="hx:absolute hx:-mt-20" id="untuk-bermula"&gt;&lt;/span&gt;
+&lt;a href="#untuk-bermula" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Sediakan pangkalan data vendor anda&lt;/li&gt;
+&lt;li&gt;Konfigurasikan hierarki kelulusan&lt;/li&gt;
+&lt;li&gt;Takrifkan dasar pembelian&lt;/li&gt;
+&lt;li&gt;Cipta katalog produk&lt;/li&gt;
+&lt;li&gt;Latih pasukan perolehan&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Untuk dokumentasi terperinci, lawati &lt;a href="https://www.bigledger.com/ms/modules/procurement/" &gt;Panduan Perolehan&lt;/a&gt; kami atau hubungi sokongan.&lt;/p&gt;</description></item><item><title>Sumber Manusia</title><link>https://www.bigledger.com/ms/modules/hr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/hr/</guid><description>
+&lt;h2&gt;Gambaran Keseluruhan&lt;span class="hx:absolute hx:-mt-20" id="gambaran-keseluruhan"&gt;&lt;/span&gt;
+&lt;a href="#gambaran-keseluruhan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Modul HR BigLedger menyediakan penyelesaian pengurusan modal insan yang lengkap, dari pengambilan pekerja hingga persaraan. Perkemas proses HR, pastikan pematuhan, dan perkasakan pekerja dengan keupayaan layan diri.&lt;/p&gt;
+&lt;h2&gt;Ciri Utama&lt;span class="hx:absolute hx:-mt-20" id="ciri-utama"&gt;&lt;/span&gt;
+&lt;a href="#ciri-utama" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;HR Teras&lt;span class="hx:absolute hx:-mt-20" id="hr-teras"&gt;&lt;/span&gt;
+&lt;a href="#hr-teras" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Pangkalan data pekerja&lt;/li&gt;
+&lt;li&gt;Struktur organisasi&lt;/li&gt;
+&lt;li&gt;Pengurusan jawatan&lt;/li&gt;
+&lt;li&gt;Pengurusan dokumen&lt;/li&gt;
+&lt;li&gt;Pengurusan dasar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Pengambilan Pekerja&lt;span class="hx:absolute hx:-mt-20" id="pengambilan-pekerja"&gt;&lt;/span&gt;
+&lt;a href="#pengambilan-pekerja" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Pengurusan iklan pekerjaan&lt;/li&gt;
+&lt;li&gt;Penjejakan pemohon&lt;/li&gt;
+&lt;li&gt;Penjadualan temu duga&lt;/li&gt;
+&lt;li&gt;Aliran kerja onboarding&lt;/li&gt;
+&lt;li&gt;Semakan latar belakang&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Masa &amp;amp; Kehadiran&lt;span class="hx:absolute hx:-mt-20" id="masa--kehadiran"&gt;&lt;/span&gt;
+&lt;a href="#masa--kehadiran" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Penjejakan masa&lt;/li&gt;
+&lt;li&gt;Penjadualan syif&lt;/li&gt;
+&lt;li&gt;Pengurusan kerja lebih masa&lt;/li&gt;
+&lt;li&gt;Pengurusan cuti&lt;/li&gt;
+&lt;li&gt;Kalendar cuti umum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Gaji&lt;span class="hx:absolute hx:-mt-20" id="gaji"&gt;&lt;/span&gt;
+&lt;a href="#gaji" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Pemprosesan gaji&lt;/li&gt;
+&lt;li&gt;Pengiraan cukai&lt;/li&gt;
+&lt;li&gt;Pengurusan potongan&lt;/li&gt;
+&lt;li&gt;Deposit terus&lt;/li&gt;
+&lt;li&gt;Penjanaan slip gaji&lt;/li&gt;
+&lt;li&gt;Pemprosesan hujung tahun&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Pengurusan Prestasi&lt;span class="hx:absolute hx:-mt-20" id="pengurusan-prestasi"&gt;&lt;/span&gt;
+&lt;a href="#pengurusan-prestasi" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Penetapan matlamat&lt;/li&gt;
+&lt;li&gt;Penilaian prestasi&lt;/li&gt;
+&lt;li&gt;Maklum balas 360 darjah&lt;/li&gt;
+&lt;li&gt;Penilaian kompetensi&lt;/li&gt;
+&lt;li&gt;Pembangunan kerjaya&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Pembelajaran &amp;amp; Pembangunan&lt;span class="hx:absolute hx:-mt-20" id="pembelajaran--pembangunan"&gt;&lt;/span&gt;
+&lt;a href="#pembelajaran--pembangunan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Pengurusan latihan&lt;/li&gt;
+&lt;li&gt;Katalog kursus&lt;/li&gt;
+&lt;li&gt;Penjejakan pensijilan&lt;/li&gt;
+&lt;li&gt;Analisis jurang kemahiran&lt;/li&gt;
+&lt;li&gt;Integrasi e-pembelajaran&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Layan Diri Pekerja&lt;span class="hx:absolute hx:-mt-20" id="layan-diri-pekerja"&gt;&lt;/span&gt;
+&lt;a href="#layan-diri-pekerja" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Kemas kini maklumat peribadi&lt;/li&gt;
+&lt;li&gt;Permohonan cuti&lt;/li&gt;
+&lt;li&gt;Penyerahan lembaran masa&lt;/li&gt;
+&lt;li&gt;Akses slip gaji&lt;/li&gt;
+&lt;li&gt;Pendaftaran faedah&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Pentadbiran Faedah&lt;span class="hx:absolute hx:-mt-20" id="pentadbiran-faedah"&gt;&lt;/span&gt;
+&lt;a href="#pentadbiran-faedah" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Pendaftaran faedah&lt;/li&gt;
+&lt;li&gt;Pemprosesan peristiwa hidup&lt;/li&gt;
+&lt;li&gt;Pentadbiran COBRA&lt;/li&gt;
+&lt;li&gt;Penyata faedah&lt;/li&gt;
+&lt;li&gt;Pendaftaran terbuka&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Ciri Pematuhan&lt;span class="hx:absolute hx:-mt-20" id="ciri-pematuhan"&gt;&lt;/span&gt;
+&lt;a href="#ciri-pematuhan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Pematuhan undang-undang buruh&lt;/li&gt;
+&lt;li&gt;Pematuhan cukai&lt;/li&gt;
+&lt;li&gt;Peluang pekerjaan sama rata&lt;/li&gt;
+&lt;li&gt;Kesihatan dan keselamatan&lt;/li&gt;
+&lt;li&gt;Privasi data (GDPR)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Analitik &amp;amp; Pelaporan&lt;span class="hx:absolute hx:-mt-20" id="analitik--pelaporan"&gt;&lt;/span&gt;
+&lt;a href="#analitik--pelaporan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Papan pemuka HR&lt;/li&gt;
+&lt;li&gt;Laporan bilangan pekerja&lt;/li&gt;
+&lt;li&gt;Analisis pusing ganti&lt;/li&gt;
+&lt;li&gt;Analisis pampasan&lt;/li&gt;
+&lt;li&gt;Metrik kepelbagaian&lt;/li&gt;
+&lt;li&gt;Laporan tersuai&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Integrasi&lt;span class="hx:absolute hx:-mt-20" id="integrasi"&gt;&lt;/span&gt;
+&lt;a href="#integrasi" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Perakaunan Kewangan untuk pengeposan gaji&lt;/li&gt;
+&lt;li&gt;Pengurusan Projek untuk peruntukan sumber&lt;/li&gt;
+&lt;li&gt;CRM untuk interaksi pekerja-pelanggan&lt;/li&gt;
+&lt;li&gt;Sistem penjejakan masa&lt;/li&gt;
+&lt;li&gt;Pembekal faedah&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;HR Mudah Alih&lt;span class="hx:absolute hx:-mt-20" id="hr-mudah-alih"&gt;&lt;/span&gt;
+&lt;a href="#hr-mudah-alih" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Aplikasi layan diri pekerja&lt;/li&gt;
+&lt;li&gt;Kelulusan pengurus&lt;/li&gt;
+&lt;li&gt;Jam masa&lt;/li&gt;
+&lt;li&gt;Akses direktori&lt;/li&gt;
+&lt;li&gt;Permohonan cuti&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bermula&lt;span class="hx:absolute hx:-mt-20" id="bermula"&gt;&lt;/span&gt;
+&lt;a href="#bermula" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Sediakan struktur organisasi&lt;/li&gt;
+&lt;li&gt;Import data pekerja&lt;/li&gt;
+&lt;li&gt;Konfigurasikan peraturan gaji&lt;/li&gt;
+&lt;li&gt;Tentukan dasar cuti&lt;/li&gt;
+&lt;li&gt;Latih pasukan HR dan pekerja&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Untuk dokumentasi terperinci, lawati &lt;a href="https://www.bigledger.com/ms/modules/hr/" &gt;Panduan HR&lt;/a&gt; kami atau hubungi sokongan.&lt;/p&gt;</description></item><item><title>Pengurusan Projek</title><link>https://www.bigledger.com/ms/modules/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/projects/</guid><description>
+&lt;h2&gt;Gambaran Keseluruhan&lt;span class="hx:absolute hx:-mt-20" id="gambaran-keseluruhan"&gt;&lt;/span&gt;
+&lt;a href="#gambaran-keseluruhan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Modul Pengurusan Projek BigLedger membantu organisasi merancang, melaksana, dan menyampaikan projek tepat pada masa dan dalam bajet. Daripada tugas mudah sehingga projek berbilang fasa yang kompleks, uruskan segala-galanya dalam satu platform bersepadu.&lt;/p&gt;
+&lt;h2&gt;Ciri Utama&lt;span class="hx:absolute hx:-mt-20" id="ciri-utama"&gt;&lt;/span&gt;
+&lt;a href="#ciri-utama" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Perancangan Projek&lt;span class="hx:absolute hx:-mt-20" id="perancangan-projek"&gt;&lt;/span&gt;
+&lt;a href="#perancangan-projek" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Struktur Pecahan Kerja (WBS)&lt;/li&gt;
+&lt;li&gt;Carta Gantt&lt;/li&gt;
+&lt;li&gt;Analisis laluan kritikal&lt;/li&gt;
+&lt;li&gt;Penjejakan pencapaian penting&lt;/li&gt;
+&lt;li&gt;Pengurusan kebergantungan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Pengurusan Sumber&lt;span class="hx:absolute hx:-mt-20" id="pengurusan-sumber"&gt;&lt;/span&gt;
+&lt;a href="#pengurusan-sumber" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Peruntukan sumber&lt;/li&gt;
+&lt;li&gt;Perancangan kapasiti&lt;/li&gt;
+&lt;li&gt;Padanan kemahiran&lt;/li&gt;
+&lt;li&gt;Pemerataan sumber&lt;/li&gt;
+&lt;li&gt;Penjejakan penggunaan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Penjejakan Masa &amp;amp; Perbelanjaan&lt;span class="hx:absolute hx:-mt-20" id="penjejakan-masa--perbelanjaan"&gt;&lt;/span&gt;
+&lt;a href="#penjejakan-masa--perbelanjaan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Pengurusan lembaran masa&lt;/li&gt;
+&lt;li&gt;Laporan perbelanjaan&lt;/li&gt;
+&lt;li&gt;Jam boleh dibil&lt;/li&gt;
+&lt;li&gt;Penjejakan kos&lt;/li&gt;
+&lt;li&gt;Pemantauan bajet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Pengurusan Tugas&lt;span class="hx:absolute hx:-mt-20" id="pengurusan-tugas"&gt;&lt;/span&gt;
+&lt;a href="#pengurusan-tugas" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Penugasan tugas&lt;/li&gt;
+&lt;li&gt;Penetapan keutamaan&lt;/li&gt;
+&lt;li&gt;Penjejakan status&lt;/li&gt;
+&lt;li&gt;Subtugas&lt;/li&gt;
+&lt;li&gt;Tugas berulang&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Kerjasama&lt;span class="hx:absolute hx:-mt-20" id="kerjasama"&gt;&lt;/span&gt;
+&lt;a href="#kerjasama" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Ruang kerja pasukan&lt;/li&gt;
+&lt;li&gt;Perkongsian dokumen&lt;/li&gt;
+&lt;li&gt;Papan perbincangan&lt;/li&gt;
+&lt;li&gt;Suapan aktiviti&lt;/li&gt;
+&lt;li&gt;Pemberitahuan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Kewangan Projek&lt;span class="hx:absolute hx:-mt-20" id="kewangan-projek"&gt;&lt;/span&gt;
+&lt;a href="#kewangan-projek" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Pengurusan bajet&lt;/li&gt;
+&lt;li&gt;Penjejakan kos&lt;/li&gt;
+&lt;li&gt;Pengiktirafan hasil&lt;/li&gt;
+&lt;li&gt;Analisis keuntungan&lt;/li&gt;
+&lt;li&gt;Penjanaan invois&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Pengurusan Risiko&lt;span class="hx:absolute hx:-mt-20" id="pengurusan-risiko"&gt;&lt;/span&gt;
+&lt;a href="#pengurusan-risiko" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Pengenalpastian risiko&lt;/li&gt;
+&lt;li&gt;Penilaian kesan&lt;/li&gt;
+&lt;li&gt;Perancangan mitigasi&lt;/li&gt;
+&lt;li&gt;Penjejakan isu&lt;/li&gt;
+&lt;li&gt;Permintaan perubahan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Jenis Projek yang Disokong&lt;span class="hx:absolute hx:-mt-20" id="jenis-projek-yang-disokong"&gt;&lt;/span&gt;
+&lt;a href="#jenis-projek-yang-disokong" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Harga Tetap&lt;/strong&gt;: Projek dengan skop dan bajet yang ditakrifkan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Masa &amp;amp; Bahan&lt;/strong&gt;: Projek pembilan mengikut jam&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Retainer&lt;/strong&gt;: Perjanjian perkhidmatan berterusan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dalaman&lt;/strong&gt;: Projek dalaman yang tidak boleh dibil&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tangkas&lt;/strong&gt;: Projek pembangunan berasaskan sprint&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Metodologi&lt;span class="hx:absolute hx:-mt-20" id="metodologi"&gt;&lt;/span&gt;
+&lt;a href="#metodologi" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Air Terjun&lt;/li&gt;
+&lt;li&gt;Tangkas/Scrum&lt;/li&gt;
+&lt;li&gt;Kanban&lt;/li&gt;
+&lt;li&gt;Pendekatan hibrid&lt;/li&gt;
+&lt;li&gt;Metodologi tersuai&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Analitik &amp;amp; Pelaporan&lt;span class="hx:absolute hx:-mt-20" id="analitik--pelaporan"&gt;&lt;/span&gt;
+&lt;a href="#analitik--pelaporan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Papan pemuka projek&lt;/li&gt;
+&lt;li&gt;Laporan kemajuan&lt;/li&gt;
+&lt;li&gt;Laporan sumber&lt;/li&gt;
+&lt;li&gt;Laporan kewangan&lt;/li&gt;
+&lt;li&gt;Analitik portfolio&lt;/li&gt;
+&lt;li&gt;Laporan tersuai&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Integrasi&lt;span class="hx:absolute hx:-mt-20" id="integrasi"&gt;&lt;/span&gt;
+&lt;a href="#integrasi" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Perakaunan Kewangan untuk pembilan dan pengiraan kos&lt;/li&gt;
+&lt;li&gt;HR untuk pengurusan sumber&lt;/li&gt;
+&lt;li&gt;CRM untuk projek pelanggan&lt;/li&gt;
+&lt;li&gt;Pengurusan Dokumen&lt;/li&gt;
+&lt;li&gt;Alat komunikasi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Pengurusan Projek Mudah Alih&lt;span class="hx:absolute hx:-mt-20" id="pengurusan-projek-mudah-alih"&gt;&lt;/span&gt;
+&lt;a href="#pengurusan-projek-mudah-alih" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Kemas kini projek&lt;/li&gt;
+&lt;li&gt;Kemasukan masa&lt;/li&gt;
+&lt;li&gt;Pengurusan tugas&lt;/li&gt;
+&lt;li&gt;Kelulusan&lt;/li&gt;
+&lt;li&gt;Akses dokumen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Manfaat&lt;span class="hx:absolute hx:-mt-20" id="manfaat"&gt;&lt;/span&gt;
+&lt;a href="#manfaat" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ketampakan&lt;/strong&gt;: Status projek masa nyata&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kecekapan&lt;/strong&gt;: Optimumkan penggunaan sumber&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kawalan&lt;/strong&gt;: Kekal dalam bajet dan jadual&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kerjasama&lt;/strong&gt;: Perbaik komunikasi pasukan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keuntungan&lt;/strong&gt;: Maksimumkan margin projek&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Untuk Bermula&lt;span class="hx:absolute hx:-mt-20" id="untuk-bermula"&gt;&lt;/span&gt;
+&lt;a href="#untuk-bermula" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Takrifkan templat projek&lt;/li&gt;
+&lt;li&gt;Sediakan kumpulan sumber&lt;/li&gt;
+&lt;li&gt;Konfigurasikan kadar pembilan&lt;/li&gt;
+&lt;li&gt;Cipta aliran kerja projek&lt;/li&gt;
+&lt;li&gt;Latih pasukan projek&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Untuk dokumentasi terperinci, lawati &lt;a href="https://www.bigledger.com/ms/modules/projects/" &gt;Panduan Pengurusan Projek&lt;/a&gt; kami atau hubungi sokongan.&lt;/p&gt;</description></item></channel></rss>

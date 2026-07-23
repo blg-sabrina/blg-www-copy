@@ -1,0 +1,359 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>وثائق BigLedger – Organization</title><link>https://www.bigledger.com/ar/tags/organization/</link><description>Recent content in Organization on وثائق BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ar</language><atom:link href="https://www.bigledger.com/ar/tags/organization/index.xml" rel="self" type="application/rss+xml"/><item><title>قوائم المجموعات والإدارة التنظيمية</title><link>https://www.bigledger.com/ar/user-guide/administration/group-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/user-guide/administration/group-listing/</guid><description>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;&lt;strong&gt;🚧 محتوى قيد التطوير&lt;/strong&gt;: تحتوي هذه الصفحة على ملاحظات أساسية حول الوظائف وتتطلب توثيقًا شاملاً. المجالات الرئيسية التي تحتاج إلى تطوير:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;استراتيجية المجموعات والتخطيط&lt;/strong&gt;: أفضل الممارسات لتصميم الهيكل التنظيمي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة الأذونات&lt;/strong&gt;: التحكم التفصيلي في الوصول وتنفيذ الأمان&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;سير عمل التكامل&lt;/strong&gt;: كيفية عمل المجموعات عبر وحدات BigLedger&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الميزات المتقدمة&lt;/strong&gt;: المجموعات الهرمية والعضوية الديناميكية والأتمتة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أمثلة على حالات الاستخدام&lt;/strong&gt;: سيناريوهات واقعية لأنواع الأعمال المختلفة&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;نظرة عامة&lt;span class="hx:absolute hx:-mt-20" id="نظرة-عامة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%86%d8%b8%d8%b1%d8%a9-%d8%b9%d8%a7%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;توفر قوائم المجموعات في BigLedger نهجًا منظمًا لتنظيم الفرق وإدارة أذونات الوصول وإنشاء تجميعات منطقية لتعاون أفضل وإدارة البيانات عبر مؤسستك.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;قيد التنفيذ: التوثيق الشامل المطلوب&lt;span class="hx:absolute hx:-mt-20" id="قيد-التنفيذ-التوثيق-الشامل-المطلوب"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d9%8a%d8%af-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0-%d8%a7%d9%84%d8%aa%d9%88%d8%ab%d9%8a%d9%82-%d8%a7%d9%84%d8%b4%d8%a7%d9%85%d9%84-%d8%a7%d9%84%d9%85%d8%b7%d9%84%d9%88%d8%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;الأولوية 1: استراتيجية المجموعات وهندستها&lt;span class="hx:absolute hx:-mt-20" id="الأولوية-1-استراتيجية-المجموعات-وهندستها"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a3%d9%88%d9%84%d9%88%d9%8a%d8%a9-1-%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a7%d8%aa-%d9%88%d9%87%d9%86%d8%af%d8%b3%d8%aa%d9%87%d8%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;التصميم التنظيمي&lt;/strong&gt;: أفضل الممارسات لهيكلة المجموعات في BigLedger&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;أنواع المجموعات&lt;/strong&gt;: أنواع مختلفة من المجموعات وسيناريوهات استخدامها المثلى&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;إدارة التسلسل الهرمي&lt;/strong&gt;: علاقات الأصل والفرع وهياكل المجموعات المتداخلة&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;تخطيط قابلية التوسع&lt;/strong&gt;: إدارة المجموعات في المؤسسات الكبيرة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;الأولوية 2: العضوية والأذونات&lt;span class="hx:absolute hx:-mt-20" id="الأولوية-2-العضوية-والأذونات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a3%d9%88%d9%84%d9%88%d9%8a%d8%a9-2-%d8%a7%d9%84%d8%b9%d8%b6%d9%88%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d8%a3%d8%b0%d9%88%d9%86%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;إدارة المستخدمين&lt;/strong&gt;: إضافة أعضاء المجموعة وإزالتهم وإدارتهم&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;تعيين الأدوار&lt;/strong&gt;: أدوار الأعضاء المختلفة وقدراتهم&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;مصفوفات الأذونات&lt;/strong&gt;: تفصيل مفصل للأذونات المتاحة&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;أفضل ممارسات الأمان&lt;/strong&gt;: تنفيذ ضوابط الوصول المناسبة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;الأولوية 3: التكامل والأتمتة&lt;span class="hx:absolute hx:-mt-20" id="الأولوية-3-التكامل-والأتمتة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a3%d9%88%d9%84%d9%88%d9%8a%d8%a9-3-%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d9%88%d8%a7%d9%84%d8%a3%d8%aa%d9%85%d8%aa%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;تكامل الوحدات&lt;/strong&gt;: كيفية عمل المجموعات مع وحدات المحاسبة والمبيعات والمخزون&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;سير العمل الآلي&lt;/strong&gt;: عضوية المجموعة الديناميكية بناءً على المعايير&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;إعداد التقارير والتحليلات&lt;/strong&gt;: تحليلات أداء المجموعة واستخدامها&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;العمليات المجمّعة&lt;/strong&gt;: إدارة تغييرات المجموعة واسعة النطاق بكفاءة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;الوظائف الأساسية الحالية&lt;span class="hx:absolute hx:-mt-20" id="الوظائف-الأساسية-الحالية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%88%d8%b8%d8%a7%d8%a6%d9%81-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9-%d8%a7%d9%84%d8%ad%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;إنشاء المجموعات&lt;span class="hx:absolute hx:-mt-20" id="إنشاء-المجموعات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;المعلومات المطلوبة&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;اسم المجموعة&lt;/strong&gt;: معرّف وصفي للمجموعة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;رمز المجموعة&lt;/strong&gt;: معرّف نظام فريد&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;البريد الإلكتروني للمجموعة&lt;/strong&gt;: بريد إلكتروني للتواصل مع المجموعة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;رؤية المجموعة&lt;/strong&gt;: يتحكم في من يمكنه رؤية المجموعة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الانضمام إلى المجموعة&lt;/strong&gt;: يحدد كيفية انضمام المستخدمين إلى المجموعة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;علامات تبويب إدارة المجموعة&lt;span class="hx:absolute hx:-mt-20" id="علامات-تبويب-إدارة-المجموعة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b9%d9%84%d8%a7%d9%85%d8%a7%d8%aa-%d8%aa%d8%a8%d9%88%d9%8a%d8%a8-%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحرير المعلومات العامة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تعديل اسم المجموعة ورؤيتها وإعدادات الانضمام&lt;/li&gt;
+&lt;li&gt;التحكم في حالة المجموعة النشطة/غير النشطة&lt;/li&gt;
+&lt;li&gt;تحديث معلمات تكوين المجموعة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;تحرير الأعضاء&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إضافة المستخدمين عن طريق البحث عن عناوين البريد الإلكتروني&lt;/li&gt;
+&lt;li&gt;تعيين رتب وأدوار الأعضاء&lt;/li&gt;
+&lt;li&gt;إدارة حالة العضو (نشط/غير نشط)&lt;/li&gt;
+&lt;li&gt;إزالة الأعضاء من المجموعة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;تحرير الأذونات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تحديد الأذونات من الخيارات المتاحة&lt;/li&gt;
+&lt;li&gt;تطبيق ضوابط الوصول على مستوى المجموعة&lt;/li&gt;
+&lt;li&gt;إدارة توريث الأذونات&lt;/li&gt;
+&lt;li&gt;إزالة أو تعديل الأذونات الموجودة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;دليل التنفيذ الأساسي&lt;span class="hx:absolute hx:-mt-20" id="دليل-التنفيذ-الأساسي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%af%d9%84%d9%8a%d9%84-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;بينما يجري تطوير التوثيق الشامل:&lt;/p&gt;
+&lt;h3&gt;الخطوة 1: خطط لهيكل مجموعتك&lt;span class="hx:absolute hx:-mt-20" id="الخطوة-1-خطط-لهيكل-مجموعتك"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a9-1-%d8%ae%d8%b7%d8%b7-%d9%84%d9%87%d9%8a%d9%83%d9%84-%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%aa%d9%83" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;حدد الغرض من كل مجموعة ونطاقها&lt;/li&gt;
+&lt;li&gt;ضع في اعتبارك كيفية تفاعل المجموعات مع الهيكل التنظيمي الحالي&lt;/li&gt;
+&lt;li&gt;خطط لمستويات الأذونات ومتطلبات الوصول&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;الخطوة 2: إنشاء المجموعات الأساسية&lt;span class="hx:absolute hx:-mt-20" id="الخطوة-2-إنشاء-المجموعات-الأساسية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a9-2-%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;ابدأ بالمجموعات الأساسية (الأقسام والأدوار والمشاريع)&lt;/li&gt;
+&lt;li&gt;استخدم اصطلاحات تسمية متسقة&lt;/li&gt;
+&lt;li&gt;قم بتكوين إعدادات الرؤية والانضمام المناسبة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;الخطوة 3: إدارة العضوية&lt;span class="hx:absolute hx:-mt-20" id="الخطوة-3-إدارة-العضوية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a9-3-%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b9%d8%b6%d9%88%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;أضف المستخدمين الرئيسيين إلى المجموعات المناسبة&lt;/li&gt;
+&lt;li&gt;عيّن الرتب والأذونات المناسبة&lt;/li&gt;
+&lt;li&gt;اختبر مستويات الوصول والوظائف&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;الخطوة 4: المراقبة والتحسين&lt;span class="hx:absolute hx:-mt-20" id="الخطوة-4-المراقبة-والتحسين"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a9-4-%d8%a7%d9%84%d9%85%d8%b1%d8%a7%d9%82%d8%a8%d8%a9-%d9%88%d8%a7%d9%84%d8%aa%d8%ad%d8%b3%d9%8a%d9%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;مراجعة دورية لعضوية المجموعة والأذونات&lt;/li&gt;
+&lt;li&gt;ضبط الهيكل مع تغير الاحتياجات التنظيمية&lt;/li&gt;
+&lt;li&gt;الحفاظ على معايير الأمان والتحكم في الوصول&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;الموارد ذات الصلة&lt;span class="hx:absolute hx:-mt-20" id="الموارد-ذات-الصلة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d9%88%d8%a7%d8%b1%d8%af-%d8%b0%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d9%84%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;بينما هذه الصفحة قيد التطوير، استكشف هذه الموضوعات ذات الصلة:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/member-class/" &gt;تصنيفات الأعضاء&lt;/a&gt; - أدوار المستخدمين والتحكم في الوصول&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/member-listing/" &gt;إدارة المستخدمين&lt;/a&gt; - إدارة حسابات المستخدمين الفردية&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/team/" &gt;تكوين الفريق&lt;/a&gt; - إعداد الأقسام والفرق&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/member-label-list/" &gt;إدارة التسميات&lt;/a&gt; - أنظمة وضع التسميات التنظيمية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;الجدول الزمني للتطوير&lt;span class="hx:absolute hx:-mt-20" id="الجدول-الزمني-للتطوير"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ac%d8%af%d9%88%d9%84-%d8%a7%d9%84%d8%b2%d9%85%d9%86%d9%8a-%d9%84%d9%84%d8%aa%d8%b7%d9%88%d9%8a%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;المرحلة 1&lt;/strong&gt; (الأولوية): توثيق إدارة المجموعات الأساسية والأذونات
+&lt;strong&gt;المرحلة 2&lt;/strong&gt; (المتابعة): الميزات المتقدمة وأدلة التكامل
+&lt;strong&gt;المرحلة 3&lt;/strong&gt; (التحسين): الأتمتة والتحليلات واستراتيجيات التحسين&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;الحالة الحالية&lt;/strong&gt;: تتوفر وظائف إنشاء المجموعات الأساسية وإدارتها. بالنسبة للمتطلبات التنظيمية المعقدة أو إعداد الأذونات المتقدمة، اتصل بالدعم الفني على &lt;a href="mailto:vincent@bigledger.com" &gt;vincent@bigledger.com&lt;/a&gt; للحصول على الإرشادات.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>تكوين تسميات الأعضاء وإدارتها</title><link>https://www.bigledger.com/ar/user-guide/administration/member-label/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/user-guide/administration/member-label/</guid><description>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;&lt;strong&gt;🚧 محتوى قيد التطوير&lt;/strong&gt;: تحتوي هذه الصفحة على ملاحظات أساسية حول الوظائف وتتطلب توثيقًا شاملاً. المجالات الأساسية التي تحتاج إلى تطوير:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;استراتيجية وضع التسميات&lt;/strong&gt;: أفضل الممارسات لإنشاء أنظمة فعالة لوضع التسميات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;حالات الاستخدام المتقدمة&lt;/strong&gt;: سيناريوهات معقدة لوضع التسميات وتطبيقات الأعمال&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أمثلة على التكامل&lt;/strong&gt;: كيفية عمل التسميات مع المجموعات والأذونات والوحدات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ميزات الأتمتة&lt;/strong&gt;: وضع التسميات الديناميكي بناءً على سمات المستخدم أو سلوكياته&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحليلات وإعداد التقارير&lt;/strong&gt;: التقارير القائمة على التسميات والرؤى التنظيمية&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;نظرة عامة&lt;span class="hx:absolute hx:-mt-20" id="نظرة-عامة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%86%d8%b8%d8%b1%d8%a9-%d8%b9%d8%a7%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;توفر تسميات الأعضاء في BigLedger نظامًا مرنًا للوسم والتصنيف لتنظيم المستخدمين بما يتجاوز الهياكل الهرمية التقليدية. تتيح التسميات التنظيم متعدد الوظائف وتحسين إمكانية البحث وقدرات متطورة لإدارة المستخدمين.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;قيد التنفيذ: التوثيق الشامل المطلوب&lt;span class="hx:absolute hx:-mt-20" id="قيد-التنفيذ-التوثيق-الشامل-المطلوب"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d9%8a%d8%af-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0-%d8%a7%d9%84%d8%aa%d9%88%d8%ab%d9%8a%d9%82-%d8%a7%d9%84%d8%b4%d8%a7%d9%85%d9%84-%d8%a7%d9%84%d9%85%d8%b7%d9%84%d9%88%d8%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;الأولوية 1: استراتيجية وتصميم وضع التسميات&lt;span class="hx:absolute hx:-mt-20" id="الأولوية-1-استراتيجية-وتصميم-وضع-التسميات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a3%d9%88%d9%84%d9%88%d9%8a%d8%a9-1-%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9-%d9%88%d8%aa%d8%b5%d9%85%d9%8a%d9%85-%d9%88%d8%b6%d8%b9-%d8%a7%d9%84%d8%aa%d8%b3%d9%85%d9%8a%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;بنية التسميات&lt;/strong&gt;: تخطيط أنظمة فعالة لوضع التسميات لأنواع المؤسسات المختلفة&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;أفضل الممارسات&lt;/strong&gt;: اصطلاحات التسمية والترميز اللوني والاستراتيجيات التنظيمية&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;تخطيط قابلية التوسع&lt;/strong&gt;: إدارة التسميات في المؤسسات الكبيرة ذات الهياكل المعقدة&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;اعتبارات الأداء&lt;/strong&gt;: تحسين استخدام التسميات لكفاءة النظام&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;الأولوية 2: الوظائف المتقدمة&lt;span class="hx:absolute hx:-mt-20" id="الأولوية-2-الوظائف-المتقدمة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a3%d9%88%d9%84%d9%88%d9%8a%d8%a9-2-%d8%a7%d9%84%d9%88%d8%b8%d8%a7%d8%a6%d9%81-%d8%a7%d9%84%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;التسميات الديناميكية&lt;/strong&gt;: تسميات يتم تعيينها تلقائيًا بناءً على سمات المستخدم&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;التسلسلات الهرمية للتسميات&lt;/strong&gt;: علاقات الأصل والفرع وهياكل التسميات المتداخلة&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;المنطق الشرطي&lt;/strong&gt;: تعيين التسميات وإدارتها القائمين على القواعد&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;العمليات المجمّعة&lt;/strong&gt;: إدارة فعالة للتسميات عبر قواعد مستخدمين كبيرة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;الأولوية 3: التكامل والتحليلات&lt;span class="hx:absolute hx:-mt-20" id="الأولوية-3-التكامل-والتحليلات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a3%d9%88%d9%84%d9%88%d9%8a%d8%a9-3-%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d9%88%d8%a7%d9%84%d8%aa%d8%ad%d9%84%d9%8a%d9%84%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;تكامل الوحدات&lt;/strong&gt;: كيفية عمل التسميات مع المحاسبة والمبيعات والوحدات الأخرى&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;أنظمة إعداد التقارير&lt;/strong&gt;: التحليلات القائمة على التسميات والرؤى التنظيمية&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;تحسين البحث&lt;/strong&gt;: استخدام التسميات لتحسين اكتشاف المستخدمين والبيانات&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;تكامل سير العمل&lt;/strong&gt;: التسميات في عمليات الموافقة وسير عمل الأعمال&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;الوظائف الأساسية الحالية&lt;span class="hx:absolute hx:-mt-20" id="الوظائف-الأساسية-الحالية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%88%d8%b8%d8%a7%d8%a6%d9%81-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9-%d8%a7%d9%84%d8%ad%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;إنشاء تسميات الأعضاء&lt;span class="hx:absolute hx:-mt-20" id="إنشاء-تسميات-الأعضاء"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d8%aa%d8%b3%d9%85%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%b9%d8%b6%d8%a7%d8%a1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;المعلومات المطلوبة&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;قائمة التسميات&lt;/strong&gt;: الفئة الأصلية (يجب إنشاؤها في وحدة قائمة تسميات الأعضاء أولاً)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اسم التسمية&lt;/strong&gt;: معرّف وصفي للتسمية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;رمز التسمية&lt;/strong&gt;: معرّف فريد يتم إنشاؤه بواسطة النظام&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;إدارة التسميات&lt;span class="hx:absolute hx:-mt-20" id="إدارة-التسميات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%aa%d8%b3%d9%85%d9%8a%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تكوين علامة تبويب التفاصيل&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;قائمة التسميات&lt;/strong&gt;: تعديل تعيين الفئة الأصلية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اسم التسمية&lt;/strong&gt;: تحديث التسمية الوصفية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحالة&lt;/strong&gt;: التحكم في الحالة النشطة/غير النشطة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;حفظ/حذف&lt;/strong&gt;: إدارة دورة حياة التسمية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;إدارة علامة تبويب الأعضاء&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;إضافة أعضاء&lt;/strong&gt;: تعيين المستخدمين إلى التسميات باستخدام زر &amp;ldquo;+&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحديد الأعضاء&lt;/strong&gt;: الاختيار من بين المستخدمين الموجودين أو إضافة أعضاء جدد&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة الأعضاء&lt;/strong&gt;: عرض وإدارة جميع المستخدمين المعيّنين للتسمية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;سير عمل التنفيذ الأساسي&lt;span class="hx:absolute hx:-mt-20" id="سير-عمل-التنفيذ-الأساسي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b3%d9%8a%d8%b1-%d8%b9%d9%85%d9%84-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;بينما يجري تطوير التوثيق الشامل:&lt;/p&gt;
+&lt;h3&gt;الخطوة 1: خطط لنظام وضع التسميات الخاص بك&lt;span class="hx:absolute hx:-mt-20" id="الخطوة-1-خطط-لنظام-وضع-التسميات-الخاص-بك"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a9-1-%d8%ae%d8%b7%d8%b7-%d9%84%d9%86%d8%b8%d8%a7%d9%85-%d9%88%d8%b6%d8%b9-%d8%a7%d9%84%d8%aa%d8%b3%d9%85%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%ae%d8%a7%d8%b5-%d8%a8%d9%83" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;حدد الغرض من التسميات ونطاقها&lt;/li&gt;
+&lt;li&gt;ضع في اعتبارك كيفية تكامل التسميات مع هياكل المجموعات الحالية&lt;/li&gt;
+&lt;li&gt;خطط لاصطلاحات التسمية والتسلسل الهرمي التنظيمي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;الخطوة 2: إنشاء قوائم التسميات (الأساس)&lt;span class="hx:absolute hx:-mt-20" id="الخطوة-2-إنشاء-قوائم-التسميات-الأساس"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a9-2-%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d9%82%d9%88%d8%a7%d8%a6%d9%85-%d8%a7%d9%84%d8%aa%d8%b3%d9%85%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;قم بإعداد الفئات الأصلية في وحدة قائمة تسميات الأعضاء&lt;/li&gt;
+&lt;li&gt;أنشئ أنماطًا متسقة للتسمية والتنظيم&lt;/li&gt;
+&lt;li&gt;خطط للتوسع المستقبلي والتغييرات التنظيمية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;الخطوة 3: إنشاء تسميات فردية&lt;span class="hx:absolute hx:-mt-20" id="الخطوة-3-إنشاء-تسميات-فردية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a9-3-%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d8%aa%d8%b3%d9%85%d9%8a%d8%a7%d8%aa-%d9%81%d8%b1%d8%af%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;أنشئ تسميات محددة ضمن القوائم المعمول بها&lt;/li&gt;
+&lt;li&gt;استخدم تسمية وصفية ومتسقة&lt;/li&gt;
+&lt;li&gt;قم بتكوين إعدادات الحالة المناسبة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;الخطوة 4: تعيين الأعضاء&lt;span class="hx:absolute hx:-mt-20" id="الخطوة-4-تعيين-الأعضاء"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a9-4-%d8%aa%d8%b9%d9%8a%d9%8a%d9%86-%d8%a7%d9%84%d8%a3%d8%b9%d8%b6%d8%a7%d8%a1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;أضف المستخدمين ذوي الصلة إلى التسميات المناسبة&lt;/li&gt;
+&lt;li&gt;اختبر وظائف البحث والتصفية&lt;/li&gt;
+&lt;li&gt;تحقق من التكامل مع الوحدات والميزات الأخرى&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;التمييز بين التسمية والمجموعة&lt;span class="hx:absolute hx:-mt-20" id="التمييز-بين-التسمية-والمجموعة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d9%85%d9%8a%d9%8a%d8%b2-%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d8%aa%d8%b3%d9%85%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;المجموعات&lt;/strong&gt;: هيكل تنظيمي رسمي هرمي قائم على الأذونات
+&lt;strong&gt;التسميات&lt;/strong&gt;: وسوم مرنة، متعددة الوظائف، سمات قابلة للبحث&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;استخدم المجموعات لـ&lt;/strong&gt;: الأقسام والأدوار والأذونات الرسمية
+&lt;strong&gt;استخدم التسميات لـ&lt;/strong&gt;: المهارات والمشاريع والمواقع والتخصصات والشهادات&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;الموارد ذات الصلة&lt;span class="hx:absolute hx:-mt-20" id="الموارد-ذات-الصلة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d9%88%d8%a7%d8%b1%d8%af-%d8%b0%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d9%84%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;بينما هذه الصفحة قيد التطوير، استكشف هذه الموضوعات ذات الصلة:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/member-label-list/" &gt;قوائم تسميات الأعضاء&lt;/a&gt; - إنشاء فئات التسميات والهياكل الأصلية&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/member-listing/" &gt;إدارة المستخدمين&lt;/a&gt; - إدارة حسابات المستخدمين الأساسية&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/group-listing/" &gt;قوائم المجموعات&lt;/a&gt; - هياكل المجموعات التنظيمية&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/member-class/" &gt;تصنيفات الأعضاء&lt;/a&gt; - التحكم في الوصول القائم على الأدوار&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;الجدول الزمني للتطوير&lt;span class="hx:absolute hx:-mt-20" id="الجدول-الزمني-للتطوير"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ac%d8%af%d9%88%d9%84-%d8%a7%d9%84%d8%b2%d9%85%d9%86%d9%8a-%d9%84%d9%84%d8%aa%d8%b7%d9%88%d9%8a%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;المرحلة 1&lt;/strong&gt; (فوري): توثيق استراتيجية وضع التسميات وأفضل الممارسات
+&lt;strong&gt;المرحلة 2&lt;/strong&gt; (قصير المدى): الميزات المتقدمة وأمثلة التكامل
+&lt;strong&gt;المرحلة 3&lt;/strong&gt; (متوسط المدى): التحليلات وإعداد التقارير وقدرات الأتمتة&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;الحالة الحالية&lt;/strong&gt;: تتوفر وظائف إنشاء التسميات الأساسية وتعيين الأعضاء. بالنسبة لاستراتيجيات وضع التسميات المعقدة أو المتطلبات التنظيمية المتقدمة، اتصل بالدعم الفني على &lt;a href="mailto:vincent@bigledger.com" &gt;vincent@bigledger.com&lt;/a&gt; للحصول على الإرشادات والاستشارات حول أفضل الممارسات.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>أبلت تنظيم المواقع</title><link>https://www.bigledger.com/ar/applets/location-organization-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/location-organization-applet/</guid><description>
+&lt;p&gt;يمكن أن يكون لكل فرع مواقع متعددة
+هذه هي الأيقونة الثالثة في الشريط الجانبي، &amp;ldquo;الموقع.&amp;rdquo; يسرد هذا القسم جميع المواقع، ويمكن أن يكون لكل فرع مواقع متعددة. يمكن للمستخدمين إنشاء مواقع جديدة أو تعديل المواقع الموجودة هنا.
+علامات تبويب التعديل مشابهة لتلك الموجودة في &lt;a href="https://bigledger.atlassian.net/wiki/spaces/AKAUN/pages/3196191408/Branch&amp;#43;-&amp;#43;Organization&amp;#43;Applet#Edit-branch" target="_blank" rel="noopener"&gt;https://bigledger.atlassian.net/wiki/spaces/AKAUN/pages/3196191408/Branch+-+Organization+Applet#Edit-branch&lt;/a&gt;&lt;/p&gt;</description></item><item><title>إعدادات تطبيق المؤسسة</title><link>https://www.bigledger.com/ar/applets/settings-of-organization-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/settings-of-organization-applet/</guid><description>
+&lt;p&gt;﻿يغطّي هذا القسم جميع الإعدادات المستخدمة من قبل Wavelet.
+يتيح لك إذن الدور تعيين أذونات محددة عند الحاجة.&lt;/p&gt;</description></item><item><title>تطبيق تنظيم الفروع</title><link>https://www.bigledger.com/ar/applets/branch-organization-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/branch-organization-applet/</guid><description>
+&lt;p&gt;noneيغطي هذا القسم علامة التبويب الرئيسية الثانية في الشريط الجانبي، الفروع (Branches)، حيث يمكن للمستخدمين إنشاء تفاصيل فروعهم وتحريرها.
+يمكن أن يكون للشركة فروع متعددة
+يمكن للمستخدمين إما اختيار إنشاء فرعهم من الأيقونة الثانية في الشريط الجانبي الأيسر أو الانتقال إلى علامة تبويب تحرير قائمة الشركات لإنشاء فرع.
+كيفية إنشاء فرع من الشريط الجانبي
+إنشاء فرع من علامة تبويب قائمة الشركات﻿﻿
+يقدّم الموضوع الثاني في هذا القسم نظرة عامة عن كل علامة تبويب في قائمة تحرير الفرع، مع إبراز ميزاتها لتحسين تهيئة الفرع.&lt;/p&gt;
+&lt;h1&gt;إنشاء فرع﻿&lt;/h1&gt;&lt;p&gt;يمكن للمستخدمين إنشاء فروع متعددة، جميعها مرتبطة بشركة واحدة&lt;/p&gt;
+&lt;h2&gt;إنشاء فرع من الشريط الجانبي﻿&lt;span class="hx:absolute hx:-mt-20" id="إنشاء-فرع-من-الشريط-الجانبي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d9%81%d8%b1%d8%b9-%d9%85%d9%86-%d8%a7%d9%84%d8%b4%d8%b1%d9%8a%d8%b7-%d8%a7%d9%84%d8%ac%d8%a7%d9%86%d8%a8%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;الأيقونة الثانية في شريط القائمة الأيسر هي علامة تبويب الفرع (Branch Tab)، التي تتيح للمستخدمين إنشاء فرع جديد لشركة يدويًا. يمكن للمستخدمين الضغط على زر &amp;lsquo;+&amp;rsquo; لإنشاء فرع جديد.
+املأ جميع الحقول المطلوبة في علامة تبويب التفاصيل (Details Tab) على النحو المبيّن أدناه.
+بمجرد الانتهاء، انقر على &amp;lsquo;Save&amp;rsquo; لحفظ تفاصيل الفرع.
+يمكن للمستخدمين الاختيار بين &amp;lsquo;Create Default Location&amp;rsquo; أو &amp;lsquo;Choose From Existing Location&amp;rsquo; عند إعداد الفرع.
+إذا أنشأت الفرع قبل إعداد الموقع واخترت &amp;lsquo;Create Default Location&amp;rsquo;، سيُنشئ النظام تلقائيًا موقعًا افتراضيًا واحدًا.
+الحقول التي يجب ملؤها في علامة تبويب التفاصيل هي:
+رمز الفرع، اسم الفرع
+اسم الشركة: اربط الفرع بشركتك. سيُعرض هذا باسم الشركة المختارة
+رقم تسجيل الشركة: يُعرض كما ملأه المستخدم
+تاريخ بدء تشغيل الفرع
+العملة: يمكن اختيار عملات مختلفة من القائمة المنسدلة
+إذا أنشأ المستخدمون الموقع قبل الفرع، ثم اختاروا &amp;lsquo;Choose From Existing Location&amp;rsquo;، فإن الحقول الإضافية المطلوبة في علامة تبويب التفاصيل هي:
+رمز الموقع
+الموقع الافتراضي
+بعد ملء جميع التفاصيل الضرورية، انقر على &amp;lsquo;Save&amp;rsquo; لتخزين معلومات الفرع.
+املأ التفاصيل في علامة تبويب العنوان (Address Tab) كما هو موضّح سابقًا.
+بعد تأكيد جميع المعلومات، انقر على زر &amp;lsquo;Save&amp;rsquo; لتخزين تفاصيل الفرع.&lt;/p&gt;
+&lt;h2&gt;إنشاء فرع من علامة تبويب قائمة الشركات﻿﻿&lt;span class="hx:absolute hx:-mt-20" id="إنشاء-فرع-من-علامة-تبويب-قائمة-الشركات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d9%81%d8%b1%d8%b9-%d9%85%d9%86-%d8%b9%d9%84%d8%a7%d9%85%d8%a9-%d8%aa%d8%a8%d9%88%d9%8a%d8%a8-%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%a7%d9%84%d8%b4%d8%b1%d9%83%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;إذا اختار المستخدمون إنشاء فرع للشركة المختارة في صفحة قائمة الشركات، فإنهم يربطون الفرع مباشرةً بتلك الشركة. انقر على علامة &amp;lsquo;+&amp;rsquo; لبدء إنشاء الفرع.
+انتقل إلى علامة تبويب الفرع في تحرير الشركة وانقر على زر &amp;lsquo;+&amp;rsquo; لإنشاء فرع جديد.
+اختر الشركة التي ترغب في إنشاء فرع لها من القائمة المنسدلة. سيُملأ اسم الشركة ورقم تسجيل الشركة تلقائيًا بناءً على اختيارك.
+املأ الحقول الإلزامية التي يجب ملؤها في علامة تبويب التفاصيل والعنوان&lt;/p&gt;
+&lt;h1&gt;تحرير الفرع﻿&lt;/h1&gt;&lt;p&gt;من صفحة قائمة الفروع، انقر على الفرع الذي أنشأته لعرض جميع علامات التبويب المتاحة:
+التفاصيل (Details): يعرض هذا القسم تفاصيل الفرع الرئيسية التي أُنشئت في القسم 2.1، حيث يمكن للمستخدمين إضافة أي معلومات أو تحريرها عند الحاجة.
+التسعير الافتراضي (Default Pricing): هو تهيئة التسعير الافتراضي. يمكن تعيينه حسب الفرع أو الشركة. على سبيل المثال، إذا كان لديك مخططات تسعير مختلفة لشرق وغرب ماليزيا، يمكنك تطبيق تسعير فرع الشرق على الفروع في تلك المنطقة.
+العنوان (Address): عرض عناوين الفرع وتحريرها.
+الانتقاء والتعبئة (Pick Pack): يُستخدم لأوامر الموارد. في حال استخدامك لخيار التوصيل، املأه؛ وإلا يمكنك تركه فارغًا.
+السوق (Marketplace): مخصّص لمنتج EcomSync، وهو مرتبط بأسواقك مثل Shopee وLazada. هنا تُهيّئ الإعدادات.
+الموقع (Location): هنا يُعرض الموقع الافتراضي الذي أنشأه النظام للتو عند إعداد الفرع. بدلًا من ذلك، يمكنك الاختيار من المواقع الموجودة.
+التسوية (Settlement): هنا تحدّد نوع التسوية الذي يمكن لكل فرع رؤيته. يمكن أن يكون لكل فرع تسويات مختلفة
+على سبيل المثال: النقد أو بطاقة الائتمان أو Maybank.
+تُستخدم التسوية لدفتر النقدية أو نقطة البيع لديك، بما في ذلك خيارات الدفع مثل GrabPay أو ShopeePay. هنا تُهيّئها.
+التسميات (Labels): تُستخدم لوسم الفرع
+الامتداد (Extension): يُستخدم لـ CP Commerce
+العميل والمورد (Customer and Supplier): اربط الفرع بعميل/مورد معيّن. عند التهيئة هنا، ستُسجَّل المعاملات تلقائيًا. هذه الميزة جزء من تفاصيل التهيئة بين الشركات
+بين الشركات (Intercompany): حدّد ما إذا كان النظام يُنهي المعاملات بين الشركات تلقائيًا أو يتركها كمسودات للموافقة اليدوية. يمكنك أيضًا تهيئة ما إذا كان إنشاء فاتورة مبيعات ينبغي أن يُنشئ فاتورة الشراء تلقائيًا. هنا تُدار إعدادات التهيئة التلقائية.&lt;/p&gt;</description></item><item><title>تطبيق تنظيم الشركة</title><link>https://www.bigledger.com/ar/applets/company-organization-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/company-organization-applet/</guid><description>
+&lt;p&gt;noneعند تسجيل الدخول إلى تطبيق المؤسسة، الصفحة الأولى المعروضة للمستخدم هي صفحة قائمة الشركات (Company Listing) في الأيقونة الأولى على الشريط الجانبي الأيسر.
+في هذا القسم، سنغطي موضوعين رئيسيين:
+كيفية إنشاء شركة: دليل تفصيلي خطوة بخطوة لإعداد تفاصيل الشركة وإضافة العنوان.
+كيفية تحرير شركة: نظرة عامة عن كل علامة تبويب وميزاتها لتحسين تهيئة الشركة&lt;/p&gt;
+&lt;h1&gt;إنشاء شركة﻿&lt;/h1&gt;&lt;p&gt;يمكن أن يكون للشركة الواحدة فروع فرعية متعددة، ولا يوجد حد لهذه التهيئة
+لبدء إنشاء شركة، يمكن للمستخدمين النقر على زر &amp;lsquo;+&amp;rsquo; الموجود في الزاوية العلوية اليسرى.&lt;/p&gt;
+&lt;h2&gt;علامة تبويب الشركة﻿&lt;span class="hx:absolute hx:-mt-20" id="علامة-تبويب-الشركة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b9%d9%84%d8%a7%d9%85%d8%a9-%d8%aa%d8%a8%d9%88%d9%8a%d8%a8-%d8%a7%d9%84%d8%b4%d8%b1%d9%83%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;إنشاء شركة﻿&lt;span class="hx:absolute hx:-mt-20" id="إنشاء-شركة-1"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d8%b4%d8%b1%d9%83%d8%a9-1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;انقر على زر &amp;lsquo;+&amp;rsquo; في الزاوية العلوية اليسرى.
+املأ جميع الحقول المطلوبة بالمعلومات الضرورية. الحقول المميّزة بعلامة * إلزامية ولا يمكن تعديلها لاحقًا.
+بمجرد الانتهاء، انقر على &amp;lsquo;Save&amp;rsquo; في الزاوية العلوية اليمنى.
+يرجى الرجوع إلى لقطات الشاشة أدناه للإرشاد.
+الخطوة 1: انقر على زر &amp;lsquo;+&amp;rsquo; لإنشاء شركة.
+الخطوة 2 و3: املأ جميع الحقول المطلوبة وانقر على &amp;lsquo;Save&amp;rsquo;.
+في نموذج إنشاء الشركة، ستحتاج إلى ملء الحقول التالية:
+رمز الشركة، الاسم، رقم التسجيل: أدخل هذه التفاصيل
+تاريخ تأسيس الشركة: متى تأسست الشركة
+معرّف الضريبة، معرّف SST #: إن كان ذلك ينطبق
+رقم الفاكس: إن كان ذلك ينطبق
+رقم الهاتف: إلزامي
+العملة: اختر من القائمة المنسدلة.
+دليل الحسابات: أنشئ دليل الحسابات قبل إعداد الشركة. اتبع الخطوات هنا. بمجرد إعداد دليل الحسابات، اختر الدليل المناسب من القائمة المنسدلة.
+تقريب الخمس سنتات: عند الحاجة - اختر رمز العنصر الذي يملؤه النظام تلقائيًا للمعاملات.
+خصومات المجموعات: يمكنك تطبيق خصم على المعاملة بأكملها، أو يمكن للنظام اختيار رموز العناصر تلقائيًا.
+خيارات مرتجعات الشراء والبيع الافتراضية: لكل من مرتجعات الشراء ومرتجعات البيع، يمكنك اختيار خيارات تسعير متماثلة:
+سعر آخر شراء: اختر هذا الخيار لاستخدام سعر آخر عملية شراء للمرتجعات.
+تكلفة المتوسط المتحرك: اختر هذا الخيار إذا كنت تفضّل أن يستند التسعير إلى تكلفة المتوسط المتحرك.
+سعر الفاتورة: الخيار الأكثر استخدامًا، ويطبّق السعر من فاتورة الشراء أو البيع ذات الصلة للمرتجعات.
+شعار الشركة: يمكن للمستخدمين رفع شعار الشركة فورًا أو اختيار رفعه لاحقًا.&lt;/p&gt;
+&lt;h2&gt;علامة تبويب العنوان﻿&lt;span class="hx:absolute hx:-mt-20" id="علامة-تبويب-العنوان"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b9%d9%84%d8%a7%d9%85%d8%a9-%d8%aa%d8%a8%d9%88%d9%8a%d8%a8-%d8%a7%d9%84%d8%b9%d9%86%d9%88%d8%a7%d9%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;عند إنشاء شركة، يُطلب من المستخدمين ملء تفاصيل العنوان. هذه المعلومات ضرورية لدقة حفظ السجلات وأغراض المراسلات.&lt;/p&gt;
+&lt;h3&gt;ملء عنوان الشركة﻿&lt;span class="hx:absolute hx:-mt-20" id="ملء-عنوان-الشركة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%84%d8%a1-%d8%b9%d9%86%d9%88%d8%a7%d9%86-%d8%a7%d9%84%d8%b4%d8%b1%d9%83%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;انتقل إلى علامة تبويب العنوان.
+املأ جميع الحقول المطلوبة، بما في ذلك تفاصيل البريد ومعلومات الدولة. الحقول المميّزة بعلامة * إلزامية.
+بمجرد الانتهاء، انقر على &amp;lsquo;Save&amp;rsquo; في الزاوية العلوية اليمنى لتخزين معلومات العنوان.
+يرجى الرجوع إلى لقطة الشاشة أدناه للإرشاد.
+الخطوة 1، 2: املأ تفاصيل العنوان المطلوبة وانقر على &amp;lsquo;Save&amp;rsquo;.
+الحقول المطلوبة في علامة تبويب العنوان هي كما يلي:
+سطر العنوان 1: تفاصيل العنوان الأساسية
+سطر العنوان 2: تفاصيل عنوان إضافية
+سطر العنوان 3: سطر إضافي اختياري
+سطر العنوان 4: سطر إضافي اختياري
+سطر العنوان 5: سطر إضافي اختياري
+الرمز البريدي: الرمز البريدي أو ZIP
+المدينة: المدينة التي تقع فيها الشركة
+الدولة: يمكن اختيار دول مختلفة من القائمة المنسدلة
+العملة: اختر العملة المطبّقة من القائمة المنسدلة
+الولاية: اختر الولاية أو المنطقة ذات الصلة من القائمة المنسدلة&lt;/p&gt;
+&lt;h1&gt;تحرير الشركة﻿&lt;/h1&gt;&lt;p&gt;من صفحة قائمة الشركات، انقر على الشركة التي أنشأتها لعرض جميع علامات التبويب المتاحة:
+التفاصيل (Details): يعرض هذا القسم تفاصيل الشركة الرئيسية التي أُنشئت في القسم 1.1، حيث يمكن للمستخدمين إضافة أي معلومات أو تحريرها عند الحاجة.
+الفاتورة الإلكترونية (E-invoice): تهيئة الشركة للفوترة الإلكترونية إلى LHDN
+تهيئة Peppol: في حال استخدام Peppol، فإن علامة التبويب هذه مخصّصة لتهيئة الوسيط.
+الضريبة (Tax): إذا كان لدى الشركة SSD، تُستخدم علامة التبويب هذه لتهيئة الضرائب.
+العنوان (Address): يعرض العنوان الذي أُنشئ في القسم 1.2. يمكن للمستخدمين تحرير معلومات إضافية أو إضافتها عند الحاجة.
+الفرع (Branch): يُدرج جميع الفروع المُنشأة تحت الشركة المختارة.
+الموقع (Location): يعرض جميع المواقع تحت كل فرع للشركة.
+التسميات (Labels): تُستخدم لوسم الشركة، مثل التجميع حسب القسم.
+الموظف (Employee): يعرض قائمة الموظفين تحت الشركة. هذا مرتبط بتطبيق الموظفين.&lt;/p&gt;
+&lt;h2&gt;تهيئة المقاصة (Knock Off Config):﻿&lt;span class="hx:absolute hx:-mt-20" id="تهيئة-المقاصة-knock-off-config"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%87%d9%8a%d8%a6%d8%a9-%d8%a7%d9%84%d9%85%d9%82%d8%a7%d8%b5%d8%a9-knock-off-config" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;ما هو KO (المقاصة - Knock Off)؟&lt;span class="hx:absolute hx:-mt-20" id="ما-هو-ko-المقاصة---knock-off"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%a7-%d9%87%d9%88-ko-%d8%a7%d9%84%d9%85%d9%82%d8%a7%d8%b5%d8%a9---knock-off" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;تُستخدم تهيئة المقاصة (KO) عندما تحتاج الشركة إلى إدارة تتبّع إصدار المستندات للمعاملات المتعلقة بـ:
+✅ فواتير العملاء (مثل تتبّع ما إذا كانت الفاتورة قد سُدِّدت بالكامل).
+✅ فواتير الموردين (مثل ضمان تسجيل المدفوعات بشكل صحيح مقابل فواتير الموردين).
+في جوهرها، تساعد المقاصة (KO) على أتمتة التسوية بين الفواتير الصادرة والمدفوعات المستلمة، مما يمنع التباينات في السجلات المالية.&lt;/p&gt;
+&lt;h3&gt;متى ينبغي تهيئة المقاصة (KO)؟&lt;span class="hx:absolute hx:-mt-20" id="متى-ينبغي-تهيئة-المقاصة-ko"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%aa%d9%89-%d9%8a%d9%86%d8%a8%d8%ba%d9%8a-%d8%aa%d9%87%d9%8a%d8%a6%d8%a9-%d8%a7%d9%84%d9%85%d9%82%d8%a7%d8%b5%d8%a9-ko" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;تهيئة المقاصة (KO) اختيارية لكنها قد تكون ضرورية إذا:
+أرادت الشركة تتبّع المدفوعات مقابل الفواتير بطريقة آلية.
+تطلّب العمل التحقق من إصدار المستندات قبل وضع علامة على المعاملات كمكتملة.
+كانت هناك حاجة لربط إصدار الفاتورة بمعاملات الموردين/العملاء للمعالجة الداخلية.
+إعداد بالغ الأهمية للشركة لتهيئة سير العمل. انقر على زر &amp;lsquo;+&amp;rsquo; لبدء الإعداد.
+خيارات نوع مستند الخادم (Server Doc Type Options): ضرورية لإعداد سير عمل الشركة، مثل تهيئة عملية أوامر الشراء وتحويلها إلى إشعارات استلام بضاعة (GRN) أو فواتير شراء، أو إعداد عملية البيع (من أوامر البيع إلى فواتير البيع). تستند التهيئة إلى أنواع المستندات.
+يحتاج المستخدم إلى اختيار نوع الخادم. يشير Server Type 1 إلى المستند المصدر، بينما يشير Server Type 2 إلى المستند الهدف
+هذا مثال على تدفق إعداد مقاصة (KO) أساسي للعميل. على سبيل المثال، عندما ينشئ المستخدم فاتورة، سيكون هناك خياران للمقاصة: أمر بيع (Sales Order) وعرض سعر بيع (Sales Quotation).
+هذا يعني أنه في تطبيق فاتورة البيع، ضمن علامة تبويب المقاصة (KO)، سيرى المستخدم خيارين: أمر بيع وعرض سعر بيع.
+يمكن للمستخدمين تمكين إعدادات المقاصة أو تعطيلها من صفحة علامة التبويب الرئيسية.
+تعتمد خيارات المقاصة (KO) على تهيئة العميل واحتياجات المستخدم. يمكن للمستخدم إضافة المزيد من الخيارات عند الحاجة بتهيئتها في تطبيق المؤسسة عند إنشاء تفاصيل الشركة أو تحريرها.&lt;/p&gt;
+&lt;h2&gt;البحث بالتصفية المتقدمة﻿&lt;span class="hx:absolute hx:-mt-20" id="البحث-بالتصفية-المتقدمة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a8%d8%ad%d8%ab-%d8%a8%d8%a7%d9%84%d8%aa%d8%b5%d9%81%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;تتيح لك التصفية المتقدمة البحث حسب الشركة أو اسم الشركة أو رقم التسجيل أو الحالة. تتضمن كل وحدة فرعية خيار التصفية المتقدمة هذا.&lt;/p&gt;</description></item></channel></rss>

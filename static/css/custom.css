@@ -3650,6 +3650,10 @@ a.ug-step-link:hover { color: var(--tx-1); }
 
 /* Plan cards */
 .pr-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; align-items: stretch; }
+.pr-grid .pr-card:nth-child(5) { grid-column: 1 / -1; }
+.pr-grid .pr-card:nth-child(5) .pr-tag { min-height: 0; }
+.pr-grid .pr-card:nth-child(5) .pr-feats { display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 32px; }
+@media (max-width: 720px) { .pr-grid .pr-card:nth-child(5) .pr-feats { grid-template-columns: 1fr; } }
 .pr-card {
   display: flex; flex-direction: column; position: relative;
   padding: 30px 24px 26px; border-radius: 18px;

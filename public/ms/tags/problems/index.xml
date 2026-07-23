@@ -1,0 +1,512 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dokumentasi BigLedger – Problems</title><link>https://www.bigledger.com/ms/tags/problems/</link><description>Recent content in Problems on Dokumentasi BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ms</language><atom:link href="https://www.bigledger.com/ms/tags/problems/index.xml" rel="self" type="application/rss+xml"/><item><title>Penyelesaian Masalah</title><link>https://www.bigledger.com/ms/user-guide/troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/user-guide/troubleshooting/</guid><description>
+&lt;p&gt;Penyelesaian pantas untuk isu BigLedger yang biasa dan panduan menyelesaikan masalah yang menyeluruh. Bahagian ini membantu anda menyelesaikan masalah dengan cepat dan kembali kepada kerja yang produktif.&lt;/p&gt;
+&lt;h2&gt;Penyelesaian Masalah Pantas&lt;span class="hx:absolute hx:-mt-20" id="penyelesaian-masalah-pantas"&gt;&lt;/span&gt;
+&lt;a href="#penyelesaian-masalah-pantas" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Isu Paling Biasa&lt;span class="hx:absolute hx:-mt-20" id="isu-paling-biasa"&gt;&lt;/span&gt;
+&lt;a href="#isu-paling-biasa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Panduan penyelesaian masalah yang menyeluruh ini menangani isu BigLedger yang paling biasa dengan kod ralat khusus, penyelesaian langkah demi langkah, dan langkah pencegahan.&lt;/p&gt;
+&lt;h4&gt;Masalah Log Masuk &amp;amp; Akses&lt;span class="hx:absolute hx:-mt-20" id="masalah-log-masuk--akses"&gt;&lt;/span&gt;
+&lt;a href="#masalah-log-masuk--akses" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tidak Dapat Log Masuk&lt;/strong&gt;: Set semula kata laluan, status akaun, isu pelayar&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ciri Hilang&lt;/strong&gt;: Masalah kebenaran, ketersediaan applet&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prestasi Perlahan&lt;/strong&gt;: Pengoptimuman pelayar, isu rangkaian&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tamat Masa Sesi&lt;/strong&gt;: Tetapan keselamatan, konfigurasi pelayar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Isu Kemasukan Data&lt;span class="hx:absolute hx:-mt-20" id="isu-kemasukan-data"&gt;&lt;/span&gt;
+&lt;a href="#isu-kemasukan-data" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tidak Dapat Menyimpan Rekod&lt;/strong&gt;: Ralat pengesahan, medan wajib&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pilihan Menu Juntai Bawah Hilang&lt;/strong&gt;: Persediaan data induk, kebenaran&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kegagalan Import&lt;/strong&gt;: Format data, ralat pemetaan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rekod Pendua&lt;/strong&gt;: Pengesahan data, prosedur cantuman&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Masalah Transaksi&lt;span class="hx:absolute hx:-mt-20" id="masalah-transaksi"&gt;&lt;/span&gt;
+&lt;a href="#masalah-transaksi" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ralat Pemprosesan Pesanan&lt;/strong&gt;: Isu aliran kerja, rantaian kelulusan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Masalah Penetapan Harga&lt;/strong&gt;: Konfigurasi skema harga, tetapan pelanggan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Percanggahan Inventori&lt;/strong&gt;: Pelarasan stok, isu lokasi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ralat Laporan&lt;/strong&gt;: Akses data, tetapan parameter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Penyelesaian Masalah Langkah demi Langkah&lt;span class="hx:absolute hx:-mt-20" id="penyelesaian-masalah-langkah-demi-langkah"&gt;&lt;/span&gt;
+&lt;a href="#penyelesaian-masalah-langkah-demi-langkah" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. Kenal Pasti Masalah&lt;span class="hx:absolute hx:-mt-20" id="1-kenal-pasti-masalah"&gt;&lt;/span&gt;
+&lt;a href="#1-kenal-pasti-masalah" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dokumentasikan Simptom&lt;/strong&gt; - Apakah sebenarnya yang berlaku?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hasilkan Semula Isu&lt;/strong&gt; - Bolehkah anda menyebabkannya berlaku sekali lagi?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Semak Masa&lt;/strong&gt; - Bila ini mula berlaku?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kumpul Konteks&lt;/strong&gt; - Apakah yang cuba anda capai?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. Kumpul Maklumat&lt;span class="hx:absolute hx:-mt-20" id="2-kumpul-maklumat"&gt;&lt;/span&gt;
+&lt;a href="#2-kumpul-maklumat" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mesej Ralat&lt;/strong&gt; - Salin teks dan kod ralat yang tepat&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tangkapan Skrin&lt;/strong&gt; - Bukti visual masalah&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Butiran Akaun Pengguna&lt;/strong&gt; - Maklumat kebenaran dan peranan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Persekitaran Sistem&lt;/strong&gt; - Maklumat pelayar, peranti, rangkaian&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;3. Cuba Penyelesaian Asas&lt;span class="hx:absolute hx:-mt-20" id="3-cuba-penyelesaian-asas"&gt;&lt;/span&gt;
+&lt;a href="#3-cuba-penyelesaian-asas" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Segar Semula/Muat Semula&lt;/strong&gt; - Segar semula pelayar yang mudah&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kosongkan Cache&lt;/strong&gt; - Cache dan kuki pelayar&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pelayar Berbeza&lt;/strong&gt; - Uji dengan pelayar lain&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Semak Kebenaran&lt;/strong&gt; - Sahkan hak akses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;4. Diagnostik Lanjutan&lt;span class="hx:absolute hx:-mt-20" id="4-diagnostik-lanjutan"&gt;&lt;/span&gt;
+&lt;a href="#4-diagnostik-lanjutan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Semak Status Sistem&lt;/strong&gt; - Adakah sistem berjalan seperti biasa?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Semak Perubahan Terkini&lt;/strong&gt; - Apakah yang berubah baru-baru ini?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Uji dengan Data Berbeza&lt;/strong&gt; - Adakah ia khusus kepada data?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rujuk Dokumentasi&lt;/strong&gt; - Semak panduan pengguna yang berkaitan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Kod Ralat BigLedger dan Penyelesaian&lt;span class="hx:absolute hx:-mt-20" id="kod-ralat-bigledger-dan-penyelesaian"&gt;&lt;/span&gt;
+&lt;a href="#kod-ralat-bigledger-dan-penyelesaian" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Kod Ralat Sistem (ERR-SYS-XXXX)&lt;span class="hx:absolute hx:-mt-20" id="kod-ralat-sistem-err-sys-xxxx"&gt;&lt;/span&gt;
+&lt;a href="#kod-ralat-sistem-err-sys-xxxx" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;ERR-SYS-0001: Akses Dinafikan&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Punca&lt;/strong&gt;: Pengguna tidak mempunyai kebenaran yang diperlukan untuk operasi yang diminta&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Butiran Teknikal&lt;/strong&gt;: Pengesahan kebenaran gagal pada peringkat modul atau ciri&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Penyelesaian Segera&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;Hubungi pentadbir sistem&lt;/li&gt;
+&lt;li&gt;Sahkan penugasan peranan pengguna dalam Pengurusan Pengguna&lt;/li&gt;
+&lt;li&gt;Semak kebenaran khusus modul&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pencegahan Jangka Panjang&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Laksanakan audit kebenaran berkala (suku tahunan)&lt;/li&gt;
+&lt;li&gt;Guna kawalan akses berasaskan peranan (RBAC) secara konsisten&lt;/li&gt;
+&lt;li&gt;Dokumentasikan keperluan kebenaran untuk setiap fungsi perniagaan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ERR-SYS-0002: Sesi Tamat Tempoh&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Punca&lt;/strong&gt;: Tamat masa keselamatan akibat ketidakaktifan (lalai: 60 minit)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Butiran Teknikal&lt;/strong&gt;: Token sesi telah melebihi hayat maksimum&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Penyelesaian Segera&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;Log keluar sepenuhnya dan log masuk semula&lt;/li&gt;
+&lt;li&gt;Kosongkan cache dan kuki pelayar&lt;/li&gt;
+&lt;li&gt;Lumpuhkan simpan-auto pelayar untuk data sensitif&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pilihan Konfigurasi&lt;/strong&gt;:
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Session Settings (Admin &amp;gt; Security):
+• Timeout Period: 30-480 minutes
+• Idle Warning: 5 minutes before expiry
+• Concurrent Sessions: Allow/Restrict
+• Remember Me: Enable/Disable&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ERR-SYS-0003: Sambungan Pangkalan Data Gagal&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Punca&lt;/strong&gt;: Gangguan rangkaian atau pelayan pangkalan data tidak tersedia&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Butiran Teknikal&lt;/strong&gt;: Kumpulan sambungan kehabisan atau penyelenggaraan pangkalan data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Penyelesaian Segera&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;Tunggu 2-3 minit dan cuba semula&lt;/li&gt;
+&lt;li&gt;Semak status sistem di status.bigledger.com&lt;/li&gt;
+&lt;li&gt;Hubungi sokongan jika isu berterusan &amp;gt;5 minit&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pencegahan&lt;/strong&gt;: Pantau kesihatan pangkalan data dan penggunaan kumpulan sambungan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ralat Pengesahan Data (ERR-VAL-XXXX)&lt;span class="hx:absolute hx:-mt-20" id="ralat-pengesahan-data-err-val-xxxx"&gt;&lt;/span&gt;
+&lt;a href="#ralat-pengesahan-data-err-val-xxxx" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;ERR-VAL-1001: Medan Wajib Hilang&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Punca&lt;/strong&gt;: Medan wajib dibiarkan kosong semasa kemasukan data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jenis Medan&lt;/strong&gt;: Kod pelanggan, nama produk, jumlah transaksi, dsb.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Langkah Penyelesaian&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;Semak borang untuk medan bertanda asterisk merah (*)&lt;/li&gt;
+&lt;li&gt;Isikan semua maklumat yang diperlukan&lt;/li&gt;
+&lt;li&gt;Sahkan format data (tarikh, nombor, e-mel)&lt;/li&gt;
+&lt;li&gt;Simpan rekod semula&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Medan Hilang yang Biasa&lt;/strong&gt;:
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Customer Records: Name, Tax ID, Contact Info
+Product Records: Code, Name, Unit of Measure
+Transactions: Date, Amount, Account Code&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ERR-VAL-1002: Format Data Tidak Sah&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Punca&lt;/strong&gt;: Data tidak sepadan dengan format yang dijangka atau peraturan perniagaan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Senario Biasa&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Format e-mel tidak sah (simbol @ hilang)&lt;/li&gt;
+&lt;li&gt;Format tarikh salah (DD/MM/YYYY diperlukan)&lt;/li&gt;
+&lt;li&gt;Format nombor telefon tidak sah (+60-XXX-XXXXXXX)&lt;/li&gt;
+&lt;li&gt;Format ID Cukai tidak sepadan dengan piawaian Malaysia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Penyelesaian&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;Semak petunjuk dan contoh format medan&lt;/li&gt;
+&lt;li&gt;Guna pengesah format jika tersedia&lt;/li&gt;
+&lt;li&gt;Salin-tampal daripada sumber yang disahkan&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ralat Transaksi (ERR-TXN-XXXX)&lt;span class="hx:absolute hx:-mt-20" id="ralat-transaksi-err-txn-xxxx"&gt;&lt;/span&gt;
+&lt;a href="#ralat-transaksi-err-txn-xxxx" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;ERR-TXN-2001: Inventori Tidak Mencukupi&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Punca&lt;/strong&gt;: Cuba menjual/memperuntukkan lebih banyak stok daripada yang tersedia&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Butiran Teknikal&lt;/strong&gt;: Semakan inventori masa nyata gagal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Penyelesaian Terperinci&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;Semak paras stok semasa: &lt;strong&gt;Inventory &amp;gt; Stock Inquiry&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Sahkan lokasi dan ketersediaan stok&lt;/li&gt;
+&lt;li&gt;Pertimbangkan pilihan berikut:
+&lt;ul&gt;
+&lt;li&gt;Kurangkan kuantiti kepada stok yang tersedia&lt;/li&gt;
+&lt;li&gt;Pindahkan stok dari lokasi lain&lt;/li&gt;
+&lt;li&gt;Cipta pesanan tertangguh untuk baki kuantiti&lt;/li&gt;
+&lt;li&gt;Kemas kini inventori jika kiraan stok tidak betul&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amalan Terbaik Pengurusan Stok&lt;/strong&gt;:
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;• Set reorder points for all active items
+• Monitor stock levels daily
+• Implement automatic reorder notifications
+• Regular cycle counting for accuracy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ERR-TXN-2002: Harga Tidak Dijumpai&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Punca&lt;/strong&gt;: Tiada harga sah yang dikonfigurasi untuk gabungan item/pelanggan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Semakan Hierarki Harga&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;Penetapan harga khusus pelanggan&lt;/li&gt;
+&lt;li&gt;Penetapan harga kumpulan pelanggan&lt;/li&gt;
+&lt;li&gt;Penetapan harga promosi&lt;/li&gt;
+&lt;li&gt;Senarai harga standard&lt;/li&gt;
+&lt;li&gt;Harga kos asas&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Langkah Konfigurasi&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;Navigasi ke &lt;strong&gt;Sales &amp;gt; Price Management&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Sediakan skema harga mengikut jenis pelanggan&lt;/li&gt;
+&lt;li&gt;Konfigurasikan tempoh penetapan harga promosi&lt;/li&gt;
+&lt;li&gt;Tetapkan harga lalai untuk produk baharu&lt;/li&gt;
+&lt;li&gt;Uji penetapan harga dengan transaksi contoh&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ralat Pematuhan Malaysia (ERR-MYS-XXXX)&lt;span class="hx:absolute hx:-mt-20" id="ralat-pematuhan-malaysia-err-mys-xxxx"&gt;&lt;/span&gt;
+&lt;a href="#ralat-pematuhan-malaysia-err-mys-xxxx" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;ERR-MYS-4001: Ralat Pengiraan SST&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Punca&lt;/strong&gt;: Isu pengiraan atau konfigurasi Cukai Jualan dan Perkhidmatan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Peraturan SST&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Kadar Standard: 6% (kebanyakan barangan dan perkhidmatan)&lt;/li&gt;
+&lt;li&gt;Kadar Sifar: 0% (eksport, barangan dikecualikan)&lt;/li&gt;
+&lt;li&gt;Dikecualikan: Tiada SST dikenakan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Semakan Konfigurasi&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Persediaan Produk&lt;/strong&gt;: Sahkan penugasan kod SST&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Persediaan Pelanggan&lt;/strong&gt;: Semak status pengecualian SST&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tetapan Cukai&lt;/strong&gt;: Semak peraturan pengiraan SST&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kemas Kini Kadar&lt;/strong&gt;: Pastikan kadar SST semasa dimuatkan&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ERR-MYS-4002: Penjanaan e-Invois Gagal&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Punca&lt;/strong&gt;: Ralat integrasi MyInvois atau kegagalan pengesahan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keperluan e-Invois LHDN&lt;/strong&gt;:
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Mandatory Fields:
+• Supplier TIN (Tax Identification Number)
+• Buyer TIN (for B2B transactions)
+• Invoice date and time
+• Unique invoice number
+• Product/service description
+• SST details&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ralat Pengesahan&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Format TIN&lt;/strong&gt;: Mesti dalam format TIN Malaysia yang sah&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tarikh/Masa&lt;/strong&gt;: Mesti dalam tempoh penyerahan MyInvois&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mata Wang&lt;/strong&gt;: Hanya MYR dan mata wang asing yang diluluskan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jenis Dokumen&lt;/strong&gt;: Mesti sepadan dengan jenis yang diluluskan LHDN&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ralat Integrasi (ERR-INT-XXXX)&lt;span class="hx:absolute hx:-mt-20" id="ralat-integrasi-err-int-xxxx"&gt;&lt;/span&gt;
+&lt;a href="#ralat-integrasi-err-int-xxxx" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;ERR-INT-3001: Penyegerakan Gagal - Perbankan&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Punca&lt;/strong&gt;: Sambungan integrasi bank gagal atau pengesahan tamat tempoh&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bank Khusus yang Disokong&lt;/strong&gt;: Maybank, CIMB, Public Bank, RHB, Hong Leong&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Langkah Penyelesaian Masalah&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Semak Kelayakan&lt;/strong&gt;: Sahkan butiran log masuk bank dalam &lt;strong&gt;Finance &amp;gt; Bank Integration&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Uji Sambungan&lt;/strong&gt;: Guna butang &amp;ldquo;Test Connection&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Segar Semula Token&lt;/strong&gt;: Sahkan semula jika menggunakan OAuth&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Semakan Rangkaian&lt;/strong&gt;: Pastikan firewall membenarkan sambungan bank&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Status Bank&lt;/strong&gt;: Semak jika sistem bank tergendala untuk penyelenggaraan&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ERR-INT-3002: Ralat Penyegerakan E-dagang&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Punca&lt;/strong&gt;: Isu sambungan dengan platform kedai dalam talian&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Platform yang Disokong&lt;/strong&gt;: Shopee, Lazada, WooCommerce, Magento, Shopify&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Subjenis Ralat&lt;/strong&gt;:
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;3002-A: Authentication failure
+3002-B: Product catalog sync failed
+3002-C: Order download error
+3002-D: Inventory update failed
+3002-E: Pricing sync error&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Penyelesaian Khusus Platform&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Shopee&lt;/strong&gt;: Semak kunci API dan rahsia dalam Seller Center&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lazada&lt;/strong&gt;: Sahkan kebenaran aplikasi dalam Seller Center&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;WooCommerce&lt;/strong&gt;: Uji kelayakan REST API&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shopify&lt;/strong&gt;: Segar semula kebenaran aplikasi peribadi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;Keselamatan Dahulu&lt;/strong&gt;: Sebelum membuat sebarang perubahan sistem untuk menyelesaikan isu, pastikan anda mempunyai sandaran yang betul dan memahami kesan perubahan anda.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Isu Khusus Pelayar&lt;span class="hx:absolute hx:-mt-20" id="isu-khusus-pelayar"&gt;&lt;/span&gt;
+&lt;a href="#isu-khusus-pelayar" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Isu Chrome&lt;span class="hx:absolute hx:-mt-20" id="isu-chrome"&gt;&lt;/span&gt;
+&lt;a href="#isu-chrome" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Masalah Cache&lt;/strong&gt;: Kosongkan data pelayaran, set semula tetapan Chrome&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Konflik Sambungan&lt;/strong&gt;: Lumpuhkan sambungan, uji dalam mod inkognito&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Isu Memori&lt;/strong&gt;: Tutup tab yang tidak digunakan, mulakan semula pelayar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Isu Firefox&lt;span class="hx:absolute hx:-mt-20" id="isu-firefox"&gt;&lt;/span&gt;
+&lt;a href="#isu-firefox" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tetapan Keselamatan&lt;/strong&gt;: Laraskan pilihan keselamatan untuk BigLedger&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Konflik Tambah-On&lt;/strong&gt;: Uji dengan tambah-on dilumpuhkan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tetapan Kuki&lt;/strong&gt;: Pastikan kuki didayakan untuk BigLedger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Isu Safari&lt;span class="hx:absolute hx:-mt-20" id="isu-safari"&gt;&lt;/span&gt;
+&lt;a href="#isu-safari" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tetapan JavaScript&lt;/strong&gt;: Dayakan JavaScript untuk domain BigLedger&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tetapan Privasi&lt;/strong&gt;: Laraskan tetapan privasi untuk aplikasi perniagaan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Isu Cache&lt;/strong&gt;: Kosongkan data laman web untuk BigLedger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Isu Pelayar Mudah Alih&lt;span class="hx:absolute hx:-mt-20" id="isu-pelayar-mudah-alih"&gt;&lt;/span&gt;
+&lt;a href="#isu-pelayar-mudah-alih" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Reka Bentuk Responsif&lt;/strong&gt;: Guna mod landskap untuk skrin yang kompleks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Antara Muka Sentuh&lt;/strong&gt;: Guna gerak isyarat yang sesuai untuk navigasi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sambungan Data&lt;/strong&gt;: Pastikan sambungan internet yang stabil&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Pengoptimuman Prestasi&lt;span class="hx:absolute hx:-mt-20" id="pengoptimuman-prestasi"&gt;&lt;/span&gt;
+&lt;a href="#pengoptimuman-prestasi" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Prestasi Sistem&lt;span class="hx:absolute hx:-mt-20" id="prestasi-sistem"&gt;&lt;/span&gt;
+&lt;a href="#prestasi-sistem" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Pengoptimuman Prestasi Terperinci&lt;span class="hx:absolute hx:-mt-20" id="pengoptimuman-prestasi-terperinci"&gt;&lt;/span&gt;
+&lt;a href="#pengoptimuman-prestasi-terperinci" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Mengenal Pasti Halangan Prestasi&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Papan Pemuka Prestasi Sistem&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Navigasi ke &lt;strong&gt;Admin &amp;gt; System Health&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Pantau prestasi CPU, memori, dan pangkalan data&lt;/li&gt;
+&lt;li&gt;Semak sesi pengguna aktif dan proses serentak&lt;/li&gt;
+&lt;li&gt;Semak log sistem untuk corak ralat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pemantauan Pengalaman Pengguna&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jejak masa muat halaman merentas modul yang berbeza&lt;/li&gt;
+&lt;li&gt;Pantau kelajuan penjanaan laporan&lt;/li&gt;
+&lt;li&gt;Analisis tempoh sesi pengguna dan tamat masa&lt;/li&gt;
+&lt;li&gt;Kenal pasti ciri berprestasi perlahan yang kerap diakses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Pengoptimuman Prestasi Sisi Pelayar&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Recommended Browser Settings:
+✓ Enable JavaScript and cookies
+✓ Disable unnecessary browser extensions
+✓ Clear cache weekly
+✓ Update to latest browser version
+✓ Allow pop-ups for BigLedger domain
+✓ Set sufficient memory allocation&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Pengoptimuman Rangkaian&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keperluan Lebar Jalur&lt;/strong&gt;: Minimum 10 Mbps untuk prestasi optimum&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pertimbangan Kependaman&lt;/strong&gt;: Kependaman &amp;lt;100ms ke pelayan BigLedger&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kestabilan Sambungan&lt;/strong&gt;: Sambungan berwayar lebih baik daripada WiFi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kesan VPN&lt;/strong&gt;: Uji prestasi dengan/tanpa VPN&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Konfigurasi Firewall&lt;/strong&gt;: Senarai putih domain dan port BigLedger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Penalaan Prestasi Pangkalan Data&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pengoptimuman Pertanyaan&lt;/strong&gt;: Guna penapis dan julat tarikh yang sesuai&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pengurusan Indeks&lt;/strong&gt;: Pastikan pengindeksan yang betul pada medan yang kerap dipertanyakan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pengarkiban Data&lt;/strong&gt;: Arkibkan data lama untuk meningkatkan prestasi pertanyaan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pengguna Serentak&lt;/strong&gt;: Pantau had sambungan pangkalan data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tetingkap Penyelenggaraan&lt;/strong&gt;: Jadualkan penyelenggaraan pangkalan data secara berkala&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Pengoptimuman Sisi Klien&lt;span class="hx:absolute hx:-mt-20" id="pengoptimuman-sisi-klien"&gt;&lt;/span&gt;
+&lt;a href="#pengoptimuman-sisi-klien" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Penyelenggaraan Pelayar&lt;/strong&gt;: Pengosongan cache berkala, kemas kini pelayar&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pengoptimuman Rangkaian&lt;/strong&gt;: Sambungan internet yang stabil, elakkan waktu puncak&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prestasi Peranti&lt;/strong&gt;: RAM yang mencukupi, tutup aplikasi yang tidak perlu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Resolusi Skrin&lt;/strong&gt;: Optimumkan tetapan paparan untuk BigLedger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Faktor Sisi Pelayan&lt;span class="hx:absolute hx:-mt-20" id="faktor-sisi-pelayan"&gt;&lt;/span&gt;
+&lt;a href="#faktor-sisi-pelayan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Waktu Penggunaan Puncak&lt;/strong&gt;: Fahami corak beban sistem&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Isipadu Data&lt;/strong&gt;: Laporan dan pertanyaan yang besar memberi kesan kepada prestasi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beban Integrasi&lt;/strong&gt;: Berbilang integrasi serentak menjejaskan kelajuan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tetingkap Penyelenggaraan&lt;/strong&gt;: Penyelenggaraan berjadual menjejaskan ketersediaan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Prestasi Data&lt;span class="hx:absolute hx:-mt-20" id="prestasi-data"&gt;&lt;/span&gt;
+&lt;a href="#prestasi-data" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pengoptimuman Pertanyaan&lt;/strong&gt;: Guna penapis dan julat tarikh yang sesuai&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kecekapan Laporan&lt;/strong&gt;: Hadkan skop data untuk laporan yang besar&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pemprosesan Kelompok&lt;/strong&gt;: Kumpulkan operasi serupa bersama-sama&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Strategi Arkib&lt;/strong&gt;: Arkibkan data lama untuk meningkatkan prestasi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Prosedur Peningkatan&lt;span class="hx:absolute hx:-mt-20" id="prosedur-peningkatan"&gt;&lt;/span&gt;
+&lt;a href="#prosedur-peningkatan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Bila Perlu Meningkatkan&lt;span class="hx:absolute hx:-mt-20" id="bila-perlu-meningkatkan"&gt;&lt;/span&gt;
+&lt;a href="#bila-perlu-meningkatkan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Insiden Keselamatan&lt;/strong&gt;: Peningkatan segera untuk pelanggaran keselamatan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gangguan Sistem&lt;/strong&gt;: Apabila sistem tidak tersedia sepenuhnya&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kerosakan Data&lt;/strong&gt;: Sebarang isu integriti data yang disyaki&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kesan Perniagaan Kritikal&lt;/strong&gt;: Isu yang menjejaskan operasi perniagaan teras&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Cara Meningkatkan&lt;span class="hx:absolute hx:-mt-20" id="cara-meningkatkan"&gt;&lt;/span&gt;
+&lt;a href="#cara-meningkatkan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Dokumentasikan Isu&lt;/strong&gt;: Penerangan masalah yang menyeluruh&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kumpul Bukti&lt;/strong&gt;: Tangkapan skrin, mesej ralat, log&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nilai Kesan&lt;/strong&gt;: Tahap kesan perniagaan dan kesegeraan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hubungi Sokongan yang Sesuai&lt;/strong&gt;: Guna saluran sokongan yang betul&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Susul&lt;/strong&gt;: Pantau penyelesaian dan komunikasikan status&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Sumber Layan Diri&lt;span class="hx:absolute hx:-mt-20" id="sumber-layan-diri"&gt;&lt;/span&gt;
+&lt;a href="#sumber-layan-diri" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Pangkalan Pengetahuan&lt;span class="hx:absolute hx:-mt-20" id="pangkalan-pengetahuan"&gt;&lt;/span&gt;
+&lt;a href="#pangkalan-pengetahuan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Bahagian Soalan Lazim&lt;/strong&gt; - Jawapan kepada soalan yang kerap ditanya&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tutorial Video&lt;/strong&gt; - Panduan visual langkah demi langkah&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Forum Pengguna&lt;/strong&gt; - Sokongan didorong komuniti&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dokumentasi&lt;/strong&gt; - Panduan pengguna yang menyeluruh&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Alat Diagnostik&lt;span class="hx:absolute hx:-mt-20" id="alat-diagnostik"&gt;&lt;/span&gt;
+&lt;a href="#alat-diagnostik" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Semakan Kesihatan Sistem&lt;/strong&gt; - Diagnostik sistem terbina dalam&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ujian Sambungan&lt;/strong&gt; - Ujian rangkaian dan integrasi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pemeriksa Kebenaran&lt;/strong&gt; - Sahkan hak akses pengguna&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pemantau Prestasi&lt;/strong&gt; - Metrik prestasi sistem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;Petua Kecekapan&lt;/strong&gt;: Simpan log penyelesaian masalah untuk menjejaki isu berulang dan penyelesaiannya. Ini membina kepakaran anda dan membantu mengenal pasti peluang penambahbaikan sistem.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Strategi Pencegahan&lt;span class="hx:absolute hx:-mt-20" id="strategi-pencegahan"&gt;&lt;/span&gt;
+&lt;a href="#strategi-pencegahan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Penyelenggaraan Proaktif&lt;span class="hx:absolute hx:-mt-20" id="penyelenggaraan-proaktif"&gt;&lt;/span&gt;
+&lt;a href="#penyelenggaraan-proaktif" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Kemas Kini Berkala&lt;/strong&gt;: Pastikan pelayar dan sistem dikemas kini&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Program Latihan&lt;/strong&gt;: Pendidikan dan latihan pengguna yang berterusan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pemantauan Sistem&lt;/strong&gt;: Semakan kesihatan dan pemantauan prestasi berkala&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sandaran Data&lt;/strong&gt;: Kekalkan sandaran semasa dan prosedur pemulihan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Amalan Terbaik&lt;span class="hx:absolute hx:-mt-20" id="amalan-terbaik"&gt;&lt;/span&gt;
+&lt;a href="#amalan-terbaik" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dokumentasi&lt;/strong&gt;: Pastikan prosedur didokumentasikan dan terkini&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ujian&lt;/strong&gt;: Uji perubahan dalam pementasan sebelum pengeluaran&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Komunikasi&lt;/strong&gt;: Maklumkan pengguna tentang perubahan dan kemas kini sistem&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pemantauan&lt;/strong&gt;: Sediakan amaran untuk metrik sistem kritikal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Mendapatkan Bantuan&lt;span class="hx:absolute hx:-mt-20" id="mendapatkan-bantuan"&gt;&lt;/span&gt;
+&lt;a href="#mendapatkan-bantuan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Saluran Sokongan&lt;span class="hx:absolute hx:-mt-20" id="saluran-sokongan"&gt;&lt;/span&gt;
+&lt;a href="#saluran-sokongan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;📧 Sokongan E-mel&lt;/strong&gt;: &lt;a href="mailto:vincent@bigledger.com" &gt;vincent@bigledger.com&lt;/a&gt; untuk isu teknikal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;💬 Sembang Pantas&lt;/strong&gt;: Telegram @leehongfay untuk soalan segera&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;📞 Sokongan Telefon&lt;/strong&gt;: Tersedia semasa waktu perniagaan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🌐 Portal Sokongan&lt;/strong&gt;: Sistem tiket dalam talian dan pangkalan pengetahuan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Maklumat Sokongan untuk Diberikan&lt;span class="hx:absolute hx:-mt-20" id="maklumat-sokongan-untuk-diberikan"&gt;&lt;/span&gt;
+&lt;a href="#maklumat-sokongan-untuk-diberikan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Penerangan Masalah&lt;/strong&gt;: Penjelasan isu yang jelas&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Langkah untuk Menghasilkan Semula&lt;/strong&gt;: Cara mencipta semula masalah&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mesej Ralat&lt;/strong&gt;: Teks tepat sebarang mesej ralat&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Maklumat Pengguna&lt;/strong&gt;: Butiran akaun dan kebenaran&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Butiran Sistem&lt;/strong&gt;: Maklumat pelayar, peranti, dan rangkaian&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kesan Perniagaan&lt;/strong&gt;: Bagaimana isu menjejaskan operasi anda&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Jangkaan Masa Tindak Balas&lt;span class="hx:absolute hx:-mt-20" id="jangkaan-masa-tindak-balas"&gt;&lt;/span&gt;
+&lt;a href="#jangkaan-masa-tindak-balas" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Isu Kritikal&lt;/strong&gt;: Masa tindak balas 1-2 jam&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keutamaan Tinggi&lt;/strong&gt;: Masa tindak balas 4-8 jam&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Isu Biasa&lt;/strong&gt;: Masa tindak balas 1-2 hari perniagaan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Permintaan Penambahbaikan&lt;/strong&gt;: Disemak dalam kitaran perancangan bulanan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;Kejayaan Penyelesaian&lt;/strong&gt;: Kebanyakan isu pengguna boleh diselesaikan dengan cepat melalui pengenalpastian masalah yang betul dan menggunakan sumber serta saluran sokongan yang sesuai.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

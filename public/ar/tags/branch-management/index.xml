@@ -1,0 +1,111 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>وثائق BigLedger – Branch-Management</title><link>https://www.bigledger.com/ar/tags/branch-management/</link><description>Recent content in Branch-Management on وثائق BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ar</language><atom:link href="https://www.bigledger.com/ar/tags/branch-management/index.xml" rel="self" type="application/rss+xml"/><item><title>تطبيق المؤسسة</title><link>https://www.bigledger.com/ar/applets/organization-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/organization-applet/</guid><description>
+&lt;h2&gt;الغرض والنظرة العامة&lt;span class="hx:absolute hx:-mt-20" id="الغرض-والنظرة-العامة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ba%d8%b1%d8%b6-%d9%88%d8%a7%d9%84%d9%86%d8%b8%d8%b1%d8%a9-%d8%a7%d9%84%d8%b9%d8%a7%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;تطبيق المؤسسة هو مكوّن أساسي من الوحدة الجوهرية (Core Module) يقوم بتعريف وإدارة هيكلك التنظيمي الكامل في BigLedger. يوفّر هذا التطبيق أدوات شاملة لإعداد الشركات والفروع والأقسام والمواقع والعلاقات الهرمية التي تشكّل العمود الفقري لعمليات عملك.&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;تطبيق الوحدة الجوهرية&lt;/strong&gt;: هذا أحد تطبيقات الوحدة الجوهرية الثلاثة عشر الأساسية، وهو مطلوب من قبل جميع وحدات BigLedger الأخرى للسياق والهيكل التنظيمي.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;الوظائف الأساسية&lt;span class="hx:absolute hx:-mt-20" id="الوظائف-الأساسية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%88%d8%b8%d8%a7%d8%a6%d9%81-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;إعداد الشركة وتكوينها&lt;/strong&gt; - تعريف تفاصيل الشركة ومعلومات العمل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة الفروع والمواقع&lt;/strong&gt; - هيكل تنظيمي متعدد المواقع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;هيكل الأقسام والشعب&lt;/strong&gt; - التسلسل الهرمي التنظيمي الداخلي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة مراكز التكلفة&lt;/strong&gt; - إعداد التقارير المالية وتوزيع التكاليف&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التسلسل الهرمي التنظيمي&lt;/strong&gt; - علاقات الأصل والفرع وهيكل إعداد التقارير&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;الميزات الرئيسية&lt;span class="hx:absolute hx:-mt-20" id="الميزات-الرئيسية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;إدارة الشركة&lt;span class="hx:absolute hx:-mt-20" id="إدارة-الشركة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b4%d8%b1%d9%83%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;ملف تعريف كامل للشركة ومعلومات العمل&lt;/li&gt;
+&lt;li&gt;تفاصيل التسجيل التجاري والكيان القانوني&lt;/li&gt;
+&lt;li&gt;أرقام التسجيل الضريبي ومعلومات الامتثال&lt;/li&gt;
+&lt;li&gt;إعدادات الهوية المؤسسية والعلامة التجارية&lt;/li&gt;
+&lt;li&gt;دعم العملات المتعددة والعمليات الدولية&lt;/li&gt;
+&lt;li&gt;تتبّع الامتثال القانوني والتنظيمي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;هيكل الفروع والمواقع&lt;span class="hx:absolute hx:-mt-20" id="هيكل-الفروع-والمواقع"&gt;&lt;/span&gt;
+&lt;a href="#%d9%87%d9%8a%d9%83%d9%84-%d8%a7%d9%84%d9%81%d8%b1%d9%88%d8%b9-%d9%88%d8%a7%d9%84%d9%85%d9%88%d8%a7%d9%82%d8%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;إعداد وتكوين فروع متعددة&lt;/li&gt;
+&lt;li&gt;إدارة الموقع الجغرافي والعنوان&lt;/li&gt;
+&lt;li&gt;إعدادات تشغيلية خاصة بكل فرع&lt;/li&gt;
+&lt;li&gt;العلاقات والتسلسل الهرمي بين الفروع&lt;/li&gt;
+&lt;li&gt;المخزون والعمليات القائمة على الموقع&lt;/li&gt;
+&lt;li&gt;قدرات أداء الفروع وإعداد تقاريرها&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;إدارة الأقسام والشعب&lt;span class="hx:absolute hx:-mt-20" id="إدارة-الأقسام-والشعب"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%a3%d9%82%d8%b3%d8%a7%d9%85-%d9%88%d8%a7%d9%84%d8%b4%d8%b9%d8%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;هيكل الأقسام وتسلسلها الهرمي&lt;/li&gt;
+&lt;li&gt;إعداد مراكز التكلفة ومراكز الربح&lt;/li&gt;
+&lt;li&gt;تخصيص الميزانية والمسؤولية المالية&lt;/li&gt;
+&lt;li&gt;تخصيص الموارد وإدارتها&lt;/li&gt;
+&lt;li&gt;علاقات إعداد التقارير والمخططات التنظيمية&lt;/li&gt;
+&lt;li&gt;إعدادات التعاون بين الأقسام&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;التسلسل الهرمي التنظيمي وإعداد التقارير&lt;span class="hx:absolute hx:-mt-20" id="التسلسل-الهرمي-التنظيمي-وإعداد-التقارير"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%b3%d9%84%d8%b3%d9%84-%d8%a7%d9%84%d9%87%d8%b1%d9%85%d9%8a-%d8%a7%d9%84%d8%aa%d9%86%d8%b8%d9%8a%d9%85%d9%8a-%d9%88%d8%a5%d8%b9%d8%af%d8%a7%d8%af-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;علاقات الشركة الأم والشركة التابعة&lt;/li&gt;
+&lt;li&gt;هياكل إعداد تقارير الفروع والأقسام&lt;/li&gt;
+&lt;li&gt;دعم المؤسسة المصفوفية&lt;/li&gt;
+&lt;li&gt;التسلسلات الهرمية للموافقات متعددة المستويات&lt;/li&gt;
+&lt;li&gt;إعداد التقارير الموحّدة والتحليل&lt;/li&gt;
+&lt;li&gt;إدارة التغيير التنظيمي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;التكوين والتخصيص&lt;span class="hx:absolute hx:-mt-20" id="التكوين-والتخصيص"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d9%83%d9%88%d9%8a%d9%86-%d9%88%d8%a7%d9%84%d8%aa%d8%ae%d8%b5%d9%8a%d8%b5" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;قوالب تنظيمية خاصة بكل صناعة&lt;/li&gt;
+&lt;li&gt;حقول وسمات تنظيمية مخصصة&lt;/li&gt;
+&lt;li&gt;تكوين سير العمل وعملية الموافقة&lt;/li&gt;
+&lt;li&gt;التكامل مع تطبيقات الوحدة الجوهرية الأخرى&lt;/li&gt;
+&lt;li&gt;إعدادات الأمان والتحكم في الوصول&lt;/li&gt;
+&lt;li&gt;مراقبة الأداء وتحسينه&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;سير عمل إعداد المؤسسة&lt;span class="hx:absolute hx:-mt-20" id="سير-عمل-إعداد-المؤسسة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b3%d9%8a%d8%b1-%d8%b9%d9%85%d9%84-%d8%a5%d8%b9%d8%af%d8%a7%d8%af-%d8%a7%d9%84%d9%85%d8%a4%d8%b3%d8%b3%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="https://www.bigledger.com/diagrams/organization-setup-workflow.svg" alt="سير عمل إعداد المؤسسة" loading="lazy" /&gt;
+&lt;em&gt;الشكل 1: عملية إعداد المؤسسة الكاملة للشركات الماليزية&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;سواء كنت تدير شركة واحدة أو فروعًا متعددة، يبسّط تطبيق المؤسسة العملية، موفّرًا واجهة سهلة الاستخدام لضمان تكوين جميع التفاصيل التشغيلية بدقة وكفاءة.&lt;/p&gt;</description></item><item><title>تطبيق تنظيم الفروع</title><link>https://www.bigledger.com/ar/applets/branch-organization-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/branch-organization-applet/</guid><description>
+&lt;p&gt;noneيغطي هذا القسم علامة التبويب الرئيسية الثانية في الشريط الجانبي، الفروع (Branches)، حيث يمكن للمستخدمين إنشاء تفاصيل فروعهم وتحريرها.
+يمكن أن يكون للشركة فروع متعددة
+يمكن للمستخدمين إما اختيار إنشاء فرعهم من الأيقونة الثانية في الشريط الجانبي الأيسر أو الانتقال إلى علامة تبويب تحرير قائمة الشركات لإنشاء فرع.
+كيفية إنشاء فرع من الشريط الجانبي
+إنشاء فرع من علامة تبويب قائمة الشركات﻿﻿
+يقدّم الموضوع الثاني في هذا القسم نظرة عامة عن كل علامة تبويب في قائمة تحرير الفرع، مع إبراز ميزاتها لتحسين تهيئة الفرع.&lt;/p&gt;
+&lt;h1&gt;إنشاء فرع﻿&lt;/h1&gt;&lt;p&gt;يمكن للمستخدمين إنشاء فروع متعددة، جميعها مرتبطة بشركة واحدة&lt;/p&gt;
+&lt;h2&gt;إنشاء فرع من الشريط الجانبي﻿&lt;span class="hx:absolute hx:-mt-20" id="إنشاء-فرع-من-الشريط-الجانبي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d9%81%d8%b1%d8%b9-%d9%85%d9%86-%d8%a7%d9%84%d8%b4%d8%b1%d9%8a%d8%b7-%d8%a7%d9%84%d8%ac%d8%a7%d9%86%d8%a8%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;الأيقونة الثانية في شريط القائمة الأيسر هي علامة تبويب الفرع (Branch Tab)، التي تتيح للمستخدمين إنشاء فرع جديد لشركة يدويًا. يمكن للمستخدمين الضغط على زر &amp;lsquo;+&amp;rsquo; لإنشاء فرع جديد.
+املأ جميع الحقول المطلوبة في علامة تبويب التفاصيل (Details Tab) على النحو المبيّن أدناه.
+بمجرد الانتهاء، انقر على &amp;lsquo;Save&amp;rsquo; لحفظ تفاصيل الفرع.
+يمكن للمستخدمين الاختيار بين &amp;lsquo;Create Default Location&amp;rsquo; أو &amp;lsquo;Choose From Existing Location&amp;rsquo; عند إعداد الفرع.
+إذا أنشأت الفرع قبل إعداد الموقع واخترت &amp;lsquo;Create Default Location&amp;rsquo;، سيُنشئ النظام تلقائيًا موقعًا افتراضيًا واحدًا.
+الحقول التي يجب ملؤها في علامة تبويب التفاصيل هي:
+رمز الفرع، اسم الفرع
+اسم الشركة: اربط الفرع بشركتك. سيُعرض هذا باسم الشركة المختارة
+رقم تسجيل الشركة: يُعرض كما ملأه المستخدم
+تاريخ بدء تشغيل الفرع
+العملة: يمكن اختيار عملات مختلفة من القائمة المنسدلة
+إذا أنشأ المستخدمون الموقع قبل الفرع، ثم اختاروا &amp;lsquo;Choose From Existing Location&amp;rsquo;، فإن الحقول الإضافية المطلوبة في علامة تبويب التفاصيل هي:
+رمز الموقع
+الموقع الافتراضي
+بعد ملء جميع التفاصيل الضرورية، انقر على &amp;lsquo;Save&amp;rsquo; لتخزين معلومات الفرع.
+املأ التفاصيل في علامة تبويب العنوان (Address Tab) كما هو موضّح سابقًا.
+بعد تأكيد جميع المعلومات، انقر على زر &amp;lsquo;Save&amp;rsquo; لتخزين تفاصيل الفرع.&lt;/p&gt;
+&lt;h2&gt;إنشاء فرع من علامة تبويب قائمة الشركات﻿﻿&lt;span class="hx:absolute hx:-mt-20" id="إنشاء-فرع-من-علامة-تبويب-قائمة-الشركات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d9%81%d8%b1%d8%b9-%d9%85%d9%86-%d8%b9%d9%84%d8%a7%d9%85%d8%a9-%d8%aa%d8%a8%d9%88%d9%8a%d8%a8-%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%a7%d9%84%d8%b4%d8%b1%d9%83%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;إذا اختار المستخدمون إنشاء فرع للشركة المختارة في صفحة قائمة الشركات، فإنهم يربطون الفرع مباشرةً بتلك الشركة. انقر على علامة &amp;lsquo;+&amp;rsquo; لبدء إنشاء الفرع.
+انتقل إلى علامة تبويب الفرع في تحرير الشركة وانقر على زر &amp;lsquo;+&amp;rsquo; لإنشاء فرع جديد.
+اختر الشركة التي ترغب في إنشاء فرع لها من القائمة المنسدلة. سيُملأ اسم الشركة ورقم تسجيل الشركة تلقائيًا بناءً على اختيارك.
+املأ الحقول الإلزامية التي يجب ملؤها في علامة تبويب التفاصيل والعنوان&lt;/p&gt;
+&lt;h1&gt;تحرير الفرع﻿&lt;/h1&gt;&lt;p&gt;من صفحة قائمة الفروع، انقر على الفرع الذي أنشأته لعرض جميع علامات التبويب المتاحة:
+التفاصيل (Details): يعرض هذا القسم تفاصيل الفرع الرئيسية التي أُنشئت في القسم 2.1، حيث يمكن للمستخدمين إضافة أي معلومات أو تحريرها عند الحاجة.
+التسعير الافتراضي (Default Pricing): هو تهيئة التسعير الافتراضي. يمكن تعيينه حسب الفرع أو الشركة. على سبيل المثال، إذا كان لديك مخططات تسعير مختلفة لشرق وغرب ماليزيا، يمكنك تطبيق تسعير فرع الشرق على الفروع في تلك المنطقة.
+العنوان (Address): عرض عناوين الفرع وتحريرها.
+الانتقاء والتعبئة (Pick Pack): يُستخدم لأوامر الموارد. في حال استخدامك لخيار التوصيل، املأه؛ وإلا يمكنك تركه فارغًا.
+السوق (Marketplace): مخصّص لمنتج EcomSync، وهو مرتبط بأسواقك مثل Shopee وLazada. هنا تُهيّئ الإعدادات.
+الموقع (Location): هنا يُعرض الموقع الافتراضي الذي أنشأه النظام للتو عند إعداد الفرع. بدلًا من ذلك، يمكنك الاختيار من المواقع الموجودة.
+التسوية (Settlement): هنا تحدّد نوع التسوية الذي يمكن لكل فرع رؤيته. يمكن أن يكون لكل فرع تسويات مختلفة
+على سبيل المثال: النقد أو بطاقة الائتمان أو Maybank.
+تُستخدم التسوية لدفتر النقدية أو نقطة البيع لديك، بما في ذلك خيارات الدفع مثل GrabPay أو ShopeePay. هنا تُهيّئها.
+التسميات (Labels): تُستخدم لوسم الفرع
+الامتداد (Extension): يُستخدم لـ CP Commerce
+العميل والمورد (Customer and Supplier): اربط الفرع بعميل/مورد معيّن. عند التهيئة هنا، ستُسجَّل المعاملات تلقائيًا. هذه الميزة جزء من تفاصيل التهيئة بين الشركات
+بين الشركات (Intercompany): حدّد ما إذا كان النظام يُنهي المعاملات بين الشركات تلقائيًا أو يتركها كمسودات للموافقة اليدوية. يمكنك أيضًا تهيئة ما إذا كان إنشاء فاتورة مبيعات ينبغي أن يُنشئ فاتورة الشراء تلقائيًا. هنا تُدار إعدادات التهيئة التلقائية.&lt;/p&gt;</description></item></channel></rss>

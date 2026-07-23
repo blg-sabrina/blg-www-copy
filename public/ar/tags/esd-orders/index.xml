@@ -1,0 +1,47 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>وثائق BigLedger – Esd-Orders</title><link>https://www.bigledger.com/ar/tags/esd-orders/</link><description>Recent content in Esd-Orders on وثائق BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ar</language><atom:link href="https://www.bigledger.com/ar/tags/esd-orders/index.xml" rel="self" type="application/rss+xml"/><item><title>تطبيق طلبات VSTECS MS ESD</title><link>https://www.bigledger.com/ar/applets/vstecs-ms-esd-order-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/vstecs-ms-esd-order-applet/</guid><description>
+&lt;h2&gt;نظرة عامة&lt;span class="hx:absolute hx:-mt-20" id="نظرة-عامة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%86%d8%b8%d8%b1%d8%a9-%d8%b9%d8%a7%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;يربط تطبيق طلبات VSTECS MS ESD منصة BigLedger بشركة VSTECS لطلبات التسليم الإلكتروني للبرمجيات (ESD) من Microsoft. فهو يتيح لفريقك التحقق من أحدث أسعار منتجات Microsoft وتقديم طلبات ESD لدى الموزّع مباشرةً من BigLedger، دون إعادة إدخال تفاصيل الطلب في بوابة منفصلة.&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;التكامل مطلوب&lt;/strong&gt;: يحتاج هذا التطبيق إلى تكامل نشط من BigLedger إلى EMP، ومن BigLedger إلى نظام الموزّع، قبل أن يتمكن من العمل.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;قدرات واجهة برمجة التطبيقات&lt;span class="hx:absolute hx:-mt-20" id="قدرات-واجهة-برمجة-التطبيقات"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d8%af%d8%b1%d8%a7%d8%aa-%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d8%a8%d8%b1%d9%85%d8%ac%d8%a9-%d8%a7%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;يستخدم التطبيق واجهتَي برمجة تطبيقات من الموزّع:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التحقق من السعر&lt;/strong&gt; - يسترجع أحدث سعر لأي رمز SKU لمنتج Microsoft ESD، بحيث تستخدم عروض الأسعار والطلبات دائمًا تسعير الموزّع الحالي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إنشاء الطلب&lt;/strong&gt; - ينشئ طلبًا لدى الموزّع لاسترجاع منتج Microsoft ESD، ويعيد تفاصيل التنفيذ إلى BigLedger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;سير عمليات التكامل&lt;span class="hx:absolute hx:-mt-20" id="سير-عمليات-التكامل"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b3%d9%8a%d8%b1-%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;توجد حاليًا طريقتان لإعداد هذا التكامل. اختر الطريقة التي تناسب عملية النشر لديك.&lt;/p&gt;
+&lt;h3&gt;طريقة الاختصار&lt;span class="hx:absolute hx:-mt-20" id="طريقة-الاختصار"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b7%d8%b1%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d8%a7%d8%ae%d8%aa%d8%b5%d8%a7%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;تكامل EMP المباشر مع BigLedger، دون تطبيق T2T Admin.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;أسرع طريقة للاتصال&lt;/li&gt;
+&lt;li&gt;مناسبة عندما لا تكون الاتصالية بين المستأجرين مطلوبة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;الطريقة القياسية&lt;span class="hx:absolute hx:-mt-20" id="الطريقة-القياسية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b7%d8%b1%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%82%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;إعداد كامل بين المستأجرين باستخدام التطبيقات الداعمة:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/t2t-admin-applet/" &gt;تطبيق T2T Admin&lt;/a&gt;&lt;/strong&gt; - يتيح اتصالية المستأجر الضيف والمضيف&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/doc-item-maintenance-applet/" &gt;تطبيق صيانة عناصر المستندات&lt;/a&gt;&lt;/strong&gt; - يربط رموز العناصر بين الأنظمة المتصلة&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;استخدم هذه الطريقة عندما يتبع نشرك النموذج القياسي للتكامل بين المستأجرين في BigLedger.&lt;/p&gt;
+&lt;h2&gt;ملاحظات التنفيذ&lt;span class="hx:absolute hx:-mt-20" id="ملاحظات-التنفيذ"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%84%d8%a7%d8%ad%d8%b8%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;يتوفّر دليل مستخدم لطلبات MS ESD وتفصيل لهيكل العمل الخاص بالتنفيذ من فريق BigLedger - تواصل مع &lt;a href="mailto:support@bigledger.com" &gt;support@bigledger.com&lt;/a&gt; لطلبهما&lt;/li&gt;
+&lt;li&gt;تأكّد مع مدير حسابك لدى الموزّع من تفعيل الوصول إلى واجهة برمجة التطبيقات قبل بدء الإعداد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;التطبيقات ذات الصلة&lt;span class="hx:absolute hx:-mt-20" id="التطبيقات-ذات-الصلة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa-%d8%b0%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d9%84%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 3;"&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ar/applets/ingram-micro-ms-esd-applet/"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;تطبيق Ingram Micro MS ESD&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;تكامل Microsoft ESD المكافئ لشركة Ingram Micro&lt;/div&gt;&lt;/a&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ar/applets/t2t-admin-applet/"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;تطبيق T2T Admin&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;الاتصالية بين المستأجرين المستخدمة في الطريقة القياسية&lt;/div&gt;&lt;/a&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ar/applets/doc-item-maintenance-applet/"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;تطبيق صيانة عناصر المستندات&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;ربط رموز العناصر بين الأنظمة المتصلة&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;</description></item></channel></rss>

@@ -1,0 +1,810 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>وثائق BigLedger – Reports</title><link>https://www.bigledger.com/ar/tags/reports/</link><description>Recent content in Reports on وثائق BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ar</language><atom:link href="https://www.bigledger.com/ar/tags/reports/index.xml" rel="self" type="application/rss+xml"/><item><title>التقارير والتحليلات</title><link>https://www.bigledger.com/ar/user-guide/reports-analytics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/user-guide/reports-analytics/</guid><description>
+&lt;p&gt;سخّر قوة بيانات عملك مع قدرات إعداد التقارير والتحليلات الشاملة في BigLedger. حوّل البيانات الخام إلى رؤى قابلة للتنفيذ تدفع قرارات أعمال أفضل.&lt;/p&gt;
+&lt;h2&gt;نظرة عامة&lt;span class="hx:absolute hx:-mt-20" id="نظرة-عامة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%86%d8%b8%d8%b1%d8%a9-%d8%b9%d8%a7%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;توفر مجموعة التقارير والتحليلات في BigLedger:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;لوحات معلومات فورية&lt;/strong&gt; - مقاييس أعمال ومؤشرات أداء رئيسية حيّة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تقارير قياسية&lt;/strong&gt; - تقارير جاهزة للاحتياجات التجارية الشائعة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;منشئ تقارير مخصص&lt;/strong&gt; - أنشئ تقارير مصممة وفقًا لمتطلباتك&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أدوات تصدير البيانات&lt;/strong&gt; - صدّر البيانات للتحليل الخارجي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إعداد تقارير آلي&lt;/strong&gt; - تسليم تقارير مجدول وتنبيهات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;تحوّل التقارير والتحليلات في BigLedger البيانات التجارية الخام إلى رؤى قابلة للتنفيذ. سواء كنت بحاجة إلى لوحات معلومات تشغيلية فورية أو تقارير مالية معقّدة، توفر مجموعتنا الشاملة كل ما يلزم لاتخاذ القرارات المدفوعة بالبيانات.&lt;/p&gt;
+&lt;h2&gt;مجالات إعداد التقارير الرئيسية&lt;span class="hx:absolute hx:-mt-20" id="مجالات-إعداد-التقارير-الرئيسية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%ac%d8%a7%d9%84%d8%a7%d8%aa-%d8%a5%d8%b9%d8%af%d8%a7%d8%af-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;التقارير المالية&lt;span class="hx:absolute hx:-mt-20" id="التقارير-المالية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;بيانات الأرباح والخسائر&lt;/strong&gt; - تحليل الإيرادات والمصروفات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تقارير الميزانية العمومية&lt;/strong&gt; - الأصول والالتزامات وحقوق الملكية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحليل التدفق النقدي&lt;/strong&gt; - حركة النقد والتنبؤ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أعمار حسابات المدينين&lt;/strong&gt; - تحليل مدفوعات العملاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أعمار حسابات الدائنين&lt;/strong&gt; - تتبّع مدفوعات المورّدين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التقارير الضريبية&lt;/strong&gt; - ضريبة SST وضريبة الدخل وتقارير الامتثال&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تقارير المبيعات والتسويق&lt;span class="hx:absolute hx:-mt-20" id="تقارير-المبيعات-والتسويق"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d9%85%d8%a8%d9%8a%d8%b9%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%aa%d8%b3%d9%88%d9%8a%d9%82" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;أداء المبيعات&lt;/strong&gt; - اتجاهات الإيرادات وتحليلها&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحليل العملاء&lt;/strong&gt; - سلوك العملاء والتقسيم&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أداء المنتجات&lt;/strong&gt; - الأصناف الأكثر والأقل مبيعًا&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تقارير فريق المبيعات&lt;/strong&gt; - الأداء الفردي والجماعي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;حسابات العمولات&lt;/strong&gt; - تتبّع عمولات المبيعات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحليل خط الأنابيب&lt;/strong&gt; - تتبّع فرص المبيعات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تقارير المخزون والعمليات&lt;span class="hx:absolute hx:-mt-20" id="تقارير-المخزون-والعمليات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d9%85%d8%ae%d8%b2%d9%88%d9%86-%d9%88%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تقارير مستوى المخزون&lt;/strong&gt; - مواقع المخزون الحالية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;حركة المخزون&lt;/strong&gt; - تحليل دخول وخروج المخزون&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تقارير إعادة الطلب&lt;/strong&gt; - الأصناف التي تتطلب إعادة تخزين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أداء المستودعات&lt;/strong&gt; - مقاييس الكفاءة والدقة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أداء المورّدين&lt;/strong&gt; - مقاييس تسليم المورّدين وجودتهم&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تقارير الإنتاج&lt;/strong&gt; - كفاءة التصنيع وتكاليفه&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تقارير الموارد البشرية&lt;span class="hx:absolute hx:-mt-20" id="تقارير-الموارد-البشرية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d9%85%d9%88%d8%a7%d8%b1%d8%af-%d8%a7%d9%84%d8%a8%d8%b4%d8%b1%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تقارير الرواتب&lt;/strong&gt; - تحليل الرواتب والمزايا&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تقارير الحضور&lt;/strong&gt; - تتبّع الوقت والحضور&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تقارير الأداء&lt;/strong&gt; - مقاييس أداء الموظفين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تقارير الإجازات&lt;/strong&gt; - أرصدة الإجازات واستخدامها&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تقارير التدريب&lt;/strong&gt; - تتبّع تطوير الموظفين&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;تهيئة لوحة المعلومات&lt;span class="hx:absolute hx:-mt-20" id="تهيئة-لوحة-المعلومات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%87%d9%8a%d8%a6%d8%a9-%d9%84%d9%88%d8%ad%d8%a9-%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;إعداد لوحة معلوماتك&lt;span class="hx:absolute hx:-mt-20" id="إعداد-لوحة-معلوماتك"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%b9%d8%af%d8%a7%d8%af-%d9%84%d9%88%d8%ad%d8%a9-%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa%d9%83" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;يعد تخصيص لوحات المعلومات في BigLedger سهلًا ومرنًا:&lt;/p&gt;
+&lt;h4&gt;إنشاء لوحة معلومات جديدة&lt;span class="hx:absolute hx:-mt-20" id="إنشاء-لوحة-معلومات-جديدة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d9%84%d9%88%d8%ad%d8%a9-%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d8%ac%d8%af%d9%8a%d8%af%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;الانتقال إلى لوحات المعلومات&lt;/strong&gt; - الوصول من قائمة التنقل الرئيسية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;انقر على &amp;ldquo;إنشاء لوحة معلومات&amp;rdquo;&lt;/strong&gt; - ابدأ بلوحة فارغة أو قالب&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اختر نوع لوحة المعلومات&lt;/strong&gt; - تنفيذية أو تشغيلية أو مخصصة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;حدّد التخطيط&lt;/strong&gt; - خيارات تخطيط شبكي أو مرن أو ثابت&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التسمية والتهيئة&lt;/strong&gt; - اضبط العنوان والوصف وصلاحيات الوصول&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;إضافة عناصر الويدجت إلى لوحة المعلومات&lt;span class="hx:absolute hx:-mt-20" id="إضافة-عناصر-الويدجت-إلى-لوحة-المعلومات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%b6%d8%a7%d9%81%d8%a9-%d8%b9%d9%86%d8%a7%d8%b5%d8%b1-%d8%a7%d9%84%d9%88%d9%8a%d8%af%d8%ac%d8%aa-%d8%a5%d9%84%d9%89-%d9%84%d9%88%d8%ad%d8%a9-%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;أنواع عناصر الويدجت المتاحة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;بطاقات مؤشرات الأداء الرئيسية&lt;/strong&gt; - عرض المقاييس الأساسية مع مؤشرات الاتجاه&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المخططات والرسوم البيانية&lt;/strong&gt; - أعمدة وخطوط ودوائر وتصورات متقدمة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;جداول البيانات&lt;/strong&gt; - بيانات جدولية مع الفرز والتصفية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المقاييس&lt;/strong&gt; - مؤشرات التقدم ومقاييس الأداء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الخرائط الحرارية&lt;/strong&gt; - تصور البيانات الجغرافية أو الفئوية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التقارير المخصصة&lt;/strong&gt; - تضمين التقارير الحالية كعناصر ويدجت&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;خطوات تهيئة عنصر الويدجت:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;انقر على &amp;ldquo;إضافة ويدجت&amp;rdquo;&lt;/strong&gt; في وضع تحرير لوحة المعلومات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;حدّد نوع الويدجت&lt;/strong&gt; من الخيارات المتاحة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اختر مصدر البيانات&lt;/strong&gt; من الأنظمة المتصلة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;هيّئ المعاملات&lt;/strong&gt; - النطاقات الزمنية والمرشحات والتجميع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;طبّق التنسيق&lt;/strong&gt; - الألوان والخطوط والتنسيق المرئي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اضبط معدل التحديث&lt;/strong&gt; - فوري أو كل ساعة أو يومي أو يدوي&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;إدارة تخطيط لوحة المعلومات&lt;span class="hx:absolute hx:-mt-20" id="إدارة-تخطيط-لوحة-المعلومات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%aa%d8%ae%d8%b7%d9%8a%d8%b7-%d9%84%d9%88%d8%ad%d8%a9-%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;ميزات التصميم المتجاوب:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;واجهة السحب والإفلات&lt;/strong&gt; - أعد ترتيب عناصر الويدجت بسهولة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;عناصر ويدجت قابلة لتغيير الحجم&lt;/strong&gt; - اضبط الحجم ليناسب أهمية المحتوى&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحسين للأجهزة المحمولة&lt;/strong&gt; - تكييف التخطيط تلقائيًا&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المحاذاة الشبكية&lt;/strong&gt; - محاذاة وتباعد دقيقان&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;دعم الشاشات المتعددة&lt;/strong&gt; - التحسين لأحجام العرض المختلفة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;أفضل ممارسات التخطيط:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ضع أهم مؤشرات الأداء الرئيسية في الزاوية العلوية اليسرى&lt;/li&gt;
+&lt;li&gt;اجمع المقاييس المترابطة معًا&lt;/li&gt;
+&lt;li&gt;استخدم أنظمة ألوان متسقة عبر عناصر الويدجت&lt;/li&gt;
+&lt;li&gt;تأكد من وجود مساحة بيضاء كافية لسهولة القراءة&lt;/li&gt;
+&lt;li&gt;اختبر التخطيط على أحجام شاشات مختلفة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;لوحات المعلومات القياسية&lt;span class="hx:absolute hx:-mt-20" id="لوحات-المعلومات-القياسية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%84%d9%88%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%82%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;لوحة المعلومات التنفيذية&lt;/strong&gt; - نظرة عامة عالية المستوى على الأعمال&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;لوحة معلومات المبيعات&lt;/strong&gt; - مقاييس المبيعات واتجاهاتها&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;لوحة المعلومات المالية&lt;/strong&gt; - المؤشرات المالية الرئيسية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;لوحة معلومات العمليات&lt;/strong&gt; - مقاييس الكفاءة التشغيلية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;لوحة معلومات الموارد البشرية&lt;/strong&gt; - مقاييس الموارد البشرية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;لوحات المعلومات المخصصة&lt;span class="hx:absolute hx:-mt-20" id="لوحات-المعلومات-المخصصة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%84%d9%88%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%ae%d8%b5%d8%b5%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;اختيار عناصر الويدجت&lt;/strong&gt; - اختر تصورات البيانات ذات الصلة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تصميم التخطيط&lt;/strong&gt; - رتّب عناصر الويدجت للعرض الأمثل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تصفية البيانات&lt;/strong&gt; - أعدّ مرشحات ومعاملات ديناميكية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحكم في الوصول&lt;/strong&gt; - هيّئ من يستطيع عرض كل لوحة معلومات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحسين للأجهزة المحمولة&lt;/strong&gt; - تأكد من عمل لوحات المعلومات على الأجهزة المحمولة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;منشئ التقارير&lt;span class="hx:absolute hx:-mt-20" id="منشئ-التقارير"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%86%d8%b4%d8%a6-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;إتقان منشئ التقارير&lt;span class="hx:absolute hx:-mt-20" id="إتقان-منشئ-التقارير"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%aa%d9%82%d8%a7%d9%86-%d9%85%d9%86%d8%b4%d8%a6-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;يمكّن منشئ التقارير في BigLedger المستخدمين من إنشاء تقارير متطورة دون خبرة تقنية:&lt;/p&gt;
+&lt;h4&gt;البدء بمنشئ التقارير&lt;span class="hx:absolute hx:-mt-20" id="البدء-بمنشئ-التقارير"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a8%d8%af%d8%a1-%d8%a8%d9%85%d9%86%d8%b4%d8%a6-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;الخطوة 1: تخطيط التقرير&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تحديد الأهداف&lt;/strong&gt; - ما أسئلة العمل التي تحتاج إلى إجابات؟&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحديد مصادر البيانات&lt;/strong&gt; - أي الوحدات تحتوي على المعلومات المطلوبة؟&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اختيار نوع التقرير&lt;/strong&gt; - جدولي أو قائم على المخططات أو بأسلوب لوحة المعلومات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تخطيط التوزيع&lt;/strong&gt; - من يحتاج إلى الوصول وكم مرة؟&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;الخطوة 2: اختيار مصدر البيانات&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;مصادر البيانات المتاحة:
+✓ المعاملات المالية (GL, AP, AR)
+✓ أوامر المبيعات والفواتير
+✓ حركات المخزون
+✓ سجلات العملاء والمورّدين
+✓ بيانات الموظفين والرواتب
+✓ الإنتاج والتصنيع
+✓ بيانات تكامل التجارة الإلكترونية&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;إنشاء تقريرك الأول&lt;span class="hx:absolute hx:-mt-20" id="إنشاء-تقريرك-الأول"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d8%aa%d9%82%d8%b1%d9%8a%d8%b1%d9%83-%d8%a7%d9%84%d8%a3%d9%88%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;إنشاء تقرير أداء المبيعات:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;افتح منشئ التقارير&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;انتقل إلى التقارير &amp;gt; منشئ التقارير&lt;/li&gt;
+&lt;li&gt;انقر على &amp;ldquo;تقرير جديد&amp;rdquo; أو استخدم قالبًا موجودًا&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;حدّد مصدر البيانات الأساسي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;اختر &amp;ldquo;معاملات المبيعات&amp;rdquo; كمصدر بيانات رئيسي&lt;/li&gt;
+&lt;li&gt;أدرج الجداول المرتبطة: العملاء، المنتجات، موظفو المبيعات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;أضف حقول التقرير&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;الأبعاد (التجميع حسب):
+- فترة المبيعات (شهر/ربع سنة)
+- مندوب المبيعات
+- فئة المنتج
+- شريحة العملاء
+المقاييس (الحساب):
+- إجمالي مبلغ المبيعات
+- إجمالي الربح
+- عدد المعاملات
+- متوسط قيمة الطلب&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;طبّق المرشحات والمعاملات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;النطاق الزمني: آخر 12 شهرًا&lt;/li&gt;
+&lt;li&gt;إقليم المبيعات: الكل أو مناطق محددة&lt;/li&gt;
+&lt;li&gt;حالة المنتج: المنتجات النشطة فقط&lt;/li&gt;
+&lt;li&gt;نوع العميل: B2B أو B2C أو كليهما&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;هيّئ الحسابات&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sql" data-lang="sql"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Gross Profit &lt;span style="color:#f92672"&gt;=&lt;/span&gt; Sales Amount &lt;span style="color:#f92672"&gt;-&lt;/span&gt; Cost &lt;span style="color:#66d9ef"&gt;of&lt;/span&gt; Goods Sold
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Gross Margin &lt;span style="color:#f92672"&gt;%&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; (Gross Profit &lt;span style="color:#f92672"&gt;/&lt;/span&gt; Sales Amount) &lt;span style="color:#f92672"&gt;*&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;100&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Growth Rate &lt;span style="color:#f92672"&gt;=&lt;/span&gt; ((&lt;span style="color:#66d9ef"&gt;Current&lt;/span&gt; Period &lt;span style="color:#f92672"&gt;-&lt;/span&gt; Previous Period) &lt;span style="color:#f92672"&gt;/&lt;/span&gt; Previous Period) &lt;span style="color:#f92672"&gt;*&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;100&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تنسيق التقرير وتصميمه&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;طبّق قوالب تنسيق احترافية&lt;/li&gt;
+&lt;li&gt;أضف العلامة التجارية والشعارات للشركة&lt;/li&gt;
+&lt;li&gt;هيّئ تنسيقات الأرقام والعملة&lt;/li&gt;
+&lt;li&gt;أعدّ التنسيق الشرطي للتنبيهات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;ميزات التقارير المتقدمة&lt;span class="hx:absolute hx:-mt-20" id="ميزات-التقارير-المتقدمة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;إمكانيات التعمّق (Drill-Down)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التنقل متعدد المستويات&lt;/strong&gt; - انقر لاستكشاف البيانات المفصّلة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التنقل بمسار التنقل (Breadcrumb)&lt;/strong&gt; - تتبّع مسار التعمّق&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تفاصيل منبثقة&lt;/strong&gt; - مرّر لعرض معلومات إضافية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تقارير مرتبطة&lt;/strong&gt; - انتقل إلى التقارير ذات الصلة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;العناصر التفاعلية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;مرشحات ديناميكية&lt;/strong&gt; - يمكن للمستخدمين ضبط المعاملات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;محدّدات النطاق الزمني&lt;/strong&gt; - اختيار مرن للفترة الزمنية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;عناصر التحكم في المعاملات&lt;/strong&gt; - قوائم منسدلة وحقول إدخال&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خيارات التصدير&lt;/strong&gt; - PDF وExcel وCSV عند الطلب&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;الحقول والصيغ المحسوبة&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;الحسابات التجارية الشائعة:
+• ROI = (Gain - Cost) / Cost * 100
+• Inventory Turnover = COGS / Average Inventory
+• Customer Lifetime Value = Average Purchase × Purchase Frequency × Customer Lifespan
+• Conversion Rate = (Conversions / Total Visitors) * 100&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;قوالب التقارير حسب الوظيفة&lt;span class="hx:absolute hx:-mt-20" id="قوالب-التقارير-حسب-الوظيفة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d9%88%d8%a7%d9%84%d8%a8-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d8%ad%d8%b3%d8%a8-%d8%a7%d9%84%d9%88%d8%b8%d9%8a%d9%81%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;قوالب المبيعات والتسويق&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;لوحة معلومات أداء المبيعات&lt;/li&gt;
+&lt;li&gt;تقرير اكتساب العملاء&lt;/li&gt;
+&lt;li&gt;تحليل أداء المنتجات&lt;/li&gt;
+&lt;li&gt;مقاييس قمع المبيعات&lt;/li&gt;
+&lt;li&gt;تقرير حساب العمولات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;القوالب المالية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;بيان الأرباح والخسائر&lt;/li&gt;
+&lt;li&gt;تقرير الميزانية العمومية&lt;/li&gt;
+&lt;li&gt;تحليل التدفق النقدي&lt;/li&gt;
+&lt;li&gt;تباين الميزانية مقابل الفعلي&lt;/li&gt;
+&lt;li&gt;تقرير أعمار الحسابات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;قوالب العمليات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تقرير حالة المخزون&lt;/li&gt;
+&lt;li&gt;تحليل كفاءة الإنتاج&lt;/li&gt;
+&lt;li&gt;مقاييس مراقبة الجودة&lt;/li&gt;
+&lt;li&gt;بطاقة أداء المورّدين&lt;/li&gt;
+&lt;li&gt;تقرير إنتاجية المستودعات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;قوالب الموارد البشرية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;لوحة معلومات أداء الموظفين&lt;/li&gt;
+&lt;li&gt;تقرير ملخص الرواتب&lt;/li&gt;
+&lt;li&gt;تحليل الحضور والإجازات&lt;/li&gt;
+&lt;li&gt;تقرير إتمام التدريب&lt;/li&gt;
+&lt;li&gt;مقاييس التوظيف&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;المشاركة والتوزيع&lt;span class="hx:absolute hx:-mt-20" id="المشاركة-والتوزيع"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b4%d8%a7%d8%b1%d9%83%d8%a9-%d9%88%d8%a7%d9%84%d8%aa%d9%88%d8%b2%d9%8a%d8%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;التحكم في الوصول إلى التقارير&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;صلاحيات على أساس الدور&lt;/strong&gt; - تحكّم في من يرى أي بيانات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الأمان الديناميكي&lt;/strong&gt; - تصفية البيانات بناءً على أدوار المستخدمين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;وصول مؤقت&lt;/strong&gt; - منح وصول محدود الوقت إلى التقارير&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المشاركة الخارجية&lt;/strong&gt; - مشاركة آمنة مع الشركاء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;التوزيع الآلي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;جدولة البريد الإلكتروني&lt;/strong&gt; - تسليم يومي أو أسبوعي أو شهري&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;نشر لوحة المعلومات&lt;/strong&gt; - وصول فوري عبر الويب&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إشعارات الهاتف المحمول&lt;/strong&gt; - تسليم التنبيهات إلى الأجهزة المحمولة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تكامل واجهة برمجة التطبيقات&lt;/strong&gt; - وصول برمجي إلى بيانات التقارير&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;خيارات التصدير والتكامل&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;التنسيقات المدعومة:
+• PDF - مستندات منسّقة احترافيًا
+• Excel - معالجة البيانات وتحليلها
+• CSV - بيانات خام للمعالجة الخارجية
+• PowerPoint - مخططات جاهزة للعرض التقديمي
+• JSON/XML - تكامل الأنظمة&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;أنواع التقارير&lt;span class="hx:absolute hx:-mt-20" id="أنواع-التقارير"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d9%86%d9%88%d8%a7%d8%b9-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التقارير الجدولية&lt;/strong&gt; - تقارير بيانات تقليدية بالصفوف/الأعمدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تقارير المخططات&lt;/strong&gt; - تمثيل مرئي للبيانات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تقارير لوحة المعلومات&lt;/strong&gt; - تقارير نظرة عامة متعددة عناصر الويدجت&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التقارير المجدولة&lt;/strong&gt; - إنشاء تقارير آلي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التقارير الفورية&lt;/strong&gt; - تقارير استعلام عند الطلب&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;عناصر التقرير&lt;span class="hx:absolute hx:-mt-20" id="عناصر-التقرير"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b9%d9%86%d8%a7%d8%b5%d8%b1-%d8%a7%d9%84%d8%aa%d9%82%d8%b1%d9%8a%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;مصادر البيانات&lt;/strong&gt; - الاتصال بجداول البيانات ذات الصلة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المرشحات والمعاملات&lt;/strong&gt; - التحكم في نطاق التقرير وتركيزه&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحسابات&lt;/strong&gt; - إضافة حقول وصيغ محسوبة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التنسيق&lt;/strong&gt; - تطبيق تصميم احترافي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خيارات التصدير&lt;/strong&gt; - تنسيقات إخراج PDF وExcel وCSV&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;قدرات التحليلات&lt;span class="hx:absolute hx:-mt-20" id="قدرات-التحليلات"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d8%af%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%ad%d9%84%d9%8a%d9%84%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;ميزات ذكاء الأعمال&lt;span class="hx:absolute hx:-mt-20" id="ميزات-ذكاء-الأعمال"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a3%d8%b9%d9%85%d8%a7%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تحليل الاتجاهات&lt;/strong&gt; - تحديد الأنماط في بيانات الأعمال&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحليل المقارن&lt;/strong&gt; - مقارنة الفترات والمناطق والمنتجات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إمكانية التعمّق&lt;/strong&gt; - التنقل من الملخص إلى التفاصيل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحليلات التنبؤية&lt;/strong&gt; - التنبؤ بالاتجاهات المستقبلية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إعداد تقارير الاستثناءات&lt;/strong&gt; - إبراز نقاط البيانات غير المعتادة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تصور البيانات&lt;span class="hx:absolute hx:-mt-20" id="تصور-البيانات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%b5%d9%88%d8%b1-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المخططات والرسوم البيانية&lt;/strong&gt; - أنواع تصور متنوعة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;العناصر التفاعلية&lt;/strong&gt; - مخططات ومرشحات قابلة للنقر&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الخرائط الجغرافية&lt;/strong&gt; - تصور البيانات القائم على الموقع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحليل السلاسل الزمنية&lt;/strong&gt; - تحليل الاتجاهات عبر الزمن&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;العروض متعددة الأبعاد&lt;/strong&gt; - تحليل البيانات من زوايا متعددة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;نصيحة تحليلية&lt;/strong&gt;: ابدأ بالتقارير القياسية لفهم بياناتك، ثم أنشئ تقارير مخصصة عندما تحدد أسئلة أعمال محددة تحتاج إلى إجابات.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;مؤشرات الأداء الرئيسية (KPIs)&lt;span class="hx:absolute hx:-mt-20" id="مؤشرات-الأداء-الرئيسية-kpis"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%a4%d8%b4%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9-kpis" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;مؤشرات الأداء الرئيسية المالية&lt;span class="hx:absolute hx:-mt-20" id="مؤشرات-الأداء-الرئيسية-المالية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%a4%d8%b4%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;هامش إجمالي الربح&lt;/strong&gt; - مقياس الربحية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;نسبة التدفق النقدي&lt;/strong&gt; - مؤشر السيولة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;معدل دوران حسابات المدينين&lt;/strong&gt; - كفاءة التحصيل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;العائد على الاستثمار (ROI)&lt;/strong&gt; - فعالية الاستثمار&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;نسبة المصروفات التشغيلية&lt;/strong&gt; - مقياس التحكم في التكاليف&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;مؤشرات الأداء الرئيسية التشغيلية&lt;span class="hx:absolute hx:-mt-20" id="مؤشرات-الأداء-الرئيسية-التشغيلية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%a4%d8%b4%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d8%b4%d8%ba%d9%8a%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;معدل دوران المخزون&lt;/strong&gt; - كفاءة المخزون&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;معدل تلبية الطلبات&lt;/strong&gt; - مستوى خدمة العملاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;معدل التسليم في الوقت المحدد&lt;/strong&gt; - أداء التسليم&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مقاييس الجودة&lt;/strong&gt; - معدلات الأخطاء ورضا العملاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إنتاجية الموظفين&lt;/strong&gt; - الإنتاج لكل موظف&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;مؤشرات الأداء الرئيسية للعملاء&lt;span class="hx:absolute hx:-mt-20" id="مؤشرات-الأداء-الرئيسية-للعملاء"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%a4%d8%b4%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9-%d9%84%d9%84%d8%b9%d9%85%d9%84%d8%a7%d8%a1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تكلفة اكتساب العميل&lt;/strong&gt; - كفاءة التسويق&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;القيمة الدائمة للعميل&lt;/strong&gt; - قيمة العميل طويلة الأجل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;درجة رضا العملاء&lt;/strong&gt; - مقياس جودة الخدمة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;معدل الاحتفاظ بالعملاء&lt;/strong&gt; - مؤشر الولاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;متوسط قيمة الطلب&lt;/strong&gt; - فعالية المبيعات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;إعداد التقارير الآلي&lt;span class="hx:absolute hx:-mt-20" id="إعداد-التقارير-الآلي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%b9%d8%af%d8%a7%d8%af-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d8%a2%d9%84%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;إعداد التقارير الآلي&lt;span class="hx:absolute hx:-mt-20" id="إعداد-التقارير-الآلي-1"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%b9%d8%af%d8%a7%d8%af-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d8%a2%d9%84%d9%8a-1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;بسّط عملية إعداد التقارير لديك مع الأتمتة الذكية:&lt;/p&gt;
+&lt;h4&gt;جدولة التقارير&lt;span class="hx:absolute hx:-mt-20" id="جدولة-التقارير"&gt;&lt;/span&gt;
+&lt;a href="#%d8%ac%d8%af%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;إنشاء جداول التقارير&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;افتح تقريرًا موجودًا&lt;/strong&gt; - اختر التقرير المراد أتمتته&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;انقر على &amp;ldquo;جدولة&amp;rdquo;&lt;/strong&gt; - الوصول إلى خيارات الجدولة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اضبط التكرار&lt;/strong&gt; - اختر توقيت التسليم&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;هيّئ المستلمين&lt;/strong&gt; - أضف عناوين البريد الإلكتروني والمجموعات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اختبر التسليم&lt;/strong&gt; - تحقق من الإعدادات بتشغيل تجريبي&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;خيارات التكرار:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;فوري&lt;/strong&gt; - تحديثات كل 15 دقيقة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;كل ساعة&lt;/strong&gt; - التسليم في بداية الساعة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;يومي&lt;/strong&gt; - صباحًا أو ظهرًا أو مساءً&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أسبوعي&lt;/strong&gt; - يوم ووقت محددان&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;شهري&lt;/strong&gt; - أول أو منتصف أو آخر يوم في الشهر&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ربع سنوي&lt;/strong&gt; - نهاية ربع السنة مع الاتجاهات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مخصص&lt;/strong&gt; - تواريخ وفترات محددة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ميزات الجدولة المتقدمة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تقاويم العطلات&lt;/strong&gt; - تخطّي أيام العطل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة المناطق الزمنية&lt;/strong&gt; - التسليم متعدد المواقع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التسليم الشرطي&lt;/strong&gt; - الإرسال فقط عند تغيّر البيانات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المعالجة الدفعية&lt;/strong&gt; - تجميع تقارير متعددة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خيارات التجاوز عند الفشل&lt;/strong&gt; - طرق تسليم احتياطية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;تهيئة التسليم&lt;span class="hx:absolute hx:-mt-20" id="تهيئة-التسليم"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%87%d9%8a%d8%a6%d8%a9-%d8%a7%d9%84%d8%aa%d8%b3%d9%84%d9%8a%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;إعدادات تسليم البريد الإلكتروني&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;خيارات البريد الإلكتروني:
+✓ مرفق PDF (تقرير منسّق)
+✓ مرفق Excel (بيانات خام)
+✓ مخططات مضمّنة (في نص البريد)
+✓ رابط إلى تقرير عبر الإنترنت (وصول آمن)
+✓ الملخص فقط (المقاييس الرئيسية)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;قوائم التوزيع&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;مجموعات الأقسام&lt;/strong&gt; - المالية والمبيعات والعمليات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المستويات الإدارية&lt;/strong&gt; - التنفيذيون والمديرون والموظفون&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;فرق المشاريع&lt;/strong&gt; - مجموعات متعددة الوظائف&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الشركاء الخارجيون&lt;/strong&gt; - المورّدون والعملاء والمدققون&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قوائم مخصصة&lt;/strong&gt; - مجموعات مستلمين فورية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;تخصيص التسليم&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;محتوى ديناميكي&lt;/strong&gt; - تصفية بيانات خاصة بالمستخدم&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تفضيلات اللغة&lt;/strong&gt; - دعم متعدد اللغات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تفضيلات التنسيق&lt;/strong&gt; - تنسيقات الملفات المفضّلة للمستخدم&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مستوى الملخص&lt;/strong&gt; - عروض تفصيلية مقابل عالية المستوى&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;إعداد تقارير التنبيهات والاستثناءات&lt;span class="hx:absolute hx:-mt-20" id="إعداد-تقارير-التنبيهات-والاستثناءات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%b9%d8%af%d8%a7%d8%af-%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d8%aa%d9%86%d8%a8%d9%8a%d9%87%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%ab%d9%86%d8%a7%d8%a1%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;إعداد التنبيهات الذكية&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;حدّد العتبات&lt;/strong&gt; - اضبط شروط التشغيل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اختر نوع التنبيه&lt;/strong&gt; - بريد إلكتروني أو SMS أو إشعار لوحة المعلومات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;هيّئ المستلمين&lt;/strong&gt; - من يجب إشعاره&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اضبط مستوى الأولوية&lt;/strong&gt; - أولوية عالية أو متوسطة أو منخفضة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اختبر التنبيهات&lt;/strong&gt; - تحقق من تسليم الإشعارات&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;سيناريوهات التنبيه الشائعة:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;التنبيهات المالية:
+• الرصيد النقدي أقل من الحد الأدنى للعتبة
+• أعمار حسابات المدينين تتجاوز الشروط
+• انخفاض إجمالي الهامش دون الهدف
+• تباين الميزانية يتجاوز التسامح
+التنبيهات التشغيلية:
+• المخزون دون نقطة إعادة الطلب
+• خطر تحقيق هدف المبيعات
+• مقاييس الجودة دون المعيار
+• تدهور أداء النظام
+تنبيهات الموارد البشرية:
+• العمل الإضافي للموظفين يتجاوز الحدود
+• نفاد رصيد الإجازات
+• انحرافات مقاييس الأداء
+• مواعيد الامتثال للتدريب النهائية&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;تهيئة تقرير الاستثناءات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تحليل التباين&lt;/strong&gt; - الفعلي مقابل الميزانية/التوقعات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اضطراب الاتجاه&lt;/strong&gt; - اكتشاف الأنماط غير المعتادة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تجاوز العتبات&lt;/strong&gt; - تخطّي حدود مؤشرات الأداء الرئيسية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مشكلات جودة البيانات&lt;/strong&gt; - بيانات مفقودة أو غير صالحة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;انتهاكات الامتثال&lt;/strong&gt; - خرق المتطلبات التنظيمية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;إشعارات الهاتف المحمول&lt;span class="hx:absolute hx:-mt-20" id="إشعارات-الهاتف-المحمول"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%b4%d8%b9%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d9%87%d8%a7%d8%aa%d9%81-%d8%a7%d9%84%d9%85%d8%ad%d9%85%d9%88%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;إعداد الإشعارات الفورية (Push)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تنزيل تطبيق BigLedger للهاتف المحمول&lt;/strong&gt; - دعم iOS وAndroid&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تمكين الإشعارات&lt;/strong&gt; - منح الإذن للتنبيهات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تهيئة التفضيلات&lt;/strong&gt; - اختر أنواع التنبيهات وتوقيتها&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ضبط ساعات الهدوء&lt;/strong&gt; - تحديد فترات عدم الإشعار&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تصفية الأولوية&lt;/strong&gt; - التنبيهات الحرجة فقط للهاتف المحمول&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;الوصول إلى لوحة المعلومات عبر الهاتف المحمول&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تصميم متجاوب&lt;/strong&gt; - محسّن للعرض على الهاتف المحمول&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إمكانية العمل دون اتصال&lt;/strong&gt; - تخزين التقارير مؤقتًا للوصول دون اتصال&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التفاعلات باللمس&lt;/strong&gt; - اضغط للتعمّق والتصفية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الأوامر الصوتية&lt;/strong&gt; - اطلب مقاييس محددة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الإجراءات السريعة&lt;/strong&gt; - الموافقة أو الرفض أو التصعيد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;التكامل مع الأنظمة الخارجية&lt;span class="hx:absolute hx:-mt-20" id="التكامل-مع-الأنظمة-الخارجية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d9%85%d8%b9-%d8%a7%d9%84%d8%a3%d9%86%d8%b8%d9%85%d8%a9-%d8%a7%d9%84%d8%ae%d8%a7%d8%b1%d8%ac%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;تسليم التقارير القائم على واجهة برمجة التطبيقات&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-json" data-lang="json"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;reportId&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;sales-dashboard&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;schedule&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;daily&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;format&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;json&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;endpoint&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;https://external-system.com/api/reports&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;authentication&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;bearer-token&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;filters&amp;#34;&lt;/span&gt;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;dateRange&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;last-30-days&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;department&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;sales&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;خيارات التكامل مع الأطراف الخارجية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;أدوات ذكاء الأعمال&lt;/strong&gt; - Tableau وPower BI وQlikView&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مستودعات البيانات&lt;/strong&gt; - Snowflake وRedshift وBigQuery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;منصات التعاون&lt;/strong&gt; - Teams وSlack وSharePoint&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التخزين السحابي&lt;/strong&gt; - Google Drive وOneDrive وDropbox&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أنظمة إدارة علاقات العملاء&lt;/strong&gt; - Salesforce وHubSpot وDynamics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;تهيئة Webhook&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الإشعارات الفورية&lt;/strong&gt; - دفع البيانات الفوري&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مشغّلات الأحداث&lt;/strong&gt; - إتمام التقرير وتحديثات البيانات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;منطق إعادة المحاولة&lt;/strong&gt; - التعامل مع حالات فشل التسليم&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الأمان&lt;/strong&gt; - تسليم مشفّر ومصادَق عليه&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المراقبة&lt;/strong&gt; - تتبّع معدلات نجاح التسليم&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;جدولة التقارير&lt;span class="hx:absolute hx:-mt-20" id="جدولة-التقارير-1"&gt;&lt;/span&gt;
+&lt;a href="#%d8%ac%d8%af%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التقارير اليومية&lt;/strong&gt; - تحديثات الحالة التشغيلية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التقارير الأسبوعية&lt;/strong&gt; - ملخصات الأداء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التقارير الشهرية&lt;/strong&gt; - مراجعات أعمال شاملة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التقارير الربع سنوية&lt;/strong&gt; - تحليل استراتيجي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التقارير السنوية&lt;/strong&gt; - تحليل شامل لنهاية العام&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;خيارات التسليم&lt;span class="hx:absolute hx:-mt-20" id="خيارات-التسليم"&gt;&lt;/span&gt;
+&lt;a href="#%d8%ae%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b3%d9%84%d9%8a%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التوزيع عبر البريد الإلكتروني&lt;/strong&gt; - تسليم بريد إلكتروني آلي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;نشر لوحة المعلومات&lt;/strong&gt; - تحديثات لوحة المعلومات الفورية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تصدير الملفات&lt;/strong&gt; - حفظ التقارير في مواقع مشتركة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تكامل واجهة برمجة التطبيقات&lt;/strong&gt; - إرسال البيانات إلى أنظمة خارجية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إشعارات الهاتف المحمول&lt;/strong&gt; - تسليم التنبيهات إلى الأجهزة المحمولة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;تصدير البيانات والتكامل&lt;span class="hx:absolute hx:-mt-20" id="تصدير-البيانات-والتكامل"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%b5%d8%af%d9%8a%d8%b1-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;تنسيقات التصدير&lt;span class="hx:absolute hx:-mt-20" id="تنسيقات-التصدير"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%86%d8%b3%d9%8a%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b5%d8%af%d9%8a%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تقارير PDF&lt;/strong&gt; - مستندات منسّقة احترافيًا&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;جداول بيانات Excel&lt;/strong&gt; - معالجة البيانات وتحليلها&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ملفات CSV&lt;/strong&gt; - بيانات خام للمعالجة الخارجية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;XML/JSON&lt;/strong&gt; - بيانات منظّمة لتكامل الأنظمة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الوصول عبر واجهة برمجة التطبيقات&lt;/strong&gt; - وصول فوري إلى البيانات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;خيارات التكامل&lt;span class="hx:absolute hx:-mt-20" id="خيارات-التكامل"&gt;&lt;/span&gt;
+&lt;a href="#%d8%ae%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;أدوات ذكاء الأعمال&lt;/strong&gt; - الاتصال بـ Tableau وPower BI وغيرها&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مستودعات البيانات&lt;/strong&gt; - تغذية مستودعات بيانات المؤسسة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التخزين السحابي&lt;/strong&gt; - نسخ التقارير احتياطيًا إلى الخدمات السحابية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحليلات الأطراف الخارجية&lt;/strong&gt; - إرسال البيانات إلى أدوات تحليلات متخصصة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التطبيقات المخصصة&lt;/strong&gt; - تكامل واجهة برمجة التطبيقات مع الأنظمة المخصصة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;أفضل الممارسات&lt;span class="hx:absolute hx:-mt-20" id="أفضل-الممارسات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d9%81%d8%b6%d9%84-%d8%a7%d9%84%d9%85%d9%85%d8%a7%d8%b1%d8%b3%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;تصميم التقارير&lt;span class="hx:absolute hx:-mt-20" id="تصميم-التقارير"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%b5%d9%85%d9%8a%d9%85-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;أهداف واضحة&lt;/strong&gt; - حدّد ما يجب أن يحققه التقرير&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التركيز على الجمهور&lt;/strong&gt; - صمّم للمستخدمين المستهدفين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الوضوح المرئي&lt;/strong&gt; - استخدم المخططات والتنسيق المناسبين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;دقة البيانات&lt;/strong&gt; - تحقق من مصادر البيانات والحسابات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحسين الأداء&lt;/strong&gt; - تأكد من تشغيل التقارير بكفاءة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;حوكمة البيانات&lt;span class="hx:absolute hx:-mt-20" id="حوكمة-البيانات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%ad%d9%88%d9%83%d9%85%d8%a9-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;جودة البيانات&lt;/strong&gt; - حافظ على بيانات نظيفة ودقيقة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحكم في الوصول&lt;/strong&gt; - قيّد البيانات الحساسة بشكل مناسب&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحكم في الإصدارات&lt;/strong&gt; - أدر إصدارات التقارير وتغييراتها&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التوثيق&lt;/strong&gt; - وثّق منطق التقرير ومصادر البيانات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المراجعة المنتظمة&lt;/strong&gt; - راجع التقارير وحدّثها دوريًا&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;أمان البيانات&lt;/strong&gt;: تأكد دائمًا من تأمين بيانات العمل الحساسة بشكل صحيح وقصر الوصول على الأفراد المصرّح لهم فقط.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;التحليلات المتقدمة وذكاء الأعمال&lt;span class="hx:absolute hx:-mt-20" id="التحليلات-المتقدمة-وذكاء-الأعمال"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%ad%d9%84%d9%8a%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9-%d9%88%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a3%d8%b9%d9%85%d8%a7%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;التحليلات التنبؤية&lt;span class="hx:absolute hx:-mt-20" id="التحليلات-التنبؤية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%ad%d9%84%d9%8a%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%86%d8%a8%d8%a4%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;قدرات التنبؤ&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التنبؤ بالمبيعات&lt;/strong&gt; - توقّع الإيرادات المستقبلية بناءً على الاتجاهات التاريخية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تخطيط الطلب&lt;/strong&gt; - توقّع متطلبات المخزون&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إسقاط التدفق النقدي&lt;/strong&gt; - التنبؤ باحتياجات رأس المال العامل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;سلوك العملاء&lt;/strong&gt; - التنبؤ بالقيمة الدائمة للعميل وخطر التسرّب&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اتجاهات السوق&lt;/strong&gt; - تحديد الفرص والتهديدات الناشئة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;تكامل التعلّم الآلي&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;رؤى مدعومة بالذكاء الاصطناعي:
+✓ اكتشاف الشذوذ - تحديد الأنماط غير المعتادة
+✓ تحليل الاتجاهات - التعرّف على الاتجاهات الناشئة
+✓ التعرّف على الأنماط - إيجاد الارتباطات الخفية
+✓ تقييم المخاطر - التنبؤ بالمشكلات المحتملة
+✓ اقتراحات التحسين - التوصية بالتحسينات&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;تقنيات التصور المتقدمة&lt;span class="hx:absolute hx:-mt-20" id="تقنيات-التصور-المتقدمة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%82%d9%86%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b5%d9%88%d8%b1-%d8%a7%d9%84%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;المخططات والرسوم البيانية التفاعلية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;مخططات التعمّق&lt;/strong&gt; - انقر لاستكشاف البيانات المفصّلة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الخرائط الحرارية&lt;/strong&gt; - التصور الجغرافي والفئوي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مخططات الانتشار&lt;/strong&gt; - تحليل الارتباط والاتجاهات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مخططات الفقاعات&lt;/strong&gt; - عرض بيانات متعدد الأبعاد&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مخططات جانت&lt;/strong&gt; - تصور المشاريع والجداول الزمنية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مخططات سانكي&lt;/strong&gt; - تصور التدفق والعمليات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;الخرائط الجغرافية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;خرائط أقاليم المبيعات&lt;/strong&gt; - تصور الأداء الإقليمي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;توزيع العملاء&lt;/strong&gt; - تحليل العملاء جغرافيًا&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحسين مسارات التوصيل&lt;/strong&gt; - تصور اللوجستيات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اختراق السوق&lt;/strong&gt; - تحليل تغطية الأقاليم&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;أدوات التحليل الإحصائي&lt;span class="hx:absolute hx:-mt-20" id="أدوات-التحليل-الإحصائي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%af%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%ad%d9%84%d9%8a%d9%84-%d8%a7%d9%84%d8%a5%d8%ad%d8%b5%d8%a7%d8%a6%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;الدوال الإحصائية المدمجة&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;الدوال المتاحة:
+• تحليل الارتباط
+• نمذجة الانحدار
+• تحليل التباين
+• تحليل الاتجاهات
+• اكتشاف الموسمية
+• المتوسطات المتحركة
+• الانحراف المعياري
+• حسابات النسب المئوية&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;قياس الأداء المرجعي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;مقارنات القطاع&lt;/strong&gt; - المقارنة مع معايير القطاع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المقاييس المرجعية التاريخية&lt;/strong&gt; - تتبّع التحسّن عبر الزمن&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحليل الأقران&lt;/strong&gt; - المقارنة مع شركات مماثلة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحديد أفضل الممارسات&lt;/strong&gt; - إيجاد الشرائح الأعلى أداءً&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;حوكمة البيانات والأمان&lt;span class="hx:absolute hx:-mt-20" id="حوكمة-البيانات-والأمان"&gt;&lt;/span&gt;
+&lt;a href="#%d8%ad%d9%88%d9%83%d9%85%d8%a9-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%a3%d9%85%d8%a7%d9%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;إدارة جودة البيانات&lt;span class="hx:absolute hx:-mt-20" id="إدارة-جودة-البيانات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%ac%d9%88%d8%af%d8%a9-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;قواعد التحقق من البيانات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;فحوصات الاكتمال&lt;/strong&gt; - التأكد من تعبئة جميع الحقول المطلوبة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحقق من الدقة&lt;/strong&gt; - التحقق من البيانات مقابل قواعد العمل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مراقبة الاتساق&lt;/strong&gt; - التحقق من المعلومات المتناقضة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تتبّع التوقيت&lt;/strong&gt; - مراقبة حداثة البيانات وتحديثاتها&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;تتبّع مصدر البيانات ومسارات التدقيق&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تتبّع المصدر&lt;/strong&gt; - معرفة مصدر البيانات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;سجل التحويلات&lt;/strong&gt; - تتبّع تعديلات البيانات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تسجيل الوصول&lt;/strong&gt; - مراقبة من يصل إلى أي بيانات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;توثيق التغييرات&lt;/strong&gt; - تسجيل جميع تغييرات البيانات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;الأمان والامتثال&lt;span class="hx:absolute hx:-mt-20" id="الأمان-والامتثال"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a3%d9%85%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d8%a7%d9%85%d8%aa%d8%ab%d8%a7%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;إطار التحكم في الوصول&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;طبقات الأمان:
+1. مصادقة المستخدم - المصادقة متعددة العوامل
+2. الوصول القائم على الدور - تحكّم دقيق في الصلاحيات
+3. تشفير البيانات - أثناء التخزين والنقل
+4. تسجيل التدقيق - تتبّع كامل للنشاط
+5. قيود عناوين IP - التحكم الجغرافي في الوصول&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;ميزات الامتثال&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الامتثال لـ GDPR&lt;/strong&gt; - خصوصية البيانات وحمايتها&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الامتثال لـ SOX&lt;/strong&gt; - ضوابط إعداد التقارير المالية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;معايير القطاع&lt;/strong&gt; - متطلبات خاصة بالقطاع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الاحتفاظ بالبيانات&lt;/strong&gt; - أرشفة وحذف آليان&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحق في النسيان&lt;/strong&gt; - حذف بيانات العملاء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;استكشاف الأخطاء وإصلاحها وتحسين الأداء&lt;span class="hx:absolute hx:-mt-20" id="استكشاف-الأخطاء-وإصلاحها-وتحسين-الأداء"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d8%b3%d8%aa%d9%83%d8%b4%d8%a7%d9%81-%d8%a7%d9%84%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-%d9%88%d8%a5%d8%b5%d9%84%d8%a7%d8%ad%d9%87%d8%a7-%d9%88%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;المشكلات الشائعة وحلولها&lt;span class="hx:absolute hx:-mt-20" id="المشكلات-الشائعة-وحلولها"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%b4%d8%a7%d8%a6%d8%b9%d8%a9-%d9%88%d8%ad%d9%84%d9%88%d9%84%d9%87%d8%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;مشكلات الأداء&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;بطء تحميل التقارير&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;السبب&lt;/em&gt;: مجموعات بيانات كبيرة دون تصفية مناسبة&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;الحل&lt;/em&gt;: تطبيق مرشحات النطاق الزمني وأخذ عينات من البيانات&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;الوقاية&lt;/em&gt;: إعداد الحقول المفهرسة وتحسين الاستعلامات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;أخطاء انتهاء مهلة لوحة المعلومات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;السبب&lt;/em&gt;: حسابات معقّدة على البيانات الفورية&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;الحل&lt;/em&gt;: استخدام البيانات المخزّنة مؤقتًا أو تقليل معدل التحديث&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;الوقاية&lt;/em&gt;: تحسين تهيئات عناصر ويدجت لوحة المعلومات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;مشكلات الذاكرة أثناء التصدير&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;السبب&lt;/em&gt;: تصدير بيانات كثيرة دفعة واحدة&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;الحل&lt;/em&gt;: استخدام ترقيم الصفحات أو تقسيم التصديرات الكبيرة&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;الوقاية&lt;/em&gt;: تعيين حدود لحجم التصدير وتحذيرات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;مشكلات دقة البيانات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;بيانات مفقودة في التقارير&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;السبب&lt;/em&gt;: انقطاع مصدر البيانات أو مشكلات الصلاحيات&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;الحل&lt;/em&gt;: التحقق من الاتصالات وتحديث مصادر البيانات&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;الوقاية&lt;/em&gt;: إعداد مراقبة آلية لجودة البيانات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;حسابات غير صحيحة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;السبب&lt;/em&gt;: أخطاء في الصيغ أو علاقات بيانات غير صحيحة&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;الحل&lt;/em&gt;: مراجعة منطق الحساب والاختبار ببيانات معروفة&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;الوقاية&lt;/em&gt;: استخدام قوالب حساب موثّقة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;معلومات قديمة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;السبب&lt;/em&gt;: فشل تحديث البيانات أو مشكلات التخزين المؤقت&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;الحل&lt;/em&gt;: فرض التحديث أو مسح التخزين المؤقت&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;الوقاية&lt;/em&gt;: مراقبة حداثة البيانات وإعداد التنبيهات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;استراتيجيات تحسين الأداء&lt;span class="hx:absolute hx:-mt-20" id="استراتيجيات-تحسين-الأداء"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a7%d8%aa-%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحسين التقارير&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;أفضل الممارسات:
+✓ استخدام نطاقات زمنية مناسبة
+✓ تطبيق تصفية ذكية
+✓ تحسين استعلامات SQL
+✓ استخدام حقول قاعدة بيانات مفهرسة
+✓ تخزين البيانات المستخدمة بكثرة مؤقتًا
+✓ تطبيق ضغط البيانات&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;أداء لوحة المعلومات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تحسين عناصر الويدجت&lt;/strong&gt; - تحديد عدد عناصر الويدجت لكل لوحة معلومات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;استراتيجيات التحديث&lt;/strong&gt; - توزيع أوقات تحديث عناصر الويدجت&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تجميع البيانات&lt;/strong&gt; - حساب بيانات الملخص مسبقًا&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;سياسات التخزين المؤقت&lt;/strong&gt; - الموازنة بين الحداثة والأداء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;إدارة موارد النظام&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تخطيط الاستخدام في الذروة&lt;/strong&gt; - تحديد فترات الازدحام العالي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;موازنة الأحمال&lt;/strong&gt; - توزيع المعالجة عبر الخوادم&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مراقبة الموارد&lt;/strong&gt; - تتبّع وحدة المعالجة المركزية والذاكرة والتخزين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تخطيط الطاقة الاستيعابية&lt;/strong&gt; - توقّع متطلبات النمو&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;الخطوات التالية&lt;span class="hx:absolute hx:-mt-20" id="الخطوات-التالية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;بعد إتقان التقارير والتحليلات:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/best-practices/" &gt;أفضل الممارسات&lt;/a&gt;&lt;/strong&gt; - طبّق اتخاذ القرارات المدفوعة بالبيانات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/troubleshooting/" &gt;استكشاف الأخطاء وإصلاحها&lt;/a&gt;&lt;/strong&gt; - حلّ مشكلات إعداد التقارير&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/developers/" &gt;موارد المطورين&lt;/a&gt;&lt;/strong&gt; - التخصيص المتقدم وتكامل واجهة برمجة التطبيقات&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;إتقان التحليلات&lt;/strong&gt;: تكون قد أتقنت التقارير والتحليلات عندما تستطيع إنشاء تقارير ذات مغزى بسرعة تدفع قرارات الأعمال ومبادرات التحسين.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

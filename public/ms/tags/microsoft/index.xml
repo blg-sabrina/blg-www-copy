@@ -1,0 +1,47 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dokumentasi BigLedger – Microsoft</title><link>https://www.bigledger.com/ms/tags/microsoft/</link><description>Recent content in Microsoft on Dokumentasi BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ms</language><atom:link href="https://www.bigledger.com/ms/tags/microsoft/index.xml" rel="self" type="application/rss+xml"/><item><title>Applet Ingram Micro MS ESD</title><link>https://www.bigledger.com/ms/applets/ingram-micro-ms-esd-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/applets/ingram-micro-ms-esd-applet/</guid><description/></item><item><title>Aplet Pesanan VSTECS MS ESD</title><link>https://www.bigledger.com/ms/applets/vstecs-ms-esd-order-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/applets/vstecs-ms-esd-order-applet/</guid><description>
+&lt;h2&gt;Gambaran Keseluruhan&lt;span class="hx:absolute hx:-mt-20" id="gambaran-keseluruhan"&gt;&lt;/span&gt;
+&lt;a href="#gambaran-keseluruhan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Aplet Pesanan VSTECS MS ESD menyambungkan BigLedger kepada VSTECS untuk pesanan Microsoft Electronic Software Delivery (ESD). Ia membolehkan pasukan anda menyemak harga produk Microsoft yang terkini dan membuat pesanan ESD dengan pengedar terus daripada BigLedger, tanpa perlu memasukkan semula butiran pesanan ke dalam portal berasingan.&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;Integrasi diperlukan&lt;/strong&gt;: Aplet ini memerlukan integrasi aktif daripada BigLedger ke EMP, dan daripada BigLedger ke sistem pengedar, sebelum ia boleh berfungsi.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Keupayaan API&lt;span class="hx:absolute hx:-mt-20" id="keupayaan-api"&gt;&lt;/span&gt;
+&lt;a href="#keupayaan-api" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Aplet ini menggunakan dua API pengedar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Semakan harga&lt;/strong&gt; - Mendapatkan harga terkini untuk mana-mana SKU produk Microsoft ESD, supaya sebut harga dan pesanan sentiasa menggunakan harga pengedar semasa&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Penciptaan pesanan&lt;/strong&gt; - Mencipta pesanan dengan pengedar untuk mendapatkan produk Microsoft ESD, mengembalikan butiran pemenuhan kepada BigLedger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Aliran Kerja Integrasi&lt;span class="hx:absolute hx:-mt-20" id="aliran-kerja-integrasi"&gt;&lt;/span&gt;
+&lt;a href="#aliran-kerja-integrasi" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Pada masa ini terdapat dua cara untuk menyediakan integrasi ini. Pilih yang sepadan dengan penggunaan anda.&lt;/p&gt;
+&lt;h3&gt;Kaedah Pintasan&lt;span class="hx:absolute hx:-mt-20" id="kaedah-pintasan"&gt;&lt;/span&gt;
+&lt;a href="#kaedah-pintasan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Integrasi EMP terus ke BigLedger, tanpa Aplet T2T Admin.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cara terpantas untuk disambungkan&lt;/li&gt;
+&lt;li&gt;Sesuai apabila ketersambungan penyewa-ke-penyewa tidak diperlukan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Kaedah Standard&lt;span class="hx:absolute hx:-mt-20" id="kaedah-standard"&gt;&lt;/span&gt;
+&lt;a href="#kaedah-standard" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Persediaan penyewa-ke-penyewa penuh menggunakan aplet sokongan:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ms/applets/t2t-admin-applet/" &gt;Aplet T2T Admin&lt;/a&gt;&lt;/strong&gt; - Membolehkan ketersambungan penyewa tetamu dan hos&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ms/applets/doc-item-maintenance-applet/" &gt;Aplet Penyelenggaraan Item Dok&lt;/a&gt;&lt;/strong&gt; - Memetakan kod item antara sistem yang disambungkan&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Gunakan kaedah ini apabila penggunaan anda mengikut model integrasi penyewa-ke-penyewa standard BigLedger.&lt;/p&gt;
+&lt;h2&gt;Nota Pelaksanaan&lt;span class="hx:absolute hx:-mt-20" id="nota-pelaksanaan"&gt;&lt;/span&gt;
+&lt;a href="#nota-pelaksanaan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Panduan pengguna untuk pesanan MS ESD dan pecahan kerja untuk pelaksanaan tersedia daripada pasukan BigLedger - hubungi &lt;a href="mailto:support@bigledger.com" &gt;support@bigledger.com&lt;/a&gt; untuk memohonnya&lt;/li&gt;
+&lt;li&gt;Sahkan dengan pengurus akaun pengedar anda bahawa akses API telah didayakan sebelum memulakan persediaan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Aplet Berkaitan&lt;span class="hx:absolute hx:-mt-20" id="aplet-berkaitan"&gt;&lt;/span&gt;
+&lt;a href="#aplet-berkaitan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 3;"&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ms/applets/ingram-micro-ms-esd-applet/"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;Aplet Ingram Micro MS ESD&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;Integrasi Microsoft ESD yang setara untuk Ingram Micro&lt;/div&gt;&lt;/a&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ms/applets/t2t-admin-applet/"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;Aplet T2T Admin&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;Ketersambungan penyewa-ke-penyewa yang digunakan oleh kaedah standard&lt;/div&gt;&lt;/a&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ms/applets/doc-item-maintenance-applet/"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;Aplet Penyelenggaraan Item Dok&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;Pemetaan kod item antara sistem yang disambungkan&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;</description></item></channel></rss>

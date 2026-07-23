@@ -1,0 +1,129 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>وثائق BigLedger – Fundamentals</title><link>https://www.bigledger.com/ar/tags/fundamentals/</link><description>Recent content in Fundamentals on وثائق BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ar</language><atom:link href="https://www.bigledger.com/ar/tags/fundamentals/index.xml" rel="self" type="application/rss+xml"/><item><title>العمليات الأساسية</title><link>https://www.bigledger.com/ar/user-guide/basic-operations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/user-guide/basic-operations/</guid><description>
+&lt;p&gt;أتقن المهام اليومية الأساسية التي تشكّل العمود الفقري لعمليات عملك في BigLedger. يغطي هذا القسم إدارة البيانات الأساسية والتعامل مع الأصناف ومهام معالجة المستندات.&lt;/p&gt;
+&lt;h2&gt;إدارة البيانات الأساسية&lt;span class="hx:absolute hx:-mt-20" id="إدارة-البيانات-الأساسية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;تعلّم إدارة البيانات الأساسية التي تشغّل عملك:&lt;/p&gt;
+&lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 3;"&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ar/user-guide/basic-operations/creating-an-item"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;إنشاء الأصناف&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;دليل خطوة بخطوة لإضافة المنتجات والخدمات إلى الكتالوج الخاص بك&lt;/div&gt;&lt;/a&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ar/user-guide/basic-operations/item-maintenance"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;إدارة الأصناف&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;دليل شامل لصيانة كتالوج المنتجات الخاص بك&lt;/div&gt;&lt;/a&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ar/user-guide/basic-operations/editing-an-item"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;تحرير الأصناف&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;تعديل المنتجات والأسعار والمواصفات الموجودة&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;h2&gt;إدارة المستندات&lt;span class="hx:absolute hx:-mt-20" id="إدارة-المستندات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%86%d8%af%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;تعامل مع مستندات الأعمال بكفاءة:&lt;/p&gt;
+&lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 3;"&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ar/user-guide/basic-operations/document-item-types"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;أنواع المستندات&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;فهم أنواع المستندات المختلفة واستخدامها&lt;/div&gt;&lt;/a&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ar/user-guide/basic-operations/document-item-maintenance"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;إدارة المستندات&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;إنشاء مستندات الأعمال وتحريرها وإدارتها&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;h2&gt;أهداف التعلم الرئيسية&lt;span class="hx:absolute hx:-mt-20" id="أهداف-التعلم-الرئيسية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d9%87%d8%af%d8%a7%d9%81-%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%85-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;بعد إكمال هذا القسم، ستكون قادرًا على:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ إنشاء الأصناف وتكوينها في كتالوج المنتجات الخاص بك&lt;/li&gt;
+&lt;li&gt;✅ إدارة أصناف المخزون بتصنيفات مناسبة&lt;/li&gt;
+&lt;li&gt;✅ تحرير الأصناف الموجودة وتحديث المواصفات&lt;/li&gt;
+&lt;li&gt;✅ العمل مع أنواع المستندات المختلفة بفعالية&lt;/li&gt;
+&lt;li&gt;✅ الحفاظ على سلامة البيانات عبر جميع العمليات&lt;/li&gt;
+&lt;li&gt;✅ تطبيق اصطلاحات تسمية وتنظيم متسقة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;قائمة التحقق من المهارات الأساسية&lt;span class="hx:absolute hx:-mt-20" id="قائمة-التحقق-من-المهارات-الأساسية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%a7%d9%84%d8%aa%d8%ad%d9%82%d9%82-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d9%87%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;مهارات إدارة الأصناف&lt;span class="hx:absolute hx:-mt-20" id="مهارات-إدارة-الأصناف"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%87%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%a3%d8%b5%d9%86%d8%a7%d9%81" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; إنشاء منتجات وخدمات جديدة&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; إعداد تصنيفات مناسبة للأصناف&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; تكوين وحدات القياس بشكل صحيح&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; تمكين تكامل التجارة الإلكترونية (EcomSync)&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; تحرير تفاصيل الأصناف والمواصفات&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; إدارة فئات الأصناف والتنظيم&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;مهارات معالجة المستندات&lt;span class="hx:absolute hx:-mt-20" id="مهارات-معالجة-المستندات"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%87%d8%a7%d8%b1%d8%a7%d8%aa-%d9%85%d8%b9%d8%a7%d9%84%d8%ac%d8%a9-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%86%d8%af%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; فهم أنواع المستندات المختلفة&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; إنشاء مستندات الأعمال بشكل صحيح&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; تحرير المستندات الموجودة وتعديلها&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; تطبيق سير عمل المستندات المناسب&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; الحفاظ على معايير امتثال المستندات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;أفضل الممارسات&lt;span class="hx:absolute hx:-mt-20" id="أفضل-الممارسات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d9%81%d8%b6%d9%84-%d8%a7%d9%84%d9%85%d9%85%d8%a7%d8%b1%d8%b3%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;معايير إدخال البيانات&lt;span class="hx:absolute hx:-mt-20" id="معايير-إدخال-البيانات"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b9%d8%a7%d9%8a%d9%8a%d8%b1-%d8%a5%d8%af%d8%ae%d8%a7%d9%84-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الاتساق&lt;/strong&gt;: استخدم اصطلاحات تسمية موحدة عبر جميع الأصناف&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الاكتمال&lt;/strong&gt;: املأ جميع الحقول المطلوبة لضمان التشغيل السليم للنظام&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الدقة&lt;/strong&gt;: تحقق مرتين من المعلومات الهامة قبل الحفظ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التنظيم&lt;/strong&gt;: استخدم تصنيفًا منطقيًا لسهولة الاسترجاع&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;مراقبة الجودة&lt;span class="hx:absolute hx:-mt-20" id="مراقبة-الجودة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b1%d8%a7%d9%82%d8%a8%d8%a9-%d8%a7%d9%84%d8%ac%d9%88%d8%af%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المراجعات الدورية&lt;/strong&gt;: جدولة عمليات تدقيق دورية لبياناتك&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحقق&lt;/strong&gt;: اختبر الأصناف في المعاملات قبل التشغيل الفعلي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التوثيق&lt;/strong&gt;: احتفظ بملاحظات حول الإجراءات الخاصة أو الاستثناءات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التدريب&lt;/strong&gt;: تأكد من اتباع جميع أعضاء الفريق للإجراءات نفسها&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;نصيحة للكفاءة&lt;/strong&gt;: قم بإعداد قوالب ومعايير لأنواع الأصناف الشائعة. هذا يقلل من الأخطاء ويسرّع إدخال البيانات للمنتجات المتشابهة.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;سير العمل الشائع&lt;span class="hx:absolute hx:-mt-20" id="سير-العمل-الشائع"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b3%d9%8a%d8%b1-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d8%a7%d9%84%d8%b4%d8%a7%d8%a6%d8%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;تقديم منتج جديد&lt;span class="hx:absolute hx:-mt-20" id="تقديم-منتج-جديد"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%82%d8%af%d9%8a%d9%85-%d9%85%d9%86%d8%aa%d8%ac-%d8%ac%d8%af%d9%8a%d8%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;البحث والتخطيط&lt;/strong&gt; - جمع جميع مواصفات المنتج&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إنشاء الصنف&lt;/strong&gt; - استخدام معالج إنشاء الأصناف&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التكوين&lt;/strong&gt; - إعداد الأسعار والفئات والخيارات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الاختبار&lt;/strong&gt; - التحقق من عمل الصنف في معاملات نموذجية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التفعيل&lt;/strong&gt; - إتاحته للاستخدام التجاري المنتظم&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;تحديثات المخزون&lt;span class="hx:absolute hx:-mt-20" id="تحديثات-المخزون"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%ad%d8%af%d9%8a%d8%ab%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%ae%d8%b2%d9%88%d9%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;مراجعة البيانات الحالية&lt;/strong&gt; - فحص معلومات الصنف الموجودة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تخطيط التغييرات&lt;/strong&gt; - توثيق ما يجب تحديثه&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تنفيذ التحديثات&lt;/strong&gt; - إجراء التغييرات بشكل منهجي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحقق&lt;/strong&gt; - التحقق من صحة التحديثات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التواصل&lt;/strong&gt; - إبلاغ الفريق بالتغييرات&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;نقاط التكامل&lt;span class="hx:absolute hx:-mt-20" id="نقاط-التكامل"&gt;&lt;/span&gt;
+&lt;a href="#%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;تتصل العمليات الأساسية بـ:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/daily-tasks/" &gt;المهام اليومية&lt;/a&gt;&lt;/strong&gt; - استخدام الأصناف في التسعير والمعاملات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/modules/" &gt;الوحدات&lt;/a&gt;&lt;/strong&gt; - تتدفق الأصناف عبر جميع وحدات الأعمال&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/modules/ecommerce/" &gt;التجارة الإلكترونية&lt;/a&gt;&lt;/strong&gt; - مزامنة الأصناف مع المتاجر الإلكترونية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/modules/inventory/" &gt;المخزون&lt;/a&gt;&lt;/strong&gt; - تتبع مستويات المخزون وحركاته&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/modules/financial-accounting/" &gt;المحاسبة&lt;/a&gt;&lt;/strong&gt; - تظهر الأصناف في المعاملات المالية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;مرجع سريع لاستكشاف الأخطاء وإصلاحها&lt;span class="hx:absolute hx:-mt-20" id="مرجع-سريع-لاستكشاف-الأخطاء-وإصلاحها"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b1%d8%ac%d8%b9-%d8%b3%d8%b1%d9%8a%d8%b9-%d9%84%d8%a7%d8%b3%d8%aa%d9%83%d8%b4%d8%a7%d9%81-%d8%a7%d9%84%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-%d9%88%d8%a5%d8%b5%d9%84%d8%a7%d8%ad%d9%87%d8%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;لا يمكنك إنشاء أصناف؟&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تحقق من أذونات المستخدم مع المسؤول&lt;/li&gt;
+&lt;li&gt;تأكد من تثبيت التطبيقات المصغرة المطلوبة وتفعيلها&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;EcomSync غير متاح؟&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تحقق من تثبيت التطبيق المصغر EcomSync&lt;/li&gt;
+&lt;li&gt;تحقق من إعدادات التكامل وبيانات الاعتماد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;الأصناف لا تظهر في المعاملات؟&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تأكد من أن حالة الصنف نشطة&lt;/li&gt;
+&lt;li&gt;تحقق مما إذا كان نوع الصنف يتطابق مع متطلبات المعاملة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;الخطوات التالية&lt;span class="hx:absolute hx:-mt-20" id="الخطوات-التالية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;بعد إتقان العمليات الأساسية:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/daily-tasks/" &gt;المهام اليومية&lt;/a&gt;&lt;/strong&gt; - طبّق مهارات إدارة الأصناف على العمليات الروتينية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/administration/" &gt;الإدارة&lt;/a&gt;&lt;/strong&gt; - تعلّم خيارات التكوين المتقدمة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/reports-analytics/" &gt;التقارير والتحليلات&lt;/a&gt;&lt;/strong&gt; - حلّل بيانات الأصناف والأداء&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;مؤشر الإتقان&lt;/strong&gt;: لقد أتقنت العمليات الأساسية عندما تتمكن من إنشاء الأصناف وتحريرها وإدارتها بثقة دون الرجوع إلى التوثيق.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

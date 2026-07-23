@@ -1,0 +1,512 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>وثائق BigLedger – Support</title><link>https://www.bigledger.com/ar/tags/support/</link><description>Recent content in Support on وثائق BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ar</language><atom:link href="https://www.bigledger.com/ar/tags/support/index.xml" rel="self" type="application/rss+xml"/><item><title>استكشاف الأخطاء وإصلاحها</title><link>https://www.bigledger.com/ar/user-guide/troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/user-guide/troubleshooting/</guid><description>
+&lt;p&gt;حلول سريعة لمشكلات BigLedger الشائعة وأدلة شاملة لحل المشكلات. يساعدك هذا القسم على حل المشكلات بسرعة والعودة إلى العمل المنتج.&lt;/p&gt;
+&lt;h2&gt;حل المشكلات السريع&lt;span class="hx:absolute hx:-mt-20" id="حل-المشكلات-السريع"&gt;&lt;/span&gt;
+&lt;a href="#%d8%ad%d9%84-%d8%a7%d9%84%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%b3%d8%b1%d9%8a%d8%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;أكثر المشكلات شيوعًا&lt;span class="hx:absolute hx:-mt-20" id="أكثر-المشكلات-شيوعا"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d9%83%d8%ab%d8%b1-%d8%a7%d9%84%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%b4%d9%8a%d9%88%d8%b9%d8%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;يتناول دليل استكشاف الأخطاء وإصلاحها الشامل هذا أكثر مشكلات BigLedger شيوعًا مع رموز أخطاء محددة وحلول خطوة بخطوة وتدابير وقائية.&lt;/p&gt;
+&lt;h4&gt;مشكلات تسجيل الدخول والوصول&lt;span class="hx:absolute hx:-mt-20" id="مشكلات-تسجيل-الدخول-والوصول"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%aa%d8%b3%d8%ac%d9%8a%d9%84-%d8%a7%d9%84%d8%af%d8%ae%d9%88%d9%84-%d9%88%d8%a7%d9%84%d9%88%d8%b5%d9%88%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تعذّر تسجيل الدخول&lt;/strong&gt;: إعادة تعيين كلمة المرور وحالة الحساب ومشكلات المتصفح&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ميزات مفقودة&lt;/strong&gt;: مشكلات الصلاحيات وتوفّر التطبيقات المصغّرة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أداء بطيء&lt;/strong&gt;: تحسين المتصفح ومشكلات الشبكة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;انتهاء مهلة الجلسة&lt;/strong&gt;: إعدادات الأمان وتهيئة المتصفح&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;مشكلات إدخال البيانات&lt;span class="hx:absolute hx:-mt-20" id="مشكلات-إدخال-البيانات"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%a5%d8%af%d8%ae%d8%a7%d9%84-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تعذّر حفظ السجلات&lt;/strong&gt;: أخطاء التحقق والحقول المطلوبة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خيارات القائمة المنسدلة مفقودة&lt;/strong&gt;: إعداد البيانات الرئيسية والصلاحيات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;فشل الاستيراد&lt;/strong&gt;: تنسيق البيانات وأخطاء التعيين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;سجلات مكررة&lt;/strong&gt;: التحقق من البيانات وإجراءات الدمج&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;مشكلات المعاملات&lt;span class="hx:absolute hx:-mt-20" id="مشكلات-المعاملات"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b9%d8%a7%d9%85%d9%84%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;أخطاء معالجة الطلبات&lt;/strong&gt;: مشكلات سير العمل وسلاسل الموافقة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مشكلات التسعير&lt;/strong&gt;: تهيئة نظام الأسعار وإعدادات العملاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تناقضات المخزون&lt;/strong&gt;: تعديلات المخزون ومشكلات الموقع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أخطاء التقارير&lt;/strong&gt;: الوصول إلى البيانات وإعدادات المعاملات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;استكشاف الأخطاء وإصلاحها خطوة بخطوة&lt;span class="hx:absolute hx:-mt-20" id="استكشاف-الأخطاء-وإصلاحها-خطوة-بخطوة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d8%b3%d8%aa%d9%83%d8%b4%d8%a7%d9%81-%d8%a7%d9%84%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-%d9%88%d8%a5%d8%b5%d9%84%d8%a7%d8%ad%d9%87%d8%a7-%d8%ae%d8%b7%d9%88%d8%a9-%d8%a8%d8%ae%d8%b7%d9%88%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. تحديد المشكلة&lt;span class="hx:absolute hx:-mt-20" id="1-تحديد-المشكلة"&gt;&lt;/span&gt;
+&lt;a href="#1-%d8%aa%d8%ad%d8%af%d9%8a%d8%af-%d8%a7%d9%84%d9%85%d8%b4%d9%83%d9%84%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;توثيق الأعراض&lt;/strong&gt; - ما الذي يحدث بالضبط؟&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إعادة إنتاج المشكلة&lt;/strong&gt; - هل يمكنك جعلها تحدث مرة أخرى؟&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحقق من التوقيت&lt;/strong&gt; - متى بدأ حدوث هذا؟&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;جمع السياق&lt;/strong&gt; - ما الذي كنت تحاول إنجازه؟&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. جمع المعلومات&lt;span class="hx:absolute hx:-mt-20" id="2-جمع-المعلومات"&gt;&lt;/span&gt;
+&lt;a href="#2-%d8%ac%d9%85%d8%b9-%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;رسائل الخطأ&lt;/strong&gt; - انسخ نص الخطأ ورموزه بدقة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;لقطات الشاشة&lt;/strong&gt; - دليل مرئي على المشكلة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تفاصيل حساب المستخدم&lt;/strong&gt; - معلومات الصلاحيات والدور&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;بيئة النظام&lt;/strong&gt; - معلومات المتصفح والجهاز والشبكة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;3. تجربة الحلول الأساسية&lt;span class="hx:absolute hx:-mt-20" id="3-تجربة-الحلول-الأساسية"&gt;&lt;/span&gt;
+&lt;a href="#3-%d8%aa%d8%ac%d8%b1%d8%a8%d8%a9-%d8%a7%d9%84%d8%ad%d9%84%d9%88%d9%84-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التحديث/إعادة التحميل&lt;/strong&gt; - تحديث بسيط للمتصفح&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مسح التخزين المؤقت&lt;/strong&gt; - التخزين المؤقت للمتصفح وملفات تعريف الارتباط&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;متصفح مختلف&lt;/strong&gt; - الاختبار بمتصفح آخر&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحقق من الصلاحيات&lt;/strong&gt; - التحقق من حقوق الوصول&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;4. التشخيصات المتقدمة&lt;span class="hx:absolute hx:-mt-20" id="4-التشخيصات-المتقدمة"&gt;&lt;/span&gt;
+&lt;a href="#4-%d8%a7%d9%84%d8%aa%d8%b4%d8%ae%d9%8a%d8%b5%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التحقق من حالة النظام&lt;/strong&gt; - هل يعمل النظام بشكل طبيعي؟&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مراجعة التغييرات الأخيرة&lt;/strong&gt; - ما الذي تغيّر مؤخرًا؟&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الاختبار ببيانات مختلفة&lt;/strong&gt; - هل المشكلة خاصة بالبيانات؟&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الرجوع إلى التوثيق&lt;/strong&gt; - راجع أدلة المستخدم ذات الصلة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;رموز أخطاء BigLedger وحلولها&lt;span class="hx:absolute hx:-mt-20" id="رموز-أخطاء-bigledger-وحلولها"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b1%d9%85%d9%88%d8%b2-%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-bigledger-%d9%88%d8%ad%d9%84%d9%88%d9%84%d9%87%d8%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;رموز أخطاء النظام (ERR-SYS-XXXX)&lt;span class="hx:absolute hx:-mt-20" id="رموز-أخطاء-النظام-err-sys-xxxx"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b1%d9%85%d9%88%d8%b2-%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-%d8%a7%d9%84%d9%86%d8%b8%d8%a7%d9%85-err-sys-xxxx" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;ERR-SYS-0001: تم رفض الوصول&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: يفتقر المستخدم إلى الصلاحيات اللازمة للعملية المطلوبة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التفاصيل التقنية&lt;/strong&gt;: فشل التحقق من الصلاحيات على مستوى الوحدة أو الميزة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل الفوري&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;اتصل بمسؤول النظام&lt;/li&gt;
+&lt;li&gt;تحقق من تعيينات دور المستخدم في إدارة المستخدمين&lt;/li&gt;
+&lt;li&gt;تحقق من الصلاحيات الخاصة بالوحدة&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الوقاية طويلة الأجل&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;نفّذ عمليات تدقيق منتظمة للصلاحيات (ربع سنوية)&lt;/li&gt;
+&lt;li&gt;استخدم التحكم في الوصول القائم على الأدوار (RBAC) باستمرار&lt;/li&gt;
+&lt;li&gt;وثّق متطلبات الصلاحيات لكل وظيفة عمل&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ERR-SYS-0002: انتهت الجلسة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: انتهاء مهلة الأمان بسبب عدم النشاط (الافتراضي: 60 دقيقة)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التفاصيل التقنية&lt;/strong&gt;: تجاوز رمز الجلسة الحد الأقصى لمدة الصلاحية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل الفوري&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;سجّل الخروج بالكامل ثم سجّل الدخول مرة أخرى&lt;/li&gt;
+&lt;li&gt;امسح التخزين المؤقت للمتصفح وملفات تعريف الارتباط&lt;/li&gt;
+&lt;li&gt;عطّل الحفظ التلقائي للمتصفح للبيانات الحساسة&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خيارات التهيئة&lt;/strong&gt;:
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Session Settings (Admin &amp;gt; Security):
+• Timeout Period: 30-480 minutes
+• Idle Warning: 5 minutes before expiry
+• Concurrent Sessions: Allow/Restrict
+• Remember Me: Enable/Disable&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ERR-SYS-0003: فشل الاتصال بقاعدة البيانات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: انقطاع الشبكة أو عدم توفّر خادم قاعدة البيانات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التفاصيل التقنية&lt;/strong&gt;: استنفاد مجمّع الاتصالات أو صيانة قاعدة البيانات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل الفوري&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;انتظر 2-3 دقائق ثم أعد المحاولة&lt;/li&gt;
+&lt;li&gt;تحقق من حالة النظام على status.bigledger.com&lt;/li&gt;
+&lt;li&gt;اتصل بالدعم إذا استمرت المشكلة أكثر من 5 دقائق&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الوقاية&lt;/strong&gt;: راقب صحة قاعدة البيانات واستخدام مجمّع الاتصالات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;أخطاء التحقق من البيانات (ERR-VAL-XXXX)&lt;span class="hx:absolute hx:-mt-20" id="أخطاء-التحقق-من-البيانات-err-val-xxxx"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-%d8%a7%d9%84%d8%aa%d8%ad%d9%82%d9%82-%d9%85%d9%86-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-err-val-xxxx" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;ERR-VAL-1001: حقل مطلوب مفقود&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: ترك حقل إلزامي فارغًا أثناء إدخال البيانات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أنواع الحقول&lt;/strong&gt;: رمز العميل، اسم المنتج، مبلغ المعاملة، إلخ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خطوات الحل&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;راجع النموذج بحثًا عن الحقول المميّزة بعلامة نجمية حمراء (*)&lt;/li&gt;
+&lt;li&gt;املأ جميع المعلومات المطلوبة&lt;/li&gt;
+&lt;li&gt;تحقق من تنسيق البيانات (التواريخ والأرقام والبريد الإلكتروني)&lt;/li&gt;
+&lt;li&gt;احفظ السجل مرة أخرى&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحقول المفقودة الشائعة&lt;/strong&gt;:
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Customer Records: Name, Tax ID, Contact Info
+Product Records: Code, Name, Unit of Measure
+Transactions: Date, Amount, Account Code&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ERR-VAL-1002: تنسيق بيانات غير صالح&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: البيانات لا تطابق التنسيق المتوقع أو قواعد العمل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;السيناريوهات الشائعة&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;تنسيق بريد إلكتروني غير صالح (رمز @ مفقود)&lt;/li&gt;
+&lt;li&gt;تنسيق تاريخ غير صحيح (مطلوب DD/MM/YYYY)&lt;/li&gt;
+&lt;li&gt;تنسيق رقم هاتف غير صالح (+60-XXX-XXXXXXX)&lt;/li&gt;
+&lt;li&gt;تنسيق الرقم الضريبي لا يطابق المعايير الماليزية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;تحقق من تلميحات تنسيق الحقل وأمثلته&lt;/li&gt;
+&lt;li&gt;استخدم أدوات التحقق من التنسيق حيثما توفّرت&lt;/li&gt;
+&lt;li&gt;انسخ والصق من مصادر موثّقة&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;أخطاء المعاملات (ERR-TXN-XXXX)&lt;span class="hx:absolute hx:-mt-20" id="أخطاء-المعاملات-err-txn-xxxx"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d8%b9%d8%a7%d9%85%d9%84%d8%a7%d8%aa-err-txn-xxxx" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;ERR-TXN-2001: مخزون غير كافٍ&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: محاولة بيع/تخصيص مخزون أكثر من المتوفر&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التفاصيل التقنية&lt;/strong&gt;: فشل فحص المخزون الفوري&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل المفصّل&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;تحقق من مستويات المخزون الحالية: &lt;strong&gt;Inventory &amp;gt; Stock Inquiry&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;تحقق من موقع المخزون وتوفّره&lt;/li&gt;
+&lt;li&gt;فكّر في هذه الخيارات:
+&lt;ul&gt;
+&lt;li&gt;تقليل الكمية إلى المخزون المتوفر&lt;/li&gt;
+&lt;li&gt;نقل المخزون من مواقع أخرى&lt;/li&gt;
+&lt;li&gt;إنشاء طلب مؤجّل للكمية المتبقية&lt;/li&gt;
+&lt;li&gt;تحديث المخزون إذا كان جرد المخزون غير صحيح&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أفضل ممارسات إدارة المخزون&lt;/strong&gt;:
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;• Set reorder points for all active items
+• Monitor stock levels daily
+• Implement automatic reorder notifications
+• Regular cycle counting for accuracy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ERR-TXN-2002: السعر غير موجود&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: لا يوجد سعر صالح مُهيّأ لمجموعة الصنف/العميل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;فحص التسلسل الهرمي للأسعار&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;التسعير الخاص بالعميل&lt;/li&gt;
+&lt;li&gt;تسعير مجموعة العملاء&lt;/li&gt;
+&lt;li&gt;التسعير الترويجي&lt;/li&gt;
+&lt;li&gt;قائمة الأسعار القياسية&lt;/li&gt;
+&lt;li&gt;سعر التكلفة الأساسي&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خطوات التهيئة&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;انتقل إلى &lt;strong&gt;Sales &amp;gt; Price Management&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;أعدّ أنظمة الأسعار حسب نوع العميل&lt;/li&gt;
+&lt;li&gt;هيّئ فترات التسعير الترويجي&lt;/li&gt;
+&lt;li&gt;اضبط الأسعار الافتراضية للمنتجات الجديدة&lt;/li&gt;
+&lt;li&gt;اختبر التسعير بمعاملات عينة&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;أخطاء الامتثال الماليزي (ERR-MYS-XXXX)&lt;span class="hx:absolute hx:-mt-20" id="أخطاء-الامتثال-الماليزي-err-mys-xxxx"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d9%85%d8%aa%d8%ab%d8%a7%d9%84-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%b2%d9%8a-err-mys-xxxx" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;ERR-MYS-4001: خطأ في حساب ضريبة SST&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: مشكلة في حساب أو تهيئة ضريبة المبيعات والخدمات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قواعد SST&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;المعدل القياسي: 6% (معظم السلع والخدمات)&lt;/li&gt;
+&lt;li&gt;المعدل الصفري: 0% (الصادرات والسلع المعفاة)&lt;/li&gt;
+&lt;li&gt;معفى: لا تنطبق ضريبة SST&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;فحص التهيئة&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;إعداد المنتج&lt;/strong&gt;: تحقق من تعيين رمز SST&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إعداد العميل&lt;/strong&gt;: تحقق من حالة الإعفاء من SST&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إعدادات الضريبة&lt;/strong&gt;: راجع قواعد حساب SST&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحديثات المعدلات&lt;/strong&gt;: تأكد من تحميل معدلات SST الحالية&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ERR-MYS-4002: فشل إنشاء الفاتورة الإلكترونية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: خطأ في التكامل مع MyInvois أو فشل التحقق&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;متطلبات الفاتورة الإلكترونية لدى LHDN&lt;/strong&gt;:
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Mandatory Fields:
+• Supplier TIN (Tax Identification Number)
+• Buyer TIN (for B2B transactions)
+• Invoice date and time
+• Unique invoice number
+• Product/service description
+• SST details&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أخطاء التحقق&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;تنسيق TIN&lt;/strong&gt;: يجب أن يكون بتنسيق TIN ماليزي صالح&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التاريخ/الوقت&lt;/strong&gt;: يجب أن يكون ضمن الإطار الزمني لتقديم MyInvois&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;العملة&lt;/strong&gt;: MYR والعملات الأجنبية المعتمدة فقط&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;نوع المستند&lt;/strong&gt;: يجب أن يطابق الأنواع المعتمدة من LHDN&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;أخطاء التكامل (ERR-INT-XXXX)&lt;span class="hx:absolute hx:-mt-20" id="أخطاء-التكامل-err-int-xxxx"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84-err-int-xxxx" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;ERR-INT-3001: فشل المزامنة - الخدمات المصرفية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: فشل اتصال التكامل المصرفي أو انتهاء صلاحية المصادقة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;البنوك المحددة المدعومة&lt;/strong&gt;: Maybank وCIMB وPublic Bank وRHB وHong Leong&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خطوات استكشاف الأخطاء وإصلاحها&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;تحقق من بيانات الاعتماد&lt;/strong&gt;: تحقق من تفاصيل تسجيل الدخول المصرفي في &lt;strong&gt;Finance &amp;gt; Bank Integration&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اختبر الاتصال&lt;/strong&gt;: استخدم زر &amp;ldquo;Test Connection&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;حدّث الرموز&lt;/strong&gt;: أعد المصادقة إذا كنت تستخدم OAuth&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;فحص الشبكة&lt;/strong&gt;: تأكد من أن جدار الحماية يسمح بالاتصالات المصرفية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;حالة البنك&lt;/strong&gt;: تحقق مما إذا كان نظام البنك متوقفًا للصيانة&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ERR-INT-3002: خطأ مزامنة التجارة الإلكترونية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: مشكلات اتصال مع منصات المتاجر الإلكترونية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المنصات المدعومة&lt;/strong&gt;: Shopee وLazada وWooCommerce وMagento وShopify&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الأنواع الفرعية للخطأ&lt;/strong&gt;:
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;3002-A: Authentication failure
+3002-B: Product catalog sync failed
+3002-C: Order download error
+3002-D: Inventory update failed
+3002-E: Pricing sync error&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحلول الخاصة بكل منصة&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Shopee&lt;/strong&gt;: تحقق من مفتاح API والسر في Seller Center&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lazada&lt;/strong&gt;: تحقق من تفويض التطبيق في Seller Center&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;WooCommerce&lt;/strong&gt;: اختبر بيانات اعتماد REST API&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shopify&lt;/strong&gt;: حدّث صلاحيات التطبيق الخاص&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;السلامة أولًا&lt;/strong&gt;: قبل إجراء أي تغييرات على النظام لحل المشكلات، تأكد من وجود نسخ احتياطية مناسبة وفهم تأثير تغييراتك.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;المشكلات الخاصة بالمتصفح&lt;span class="hx:absolute hx:-mt-20" id="المشكلات-الخاصة-بالمتصفح"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%ae%d8%a7%d8%b5%d8%a9-%d8%a8%d8%a7%d9%84%d9%85%d8%aa%d8%b5%d9%81%d8%ad" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;مشكلات Chrome&lt;span class="hx:absolute hx:-mt-20" id="مشكلات-chrome"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-chrome" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;مشكلات التخزين المؤقت&lt;/strong&gt;: امسح بيانات التصفح، وأعد ضبط إعدادات Chrome&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تعارضات الإضافات&lt;/strong&gt;: عطّل الإضافات، واختبر في وضع التصفح المتخفي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مشكلات الذاكرة&lt;/strong&gt;: أغلق علامات التبويب غير المستخدمة، وأعد تشغيل المتصفح&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;مشكلات Firefox&lt;span class="hx:absolute hx:-mt-20" id="مشكلات-firefox"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-firefox" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;إعدادات الأمان&lt;/strong&gt;: اضبط تفضيلات الأمان لـ BigLedger&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تعارضات الإضافات&lt;/strong&gt;: اختبر مع تعطيل الإضافات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إعدادات ملفات تعريف الارتباط&lt;/strong&gt;: تأكد من تمكين ملفات تعريف الارتباط لـ BigLedger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;مشكلات Safari&lt;span class="hx:absolute hx:-mt-20" id="مشكلات-safari"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-safari" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;إعدادات JavaScript&lt;/strong&gt;: مكّن JavaScript لنطاق BigLedger&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إعدادات الخصوصية&lt;/strong&gt;: اضبط إعدادات الخصوصية لتطبيقات الأعمال&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مشكلات التخزين المؤقت&lt;/strong&gt;: امسح بيانات الموقع لـ BigLedger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;مشكلات متصفح الهاتف المحمول&lt;span class="hx:absolute hx:-mt-20" id="مشكلات-متصفح-الهاتف-المحمول"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d9%85%d8%aa%d8%b5%d9%81%d8%ad-%d8%a7%d9%84%d9%87%d8%a7%d8%aa%d9%81-%d8%a7%d9%84%d9%85%d8%ad%d9%85%d9%88%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التصميم المتجاوب&lt;/strong&gt;: استخدم الوضع الأفقي للشاشات المعقّدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;واجهة اللمس&lt;/strong&gt;: استخدم الإيماءات المناسبة للتنقل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اتصال البيانات&lt;/strong&gt;: تأكد من استقرار اتصال الإنترنت&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;تحسين الأداء&lt;span class="hx:absolute hx:-mt-20" id="تحسين-الأداء"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;أداء النظام&lt;span class="hx:absolute hx:-mt-20" id="أداء-النظام"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d9%86%d8%b8%d8%a7%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;تحسين الأداء المفصّل&lt;span class="hx:absolute hx:-mt-20" id="تحسين-الأداء-المفصل"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d9%81%d8%b5%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;تحديد اختناقات الأداء&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;لوحة معلومات أداء النظام&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;انتقل إلى &lt;strong&gt;Admin &amp;gt; System Health&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;راقب أداء وحدة المعالجة المركزية والذاكرة وقاعدة البيانات&lt;/li&gt;
+&lt;li&gt;تحقق من جلسات المستخدمين النشطة والعمليات المتزامنة&lt;/li&gt;
+&lt;li&gt;راجع سجلات النظام بحثًا عن أنماط الأخطاء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;مراقبة تجربة المستخدم&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تتبّع أوقات تحميل الصفحات عبر الوحدات المختلفة&lt;/li&gt;
+&lt;li&gt;راقب سرعات إنشاء التقارير&lt;/li&gt;
+&lt;li&gt;حلّل مدد جلسات المستخدمين وانتهاء المهل&lt;/li&gt;
+&lt;li&gt;حدّد الميزات بطيئة الأداء المستخدمة بكثرة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;تحسين الأداء على جانب المتصفح&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Recommended Browser Settings:
+✓ Enable JavaScript and cookies
+✓ Disable unnecessary browser extensions
+✓ Clear cache weekly
+✓ Update to latest browser version
+✓ Allow pop-ups for BigLedger domain
+✓ Set sufficient memory allocation&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;تحسين الشبكة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;متطلبات النطاق الترددي&lt;/strong&gt;: 10 ميجابت/ثانية كحد أدنى للأداء الأمثل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اعتبارات زمن الاستجابة&lt;/strong&gt;: زمن استجابة أقل من 100 مللي ثانية إلى خوادم BigLedger&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;استقرار الاتصال&lt;/strong&gt;: تُفضّل الاتصالات السلكية على WiFi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تأثير VPN&lt;/strong&gt;: اختبر الأداء مع/بدون VPN&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تهيئة جدار الحماية&lt;/strong&gt;: أضف نطاقات ومنافذ BigLedger إلى القائمة البيضاء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ضبط أداء قاعدة البيانات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تحسين الاستعلامات&lt;/strong&gt;: استخدم المرشحات والنطاقات الزمنية المناسبة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة الفهارس&lt;/strong&gt;: تأكد من الفهرسة الصحيحة للحقول المستعلَم عنها بكثرة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أرشفة البيانات&lt;/strong&gt;: أرشف البيانات القديمة لتحسين أداء الاستعلامات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المستخدمون المتزامنون&lt;/strong&gt;: راقب حدود اتصال قاعدة البيانات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;نوافذ الصيانة&lt;/strong&gt;: جدول صيانة قاعدة بيانات منتظمة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;التحسين على جانب العميل&lt;span class="hx:absolute hx:-mt-20" id="التحسين-على-جانب-العميل"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%b9%d9%84%d9%89-%d8%ac%d8%a7%d9%86%d8%a8-%d8%a7%d9%84%d8%b9%d9%85%d9%8a%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;صيانة المتصفح&lt;/strong&gt;: مسح التخزين المؤقت بانتظام، وتحديث المتصفح&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحسين الشبكة&lt;/strong&gt;: اتصال إنترنت مستقر، وتجنّب ساعات الذروة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أداء الجهاز&lt;/strong&gt;: ذاكرة وصول عشوائي كافية، وإغلاق التطبيقات غير الضرورية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;دقة الشاشة&lt;/strong&gt;: حسّن إعدادات العرض لـ BigLedger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;العوامل على جانب الخادم&lt;span class="hx:absolute hx:-mt-20" id="العوامل-على-جانب-الخادم"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b9%d9%88%d8%a7%d9%85%d9%84-%d8%b9%d9%84%d9%89-%d8%ac%d8%a7%d9%86%d8%a8-%d8%a7%d9%84%d8%ae%d8%a7%d8%af%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;أوقات الاستخدام في الذروة&lt;/strong&gt;: افهم أنماط حمل النظام&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;حجم البيانات&lt;/strong&gt;: التقارير والاستعلامات الكبيرة تؤثر على الأداء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;حمل التكامل&lt;/strong&gt;: عمليات التكامل المتزامنة المتعددة تؤثر على السرعة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;نوافذ الصيانة&lt;/strong&gt;: الصيانة المجدولة تؤثر على التوفّر&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;أداء البيانات&lt;span class="hx:absolute hx:-mt-20" id="أداء-البيانات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تحسين الاستعلامات&lt;/strong&gt;: استخدم المرشحات والنطاقات الزمنية المناسبة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;كفاءة التقارير&lt;/strong&gt;: قيّد نطاق البيانات للتقارير الكبيرة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المعالجة الدفعية&lt;/strong&gt;: اجمع العمليات المتشابهة معًا&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;استراتيجية الأرشفة&lt;/strong&gt;: أرشف البيانات القديمة لتحسين الأداء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;إجراءات التصعيد&lt;span class="hx:absolute hx:-mt-20" id="إجراءات-التصعيد"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%ac%d8%b1%d8%a7%d8%a1%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b5%d8%b9%d9%8a%d8%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;متى تصعّد&lt;span class="hx:absolute hx:-mt-20" id="متى-تصعد"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%aa%d9%89-%d8%aa%d8%b5%d8%b9%d8%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الحوادث الأمنية&lt;/strong&gt;: تصعيد فوري لخروقات الأمان&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;انقطاعات النظام&lt;/strong&gt;: عندما يكون النظام غير متاح تمامًا&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تلف البيانات&lt;/strong&gt;: أي مشكلات مشتبهة في سلامة البيانات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التأثير التجاري الحرج&lt;/strong&gt;: المشكلات التي تؤثر على عمليات العمل الأساسية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;كيفية التصعيد&lt;span class="hx:absolute hx:-mt-20" id="كيفية-التصعيد"&gt;&lt;/span&gt;
+&lt;a href="#%d9%83%d9%8a%d9%81%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d8%b5%d8%b9%d9%8a%d8%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;وثّق المشكلة&lt;/strong&gt;: وصف شامل للمشكلة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اجمع الأدلة&lt;/strong&gt;: لقطات الشاشة ورسائل الخطأ والسجلات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قيّم التأثير&lt;/strong&gt;: مستوى التأثير التجاري والإلحاح&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اتصل بالدعم المناسب&lt;/strong&gt;: استخدم قناة الدعم الصحيحة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تابع&lt;/strong&gt;: راقب الحل وأبلغ عن الحالة&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;موارد الخدمة الذاتية&lt;span class="hx:absolute hx:-mt-20" id="موارد-الخدمة-الذاتية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%88%d8%a7%d8%b1%d8%af-%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a9-%d8%a7%d9%84%d8%b0%d8%a7%d8%aa%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;قاعدة المعرفة&lt;span class="hx:absolute hx:-mt-20" id="قاعدة-المعرفة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d8%a7%d8%b9%d8%af%d8%a9-%d8%a7%d9%84%d9%85%d8%b9%d8%b1%d9%81%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;قسم الأسئلة الشائعة&lt;/strong&gt; - إجابات على الأسئلة المتكررة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الدروس المرئية&lt;/strong&gt; - أدلة مرئية خطوة بخطوة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;منتديات المستخدمين&lt;/strong&gt; - دعم مدفوع من المجتمع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التوثيق&lt;/strong&gt; - أدلة مستخدم شاملة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;أدوات التشخيص&lt;span class="hx:absolute hx:-mt-20" id="أدوات-التشخيص"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%af%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b4%d8%ae%d9%8a%d8%b5" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;فحص صحة النظام&lt;/strong&gt; - تشخيصات نظام مدمجة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اختبار الاتصال&lt;/strong&gt; - اختبار الشبكة والتكامل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مدقق الصلاحيات&lt;/strong&gt; - التحقق من حقوق وصول المستخدم&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مراقب الأداء&lt;/strong&gt; - مقاييس أداء النظام&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;نصيحة للكفاءة&lt;/strong&gt;: احتفظ بسجل لاستكشاف الأخطاء وإصلاحها لتتبّع المشكلات المتكررة وحلولها. يبني هذا خبرتك ويساعد في تحديد فرص تحسين النظام.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;استراتيجيات الوقاية&lt;span class="hx:absolute hx:-mt-20" id="استراتيجيات-الوقاية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d9%88%d9%82%d8%a7%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;الصيانة الاستباقية&lt;span class="hx:absolute hx:-mt-20" id="الصيانة-الاستباقية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b5%d9%8a%d8%a7%d9%86%d8%a9-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%a8%d8%a7%d9%82%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التحديثات المنتظمة&lt;/strong&gt;: أبقِ المتصفح والنظام محدّثين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;برامج التدريب&lt;/strong&gt;: تعليم وتدريب مستمر للمستخدمين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مراقبة النظام&lt;/strong&gt;: فحوصات صحة منتظمة ومراقبة الأداء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;النسخ الاحتياطي للبيانات&lt;/strong&gt;: حافظ على نسخ احتياطية حالية وإجراءات استرداد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;أفضل الممارسات&lt;span class="hx:absolute hx:-mt-20" id="أفضل-الممارسات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d9%81%d8%b6%d9%84-%d8%a7%d9%84%d9%85%d9%85%d8%a7%d8%b1%d8%b3%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التوثيق&lt;/strong&gt;: أبقِ الإجراءات موثّقة وحديثة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الاختبار&lt;/strong&gt;: اختبر التغييرات في بيئة التجهيز قبل الإنتاج&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التواصل&lt;/strong&gt;: أبلغ المستخدمين بتغييرات النظام وتحديثاته&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المراقبة&lt;/strong&gt;: أعدّ تنبيهات لمقاييس النظام الحرجة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;الحصول على المساعدة&lt;span class="hx:absolute hx:-mt-20" id="الحصول-على-المساعدة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ad%d8%b5%d9%88%d9%84-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%85%d8%b3%d8%a7%d8%b9%d8%af%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;قنوات الدعم&lt;span class="hx:absolute hx:-mt-20" id="قنوات-الدعم"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d9%86%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%af%d8%b9%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;📧 دعم البريد الإلكتروني&lt;/strong&gt;: &lt;a href="mailto:vincent@bigledger.com" &gt;vincent@bigledger.com&lt;/a&gt; للمشكلات التقنية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;💬 دردشة سريعة&lt;/strong&gt;: تيليجرام @leehongfay للأسئلة الفورية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;📞 الدعم الهاتفي&lt;/strong&gt;: متاح خلال ساعات العمل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🌐 بوابة الدعم&lt;/strong&gt;: نظام تذاكر عبر الإنترنت وقاعدة معرفة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;معلومات الدعم التي يجب تقديمها&lt;span class="hx:absolute hx:-mt-20" id="معلومات-الدعم-التي-يجب-تقديمها"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d8%aa%d9%8a-%d9%8a%d8%ac%d8%a8-%d8%aa%d9%82%d8%af%d9%8a%d9%85%d9%87%d8%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;وصف المشكلة&lt;/strong&gt;: شرح واضح للمشكلة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خطوات إعادة الإنتاج&lt;/strong&gt;: كيفية إعادة إنشاء المشكلة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;رسائل الخطأ&lt;/strong&gt;: النص الدقيق لأي رسائل خطأ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;معلومات المستخدم&lt;/strong&gt;: تفاصيل الحساب والصلاحيات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تفاصيل النظام&lt;/strong&gt;: معلومات المتصفح والجهاز والشبكة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التأثير التجاري&lt;/strong&gt;: كيف تؤثر المشكلة على عملياتك&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;توقعات وقت الاستجابة&lt;span class="hx:absolute hx:-mt-20" id="توقعات-وقت-الاستجابة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%88%d9%82%d8%b9%d8%a7%d8%aa-%d9%88%d9%82%d8%aa-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%ac%d8%a7%d8%a8%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلات الحرجة&lt;/strong&gt;: وقت استجابة 1-2 ساعة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الأولوية العالية&lt;/strong&gt;: وقت استجابة 4-8 ساعات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المشكلات العادية&lt;/strong&gt;: وقت استجابة 1-2 يوم عمل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;طلبات التحسين&lt;/strong&gt;: تُراجَع في دورات التخطيط الشهرية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;نجاح الحل&lt;/strong&gt;: يمكن حل معظم مشكلات المستخدمين بسرعة من خلال التحديد الصحيح للمشكلة واستخدام الموارد وقنوات الدعم المناسبة.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

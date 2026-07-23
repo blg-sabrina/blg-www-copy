@@ -1,0 +1,111 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dokumentasi BigLedger – Branch-Management</title><link>https://www.bigledger.com/ms/tags/branch-management/</link><description>Recent content in Branch-Management on Dokumentasi BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ms</language><atom:link href="https://www.bigledger.com/ms/tags/branch-management/index.xml" rel="self" type="application/rss+xml"/><item><title>Applet Organization</title><link>https://www.bigledger.com/ms/applets/organization-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/applets/organization-applet/</guid><description>
+&lt;h2&gt;Tujuan dan Gambaran Keseluruhan&lt;span class="hx:absolute hx:-mt-20" id="tujuan-dan-gambaran-keseluruhan"&gt;&lt;/span&gt;
+&lt;a href="#tujuan-dan-gambaran-keseluruhan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Applet Organization ialah komponen Modul Teras asas yang mentakrif dan mengurus keseluruhan struktur organisasi anda dalam BigLedger. Applet ini menyediakan alat menyeluruh untuk menyediakan syarikat, cawangan, jabatan, lokasi, dan hubungan hierarki yang membentuk tulang belakang operasi perniagaan anda.&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;Applet Modul Teras&lt;/strong&gt;: Ini ialah salah satu daripada 13 applet Modul Teras yang penting, diperlukan oleh semua modul BigLedger lain untuk konteks dan struktur organisasi.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;Fungsi Utama&lt;span class="hx:absolute hx:-mt-20" id="fungsi-utama"&gt;&lt;/span&gt;
+&lt;a href="#fungsi-utama" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Persediaan dan Konfigurasi Syarikat&lt;/strong&gt; - Takrif butiran syarikat dan maklumat perniagaan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pengurusan Cawangan dan Lokasi&lt;/strong&gt; - Struktur organisasi berbilang lokasi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Struktur Jabatan dan Bahagian&lt;/strong&gt; - Hierarki organisasi dalaman&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pengurusan Pusat Kos&lt;/strong&gt; - Pelaporan kewangan dan peruntukan kos&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hierarki Organisasi&lt;/strong&gt; - Hubungan induk-anak dan struktur pelaporan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Ciri-ciri Utama&lt;span class="hx:absolute hx:-mt-20" id="ciri-ciri-utama"&gt;&lt;/span&gt;
+&lt;a href="#ciri-ciri-utama" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Pengurusan Syarikat&lt;span class="hx:absolute hx:-mt-20" id="pengurusan-syarikat"&gt;&lt;/span&gt;
+&lt;a href="#pengurusan-syarikat" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Profil syarikat dan maklumat perniagaan yang lengkap&lt;/li&gt;
+&lt;li&gt;Pendaftaran perniagaan dan butiran entiti undang-undang&lt;/li&gt;
+&lt;li&gt;Nombor pendaftaran cukai dan maklumat pematuhan&lt;/li&gt;
+&lt;li&gt;Tetapan identiti korporat dan penjenamaan&lt;/li&gt;
+&lt;li&gt;Sokongan berbilang mata wang dan operasi antarabangsa&lt;/li&gt;
+&lt;li&gt;Penjejakan pematuhan undang-undang dan kawal selia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Struktur Cawangan dan Lokasi&lt;span class="hx:absolute hx:-mt-20" id="struktur-cawangan-dan-lokasi"&gt;&lt;/span&gt;
+&lt;a href="#struktur-cawangan-dan-lokasi" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Persediaan dan konfigurasi berbilang cawangan&lt;/li&gt;
+&lt;li&gt;Pengurusan lokasi geografi dan alamat&lt;/li&gt;
+&lt;li&gt;Tetapan operasi khusus cawangan&lt;/li&gt;
+&lt;li&gt;Hubungan dan hierarki antara cawangan&lt;/li&gt;
+&lt;li&gt;Inventori dan operasi berasaskan lokasi&lt;/li&gt;
+&lt;li&gt;Keupayaan prestasi dan pelaporan cawangan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Pengurusan Jabatan dan Bahagian&lt;span class="hx:absolute hx:-mt-20" id="pengurusan-jabatan-dan-bahagian"&gt;&lt;/span&gt;
+&lt;a href="#pengurusan-jabatan-dan-bahagian" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Struktur dan hierarki jabatan&lt;/li&gt;
+&lt;li&gt;Konfigurasi pusat kos dan pusat keuntungan&lt;/li&gt;
+&lt;li&gt;Peruntukan belanjawan dan tanggungjawab kewangan&lt;/li&gt;
+&lt;li&gt;Peruntukan dan pengurusan sumber&lt;/li&gt;
+&lt;li&gt;Hubungan pelaporan dan carta organisasi&lt;/li&gt;
+&lt;li&gt;Tetapan kerjasama merentas jabatan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Hierarki Organisasi dan Pelaporan&lt;span class="hx:absolute hx:-mt-20" id="hierarki-organisasi-dan-pelaporan"&gt;&lt;/span&gt;
+&lt;a href="#hierarki-organisasi-dan-pelaporan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Hubungan syarikat induk-anak syarikat&lt;/li&gt;
+&lt;li&gt;Struktur pelaporan cawangan dan jabatan&lt;/li&gt;
+&lt;li&gt;Sokongan organisasi matriks&lt;/li&gt;
+&lt;li&gt;Hierarki kelulusan berbilang peringkat&lt;/li&gt;
+&lt;li&gt;Pelaporan dan analisis disatukan&lt;/li&gt;
+&lt;li&gt;Pengurusan perubahan organisasi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Konfigurasi dan Penyesuaian&lt;span class="hx:absolute hx:-mt-20" id="konfigurasi-dan-penyesuaian"&gt;&lt;/span&gt;
+&lt;a href="#konfigurasi-dan-penyesuaian" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Templat organisasi khusus industri&lt;/li&gt;
+&lt;li&gt;Medan dan atribut organisasi tersuai&lt;/li&gt;
+&lt;li&gt;Konfigurasi proses aliran kerja dan kelulusan&lt;/li&gt;
+&lt;li&gt;Integrasi dengan applet Modul Teras lain&lt;/li&gt;
+&lt;li&gt;Tetapan keselamatan dan kawalan akses&lt;/li&gt;
+&lt;li&gt;Pemantauan dan pengoptimuman prestasi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Aliran Kerja Persediaan Organisasi&lt;span class="hx:absolute hx:-mt-20" id="aliran-kerja-persediaan-organisasi"&gt;&lt;/span&gt;
+&lt;a href="#aliran-kerja-persediaan-organisasi" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="https://www.bigledger.com/diagrams/organization-setup-workflow.svg" alt="Aliran Kerja Persediaan Organisasi" loading="lazy" /&gt;
+&lt;em&gt;Rajah 1: Proses persediaan organisasi lengkap untuk perniagaan Malaysia&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Sama ada anda mengurus syarikat tunggal atau berbilang cawangan, Applet Organization memudahkan prosesnya, menyediakan antara muka yang mesra pengguna untuk memastikan semua butiran operasi dikonfigurasikan dengan tepat dan cekap.&lt;/p&gt;</description></item><item><title>Aplet Organisasi Cawangan</title><link>https://www.bigledger.com/ms/applets/branch-organization-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/applets/branch-organization-applet/</guid><description>
+&lt;p&gt;noneBahagian ini merangkumi tab utama kedua dalam bar sisi, Branches, di mana pengguna boleh mencipta dan menyunting butiran untuk cawangan mereka.
+Sebuah syarikat boleh mempunyai berbilang cawangan
+Pengguna boleh sama ada memilih untuk mencipta cawangan mereka daripada ikon kedua pada bar sisi kiri atau beralih ke Tab Sunting Company Listing untuk mencipta cawangan.
+Cara mencipta Cawangan daripada Bar Sisi
+Cipta Cawangan Daripada Tab Company Listing﻿﻿
+Topik kedua dalam bahagian ini memberikan gambaran keseluruhan setiap tab dalam menu Edit Branch, menonjolkan cirinya untuk menambah baik konfigurasi cawangan.&lt;/p&gt;
+&lt;h1&gt;Cipta Cawangan﻿&lt;/h1&gt;&lt;p&gt;Pengguna boleh mencipta berbilang cawangan, semuanya dipautkan kepada satu syarikat&lt;/p&gt;
+&lt;h2&gt;Cipta Cawangan Daripada Bar Sisi﻿&lt;span class="hx:absolute hx:-mt-20" id="cipta-cawangan-daripada-bar-sisi"&gt;&lt;/span&gt;
+&lt;a href="#cipta-cawangan-daripada-bar-sisi" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Ikon kedua pada bar menu kiri ialah Tab Branch, yang membolehkan pengguna mencipta cawangan baharu untuk sesebuah syarikat secara manual. Pengguna boleh menekan butang &amp;lsquo;+&amp;rsquo; untuk mencipta cawangan baharu.
+Isi semua medan yang diperlukan dalam Tab Details seperti yang digariskan di bawah.
+Setelah selesai, klik &amp;lsquo;Save&amp;rsquo; untuk menyimpan butiran cawangan.
+Pengguna boleh memilih antara &amp;lsquo;Create Default Location&amp;rsquo; atau &amp;lsquo;Choose From Existing Location&amp;rsquo; semasa menyediakan cawangan.
+Jika anda mencipta cawangan sebelum menyediakan lokasi dan memilih &amp;lsquo;Create Default Location&amp;rsquo;, sistem akan mencipta satu lokasi lalai secara automatik.
+Medan yang perlu diisi dalam Tab Details ialah:
+Branch Code, Branch Name
+Company Name: Pautkan cawangan kepada syarikat anda. Ini akan dipaparkan sebagai nama syarikat yang dipilih
+Company Registration No.: Dipaparkan seperti yang diisi oleh pengguna
+Branch Commencement Date
+Currency: Mata wang berbeza boleh dipilih daripada senarai juntai bawah
+Jika pengguna mencipta lokasi sebelum cawangan, kemudian pengguna memilih &amp;lsquo;Choose From Existing Location&amp;rsquo;, medan tambahan yang diperlukan dalam Tab Details ialah:
+Location Code
+Default Location
+Selepas mengisi semua butiran yang perlu, klik &amp;lsquo;Save&amp;rsquo; untuk menyimpan maklumat cawangan.
+Isi butiran dalam Tab Address seperti yang diarahkan sebelum ini.
+Selepas mengesahkan semua maklumat, klik butang &amp;lsquo;Save&amp;rsquo; untuk menyimpan butiran cawangan.&lt;/p&gt;
+&lt;h2&gt;Cipta Cawangan Daripada Tab Company Listing﻿﻿&lt;span class="hx:absolute hx:-mt-20" id="cipta-cawangan-daripada-tab-company-listing"&gt;&lt;/span&gt;
+&lt;a href="#cipta-cawangan-daripada-tab-company-listing" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Jika pengguna memilih untuk mencipta cawangan bagi syarikat terpilih dalam halaman Company Listing, mereka secara langsung memautkan cawangan kepada syarikat tersebut. Klik tanda &amp;lsquo;+&amp;rsquo; untuk mula mencipta cawangan.
+Navigasi ke Tab Branch dalam suntingan syarikat dan klik butang &amp;lsquo;+&amp;rsquo; untuk mencipta cawangan baharu.
+Pilih syarikat yang anda ingin cipta cawangan daripada senarai juntai bawah. Company Name dan Company Registration No. akan diisi secara automatik berdasarkan pilihan anda.
+Isi medan wajib yang perlu diisi dalam Tab Details dan Address&lt;/p&gt;
+&lt;h1&gt;Sunting cawangan﻿&lt;/h1&gt;&lt;p&gt;Daripada halaman Branch Listing, klik pada Cawangan yang anda cipta untuk melihat semua tab yang tersedia:
+Details: Bahagian ini memaparkan butiran utama cawangan yang dicipta dalam bahagian 2.1, di mana pengguna boleh menambah atau menyunting sebarang maklumat jika perlu.
+Default Pricing: ialah konfigurasi penetapan harga lalai. Ia boleh ditetapkan mengikut cawangan atau syarikat. Sebagai contoh, jika anda mempunyai skim harga berbeza untuk Malaysia Timur dan Barat, anda boleh menggunakan penetapan harga cawangan Timur pada cawangan di kawasan tersebut.
+Address: Lihat dan Sunting alamat cawangan.
+Pick Pack: digunakan untuk pesanan sumber. Sekiranya anda menggunakan pilihan penghantaran, isikannya; jika tidak, anda boleh biarkan kosong.
+Marketplace: adalah untuk produk EcomSync, yang dipautkan kepada marketplace anda seperti Shopee dan Lazada. Di sinilah anda mengkonfigurasi tetapan.
+Location: Di sinilah lokasi lalai, yang baru sahaja dicipta oleh sistem semasa menyediakan cawangan, ditunjukkan. Sebagai alternatif, anda boleh memilih daripada lokasi sedia ada.
+Settlement: Di sinilah anda menentukan jenis penyelesaian yang boleh dilihat oleh setiap cawangan. Setiap cawangan boleh mempunyai penyelesaian berbeza
+Sebagai contoh: tunai, kad kredit, atau Maybank.
+Settlement digunakan untuk cashbook atau POS anda, termasuk pilihan pembayaran seperti GrabPay atau ShopeePay. Di sinilah anda mengkonfigurasinya.
+Labels: digunakan untuk penandaan cawangan
+Extension: digunakan untuk CP Commerce
+Customer and Supplier: pautkan cawangan kepada pelanggan/pembekal tertentu. Apabila dikonfigurasikan di sini, transaksi akan direkodkan secara automatik. Ciri ini adalah sebahagian daripada butiran konfigurasi antara syarikat
+Intercompany: Tetapkan sama ada sistem memuktamadkan transaksi antara syarikat secara automatik atau membiarkannya sebagai draf untuk kelulusan manual. Anda juga boleh mengkonfigurasi sama ada mencipta invois jualan patut mencipta invois pembelian secara automatik. Di sinilah tetapan auto-konfigurasi diuruskan.&lt;/p&gt;</description></item></channel></rss>

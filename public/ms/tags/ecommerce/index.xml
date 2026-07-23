@@ -1,0 +1,245 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dokumentasi BigLedger – Ecommerce</title><link>https://www.bigledger.com/ms/tags/ecommerce/</link><description>Recent content in Ecommerce on Dokumentasi BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ms</language><atom:link href="https://www.bigledger.com/ms/tags/ecommerce/index.xml" rel="self" type="application/rss+xml"/><item><title>2.0 Konfigurasi Laman Web﻿</title><link>https://www.bigledger.com/ms/modules/ecommerce/20-website-configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/20-website-configuration/</guid><description>
+&lt;h1&gt;2.0 Konfigurasi Laman Web﻿&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3187343370
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2024-11-17T11:07:01.283Z&lt;/p&gt;
+&lt;h2&gt;2.1 Menyediakan Laman Web Anda﻿&lt;span class="hx:absolute hx:-mt-20" id="21-menyediakan-laman-web-anda"&gt;&lt;/span&gt;
+&lt;a href="#21-menyediakan-laman-web-anda" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;CP-Commerce menawarkan antara muka mesra pengguna untuk mengkonfigurasi laman web anda. Rujuk bahagian Konfigurasi Laman Web untuk arahan terperinci tentang menyediakan dan menyesuaikan laman web anda.&lt;/p&gt;
+&lt;h2&gt;2.2 Menyesuaikan Kandungan Laman Web﻿&lt;span class="hx:absolute hx:-mt-20" id="22-menyesuaikan-kandungan-laman-web"&gt;&lt;/span&gt;
+&lt;a href="#22-menyesuaikan-kandungan-laman-web" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Ketahui cara menyesuaikan kandungan laman web anda, termasuk penyenaraian produk, imej, penerangan, dan penetapan harga, untuk mewujudkan pengalaman membeli-belah dalam talian yang menarik bagi pelanggan anda.&lt;/p&gt;</description></item><item><title>B2B</title><link>https://www.bigledger.com/ms/modules/ecommerce/b2b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/b2b/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3153822181
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-06-05T09:01:05.690Z&lt;/p&gt;</description></item><item><title>CP-Commerce</title><link>https://www.bigledger.com/ms/modules/ecommerce/cp-commerce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/cp-commerce/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3153887626
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2024-11-17T11:04:53.671Z
+Modul CP-Commerce ialah penyelesaian berkuasa yang direka untuk membantu perniagaan menawarkan produk dan perkhidmatan dalam talian. Ia berfungsi sebagai platform bersepadu yang menggabungkan keupayaan eCommerce dengan pengurusan data berpusat dan integrasi lancar dengan pelbagai sistem perniagaan lain. Dengan menghapuskan kemasukan data berganda dan menyediakan fungsi tasik data operasi, CP-Commerce memperkasakan perniagaan untuk membina kehadiran dalam talian yang mantap dan mengembangkan operasi mereka.&lt;/p&gt;</description></item><item><title>Create Single Tab</title><link>https://www.bigledger.com/ms/modules/ecommerce/create-single-tab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/create-single-tab/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3196191946
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-06-18T06:09:58.079Z
+Create - digunakan untuk menyegerakkan item yang dipilih ke dalam kedai pasaran (marketplace). Create terdiri daripada 2 jenis:
+Create Single - digunakan apabila pengguna ingin menyegerakkan 1 (satu) item ke dalam pasaran
+Create single item terdiri daripada 2 tab:
+Store Tab - digunakan untuk memilih kedai yang ingin disegerakkan oleh pengguna di mana pengguna boleh memilih berbilang kedai.
+Setelah Store dipilih, pengguna perlu memilih kategori:
+2. Item Tab - digunakan untuk memilih item semasa yang sedang anda sunting dan ingin disegerakkan ke pasaran:
+Setelah kedai dan kategori dipilih, pengguna perlu menekan butang &amp;ldquo;start listing&amp;rdquo; yang akan membawa ke halaman ringkasan:
+Pengguna mesti klik pada item dan mengisi semua butiran atribut:
+Setelah pengguna selesai mengisi butiran atribut, mereka boleh klik pada butang &amp;ldquo;Submit&amp;rdquo; untuk menyegerakkan ke pasaran.&lt;/p&gt;</description></item><item><title>EcomSync Applet</title><link>https://www.bigledger.com/ms/modules/ecommerce/ecomsync-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/ecomsync-applet/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3259346357
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-07-23T05:51:22.732Z
+Kandungan
+Pengenalan kepada Ecomsync
+Ciri-ciri Ecomsync
+Penyelenggaraan Item
+Pesanan
+Senarai Pesanan
+Penapisan Pesanan
+Butiran Pesanan
+Papan Pemuka
+Papan Pemuka Utama
+Papan Pemuka Jualan
+Papan Pemuka Pesanan
+Tetapan
+Integrasi dengan Shopify&lt;/p&gt;</description></item><item><title>Ecomsync Features</title><link>https://www.bigledger.com/ms/modules/ecommerce/ecomsync-features/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/ecomsync-features/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3299247174
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-07-19T02:40:30.908Z
+Status Kesediaan: 5 - Terbaik mungkinHijau 4 - optimumKuning 3 - purataBiru 2 - kurang optimumUngu 1 - paling teruk mungkinMerah
+FASA 1
+1Modul
+Sub-Modul
+Applet Berkaitan
+Kesediaan
+2Integrasi Lazada
+Organisation Applet
+4 - optimumKuning
+3Pengurusan Produk
+Pemilihan Kod GL
+Doc Item Maintenance
+4 - optimumKuning&lt;br&gt;
+4Penjejakan inventori
+4 - optimumKuning&lt;br&gt;
+5Tambah butiran dimensi
+4 - optimumKuning&lt;br&gt;
+6Tambah imej produk
+4 - optimumKuning&lt;br&gt;
+7Pilih kategori imej
+4 - optimumKuning&lt;br&gt;
+8Pengurusan pasaran
+Tambah pasaran
+Organisation Applet
+4 - optimumKuning&lt;br&gt;
+9Pilih kategori item sebagai berkumpulan atau tunggal
+4 - optimumKuning&lt;br&gt;
+10Pilih item untuk disiarkan di pasaran
+4 - optimumKuning&lt;br&gt;
+11EMP Sync sebagai Sales Order (sistem ERP)
+EMP Sync
+4 - optimumKuning&lt;br&gt;
+12Penyegerakan Atribut Lazada
+Pilih kategori item Lazada
+4 - optimumKuning&lt;br&gt;
+13Isi medan atribut lazada mengikut kategori yang dipilih
+4 - optimumKuning&lt;br&gt;
+14Tambah lebih banyak imej dalam halaman atribut
+4 - optimumKuning&lt;br&gt;
+15Ketersediaan Stok / Pengurusan Inventori
+Konfigurasi stok automatik
+4 - optimumKuning&lt;br&gt;
+16Konfigurasi stok manual
+4 - optimumKuning&lt;br&gt;
+17Tetapkan jumlah penimbal stok
+4 - optimumKuning&lt;br&gt;
+18Pengurusan Sales Order
+Konfigurasi Active Sales Order
+4 - optimumKuning&lt;br&gt;
+19Konfigurasi SO Tidak Aktif
+4 - optimumKuning&lt;br&gt;
+20Konfigurasi SO aktif terpilih
+4 - optimumKuning&lt;br&gt;
+21Penyegerakan pesanan Lazada dari akaun Seller
+4 - optimumKuning&lt;br&gt;
+22Penapis status
+4 - optimumKuning&lt;br&gt;
+23Pilihan berbilang pesanan untuk cetakan Invois
+4 - optimumKuning&lt;br&gt;
+24Cetak label penghantaran
+4 - optimumKuning&lt;br&gt;
+25Cetak senarai pemetikan
+4 - optimumKuning&lt;br&gt;
+26Eksport Pesanan ke Excel
+4 - optimumKuning&lt;br&gt;
+27Cipta manifes
+4 - optimumKuning&lt;br&gt;
+28Lihat butiran Pesanan (Item, penghantaran, butiran pelanggan)
+4 - optimumKuning&lt;br&gt;
+29Papan Pemuka / Laporan
+Tapis papan pemuka mengikut 30 hari
+4 - optimumKuning&lt;br&gt;
+30Tapis papan pemuka mengikut 7 hari
+4 - optimumKuning&lt;br&gt;
+31Masukkan laporan tarikh tersuai
+4 - optimumKuning&lt;br&gt;
+32Lihat laporan jumlah jualan
+4 - optimumKuning&lt;br&gt;
+33Lihat laporan Jualan Harian mengikut kedai
+4 - optimumKuning&lt;br&gt;
+34Lihat jumlah pesanan
+4 - optimumKuning&lt;br&gt;
+35Lihat pesanan yang dibatalkan
+4 - optimumKuning&lt;br&gt;
+36Integrasi CP Commerce
+Menyatukan pesanan dari CP Commerce dalam Ecomsync
+4 - optimumKuning&lt;br&gt;
+37Urus baki stok dalam Ecomsync
+4 - optimumKuning&lt;br&gt;
+38FASA 2
+39Integrasi Shopee
+Sales Order, baki stok disegerakkan ke EMP
+Pengurusan atribut dan kategori dari Shopee ke Ecomsync
+Pemenuhan Stok / pesanan
+Pengurusan pesanan (Cipta Nota Konsainan, invois dll)
+40Integrasi Shopify
+Sales Order, baki stok disegerakkan ke EMP
+Pengurusan atribut dan kategori dari Shopify ke Ecomsync
+Pemenuhan Stok / pesanan
+Pengurusan pesanan (Cipta Nota Konsainan, invois dll)
+41Integrasi Zalora
+Sales Order, baki stok disegerakkan ke EMP
+Pengurusan atribut dan kategori dari Zalora ke Ecomsync
+Pemenuhan Stok / pesanan
+Pengurusan pesanan (Cipta Nota Konsainan, invois dll)
+42Integrasi OpenCart
+Sales Order, baki stok disegerakkan ke EMP
+Pengurusan atribut dan kategori dari OpenCart ke Ecomsync
+Pemenuhan Stok / pesanan
+Pengurusan pesanan (Cipta Nota Konsainan, invois dll)
+43Integrasi Magento
+Sales Order, baki stok disegerakkan ke EMP
+Pengurusan atribut dan kategori dari Magento ke Ecomsync
+Pemenuhan Stok / pesanan
+Pengurusan pesanan (Cipta Nota Konsainan, invois dll)
+44Jejak Audit
+45Pemenuhan stok&lt;/p&gt;</description></item><item><title>Integration with Shopify</title><link>https://www.bigledger.com/ms/modules/ecommerce/integration-with-shopify/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/integration-with-shopify/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3292758065
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-07-15T07:56:28.266Z
+langkah-langkah,..&lt;/p&gt;</description></item><item><title>Introduction to EcomSync</title><link>https://www.bigledger.com/ms/modules/ecommerce/introduction-to-ecomsync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/introduction-to-ecomsync/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3196485958
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-06-18T01:46:53.953Z&lt;/p&gt;
+&lt;h2&gt;Pengenalan&lt;span class="hx:absolute hx:-mt-20" id="pengenalan"&gt;&lt;/span&gt;
+&lt;a href="#pengenalan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;EcomSync Applet ialah applet yang membolehkan pengguna menyusun dan mengurus item/produk, pesanan mereka serta melihat prestasi pasaran mereka. Matlamat EcomSync Applet adalah untuk melengkapkan pengguna dengan pemahaman tentang cara mengurus aspek pasaran mereka.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.bigledger.com/diagrams/ecomsync-integration-flow.svg" alt="EcomSync Integration Flow" loading="lazy" /&gt;
+&lt;em&gt;Rajah 1: Seni Bina Integrasi EcomSync - menghubungkan BigLedger dengan pasaran utama Malaysia&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Anda boleh mengalami banyak manfaat daripada applet ini seperti dari perspektif pengurusan, EcomSync menyediakan kawalan yang lebih baik dan boleh dilaksanakan ke atas kedai penjual anda. Anda boleh menyegerakkan item ke dalam berbilang akaun penjual secara serentak. Selain itu, EcomSync bertindak sebagai perentak jantung yang membolehkan anda mengurus pesanan dan statusnya serta boleh dipautkan dengan Enterprise Management Portal (EMP) anda yang menjadikan proses pengurusan produk anda lebih mudah.&lt;/p&gt;
+&lt;h2&gt;Prasyarat&lt;span class="hx:absolute hx:-mt-20" id="prasyarat"&gt;&lt;/span&gt;
+&lt;a href="#prasyarat" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Untuk meneruskan dan memulakan EcomSync Applet, sila pastikan anda telah mencipta butiran organisasi dan cawangan dalam Organization Applet.&lt;/p&gt;
+&lt;h3&gt;Ciri Utama&lt;span class="hx:absolute hx:-mt-20" id="ciri-utama"&gt;&lt;/span&gt;
+&lt;a href="#ciri-utama" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pengurusan Berbilang Pasaran&lt;/strong&gt;: Sambung ke Shopee, Lazada, dan kedai tersuai&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Penyegerakan Masa Nyata&lt;/strong&gt;: Inventori, harga, dan pesanan disegerakkan secara automatik&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sokongan E-dagang Malaysia&lt;/strong&gt;: Dibina untuk kaedah pembayaran dan penghantaran tempatan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kawalan Berpusat&lt;/strong&gt;: Urus semua jualan dalam talian anda dari satu papan pemuka&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Listing</title><link>https://www.bigledger.com/ms/modules/ecommerce/listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/listing/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3196846319
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-06-18T02:06:35.534Z
+Listing menunjukkan semua Item anda yang disegerakkan dari EMP dan Pasaran. Di dalam listing, item boleh mempunyai 2 aras, di mana aras pertama ialah item yang disegerakkan dari EMP atau item yang dicipta sendiri oleh pengguna, dan aras ke-2 menunjukkan item yang disegerakkan ke pasaran:
+Pengguna boleh menyesuaikan listing AG-Grid, di mana mereka boleh mengalihkan dan menapis pengepala listing tersebut.&lt;/p&gt;</description></item><item><title>Marketplace Tab</title><link>https://www.bigledger.com/ms/modules/ecommerce/marketplace-tab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/marketplace-tab/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3196191832
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-07-23T05:24:07.943Z
+Marketplace Tab digunakan oleh Pengguna untuk Mencipta, Menyunting, Mengemas Kini dan Memadam Item yang akan disegerakkan ke dalam pasaran. Bahagian ini membolehkan anda memilih Jenis Item untuk dipaparkan dalam Pasaran.
+Klik Save. - Untuk Modul ini, setiap kali menyunting butiran Item merentasi tab, anda &amp;ldquo;MESTI KLIK SAVE&amp;rdquo;.&lt;/p&gt;</description></item><item><title>Update and Delete Item</title><link>https://www.bigledger.com/ms/modules/ecommerce/update-and-delete-item/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/modules/ecommerce/update-and-delete-item/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3196191957
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-06-18T06:15:40.294Z
+Update/Delete Item - apabila pengguna ingin mengemas kini atau memadam item yang telah disegerakkan ke pasaran, mereka perlu pergi ke &amp;ldquo;Marketplace Tab&amp;rdquo;, pilih kedai daripada listing semasa dan kemas kini/padam item tersebut:&lt;/p&gt;</description></item><item><title>Aplet Berkaitan EcomSync</title><link>https://www.bigledger.com/ms/applets/90-ecomsync-related-applets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/applets/90-ecomsync-related-applets/</guid><description>
+&lt;p&gt;Ecomsync Organization Applet
+Ecomsync - Organisation Applet - Cipta Syarikat
+Ecomsync - Organisation Applet : Cipta Cawangan Maya (Marketplace)
+Ecomsync - Organisation Applet - Marketplace : Konfigurasi Stok dan Pesanan Jualan mengikut Cawangan
+Ecomsync - Doc Item Maintenance Applet : Cipta Item Tunggal
+Ecomsync - Doc Item Maintenance Applet : Cipta Item Bundel
+Ecomsync - Doc Item Maintenance Applet : Cipta Item Berkelompok
+Ecomsync - Doc Item Maintenance Applet : Konfigurasi item tunggal/bundel ke marketplace
+Ecomsync - Doc Item Maintenance Applet : Konfigurasi item berkelompok ke marketplace
+Ecomsync - Doc Item Maintenance Applet : Konfigurasi baki stok dan pesanan jualan
+Ecomsync - Internal Sale Order Applet : Kemas kini status pesanan marketplace&lt;/p&gt;</description></item><item><title>Aplet Katalog E-Dagang</title><link>https://www.bigledger.com/ms/applets/ecommerce-catalog-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/applets/ecommerce-catalog-applet/</guid><description>
+&lt;h2&gt;Tujuan dan Gambaran Keseluruhan&lt;span class="hx:absolute hx:-mt-20" id="tujuan-dan-gambaran-keseluruhan"&gt;&lt;/span&gt;
+&lt;a href="#tujuan-dan-gambaran-keseluruhan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;TODO&lt;/strong&gt;: Dokumentasi aplet ini memerlukan pengembangan terperinci. Ini ialah pemegang tempat dengan struktur asas dan maklumat utama.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Aplet Katalog E-Dagang ialah komponen khusus Modul CP-Commerce BigLedger, menyediakan pengurusan katalog produk dalam talian yang menyeluruh, pengoptimuman SEO, dan keupayaan perdagangan digital untuk operasi e-dagang.&lt;/p&gt;
+&lt;h3&gt;Fungsi Utama&lt;span class="hx:absolute hx:-mt-20" id="fungsi-utama"&gt;&lt;/span&gt;
+&lt;a href="#fungsi-utama" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pengurusan Katalog Produk&lt;/strong&gt; - Paparan dan organisasi produk dalam talian&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pengoptimuman SEO&lt;/strong&gt; - Pengoptimuman enjin carian untuk produk&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pengurusan Kategori&lt;/strong&gt; - Pengkategorian dan navigasi produk&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pengurusan Kandungan&lt;/strong&gt; - Kandungan produk dan multimedia yang kaya&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pengurusan Penetapan Harga&lt;/strong&gt; - Strategi penetapan harga dalam talian dan promosi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Ciri Utama&lt;span class="hx:absolute hx:-mt-20" id="ciri-utama"&gt;&lt;/span&gt;
+&lt;a href="#ciri-utama" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;TODO: Kembangkan Bahagian Ciri Utama&lt;span class="hx:absolute hx:-mt-20" id="todo-kembangkan-bahagian-ciri-utama"&gt;&lt;/span&gt;
+&lt;a href="#todo-kembangkan-bahagian-ciri-utama" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Pengurusan kandungan produk yang kaya&lt;/li&gt;
+&lt;li&gt;Sokongan katalog berbilang bahasa&lt;/li&gt;
+&lt;li&gt;URL dan metadata mesra SEO&lt;/li&gt;
+&lt;li&gt;Enjin cadangan produk&lt;/li&gt;
+&lt;li&gt;Carian dan penapisan lanjutan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Titik Integrasi&lt;span class="hx:absolute hx:-mt-20" id="titik-integrasi"&gt;&lt;/span&gt;
+&lt;a href="#titik-integrasi" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Kebergantungan Modul Teras&lt;span class="hx:absolute hx:-mt-20" id="kebergantungan-modul-teras"&gt;&lt;/span&gt;
+&lt;a href="#kebergantungan-modul-teras" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ms/applets/inv-item-maintenance-applet/" &gt;Aplet Penyelenggaraan Item Inventori&lt;/a&gt;&lt;/strong&gt; - Data induk produk&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ms/applets/tax-configuration-applet/" &gt;Aplet Konfigurasi Cukai&lt;/a&gt;&lt;/strong&gt; - Tetapan cukai produk&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ms/applets/organization-applet/" &gt;Aplet Organisasi&lt;/a&gt;&lt;/strong&gt; - Sokongan berbilang kedai&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Aplet Berkaitan&lt;span class="hx:absolute hx:-mt-20" id="aplet-berkaitan"&gt;&lt;/span&gt;
+&lt;a href="#aplet-berkaitan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;TODO: Dokumenkan Aplet Berkaitan&lt;span class="hx:absolute hx:-mt-20" id="todo-dokumenkan-aplet-berkaitan"&gt;&lt;/span&gt;
+&lt;a href="#todo-dokumenkan-aplet-berkaitan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Aplet Troli Beli-Belah&lt;/li&gt;
+&lt;li&gt;Aplet Pembayaran Dalam Talian&lt;/li&gt;
+&lt;li&gt;Aplet Portal Pelanggan&lt;/li&gt;
+&lt;li&gt;Aplet Pemasaran Digital&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;Status Dokumentasi&lt;/strong&gt;: Aplet ini memerlukan dokumentasi menyeluruh termasuk ciri terperinci, konfigurasi SEO, panduan pengurusan kandungan, dan contoh pelaksanaan e-dagang.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

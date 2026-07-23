@@ -1,0 +1,1027 @@
+<!doctype html><html lang=ms dir=ltr class=dark style=color-scheme:dark><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=color-scheme content="dark"><title>Inventori & Pembuatan Lanjutan | Dokumentasi BigLedger</title><meta name=description content="Pengurusan inventori dan proses pembuatan yang kompleks"><link rel=icon href="https://www.bigledger.com/favicon.ico?v=2" sizes=32x32><link rel=icon type=image/svg+xml href="https://www.bigledger.com/favicon.svg?v=2"><link rel=icon type=image/png sizes=16x16 href="https://www.bigledger.com/favicon-16x16.png?v=2"><link rel=icon type=image/png sizes=32x32 href="https://www.bigledger.com/favicon-32x32.png?v=2"><link rel=icon type=image/png sizes=48x48 href="https://www.bigledger.com/favicon-48x48.png?v=2"><link rel=icon type=image/png sizes=96x96 href="https://www.bigledger.com/favicon-96x96.png?v=2"><link rel=apple-touch-icon sizes=180x180 href="https://www.bigledger.com/apple-touch-icon.png?v=2"><link rel=manifest href="https://www.bigledger.com/site.webmanifest?v=2"><meta name=theme-color content="#DC143C"><link rel=canonical href=https://www.bigledger.com/ms/guides/advanced/advanced-inventory-manufacturing/><link rel=alternate hreflang=en href=https://www.bigledger.com/guides/advanced/advanced-inventory-manufacturing/><link rel=alternate hreflang=x-default href=https://www.bigledger.com/guides/advanced/advanced-inventory-manufacturing/><link rel=alternate hreflang=zh href=https://www.bigledger.com/zh/guides/advanced/advanced-inventory-manufacturing/><link rel=alternate hreflang=ms href=https://www.bigledger.com/ms/guides/advanced/advanced-inventory-manufacturing/><link rel=alternate hreflang=ar href=https://www.bigledger.com/ar/guides/advanced/advanced-inventory-manufacturing/><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel=stylesheet><link rel=stylesheet href="https://www.bigledger.com/css/custom.css?v=86d84368a3"><link rel=stylesheet href=https://www.bigledger.com/css/hextra-compiled.min.5d2dbdb70c3803b0d71728ea5cc6030458068b9403f56a32fd63eedcc5ed7bc2.css integrity="sha256-XS29tww4A7DXFyjqXMYDBFgGi5QD9Woy/WPu3MXte8I="><meta property="og:title" content="Inventori & Pembuatan Lanjutan"><meta property="og:description" content="Pengurusan inventori dan proses pembuatan yang kompleks"><meta property="og:type" content="website"><meta property="og:url" content="https://www.bigledger.com/ms/guides/advanced/advanced-inventory-manufacturing/"><meta property="og:image" content="https://www.bigledger.com/images/bigledger-logo.png"><meta property="og:site_name" content="Dokumentasi BigLedger"><meta property="og:locale" content="ms"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Inventori & Pembuatan Lanjutan"><meta name=twitter:description content="Pengurusan inventori dan proses pembuatan yang kompleks"><meta name=twitter:image content="https://www.bigledger.com/images/bigledger-logo.png"></head><body><canvas id=bl-network-bg class=bl-network-bg aria-hidden=true></canvas><header class=bl-header><div class=bl-header-inner><nav class=bl-nav><a href=https://www.bigledger.com/ms/ class=bl-nav-logo aria-label="Dokumentasi BigLedger"><img src=https://www.bigledger.com/images/bigledger-logo-cropped.png alt="Dokumentasi BigLedger" height=36 class=bl-logo-img></a><div class=bl-nav-links><a href=https://www.bigledger.com/ms/about/ class=bl-nav-link>Tentang Kami</a><div class="bl-nav-item bl-has-mega" data-mega=solutions><button type=button class="bl-nav-link bl-nav-link-btn" aria-haspopup=true aria-expanded=false>
+Penyelesaian
+<svg class="bl-nav-caret" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg></button><div class=bl-mega-panel role=menu><div class=bl-mega-inner><div class=bl-mega-col><span class=bl-mega-label>Mengikut Industri</span><ul class=bl-mega-list><li><a href=https://www.bigledger.com/ms/solutions/retail-ecommerce/ class=bl-mega-link>Runcit & E-Dagang</a></li><li><a href=https://www.bigledger.com/ms/solutions/wholesale-distribution/ class=bl-mega-link>Borong & Pengedaran</a></li><li><a href=https://www.bigledger.com/ms/solutions/manufacturing/ class=bl-mega-link>Pembuatan</a></li><li><a href=https://www.bigledger.com/ms/solutions/services-professional/ class=bl-mega-link>Perkhidmatan & Profesional</a></li><li><a href=https://www.bigledger.com/ms/solutions/construction/ class=bl-mega-link>Pembinaan</a></li><li><a href=https://www.bigledger.com/ms/solutions/automotive/ class=bl-mega-link>Automotif</a></li><li><a href=https://www.bigledger.com/ms/solutions/healthcare/ class=bl-mega-link>Penjagaan Kesihatan</a></li><li><a href=https://www.bigledger.com/ms/solutions/it-consumer-electronics/ class=bl-mega-link>IT & Elektronik Pengguna</a></li><li><a href=https://www.bigledger.com/ms/solutions/franchise/ class=bl-mega-link>Francais</a></li><li><a href=https://www.bigledger.com/ms/solutions/drop-shipping/ class=bl-mega-link>Penghantaran Terus</a></li></ul></div><div class=bl-mega-col><span class=bl-mega-label>Mengikut Saiz Perniagaan</span><ul class=bl-mega-list><li><a href=https://www.bigledger.com/ms/solutions/startups/ class=bl-mega-link>Syarikat Pemula</a></li><li><a href=https://www.bigledger.com/ms/solutions/sme/ class=bl-mega-link>PKS</a></li><li><a href=https://www.bigledger.com/ms/solutions/mid-market/ class=bl-mega-link>Pasaran Pertengahan</a></li><li><a href=https://www.bigledger.com/ms/solutions/multi-entity/ class=bl-mega-link>Pelbagai Entiti</a></li><li><a href=https://www.bigledger.com/ms/solutions/enterprise/ class=bl-mega-link>Perusahaan Besar</a></li></ul></div><div class=bl-mega-col><span class=bl-mega-label>Mengikut Peranan</span><ul class=bl-mega-list><li><a href=https://www.bigledger.com/ms/solutions/business-owners/ class=bl-mega-link>Pemilik Perniagaan</a></li><li><a href=https://www.bigledger.com/ms/solutions/finance-teams/ class=bl-mega-link>Pasukan Kewangan</a></li><li><a href=https://www.bigledger.com/ms/solutions/sales-ops/ class=bl-mega-link>Operasi Jualan</a></li><li><a href=https://www.bigledger.com/ms/solutions/hr-teams/ class=bl-mega-link>Pasukan HR</a></li><li><a href=https://www.bigledger.com/ms/developers/ class=bl-mega-link>Pembangun</a></li><li><a href=https://www.bigledger.com/ms/partners/ class=bl-mega-link>Rakan Kongsi</a></li></ul></div><div class=bl-mega-col><span class=bl-mega-label>Pematuhan & Kepercayaan</span><ul class=bl-mega-list><li><a href=https://www.bigledger.com/ms/e-invoice-peppol/ class=bl-mega-link>E-Invois & PEPPOL</a></li><li><a href=https://www.bigledger.com/ms/mdec-e-invoice-promotion/ class=bl-mega-link>Promosi E-Invois MDEC</a></li><li><a href=https://www.bigledger.com/ms/compliance/sst-epf-socso/ class=bl-mega-link>SST, EPF & SOCSO</a></li><li><a href=https://www.bigledger.com/ms/security/ class=bl-mega-link>Keselamatan</a></li></ul></div><div class=bl-mega-col><span class=bl-mega-label>Beralih ke BigLedger</span><ul class=bl-mega-list><li><a href=https://www.bigledger.com/ms/switch/autocount/ class=bl-mega-link>Daripada AutoCount</a></li><li><a href=https://www.bigledger.com/ms/switch/sql-account/ class=bl-mega-link>Daripada SQL Account</a></li><li><a href=https://www.bigledger.com/ms/switch/excel/ class=bl-mega-link>Daripada Excel</a></li><li><a href=https://www.bigledger.com/ms/switch/quickbooks/ class=bl-mega-link>Daripada QuickBooks</a></li><li><a href=https://www.bigledger.com/ms/switch/onboarding/ class=bl-mega-link>Permulaan Penggunaan</a></li></ul></div><div class="bl-mega-col bl-mega-col-wide"><span class=bl-mega-label>Mengikut Fungsi</span><ul class="bl-mega-list bl-mega-list-grid"><li><a href=https://www.bigledger.com/ms/functions/financial-accounting/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 2h9l3 3v15H5z"/><path d="M14 2v3h3M8 10h6M8 13h6M8 16h4"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>Perakaunan kewangan</span>
+<span class=bl-mega-tile-count>25 aplet dalam katalog</span></span></a></li><li><a href=https://www.bigledger.com/ms/functions/e-invoice-peppol/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 2h12v18l-2.5-1.5L12 20l-2.5-1.5L7 20l-2-1.5V2z"/><path d="M8 7h6M8 11h6"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>E-Invois & PEPPOL</span>
+<span class=bl-mega-tile-count>8 aplet dalam katalog</span></span></a></li><li><a href=https://www.bigledger.com/ms/functions/sales-crm/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 4h16l-6 8v6l-4 2v-8L3 4z"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>Jualan & CRM</span>
+<span class=bl-mega-tile-count>3 aplet dalam katalog</span></span></a></li><li><a href=https://www.bigledger.com/ms/functions/point-of-sale/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M11 2h8v8L9 20l-8-8L11 2z"/><circle cx="14.5" cy="6.5" r="1.3"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>Tempat jualan</span>
+<span class=bl-mega-tile-count>6 aplet dalam katalog</span></span></a></li><li><a href=https://www.bigledger.com/ms/functions/e-commerce/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M6 17h10a4 4 0 000-8A6 6 0 004.7 7 4.5 4.5.0 006 17z"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>E-Dagang</span>
+<span class=bl-mega-tile-count>20 aplet dalam katalog</span></span></a></li><li><a href=https://www.bigledger.com/ms/functions/inventory-warehouse/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 9l9-6 9 6v10a1 1 0 01-1 1H3a1 1 0 01-1-1V9z"/><path d="M8 20v-7h6v7"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>Inventori & gudang</span>
+<span class=bl-mega-tile-count>41 aplet dalam katalog</span></span></a></li><li><a href=https://www.bigledger.com/ms/functions/purchasing/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 5h11v10H2zM13 9h4l3 3v3h-7z"/><circle cx="6" cy="17" r="1.6"/><circle cx="17" cy="17" r="1.6"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>Perolehan</span>
+<span class=bl-mega-tile-count>41 aplet dalam katalog</span></span></a></li><li><a href=https://www.bigledger.com/ms/functions/manufacturing/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="3"/><path d="M11 2v3m0 12v3M2 11h3m12 0h3M4.5 4.5l2.1 2.1m8.8 8.8 2.1 2.1m-13 0 2.1-2.1m8.8-8.8 2.1-2.1"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>Pembuatan</span>
+<span class=bl-mega-tile-count>41 aplet dalam katalog</span></span></a></li><li><a href=https://www.bigledger.com/ms/functions/hr-payroll/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="8" cy="7" r="3.2"/><path d="M2 19c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="16.5" cy="8" r="2.6"/><path d="M14.5 13.2c2.5.3 4.5 2.6 4.5 5.8"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>HR & gaji</span></span></a></li><li><a href=https://www.bigledger.com/ms/modules/claims/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 5a1 1 0 011-1h5l2 2h9a1 1 0 011 1v10a1 1 0 01-1 1H3a1 1 0 01-1-1V5z"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>Tuntutan</span></span></a></li><li><a href=https://www.bigledger.com/ms/modules/membership/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M11 2l2.6 5.9 6.4.6-4.8 4.3 1.4 6.3L11 15.9 5.4 19.1l1.4-6.3L2 8.5l6.4-.6L11 2z"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>Keahlian & kesetiaan</span></span></a></li><li><a href=https://www.bigledger.com/ms/functions/projects/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 19V9m8 10V3m8 16v-7"/><path d="M2 19h18"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>Projek</span></span></a></li></ul></div></div><div class=bl-mega-footer><div class=bl-mega-footer-left><a href=https://www.bigledger.com/ms/solutions/ class=bl-mega-overview>Gambaran Keseluruhan Penyelesaian
+<span class=bl-mega-overview-desc>Lihat gambaran penuh — semua industri, modul dan saiz dalam satu peta.</span>
+</a><a href=https://www.bigledger.com/ms/applets/ class=bl-mega-browse-all><span class=bl-mega-browse-all-icon><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M11 2l9 4.5L11 11 2 6.5 11 2z"/><path d="M2 11l9 4.5 9-4.5M2 15.5 11 20l9-4.5"/></svg></span>
+<span class=bl-mega-browse-all-text><span class=bl-mega-browse-all-label>Layari Katalog Penuh</span>
+<span class=bl-mega-browse-all-desc>100+ modul & aplet, semuanya boleh diguna semula merentas sistem anda</span></span></a></div><a href=https://www.bigledger.com/ms/contact/ class="bl-btn-primary bl-mega-cta">Minta Demo</a></div></div></div><a href=https://www.bigledger.com/ms/pricing/ class=bl-nav-link>Harga</a>
+<a href=https://www.bigledger.com/ms/contact/ class=bl-nav-link>Hubungi Kami</a>
+<a href=https://www.bigledger.com/ms/developers/ class=bl-nav-link>Pembangun</a></div><div class=bl-nav-actions><div class=bl-lang-switch data-lang-switch><button type=button class=bl-lang-btn aria-haspopup=true aria-expanded=false>
+<svg class="bl-lang-globe" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="10" cy="10" r="8"/><path d="M2 10h16M10 2c2.2 2.2 3.5 5.2 3.5 8s-1.3 5.8-3.5 8c-2.2-2.2-3.5-5.2-3.5-8S7.8 4.2 10 2z"/></svg>
+<span class=bl-lang-current>MS</span>
+<svg class="bl-nav-caret" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg></button><div class=bl-lang-menu role=menu><a href=https://www.bigledger.com/guides/advanced/advanced-inventory-manufacturing/ data-no-langify class=bl-lang-option>English
+</a><a href=https://www.bigledger.com/zh/guides/advanced/advanced-inventory-manufacturing/ data-no-langify class=bl-lang-option>中文
+</a><a href=https://www.bigledger.com/ms/guides/advanced/advanced-inventory-manufacturing/ data-no-langify class="bl-lang-option active">Bahasa Malaysia
+<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8.5l3 3 7-7"/></svg>
+</a><a href=https://www.bigledger.com/ar/guides/advanced/advanced-inventory-manufacturing/ data-no-langify class=bl-lang-option>العربية</a></div></div><a href=https://www.bigledger.com/ms/contact/ class=bl-btn-nav>Minta Demo</a>
+<button type=button class=bl-nav-burger aria-label="Buka menu" aria-expanded=false>
+<span></span><span></span><span></span></button></div></nav></div><div class=bl-mobile-drawer aria-hidden=true><div class=bl-mobile-drawer-scroll><a href=https://www.bigledger.com/ms/about/ class=bl-mobile-link>Tentang Kami</a><div class=bl-mobile-accordion><button type=button class=bl-mobile-accordion-trigger aria-expanded=false>
+Penyelesaian
+<svg class="bl-nav-caret" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg></button><div class=bl-mobile-accordion-panel><a href=https://www.bigledger.com/ms/solutions/ class=bl-mobile-overview-link>Gambaran Keseluruhan Penyelesaian →</a><div class=bl-mobile-group><span class=bl-mobile-group-label>Mengikut Industri</span>
+<a href=https://www.bigledger.com/ms/solutions/retail-ecommerce/ class=bl-mobile-group-link>Runcit & E-Dagang
+</a><a href=https://www.bigledger.com/ms/solutions/wholesale-distribution/ class=bl-mobile-group-link>Borong & Pengedaran
+</a><a href=https://www.bigledger.com/ms/solutions/manufacturing/ class=bl-mobile-group-link>Pembuatan
+</a><a href=https://www.bigledger.com/ms/solutions/services-professional/ class=bl-mobile-group-link>Perkhidmatan & Profesional
+</a><a href=https://www.bigledger.com/ms/solutions/construction/ class=bl-mobile-group-link>Pembinaan
+</a><a href=https://www.bigledger.com/ms/solutions/automotive/ class=bl-mobile-group-link>Automotif
+</a><a href=https://www.bigledger.com/ms/solutions/healthcare/ class=bl-mobile-group-link>Penjagaan Kesihatan
+</a><a href=https://www.bigledger.com/ms/solutions/it-consumer-electronics/ class=bl-mobile-group-link>IT & Elektronik Pengguna
+</a><a href=https://www.bigledger.com/ms/solutions/franchise/ class=bl-mobile-group-link>Francais
+</a><a href=https://www.bigledger.com/ms/solutions/drop-shipping/ class=bl-mobile-group-link>Penghantaran Terus</a></div><div class=bl-mobile-group><span class=bl-mobile-group-label>Mengikut Saiz Perniagaan</span>
+<a href=https://www.bigledger.com/ms/solutions/startups/ class=bl-mobile-group-link>Syarikat Pemula
+</a><a href=https://www.bigledger.com/ms/solutions/sme/ class=bl-mobile-group-link>PKS
+</a><a href=https://www.bigledger.com/ms/solutions/mid-market/ class=bl-mobile-group-link>Pasaran Pertengahan
+</a><a href=https://www.bigledger.com/ms/solutions/multi-entity/ class=bl-mobile-group-link>Pelbagai Entiti
+</a><a href=https://www.bigledger.com/ms/solutions/enterprise/ class=bl-mobile-group-link>Perusahaan Besar</a></div><div class=bl-mobile-group><span class=bl-mobile-group-label>Mengikut Peranan</span>
+<a href=https://www.bigledger.com/ms/solutions/business-owners/ class=bl-mobile-group-link>Pemilik Perniagaan
+</a><a href=https://www.bigledger.com/ms/solutions/finance-teams/ class=bl-mobile-group-link>Pasukan Kewangan
+</a><a href=https://www.bigledger.com/ms/solutions/sales-ops/ class=bl-mobile-group-link>Operasi Jualan
+</a><a href=https://www.bigledger.com/ms/solutions/hr-teams/ class=bl-mobile-group-link>Pasukan HR
+</a><a href=https://www.bigledger.com/ms/developers/ class=bl-mobile-group-link>Pembangun
+</a><a href=https://www.bigledger.com/ms/partners/ class=bl-mobile-group-link>Rakan Kongsi</a></div><div class=bl-mobile-group><span class=bl-mobile-group-label>Pematuhan & Kepercayaan</span>
+<a href=https://www.bigledger.com/ms/e-invoice-peppol/ class=bl-mobile-group-link>E-Invois & PEPPOL
+</a><a href=https://www.bigledger.com/ms/mdec-e-invoice-promotion/ class=bl-mobile-group-link>Promosi E-Invois MDEC
+</a><a href=https://www.bigledger.com/ms/compliance/sst-epf-socso/ class=bl-mobile-group-link>SST, EPF & SOCSO
+</a><a href=https://www.bigledger.com/ms/security/ class=bl-mobile-group-link>Keselamatan</a></div><div class=bl-mobile-group><span class=bl-mobile-group-label>Beralih ke BigLedger</span>
+<a href=https://www.bigledger.com/ms/switch/autocount/ class=bl-mobile-group-link>Daripada AutoCount
+</a><a href=https://www.bigledger.com/ms/switch/sql-account/ class=bl-mobile-group-link>Daripada SQL Account
+</a><a href=https://www.bigledger.com/ms/switch/excel/ class=bl-mobile-group-link>Daripada Excel
+</a><a href=https://www.bigledger.com/ms/switch/quickbooks/ class=bl-mobile-group-link>Daripada QuickBooks
+</a><a href=https://www.bigledger.com/ms/switch/onboarding/ class=bl-mobile-group-link>Permulaan Penggunaan</a></div><div class=bl-mobile-group><span class=bl-mobile-group-label>Mengikut Fungsi</span>
+<a href=https://www.bigledger.com/ms/functions/financial-accounting/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 2h9l3 3v15H5z"/><path d="M14 2v3h3M8 10h6M8 13h6M8 16h4"/></svg></span>
+Perakaunan kewangan
+</a><a href=https://www.bigledger.com/ms/functions/e-invoice-peppol/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 2h12v18l-2.5-1.5L12 20l-2.5-1.5L7 20l-2-1.5V2z"/><path d="M8 7h6M8 11h6"/></svg></span>
+E-Invois & PEPPOL
+</a><a href=https://www.bigledger.com/ms/functions/sales-crm/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 4h16l-6 8v6l-4 2v-8L3 4z"/></svg></span>
+Jualan & CRM
+</a><a href=https://www.bigledger.com/ms/functions/point-of-sale/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M11 2h8v8L9 20l-8-8L11 2z"/><circle cx="14.5" cy="6.5" r="1.3"/></svg></span>
+Tempat jualan
+</a><a href=https://www.bigledger.com/ms/functions/e-commerce/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M6 17h10a4 4 0 000-8A6 6 0 004.7 7 4.5 4.5.0 006 17z"/></svg></span>
+E-Dagang
+</a><a href=https://www.bigledger.com/ms/functions/inventory-warehouse/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 9l9-6 9 6v10a1 1 0 01-1 1H3a1 1 0 01-1-1V9z"/><path d="M8 20v-7h6v7"/></svg></span>
+Inventori & gudang
+</a><a href=https://www.bigledger.com/ms/functions/purchasing/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 5h11v10H2zM13 9h4l3 3v3h-7z"/><circle cx="6" cy="17" r="1.6"/><circle cx="17" cy="17" r="1.6"/></svg></span>
+Perolehan
+</a><a href=https://www.bigledger.com/ms/functions/manufacturing/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="3"/><path d="M11 2v3m0 12v3M2 11h3m12 0h3M4.5 4.5l2.1 2.1m8.8 8.8 2.1 2.1m-13 0 2.1-2.1m8.8-8.8 2.1-2.1"/></svg></span>
+Pembuatan
+</a><a href=https://www.bigledger.com/ms/functions/hr-payroll/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="8" cy="7" r="3.2"/><path d="M2 19c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="16.5" cy="8" r="2.6"/><path d="M14.5 13.2c2.5.3 4.5 2.6 4.5 5.8"/></svg></span>
+HR & gaji
+</a><a href=https://www.bigledger.com/ms/modules/claims/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 5a1 1 0 011-1h5l2 2h9a1 1 0 011 1v10a1 1 0 01-1 1H3a1 1 0 01-1-1V5z"/></svg></span>
+Tuntutan
+</a><a href=https://www.bigledger.com/ms/modules/membership/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M11 2l2.6 5.9 6.4.6-4.8 4.3 1.4 6.3L11 15.9 5.4 19.1l1.4-6.3L2 8.5l6.4-.6L11 2z"/></svg></span>
+Keahlian & kesetiaan
+</a><a href=https://www.bigledger.com/ms/functions/projects/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 19V9m8 10V3m8 16v-7"/><path d="M2 19h18"/></svg></span>
+Projek</a></div><a href=https://www.bigledger.com/ms/applets/ class=bl-mobile-browse-all><span class=bl-mega-browse-all-icon><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M11 2l9 4.5L11 11 2 6.5 11 2z"/><path d="M2 11l9 4.5 9-4.5M2 15.5 11 20l9-4.5"/></svg></span>
+<span class=bl-mega-browse-all-text><span class=bl-mega-browse-all-label>Layari Katalog Penuh</span>
+<span class=bl-mega-browse-all-desc>100+ modul & aplet, semuanya boleh diguna semula merentas sistem anda</span></span></a></div></div><a href=https://www.bigledger.com/ms/pricing/ class=bl-mobile-link>Harga</a>
+<a href=https://www.bigledger.com/ms/contact/ class=bl-mobile-link>Hubungi Kami</a>
+<a href=https://www.bigledger.com/ms/developers/ class=bl-mobile-link>Pembangun</a>
+<a href=https://www.bigledger.com/ms/contact/ class="bl-btn-primary bl-mobile-cta">Minta Demo</a></div></div><div class=bl-mobile-drawer-backdrop></div></header><main><article class=corporate-page><div class=container><div class="page-content content"><p><em>Tiga dekad melaksanakan sistem pembuatan dan inventori merentasi persekitaran diskret, proses, dan mod campuran. Daripada kedai kerja kecil kepada operasi pembuatan Fortune 500.</em></p><h2>Kandungan<span class="hx:absolute hx:-mt-20" id=kandungan></span>
+<a href=#kandungan class=subheading-anchor aria-label="Permalink for this section"></a></h2><ol><li><a href=#material-requirements-planning-mrp-mastery>Penguasaan Perancangan Keperluan Bahan (MRP)</a></li><li><a href=#bill-of-materials-bom-management-excellence>Kecemerlangan Pengurusan Bil Bahan (BOM)</a></li><li><a href=#production-planning-and-scheduling>Perancangan dan Penjadualan Pengeluaran</a></li><li><a href=#work-in-progress-tracking>Penjejakan Kerja Dalam Proses</a></li><li><a href=#lotserial-number-tracking-for-compliance>Penjejakan Nombor Lot/Siri untuk Pematuhan</a></li><li><a href=#inventory-valuation-methods-deep-dive>Penerokaan Mendalam Kaedah Penilaian Inventori</a></li><li><a href=#cycle-counting-and-physical-inventory-excellence>Kecemerlangan Kiraan Kitaran dan Inventori Fizikal</a></li></ol><hr><h2>Penguasaan Perancangan Keperluan Bahan (MRP)<span class="hx:absolute hx:-mt-20" id=penguasaan-perancangan-keperluan-bahan-mrp></span>
+<a href=#penguasaan-perancangan-keperluan-bahan-mrp class=subheading-anchor aria-label="Permalink for this section"></a></h2><p>Setelah melaksanakan sistem MRP daripada zaman awal MRP I hingga sistem MRP II dan ERP lanjutan hari ini, saya telah belajar bahawa MRP yang berjaya ialah 20% konfigurasi perisian dan 80% ketepatan data dan disiplin.</p><h3>Persediaan Asas MRP<span class="hx:absolute hx:-mt-20" id=persediaan-asas-mrp></span>
+<a href=#persediaan-asas-mrp class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Konfigurasi Jadual Pengeluaran Induk (MPS)</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>MPS Parameters in BigLedger</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Planning Horizon</span>: <span style=color:#ae81ff>52</span> <span style=color:#ae81ff>weeks</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Frozen Period</span>: <span style=color:#ae81ff>4</span> <span style=color:#ae81ff>weeks (no changes allowed)</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Firm Period</span>: <span style=color:#ae81ff>8</span> <span style=color:#ae81ff>weeks (changes require approval)</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Planning Period</span>: <span style=color:#ae81ff>12</span> <span style=color:#ae81ff>weeks (flexible planning)</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Time Buckets</span>:
+</span></span><span style=display:flex><span>- <span style=color:#f92672>Weeks 1-4</span>: <span style=color:#ae81ff>Daily buckets</span>
+</span></span><span style=display:flex><span>- <span style=color:#f92672>Weeks 5-12</span>: <span style=color:#ae81ff>Weekly buckets  </span>
+</span></span><span style=display:flex><span>- <span style=color:#f92672>Weeks 13-52</span>: <span style=color:#ae81ff>Monthly buckets</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>Logik Pengiraan MRP</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Net Requirements = Gross Requirements - On Hand - Scheduled Receipts &#43; Safety Stock
+
+Example Product A:
+Gross Requirements (Week 5): 1,000 units
+On Hand Inventory: 150 units
+Scheduled Receipts: 300 units (Week 3)
+Safety Stock: 100 units
+
+Net Requirements = 1,000 - 150 - 300 &#43; 100 = 650 units</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Parameter MRP Lanjutan<span class="hx:absolute hx:-mt-20" id=parameter-mrp-lanjutan></span>
+<a href=#parameter-mrp-lanjutan class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Pengurusan Masa Petunjuk</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Lead Time Components</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Manufacturing Lead Time</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Queue Time</span>: <span style=color:#ae81ff>2</span> <span style=color:#ae81ff>days (waiting for production)</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Setup Time</span>: <span style=color:#ae81ff>0.5</span> <span style=color:#ae81ff>days (machine setup)</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Run Time</span>: <span style=color:#ae81ff>3</span> <span style=color:#ae81ff>days (actual production)</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Wait Time</span>: <span style=color:#ae81ff>1</span> <span style=color:#ae81ff>day (cooling/drying)</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Move Time</span>: <span style=color:#ae81ff>0.5</span> <span style=color:#ae81ff>days (transportation)</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Total</span>: <span style=color:#ae81ff>7</span> <span style=color:#ae81ff>days</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Purchase Lead Time</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Processing Time</span>: <span style=color:#ae81ff>1</span> <span style=color:#ae81ff>day (PO creation/approval)</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Vendor Lead Time</span>: <span style=color:#ae81ff>14</span> <span style=color:#ae81ff>days (supplier delivery)</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Receiving Time</span>: <span style=color:#ae81ff>1</span> <span style=color:#ae81ff>day (inspection/put-away)</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Total</span>: <span style=color:#ae81ff>16</span> <span style=color:#ae81ff>days</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>Pengiraan Stok Keselamatan</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Statistical Safety Stock Formula:
+SS = Z × σ × √LT
+
+Where:
+Z = Service level factor (95% = 1.645)
+σ = Standard deviation of demand
+LT = Lead time in periods
+
+Example:
+Service Level: 95% (Z = 1.645)
+Demand Std Dev: 50 units/week
+Lead Time: 3 weeks
+
+Safety Stock = 1.645 × 50 × √3 = 142 units</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Mesej Tindakan MRP<span class="hx:absolute hx:-mt-20" id=mesej-tindakan-mrp></span>
+<a href=#mesej-tindakan-mrp class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Jenis Mesej Tindakan Kritikal</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Action Messages in BigLedger:
+1. &#34;Expedite&#34; - Move in planned order receipt
+2. &#34;De-expedite&#34; - Move out planned order receipt
+3. &#34;Increase Qty&#34; - Increase planned order quantity
+4. &#34;Decrease Qty&#34; - Decrease planned order quantity
+5. &#34;Cancel&#34; - Cancel planned order
+6. &#34;Release&#34; - Convert planned order to firm order</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>Aliran Kerja Pemprosesan Mesej Tindakan</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Daily MRP Review Process:
+1. Run MRP regeneration (overnight batch)
+2. Generate exception reports
+3. Review action messages by planner
+4. Validate capacity constraints
+5. Process high-priority actions first
+6. Update planning parameters if needed
+7. Communicate changes to production</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Letupan BOM Berbilang Peringkat<span class="hx:absolute hx:-mt-20" id=letupan-bom-berbilang-peringkat></span>
+<a href=#letupan-bom-berbilang-peringkat class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Contoh Letupan BOM</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Product: Bicycle (End Item)
+Level 0: Bicycle (1 each)
+├── Level 1: Frame Assembly (1 each)
+│   ├── Level 2: Frame Tubing (1 each)
+│   ├── Level 2: Welding Materials (0.5 kg)
+│   └── Level 2: Paint (0.2 liters)
+├── Level 1: Wheel Assembly (2 each)
+│   ├── Level 2: Rim (1 each)
+│   ├── Level 2: Spokes (36 each)
+│   ├── Level 2: Hub (1 each)
+│   └── Level 2: Tire (1 each)
+└── Level 1: Component Kit (1 each)
+    ├── Level 2: Chain (1 each)
+    ├── Level 2: Gears (21 each)
+    └── Level 2: Brake Assembly (2 each)
+
+MRP Explosion Calculation:
+If planning 100 bicycles:
+- Frame Tubing: 100 × 1 = 100 each
+- Spokes: 100 × 2 × 36 = 7,200 each
+- Gears: 100 × 1 × 21 = 2,100 each</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Perancangan Keperluan Kapasiti (CRP)<span class="hx:absolute hx:-mt-20" id=perancangan-keperluan-kapasiti-crp></span>
+<a href=#perancangan-keperluan-kapasiti-crp class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Takrifan Kapasiti Pusat Kerja</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Work Center</span>: <span style=color:#ae81ff>CNC Machine Center</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Available Capacity</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Shifts</span>: <span style=color:#ae81ff>2</span> <span style=color:#ae81ff>shifts/day</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Hours per Shift</span>: <span style=color:#ae81ff>8</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Days per Week</span>: <span style=color:#ae81ff>5</span> <span style=color:#ae81ff>days</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Efficiency</span>: <span style=color:#ae81ff>85</span><span style=color:#ae81ff>%</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Utilization</span>: <span style=color:#ae81ff>90</span><span style=color:#ae81ff>%</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Theoretical Capacity</span>: <span style=color:#ae81ff>2</span> <span style=color:#ae81ff>× 8 × 5 = 80 hours/week</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Available Capacity</span>: <span style=color:#ae81ff>80</span> <span style=color:#ae81ff>× 0.85 × 0.90 = 61.2 hours/week</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>Pengiraan Beban Kapasiti</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Load Calculation Example:
+Work Order WO-001:
+- Quantity: 500 units
+- Setup Time: 2 hours
+- Run Time: 0.5 hours/unit
+- Total Load: 2 &#43; (500 × 0.5) = 252 hours
+
+Weekly Capacity Planning:
+Week 15: Available 61.2 hours, Loaded 58.5 hours ✓ OK
+Week 16: Available 61.2 hours, Loaded 75.2 hours ✗ Overload
+Week 17: Available 61.2 hours, Loaded 45.3 hours ✓ OK</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><hr><h2>Kecemerlangan Pengurusan Bil Bahan (BOM)<span class="hx:absolute hx:-mt-20" id=kecemerlangan-pengurusan-bil-bahan-bom></span>
+<a href=#kecemerlangan-pengurusan-bil-bahan-bom class=subheading-anchor aria-label="Permalink for this section"></a></h2><p>Ketepatan BOM ialah asas kejayaan pembuatan. Dalam pengalaman saya, syarikat dengan ketepatan BOM di bawah 95% bergelut dengan kekurangan bahan, inventori berlebihan, dan kelewatan pengeluaran.</p><h3>Reka Bentuk Struktur BOM<span class="hx:absolute hx:-mt-20" id=reka-bentuk-struktur-bom></span>
+<a href=#reka-bentuk-struktur-bom class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Hierarki BOM Berbilang Peringkat</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>BOM Structure Types:
+1. Manufacturing BOM (M-BOM)
+   - Used for production planning
+   - Includes manufacturing steps
+   - Reflects assembly sequence
+
+2. Engineering BOM (E-BOM)
+   - Design-centric view
+   - Component specifications
+   - Engineering change control
+
+3. Service BOM (S-BOM)
+   - Field service parts
+   - Replacement components
+   - Maintenance items</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>BOM Fantom lawan Biasa</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Regular BOM - Wheel Assembly</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Item</span>: <span style=color:#ae81ff>WHEEL-001</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Make/Buy</span>: <span style=color:#ae81ff>Make</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Lead Time</span>: <span style=color:#ae81ff>3</span> <span style=color:#ae81ff>days</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Components</span>:
+</span></span><span style=display:flex><span>    - <span style=color:#f92672>Rim</span>: <span style=color:#ae81ff>1</span> <span style=color:#ae81ff>each</span>
+</span></span><span style=display:flex><span>    - <span style=color:#f92672>Spokes</span>: <span style=color:#ae81ff>36</span> <span style=color:#ae81ff>each</span>
+</span></span><span style=display:flex><span>    - <span style=color:#f92672>Hub</span>: <span style=color:#ae81ff>1</span> <span style=color:#ae81ff>each</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Phantom BOM - Paint Kit</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Item</span>: <span style=color:#ae81ff>PAINT-KIT (Phantom)</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Make/Buy</span>: <span style=color:#ae81ff>Phantom</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Lead Time</span>: <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>days</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Components</span>:
+</span></span><span style=display:flex><span>    - <span style=color:#f92672>Base Paint</span>: <span style=color:#ae81ff>0.8</span> <span style=color:#ae81ff>liters</span>
+</span></span><span style=display:flex><span>    - <span style=color:#f92672>Hardener</span>: <span style=color:#ae81ff>0.2</span> <span style=color:#ae81ff>liters</span>
+</span></span><span style=display:flex><span>    - <span style=color:#f92672>Thinner</span>: <span style=color:#ae81ff>0.1</span> <span style=color:#ae81ff>liters</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Pemversian BOM dan Kawalan Perubahan<span class="hx:absolute hx:-mt-20" id=pemversian-bom-dan-kawalan-perubahan></span>
+<a href=#pemversian-bom-dan-kawalan-perubahan class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Proses Pesanan Perubahan Kejuruteraan (ECO)</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>ECO Workflow:
+1. Change Request Initiated
+   - Requestor: Engineering/Quality/Production
+   - Reason: Design improvement/Cost reduction/Regulatory
+   - Impact Analysis: Cost/Schedule/Quality
+
+2. Change Evaluation
+   - Technical review
+   - Cost analysis
+   - Implementation timing
+   - Obsolete inventory handling
+
+3. Approval Process
+   - Engineering approval
+   - Manufacturing approval
+   - Quality approval
+   - Customer approval (if required)
+
+4. Implementation
+   - BOM version update
+   - Effectivity date setting
+   - Training execution
+   - System updates</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>Pengurusan Keberkesanan BOM</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>BOM Version Control Example:
+Product: Widget A
+Current Version: Rev C (Effective: 01-Jan-2024)
+Previous Version: Rev B (Effective: 01-Jun-2023 to 31-Dec-2023)
+
+Revision Changes:
+Rev B to Rev C:
+- Component X123: Removed
+- Component Y456: Added (Replacement for X123)
+- Component Z789: Quantity changed from 2 to 3
+- Labor Operation 30: Time reduced from 15 to 12 minutes</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Komponen Alternatif dan Penggantian<span class="hx:absolute hx:-mt-20" id=komponen-alternatif-dan-penggantian></span>
+<a href=#komponen-alternatif-dan-penggantian class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Persediaan Komponen Pengganti</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Primary Component</span>: <span style=color:#ae81ff>Screw-A-001</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Alternatives</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Substitute 1</span>:
+</span></span><span style=display:flex><span>      <span style=color:#f92672>Item</span>: <span style=color:#ae81ff>Screw-B-002</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>Substitution Ratio</span>: <span style=color:#ae81ff>1</span>:<span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>Priority</span>: <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>Effectivity</span>: <span style=color:#ae81ff>Always</span>
+</span></span><span style=display:flex><span>  
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Substitute 2</span>:
+</span></span><span style=display:flex><span>      <span style=color:#f92672>Item</span>: <span style=color:#ae81ff>Screw-C-003</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>Substitution Ratio</span>: <span style=color:#ae81ff>1</span>:<span style=color:#ae81ff>2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>Priority</span>: <span style=color:#ae81ff>2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>Effectivity</span>: <span style=color:#ae81ff>When Primary unavailable</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Automatic Substitution Rules</span>:
+</span></span><span style=display:flex><span>- <span style=color:#ae81ff>Use primary component if available</span>
+</span></span><span style=display:flex><span>- <span style=color:#ae81ff>If primary &lt; safety stock, check substitute 1</span>
+</span></span><span style=display:flex><span>- <span style=color:#ae81ff>If substitute 1 unavailable, use substitute 2</span>
+</span></span><span style=display:flex><span>- <span style=color:#ae81ff>Alert planner of substitution</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Produk Bersama dan Produk Sampingan<span class="hx:absolute hx:-mt-20" id=produk-bersama-dan-produk-sampingan></span>
+<a href=#produk-bersama-dan-produk-sampingan class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Contoh BOM Pembuatan Proses</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Process</span>: <span style=color:#ae81ff>Chemical Reaction A</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Input Materials</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Chemical A</span>: <span style=color:#ae81ff>100</span> <span style=color:#ae81ff>kg</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Chemical B</span>: <span style=color:#ae81ff>50</span> <span style=color:#ae81ff>kg</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Catalyst</span>: <span style=color:#ae81ff>2</span> <span style=color:#ae81ff>kg</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Output Products</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Main Product</span>: <span style=color:#ae81ff>120</span> <span style=color:#ae81ff>kg (80% yield)</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Co-Product</span>: <span style=color:#ae81ff>25</span> <span style=color:#ae81ff>kg (valuable secondary product)</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>By-Product</span>: <span style=color:#ae81ff>5</span> <span style=color:#ae81ff>kg (minimal value)</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Waste</span>: <span style=color:#ae81ff>2</span> <span style=color:#ae81ff>kg (disposal cost)</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Cost Allocation</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Main Product</span>: <span style=color:#ae81ff>75</span><span style=color:#ae81ff>% of total cost</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Co-Product</span>: <span style=color:#ae81ff>20</span><span style=color:#ae81ff>% of total cost</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>By-Product</span>: <span style=color:#ae81ff>3</span><span style=color:#ae81ff>% of total cost</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Waste</span>: <span style=color:#ae81ff>2</span><span style=color:#ae81ff>% of total cost</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Pengkosan dan Analisis BOM<span class="hx:absolute hx:-mt-20" id=pengkosan-dan-analisis-bom></span>
+<a href=#pengkosan-dan-analisis-bom class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Pengiraan Gulungan Kos</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>BOM Cost Analysis - Assembly A:
+Material Costs:
+  Component 1: MYR 25.00
+  Component 2: MYR 15.50
+  Component 3: MYR 8.75
+  Total Material: MYR 49.25
+
+Labor Costs:
+  Operation 10: 0.5 hours × MYR 30/hour = MYR 15.00
+  Operation 20: 0.3 hours × MYR 25/hour = MYR 7.50
+  Total Labor: MYR 22.50
+
+Overhead Costs:
+  Variable Overhead: 1.5 hours × MYR 20/hour = MYR 30.00
+  Fixed Overhead: 1.5 hours × MYR 15/hour = MYR 22.50
+  Total Overhead: MYR 52.50
+
+Total Standard Cost: MYR 124.25</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><hr><h2>Perancangan dan Penjadualan Pengeluaran<span class="hx:absolute hx:-mt-20" id=perancangan-dan-penjadualan-pengeluaran></span>
+<a href=#perancangan-dan-penjadualan-pengeluaran class=subheading-anchor aria-label="Permalink for this section"></a></h2><p>Perancangan pengeluaran yang berkesan mengimbangi permintaan pelanggan dengan kapasiti pembuatan sambil meminimumkan kos dan memaksimumkan kecekapan.</p><h3>Jadual Pengeluaran Induk (MPS)<span class="hx:absolute hx:-mt-20" id=jadual-pengeluaran-induk-mps></span>
+<a href=#jadual-pengeluaran-induk-mps class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Proses Perancangan MPS</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>MPS Development Steps:
+1. Demand Aggregation
+   - Sales forecasts
+   - Customer orders
+   - Service parts demand
+   - Inter-plant transfers
+
+2. Resource Validation
+   - Capacity constraints
+   - Material availability
+   - Tooling requirements
+   - Skilled labor availability
+
+3. Schedule Optimization
+   - Lot sizing optimization
+   - Setup minimization
+   - Capacity utilization
+   - Due date performance</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>Contoh Jadual MPS</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Master Production Schedule - Product Family A
+Week:     1    2    3    4    5    6    7    8
+Forecast: 100  120  110  130  125  140  135  150
+Orders:   95   85   65   45   25   10   5    0
+MPS:      100  120  110  130  125  140  135  150
+
+Available to Promise (ATP):
+Week 1: 100 - 95 = 5 units
+Week 2: 120 - 85 = 35 units
+Week 3: 110 - 65 = 45 units</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Penjadualan Kapasiti Terhingga lawan Tak Terhingga<span class="hx:absolute hx:-mt-20" id=penjadualan-kapasiti-terhingga-lawan-tak-terhingga></span>
+<a href=#penjadualan-kapasiti-terhingga-lawan-tak-terhingga class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Penjadualan Kapasiti Tak Terhingga</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Characteristics:
+- Assumes unlimited capacity
+- Schedules based on lead times
+- Identifies capacity overloads
+- Requires manual capacity adjustment
+
+Example Output:
+Work Center A (Week 5):
+Required Hours: 120
+Available Hours: 80
+Overload: 40 hours (50% over capacity)</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>Penjadualan Kapasiti Terhingga</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Characteristics:
+- Considers actual capacity constraints
+- Automatically reschedules when overloaded
+- Provides realistic completion dates
+- Optimizes resource utilization
+
+Scheduling Logic:
+1. Sort orders by priority
+2. Schedule highest priority first
+3. Check capacity availability
+4. If capacity available, schedule
+5. If not available, move to next period
+6. Continue until all orders scheduled</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Teknik Penjadualan Lanjutan<span class="hx:absolute hx:-mt-20" id=teknik-penjadualan-lanjutan></span>
+<a href=#teknik-penjadualan-lanjutan class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Penjadualan Teori Kekangan (TOC)</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>TOC Implementation Steps:
+1. Identify the Constraint (Bottleneck)
+   - Work center with highest utilization
+   - Resource limiting overall throughput
+
+2. Exploit the Constraint
+   - Maximize constraint utilization
+   - Minimize setup time on constraint
+   - Ensure constraint never starved
+
+3. Subordinate Everything Else
+   - Non-constraints support the constraint
+   - Buffer before constraint
+   - Manage flow to constraint
+
+4. Elevate the Constraint
+   - Add capacity to constraint
+   - Improve constraint efficiency
+   - Offload work from constraint
+
+Example:
+Constraint: Heat Treatment (40 hours/week capacity)
+Non-Constraint: Machining (80 hours/week capacity)
+
+Schedule machining to always feed heat treatment
+Maintain 2-day buffer before heat treatment
+Never let heat treatment sit idle</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Pengeluaran Kempen dan Kelompok<span class="hx:absolute hx:-mt-20" id=pengeluaran-kempen-dan-kelompok></span>
+<a href=#pengeluaran-kempen-dan-kelompok class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Perancangan Kempen untuk Industri Proses</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Campaign Schedule - Chemical Plant</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Product A Campaign</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Duration</span>: <span style=color:#ae81ff>2</span> <span style=color:#ae81ff>weeks</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Batch Size</span>: <span style=color:#ae81ff>5</span>,<span style=color:#ae81ff>000</span> <span style=color:#ae81ff>kg</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Batches</span>: <span style=color:#ae81ff>4</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Setup Time</span>: <span style=color:#ae81ff>8</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Cleaning Time</span>: <span style=color:#ae81ff>16</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Product B Campaign</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Duration</span>: <span style=color:#ae81ff>1</span> <span style=color:#ae81ff>week</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Batch Size</span>: <span style=color:#ae81ff>3</span>,<span style=color:#ae81ff>000</span> <span style=color:#ae81ff>kg</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Batches</span>: <span style=color:#ae81ff>3</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Setup Time</span>: <span style=color:#ae81ff>4</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Cleaning Time</span>: <span style=color:#ae81ff>12</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Campaign Sequence Optimization</span>:
+</span></span><span style=display:flex><span><span style=color:#ae81ff>1</span><span style=color:#ae81ff>. Minimize changeover times</span>
+</span></span><span style=display:flex><span><span style=color:#ae81ff>2</span><span style=color:#ae81ff>. Group similar products</span>
+</span></span><span style=display:flex><span><span style=color:#ae81ff>3</span><span style=color:#ae81ff>. Consider shelf life constraints</span>
+</span></span><span style=display:flex><span><span style=color:#ae81ff>4</span><span style=color:#ae81ff>. Balance inventory levels</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Pengoptimuman Penjadualan Pengeluaran<span class="hx:absolute hx:-mt-20" id=pengoptimuman-penjadualan-pengeluaran></span>
+<a href=#pengoptimuman-penjadualan-pengeluaran class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Algoritma Genetik untuk Penjadualan Kedai Kerja</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Optimization Parameters:
+Objectives:
+  1. Minimize total completion time (makespan)
+  2. Minimize total tardiness
+  3. Maximize resource utilization
+  4. Minimize work-in-process inventory
+
+Constraints:
+  1. Precedence constraints (operation sequence)
+  2. Resource capacity constraints
+  3. Due date constraints
+  4. Material availability constraints
+
+Example Results:
+Original Schedule: 15 days completion
+Optimized Schedule: 12 days completion
+Improvement: 20% reduction in makespan</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><hr><h2>Penjejakan Kerja Dalam Proses<span class="hx:absolute hx:-mt-20" id=penjejakan-kerja-dalam-proses></span>
+<a href=#penjejakan-kerja-dalam-proses class=subheading-anchor aria-label="Permalink for this section"></a></h2><p>Penjejakan WIP yang tepat adalah penting untuk kawalan kos, perancangan kapasiti, dan janji penghantaran pelanggan.</p><h3>Kaedah Penilaian WIP<span class="hx:absolute hx:-mt-20" id=kaedah-penilaian-wip></span>
+<a href=#kaedah-penilaian-wip class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Penilaian WIP Pengkosan Piawai</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Work Order: WO-2024-001
+Product: Assembly X
+Quantity: 100 units
+
+Standard Costs:
+Material: MYR 50/unit
+Labor: MYR 30/unit
+Overhead: MYR 40/unit
+Total Standard: MYR 120/unit
+
+WIP Calculation by Operation:
+Operation 10 (50% complete): MYR 25/unit
+Operation 20 (100% complete): MYR 30/unit
+Operation 30 (75% complete): MYR 30/unit
+Operation 40 (0% complete): MYR 0/unit
+Total WIP Value: MYR 85/unit × 100 units = MYR 8,500</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>Penilaian WIP Pengkosan Sebenar</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Actual Costs Incurred:
+Materials Issued: MYR 5,200
+Labor Hours: 80 hours × MYR 32/hour = MYR 2,560
+Overhead Applied: 80 hours × MYR 38/hour = MYR 3,040
+Total Actual WIP: MYR 10,800
+
+Completion Percentage: 70%
+Expected Total Cost: MYR 10,800 ÷ 0.70 = MYR 15,429
+Variance from Standard: MYR 15,429 - MYR 12,000 = MYR 3,429 unfavorable</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Penjejakan Peringkat Operasi<span class="hx:absolute hx:-mt-20" id=penjejakan-peringkat-operasi></span>
+<a href=#penjejakan-peringkat-operasi class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Persediaan Penghalaan dan Operasi</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Product</span>: <span style=color:#ae81ff>Widget A</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Routing</span>: <span style=color:#ae81ff>RT-001</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Operations</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>010 - Cut Raw Material</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Work Center</span>: <span style=color:#ae81ff>Cutting Center</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Setup Time</span>: <span style=color:#ae81ff>30</span> <span style=color:#ae81ff>minutes</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Run Time</span>: <span style=color:#ae81ff>2.5</span> <span style=color:#ae81ff>minutes/unit</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Queue Time</span>: <span style=color:#ae81ff>8</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Move Time</span>: <span style=color:#ae81ff>0.5</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>020 - Machine Parts</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Work Center</span>: <span style=color:#ae81ff>CNC Center</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Setup Time</span>: <span style=color:#ae81ff>45</span> <span style=color:#ae81ff>minutes</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Run Time</span>: <span style=color:#ae81ff>8.0</span> <span style=color:#ae81ff>minutes/unit</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Queue Time</span>: <span style=color:#ae81ff>16</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Move Time</span>: <span style=color:#ae81ff>1.0</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>030 - Assembly</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Work Center</span>: <span style=color:#ae81ff>Assembly Line</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Setup Time</span>: <span style=color:#ae81ff>15</span> <span style=color:#ae81ff>minutes</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Run Time</span>: <span style=color:#ae81ff>12.0</span> <span style=color:#ae81ff>minutes/unit</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Queue Time</span>: <span style=color:#ae81ff>4</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Move Time</span>: <span style=color:#ae81ff>0.5</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>040 - Test &amp; Pack</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Work Center</span>: <span style=color:#ae81ff>Test Center</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Setup Time</span>: <span style=color:#ae81ff>10</span> <span style=color:#ae81ff>minutes</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Run Time</span>: <span style=color:#ae81ff>5.0</span> <span style=color:#ae81ff>minutes/unit</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Queue Time</span>: <span style=color:#ae81ff>2</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Move Time</span>: <span style=color:#ae81ff>0.5</span> <span style=color:#ae81ff>hours</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Pengumpulan Data Lantai Kedai<span class="hx:absolute hx:-mt-20" id=pengumpulan-data-lantai-kedai></span>
+<a href=#pengumpulan-data-lantai-kedai class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Kaedah Pengumpulan Data Masa Nyata</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Data Collection Technologies:
+1. Barcode Scanning
+   - Employee badges
+   - Work order numbers
+   - Operation codes
+   - Quantity reporting
+
+2. RFID Technology
+   - Automatic identification
+   - Location tracking
+   - Batch/lot tracking
+   - Temperature monitoring
+
+3. Mobile Devices
+   - Touch screen interfaces
+   - Voice recognition
+   - Digital forms
+   - Photo capture
+
+4. Machine Integration
+   - PLC connections
+   - Sensor data
+   - Automatic counts
+   - Quality metrics</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>Jenis Transaksi Lantai Kedai</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Transaction Categories</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Labor Transactions</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Clock In/Out</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Operation Start/Complete</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Quantity Reporting</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Scrap Reporting</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Rework Reporting</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Material Transactions</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Component Issue</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Component Return</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Lot/Serial Consumption</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Scrap Material</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Additional Material</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Quality Transactions</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Inspection Results</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Non-conformance Reports</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Rework Instructions</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Quality Hold</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Quality Release</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Pergerakan WIP dan Penjejakan Status<span class="hx:absolute hx:-mt-20" id=pergerakan-wip-dan-penjejakan-status></span>
+<a href=#pergerakan-wip-dan-penjejakan-status class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Perkembangan Status Pesanan Kerja</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Work Order Lifecycle:
+1. Created → Planned quantities and dates
+2. Released → Materials allocated, ready to start
+3. In Process → Production started
+4. On Hold → Temporary stop (quality, material, etc.)
+5. Completed → All operations finished
+6. Closed → Financial and inventory transactions complete
+
+Status Change Triggers:
+Created → Released: Material availability confirmed
+Released → In Process: First operation started
+In Process → On Hold: Quality issue identified
+On Hold → In Process: Issue resolved
+In Process → Completed: Final operation finished
+Completed → Closed: Month-end closing process</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Analisis Varians WIP<span class="hx:absolute hx:-mt-20" id=analisis-varians-wip></span>
+<a href=#analisis-varians-wip class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Analisis Piawai lawan Sebenar</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Work Order Variance Report - WO-2024-001:
+
+Material Variances:
+Standard Material Cost: MYR 5,000
+Actual Material Cost: MYR 5,200
+Material Price Variance: MYR 150 unfavorable
+Material Usage Variance: MYR 50 unfavorable
+Total Material Variance: MYR 200 unfavorable
+
+Labor Variances:
+Standard Labor Cost: MYR 3,000
+Actual Labor Cost: MYR 3,200
+Labor Rate Variance: MYR 100 unfavorable
+Labor Efficiency Variance: MYR 100 unfavorable
+Total Labor Variance: MYR 200 unfavorable
+
+Overhead Variances:
+Standard Overhead: MYR 4,000
+Actual Overhead: MYR 4,100
+Overhead Spending Variance: MYR 100 unfavorable
+Total Overhead Variance: MYR 100 unfavorable
+
+Total Work Order Variance: MYR 500 unfavorable</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><hr><h2>Penjejakan Nombor Lot/Siri untuk Pematuhan<span class="hx:absolute hx:-mt-20" id=penjejakan-nombor-lotsiri-untuk-pematuhan></span>
+<a href=#penjejakan-nombor-lotsiri-untuk-pematuhan class=subheading-anchor aria-label="Permalink for this section"></a></h2><p>Kritikal untuk industri terkawal seperti farmaseutikal, makanan, automotif, dan aeroangkasa.</p><h3>Pelaksanaan Kawalan Lot<span class="hx:absolute hx:-mt-20" id=pelaksanaan-kawalan-lot></span>
+<a href=#pelaksanaan-kawalan-lot class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Struktur Data Induk Lot</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Lot Number</span>: <span style=color:#ae81ff>L2024-001-A</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Product</span>: <span style=color:#ae81ff>Raw Material X</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Supplier</span>: <span style=color:#ae81ff>ABC Chemicals</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Receipt Date</span>: <span style=color:#e6db74>2024-01-15</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Expiry Date</span>: <span style=color:#e6db74>2024-07-15</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Status</span>: <span style=color:#ae81ff>Active</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Quality Attributes</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Purity</span>: <span style=color:#ae81ff>99.5</span><span style=color:#ae81ff>%</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Moisture Content</span>: <span style=color:#ae81ff>0.2</span><span style=color:#ae81ff>%</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>pH Level</span>: <span style=color:#ae81ff>7.2</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Test Date</span>: <span style=color:#e6db74>2024-01-16</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Certificate Number</span>: <span style=color:#ae81ff>QC-2024-0156</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Traceability Links</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Supplier Lot</span>: <span style=color:#ae81ff>SC-789456</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Production Lots</span>: [<span style=color:#ae81ff>P2024-025, P2024-026, P2024-027]</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Customer Shipments</span>: [<span style=color:#ae81ff>SH-001234, SH-001235]</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>Penjejakan Penggunaan Lot</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Production Lot Consumption:
+Work Order: WO-2024-100
+Product: Finished Good A
+Quantity: 1,000 units
+
+Input Lots:
+  Raw Material X:
+    Lot L2024-001-A: 250 kg (consumed)
+    Lot L2024-002-B: 150 kg (consumed)
+  
+  Raw Material Y:
+    Lot L2024-010-C: 100 kg (consumed)
+
+Output Lot:
+  Finished Good A:
+    Lot FG-2024-050: 1,000 units (produced)
+    
+Genealogy Established:
+FG-2024-050 ← L2024-001-A, L2024-002-B, L2024-010-C</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Pelaksanaan Nombor Siri<span class="hx:absolute hx:-mt-20" id=pelaksanaan-nombor-siri></span>
+<a href=#pelaksanaan-nombor-siri class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Reka Bentuk Struktur Nombor Siri</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Serial Number Format: PPPP-YYYY-NNNNN-CC
+Where:
+PPPP = Product Code (4 characters)
+YYYY = Year of manufacture
+NNNNN = Sequential number (5 digits)
+CC = Check digits (mod 97)
+
+Example: PUMP-2024-00001-23
+
+Serial Number Generation Rules:
+1. Unique across all products and time
+2. Meaningful to manufacturing and service
+3. Includes check digits for validation
+4. Barcode/QR code compatible
+5. Customer requirements compliant</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>Penjejakan Kitaran Hayat Nombor Siri</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Serial Number</span>: <span style=color:#ae81ff>PUMP-2024-00001-23</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Product</span>: <span style=color:#ae81ff>Industrial Pump Model X</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Manufacturing History</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Work Order</span>: <span style=color:#ae81ff>WO-2024-500</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Production Date</span>: <span style=color:#e6db74>2024-03-15</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Work Center</span>: <span style=color:#ae81ff>Final Assembly</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Operator</span>: <span style=color:#ae81ff>John Smith</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Quality Inspector</span>: <span style=color:#ae81ff>Mary Johnson</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Test Results</span>: <span style=color:#ae81ff>PASS</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Component Serial Numbers</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Motor</span>: <span style=color:#ae81ff>MOT-2024-01234-56</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Impeller</span>: <span style=color:#ae81ff>IMP-2024-05678-90</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Casing</span>: <span style=color:#ae81ff>CAS-2024-09876-54</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Field Service History</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Installation Date</span>: <span style=color:#e6db74>2024-04-20</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Customer</span>: <span style=color:#ae81ff>XYZ Manufacturing</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Location</span>: <span style=color:#ae81ff>Plant A, Building 2</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Service Records</span>: [<span style=color:#ae81ff>SR-001, SR-002, SR-003]</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Warranty Status</span>: <span style=color:#ae81ff>Active until 2026-04-20</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Proses Pengurusan Penarikan Balik<span class="hx:absolute hx:-mt-20" id=proses-pengurusan-penarikan-balik></span>
+<a href=#proses-pengurusan-penarikan-balik class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Pelaksanaan Prosedur Penarikan Balik</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Recall Process Steps:
+1. Recall Initiation
+   - Identify affected lot/serial numbers
+   - Determine recall scope
+   - Assess risk level
+   - Form recall team
+
+2. Traceability Analysis
+   - Forward traceability (where did it go?)
+   - Backward traceability (where did it come from?)
+   - Generate affected item list
+   - Identify customer locations
+
+3. Customer Notification
+   - Prepare recall notice
+   - Contact affected customers
+   - Provide return instructions
+   - Track acknowledgments
+
+4. Product Recovery
+   - Coordinate returns
+   - Track return quantities
+   - Quarantine returned products
+   - Verify recall effectiveness
+
+5. Root Cause Analysis
+   - Investigate cause
+   - Implement corrective actions
+   - Update procedures
+   - Train personnel</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>Contoh Pertanyaan Kebolehjejakan Penarikan Balik</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sql data-lang=sql><span style=display:flex><span><span style=color:#75715e>-- BigLedger recall query example
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>SELECT</span> <span style=color:#66d9ef>DISTINCT</span> 
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>c</span>.customer_name,
+</span></span><span style=display:flex><span>    s.shipment_number,
+</span></span><span style=display:flex><span>    s.shipment_date,
+</span></span><span style=display:flex><span>    p.product_code,
+</span></span><span style=display:flex><span>    lt.lot_number,
+</span></span><span style=display:flex><span>    sn.serial_number,
+</span></span><span style=display:flex><span>    sl.quantity_shipped
+</span></span><span style=display:flex><span><span style=color:#66d9ef>FROM</span> 
+</span></span><span style=display:flex><span>    shipment_lines sl
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>JOIN</span> shipments s <span style=color:#66d9ef>ON</span> sl.shipment_id <span style=color:#f92672>=</span> s.shipment_id
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>JOIN</span> customers <span style=color:#66d9ef>c</span> <span style=color:#66d9ef>ON</span> s.customer_id <span style=color:#f92672>=</span> <span style=color:#66d9ef>c</span>.customer_id
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>JOIN</span> products p <span style=color:#66d9ef>ON</span> sl.product_id <span style=color:#f92672>=</span> p.product_id
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>LEFT</span> <span style=color:#66d9ef>JOIN</span> lot_tracking lt <span style=color:#66d9ef>ON</span> sl.lot_id <span style=color:#f92672>=</span> lt.lot_id
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>LEFT</span> <span style=color:#66d9ef>JOIN</span> serial_numbers sn <span style=color:#66d9ef>ON</span> sl.serial_id <span style=color:#f92672>=</span> sn.serial_id
+</span></span><span style=display:flex><span><span style=color:#66d9ef>WHERE</span> 
+</span></span><span style=display:flex><span>    lt.lot_number <span style=color:#66d9ef>IN</span> (<span style=color:#e6db74>&#39;L2024-001-A&#39;</span>, <span style=color:#e6db74>&#39;L2024-002-B&#39;</span>)
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>OR</span> sn.serial_number <span style=color:#66d9ef>LIKE</span> <span style=color:#e6db74>&#39;PUMP-2024-00001%&#39;</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>ORDER</span> <span style=color:#66d9ef>BY</span> 
+</span></span><span style=display:flex><span>    s.shipment_date <span style=color:#66d9ef>DESC</span>;</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Ciri Pematuhan Kawal Selia<span class="hx:absolute hx:-mt-20" id=ciri-pematuhan-kawal-selia></span>
+<a href=#ciri-pematuhan-kawal-selia class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Pematuhan FDA 21 CFR Part 11</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Electronic Records Requirements:
+1. Electronic Signatures
+   - Unique user identification
+   - Biometric or password authentication
+   - Electronic signature linking
+   - Non-repudiation controls
+
+2. Audit Trails
+   - Record creation timestamp
+   - User identification
+   - Original and changed values
+   - Reason for change
+   - Secure, time-stamped entries
+
+3. System Controls
+   - Access controls and permissions
+   - Data backup and recovery
+   - System validation documentation
+   - Change control procedures</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>Keperluan Kebolehjejakan ISO 9001</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Quality Management System Integration</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Document Control</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Traceability procedures</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Work instructions</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Record retention policies</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Document version control</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Monitoring and Measurement</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Product identification</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Traceability records</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Non-conformance tracking</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Corrective action linkage</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Management Review</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Traceability effectiveness</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Customer complaints analysis</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Recall frequency and scope</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>System improvement opportunities</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><hr><h2>Penerokaan Mendalam Kaedah Penilaian Inventori<span class="hx:absolute hx:-mt-20" id=penerokaan-mendalam-kaedah-penilaian-inventori></span>
+<a href=#penerokaan-mendalam-kaedah-penilaian-inventori class=subheading-anchor aria-label="Permalink for this section"></a></h2><p>Penilaian inventori memberi kesan ketara kepada penyata kewangan, obligasi cukai, dan keputusan operasi.</p><h3>Pelaksanaan FIFO (Masuk Dahulu, Keluar Dahulu)<span class="hx:absolute hx:-mt-20" id=pelaksanaan-fifo-masuk-dahulu-keluar-dahulu></span>
+<a href=#pelaksanaan-fifo-masuk-dahulu-keluar-dahulu class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Contoh Pengiraan FIFO</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Inventory Transactions - Product A:
+Jan 1:  Beginning balance: 100 units @ MYR 10 = MYR 1,000
+Jan 5:  Purchase: 200 units @ MYR 12 = MYR 2,400
+Jan 10: Sale: 150 units
+Jan 15: Purchase: 100 units @ MYR 15 = MYR 1,500
+Jan 20: Sale: 180 units
+Jan 25: Purchase: 50 units @ MYR 16 = MYR 800
+
+FIFO Cost of Goods Sold:
+Jan 10 Sale (150 units):
+  100 units @ MYR 10 = MYR 1,000
+  50 units @ MYR 12 = MYR 600
+  Total COGS: MYR 1,600
+
+Jan 20 Sale (180 units):
+  150 units @ MYR 12 = MYR 1,800
+  30 units @ MYR 15 = MYR 450
+  Total COGS: MYR 2,250
+
+Ending Inventory:
+  70 units @ MYR 15 = MYR 1,050
+  50 units @ MYR 16 = MYR 800
+  Total Ending Inventory: MYR 1,850</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Pelaksanaan Kos Purata Berwajaran<span class="hx:absolute hx:-mt-20" id=pelaksanaan-kos-purata-berwajaran></span>
+<a href=#pelaksanaan-kos-purata-berwajaran class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Pengiraan Purata Bergerak</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Moving Average Method - Product B:
+Date    Transaction    Qty   Unit Cost   Total    Avg Cost
+Jan 1   Beginning      50    MYR 20     MYR 1,000  MYR 20.00
+Jan 3   Purchase       30    MYR 22     MYR 660    
+        New Average:   80               MYR 1,660  MYR 20.75
+Jan 8   Issue         (25)   MYR 20.75  MYR 518.75
+        Balance:       55               MYR 1,141.25 MYR 20.75
+Jan 12  Purchase       40    MYR 24     MYR 960
+        New Average:   95               MYR 2,101.25 MYR 22.12
+Jan 18  Issue         (60)   MYR 22.12  MYR 1,327.20
+        Balance:       35               MYR 774.05  MYR 22.12</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Pelaksanaan Pengkosan Piawai<span class="hx:absolute hx:-mt-20" id=pelaksanaan-pengkosan-piawai></span>
+<a href=#pelaksanaan-pengkosan-piawai class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Analisis Varians Kos Piawai</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Standard Cost System - Product C:
+Standard Cost: MYR 25.00/unit
+
+Actual Purchases:
+Date      Qty    Unit Cost   Total      Variance
+Jan 5     100    MYR 24.50   MYR 2,450  MYR 50 favorable
+Jan 12    150    MYR 25.80   MYR 3,870  MYR 120 unfavorable
+Jan 20    80     MYR 24.20   MYR 1,936  MYR 64 favorable
+
+Inventory Valuation:
+All inventory carried at standard cost: MYR 25.00/unit
+Purchase price variances recorded separately
+Variance analysis for management reporting
+
+Variance Journal Entries:
+Jan 5 Purchase:
+Dr. Inventory (100 × MYR 25.00)        MYR 2,500
+    Cr. Accounts Payable                      MYR 2,450
+    Cr. Purchase Price Variance               MYR 50
+
+Jan 12 Purchase:
+Dr. Inventory (150 × MYR 25.00)        MYR 3,750
+Dr. Purchase Price Variance             MYR 120
+    Cr. Accounts Payable                      MYR 3,870</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Pelaksanaan Kos atau Pasaran Terendah (LCM)<span class="hx:absolute hx:-mt-20" id=pelaksanaan-kos-atau-pasaran-terendah-lcm></span>
+<a href=#pelaksanaan-kos-atau-pasaran-terendah-lcm class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Proses Penilaian LCM</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>LCM Analysis - Product D</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Historical Cost</span>: <span style=color:#ae81ff>MYR 50/unit</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Current Market Price</span>: <span style=color:#ae81ff>MYR 45/unit</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Replacement Cost</span>: <span style=color:#ae81ff>MYR 43/unit</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Net Realizable Value</span>: <span style=color:#ae81ff>MYR 48/unit</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Net Realizable Value - Normal Profit</span>: <span style=color:#ae81ff>MYR 42/unit</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>LCM Calculation</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Market Value = Middle value of</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Replacement Cost</span>: <span style=color:#ae81ff>MYR 43</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Net Realizable Value</span>: <span style=color:#ae81ff>MYR 48</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>NRV - Normal Profit</span>: <span style=color:#ae81ff>MYR 42</span>
+</span></span><span style=display:flex><span>  <span style=color:#ae81ff>Market Value = MYR 43</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#ae81ff>LCM = Lower of Cost (MYR 50) or Market (MYR 43)</span>
+</span></span><span style=display:flex><span><span style=color:#ae81ff>LCM = MYR 43/unit</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Inventory Write-down</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Write-down per unit</span>: <span style=color:#ae81ff>MYR 50 - MYR 43 = MYR 7</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Inventory on hand</span>: <span style=color:#ae81ff>200</span> <span style=color:#ae81ff>units</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Total write-down</span>: <span style=color:#ae81ff>MYR 1,400</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Journal Entry</span>:
+</span></span><span style=display:flex><span><span style=color:#ae81ff>Dr. Inventory Write-down Expense       MYR 1,400</span>
+</span></span><span style=display:flex><span>    <span style=color:#ae81ff>Cr. Inventory Valuation Allowance        MYR 1,400</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Kaedah Pengenalan Khusus<span class="hx:absolute hx:-mt-20" id=kaedah-pengenalan-khusus></span>
+<a href=#kaedah-pengenalan-khusus class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Penjejakan Item Bernilai Tinggi</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Specific Identification - Luxury Watches:
+Item      Serial Number    Cost      Sale Price   Margin
+Watch A   W001234         MYR 5,000  MYR 8,000   MYR 3,000
+Watch B   W001235         MYR 4,500  MYR 7,500   MYR 3,000
+Watch C   W001236         MYR 5,500  MYR 9,000   MYR 3,500
+
+Sale Transaction - Watch B:
+Dr. Cash/Accounts Receivable           MYR 7,500
+    Cr. Sales Revenue                         MYR 7,500
+
+Dr. Cost of Goods Sold                 MYR 4,500
+    Cr. Inventory                             MYR 4,500
+
+Remaining Inventory:
+Watch A: MYR 5,000
+Watch C: MYR 5,500
+Total: MYR 10,500</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><hr><h2>Kecemerlangan Kiraan Kitaran dan Inventori Fizikal<span class="hx:absolute hx:-mt-20" id=kecemerlangan-kiraan-kitaran-dan-inventori-fizikal></span>
+<a href=#kecemerlangan-kiraan-kitaran-dan-inventori-fizikal class=subheading-anchor aria-label="Permalink for this section"></a></h2><p>Ketepatan inventori ialah asas operasi yang berkesan. Sasaran saya ialah ketepatan 95%+, boleh dicapai dengan prosedur kiraan kitaran yang betul.</p><h3>Reka Bentuk Program Kiraan Kitaran<span class="hx:absolute hx:-mt-20" id=reka-bentuk-program-kiraan-kitaran></span>
+<a href=#reka-bentuk-program-kiraan-kitaran class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Pengelasan ABC untuk Kiraan Kitaran</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>ABC Analysis Based on Annual Usage Value:
+Class A Items (70% of value, 20% of items):
+  - Count frequency: Weekly or bi-weekly
+  - Tolerance: ±2%
+  - Immediate investigation of variances
+  - Root cause analysis required
+
+Class B Items (20% of value, 30% of items):
+  - Count frequency: Monthly
+  - Tolerance: ±5%
+  - Variance investigation if significant
+  - Quarterly trend analysis
+
+Class C Items (10% of value, 50% of items):
+  - Count frequency: Quarterly
+  - Tolerance: ±10%
+  - Focus on major variances only
+  - Annual procedure review</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>Perancangan Jadual Kiraan Kitaran</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Daily Cycle Count Plan</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Monday</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>A items</span>: <span style=color:#ae81ff>Locations A001-A050</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>High-velocity items</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Previous variance follow-up</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Tuesday</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>A items</span>: <span style=color:#ae81ff>Locations A051-A100</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>B items</span>: <span style=color:#ae81ff>Locations B001-B025</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Customer return areas</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Wednesday</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>A items</span>: <span style=color:#ae81ff>Locations A101-A150</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>B items</span>: <span style=color:#ae81ff>Locations B026-B050</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Work-in-process areas</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Thursday</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>A items</span>: <span style=color:#ae81ff>Locations A151-A200</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>C items</span>: <span style=color:#ae81ff>Locations C001-C100</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Consignment inventory</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Friday</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Variance resolution</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Root cause analysis</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Process improvements</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Next week planning</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Prosedur dan Kawalan Kiraan<span class="hx:absolute hx:-mt-20" id=prosedur-dan-kawalan-kiraan></span>
+<a href=#prosedur-dan-kawalan-kiraan class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Penyediaan Pra-Kiraan</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Preparation Checklist:
+□ Freeze inventory transactions during count
+□ Complete all pending receipts and issues
+□ Organize counting areas
+□ Prepare count sheets/mobile devices
+□ Assign counting teams
+□ Review procedures with counters
+□ Verify scales and measuring equipment
+□ Identify problem areas from previous counts</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>Kawalan Proses Kiraan</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Blind Count Procedures:
+1. Generate count sheets without quantities
+2. Assign counters to unfamiliar areas
+3. Require independent second counts for variances
+4. Use different teams for recounts
+5. Supervisor spot checks of 10% of counts
+6. Document all unusual situations
+
+Count Team Structure:
+Primary Counter: Physical counting
+Secondary Counter: Independent verification  
+Recorder: Data entry and documentation
+Supervisor: Quality control and exception handling</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Proses Penyiasatan Varians<span class="hx:absolute hx:-mt-20" id=proses-penyiasatan-varians></span>
+<a href=#proses-penyiasatan-varians class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Aliran Kerja Analisis Varians</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Variance Investigation Steps:
+1. Immediate Verification
+   - Recount suspected variances
+   - Check for recent transactions
+   - Verify unit of measure
+   - Confirm product identification
+
+2. Transaction Review
+   - Review recent receipts/issues
+   - Check for timing differences
+   - Verify posting dates
+   - Investigate unposted transactions
+
+3. Physical Investigation
+   - Check alternate locations
+   - Look for damaged products
+   - Verify lot/serial numbers
+   - Check for misidentified items
+
+4. Root Cause Analysis
+   - Identify cause category
+   - Document contributing factors
+   - Assign responsibility
+   - Develop corrective actions
+
+5. Adjustment Processing
+   - Supervisor approval required
+   - Document business justification
+   - Process inventory adjustment
+   - Update cycle count results</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>Punca Asas Varians Biasa</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Root Cause Categories:
+Transaction Errors (40%):
+  - Incorrect quantities posted
+  - Wrong location updates
+  - Timing differences
+  - Missed transactions
+
+Physical Handling (30%):
+  - Damaged goods not recorded
+  - Theft or shrinkage
+  - Incorrect put-away location
+  - Product deterioration
+
+System Issues (20%):
+  - Unit of measure errors
+  - Product code mix-ups
+  - BOM errors
+  - System processing errors
+
+Process Gaps (10%):
+  - Inadequate training
+  - Poor procedures
+  - Insufficient controls
+  - Communication breakdowns</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Pemantauan Ketepatan Inventori Kekal<span class="hx:absolute hx:-mt-20" id=pemantauan-ketepatan-inventori-kekal></span>
+<a href=#pemantauan-ketepatan-inventori-kekal class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Penunjuk Prestasi Utama</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Inventory Accuracy Metrics:
+1. Overall Accuracy Rate
+   Target: &gt;95%
+   Calculation: (Items within tolerance ÷ Total items counted) × 100
+
+2. Value Accuracy Rate
+   Target: &gt;98%
+   Calculation: (Value within tolerance ÷ Total value counted) × 100
+
+3. Location Accuracy Rate
+   Target: &gt;99%
+   Calculation: (Correct locations ÷ Total locations) × 100
+
+4. Record Accuracy Rate
+   Target: &gt;95%
+   Calculation: (Records with no errors ÷ Total records) × 100
+
+Monthly Accuracy Trending:
+Month     Overall   Value    Location   Record
+January   94.2%     97.8%    98.9%      93.5%
+February  95.1%     98.2%    99.1%      94.8%
+March     95.8%     98.6%    99.3%      95.2%
+Target    &gt;95%      &gt;98%     &gt;99%       &gt;95%</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>Proses Inventori Fizikal<span class="hx:absolute hx:-mt-20" id=proses-inventori-fizikal></span>
+<a href=#proses-inventori-fizikal class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>Prosedur Inventori Fizikal Tahunan</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Physical Inventory Timeline:
+Week -4: Planning and Preparation
+  - Form inventory committee
+  - Develop count procedures
+  - Train count teams
+  - Prepare count materials
+
+Week -2: Pre-Inventory Activities
+  - Complete cycle count corrections
+  - Clean and organize warehouse
+  - Update location codes
+  - Freeze purchase orders
+
+Week -1: Final Preparations
+  - Final transaction processing
+  - Inventory cut-off procedures
+  - Team assignments
+  - Equipment testing
+
+Count Day: Execution
+  - Morning briefing
+  - First count completion
+  - Variance identification
+  - Second count (variances only)
+  - Supervisor reviews
+
+Week &#43;1: Post-Count Activities
+  - Final variance resolution
+  - Inventory adjustments
+  - Financial reporting
+  - Process improvement review</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>Pengesahan Ketepatan Kiraan</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Multi-Stage Verification Process:
+Stage 1: Initial Count
+  - Blind count by assigned team
+  - Document quantities and conditions
+  - Note any discrepancies or issues
+
+Stage 2: Verification Count
+  - Independent team recounts
+  - Compare to initial count
+  - Flag variances &gt;±5%
+
+Stage 3: Supervisor Review
+  - Review all variances
+  - Authorize additional recounts
+  - Approve final quantities
+
+Stage 4: Final Validation
+  - Management approval for significant adjustments
+  - Financial impact assessment
+  - Audit trail documentation</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p>Panduan menyeluruh ini mewakili tiga dekad pengalaman praktikal dalam melaksanakan dan mengoptimumkan proses inventori dan pembuatan. Kunci kejayaan terletak pada mewujudkan data induk yang kukuh, melaksanakan proses yang berdisiplin, dan memanfaatkan keupayaan automasi BigLedger sambil mengekalkan fokus pada ketepatan dan penambahbaikan berterusan.</p><p>Setiap bahagian menyediakan prosedur terperinci yang boleh dilaksanakan yang telah diuji merentasi pelbagai industri dan pelaksanaan ERP. Penekanan adalah pada mencipta sistem yang menyediakan maklumat yang tepat dan tepat pada masanya untuk membuat keputusan operasi sambil mengekalkan pematuhan dengan piawaian dan peraturan yang berkaitan.</p></div></div></article></main><footer class=bl-footer><div class=bl-container><div class=bl-footer-grid><div class=bl-footer-brand><img src=https://www.bigledger.com/images/bigledger-logo-cropped.png alt="Dokumentasi BigLedger" height=20 class=bl-logo-img><p class=bl-footer-tagline>ERP komposit asli-awan untuk perusahaan moden. Diakreditasi MDEC PEPPOL di seluruh Asia Tenggara.</p><div class=bl-footer-badges><span class=bl-footer-badge>PEPPOL</span>
+<span class=bl-footer-badge>ISO 27001</span>
+<span class=bl-footer-badge>E-Invois Malaysia</span></div></div><div class=bl-footer-col><span class=bl-footer-col-title>Platform</span><ul class=bl-footer-links><li><a href=https://www.bigledger.com/solutions>Penyelesaian</a></li><li><a href=https://www.bigledger.com/pricing>Harga</a></li><li><a href=https://www.bigledger.com/developers>Pembangun</a></li><li><a href=https://www.bigledger.com/e-invoice-peppol>E-Invois</a></li></ul></div><div class=bl-footer-col><span class=bl-footer-col-title>Syarikat</span><ul class=bl-footer-links><li><a href=https://www.bigledger.com/about>Tentang Kami</a></li><li><a href=https://www.bigledger.com/contact>Hubungi Kami</a></li><li><a href=https://www.bigledger.com/demos-resources>Sumber</a></li></ul></div><div class=bl-footer-col><span class=bl-footer-col-title>Pematuhan</span><ul class=bl-footer-links><li><a href=https://www.bigledger.com/e-invoice-peppol>Akreditasi PEPPOL</a></li><li><a href=https://www.bigledger.com/mdec-e-invoice-promotion>Inisiatif MDEC</a></li><li><a href=https://www.bigledger.com/solutions>Pematuhan SST</a></li></ul></div></div><div class=bl-footer-bottom><span class=bl-footer-copy>&copy; 2026 BigLedger. Hak cipta terpelihara.</span><div class=bl-footer-legal><a href=https://www.bigledger.com/privacy-policy>Dasar Privasi</a>
+<a href=https://www.bigledger.com/terms-of-service>Terma Perkhidmatan</a></div></div></div></footer><script>window.__blLang="ms",window.__blUrls=["/ms/applets/","/ms/business-operations/","/ms/applets/applet-catalog/","/ms/applets/tenant-admin-applet/","/ms/applets/inv-item-maintenance-applet/","/ms/applets/customer-maintenance-applet/","/ms/user-guide/getting-started/navigation/","/ms/support/beginner-guide/","/ms/applets/supplier-maintenance-applet/","/ms/applets/employee-maintenance-applet/","/ms/applets/tax-configuration-applet/","/ms/e-invoice-peppol/","/ms/applets/cashbook-applet/","/ms/applets-workflows/","/ms/modules/ecommerce/20-website-configuration/","/ms/business-operations/account-receivable/","/ms/user-guide/demo/common-workflows/","/ms/modules/ecommerce/b2b/","/ms/user-guide/getting-started/","/ms/user-guide/demo/getting-started-demo/","/ms/business-operations/order-details/","/ms/modules/ecommerce/cp-commerce/","/ms/modules/ecommerce/create-single-tab/","/ms/user-guide/demo/retail/","/ms/modules/ecommerce/ecomsync-applet/","/ms/modules/ecommerce/ecomsync-features/","/ms/user-guide/getting-started/platform-overview/","/ms/user-guide/industry-solutions/automotive-and-workshop-industry/","/ms/user-guide/industry-solutions/food-and-beverage-fb-industry/","/ms/modules/ecommerce/integration-with-shopify/","/ms/modules/ecommerce/introduction-to-ecomsync/","/ms/user-guide/basic-operations/document-item-types/","/ms/modules/ecommerce/listing/","/ms/modules/ecommerce/marketplace-tab/","/ms/tutorials/first-invoice/","/ms/modules/core/","/ms/user-guide/industry-solutions/industry-guide/","/ms/guides/roles/branch-manager/","/ms/guides/inventory-guides/stock-management/","/ms/guides/accounting-guides/chart-of-accounts-setup/","/ms/guides/einvoice-guides/myinvois-setup/","/ms/business-operations/dashboard/","/ms/business-operations/sales-dashboard/","/ms/business-operations/order-dashboard/","/ms/business-operations/main-dashboard/","/ms/user-guide/administration/team/","/ms/developer-docs/installation/","/ms/business-operations/order-filtering/","/ms/guides/advanced/accounting-workflows/","/ms/user-guide/getting-started/introduction/","/ms/user-guide/daily-tasks/price-book/","/ms/user-guide/administration/member-listing/","/ms/business-operations/order-listing/","/ms/business-operations/accounting/","/ms/user-guide/demo/role-based/finance-manager/","/ms/business-operations/order/","/ms/user-guide/administration/member-label-list/","/ms/support/beginner-guide/getting-started/","/ms/support/faqs/","/ms/business-operations/sales-order-tab/","/ms/modules/ecommerce/update-and-delete-item/","/ms/applets/webhook-applet/","/ms/applets/t2t-admin-applet/","/ms/user-guide/demo/apparel/","/ms/applets/organization-applet/","/ms/applets/stock-take-applet/","/ms/user-guide/demo/distributors/","/ms/user-guide/demo/role-based/","/ms/ai-intelligence/","/ms/applets/team-maintenance-applet/","/ms/demos-resources/","/ms/user-guide/demo/manufacturing/","/ms/developer-docs/","/ms/guides/advanced/advanced-inventory-manufacturing/","/ms/user-guide/basic-operations/creating-an-item/","/ms/modules/financial-accounting/","/ms/modules/pos/","/ms/user-guide/basic-operations/","/ms/support/beginner-guide/basic-business-operations/","/ms/guides/accounting-guides/journal-entries/","/ms/guides/roles/cashier/","/ms/guides/einvoice-guides/peppol-configuration/","/ms/user-guide/","/ms/user-guide/demo/role-based/operations-manager/","/ms/guides/inventory-guides/stock-transfer/","/ms/tutorials/month-end-closing/","/ms/applications/","/ms/applets/applet-store/","/ms/user-guide/demo/education/","/ms/modules/ecommerce/cp-commerce-menu-pages/","/ms/user-guide/basic-operations/editing-an-item/","/ms/modules/cp-commerce/","/ms/modules/sales-crm/","/ms/guides/","/ms/user-guide/demo/","/ms/applets/pricebook-applet/","/ms/user-guide/demo/services/","/ms/guides/advanced/financial-reporting-excellence/","/ms/modules/","/ms/modules/accounting/","/ms/guides/roles/ecommerce-specialist/","/ms/guides/accounting-guides/financial-reporting/","/ms/guides/accounting-guides/","/ms/support/beginner-guide/day-to-day-usage/","/ms/modules/crm/","/ms/modules/inventory/category-groups/","/ms/user-guide/basic-operations/item-maintenance/","/ms/guides/einvoice-guides/einvoice-validation/","/ms/user-guide/demo/role-based/ceo-executive/","/ms/api-reference/","/ms/user-guide/daily-tasks/","/ms/guides/einvoice-guides/","/ms/guides/inventory-guides/","/ms/applets/group-maintenance-applet/","/ms/modules/e-invoice/","/ms/modules/purchasing/","/ms/user-guide/basic-operations/document-item-maintenance/","/ms/applets/process-monitoring-applet/","/ms/support/beginner-guide/malaysian-specific-questions/","/ms/user-guide/demo/food-beverage/","/ms/guides/advanced/compliance-audit/","/ms/user-guide/administration/member-class/","/ms/modules/erp/","/ms/modules/inventory/","/ms/guides/roles/","/ms/guides/roles/finance-manager/","/ms/user-guide/administration/","/ms/guides/accounting-guides/bank-reconciliation-guide/","/ms/tutorials/","/ms/applets/applet-directory/","/ms/modules/inventory-warehouse/","/ms/modules/it-ce/","/ms/user-guide/administration/group-listing/","/ms/user-guide/administration/member-label/","/ms/guides/advanced/industry-specific-workflows/","/ms/applets/location-organization-applet/","/ms/user-guide/reports-analytics/","/ms/modules/digital-crm/","/ms/modules/manufacturing/","/ms/guides/roles/internal-audit/","/ms/guides/advanced/","/ms/modules/procurement/","/ms/support/beginner-guide/growth-and-scaling/","/ms/user-guide/daily-tasks/pricing-scheme/","/ms/modules/service-industry/","/ms/applets/settings-of-organization-applet/","/ms/guides/advanced/integration-best-practices/","/ms/applets/branch-organization-applet/","/ms/user-guide/daily-tasks/price-set/","/ms/modules/drop-shipping/","/ms/modules/hr-payroll/","/ms/guides/roles/merchandising-manager/","/ms/user-guide/troubleshooting/","/ms/support/beginner-guide/technical-concerns/","/ms/applets/company-organization-applet/","/ms/user-guide/best-practices/","/ms/applets/membership-admin-console-applet/","/ms/support/beginner-guide/cost-and-roi-questions/","/ms/modules/ecommerce/","/ms/guides/roles/procurement-manager/","/ms/guides/advanced/performance-optimization/","/ms/modules/hr/","/ms/applets/membership-program/","/ms/applets/internal-delivery-order-applet/","/ms/guides/roles/warehouse-manager/","/ms/modules/projects/","/ms/user-guide/industry-solutions/","/ms/applications/unified-contact-center/","/ms/applets/stock-balance-applet/","/ms/applets/internal-stock-adjustment-applet/","/ms/privacy-policy/","/ms/support/","/ms/terms-of-service/","/ms/applets/90-ecomsync-related-applets/","/ms/applets/accounts-receivable-applet/","/ms/applets/ingram-micro-ms-esd-applet/","/ms/applets/installation-of-pricebook-applet/","/ms/applets/installation-of-group-maintenance-applet/","/ms/applets/installation-of-team-maintenance-applet/","/ms/applets/introduction-to-team-maintenance-applet/","/ms/applets/introduction-to-membership-admin-console-applet/","/ms/applets/introduction-to-stock-take-applet/","/ms/applets/related-applets-stock-balance/","/ms/applets/related-applets-internal-job-order/","/ms/applets/related-applets-internal-stock-adjustment/","/ms/applets/related-applets-process-monitoring/","/ms/applets/membership-points-currency/","/ms/applets/unified-contact-center-ucc-applet/","/ms/applets/workflow-design-applet/","/ms/applets/general-ledger-applet/","/ms/applets/vstecs-ms-esd-order-applet/","/ms/applets/chart-of-account-applet/","/ms/applets/doc-item-maintenance-applet/","/ms/applets/pos-terminal-applet/","/ms/applets/ecommerce-catalog-applet/","/ms/applets/einvoice-generation-applet/","/ms/applets/ai-customer-analytics-applet/","/ms/tags/accounting-module/","/ms/tags/accounts-receivable/","/ms/tags/administration/","/ms/tags/advanced-configuration/","/ms/functions/financial-accounting/","/ms/tags/analytics/","/ms/tags/api-integration/","/ms/tags/applet-marketplace/","/ms/tags/applets/","/ms/tags/application-management/","/ms/tags/approval-workflows/","/ms/tags/architecture/","/ms/tags/artificial-intelligence/","/ms/tags/automation/","/ms/tags/bank-accounts/","/ms/tags/basic-operations/","/ms/functions/purchasing/","/ms/tags/best-practices/","/ms/solutions/services-professional/","/ms/tags/bos/","/ms/tags/branch-administration/","/ms/tags/branch-management/","/ms/tags/bulk-import/","/ms/tags/business/","/ms/tags/business-intelligence/","/ms/tags/business-operations/","/ms/tags/business-process/","/ms/tags/business-processes/","/ms/tags/business-rules/","/ms/search/","/ms/tags/case-studies/","/ms/tags/cash-flow/","/ms/tags/cash-management/","/ms/tags/cashier-operations/","/ms/tags/catalog/","/ms/tags/catalog-maintenance/","/ms/tags/catalog-management/","/ms/categories/","/ms/tags/chart-of-accounts/","/ms/tags/collections/","/ms/tags/communication/","/ms/tags/company-management/","/ms/tags/company-setup/","/ms/tags/compliance/","/ms/tags/configuration/","/ms/tags/core-module/","/ms/tags/cp-commerce-module/","/ms/tags/credit-management/","/ms/tags/crm/","/ms/tags/customer-analytics/","/ms/tags/customer-billing/","/ms/tags/customer-management/","/ms/tags/customer-service/","/ms/tags/daily-tasks/","/ms/functions/point-of-sale/","/ms/switch/excel/","/ms/tags/dashboards/","/ms/tags/data-management/","/ms/tags/delivery/","/ms/tags/digital-commerce/","/ms/tags/digital-crm-module/","/ms/tags/digital-transformation/","/ms/tags/directory/","/ms/tags/discovery/","/ms/tags/document-items/","/ms/tags/document-management/","/ms/","/ms/functions/e-invoice-peppol/","/ms/tags/ecommerce/","/ms/tags/efficiency/","/ms/tags/einvoice-module/","/ms/tags/electronic-invoicing/","/ms/tags/employee-management/","/ms/tags/enterprise-administration/","/ms/tags/enterprise-architecture/","/ms/tags/enterprise-pricing/","/ms/solutions/enterprise/","/ms/tags/esd/","/ms/tags/esd-orders/","/ms/tags/expert-tips/","/ms/tags/financial-accounting/","/ms/tags/financial-management/","/ms/tags/financial-reporting/","/ms/tags/fundamentals/","/ms/tags/general-ledger/","/ms/tags/getting-started/","/ms/tags/group-maintenance/","/ms/tags/group-management/","/ms/tags/gst/","/ms/pricing/","/ms/tags/hr/","/ms/contact/","/ms/tags/industry/","/ms/tags/ingram-micro/","/ms/tags/installation/","/ms/tags/integration/","/ms/tags/introduction/","/ms/tags/inventory/","/ms/tags/inventory-management/","/ms/tags/item-management/","/ms/tags/item-types/","/ms/tags/job-order/","/ms/solutions/retail-ecommerce/","/ms/functions/e-commerce/","/ms/solutions/drop-shipping/","/ms/partners/","/ms/security/","/ms/solutions/construction/","/ms/functions/projects/","/ms/solutions/mid-market/","/ms/tags/labeling/","/ms/solutions/business-owners/","/ms/tags/location-management/","/ms/tags/logistics/","/ms/tags/loyalty-program/","/ms/tags/machine-learning/","/ms/tags/marketplace/","/ms/tags/master-data/","/ms/switch/quickbooks/","/ms/tags/membership/","/ms/tags/microsoft/","/ms/switch/sql-account/","/ms/tags/modules/","/ms/solutions/startups/","/ms/tags/multi-tenant/","/ms/solutions/it-consumer-electronics/","/ms/tags/notifications/","/ms/tags/omnichannel/","/ms/tags/onboarding/","/ms/tags/online-retail/","/ms/solutions/healthcare/","/ms/tags/operations/","/ms/tags/optimization/","/ms/tags/order-management/","/ms/tags/organization/","/ms/tags/organization-management/","/ms/tags/organizational-structure/","/ms/tags/overview/","/ms/solutions/wholesale-distribution/","/ms/compliance/sst-epf-socso/","/ms/functions/hr-payroll/","/ms/solutions/hr-teams/","/ms/developers/","/ms/solutions/automotive/","/ms/solutions/","/ms/tags/permissions/","/ms/tags/platform/","/ms/tags/point-of-sale/","/ms/tags/points-management/","/ms/tags/points-system/","/ms/tags/pos-module/","/ms/preview-datalake-1/","/ms/preview-modules-2/","/ms/preview-modules-1/","/ms/preview-modules-3/","/ms/preview-datalake-4/","/ms/preview-datalake-3/","/ms/preview-modules-4/","/ms/preview-datalake-2/","/ms/tags/predictive-analytics/","/ms/tags/pricebook/","/ms/tags/pricing/","/ms/tags/problems/","/ms/tags/process-design/","/ms/tags/process-monitoring/","/ms/tags/procurement/","/ms/tags/product-catalog/","/ms/tags/product-master/","/ms/mdec-e-invoice-promotion/","/ms/tags/promotions/","/ms/functions/manufacturing/","/ms/solutions/manufacturing/","/ms/tags/real-time/","/ms/tags/reference/","/ms/tags/regulatory/","/ms/tags/related-applets/","/ms/tags/reports/","/ms/tags/retail/","/ms/tags/sales/","/ms/solutions/franchise/","/ms/solutions/multi-entity/","/ms/tags/search/","/ms/solutions/sales-ops/","/ms/functions/sales-crm/","/ms/tags/security/","/ms/switch/autocount/","/ms/tags/services/","/ms/functions/inventory-warehouse/","/ms/tags/settings/","/ms/tags/setup/","/ms/tags/setup-guide/","/ms/switch/onboarding/","/ms/tags/solutions/","/ms/tags/sst/","/ms/tags/stock-adjustment/","/ms/tags/stock-balance/","/ms/tags/stock-control/","/ms/tags/stock-management/","/ms/tags/stock-take/","/ms/tags/supplier-management/","/ms/tags/support/","/ms/tags/synchronization/","/ms/tags/system-admin/","/ms/tags/system-administration/","/ms/tags/t2t-integration/","/ms/tags/","/ms/solutions/sme/","/ms/tags/tax-management/","/ms/tags/team-maintenance/","/ms/tags/team-management/","/ms/tags/tenant-management/","/ms/about/","/ms/tags/terminal-management/","/ms/tags/transaction-processing/","/ms/tags/transactions/","/ms/tags/troubleshooting/","/ms/modules/membership/","/ms/modules/claims/","/ms/tags/tutorial/","/ms/solutions/finance-teams/","/ms/tags/user-administration/","/ms/tags/user-guide/","/ms/tags/user-interface/","/ms/tags/user-management/","/ms/tags/vat/","/ms/tags/vendor-management/","/ms/tags/warehouse-management/","/ms/tags/webhooks/","/ms/tags/workflow/","/ms/tags/workflow-automation/","/ms/tags/workflows/"]</script><script src="https://www.bigledger.com/js/main.js?v=3b0cf3c037" defer></script><script defer src=https://www.bigledger.com/js/main.min.de62c3c776571ae1c2fd466a19b76ec8414384843f70634ec90a85352c1dfdc2.js integrity="sha256-3mLDx3ZXGuHC/UZqGbduyEFDhIQ/cGNOyQqFNSwd/cI="></script></body></html>

@@ -1,0 +1,359 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dokumentasi BigLedger – Organization</title><link>https://www.bigledger.com/ms/tags/organization/</link><description>Recent content in Organization on Dokumentasi BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ms</language><atom:link href="https://www.bigledger.com/ms/tags/organization/index.xml" rel="self" type="application/rss+xml"/><item><title>Penyenaraian Kumpulan &amp; Pengurusan Organisasi</title><link>https://www.bigledger.com/ms/user-guide/administration/group-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/user-guide/administration/group-listing/</guid><description>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;&lt;strong&gt;🚧 Kandungan Dalam Pembangunan&lt;/strong&gt;: Halaman ini mengandungi nota fungsi asas dan memerlukan dokumentasi yang menyeluruh. Bidang utama yang memerlukan pembangunan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Strategi &amp;amp; Perancangan Kumpulan&lt;/strong&gt;: Amalan terbaik untuk reka bentuk struktur organisasi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pengurusan Kebenaran&lt;/strong&gt;: Kawalan akses terperinci dan pelaksanaan keselamatan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aliran Kerja Integrasi&lt;/strong&gt;: Bagaimana kumpulan berfungsi merentasi modul BigLedger&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ciri Lanjutan&lt;/strong&gt;: Kumpulan berhierarki, keahlian dinamik, dan automasi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contoh Kes Penggunaan&lt;/strong&gt;: Senario dunia sebenar untuk pelbagai jenis perniagaan&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Gambaran Keseluruhan&lt;span class="hx:absolute hx:-mt-20" id="gambaran-keseluruhan"&gt;&lt;/span&gt;
+&lt;a href="#gambaran-keseluruhan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Penyenaraian kumpulan dalam BigLedger menyediakan pendekatan berstruktur untuk mengurus pasukan, mengurus kebenaran akses, dan mencipta pengelompokan logik untuk kerjasama dan pengurusan data yang lebih baik merentasi organisasi anda.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;TODO: Comprehensive Documentation Needed&lt;span class="hx:absolute hx:-mt-20" id="todo-comprehensive-documentation-needed"&gt;&lt;/span&gt;
+&lt;a href="#todo-comprehensive-documentation-needed" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Priority 1: Strategi &amp;amp; Seni Bina Kumpulan&lt;span class="hx:absolute hx:-mt-20" id="priority-1-strategi--seni-bina-kumpulan"&gt;&lt;/span&gt;
+&lt;a href="#priority-1-strategi--seni-bina-kumpulan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Reka Bentuk Organisasi&lt;/strong&gt;: Amalan terbaik untuk menyusun kumpulan dalam BigLedger&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Jenis Kumpulan&lt;/strong&gt;: Pelbagai jenis kumpulan dan senario penggunaan optimumnya&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Pengurusan Hierarki&lt;/strong&gt;: Hubungan induk-anak dan struktur kumpulan bersarang&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Perancangan Kebolehskalaan&lt;/strong&gt;: Mengurus kumpulan dalam organisasi besar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Priority 2: Keahlian &amp;amp; Kebenaran&lt;span class="hx:absolute hx:-mt-20" id="priority-2-keahlian--kebenaran"&gt;&lt;/span&gt;
+&lt;a href="#priority-2-keahlian--kebenaran" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Pengurusan Pengguna&lt;/strong&gt;: Menambah, mengeluarkan, dan mengurus ahli kumpulan&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Penetapan Peranan&lt;/strong&gt;: Pelbagai peranan ahli dan keupayaannya&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Matriks Kebenaran&lt;/strong&gt;: Pecahan terperinci kebenaran yang tersedia&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Amalan Terbaik Keselamatan&lt;/strong&gt;: Melaksanakan kawalan akses yang betul&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Priority 3: Integrasi &amp;amp; Automasi&lt;span class="hx:absolute hx:-mt-20" id="priority-3-integrasi--automasi"&gt;&lt;/span&gt;
+&lt;a href="#priority-3-integrasi--automasi" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Integrasi Modul&lt;/strong&gt;: Bagaimana kumpulan berfungsi dengan modul perakaunan, jualan, inventori&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Aliran Kerja Automatik&lt;/strong&gt;: Keahlian kumpulan dinamik berdasarkan kriteria&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Pelaporan &amp;amp; Analitik&lt;/strong&gt;: Analitik prestasi dan penggunaan kumpulan&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Operasi Pukal&lt;/strong&gt;: Mengurus perubahan kumpulan berskala besar dengan cekap&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Fungsi Asas Semasa&lt;span class="hx:absolute hx:-mt-20" id="fungsi-asas-semasa"&gt;&lt;/span&gt;
+&lt;a href="#fungsi-asas-semasa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Mencipta Kumpulan&lt;span class="hx:absolute hx:-mt-20" id="mencipta-kumpulan"&gt;&lt;/span&gt;
+&lt;a href="#mencipta-kumpulan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Maklumat Diperlukan&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nama Kumpulan&lt;/strong&gt;: Pengecam deskriptif untuk kumpulan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kod Kumpulan&lt;/strong&gt;: Pengecam sistem yang unik&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;E-mel Kumpulan&lt;/strong&gt;: E-mel hubungan untuk komunikasi kumpulan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keterlihatan Kumpulan&lt;/strong&gt;: Mengawal siapa yang boleh melihat kumpulan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Penyertaan Kumpulan&lt;/strong&gt;: Menentukan cara pengguna boleh menyertai kumpulan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Tab Pengurusan Kumpulan&lt;span class="hx:absolute hx:-mt-20" id="tab-pengurusan-kumpulan"&gt;&lt;/span&gt;
+&lt;a href="#tab-pengurusan-kumpulan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Sunting Maklumat Umum&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubah suai nama kumpulan, keterlihatan, dan tetapan penyertaan&lt;/li&gt;
+&lt;li&gt;Kawal status aktif/tidak aktif kumpulan&lt;/li&gt;
+&lt;li&gt;Kemas kini parameter konfigurasi kumpulan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sunting Ahli&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tambah pengguna dengan mencari alamat e-mel&lt;/li&gt;
+&lt;li&gt;Berikan pangkat dan peranan ahli&lt;/li&gt;
+&lt;li&gt;Uruskan status ahli (aktif/tidak aktif)&lt;/li&gt;
+&lt;li&gt;Keluarkan ahli daripada kumpulan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sunting Kebenaran&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pilih kebenaran daripada pilihan yang tersedia&lt;/li&gt;
+&lt;li&gt;Gunakan kawalan akses peringkat kumpulan&lt;/li&gt;
+&lt;li&gt;Uruskan pewarisan kebenaran&lt;/li&gt;
+&lt;li&gt;Keluarkan atau ubah suai kebenaran sedia ada&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Panduan Pelaksanaan Asas&lt;span class="hx:absolute hx:-mt-20" id="panduan-pelaksanaan-asas"&gt;&lt;/span&gt;
+&lt;a href="#panduan-pelaksanaan-asas" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sementara dokumentasi menyeluruh sedang dibangunkan:&lt;/p&gt;
+&lt;h3&gt;Langkah 1: Rancang Struktur Kumpulan Anda&lt;span class="hx:absolute hx:-mt-20" id="langkah-1-rancang-struktur-kumpulan-anda"&gt;&lt;/span&gt;
+&lt;a href="#langkah-1-rancang-struktur-kumpulan-anda" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Tentukan tujuan dan skop setiap kumpulan&lt;/li&gt;
+&lt;li&gt;Pertimbangkan bagaimana kumpulan akan berinteraksi dengan struktur organisasi sedia ada&lt;/li&gt;
+&lt;li&gt;Rancang tahap kebenaran dan keperluan akses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Langkah 2: Cipta Kumpulan Teras&lt;span class="hx:absolute hx:-mt-20" id="langkah-2-cipta-kumpulan-teras"&gt;&lt;/span&gt;
+&lt;a href="#langkah-2-cipta-kumpulan-teras" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Mulakan dengan kumpulan penting (jabatan, peranan, projek)&lt;/li&gt;
+&lt;li&gt;Gunakan konvensyen penamaan yang konsisten&lt;/li&gt;
+&lt;li&gt;Konfigurasikan tetapan keterlihatan dan penyertaan yang sesuai&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Langkah 3: Uruskan Keahlian&lt;span class="hx:absolute hx:-mt-20" id="langkah-3-uruskan-keahlian"&gt;&lt;/span&gt;
+&lt;a href="#langkah-3-uruskan-keahlian" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Tambah pengguna utama ke dalam kumpulan yang sesuai&lt;/li&gt;
+&lt;li&gt;Berikan pangkat dan kebenaran yang sesuai&lt;/li&gt;
+&lt;li&gt;Uji tahap akses dan kefungsian&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Langkah 4: Pantau dan Optimumkan&lt;span class="hx:absolute hx:-mt-20" id="langkah-4-pantau-dan-optimumkan"&gt;&lt;/span&gt;
+&lt;a href="#langkah-4-pantau-dan-optimumkan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Semakan berkala keahlian dan kebenaran kumpulan&lt;/li&gt;
+&lt;li&gt;Laraskan struktur apabila keperluan organisasi berubah&lt;/li&gt;
+&lt;li&gt;Kekalkan piawaian keselamatan dan kawalan akses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Sumber Berkaitan&lt;span class="hx:absolute hx:-mt-20" id="sumber-berkaitan"&gt;&lt;/span&gt;
+&lt;a href="#sumber-berkaitan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sementara halaman ini dalam pembangunan, terokai topik berkaitan ini:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/member-class/" &gt;Klasifikasi Ahli&lt;/a&gt; - Peranan pengguna dan kawalan akses&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/member-listing/" &gt;Pengurusan Pengguna&lt;/a&gt; - Pengurusan akaun pengguna individu&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/team/" &gt;Konfigurasi Pasukan&lt;/a&gt; - Persediaan jabatan dan pasukan&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/member-label-list/" &gt;Pengurusan Label&lt;/a&gt; - Sistem pelabelan organisasi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Garis Masa Pembangunan&lt;span class="hx:absolute hx:-mt-20" id="garis-masa-pembangunan"&gt;&lt;/span&gt;
+&lt;a href="#garis-masa-pembangunan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Fasa 1&lt;/strong&gt; (Keutamaan): Pengurusan kumpulan teras dan dokumentasi kebenaran&lt;br&gt;
+&lt;strong&gt;Fasa 2&lt;/strong&gt; (Susulan): Ciri lanjutan dan panduan integrasi&lt;br&gt;
+&lt;strong&gt;Fasa 3&lt;/strong&gt; (Peningkatan): Strategi automasi, analitik, dan pengoptimuman&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;Status Semasa&lt;/strong&gt;: Fungsi penciptaan dan pengurusan kumpulan asas tersedia. Untuk keperluan organisasi yang kompleks atau persediaan kebenaran lanjutan, hubungi sokongan teknikal di &lt;a href="mailto:vincent@bigledger.com" &gt;vincent@bigledger.com&lt;/a&gt; untuk panduan.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Konfigurasi &amp; Pengurusan Label Ahli</title><link>https://www.bigledger.com/ms/user-guide/administration/member-label/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/user-guide/administration/member-label/</guid><description>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;&lt;strong&gt;🚧 Kandungan Dalam Pembangunan&lt;/strong&gt;: Halaman ini mengandungi nota fungsi asas dan memerlukan dokumentasi yang menyeluruh. Bidang penting yang memerlukan pembangunan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Strategi Pelabelan&lt;/strong&gt;: Amalan terbaik untuk mencipta sistem pelabelan yang berkesan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kes Penggunaan Lanjutan&lt;/strong&gt;: Senario pelabelan kompleks dan aplikasi perniagaan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contoh Integrasi&lt;/strong&gt;: Bagaimana label berfungsi dengan kumpulan, kebenaran, dan modul&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ciri Automasi&lt;/strong&gt;: Pelabelan dinamik berdasarkan sifat atau tingkah laku pengguna&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analitik &amp;amp; Pelaporan&lt;/strong&gt;: Pelaporan berasaskan label dan wawasan organisasi&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Gambaran Keseluruhan&lt;span class="hx:absolute hx:-mt-20" id="gambaran-keseluruhan"&gt;&lt;/span&gt;
+&lt;a href="#gambaran-keseluruhan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Label ahli dalam BigLedger menyediakan sistem penandaan dan pengkategorian yang fleksibel untuk menyusun pengguna melangkaui struktur hierarki tradisional. Label membolehkan organisasi merentas fungsi, kebolehcarian yang lebih baik, dan keupayaan pengurusan pengguna yang canggih.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;TODO: Comprehensive Documentation Needed&lt;span class="hx:absolute hx:-mt-20" id="todo-comprehensive-documentation-needed"&gt;&lt;/span&gt;
+&lt;a href="#todo-comprehensive-documentation-needed" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Priority 1: Strategi &amp;amp; Reka Bentuk Pelabelan&lt;span class="hx:absolute hx:-mt-20" id="priority-1-strategi--reka-bentuk-pelabelan"&gt;&lt;/span&gt;
+&lt;a href="#priority-1-strategi--reka-bentuk-pelabelan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Seni Bina Label&lt;/strong&gt;: Merancang sistem pelabelan yang berkesan untuk pelbagai jenis organisasi&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Amalan Terbaik&lt;/strong&gt;: Konvensyen penamaan, pengekodan warna, dan strategi organisasi&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Perancangan Kebolehskalaan&lt;/strong&gt;: Mengurus label dalam organisasi besar dengan struktur kompleks&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Pertimbangan Prestasi&lt;/strong&gt;: Mengoptimumkan penggunaan label untuk kecekapan sistem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Priority 2: Fungsi Lanjutan&lt;span class="hx:absolute hx:-mt-20" id="priority-2-fungsi-lanjutan"&gt;&lt;/span&gt;
+&lt;a href="#priority-2-fungsi-lanjutan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Label Dinamik&lt;/strong&gt;: Label yang diberikan secara automatik berdasarkan sifat pengguna&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Hierarki Label&lt;/strong&gt;: Hubungan induk-anak dan struktur label bersarang&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Logik Bersyarat&lt;/strong&gt;: Penetapan dan pengurusan label berasaskan peraturan&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Operasi Pukal&lt;/strong&gt;: Pengurusan cekap label merentasi asas pengguna yang besar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Priority 3: Integrasi &amp;amp; Analitik&lt;span class="hx:absolute hx:-mt-20" id="priority-3-integrasi--analitik"&gt;&lt;/span&gt;
+&lt;a href="#priority-3-integrasi--analitik" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Integrasi Modul&lt;/strong&gt;: Bagaimana label berfungsi dengan modul perakaunan, jualan, dan lain-lain&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Sistem Pelaporan&lt;/strong&gt;: Analitik berasaskan label dan wawasan organisasi&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Penambahbaikan Carian&lt;/strong&gt;: Menggunakan label untuk meningkatkan penemuan pengguna dan data&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Integrasi Aliran Kerja&lt;/strong&gt;: Label dalam proses kelulusan dan aliran kerja perniagaan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Fungsi Asas Semasa&lt;span class="hx:absolute hx:-mt-20" id="fungsi-asas-semasa"&gt;&lt;/span&gt;
+&lt;a href="#fungsi-asas-semasa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Mencipta Label Ahli&lt;span class="hx:absolute hx:-mt-20" id="mencipta-label-ahli"&gt;&lt;/span&gt;
+&lt;a href="#mencipta-label-ahli" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Maklumat Diperlukan&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Senarai Label&lt;/strong&gt;: Kategori induk (mesti dicipta dalam modul Senarai Label Ahli dahulu)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nama Label&lt;/strong&gt;: Pengecam deskriptif untuk label&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kod Label&lt;/strong&gt;: Pengecam unik yang dijana oleh sistem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Pengurusan Label&lt;span class="hx:absolute hx:-mt-20" id="pengurusan-label"&gt;&lt;/span&gt;
+&lt;a href="#pengurusan-label" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Konfigurasi Tab Butiran&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Senarai Label&lt;/strong&gt;: Ubah suai penetapan kategori induk&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nama Label&lt;/strong&gt;: Kemas kini penamaan deskriptif&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: Kawal status aktif/tidak aktif&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simpan/Padam&lt;/strong&gt;: Uruskan kitaran hayat label&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Pengurusan Tab Ahli&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tambah Ahli&lt;/strong&gt;: Berikan pengguna kepada label menggunakan butang &amp;lsquo;+&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pilih Ahli&lt;/strong&gt;: Pilih daripada pengguna sedia ada atau tambah ahli baharu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pengurusan Ahli&lt;/strong&gt;: Lihat dan uruskan semua pengguna yang diberikan kepada label&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Aliran Kerja Pelaksanaan Asas&lt;span class="hx:absolute hx:-mt-20" id="aliran-kerja-pelaksanaan-asas"&gt;&lt;/span&gt;
+&lt;a href="#aliran-kerja-pelaksanaan-asas" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sementara dokumentasi menyeluruh sedang dibangunkan:&lt;/p&gt;
+&lt;h3&gt;Langkah 1: Rancang Sistem Pelabelan Anda&lt;span class="hx:absolute hx:-mt-20" id="langkah-1-rancang-sistem-pelabelan-anda"&gt;&lt;/span&gt;
+&lt;a href="#langkah-1-rancang-sistem-pelabelan-anda" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Tentukan tujuan dan skop label anda&lt;/li&gt;
+&lt;li&gt;Pertimbangkan bagaimana label melengkapkan struktur kumpulan sedia ada&lt;/li&gt;
+&lt;li&gt;Rancang konvensyen penamaan dan hierarki organisasi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Langkah 2: Cipta Senarai Label (Asas)&lt;span class="hx:absolute hx:-mt-20" id="langkah-2-cipta-senarai-label-asas"&gt;&lt;/span&gt;
+&lt;a href="#langkah-2-cipta-senarai-label-asas" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Sediakan kategori induk dalam modul Senarai Label Ahli&lt;/li&gt;
+&lt;li&gt;Wujudkan corak penamaan dan organisasi yang konsisten&lt;/li&gt;
+&lt;li&gt;Rancang untuk pengembangan masa depan dan perubahan organisasi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Langkah 3: Cipta Label Individu&lt;span class="hx:absolute hx:-mt-20" id="langkah-3-cipta-label-individu"&gt;&lt;/span&gt;
+&lt;a href="#langkah-3-cipta-label-individu" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Cipta label khusus dalam senarai yang telah diwujudkan&lt;/li&gt;
+&lt;li&gt;Gunakan penamaan yang konsisten dan deskriptif&lt;/li&gt;
+&lt;li&gt;Konfigurasikan tetapan status yang sesuai&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Langkah 4: Berikan Ahli&lt;span class="hx:absolute hx:-mt-20" id="langkah-4-berikan-ahli"&gt;&lt;/span&gt;
+&lt;a href="#langkah-4-berikan-ahli" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Tambah pengguna yang berkaitan kepada label yang sesuai&lt;/li&gt;
+&lt;li&gt;Uji fungsi carian dan penapisan&lt;/li&gt;
+&lt;li&gt;Sahkan integrasi dengan modul dan ciri lain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Perbezaan Label lwn Kumpulan&lt;span class="hx:absolute hx:-mt-20" id="perbezaan-label-lwn-kumpulan"&gt;&lt;/span&gt;
+&lt;a href="#perbezaan-label-lwn-kumpulan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Kumpulan&lt;/strong&gt;: Struktur organisasi berhierarki, berasaskan kebenaran, formal&lt;br&gt;
+&lt;strong&gt;Label&lt;/strong&gt;: Tag fleksibel, merentas fungsi, sifat yang boleh dicari&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Gunakan Kumpulan Untuk&lt;/strong&gt;: Jabatan, peranan, kebenaran formal&lt;br&gt;
+&lt;strong&gt;Gunakan Label Untuk&lt;/strong&gt;: Kemahiran, projek, lokasi, pengkhususan, pensijilan&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Sumber Berkaitan&lt;span class="hx:absolute hx:-mt-20" id="sumber-berkaitan"&gt;&lt;/span&gt;
+&lt;a href="#sumber-berkaitan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sementara halaman ini dalam pembangunan, terokai topik berkaitan ini:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/member-label-list/" &gt;Senarai Label Ahli&lt;/a&gt; - Mencipta kategori label dan struktur induk&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/member-listing/" &gt;Pengurusan Pengguna&lt;/a&gt; - Pengurusan akaun pengguna teras&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/group-listing/" &gt;Penyenaraian Kumpulan&lt;/a&gt; - Struktur kumpulan organisasi&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/member-class/" &gt;Klasifikasi Ahli&lt;/a&gt; - Kawalan akses berasaskan peranan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Garis Masa Pembangunan&lt;span class="hx:absolute hx:-mt-20" id="garis-masa-pembangunan"&gt;&lt;/span&gt;
+&lt;a href="#garis-masa-pembangunan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Fasa 1&lt;/strong&gt; (Segera): Dokumentasi strategi pelabelan dan amalan terbaik&lt;br&gt;
+&lt;strong&gt;Fasa 2&lt;/strong&gt; (Jangka pendek): Ciri lanjutan dan contoh integrasi&lt;br&gt;
+&lt;strong&gt;Fasa 3&lt;/strong&gt; (Jangka sederhana): Keupayaan analitik, pelaporan, dan automasi&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;Status Semasa&lt;/strong&gt;: Fungsi penciptaan label asas dan penetapan ahli tersedia. Untuk strategi pelabelan yang kompleks atau keperluan organisasi lanjutan, hubungi sokongan teknikal di &lt;a href="mailto:vincent@bigledger.com" &gt;vincent@bigledger.com&lt;/a&gt; untuk panduan dan perundingan amalan terbaik.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Applet Organisasi Lokasi</title><link>https://www.bigledger.com/ms/applets/location-organization-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/applets/location-organization-applet/</guid><description>
+&lt;p&gt;Setiap cawangan boleh mempunyai pelbagai lokasi
+Ini ialah ikon ketiga dalam bar sisi, &amp;ldquo;Location.&amp;rdquo; Bahagian ini menyenaraikan semua lokasi, dan setiap cawangan boleh mempunyai pelbagai lokasi. Pengguna boleh mencipta lokasi baharu atau mengedit lokasi sedia ada di sini.
+Tab edit adalah serupa dengan yang terdapat di &lt;a href="https://bigledger.atlassian.net/wiki/spaces/AKAUN/pages/3196191408/Branch&amp;#43;-&amp;#43;Organization&amp;#43;Applet#Edit-branch" target="_blank" rel="noopener"&gt;https://bigledger.atlassian.net/wiki/spaces/AKAUN/pages/3196191408/Branch+-+Organization+Applet#Edit-branch&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Tetapan Applet Organization</title><link>https://www.bigledger.com/ms/applets/settings-of-organization-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/applets/settings-of-organization-applet/</guid><description>
+&lt;p&gt;﻿Bahagian ini merangkumi semua tetapan yang digunakan oleh Wavelet.
+Kebenaran peranan membolehkan anda menetapkan kebenaran tertentu jika diperlukan.&lt;/p&gt;</description></item><item><title>Aplet Organisasi Cawangan</title><link>https://www.bigledger.com/ms/applets/branch-organization-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/applets/branch-organization-applet/</guid><description>
+&lt;p&gt;noneBahagian ini merangkumi tab utama kedua dalam bar sisi, Branches, di mana pengguna boleh mencipta dan menyunting butiran untuk cawangan mereka.
+Sebuah syarikat boleh mempunyai berbilang cawangan
+Pengguna boleh sama ada memilih untuk mencipta cawangan mereka daripada ikon kedua pada bar sisi kiri atau beralih ke Tab Sunting Company Listing untuk mencipta cawangan.
+Cara mencipta Cawangan daripada Bar Sisi
+Cipta Cawangan Daripada Tab Company Listing﻿﻿
+Topik kedua dalam bahagian ini memberikan gambaran keseluruhan setiap tab dalam menu Edit Branch, menonjolkan cirinya untuk menambah baik konfigurasi cawangan.&lt;/p&gt;
+&lt;h1&gt;Cipta Cawangan﻿&lt;/h1&gt;&lt;p&gt;Pengguna boleh mencipta berbilang cawangan, semuanya dipautkan kepada satu syarikat&lt;/p&gt;
+&lt;h2&gt;Cipta Cawangan Daripada Bar Sisi﻿&lt;span class="hx:absolute hx:-mt-20" id="cipta-cawangan-daripada-bar-sisi"&gt;&lt;/span&gt;
+&lt;a href="#cipta-cawangan-daripada-bar-sisi" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Ikon kedua pada bar menu kiri ialah Tab Branch, yang membolehkan pengguna mencipta cawangan baharu untuk sesebuah syarikat secara manual. Pengguna boleh menekan butang &amp;lsquo;+&amp;rsquo; untuk mencipta cawangan baharu.
+Isi semua medan yang diperlukan dalam Tab Details seperti yang digariskan di bawah.
+Setelah selesai, klik &amp;lsquo;Save&amp;rsquo; untuk menyimpan butiran cawangan.
+Pengguna boleh memilih antara &amp;lsquo;Create Default Location&amp;rsquo; atau &amp;lsquo;Choose From Existing Location&amp;rsquo; semasa menyediakan cawangan.
+Jika anda mencipta cawangan sebelum menyediakan lokasi dan memilih &amp;lsquo;Create Default Location&amp;rsquo;, sistem akan mencipta satu lokasi lalai secara automatik.
+Medan yang perlu diisi dalam Tab Details ialah:
+Branch Code, Branch Name
+Company Name: Pautkan cawangan kepada syarikat anda. Ini akan dipaparkan sebagai nama syarikat yang dipilih
+Company Registration No.: Dipaparkan seperti yang diisi oleh pengguna
+Branch Commencement Date
+Currency: Mata wang berbeza boleh dipilih daripada senarai juntai bawah
+Jika pengguna mencipta lokasi sebelum cawangan, kemudian pengguna memilih &amp;lsquo;Choose From Existing Location&amp;rsquo;, medan tambahan yang diperlukan dalam Tab Details ialah:
+Location Code
+Default Location
+Selepas mengisi semua butiran yang perlu, klik &amp;lsquo;Save&amp;rsquo; untuk menyimpan maklumat cawangan.
+Isi butiran dalam Tab Address seperti yang diarahkan sebelum ini.
+Selepas mengesahkan semua maklumat, klik butang &amp;lsquo;Save&amp;rsquo; untuk menyimpan butiran cawangan.&lt;/p&gt;
+&lt;h2&gt;Cipta Cawangan Daripada Tab Company Listing﻿﻿&lt;span class="hx:absolute hx:-mt-20" id="cipta-cawangan-daripada-tab-company-listing"&gt;&lt;/span&gt;
+&lt;a href="#cipta-cawangan-daripada-tab-company-listing" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Jika pengguna memilih untuk mencipta cawangan bagi syarikat terpilih dalam halaman Company Listing, mereka secara langsung memautkan cawangan kepada syarikat tersebut. Klik tanda &amp;lsquo;+&amp;rsquo; untuk mula mencipta cawangan.
+Navigasi ke Tab Branch dalam suntingan syarikat dan klik butang &amp;lsquo;+&amp;rsquo; untuk mencipta cawangan baharu.
+Pilih syarikat yang anda ingin cipta cawangan daripada senarai juntai bawah. Company Name dan Company Registration No. akan diisi secara automatik berdasarkan pilihan anda.
+Isi medan wajib yang perlu diisi dalam Tab Details dan Address&lt;/p&gt;
+&lt;h1&gt;Sunting cawangan﻿&lt;/h1&gt;&lt;p&gt;Daripada halaman Branch Listing, klik pada Cawangan yang anda cipta untuk melihat semua tab yang tersedia:
+Details: Bahagian ini memaparkan butiran utama cawangan yang dicipta dalam bahagian 2.1, di mana pengguna boleh menambah atau menyunting sebarang maklumat jika perlu.
+Default Pricing: ialah konfigurasi penetapan harga lalai. Ia boleh ditetapkan mengikut cawangan atau syarikat. Sebagai contoh, jika anda mempunyai skim harga berbeza untuk Malaysia Timur dan Barat, anda boleh menggunakan penetapan harga cawangan Timur pada cawangan di kawasan tersebut.
+Address: Lihat dan Sunting alamat cawangan.
+Pick Pack: digunakan untuk pesanan sumber. Sekiranya anda menggunakan pilihan penghantaran, isikannya; jika tidak, anda boleh biarkan kosong.
+Marketplace: adalah untuk produk EcomSync, yang dipautkan kepada marketplace anda seperti Shopee dan Lazada. Di sinilah anda mengkonfigurasi tetapan.
+Location: Di sinilah lokasi lalai, yang baru sahaja dicipta oleh sistem semasa menyediakan cawangan, ditunjukkan. Sebagai alternatif, anda boleh memilih daripada lokasi sedia ada.
+Settlement: Di sinilah anda menentukan jenis penyelesaian yang boleh dilihat oleh setiap cawangan. Setiap cawangan boleh mempunyai penyelesaian berbeza
+Sebagai contoh: tunai, kad kredit, atau Maybank.
+Settlement digunakan untuk cashbook atau POS anda, termasuk pilihan pembayaran seperti GrabPay atau ShopeePay. Di sinilah anda mengkonfigurasinya.
+Labels: digunakan untuk penandaan cawangan
+Extension: digunakan untuk CP Commerce
+Customer and Supplier: pautkan cawangan kepada pelanggan/pembekal tertentu. Apabila dikonfigurasikan di sini, transaksi akan direkodkan secara automatik. Ciri ini adalah sebahagian daripada butiran konfigurasi antara syarikat
+Intercompany: Tetapkan sama ada sistem memuktamadkan transaksi antara syarikat secara automatik atau membiarkannya sebagai draf untuk kelulusan manual. Anda juga boleh mengkonfigurasi sama ada mencipta invois jualan patut mencipta invois pembelian secara automatik. Di sinilah tetapan auto-konfigurasi diuruskan.&lt;/p&gt;</description></item><item><title>Aplet Organisasi Syarikat</title><link>https://www.bigledger.com/ms/applets/company-organization-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/applets/company-organization-applet/</guid><description>
+&lt;p&gt;noneApabila log masuk ke Organization Applet, halaman pertama yang dipaparkan kepada pengguna ialah halaman Company Listing dalam ikon pertama pada bar sisi kiri.
+Dalam bahagian ini, kami akan merangkumi dua topik utama:
+Cara Mencipta Syarikat: Panduan langkah demi langkah tentang menyediakan butiran syarikat dan menambah alamat.
+Cara Menyunting Syarikat: Gambaran keseluruhan setiap tab dan cirinya untuk meningkatkan konfigurasi syarikat&lt;/p&gt;
+&lt;h1&gt;Cipta Syarikat﻿&lt;/h1&gt;&lt;p&gt;Satu syarikat boleh mempunyai berbilang sub-cawangan, dan tiada had untuk konfigurasi ini
+Untuk mula mencipta syarikat, pengguna boleh mengklik butang &amp;lsquo;+&amp;rsquo; yang terletak di penjuru kiri atas.&lt;/p&gt;
+&lt;h2&gt;Tab Company﻿&lt;span class="hx:absolute hx:-mt-20" id="tab-company"&gt;&lt;/span&gt;
+&lt;a href="#tab-company" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Cipta Syarikat﻿&lt;span class="hx:absolute hx:-mt-20" id="cipta-syarikat-1"&gt;&lt;/span&gt;
+&lt;a href="#cipta-syarikat-1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Klik butang &amp;lsquo;+&amp;rsquo; di penjuru kiri atas.
+Isi semua medan yang diperlukan dengan maklumat yang perlu. Medan yang ditandakan dengan * adalah wajib dan tidak boleh diubah suai kemudian.
+Setelah selesai, klik &amp;lsquo;Save&amp;rsquo; di penjuru kanan atas.
+Sila rujuk tangkapan skrin di bawah untuk panduan.
+Langkah 1: Klik butang &amp;lsquo;+&amp;rsquo; untuk mencipta syarikat.
+Langkah 2 dan 3: Isi semua medan yang diperlukan dan klik &amp;lsquo;Save&amp;rsquo;.
+Dalam borang Penciptaan Syarikat, anda perlu mengisi medan berikut:
+Company Code, Name, Registration No.: Masukkan butiran ini
+Company Incorporation Date: Bila syarikat ditubuhkan
+Tax ID, SST ID #: Jika berkenaan
+Fax Number: Jika berkenaan
+Phone Number: Wajib
+Currency: Pilih daripada senarai juntai bawah.
+Chart of Accounts: Cipta carta akaun sebelum menyediakan syarikat. Ikuti langkah di sini. Setelah carta akaun disediakan, pilih yang sesuai daripada menu juntai bawah.
+Rounding Five Cent: Jika perlu - Pilih kod item yang sistem isi secara automatik untuk transaksi.
+Group Discounts: Anda boleh menggunakan diskaun kepada keseluruhan transaksi, atau sistem boleh memilih kod item secara automatik.
+Default Purchase and Sales Return Options: Untuk kedua-dua Pemulangan Pembelian dan Pemulangan Jualan, anda boleh memilih pilihan harga yang serupa:
+Last Purchase Price: Pilih pilihan ini untuk menggunakan harga pembelian terakhir bagi pemulangan.
+Moving Average Cost: Pilih pilihan ini jika anda memilih harga berdasarkan kos purata bergerak.
+Invoice Price: Pilihan yang paling biasa digunakan, menggunakan harga daripada invois pembelian atau jualan yang berkaitan bagi pemulangan.
+Company Logo: Pengguna boleh memuat naik logo syarikat serta-merta atau memilih untuk memuat naiknya kemudian.&lt;/p&gt;
+&lt;h2&gt;Tab Address﻿&lt;span class="hx:absolute hx:-mt-20" id="tab-address"&gt;&lt;/span&gt;
+&lt;a href="#tab-address" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Semasa mencipta syarikat, pengguna dikehendaki mengisi butiran alamat. Maklumat ini penting untuk penyimpanan rekod yang tepat dan tujuan surat-menyurat.&lt;/p&gt;
+&lt;h3&gt;Isi Alamat Syarikat﻿&lt;span class="hx:absolute hx:-mt-20" id="isi-alamat-syarikat"&gt;&lt;/span&gt;
+&lt;a href="#isi-alamat-syarikat" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Navigasi ke Tab Address.
+Isi semua medan yang diperlukan, termasuk butiran pos dan maklumat negara. Medan yang ditandakan dengan * adalah wajib.
+Setelah selesai, klik &amp;lsquo;Save&amp;rsquo; di penjuru kanan atas untuk menyimpan maklumat alamat.
+Sila rujuk tangkapan skrin di bawah untuk panduan.
+Langkah 1, 2: Isi butiran alamat yang diperlukan dan klik &amp;lsquo;Save&amp;rsquo;.
+Medan yang diperlukan dalam Tab Address adalah seperti berikut:
+Address Line 1: Butiran alamat utama
+Address Line 2: Butiran alamat tambahan
+Address Line 3: Baris tambahan pilihan
+Address Line 4: Baris tambahan pilihan
+Address Line 5: Baris tambahan pilihan
+Postal Code: Poskod atau kod pos
+City: Bandar tempat syarikat terletak
+Country: Negara berbeza boleh dipilih daripada senarai juntai bawah
+Currency: Pilih mata wang yang berkenaan daripada senarai juntai bawah
+State: Pilih negeri atau wilayah yang berkaitan daripada senarai juntai bawah&lt;/p&gt;
+&lt;h1&gt;Sunting Syarikat﻿&lt;/h1&gt;&lt;p&gt;Daripada halaman Company Listing, klik pada syarikat yang anda cipta untuk melihat semua tab yang tersedia:
+Details: Bahagian ini memaparkan butiran utama syarikat yang dicipta dalam bahagian 1.1, di mana pengguna boleh menambah atau menyunting sebarang maklumat jika perlu.
+E-invoice: Konfigurasikan syarikat untuk E-invois kepada LHDN
+Peppol Config: Jika menggunakan Peppol, tab ini adalah untuk mengkonfigurasi perantara.
+Tax: Jika syarikat mempunyai SSD, tab ini digunakan untuk Tax Config.
+Address: Memaparkan alamat yang dicipta dalam bahagian 1.2. Pengguna boleh menyunting atau menambah maklumat tambahan jika perlu.
+Branch: Menyenaraikan semua cawangan yang dicipta di bawah syarikat terpilih.
+Location: Menunjukkan semua lokasi di bawah setiap cawangan untuk syarikat.
+Labels: Digunakan untuk penandaan syarikat, seperti pengumpulan mengikut jabatan.
+Employee: Memaparkan senarai pekerja di bawah syarikat. Ini dipautkan kepada Employee Applet.&lt;/p&gt;
+&lt;h2&gt;Knock Off Config:﻿&lt;span class="hx:absolute hx:-mt-20" id="knock-off-config"&gt;&lt;/span&gt;
+&lt;a href="#knock-off-config" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Apakah KO (Knock Off)?&lt;span class="hx:absolute hx:-mt-20" id="apakah-ko-knock-off"&gt;&lt;/span&gt;
+&lt;a href="#apakah-ko-knock-off" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Konfigurasi Knock Off (KO) digunakan apabila sesebuah syarikat perlu menguruskan penjejakan pengeluaran dokumen untuk transaksi yang melibatkan:
+✅ Invois pelanggan (cth., menjejaki sama ada invois telah dibayar sepenuhnya).
+✅ Invois pembekal (cth., memastikan pembayaran direkodkan dengan betul terhadap bil pembekal).
+Pada asasnya, KO membantu mengautomasikan penyesuaian antara invois yang dikeluarkan dan pembayaran yang diterima, mencegah percanggahan dalam rekod kewangan.&lt;/p&gt;
+&lt;h3&gt;Bila Anda Perlu Mengkonfigurasi KO?&lt;span class="hx:absolute hx:-mt-20" id="bila-anda-perlu-mengkonfigurasi-ko"&gt;&lt;/span&gt;
+&lt;a href="#bila-anda-perlu-mengkonfigurasi-ko" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Mengkonfigurasi KO adalah pilihan tetapi mungkin perlu jika:
+Syarikat ingin menjejaki pembayaran terhadap invois secara automatik.
+Perniagaan memerlukan pengesahan pengeluaran dokumen sebelum transaksi ditandakan sebagai selesai.
+Terdapat keperluan untuk memautkan pengeluaran invois kepada transaksi pembekal/pelanggan untuk pemprosesan dalaman.
+Persediaan kritikal untuk syarikat mengkonfigurasi aliran kerja. Klik butang &amp;lsquo;+&amp;rsquo; untuk memulakan persediaan.
+Server Doc Type Options: Penting untuk menyediakan aliran kerja syarikat, seperti mengkonfigurasi proses untuk pesanan pembelian, menukarkannya kepada GRN atau invois pembelian, atau menyediakan proses jualan (dari pesanan jualan kepada invois jualan). Konfigurasi adalah berdasarkan jenis dokumen.
+Pengguna perlu memilih jenis server. Server Type 1 merujuk kepada dokumen sumber, manakala Server Type 2 merujuk kepada dokumen sasaran
+Ini ialah contoh aliran persediaan knock-off (KO) asas untuk pelanggan. Sebagai contoh, apabila pengguna mencipta invois, akan terdapat dua pilihan knock-off: Sales Order dan Sales Quotation.
+Ini bermakna dalam aplet Sales Invoice, di bawah tab KO (knock-off), pengguna akan melihat dua pilihan: Sales Order dan Sales Quotation.
+Pengguna boleh mendayakan atau melumpuhkan tetapan knock-off daripada halaman tab utama.
+Pilihan KO (knock-off) bergantung pada konfigurasi pelanggan dan keperluan pengguna. Pengguna boleh menambah lebih banyak pilihan jika perlu dengan mengkonfigurasinya dalam Organisation applet semasa mencipta atau menyunting butiran syarikat.&lt;/p&gt;
+&lt;h2&gt;Advance Filter Search﻿&lt;span class="hx:absolute hx:-mt-20" id="advance-filter-search"&gt;&lt;/span&gt;
+&lt;a href="#advance-filter-search" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Penapis lanjutan membolehkan anda mencari mengikut syarikat, nama syarikat, nombor pendaftaran, atau status. Setiap sub-modul termasuk pilihan penapisan lanjutan ini.&lt;/p&gt;</description></item></channel></rss>

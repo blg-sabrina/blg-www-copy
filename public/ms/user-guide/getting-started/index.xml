@@ -1,4 +1,81 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dokumentasi BigLedger – Bermula</title><link>https://www.bigledger.com/ms/user-guide/getting-started/</link><description>Recent content in Bermula on Dokumentasi BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ms</language><atom:link href="https://www.bigledger.com/ms/user-guide/getting-started/index.xml" rel="self" type="application/rss+xml"/><item><title>Gambaran Keseluruhan Platform</title><link>https://www.bigledger.com/ms/user-guide/getting-started/platform-overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/user-guide/getting-started/platform-overview/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dokumentasi BigLedger – Bermula</title><link>https://www.bigledger.com/ms/user-guide/getting-started/</link><description>Recent content in Bermula on Dokumentasi BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ms</language><atom:link href="https://www.bigledger.com/ms/user-guide/getting-started/index.xml" rel="self" type="application/rss+xml"/><item><title>Panduan Navigasi &amp; Antara Muka</title><link>https://www.bigledger.com/ms/user-guide/getting-started/navigation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/user-guide/getting-started/navigation/</guid><description>
+&lt;h2&gt;Gambaran Keseluruhan Antara Muka&lt;span class="hx:absolute hx:-mt-20" id="gambaran-keseluruhan-antara-muka"&gt;&lt;/span&gt;
+&lt;a href="#gambaran-keseluruhan-antara-muka" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Antara muka moden BigLedger direka untuk kecekapan dan kemudahan penggunaan, menyediakan akses pantas ke semua fungsi perniagaan melalui sistem navigasi yang intuitif.&lt;/p&gt;
+&lt;h2&gt;Menu Navigasi Utama&lt;span class="hx:absolute hx:-mt-20" id="menu-navigasi-utama"&gt;&lt;/span&gt;
+&lt;a href="#menu-navigasi-utama" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Bar Navigasi Atas&lt;span class="hx:absolute hx:-mt-20" id="bar-navigasi-atas"&gt;&lt;/span&gt;
+&lt;a href="#bar-navigasi-atas" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Modul&lt;/strong&gt;: Akses modul perniagaan teras (Perakaunan, Inventori, CRM, dll.)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Applet&lt;/strong&gt;: Fungsi lanjutan dan aliran kerja tersuai&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;E-Invois&lt;/strong&gt;: Integrasi PEPPOL dan MyInvois&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Operasi Perniagaan&lt;/strong&gt;: Tugas operasi harian&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Panduan Pengguna&lt;/strong&gt;: Dokumentasi menyeluruh&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bar Alat Akses Pantas&lt;span class="hx:absolute hx:-mt-20" id="bar-alat-akses-pantas"&gt;&lt;/span&gt;
+&lt;a href="#bar-alat-akses-pantas" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cari&lt;/strong&gt;: Carian global merentasi semua modul&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pemberitahuan&lt;/strong&gt;: Amaran dan kemas kini masa nyata&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Profil Pengguna&lt;/strong&gt;: Tetapan akaun dan keutamaan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bantuan&lt;/strong&gt;: Bantuan sensitif konteks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Susun Atur Ruang Kerja&lt;span class="hx:absolute hx:-mt-20" id="susun-atur-ruang-kerja"&gt;&lt;/span&gt;
+&lt;a href="#susun-atur-ruang-kerja" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Widget Papan Pemuka&lt;span class="hx:absolute hx:-mt-20" id="widget-papan-pemuka"&gt;&lt;/span&gt;
+&lt;a href="#widget-papan-pemuka" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Penempatan widget boleh disesuaikan&lt;/li&gt;
+&lt;li&gt;Fungsi seret-dan-lepas&lt;/li&gt;
+&lt;li&gt;Kemas kini data masa nyata&lt;/li&gt;
+&lt;li&gt;Pelbagai paparan papan pemuka&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Grid Data&lt;span class="hx:absolute hx:-mt-20" id="grid-data"&gt;&lt;/span&gt;
+&lt;a href="#grid-data" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Penyesuaian lajur&lt;/li&gt;
+&lt;li&gt;Penapisan lanjutan&lt;/li&gt;
+&lt;li&gt;Keupayaan eksport&lt;/li&gt;
+&lt;li&gt;Penyuntingan sebaris&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Pintasan Papan Kekunci&lt;span class="hx:absolute hx:-mt-20" id="pintasan-papan-kekunci"&gt;&lt;/span&gt;
+&lt;a href="#pintasan-papan-kekunci" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Navigasi&lt;span class="hx:absolute hx:-mt-20" id="navigasi"&gt;&lt;/span&gt;
+&lt;a href="#navigasi" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Ctrl + K&lt;/code&gt;: Carian pantas&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Ctrl + /&lt;/code&gt;: Togol menu&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Ctrl + M&lt;/code&gt;: Penukar modul&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Esc&lt;/code&gt;: Tutup dialog&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Operasi Data&lt;span class="hx:absolute hx:-mt-20" id="operasi-data"&gt;&lt;/span&gt;
+&lt;a href="#operasi-data" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Ctrl + N&lt;/code&gt;: Rekod baharu&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Ctrl + S&lt;/code&gt;: Simpan&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Ctrl + D&lt;/code&gt;: Padam&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Ctrl + E&lt;/code&gt;: Mod suntingan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Navigasi Mudah Alih&lt;span class="hx:absolute hx:-mt-20" id="navigasi-mudah-alih"&gt;&lt;/span&gt;
+&lt;a href="#navigasi-mudah-alih" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Reka Bentuk Responsif&lt;span class="hx:absolute hx:-mt-20" id="reka-bentuk-responsif"&gt;&lt;/span&gt;
+&lt;a href="#reka-bentuk-responsif" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Antara muka dioptimumkan untuk sentuhan&lt;/li&gt;
+&lt;li&gt;Sokongan gerak isyarat leretan&lt;/li&gt;
+&lt;li&gt;Keupayaan mod luar talian&lt;/li&gt;
+&lt;li&gt;Ciri aplikasi web progresif&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Petua untuk Navigasi Cekap&lt;span class="hx:absolute hx:-mt-20" id="petua-untuk-navigasi-cekap"&gt;&lt;/span&gt;
+&lt;a href="#petua-untuk-navigasi-cekap" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Gunakan Kegemaran&lt;/strong&gt;: Sematkan halaman yang kerap digunakan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sesuaikan Papan Pemuka&lt;/strong&gt;: Susun widget untuk aliran kerja anda&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pelajari Pintasan&lt;/strong&gt;: Percepatkan tugas biasa&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gunakan Carian&lt;/strong&gt;: Cari dengan pantas sebarang fungsi atau data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tetapkan Keutamaan&lt;/strong&gt;: Konfigurasi antara muka mengikut keperluan anda&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Mendapatkan Bantuan&lt;span class="hx:absolute hx:-mt-20" id="mendapatkan-bantuan"&gt;&lt;/span&gt;
+&lt;a href="#mendapatkan-bantuan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Bantuan Kontekstual&lt;/strong&gt;: Klik ikon ? pada mana-mana halaman&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Panduan Pengguna&lt;/strong&gt;: Akses dokumentasi menyeluruh&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Portal Sokongan&lt;/strong&gt;: Serahkan tiket dan jejaki isu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Forum Komuniti&lt;/strong&gt;: Berhubung dengan pengguna lain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Topik Berkaitan&lt;span class="hx:absolute hx:-mt-20" id="topik-berkaitan"&gt;&lt;/span&gt;
+&lt;a href="#topik-berkaitan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/member-listing/" &gt;Peranan &amp;amp; Kebenaran Pengguna&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/business-operations/dashboard/" &gt;Konfigurasi Papan Pemuka&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/introduction/" &gt;Panduan Bermula&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Gambaran Keseluruhan Platform</title><link>https://www.bigledger.com/ms/user-guide/getting-started/platform-overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/user-guide/getting-started/platform-overview/</guid><description>
 &lt;h2&gt;TLDR (Terlalu Panjang; Tidak Dibaca)&lt;span class="hx:absolute hx:-mt-20" id="tldr-terlalu-panjang-tidak-dibaca"&gt;&lt;/span&gt;
 &lt;a href="#tldr-terlalu-panjang-tidak-dibaca" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;BigLedger ialah Business Operating System (BOS)&lt;/strong&gt; - Bayangkan seperti Android untuk operasi perniagaan anda&lt;/li&gt;
@@ -383,7 +460,7 @@
 &lt;a href="#lihat-juga" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Untuk Bermula&lt;span class="hx:absolute hx:-mt-20" id="untuk-bermula"&gt;&lt;/span&gt;
 &lt;a href="#untuk-bermula" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.bigledger.com/user-guide/implementation" &gt;Panduan Pelaksanaan&lt;/a&gt; - Panduan penggunaan langkah demi langkah&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.bigledger.com/applets/applet-store" &gt;Gambaran Keseluruhan Applet Store&lt;/a&gt; - Semak imbas applet yang tersedia&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/applets/applet-store/" &gt;Gambaran Keseluruhan Applet Store&lt;/a&gt; - Semak imbas applet yang tersedia&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.bigledger.com/tutorials/quick-start" &gt;Tutorial Mula Pantas&lt;/a&gt; - Mula beroperasi dalam 30 minit&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Modul Teras&lt;span class="hx:absolute hx:-mt-20" id="modul-teras"&gt;&lt;/span&gt;
@@ -396,7 +473,7 @@
 &lt;a href="#topik-lanjutan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.bigledger.com/developers/api-reference" &gt;Dokumentasi API&lt;/a&gt; - Panduan integrasi&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.bigledger.com/developers/applet-sdk" &gt;Pembangunan Applet Tersuai&lt;/a&gt; - Bina applet anda sendiri&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.bigledger.com/ai-intelligence" &gt;AI &amp;amp; Automasi&lt;/a&gt; - Manfaatkan keupayaan AI&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/ai-intelligence/" &gt;AI &amp;amp; Automasi&lt;/a&gt; - Manfaatkan keupayaan AI&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Soalan Lazim&lt;span class="hx:absolute hx:-mt-20" id="soalan-lazim"&gt;&lt;/span&gt;
 &lt;a href="#soalan-lazim" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;details&gt;
@@ -432,4 +509,73 @@
 &lt;li&gt;&lt;strong&gt;Akademi Latihan&lt;/strong&gt;: &lt;a href="https://academy.bigledger.com" target="_blank" rel="noopener"&gt;academy.bigledger.com&lt;/a&gt; - Kursus percuma&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Forum Komuniti&lt;/strong&gt;: &lt;a href="https://forum.bigledger.com" target="_blank" rel="noopener"&gt;forum.bigledger.com&lt;/a&gt; - Komuniti pengguna&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Sokongan Telegram&lt;/strong&gt;: @leehongfay - Soalan pantas&lt;/li&gt;
-&lt;/ul&gt;</description></item></channel></rss>
+&lt;/ul&gt;</description></item><item><title>Pengenalan</title><link>https://www.bigledger.com/ms/user-guide/getting-started/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/user-guide/getting-started/introduction/</guid><description>
+&lt;p&gt;Selamat datang ke BigLedger, gerbang menyeluruh anda ke operasi perniagaan yang diperkemas dan cerapan berharga. BigLedger memusatkan data anda untuk menyediakan cerapan masa nyata dan pengurusan yang diperkemas merentasi semua aspek perniagaan anda.&lt;/p&gt;
+&lt;h2&gt;Sumber untuk Bermula&lt;span class="hx:absolute hx:-mt-20" id="sumber-untuk-bermula"&gt;&lt;/span&gt;
+&lt;a href="#sumber-untuk-bermula" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Terokai sumber menyeluruh kami untuk memaksimumkan pengalaman BigLedger anda:&lt;/p&gt;
+&lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 3;"&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ms/user-guide/platform-overview"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;Gambaran Keseluruhan Platform&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;Pengguna kali pertama dan sedia ada - panduan pendaftaran dan kebenaran&lt;/div&gt;&lt;/a&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ms/applets/"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;Direktori Applet&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;Panduan pengguna tentang Applet BigLedger dan alat automasi&lt;/div&gt;&lt;/a&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ms/user-guide/industry-solutions/"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;Penyelesaian Industri&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;Temui penyelesaian yang disesuaikan untuk industri khusus anda&lt;/div&gt;&lt;/a&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ms/modules/"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;Panduan Modul&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;Panduan menyeluruh untuk modul perniagaan BigLedger&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;h2&gt;Baharu ke BigLedger?&lt;span class="hx:absolute hx:-mt-20" id="baharu-ke-bigledger"&gt;&lt;/span&gt;
+&lt;a href="#baharu-ke-bigledger" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Jika anda baru sahaja bermula dengan BigLedger, berikut adalah langkah pertama yang penting:&lt;/p&gt;
+&lt;h3&gt;Tutorial Video Mula Pantas&lt;span class="hx:absolute hx:-mt-20" id="tutorial-video-mula-pantas"&gt;&lt;/span&gt;
+&lt;a href="#tutorial-video-mula-pantas" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;Tonton video pengenalan menyeluruh kami:&lt;/strong&gt;&lt;br&gt;
+📹 &lt;a href="https://youtu.be/WrFz_4JTC1s?si=gNb1FT-BAxKO_7xl" target="_blank" rel="noopener"&gt;Pendaftaran Panduan Pengguna BigLedger&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;Untuk Pengguna Baharu&lt;span class="hx:absolute hx:-mt-20" id="untuk-pengguna-baharu"&gt;&lt;/span&gt;
+&lt;a href="#untuk-pengguna-baharu" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Proses Pendaftaran&lt;/strong&gt;: Cipta akaun BigLedger anda dan sediakan profil syarikat anda&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Konfigurasi Awal&lt;/strong&gt;: Konfigurasi tetapan asas untuk keperluan perniagaan anda&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kebenaran Pengguna&lt;/strong&gt;: Pelajari cara mengurus akses dan kebenaran pasukan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Untuk Pengguna EMP Sedia Ada&lt;span class="hx:absolute hx:-mt-20" id="untuk-pengguna-emp-sedia-ada"&gt;&lt;/span&gt;
+&lt;a href="#untuk-pengguna-emp-sedia-ada" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Panduan Migrasi&lt;/strong&gt;: Peralihan lancar daripada sistem EMP sedia ada&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Import Data&lt;/strong&gt;: Pindahkan data perniagaan sedia ada anda&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kebenaran Sisi Pelayan&lt;/strong&gt;: Konfigurasi tetapan kebenaran lanjutan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Perlukan Bantuan?&lt;span class="hx:absolute hx:-mt-20" id="perlukan-bantuan"&gt;&lt;/span&gt;
+&lt;a href="#perlukan-bantuan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Pasukan sokongan kami sedia membantu anda dengan sebarang soalan atau panduan yang anda perlukan.&lt;/p&gt;
+&lt;h3&gt;Maklumat Hubungan&lt;span class="hx:absolute hx:-mt-20" id="maklumat-hubungan"&gt;&lt;/span&gt;
+&lt;a href="#maklumat-hubungan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;📧 E-mel&lt;/strong&gt;: &lt;a href="mailto:vincent@bigledger.com" &gt;vincent@bigledger.com&lt;/a&gt; / &lt;a href="mailto:sales@bigledger.com" &gt;sales@bigledger.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;💬 Telegram&lt;/strong&gt;: @leehongfay&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🌐 Laman Web&lt;/strong&gt;: &lt;a href="https://www.bigledger.com" target="_blank" rel="noopener"&gt;www.bigledger.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sumber Sokongan Tambahan&lt;span class="hx:absolute hx:-mt-20" id="sumber-sokongan-tambahan"&gt;&lt;/span&gt;
+&lt;a href="#sumber-sokongan-tambahan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;📚 Dokumentasi&lt;/strong&gt;: Panduan dan tutorial menyeluruh&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🎥 Perpustakaan Video&lt;/strong&gt;: Tutorial video langkah demi langkah&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;💬 Komuniti&lt;/strong&gt;: Berhubung dengan pengguna BigLedger lain&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🛠️ Sokongan Teknikal&lt;/strong&gt;: Dapatkan bantuan dengan isu teknikal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Apa Seterusnya?&lt;span class="hx:absolute hx:-mt-20" id="apa-seterusnya"&gt;&lt;/span&gt;
+&lt;a href="#apa-seterusnya" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Bersedia untuk mendalami BigLedger? Berikut adalah langkah seterusnya anda:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Lengkapkan Persediaan Anda&lt;/strong&gt;: Selesaikan konfigurasi tetapan syarikat anda&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Terokai Modul Teras&lt;/strong&gt;: Mulakan dengan modul yang paling relevan dengan perniagaan anda&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Import Data Anda&lt;/strong&gt;: Bawa masuk maklumat perniagaan sedia ada anda&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Latih Pasukan Anda&lt;/strong&gt;: Pastikan semua orang tahu cara menggunakan sistem dengan berkesan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mula Beroperasi&lt;/strong&gt;: Mula mengurus operasi perniagaan anda dengan BigLedger&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;Petua Pro&lt;/strong&gt;: Mulakan dengan modul paling popular kami - Perakaunan Kewangan, Pengurusan Inventori, dan CRM - untuk melihat faedah segera dalam operasi harian anda.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

@@ -1,0 +1,2354 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>وثائق BigLedger – رحلات العرض التوضيحي القائمة على الأدوار</title><link>https://www.bigledger.com/ar/user-guide/demo/role-based/</link><description>Recent content in رحلات العرض التوضيحي القائمة على الأدوار on وثائق BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ar</language><atom:link href="https://www.bigledger.com/ar/user-guide/demo/role-based/index.xml" rel="self" type="application/rss+xml"/><item><title>رحلة العرض التوضيحي لمدير المالية</title><link>https://www.bigledger.com/ar/user-guide/demo/role-based/finance-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/user-guide/demo/role-based/finance-manager/</guid><description>
+&lt;p&gt;اختبر كيف يُحوِّل BigLedger الإدارة المالية من خلال الأتمتة، والرؤية في الوقت الفعلي، وقدرات الامتثال الشاملة. يعالج هذا العرض التوضيحي التحديات الحاسمة التي يواجهها مديرو المالية يومياً.&lt;/p&gt;
+&lt;a
+class=" not-prose hx:inline-flex hx:items-center hx:rounded-full hx:gap-2 hx:px-3 hx:py-1 hx:text-xs hx:text-gray-600 hx:dark:text-gray-400 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:border-gray-200 hx:dark:border-neutral-800 hx:border hx:hover:border-gray-400 hx:dark:hover:text-gray-50 hx:dark:hover:border-gray-600 hx:transition-all hx:ease-in hx:duration-200"
+&gt;
+💰 التميّز في الإدارة المالية
+&lt;/a&gt;
+&lt;h1
+class="not-prose hx:text-4xl hx:font-bold hx:leading-none hx:tracking-tighter hx:md:text-5xl hx:py-2 hx:bg-clip-text hx:text-transparent hx:bg-gradient-to-r hx:from-gray-900 hx:to-gray-600 hx:dark:from-gray-100 hx:dark:to-gray-400"
+&gt;
+بسّط العمليات المالية والامتثال
+&lt;/h1&gt;
+&lt;p
+class="not-prose hx:text-xl hx:text-gray-600 hx:dark:text-gray-400 hx:sm:text-xl"
+&gt;
+التقارير في الوقت الفعلي • إدارة التدفق النقدي • أتمتة الامتثال • مسارات التدقيق • توحيد الحسابات متعدد الشركات
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🎯 الأهداف الرئيسية لمديري المالية&lt;span class="hx:absolute hx:-mt-20" id="-الأهداف-الرئيسية-لمديري-المالية"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%a7%d9%84%d8%a3%d9%87%d8%af%d8%a7%d9%81-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9-%d9%84%d9%85%d8%af%d9%8a%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;الأهداف الأساسية التي تريد تحقيقها&lt;span class="hx:absolute hx:-mt-20" id="الأهداف-الأساسية-التي-تريد-تحقيقها"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a3%d9%87%d8%af%d8%a7%d9%81-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d9%8a-%d8%aa%d8%b1%d9%8a%d8%af-%d8%aa%d8%ad%d9%82%d9%8a%d9%82%d9%87%d8%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain"&gt;
+&lt;div class="hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800"&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-0" aria-selected="true" tabindex="0" data-state="selected"&gt;التحكّم المالي&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-1"&gt;الامتثال&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-2"&gt;الكفاءة&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-3"&gt;الدعم الاستراتيجي&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-0"
+role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;p&gt;&lt;strong&gt;التحكّم المالي والدقة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;رؤية مالية في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;تقارير دقيقة وفي الوقت المناسب&lt;/li&gt;
+&lt;li&gt;تحسين التدفق النقدي&lt;/li&gt;
+&lt;li&gt;ربحية مركز التكلفة&lt;/li&gt;
+&lt;li&gt;التحكّم في انحراف الميزانية&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-1"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;الامتثال التنظيمي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;أتمتة الامتثال لضريبة المبيعات والخدمات/ضريبة السلع والخدمات (SST/GST)&lt;/li&gt;
+&lt;li&gt;الجاهزية لتفويض الفوترة الإلكترونية&lt;/li&gt;
+&lt;li&gt;الحفاظ على مسار التدقيق&lt;/li&gt;
+&lt;li&gt;دقة البيانات المالية&lt;/li&gt;
+&lt;li&gt;التقارير التنظيمية&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-2"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;كفاءة العمليات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إغلاق نهاية الشهر الآلي&lt;/li&gt;
+&lt;li&gt;تسويات مبسّطة&lt;/li&gt;
+&lt;li&gt;تقليل الإدخال اليدوي&lt;/li&gt;
+&lt;li&gt;دورات تقارير أسرع&lt;/li&gt;
+&lt;li&gt;الإدارة القائمة على الاستثناءات&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-3"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;الدعم الاستراتيجي للأعمال&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تحليل الربحية حسب الشريحة&lt;/li&gt;
+&lt;li&gt;تتبّع العائد على الاستثمار&lt;/li&gt;
+&lt;li&gt;التنبؤ بالتدفق النقدي&lt;/li&gt;
+&lt;li&gt;لوحات معلومات مؤشرات الأداء المالية&lt;/li&gt;
+&lt;li&gt;تحليلات دعم القرار&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;😰 نقاط الألم الشائعة التي نعالجها&lt;span class="hx:absolute hx:-mt-20" id="-نقاط-الألم-الشائعة-التي-نعالجها"&gt;&lt;/span&gt;
+&lt;a href="#-%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%a3%d9%84%d9%85-%d8%a7%d9%84%d8%b4%d8%a7%d8%a6%d8%b9%d8%a9-%d8%a7%d9%84%d8%aa%d9%8a-%d9%86%d8%b9%d8%a7%d9%84%d8%ac%d9%87%d8%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;التحديات الحالية التي يواجهها مديرو المالية&lt;span class="hx:absolute hx:-mt-20" id="التحديات-الحالية-التي-يواجهها-مديرو-المالية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%ad%d8%af%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d8%a7%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d9%8a-%d9%8a%d9%88%d8%a7%d8%ac%d9%87%d9%87%d8%a7-%d9%85%d8%af%d9%8a%d8%b1%d9%88-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-red-200 hx:bg-red-100 hx:text-red-900 hx:dark:border-red-200/30 hx:dark:bg-red-900/30 hx:dark:text-red-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;🚫&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;&lt;strong&gt;معاناة المالية اليدوية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إغلاق نهاية الشهر يستغرق 5-10 أيام&lt;/li&gt;
+&lt;li&gt;جداول بيانات متعددة للتوحيد&lt;/li&gt;
+&lt;li&gt;تسويات بنكية يدوية&lt;/li&gt;
+&lt;li&gt;تجهيز الامتثال يستغرق أسابيع&lt;/li&gt;
+&lt;li&gt;رؤية مالية محدودة في الوقت الفعلي&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;المشكلات المحددة التي يحلّها BigLedger&lt;span class="hx:absolute hx:-mt-20" id="المشكلات-المحددة-التي-يحلها-bigledger"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%ad%d8%af%d8%af%d8%a9-%d8%a7%d9%84%d8%aa%d9%8a-%d9%8a%d8%ad%d9%84%d9%87%d8%a7-bigledger" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تأخّر التقارير المالية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: انتظار أيام للحصول على بيانات مالية دقيقة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل&lt;/strong&gt;: لوحات معلومات مالية في الوقت الفعلي وتقارير آلية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;عمل الامتثال اليدوي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: ساعات تُقضى في حسابات ضريبة المبيعات والخدمات/ضريبة السلع والخدمات (SST/GST) وتقديماتها&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل&lt;/strong&gt;: امتثال ضريبي آلي وإنشاء فواتير إلكترونية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;البيانات المالية المجزّأة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: بيانات مبعثرة عبر أنظمة متعددة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل&lt;/strong&gt;: مركز بيانات مالية موحّد مع مسارات تدقيق كاملة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;النقاط العمياء في التدفق النقدي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: إدارة نقدية تفاعلية بسبب ضعف الرؤية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل&lt;/strong&gt;: مراقبة التدفق النقدي والتنبؤ به في الوقت الفعلي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;إدارة الكيانات المتعددة المعقّدة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: توحيد يدوي عبر الشركات/الفروع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل&lt;/strong&gt;: تقارير وتوحيد حسابات آلي متعدد الشركات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2&gt;🎬 سيناريوهات العرض التوضيحي ونتائج الأعمال&lt;span class="hx:absolute hx:-mt-20" id="-سيناريوهات-العرض-التوضيحي-ونتائج-الأعمال"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d8%b1%d8%b6-%d8%a7%d9%84%d8%aa%d9%88%d8%b6%d9%8a%d8%ad%d9%8a-%d9%88%d9%86%d8%aa%d8%a7%d8%a6%d8%ac-%d8%a7%d9%84%d8%a3%d8%b9%d9%85%d8%a7%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;السيناريو 1: لوحة المعلومات المالية في الوقت الفعلي&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-1-لوحة-المعلومات-المالية-في-الوقت-الفعلي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-1-%d9%84%d9%88%d8%ad%d8%a9-%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84%d9%88%d9%82%d8%aa-%d8%a7%d9%84%d9%81%d8%b9%d9%84%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحدي الأعمال&lt;/strong&gt;: يحتاج الرئيس التنفيذي إلى الوضع المالي الحالي لاجتماع مجلس الإدارة بعد ساعتين&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;&lt;strong&gt;الوصول إلى العرض التوضيحي&lt;/strong&gt;: سجّل الدخول إلى &lt;a href="https://demo-v1.bigledger.com" target="_blank" rel="noopener"&gt;demo-v1.bigledger.com&lt;/a&gt; باستخدام:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;اسم المستخدم&lt;/strong&gt;: demo-acc&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;كلمة المرور&lt;/strong&gt;: Demo2025!&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;سير العمل خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;الوصول إلى لوحة المعلومات المالية التنفيذية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;انتقل إلى لوحات المعلومات ← النظرة المالية العامة&lt;/li&gt;
+&lt;li&gt;اعرض ملخص الأرباح والخسائر في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;تحقق من الوضع النقدي عبر جميع الحسابات&lt;/li&gt;
+&lt;li&gt;راجع الأداء من بداية الشهر مقابل الميزانية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;إنشاء التقارير المالية الحالية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;انقر على &amp;ldquo;إنشاء تقرير أرباح وخسائر مباشر&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;حدّد الشهر الحالي والمقارنة منذ بداية العام&lt;/li&gt;
+&lt;li&gt;صدّر إلى PDF للعرض التقديمي لمجلس الإدارة&lt;/li&gt;
+&lt;li&gt;راجع شروحات الانحراف الرئيسية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;نتيجة الأعمال&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الوقت الموفّر&lt;/strong&gt;: 4 ساعات مقابل التجميع اليدوي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الدقة&lt;/strong&gt;: بيانات 100% في الوقت الفعلي مقابل 85% مع العمليات اليدوية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;القيمة&lt;/strong&gt;: تقارير جاهزة لمجلس الإدارة في أقل من 10 دقائق&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;السيناريو 2: إغلاق نهاية الشهر الآلي&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-2-إغلاق-نهاية-الشهر-الآلي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-2-%d8%a5%d8%ba%d9%84%d8%a7%d9%82-%d9%86%d9%87%d8%a7%d9%8a%d8%a9-%d8%a7%d9%84%d8%b4%d9%87%d8%b1-%d8%a7%d9%84%d8%a2%d9%84%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحدي الأعمال&lt;/strong&gt;: إغلاق نهاية الشهر يستغرق حالياً 8 أيام ويتطلب 3 موظفين&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;سير العمل خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;بدء عملية نهاية الشهر&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;انتقل إلى المحاسبة المالية ← نهاية الشهر&lt;/li&gt;
+&lt;li&gt;راجع قائمة تحقق ما قبل الإغلاق (مُعبّأة تلقائياً)&lt;/li&gt;
+&lt;li&gt;شغّل التسوية البنكية الآلية&lt;/li&gt;
+&lt;li&gt;عالِج إعادة تقييم العملات (إن وُجدت)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;مراجعة قيود اليومية والموافقة عليها&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;راجع الاستحقاقات المُنشَأة من النظام&lt;/li&gt;
+&lt;li&gt;وافِق على قيود الإهلاك الآلية&lt;/li&gt;
+&lt;li&gt;تعامل مع الاستثناءات (إن وُجدت) عبر سير العمل&lt;/li&gt;
+&lt;li&gt;شغّل التحقق من ميزان المراجعة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;إنشاء تقارير الإغلاق&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;أنشئ الأرباح والخسائر، والميزانية العمومية، والتدفق النقدي&lt;/li&gt;
+&lt;li&gt;راجع تحليل الانحراف مقابل الشهر السابق&lt;/li&gt;
+&lt;li&gt;صدّر الحزمة المالية للإدارة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;نتيجة الأعمال&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الوقت الموفّر&lt;/strong&gt;: تقليص 5 أيام إلى يوم واحد (تحسّن بنسبة 80%)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;كفاءة الموظفين&lt;/strong&gt;: من 3 موظفين إلى موظف واحد مطلوب&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;توفير التكلفة&lt;/strong&gt;: 15,000 رينغيت ماليزي/شهر في تكاليف العمالة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;السيناريو 3: الامتثال لضريبة المبيعات والخدمات/ضريبة السلع والخدمات (SST/GST) وأتمتة الفوترة الإلكترونية&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-3-الامتثال-لضريبة-المبيعات-والخدماتضريبة-السلع-والخدمات-sstgst-وأتمتة-الفوترة-الإلكترونية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-3-%d8%a7%d9%84%d8%a7%d9%85%d8%aa%d8%ab%d8%a7%d9%84-%d9%84%d8%b6%d8%b1%d9%8a%d8%a8%d8%a9-%d8%a7%d9%84%d9%85%d8%a8%d9%8a%d8%b9%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa%d8%b6%d8%b1%d9%8a%d8%a8%d8%a9-%d8%a7%d9%84%d8%b3%d9%84%d8%b9-%d9%88%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-sstgst-%d9%88%d8%a3%d8%aa%d9%85%d8%aa%d8%a9-%d8%a7%d9%84%d9%81%d9%88%d8%aa%d8%b1%d8%a9-%d8%a7%d9%84%d8%a5%d9%84%d9%83%d8%aa%d8%b1%d9%88%d9%86%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحدي الأعمال&lt;/strong&gt;: تجهيز ضريبة المبيعات والخدمات اليدوي يستغرق يومين شهرياً، مع مخاطر خطأ عالية&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;سير العمل خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;حساب الضريبة الآلي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;انتقل إلى إدارة الضرائب ← إقرارات ضريبة المبيعات والخدمات (SST)&lt;/li&gt;
+&lt;li&gt;راجع التزام ضريبة المبيعات والخدمات المحسوب تلقائياً&lt;/li&gt;
+&lt;li&gt;تحقق من تسوية ضريبة المدخلات/المخرجات&lt;/li&gt;
+&lt;li&gt;تحقق من حالة تكامل الفوترة الإلكترونية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;إنشاء الفواتير الإلكترونية وتقديمها&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;راجع الفواتير المعلّقة لتقديم الفوترة الإلكترونية&lt;/li&gt;
+&lt;li&gt;أنشئ فواتير إلكترونية بالجملة إلى MyInvois&lt;/li&gt;
+&lt;li&gt;راقب حالة التقديم ومعالجة الأخطاء&lt;/li&gt;
+&lt;li&gt;أنشئ تقارير الامتثال&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تجهيز الإقرار الضريبي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;صدّر بيانات إقرار ضريبة المبيعات والخدمات (SST) بتنسيق LHDN&lt;/li&gt;
+&lt;li&gt;راجع المستندات الداعمة&lt;/li&gt;
+&lt;li&gt;قدّم مباشرة عبر البوابة المتكاملة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;نتيجة الأعمال&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;مخاطر الامتثال&lt;/strong&gt;: انخفضت من معدل خطأ 15% إلى أقل من 1%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;وقت المعالجة&lt;/strong&gt;: من يومين إلى ساعتين (انخفاض بنسبة 90%)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الجاهزية للتدقيق&lt;/strong&gt;: مسارات تدقيق آلية 100%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;السيناريو 4: توحيد الحسابات متعدد الشركات&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-4-توحيد-الحسابات-متعدد-الشركات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-4-%d8%aa%d9%88%d8%ad%d9%8a%d8%af-%d8%a7%d9%84%d8%ad%d8%b3%d8%a7%d8%a8%d8%a7%d8%aa-%d9%85%d8%aa%d8%b9%d8%af%d8%af-%d8%a7%d9%84%d8%b4%d8%b1%d9%83%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحدي الأعمال&lt;/strong&gt;: إدارة 3 شركات تابعة تتطلب توحيداً يدوياً يستغرق أسبوعاً&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;سير العمل خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;مراجعة إعداد الكيانات المتعددة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;انتقل إلى إدارة الشركة ← هيكل المجموعة&lt;/li&gt;
+&lt;li&gt;راجع قواعد إلغاء المعاملات بين الشركات&lt;/li&gt;
+&lt;li&gt;تحقق من إعدادات تحويل العملات&lt;/li&gt;
+&lt;li&gt;تحقق من تخطيط التوحيد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;عملية التوحيد الآلي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;شغّل التوحيد لجميع الكيانات&lt;/li&gt;
+&lt;li&gt;راجع عمليات الإلغاء بين الشركات&lt;/li&gt;
+&lt;li&gt;عالِج تحويلات العملات&lt;/li&gt;
+&lt;li&gt;أنشئ البيانات المالية الموحّدة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تحليل الانحراف&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;قارن النتائج الموحّدة مقابل نتائج الكيانات الفردية&lt;/li&gt;
+&lt;li&gt;راجع تعديلات التوحيد&lt;/li&gt;
+&lt;li&gt;أنشئ تقارير التوحيد الإدارية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;نتيجة الأعمال&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;كفاءة الوقت&lt;/strong&gt;: من أسبوع إلى 4 ساعات (تحسّن بنسبة 95%)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الدقة&lt;/strong&gt;: يقضي على أخطاء التوحيد اليدوي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الشفافية&lt;/strong&gt;: عرض موحّد في الوقت الفعلي متاح على مدار الساعة طوال أيام الأسبوع&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;السيناريو 5: إدارة التدفق النقدي والتنبؤ به&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-5-إدارة-التدفق-النقدي-والتنبؤ-به"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-5-%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%aa%d8%af%d9%81%d9%82-%d8%a7%d9%84%d9%86%d9%82%d8%af%d9%8a-%d9%88%d8%a7%d9%84%d8%aa%d9%86%d8%a8%d8%a4-%d8%a8%d9%87" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحدي الأعمال&lt;/strong&gt;: اكتشاف النقص النقدي متأخراً جداً، مما يؤثر على مدفوعات الموردين&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;سير العمل خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تحليل الوضع النقدي الحالي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;انتقل إلى إدارة النقد ← لوحة المعلومات النقدية&lt;/li&gt;
+&lt;li&gt;راجع النقد حسب الحساب والعملة&lt;/li&gt;
+&lt;li&gt;حلّل أعمار الذمم المدينة والدائنة&lt;/li&gt;
+&lt;li&gt;تحقق من استغلال التسهيلات الائتمانية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;التنبؤ بالتدفق النقدي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;الوصول إلى توقّعات التدفق النقدي لمدة 90 يوماً&lt;/li&gt;
+&lt;li&gt;راجع المتطلبات النقدية المتوقعة&lt;/li&gt;
+&lt;li&gt;حدّد فترات النقص المحتملة&lt;/li&gt;
+&lt;li&gt;خطّط تحسين جدولة المدفوعات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تحسين رأس المال العامل&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;حلّل أيام المبيعات المستحقة (DSO)&lt;/li&gt;
+&lt;li&gt;راجع أيام المدفوعات المستحقة (DPO)&lt;/li&gt;
+&lt;li&gt;حدّد فرص التحصيل&lt;/li&gt;
+&lt;li&gt;حسّن توقيت المدفوعات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;نتيجة الأعمال&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;رؤية النقد&lt;/strong&gt;: رؤية مستقبلية لمدة 90 يوماً مقابل الحالة الحالية لمدة 7 أيام&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;رأس المال العامل&lt;/strong&gt;: تحسّن بنسبة 15% في دورة تحويل النقد&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تخفيف المخاطر&lt;/strong&gt;: نظام إنذار مبكر يمنع النقص النقدي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;السيناريو 6: مراقبة مؤشرات الأداء المالية وإدارة الاستثناءات&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-6-مراقبة-مؤشرات-الأداء-المالية-وإدارة-الاستثناءات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-6-%d9%85%d8%b1%d8%a7%d9%82%d8%a8%d8%a9-%d9%85%d8%a4%d8%b4%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%a9-%d9%88%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%ab%d9%86%d8%a7%d8%a1%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحدي الأعمال&lt;/strong&gt;: اكتشاف مشكلات الأداء المالي خلال المراجعات الشهرية بدلاً من يومياً&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;سير العمل خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;إعداد لوحة معلومات مؤشرات الأداء الرئيسية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;كوّن عتبات مؤشرات الأداء المالية&lt;/li&gt;
+&lt;li&gt;أعِد تنبيهات آلية للانحرافات&lt;/li&gt;
+&lt;li&gt;أنشئ عروض لوحات معلومات قائمة على الأدوار&lt;/li&gt;
+&lt;li&gt;فعّل الوصول عبر الهاتف المحمول للمقاييس الرئيسية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;الإدارة القائمة على الاستثناءات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;راجع تقارير الاستثناءات اليومية&lt;/li&gt;
+&lt;li&gt;حقّق في انحرافات الميزانية التي تتجاوز 5%&lt;/li&gt;
+&lt;li&gt;حلّل اتجاهات الهامش الإجمالي&lt;/li&gt;
+&lt;li&gt;راقب أداء فئات المصروفات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;التحليلات التنبؤية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;راجع توقّعات الانحراف المدعومة بالذكاء الاصطناعي&lt;/li&gt;
+&lt;li&gt;حلّل الاتجاهات والأنماط الموسمية&lt;/li&gt;
+&lt;li&gt;أنشئ سيناريوهات ماذا لو&lt;/li&gt;
+&lt;li&gt;أنشئ خطط إجراءات تصحيحية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;نتيجة الأعمال&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;وقت الاستجابة&lt;/strong&gt;: تحديد المشكلات في 24 ساعة مقابل 30 يوماً&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;حماية الهامش&lt;/strong&gt;: تحسّن الهامش بنسبة 2% من خلال التدخّل المبكر&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التركيز الاستراتيجي&lt;/strong&gt;: 60% وقت إضافي للتحليل الاستراتيجي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;السيناريو 7: تجهيز التدقيق وتقارير الامتثال&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-7-تجهيز-التدقيق-وتقارير-الامتثال"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-7-%d8%aa%d8%ac%d9%87%d9%8a%d8%b2-%d8%a7%d9%84%d8%aa%d8%af%d9%82%d9%8a%d9%82-%d9%88%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d8%a7%d9%85%d8%aa%d8%ab%d8%a7%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحدي الأعمال&lt;/strong&gt;: تجهيز التدقيق الخارجي يستغرق 3 أسابيع من العمل المكثّف&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;سير العمل خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تجهيز مسار التدقيق&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;أنشئ مسارات تدقيق كاملة للمعاملات&lt;/li&gt;
+&lt;li&gt;جهّز المستندات الداعمة تلقائياً&lt;/li&gt;
+&lt;li&gt;راجع سجلات وصول النظام والضوابط&lt;/li&gt;
+&lt;li&gt;صدّر بيانات مالية جاهزة للتدقيق&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;التقارير التنظيمية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;أنشئ البيانات المالية القانونية&lt;/li&gt;
+&lt;li&gt;جهّز تقارير الامتثال التنظيمي&lt;/li&gt;
+&lt;li&gt;أنشئ جداول احتساب الضرائب&lt;/li&gt;
+&lt;li&gt;صدّر البيانات بالتنسيقات المطلوبة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;توثيق الضوابط الداخلية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;راجع سير عمل الموافقات الآلي&lt;/li&gt;
+&lt;li&gt;وثّق ضوابط النظام والفصل بين المهام&lt;/li&gt;
+&lt;li&gt;أنشئ تقارير الاستثناءات&lt;/li&gt;
+&lt;li&gt;جهّز مستندات اختبار الضوابط&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;نتيجة الأعمال&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;كفاءة التدقيق&lt;/strong&gt;: تقليص وقت التجهيز من 3 أسابيع إلى 5 أيام&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تكاليف التدقيق&lt;/strong&gt;: انخفاض بنسبة 40% في رسوم التدقيق الخارجي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الثقة في الامتثال&lt;/strong&gt;: توثيق امتثال آلي 100%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;📊 المقاييس الرئيسية التي يتتبّعها مديرو المالية&lt;span class="hx:absolute hx:-mt-20" id="-المقاييس-الرئيسية-التي-يتتبعها-مديرو-المالية"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%a7%d9%84%d9%85%d9%82%d8%a7%d9%8a%d9%8a%d8%b3-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d9%8a-%d9%8a%d8%aa%d8%aa%d8%a8%d8%b9%d9%87%d8%a7-%d9%85%d8%af%d9%8a%d8%b1%d9%88-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;مقاييس الأداء المالي&lt;span class="hx:absolute hx:-mt-20" id="مقاييس-الأداء-المالي"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%82%d8%a7%d9%8a%d9%8a%d8%b3-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain"&gt;
+&lt;div class="hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800"&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-0" aria-selected="true" tabindex="0" data-state="selected"&gt;الربحية&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-1"&gt;التدفق النقدي&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-2"&gt;الكفاءة&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-3"&gt;الامتثال&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-0"
+role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;p&gt;&lt;strong&gt;مقاييس الربحية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;الهامش الإجمالي حسب خط المنتج/الخدمة&lt;/li&gt;
+&lt;li&gt;اتجاهات هامش التشغيل&lt;/li&gt;
+&lt;li&gt;أداء EBITDA&lt;/li&gt;
+&lt;li&gt;تحليل مركز الربح&lt;/li&gt;
+&lt;li&gt;العائد على الاستثمار حسب شريحة الأعمال&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-1"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;مقاييس التدفق النقدي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;أيام المبيعات المستحقة (DSO)&lt;/li&gt;
+&lt;li&gt;أيام المدفوعات المستحقة (DPO)&lt;/li&gt;
+&lt;li&gt;دورة تحويل النقد&lt;/li&gt;
+&lt;li&gt;نسب رأس المال العامل&lt;/li&gt;
+&lt;li&gt;دقة التنبؤ بالتدفق النقدي&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-2"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;الكفاءة التشغيلية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;زمن دورة إغلاق نهاية الشهر&lt;/li&gt;
+&lt;li&gt;وقت معالجة الفواتير&lt;/li&gt;
+&lt;li&gt;وقت تسوية الحسابات&lt;/li&gt;
+&lt;li&gt;وقت إنشاء التقارير&lt;/li&gt;
+&lt;li&gt;معدلات الأخطاء في العمليات المالية&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-3"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;مقاييس الامتثال&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;معدلات دقة تقديم الإقرارات الضريبية&lt;/li&gt;
+&lt;li&gt;نجاح تقديم الفواتير الإلكترونية&lt;/li&gt;
+&lt;li&gt;خفض ملاحظات التدقيق&lt;/li&gt;
+&lt;li&gt;الالتزام بالمواعيد النهائية التنظيمية&lt;/li&gt;
+&lt;li&gt;نتائج اختبار الضوابط&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;قياسات أثر BigLedger&lt;span class="hx:absolute hx:-mt-20" id="قياسات-أثر-bigledger"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d9%8a%d8%a7%d8%b3%d8%a7%d8%aa-%d8%a3%d8%ab%d8%b1-bigledger" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;المقياس&lt;/th&gt;
+&lt;th&gt;قبل BigLedger&lt;/th&gt;
+&lt;th&gt;مع BigLedger&lt;/th&gt;
+&lt;th&gt;التحسّن&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;إغلاق نهاية الشهر&lt;/td&gt;
+&lt;td&gt;8 أيام&lt;/td&gt;
+&lt;td&gt;يوم واحد&lt;/td&gt;
+&lt;td&gt;أسرع بنسبة 87.5%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;إنشاء التقرير المالي&lt;/td&gt;
+&lt;td&gt;4 ساعات&lt;/td&gt;
+&lt;td&gt;10 دقائق&lt;/td&gt;
+&lt;td&gt;أسرع بنسبة 95%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;تجهيز ضريبة المبيعات والخدمات/ضريبة السلع والخدمات (SST/GST)&lt;/td&gt;
+&lt;td&gt;16 ساعة/شهر&lt;/td&gt;
+&lt;td&gt;ساعتان/شهر&lt;/td&gt;
+&lt;td&gt;انخفاض بنسبة 87.5%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;رؤية التدفق النقدي&lt;/td&gt;
+&lt;td&gt;7 أيام&lt;/td&gt;
+&lt;td&gt;90 يوماً&lt;/td&gt;
+&lt;td&gt;تحسّن بنسبة 1,200%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;توحيد الحسابات متعدد الشركات&lt;/td&gt;
+&lt;td&gt;40 ساعة&lt;/td&gt;
+&lt;td&gt;4 ساعات&lt;/td&gt;
+&lt;td&gt;انخفاض بنسبة 90%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;تجهيز التدقيق&lt;/td&gt;
+&lt;td&gt;120 ساعة&lt;/td&gt;
+&lt;td&gt;40 ساعة&lt;/td&gt;
+&lt;td&gt;انخفاض بنسبة 67%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔗 نقاط التكامل الحاسمة&lt;span class="hx:absolute hx:-mt-20" id="-نقاط-التكامل-الحاسمة"&gt;&lt;/span&gt;
+&lt;a href="#-%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d8%a7%d9%84%d8%ad%d8%a7%d8%b3%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;تكاملات النظام المالي الأساسية&lt;span class="hx:absolute hx:-mt-20" id="تكاملات-النظام-المالي-الأساسية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%83%d8%a7%d9%85%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d9%86%d8%b8%d8%a7%d9%85-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;عرض التكامل&lt;/strong&gt;: يُظهِر كل سيناريو كيف يتكامل BigLedger مع البنية التحتية المالية الحالية دون تعطيل العمليات.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;التكامل البنكي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تحديثات رصيد بنكي في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;تسوية بنكية آلية&lt;/li&gt;
+&lt;li&gt;معالجة المدفوعات الإلكترونية&lt;/li&gt;
+&lt;li&gt;إدارة الحسابات متعددة العملات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تكامل نظام الرواتب&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;قيود يومية آلية للرواتب&lt;/li&gt;
+&lt;li&gt;تخصيص تكلفة الموظفين&lt;/li&gt;
+&lt;li&gt;تكامل الامتثال القانوني&lt;/li&gt;
+&lt;li&gt;إدارة استحقاق الإجازات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تكامل هيئة الضرائب&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تقديم مباشر لضريبة المبيعات والخدمات/ضريبة السلع والخدمات (SST/GST)&lt;/li&gt;
+&lt;li&gt;تقديم الفواتير الإلكترونية إلى MyInvois&lt;/li&gt;
+&lt;li&gt;التحقق من بيانات LHDN&lt;/li&gt;
+&lt;li&gt;مراقبة حالة الامتثال&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تكامل وحدة تخطيط موارد المؤسسات (ERP)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;أتمتة أمر البيع إلى الفاتورة&lt;/li&gt;
+&lt;li&gt;معالجة أمر الشراء إلى الدفع&lt;/li&gt;
+&lt;li&gt;تحديثات تقييم المخزون&lt;/li&gt;
+&lt;li&gt;تخصيص مركز التكلفة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;أدوات ذكاء الأعمال&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تكامل لوحة المعلومات المالية&lt;/li&gt;
+&lt;li&gt;أتمتة التقارير التنفيذية&lt;/li&gt;
+&lt;li&gt;أنظمة مراقبة مؤشرات الأداء الرئيسية&lt;/li&gt;
+&lt;li&gt;منصات التحليلات التنبؤية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2&gt;📈 التقارير ولوحات المعلومات لمديري المالية&lt;span class="hx:absolute hx:-mt-20" id="-التقارير-ولوحات-المعلومات-لمديري-المالية"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d9%88%d9%84%d9%88%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d9%84%d9%85%d8%af%d9%8a%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;لوحة المعلومات المالية التنفيذية&lt;span class="hx:absolute hx:-mt-20" id="لوحة-المعلومات-المالية-التنفيذية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%84%d9%88%d8%ad%d8%a9-%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;ملخص الأرباح والخسائر في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;الوضع النقدي عبر جميع الحسابات&lt;/li&gt;
+&lt;li&gt;النسب المالية الرئيسية&lt;/li&gt;
+&lt;li&gt;أداء الميزانية مقابل الفعلي&lt;/li&gt;
+&lt;li&gt;حالة إغلاق الشهر&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;مجموعة أدوات التقارير الإدارية&lt;span class="hx:absolute hx:-mt-20" id="مجموعة-أدوات-التقارير-الإدارية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9-%d8%a3%d8%af%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain"&gt;
+&lt;div class="hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800"&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-0" aria-selected="true" tabindex="0" data-state="selected"&gt;البيانات المالية&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-1"&gt;تقارير التحليل&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-2"&gt;تقارير الامتثال&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-3"&gt;لوحات معلومات مؤشرات الأداء الرئيسية&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-0"
+role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;p&gt;&lt;strong&gt;البيانات المالية الأساسية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;الأرباح والخسائر (شهرياً، فصلياً، منذ بداية العام)&lt;/li&gt;
+&lt;li&gt;الميزانية العمومية مع المقارنات&lt;/li&gt;
+&lt;li&gt;بيان التدفق النقدي&lt;/li&gt;
+&lt;li&gt;بيان التغيرات في حقوق الملكية&lt;/li&gt;
+&lt;li&gt;الملاحظات على البيانات المالية&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-1"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;التحليل الإداري&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تحليل انحراف الميزانية مقابل الفعلي&lt;/li&gt;
+&lt;li&gt;أداء مركز الربح&lt;/li&gt;
+&lt;li&gt;تحليل مركز التكلفة&lt;/li&gt;
+&lt;li&gt;ربحية المنتج/الخدمة&lt;/li&gt;
+&lt;li&gt;تحليل الاتجاهات والتنبؤ&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-2"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;تقارير الامتثال&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إقرارات وتسوية ضريبة المبيعات والخدمات/ضريبة السلع والخدمات (SST/GST)&lt;/li&gt;
+&lt;li&gt;تقارير تقديم الفواتير الإلكترونية&lt;/li&gt;
+&lt;li&gt;تقارير مسار التدقيق&lt;/li&gt;
+&lt;li&gt;ملخصات التقديم التنظيمي&lt;/li&gt;
+&lt;li&gt;تقارير اختبار الضوابط الداخلية&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-3"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;لوحات معلومات مؤشرات الأداء الرئيسية في الوقت الفعلي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;مؤشرات الأداء المالي&lt;/li&gt;
+&lt;li&gt;مقاييس التدفق النقدي&lt;/li&gt;
+&lt;li&gt;نسب رأس المال العامل&lt;/li&gt;
+&lt;li&gt;مقاييس كفاءة العمليات&lt;/li&gt;
+&lt;li&gt;مؤشرات حالة الامتثال&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;تقارير الاستثناءات الآلية&lt;span class="hx:absolute hx:-mt-20" id="تقارير-الاستثناءات-الآلية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%ab%d9%86%d8%a7%d8%a1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a2%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;استثناءات انحراف الميزانية (أكثر من 5%)&lt;/li&gt;
+&lt;li&gt;تنبيهات توقّعات التدفق النقدي&lt;/li&gt;
+&lt;li&gt;بنود سير عمل الموافقات المعلّقة&lt;/li&gt;
+&lt;li&gt;فروقات التسوية&lt;/li&gt;
+&lt;li&gt;تذكيرات المواعيد النهائية للامتثال&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;💡 خارطة طريق التطبيق لفرق المالية&lt;span class="hx:absolute hx:-mt-20" id="-خارطة-طريق-التطبيق-لفرق-المالية"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%ae%d8%a7%d8%b1%d8%b7%d8%a9-%d8%b7%d8%b1%d9%8a%d9%82-%d8%a7%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82-%d9%84%d9%81%d8%b1%d9%82-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;المرحلة 1: الأساس (الأسابيع 1-4)&lt;span class="hx:absolute hx:-mt-20" id="المرحلة-1-الأساس-الأسابيع-1-4"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b1%d8%ad%d9%84%d8%a9-1-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%a8%d9%8a%d8%b9-1-4" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;إعداد شجرة الحسابات وتخطيطها&lt;/li&gt;
+&lt;li&gt;تكامل الحساب البنكي&lt;/li&gt;
+&lt;li&gt;أدوار المستخدمين وسير عمل الموافقات&lt;/li&gt;
+&lt;li&gt;ترحيل البيانات التاريخية&lt;/li&gt;
+&lt;li&gt;تكوين التقارير الأساسية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;المرحلة 2: أتمتة العمليات (الأسابيع 5-8)&lt;span class="hx:absolute hx:-mt-20" id="المرحلة-2-أتمتة-العمليات-الأسابيع-5-8"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b1%d8%ad%d9%84%d8%a9-2-%d8%a3%d8%aa%d9%85%d8%aa%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%a8%d9%8a%d8%b9-5-8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;تسوية بنكية آلية&lt;/li&gt;
+&lt;li&gt;أتمتة قيود اليومية&lt;/li&gt;
+&lt;li&gt;إجراءات إغلاق نهاية الشهر&lt;/li&gt;
+&lt;li&gt;إعداد الامتثال الضريبي&lt;/li&gt;
+&lt;li&gt;قوالب التقارير المالية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;المرحلة 3: التحليلات المتقدمة (الأسابيع 9-12)&lt;span class="hx:absolute hx:-mt-20" id="المرحلة-3-التحليلات-المتقدمة-الأسابيع-9-12"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b1%d8%ad%d9%84%d8%a9-3-%d8%a7%d9%84%d8%aa%d8%ad%d9%84%d9%8a%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%a8%d9%8a%d8%b9-9-12" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;تكوين لوحة معلومات مؤشرات الأداء الرئيسية&lt;/li&gt;
+&lt;li&gt;إعداد التحليلات التنبؤية&lt;/li&gt;
+&lt;li&gt;توحيد الحسابات متعدد الشركات&lt;/li&gt;
+&lt;li&gt;تخصيص التقارير المتقدمة&lt;/li&gt;
+&lt;li&gt;التكامل مع الأدوات الحالية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;المرحلة 4: التحسين (مستمر)&lt;span class="hx:absolute hx:-mt-20" id="المرحلة-4-التحسين-مستمر"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b1%d8%ad%d9%84%d8%a9-4-%d8%a7%d9%84%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d9%85%d8%b3%d8%aa%d9%85%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;تحسين العمليات بناءً على الاستخدام&lt;/li&gt;
+&lt;li&gt;فرص أتمتة إضافية&lt;/li&gt;
+&lt;li&gt;نشر التحليلات المتقدمة&lt;/li&gt;
+&lt;li&gt;تدريب المستخدمين واعتمادهم&lt;/li&gt;
+&lt;li&gt;مبادرات التحسين المستمر&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🎯 حاسبة العائد على الاستثمار لفرق المالية&lt;span class="hx:absolute hx:-mt-20" id="-حاسبة-العائد-على-الاستثمار-لفرق-المالية"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%ad%d8%a7%d8%b3%d8%a8%d8%a9-%d8%a7%d9%84%d8%b9%d8%a7%d8%a6%d8%af-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%ab%d9%85%d8%a7%d8%b1-%d9%84%d9%81%d8%b1%d9%82-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;تحليل توفير التكاليف&lt;span class="hx:absolute hx:-mt-20" id="تحليل-توفير-التكاليف"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%ad%d9%84%d9%8a%d9%84-%d8%aa%d9%88%d9%81%d9%8a%d8%b1-%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%84%d9%8a%d9%81" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;توفير تكاليف العمالة السنوي:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;كفاءة إغلاق نهاية الشهر: 180,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;أتمتة التقارير اليومية: 96,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;تجهيز الامتثال: 72,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;كفاءة تجهيز التدقيق: 48,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إجمالي توفير تكاليف العمالة السنوي: 396,000 رينغيت ماليزي&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;قيمة تخفيف المخاطر:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تجنّب غرامات الامتثال: 50,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;تخفيضات رسوم التدقيق: 30,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;فائدة تحسين التدفق النقدي: 120,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إجمالي قيمة تخفيف المخاطر: 200,000 رينغيت ماليزي&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;إجمالي العائد السنوي على الاستثمار: 596,000 رينغيت ماليزي&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🚦 الخطوات التالية&lt;span class="hx:absolute hx:-mt-20" id="-الخطوات-التالية"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;جاهز لتحويل إدارتك المالية؟&lt;span class="hx:absolute hx:-mt-20" id="جاهز-لتحويل-إدارتك-المالية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%ac%d8%a7%d9%87%d8%b2-%d9%84%d8%aa%d8%ad%d9%88%d9%8a%d9%84-%d8%a5%d8%af%d8%a7%d8%b1%d8%aa%d9%83-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;a
+href="mailto:sales@bigledger.com?subject=Finance%20Manager%20Demo%20Request"
+class="not-prose hx:font-medium hx:cursor-pointer hx:px-6 hx:py-3 hx:rounded-full hx:text-center hx:text-white hx:inline-block hx:bg-primary-600 hx:hover:bg-primary-700 hx:focus:outline-hidden hx:focus:ring-4 hx:focus:ring-primary-300 hx:dark:bg-primary-600 hx:dark:hover:bg-primary-700 hx:dark:focus:ring-primary-800 hx:transition-all hx:ease-in hx:duration-200"
+&gt;جدوِل عرضاً توضيحياً تنفيذياً&lt;/a&gt;
+&lt;h3&gt;إجراءات سريعة&lt;span class="hx:absolute hx:-mt-20" id="إجراءات-سريعة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%ac%d8%b1%d8%a7%d8%a1%d8%a7%d8%aa-%d8%b3%d8%b1%d9%8a%d8%b9%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/demo/role-based/finance-manager/#scenario-1-real-time-financial-dashboard" &gt;ابدأ العرض التوضيحي الآن&lt;/a&gt;&lt;/strong&gt; - ابدأ بلوحة المعلومات في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#roi-calculator-for-finance-teams" &gt;احسب عائدك على الاستثمار&lt;/a&gt;&lt;/strong&gt; - قدّر التوفير لمؤسستك&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="mailto:sales@bigledger.com" &gt;تواصل مع أخصائي المالية&lt;/a&gt;&lt;/strong&gt; - ناقش المتطلبات المحددة&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;باقة مدير المالية&lt;/strong&gt;: اذكر &amp;ldquo;FINANCE-DEMO&amp;rdquo; للحصول على عرض توضيحي متخصص يركّز على تحديات إدارتك المالية المحددة.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>رحلة العرض التوضيحي لمدير العمليات</title><link>https://www.bigledger.com/ar/user-guide/demo/role-based/operations-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/user-guide/demo/role-based/operations-manager/</guid><description>
+&lt;p&gt;اختبر كيف يُحوِّل BigLedger إدارة العمليات من خلال الأتمتة الذكية، والرؤية في الوقت الفعلي، والتحسين المدفوع بالبيانات. يعالج هذا العرض التوضيحي التحديات التشغيلية الحاسمة التي تدفع الكفاءة والنمو.&lt;/p&gt;
+&lt;a
+class=" not-prose hx:inline-flex hx:items-center hx:rounded-full hx:gap-2 hx:px-3 hx:py-1 hx:text-xs hx:text-gray-600 hx:dark:text-gray-400 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:border-gray-200 hx:dark:border-neutral-800 hx:border hx:hover:border-gray-400 hx:dark:hover:text-gray-50 hx:dark:hover:border-gray-600 hx:transition-all hx:ease-in hx:duration-200"
+&gt;
+⚙️ التميّز التشغيلي
+&lt;/a&gt;
+&lt;h1
+class="not-prose hx:text-4xl hx:font-bold hx:leading-none hx:tracking-tighter hx:md:text-5xl hx:py-2 hx:bg-clip-text hx:text-transparent hx:bg-gradient-to-r hx:from-gray-900 hx:to-gray-600 hx:dark:from-gray-100 hx:dark:to-gray-400"
+&gt;
+حسّن العمليات لتحقيق أقصى كفاءة
+&lt;/h1&gt;
+&lt;p
+class="not-prose hx:text-xl hx:text-gray-600 hx:dark:text-gray-400 hx:sm:text-xl"
+&gt;
+أتمتة العمليات • تحسين المخزون • إدارة سلسلة التوريد • تحليلات الأداء • تخصيص الموارد
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🎯 الأهداف الرئيسية لمديري العمليات&lt;span class="hx:absolute hx:-mt-20" id="-الأهداف-الرئيسية-لمديري-العمليات"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%a7%d9%84%d8%a3%d9%87%d8%af%d8%a7%d9%81-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9-%d9%84%d9%85%d8%af%d9%8a%d8%b1%d9%8a-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;الأهداف الأساسية التي تريد تحقيقها&lt;span class="hx:absolute hx:-mt-20" id="الأهداف-الأساسية-التي-تريد-تحقيقها"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a3%d9%87%d8%af%d8%a7%d9%81-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d9%8a-%d8%aa%d8%b1%d9%8a%d8%af-%d8%aa%d8%ad%d9%82%d9%8a%d9%82%d9%87%d8%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain"&gt;
+&lt;div class="hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800"&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-0" aria-selected="true" tabindex="0" data-state="selected"&gt;كفاءة العمليات&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-1"&gt;التحكّم في المخزون&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-2"&gt;سلسلة التوريد&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-3"&gt;الأداء&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-4"&gt;إدارة الموارد&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-0"
+role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;p&gt;&lt;strong&gt;تحسين العمليات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;سير عمل مبسّط&lt;/li&gt;
+&lt;li&gt;تقليل نقاط اللمس اليدوية&lt;/li&gt;
+&lt;li&gt;عمليات موافقة آلية&lt;/li&gt;
+&lt;li&gt;الإدارة القائمة على الاستثناءات&lt;/li&gt;
+&lt;li&gt;التحسين المستمر للعمليات&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-1"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;التميّز في المخزون&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;مستويات مخزون مثلى&lt;/li&gt;
+&lt;li&gt;تقليل تكاليف الحمل&lt;/li&gt;
+&lt;li&gt;تقليل نفاد المخزون&lt;/li&gt;
+&lt;li&gt;تحسين معدلات الدوران&lt;/li&gt;
+&lt;li&gt;التنبؤ الدقيق بالطلب&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-2"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;كفاءة سلسلة التوريد&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تحسين أداء الموردين&lt;/li&gt;
+&lt;li&gt;تقليل دورة الشراء&lt;/li&gt;
+&lt;li&gt;اتساق الجودة&lt;/li&gt;
+&lt;li&gt;تحسين التكاليف&lt;/li&gt;
+&lt;li&gt;تخفيف المخاطر&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-3"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;رؤية الأداء&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;مقاييس تشغيلية في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;تتبّع الإنتاجية&lt;/li&gt;
+&lt;li&gt;مؤشرات الجودة&lt;/li&gt;
+&lt;li&gt;تحليل التكلفة لكل وحدة&lt;/li&gt;
+&lt;li&gt;معدلات استغلال الموارد&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-4"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;تحسين الموارد&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إنتاجية القوى العاملة&lt;/li&gt;
+&lt;li&gt;استغلال المعدات&lt;/li&gt;
+&lt;li&gt;تخطيط السعة&lt;/li&gt;
+&lt;li&gt;كفاءة مركز التكلفة&lt;/li&gt;
+&lt;li&gt;إدارة الأصول&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;😰 نقاط الألم التشغيلية الشائعة التي نعالجها&lt;span class="hx:absolute hx:-mt-20" id="-نقاط-الألم-التشغيلية-الشائعة-التي-نعالجها"&gt;&lt;/span&gt;
+&lt;a href="#-%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%a3%d9%84%d9%85-%d8%a7%d9%84%d8%aa%d8%b4%d8%ba%d9%8a%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%b4%d8%a7%d8%a6%d8%b9%d8%a9-%d8%a7%d9%84%d8%aa%d9%8a-%d9%86%d8%b9%d8%a7%d9%84%d8%ac%d9%87%d8%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;التحديات الحالية التي يواجهها مديرو العمليات&lt;span class="hx:absolute hx:-mt-20" id="التحديات-الحالية-التي-يواجهها-مديرو-العمليات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%ad%d8%af%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d8%a7%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d9%8a-%d9%8a%d9%88%d8%a7%d8%ac%d9%87%d9%87%d8%a7-%d9%85%d8%af%d9%8a%d8%b1%d9%88-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-red-200 hx:bg-red-100 hx:text-red-900 hx:dark:border-red-200/30 hx:dark:bg-red-900/30 hx:dark:text-red-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;🚫&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;&lt;strong&gt;معاناة العمليات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;العمليات اليدوية تخلق اختناقات&lt;/li&gt;
+&lt;li&gt;ضعف رؤية المخزون يسبب نفاد المخزون&lt;/li&gt;
+&lt;li&gt;مشكلات أداء الموردين&lt;/li&gt;
+&lt;li&gt;الأنظمة المنفصلة تعيق القرارات&lt;/li&gt;
+&lt;li&gt;إدارة تفاعلية بدلاً من استباقية&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;المشكلات المحددة التي يحلّها BigLedger&lt;span class="hx:absolute hx:-mt-20" id="المشكلات-المحددة-التي-يحلها-bigledger"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%ad%d8%af%d8%af%d8%a9-%d8%a7%d9%84%d8%aa%d9%8a-%d9%8a%d8%ad%d9%84%d9%87%d8%a7-bigledger" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;أوجه القصور في العمليات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: الموافقات اليدوية تسبب تأخيرات من 3-5 أيام&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل&lt;/strong&gt;: سير عمل آلي مع موافقات قائمة على الأدوار&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;النقاط العمياء في المخزون&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: معدل نفاد مخزون بنسبة 20% بسبب ضعف الرؤية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل&lt;/strong&gt;: تتبّع المخزون في الوقت الفعلي مع إعادة طلب آلية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;اضطرابات سلسلة التوريد&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: اكتشاف مشكلات الموردين بعد حدوث التأخيرات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل&lt;/strong&gt;: مراقبة استباقية لأداء الموردين وتنبيهات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;فجوات قياس الأداء&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: مراجعات الأداء الأسبوعية/الشهرية تفوّت المشكلات الحاسمة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل&lt;/strong&gt;: لوحات معلومات تشغيلية في الوقت الفعلي مع تنبيهات الاستثناءات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;مشكلات استغلال الموارد&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: موارد غير مستغلة وقيود على السعة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل&lt;/strong&gt;: تخصيص ذكي للموارد وتخطيط السعة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2&gt;🎬 سيناريوهات العرض التوضيحي ونتائج الأعمال&lt;span class="hx:absolute hx:-mt-20" id="-سيناريوهات-العرض-التوضيحي-ونتائج-الأعمال"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d8%b1%d8%b6-%d8%a7%d9%84%d8%aa%d9%88%d8%b6%d9%8a%d8%ad%d9%8a-%d9%88%d9%86%d8%aa%d8%a7%d8%a6%d8%ac-%d8%a7%d9%84%d8%a3%d8%b9%d9%85%d8%a7%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;السيناريو 1: سير عمل المشتريات الآلي&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-1-سير-عمل-المشتريات-الآلي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-1-%d8%b3%d9%8a%d8%b1-%d8%b9%d9%85%d9%84-%d8%a7%d9%84%d9%85%d8%b4%d8%aa%d8%b1%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%a2%d9%84%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحدي الأعمال&lt;/strong&gt;: طلبات الشراء تستغرق 5 أيام من الطلب إلى الموافقة على أمر الشراء، مما يسبب تأخيرات الموردين&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;&lt;strong&gt;الوصول إلى العرض التوضيحي&lt;/strong&gt;: سجّل الدخول إلى &lt;a href="https://demo-v1.bigledger.com" target="_blank" rel="noopener"&gt;demo-v1.bigledger.com&lt;/a&gt; باستخدام:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;اسم المستخدم&lt;/strong&gt;: demo-admin&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;كلمة المرور&lt;/strong&gt;: Demo2025!&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;سير العمل خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;بدء طلب الشراء&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;انتقل إلى المشتريات ← طلبات الشراء&lt;/li&gt;
+&lt;li&gt;أنشئ طلباً جديداً مع اقتراحات ذكية للموردين&lt;/li&gt;
+&lt;li&gt;طبّق التحقق الآلي من الميزانية&lt;/li&gt;
+&lt;li&gt;قدّم للموافقة عبر سير العمل المُكوّن&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;عملية الموافقة الآلية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;راجع توجيه سير عمل الموافقات&lt;/li&gt;
+&lt;li&gt;راقب حالة الموافقة في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;تعامل مع موافقات الاستثناءات عبر الهاتف المحمول&lt;/li&gt;
+&lt;li&gt;أنشئ أوامر الشراء تلقائياً&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;التواصل مع الموردين وتتبّعهم&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;أرسل أمر الشراء الآلي إلى الموردين المفضّلين&lt;/li&gt;
+&lt;li&gt;تتبّع الإقرار والتزامات التسليم&lt;/li&gt;
+&lt;li&gt;راقب أداء التسليم مقابل الجدول الزمني&lt;/li&gt;
+&lt;li&gt;حدّث استلامات المخزون عند التسليم&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;نتيجة الأعمال&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;وقت العملية&lt;/strong&gt;: تقليص 5 أيام إلى 4 ساعات (تحسّن بنسبة 95%)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;كفاءة الموافقة&lt;/strong&gt;: سير عمل رقمي 100%، موافقات أسرع بنسبة 50%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أداء الموردين&lt;/strong&gt;: تحسّن بنسبة 25% في التسليم في الموعد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;السيناريو 2: إدارة المخزون الذكية&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-2-إدارة-المخزون-الذكية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-2-%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d9%85%d8%ae%d8%b2%d9%88%d9%86-%d8%a7%d9%84%d8%b0%d9%83%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحدي الأعمال&lt;/strong&gt;: معدل نفاد مخزون بنسبة 20% ومخزون فائض بقيمة 500 ألف رينغيت ماليزي يسبب مشكلات في التدفق النقدي&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;سير العمل خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;لوحة معلومات المخزون في الوقت الفعلي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;الوصول إلى إدارة المخزون ← نظرة عامة على المخزون&lt;/li&gt;
+&lt;li&gt;راجع مستويات المخزون الحالية عبر جميع المواقع&lt;/li&gt;
+&lt;li&gt;حدّد العناصر بطيئة الحركة وسريعة الحركة&lt;/li&gt;
+&lt;li&gt;حلّل نسب دوران المخزون حسب الفئة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;إدارة إعادة الطلب الآلية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;كوّن مستويات المخزون الدنيا/القصوى مع التحسين بالذكاء الاصطناعي&lt;/li&gt;
+&lt;li&gt;راجع اقتراحات إعادة الطلب الآلية&lt;/li&gt;
+&lt;li&gt;أعِد إدارة مهلة التوريد الخاصة بكل مورّد&lt;/li&gt;
+&lt;li&gt;فعّل إنشاء أمر الشراء التلقائي للعناصر الحرجة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;التنبؤ بالطلب والتخطيط&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;حلّل أنماط الطلب التاريخية&lt;/li&gt;
+&lt;li&gt;راجع توقّعات الطلب المدعومة بالذكاء الاصطناعي&lt;/li&gt;
+&lt;li&gt;عدّل مستويات مخزون الأمان بناءً على الموسمية&lt;/li&gt;
+&lt;li&gt;حسّن جداول المشتريات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;نتيجة الأعمال&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;خفض نفاد المخزون&lt;/strong&gt;: من 20% إلى 3% معدل نفاد (تحسّن بنسبة 85%)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;استثمار المخزون&lt;/strong&gt;: خفض بقيمة 500 ألف رينغيت ماليزي في المخزون الفائض&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التدفق النقدي&lt;/strong&gt;: تحسّن بنسبة 30% في دوران المخزون&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;السيناريو 3: تحسين أداء سلسلة التوريد&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-3-تحسين-أداء-سلسلة-التوريد"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-3-%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%a3%d8%af%d8%a7%d8%a1-%d8%b3%d9%84%d8%b3%d9%84%d8%a9-%d8%a7%d9%84%d8%aa%d9%88%d8%b1%d9%8a%d8%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحدي الأعمال&lt;/strong&gt;: مشكلات جودة الموردين وتأخيرات التسليم تؤثر على جداول الإنتاج&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;سير العمل خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تحليلات أداء الموردين&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;انتقل إلى المشتريات ← إدارة الموردين&lt;/li&gt;
+&lt;li&gt;راجع بطاقات أداء الموردين ومؤشرات الأداء الرئيسية&lt;/li&gt;
+&lt;li&gt;حلّل اتجاهات أداء التسليم&lt;/li&gt;
+&lt;li&gt;تتبّع مقاييس الجودة والمرتجعات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;الإدارة الاستباقية للمشكلات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;أعِد تنبيهات آلية لتدهور الأداء&lt;/li&gt;
+&lt;li&gt;كوّن سير عمل الاستثناءات لمشكلات الجودة&lt;/li&gt;
+&lt;li&gt;فعّل أتمتة التواصل مع الموردين&lt;/li&gt;
+&lt;li&gt;تتبّع خطط الإجراءات التصحيحية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;التطوير الاستراتيجي للموردين&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;حدّد الموردين الأفضل أداءً للشراكات&lt;/li&gt;
+&lt;li&gt;حلّل فرص توفير التكاليف&lt;/li&gt;
+&lt;li&gt;خطّط استراتيجيات تنويع الموردين&lt;/li&gt;
+&lt;li&gt;تفاوض على شروط أفضل بناءً على بيانات الأداء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;نتيجة الأعمال&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;جودة الموردين&lt;/strong&gt;: خفض بنسبة 40% في معدلات العيوب&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أداء التسليم&lt;/strong&gt;: 95% تسليم في الموعد (من 75%)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;توفير التكاليف&lt;/strong&gt;: خفض بنسبة 12% في تكاليف المشتريات من خلال التحسين&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;السيناريو 4: تكامل الإنتاج ومراقبة الجودة&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-4-تكامل-الإنتاج-ومراقبة-الجودة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-4-%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d8%a7%d9%84%d8%a5%d9%86%d8%aa%d8%a7%d8%ac-%d9%88%d9%85%d8%b1%d8%a7%d9%82%d8%a8%d8%a9-%d8%a7%d9%84%d8%ac%d9%88%d8%af%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحدي الأعمال&lt;/strong&gt;: اكتشاف مشكلات الجودة متأخراً جداً، مما يسبب إعادة العمل وشكاوى العملاء&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;سير العمل خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تخطيط الإنتاج وجدولته&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;الوصول إلى التصنيع ← تخطيط الإنتاج&lt;/li&gt;
+&lt;li&gt;راجع جداول الإنتاج المدفوعة بالطلب&lt;/li&gt;
+&lt;li&gt;حسّن تخصيص الموارد والسعة&lt;/li&gt;
+&lt;li&gt;تتبّع تقدّم أمر العمل في الوقت الفعلي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تكامل مراقبة الجودة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;كوّن نقاط تفتيش الجودة في سير العمل&lt;/li&gt;
+&lt;li&gt;أعِد جداول اختبار آلية&lt;/li&gt;
+&lt;li&gt;تتبّع مقاييس الجودة واتجاهاتها&lt;/li&gt;
+&lt;li&gt;أنشئ شهادات الجودة تلقائياً&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تحليلات الأداء&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;راقب الفعالية الإجمالية للمعدات (OEE)&lt;/li&gt;
+&lt;li&gt;تتبّع معدلات الإنتاج الصحيح من المرة الأولى&lt;/li&gt;
+&lt;li&gt;حلّل مقاييس تكلفة الجودة&lt;/li&gt;
+&lt;li&gt;أنشئ رؤى التحسين المستمر&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;نتيجة الأعمال&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تحسين الجودة&lt;/strong&gt;: خفض بنسبة 60% في معدلات العيوب&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مكاسب الكفاءة&lt;/strong&gt;: تحسّن بنسبة 25% في إنتاجية الإنتاج&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;رضا العملاء&lt;/strong&gt;: خفض بنسبة 35% في شكاوى الجودة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;السيناريو 5: تنسيق العمليات متعددة المواقع&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-5-تنسيق-العمليات-متعددة-المواقع"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-5-%d8%aa%d9%86%d8%b3%d9%8a%d9%82-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa-%d9%85%d8%aa%d8%b9%d8%af%d8%af%d8%a9-%d8%a7%d9%84%d9%85%d9%88%d8%a7%d9%82%d8%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحدي الأعمال&lt;/strong&gt;: إدارة 5 مواقع بعمليات غير متسقة وضعف الرؤية&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;سير العمل خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;لوحة معلومات متعددة المواقع&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;انتقل إلى العمليات ← نظرة عامة متعددة المواقع&lt;/li&gt;
+&lt;li&gt;قارن مقاييس الأداء عبر المواقع&lt;/li&gt;
+&lt;li&gt;حدّد أفضل الممارسات وفرص التحسين&lt;/li&gt;
+&lt;li&gt;راقب استغلال الموارد حسب الموقع&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تطبيق عمليات موحّدة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;راجع سير العمل الموحّد عبر المواقع&lt;/li&gt;
+&lt;li&gt;تتبّع الامتثال للإجراءات التشغيلية&lt;/li&gt;
+&lt;li&gt;شارك أفضل الممارسات بين المواقع&lt;/li&gt;
+&lt;li&gt;نسّق عمليات نقل الموارد حسب الحاجة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;التقارير والتحليلات الموحّدة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;أنشئ تقارير تشغيلية موحّدة&lt;/li&gt;
+&lt;li&gt;قارن معايير أداء المواقع&lt;/li&gt;
+&lt;li&gt;حدّد فرص التحسين&lt;/li&gt;
+&lt;li&gt;خطّط استراتيجيات تخصيص الموارد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;نتيجة الأعمال&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;توحيد العمليات&lt;/strong&gt;: امتثال بنسبة 95% عبر جميع المواقع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مكاسب الكفاءة&lt;/strong&gt;: تحسّن الإنتاجية بنسبة 20% على مستوى الشركة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحسين التكاليف&lt;/strong&gt;: توفير سنوي بقيمة 200 ألف رينغيت ماليزي من خلال تحسين الموارد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;السيناريو 6: إدارة المستودعات وتحسين الخدمات اللوجستية&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-6-إدارة-المستودعات-وتحسين-الخدمات-اللوجستية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-6-%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%88%d8%af%d8%b9%d8%a7%d8%aa-%d9%88%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%84%d9%88%d8%ac%d8%b3%d8%aa%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحدي الأعمال&lt;/strong&gt;: عمليات المستودعات تسبب تأخيرات الشحن وزيادة التكاليف&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;سير العمل خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;إدارة عمليات المستودعات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;الوصول إلى إدارة المستودعات ← لوحة معلومات العمليات&lt;/li&gt;
+&lt;li&gt;حسّن سير عمل الانتقاء والتغليف&lt;/li&gt;
+&lt;li&gt;تتبّع أداء تنفيذ الطلبات&lt;/li&gt;
+&lt;li&gt;أدِر مواقع المخزون وحركاته&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تكامل الخدمات اللوجستية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تكامل مع مزوّدي الشحن&lt;/li&gt;
+&lt;li&gt;حسّن تخطيط مسارات التسليم&lt;/li&gt;
+&lt;li&gt;تتبّع حالة الشحنة في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;أدِر المرتجعات والاستبدالات بكفاءة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تحسين الأداء&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;حلّل مقاييس إنتاجية المستودع&lt;/li&gt;
+&lt;li&gt;حسّن تخطيطات التخزين والإجراءات&lt;/li&gt;
+&lt;li&gt;تتبّع كفاءة العمالة وتكاليفها&lt;/li&gt;
+&lt;li&gt;خطّط احتياجات توسيع السعة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;نتيجة الأعمال&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;سرعة التنفيذ&lt;/strong&gt;: معالجة طلبات أسرع بنسبة 40%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تكاليف الشحن&lt;/strong&gt;: خفض بنسبة 15% من خلال التحسين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;رضا العملاء&lt;/strong&gt;: معدل تسليم في الموعد بنسبة 98%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;السيناريو 7: التحليلات التشغيلية والتحسين المستمر&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-7-التحليلات-التشغيلية-والتحسين-المستمر"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-7-%d8%a7%d9%84%d8%aa%d8%ad%d9%84%d9%8a%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b4%d8%ba%d9%8a%d9%84%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%85%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحدي الأعمال&lt;/strong&gt;: نقص الرؤى في الوقت الفعلي يمنع التحسينات التشغيلية الاستباقية&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;سير العمل خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;لوحة معلومات العمليات في الوقت الفعلي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;كوّن لوحات معلومات مؤشرات الأداء الرئيسية التشغيلية&lt;/li&gt;
+&lt;li&gt;أعِد تنبيهات آلية للاستثناءات&lt;/li&gt;
+&lt;li&gt;راقب مقاييس العمليات الحاسمة&lt;/li&gt;
+&lt;li&gt;تتبّع تقدّم مبادرة التحسين&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;التحليلات المتقدمة والرؤى&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;استخدم التحليلات التنبؤية لتخطيط السعة&lt;/li&gt;
+&lt;li&gt;حدّد فرص تحسين العمليات&lt;/li&gt;
+&lt;li&gt;حلّل محرّكات التكلفة وعوامل الكفاءة&lt;/li&gt;
+&lt;li&gt;أنشئ توصيات تحسين قابلة للتنفيذ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;إدارة التحسين المستمر&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تتبّع مشاريع التحسين والعائد على الاستثمار&lt;/li&gt;
+&lt;li&gt;أدِر تطبيق التغيير&lt;/li&gt;
+&lt;li&gt;راقب الاعتماد والنتائج&lt;/li&gt;
+&lt;li&gt;شارك أفضل الممارسات عبر المؤسسة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;نتيجة الأعمال&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الإدارة الاستباقية&lt;/strong&gt;: تحديد 80% من المشكلات قبل حدوث الأثر&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحسين المستمر&lt;/strong&gt;: مكاسب كفاءة سنوية بنسبة 15%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;سرعة القرار&lt;/strong&gt;: قرارات تشغيلية أسرع بنسبة 70%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;📊 المقاييس الرئيسية التي يتتبّعها مديرو العمليات&lt;span class="hx:absolute hx:-mt-20" id="-المقاييس-الرئيسية-التي-يتتبعها-مديرو-العمليات"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%a7%d9%84%d9%85%d9%82%d8%a7%d9%8a%d9%8a%d8%b3-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d9%8a-%d9%8a%d8%aa%d8%aa%d8%a8%d8%b9%d9%87%d8%a7-%d9%85%d8%af%d9%8a%d8%b1%d9%88-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;مقاييس الأداء التشغيلي&lt;span class="hx:absolute hx:-mt-20" id="مقاييس-الأداء-التشغيلي"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%82%d8%a7%d9%8a%d9%8a%d8%b3-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d8%aa%d8%b4%d8%ba%d9%8a%d9%84%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain"&gt;
+&lt;div class="hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800"&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-0" aria-selected="true" tabindex="0" data-state="selected"&gt;الكفاءة&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-1"&gt;الجودة&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-2"&gt;التكلفة&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-3"&gt;الاستغلال&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-4"&gt;خدمة العملاء&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-0"
+role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;p&gt;&lt;strong&gt;الكفاءة التشغيلية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;الفعالية الإجمالية للمعدات (OEE)&lt;/li&gt;
+&lt;li&gt;أزمنة دورة العمليات&lt;/li&gt;
+&lt;li&gt;معدلات الإنتاجية&lt;/li&gt;
+&lt;li&gt;إنتاجية العمالة&lt;/li&gt;
+&lt;li&gt;استغلال الأتمتة&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-1"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;أداء الجودة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;الإنتاج الصحيح من المرة الأولى&lt;/li&gt;
+&lt;li&gt;معدلات العيوب حسب العملية&lt;/li&gt;
+&lt;li&gt;معدلات شكاوى العملاء&lt;/li&gt;
+&lt;li&gt;تكاليف إعادة العمل&lt;/li&gt;
+&lt;li&gt;درجات تدقيق الجودة&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-2"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;إدارة التكاليف&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;التكلفة لكل وحدة مُنتَجة&lt;/li&gt;
+&lt;li&gt;تكلفة العمالة لكل ساعة&lt;/li&gt;
+&lt;li&gt;معدلات استغلال المواد&lt;/li&gt;
+&lt;li&gt;مقاييس خفض الهدر&lt;/li&gt;
+&lt;li&gt;استهلاك الطاقة&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-3"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;استغلال الموارد&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;معدلات استغلال المعدات&lt;/li&gt;
+&lt;li&gt;إنتاجية القوى العاملة&lt;/li&gt;
+&lt;li&gt;استغلال السعة&lt;/li&gt;
+&lt;li&gt;تحسين المساحة&lt;/li&gt;
+&lt;li&gt;أداء الأصول&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-4"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;خدمة العملاء&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;وقت تنفيذ الطلب&lt;/li&gt;
+&lt;li&gt;معدلات التسليم في الموعد&lt;/li&gt;
+&lt;li&gt;درجات رضا العملاء&lt;/li&gt;
+&lt;li&gt;معدلات المرتجعات/الاستبدالات&lt;/li&gt;
+&lt;li&gt;تحقيق مستوى الخدمة&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;قياسات أثر BigLedger&lt;span class="hx:absolute hx:-mt-20" id="قياسات-أثر-bigledger"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d9%8a%d8%a7%d8%b3%d8%a7%d8%aa-%d8%a3%d8%ab%d8%b1-bigledger" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;المقياس&lt;/th&gt;
+&lt;th&gt;قبل BigLedger&lt;/th&gt;
+&lt;th&gt;مع BigLedger&lt;/th&gt;
+&lt;th&gt;التحسّن&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;دورة الموافقة على الشراء&lt;/td&gt;
+&lt;td&gt;5 أيام&lt;/td&gt;
+&lt;td&gt;4 ساعات&lt;/td&gt;
+&lt;td&gt;أسرع بنسبة 95%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;معدل نفاد المخزون&lt;/td&gt;
+&lt;td&gt;20%&lt;/td&gt;
+&lt;td&gt;3%&lt;/td&gt;
+&lt;td&gt;انخفاض بنسبة 85%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;تسليم الموردين في الموعد&lt;/td&gt;
+&lt;td&gt;75%&lt;/td&gt;
+&lt;td&gt;95%&lt;/td&gt;
+&lt;td&gt;تحسّن بنسبة 27%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;إنتاجية الإنتاج&lt;/td&gt;
+&lt;td&gt;الخط الأساسي&lt;/td&gt;
+&lt;td&gt;‎+25%&lt;/td&gt;
+&lt;td&gt;زيادة بنسبة 25%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;وقت تنفيذ الطلب&lt;/td&gt;
+&lt;td&gt;5 أيام&lt;/td&gt;
+&lt;td&gt;3 أيام&lt;/td&gt;
+&lt;td&gt;أسرع بنسبة 40%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;توحيد العمليات&lt;/td&gt;
+&lt;td&gt;60%&lt;/td&gt;
+&lt;td&gt;95%&lt;/td&gt;
+&lt;td&gt;تحسّن بنسبة 58%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔗 نقاط التكامل الحاسمة&lt;span class="hx:absolute hx:-mt-20" id="-نقاط-التكامل-الحاسمة"&gt;&lt;/span&gt;
+&lt;a href="#-%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d8%a7%d9%84%d8%ad%d8%a7%d8%b3%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;تكاملات نظام العمليات الأساسية&lt;span class="hx:absolute hx:-mt-20" id="تكاملات-نظام-العمليات-الأساسية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%83%d8%a7%d9%85%d9%84%d8%a7%d8%aa-%d9%86%d8%b8%d8%a7%d9%85-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;عرض التكامل&lt;/strong&gt;: يُظهِر كل سيناريو التكامل السلس مع أنظمة ومعدات العمليات الحالية.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تكامل معدات التصنيع&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;جمع بيانات الآلة في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;تكامل اختبار الجودة الآلي&lt;/li&gt;
+&lt;li&gt;تحسين جدولة الإنتاج&lt;/li&gt;
+&lt;li&gt;أتمتة تخطيط الصيانة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;أنظمة إدارة المستودعات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تتبّع المخزون وتحديثاته&lt;/li&gt;
+&lt;li&gt;تحسين الانتقاء والتغليف&lt;/li&gt;
+&lt;li&gt;تكامل الشحن&lt;/li&gt;
+&lt;li&gt;أتمتة معالجة المرتجعات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تكامل بوابة الموردين&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إرسال آلي لأمر الشراء&lt;/li&gt;
+&lt;li&gt;تتبّع أداء الموردين&lt;/li&gt;
+&lt;li&gt;أتمتة مطابقة الفواتير&lt;/li&gt;
+&lt;li&gt;أدوات التخطيط التعاوني&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;أنظمة إدارة الجودة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;نقاط تفتيش الجودة الآلية&lt;/li&gt;
+&lt;li&gt;التحكّم الإحصائي في العمليات&lt;/li&gt;
+&lt;li&gt;تتبّع عدم المطابقة&lt;/li&gt;
+&lt;li&gt;إدارة الإجراءات التصحيحية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تكامل الخدمات اللوجستية والشحن&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تحسين الشحن متعدد شركات النقل&lt;/li&gt;
+&lt;li&gt;تحديثات التتبّع في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;أتمتة تأكيد التسليم&lt;/li&gt;
+&lt;li&gt;إدارة المرتجعات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2&gt;📈 التقارير ولوحات المعلومات لمديري العمليات&lt;span class="hx:absolute hx:-mt-20" id="-التقارير-ولوحات-المعلومات-لمديري-العمليات"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d9%88%d9%84%d9%88%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d9%84%d9%85%d8%af%d9%8a%d8%b1%d9%8a-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;لوحة معلومات العمليات التنفيذية&lt;span class="hx:absolute hx:-mt-20" id="لوحة-معلومات-العمليات-التنفيذية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%84%d9%88%d8%ad%d8%a9-%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;مؤشرات الأداء الرئيسية التشغيلية في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;تنبيهات وإشعارات الاستثناءات&lt;/li&gt;
+&lt;li&gt;ملخص استغلال الموارد&lt;/li&gt;
+&lt;li&gt;مؤشرات أداء الجودة&lt;/li&gt;
+&lt;li&gt;تحليل اتجاه التكلفة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;مجموعة أدوات التقارير التشغيلية&lt;span class="hx:absolute hx:-mt-20" id="مجموعة-أدوات-التقارير-التشغيلية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9-%d8%a3%d8%af%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d8%aa%d8%b4%d8%ba%d9%8a%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain"&gt;
+&lt;div class="hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800"&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-0" aria-selected="true" tabindex="0" data-state="selected"&gt;تقارير الأداء&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-1"&gt;تقارير الجودة&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-2"&gt;تحليل التكاليف&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-3"&gt;تقارير الموردين&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-0"
+role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;p&gt;&lt;strong&gt;تقارير الأداء&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;مقاييس الكفاءة التشغيلية&lt;/li&gt;
+&lt;li&gt;تحليل الإنتاجية حسب القسم&lt;/li&gt;
+&lt;li&gt;تقارير الإنتاجية وزمن الدورة&lt;/li&gt;
+&lt;li&gt;تحليل استغلال السعة&lt;/li&gt;
+&lt;li&gt;اتجاهات الأداء والتوقعات&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-1"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;إدارة الجودة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;لوحات معلومات أداء الجودة&lt;/li&gt;
+&lt;li&gt;تحليل العيوب واتجاهاتها&lt;/li&gt;
+&lt;li&gt;تتبّع شكاوى العملاء&lt;/li&gt;
+&lt;li&gt;تقارير تكلفة الجودة&lt;/li&gt;
+&lt;li&gt;مقاييس التحسين المستمر&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-2"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;تحليل التكاليف&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تحليل التكلفة لكل وحدة&lt;/li&gt;
+&lt;li&gt;تقارير كفاءة العمالة&lt;/li&gt;
+&lt;li&gt;تتبّع استغلال المواد&lt;/li&gt;
+&lt;li&gt;مقاييس خفض الهدر&lt;/li&gt;
+&lt;li&gt;أداء الميزانية مقابل الفعلي&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-3"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;أداء الموردين&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تقارير بطاقة أداء الموردين&lt;/li&gt;
+&lt;li&gt;تحليل أداء التسليم&lt;/li&gt;
+&lt;li&gt;أداء الجودة حسب المورّد&lt;/li&gt;
+&lt;li&gt;تتبّع توفير التكاليف&lt;/li&gt;
+&lt;li&gt;تقارير تقييم المخاطر&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;تقارير الاستثناءات الآلية&lt;span class="hx:absolute hx:-mt-20" id="تقارير-الاستثناءات-الآلية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%ab%d9%86%d8%a7%d8%a1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a2%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;انحرافات جدول الإنتاج&lt;/li&gt;
+&lt;li&gt;تجاوزات عتبة الجودة&lt;/li&gt;
+&lt;li&gt;تنبيهات أداء الموردين&lt;/li&gt;
+&lt;li&gt;تحذيرات نقص المخزون&lt;/li&gt;
+&lt;li&gt;استثناءات استغلال الموارد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;💡 خارطة طريق التطبيق لفرق العمليات&lt;span class="hx:absolute hx:-mt-20" id="-خارطة-طريق-التطبيق-لفرق-العمليات"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%ae%d8%a7%d8%b1%d8%b7%d8%a9-%d8%b7%d8%b1%d9%8a%d9%82-%d8%a7%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82-%d9%84%d9%81%d8%b1%d9%82-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;المرحلة 1: الأساس (الأسابيع 1-6)&lt;span class="hx:absolute hx:-mt-20" id="المرحلة-1-الأساس-الأسابيع-1-6"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b1%d8%ad%d9%84%d8%a9-1-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%a8%d9%8a%d8%b9-1-6" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;إعداد البيانات الأساسية الرئيسية (العناصر، والموردون، والمواقع)&lt;/li&gt;
+&lt;li&gt;تكوين سير العمل الأساسي&lt;/li&gt;
+&lt;li&gt;تدريب المستخدمين وإدماجهم&lt;/li&gt;
+&lt;li&gt;تخطيط تكامل النظام&lt;/li&gt;
+&lt;li&gt;إرساء خط أساس الأداء الأولي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;المرحلة 2: أتمتة العمليات (الأسابيع 7-12)&lt;span class="hx:absolute hx:-mt-20" id="المرحلة-2-أتمتة-العمليات-الأسابيع-7-12"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b1%d8%ad%d9%84%d8%a9-2-%d8%a3%d8%aa%d9%85%d8%aa%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%a8%d9%8a%d8%b9-7-12" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;سير عمل الموافقات الآلي&lt;/li&gt;
+&lt;li&gt;تحسين إدارة المخزون&lt;/li&gt;
+&lt;li&gt;تفعيل تكامل الموردين&lt;/li&gt;
+&lt;li&gt;تكامل مراقبة الجودة&lt;/li&gt;
+&lt;li&gt;نشر لوحة معلومات الأداء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;المرحلة 3: التحليلات المتقدمة (الأسابيع 13-18)&lt;span class="hx:absolute hx:-mt-20" id="المرحلة-3-التحليلات-المتقدمة-الأسابيع-13-18"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b1%d8%ad%d9%84%d8%a9-3-%d8%a7%d9%84%d8%aa%d8%ad%d9%84%d9%8a%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%a8%d9%8a%d8%b9-13-18" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;إعداد التحليلات التنبؤية&lt;/li&gt;
+&lt;li&gt;تخصيص التقارير المتقدمة&lt;/li&gt;
+&lt;li&gt;التكامل متعدد الوظائف&lt;/li&gt;
+&lt;li&gt;عمليات التحسين المستمر&lt;/li&gt;
+&lt;li&gt;نشر الوصول عبر الهاتف المحمول&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;المرحلة 4: التحسين (مستمر)&lt;span class="hx:absolute hx:-mt-20" id="المرحلة-4-التحسين-مستمر"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b1%d8%ad%d9%84%d8%a9-4-%d8%a7%d9%84%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d9%85%d8%b3%d8%aa%d9%85%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;ضبط الأداء وتحسينه&lt;/li&gt;
+&lt;li&gt;نشر الأتمتة المتقدمة&lt;/li&gt;
+&lt;li&gt;تفعيل الرؤى المدعومة بالذكاء الاصطناعي&lt;/li&gt;
+&lt;li&gt;توسّع توحيد العمليات&lt;/li&gt;
+&lt;li&gt;تكامل التخطيط الاستراتيجي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🎯 حاسبة العائد على الاستثمار لفرق العمليات&lt;span class="hx:absolute hx:-mt-20" id="-حاسبة-العائد-على-الاستثمار-لفرق-العمليات"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%ad%d8%a7%d8%b3%d8%a8%d8%a9-%d8%a7%d9%84%d8%b9%d8%a7%d8%a6%d8%af-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%ab%d9%85%d8%a7%d8%b1-%d9%84%d9%81%d8%b1%d9%82-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;مكاسب الكفاءة التشغيلية&lt;span class="hx:absolute hx:-mt-20" id="مكاسب-الكفاءة-التشغيلية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%83%d8%a7%d8%b3%d8%a8-%d8%a7%d9%84%d9%83%d9%81%d8%a7%d8%a1%d8%a9-%d8%a7%d9%84%d8%aa%d8%b4%d8%ba%d9%8a%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحسينات الإنتاجية السنوية:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;توفير أتمتة العمليات: 300,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;فوائد تحسين المخزون: 500,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;قيمة تحسين الجودة: 200,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;مكاسب أداء الموردين: 150,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إجمالي مكاسب الكفاءة السنوية: 1,150,000 رينغيت ماليزي&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;تحليل خفض التكاليف:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;خفض تكاليف العمالة: 240,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;انخفاض تكاليف حمل المخزون: 180,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;خفض تكاليف الجودة: 120,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;تحسين تكلفة الموردين: 100,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إجمالي توفير التكاليف السنوي: 640,000 رينغيت ماليزي&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;إجمالي العائد السنوي على الاستثمار: 1,790,000 رينغيت ماليزي&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🚦 الخطوات التالية&lt;span class="hx:absolute hx:-mt-20" id="-الخطوات-التالية"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;جاهز لتحسين عملياتك؟&lt;span class="hx:absolute hx:-mt-20" id="جاهز-لتحسين-عملياتك"&gt;&lt;/span&gt;
+&lt;a href="#%d8%ac%d8%a7%d9%87%d8%b2-%d9%84%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa%d9%83" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;a
+href="mailto:sales@bigledger.com?subject=Operations%20Manager%20Demo%20Request"
+class="not-prose hx:font-medium hx:cursor-pointer hx:px-6 hx:py-3 hx:rounded-full hx:text-center hx:text-white hx:inline-block hx:bg-primary-600 hx:hover:bg-primary-700 hx:focus:outline-hidden hx:focus:ring-4 hx:focus:ring-primary-300 hx:dark:bg-primary-600 hx:dark:hover:bg-primary-700 hx:dark:focus:ring-primary-800 hx:transition-all hx:ease-in hx:duration-200"
+&gt;جدوِل عرض العمليات التوضيحي&lt;/a&gt;
+&lt;h3&gt;إجراءات سريعة&lt;span class="hx:absolute hx:-mt-20" id="إجراءات-سريعة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%ac%d8%b1%d8%a7%d8%a1%d8%a7%d8%aa-%d8%b3%d8%b1%d9%8a%d8%b9%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/demo/role-based/operations-manager/#scenario-1-automated-procurement-workflow" &gt;ابدأ العرض التوضيحي الآن&lt;/a&gt;&lt;/strong&gt; - ابدأ بأتمتة المشتريات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#roi-calculator-for-operations-teams" &gt;احسب عائدك على الاستثمار&lt;/a&gt;&lt;/strong&gt; - قدّر التوفير التشغيلي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="mailto:sales@bigledger.com" &gt;تواصل مع أخصائي العمليات&lt;/a&gt;&lt;/strong&gt; - ناقش التحديات التشغيلية المحددة&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;باقة التميّز التشغيلي&lt;/strong&gt;: اذكر &amp;ldquo;OPS-DEMO&amp;rdquo; للحصول على عرض توضيحي متخصص يركّز على احتياجات تحسين عملياتك المحددة.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>رحلة العرض التوضيحي للرئيس التنفيذي والمديرين التنفيذيين</title><link>https://www.bigledger.com/ar/user-guide/demo/role-based/ceo-executive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/user-guide/demo/role-based/ceo-executive/</guid><description>
+&lt;p&gt;اختبر كيف يُحوِّل BigLedger صنع القرار التنفيذي من خلال ذكاء الأعمال الشامل، والرؤى الاستراتيجية في الوقت الفعلي، والتحليلات التنبؤية. يركّز هذا العرض التوضيحي على الرؤية الاستراتيجية والتحكّم اللذين يحتاجهما الرؤساء التنفيذيون لدفع النمو.&lt;/p&gt;
+&lt;a
+class=" not-prose hx:inline-flex hx:items-center hx:rounded-full hx:gap-2 hx:px-3 hx:py-1 hx:text-xs hx:text-gray-600 hx:dark:text-gray-400 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:border-gray-200 hx:dark:border-neutral-800 hx:border hx:hover:border-gray-400 hx:dark:hover:text-gray-50 hx:dark:hover:border-gray-600 hx:transition-all hx:ease-in hx:duration-200"
+&gt;
+📊 ذكاء الأعمال الاستراتيجي
+&lt;/a&gt;
+&lt;h1
+class="not-prose hx:text-4xl hx:font-bold hx:leading-none hx:tracking-tighter hx:md:text-5xl hx:py-2 hx:bg-clip-text hx:text-transparent hx:bg-gradient-to-r hx:from-gray-900 hx:to-gray-600 hx:dark:from-gray-100 hx:dark:to-gray-400"
+&gt;
+حوّل البيانات إلى ميزة استراتيجية
+&lt;/h1&gt;
+&lt;p
+class="not-prose hx:text-xl hx:text-gray-600 hx:dark:text-gray-400 hx:sm:text-xl"
+&gt;
+لوحات المعلومات التنفيذية • مؤشرات الأداء الرئيسية الاستراتيجية • ذكاء الأعمال • تحليلات النمو • تحليل الربحية • ذكاء السوق
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🎯 الأهداف الرئيسية للرؤساء التنفيذيين والمديرين التنفيذيين&lt;span class="hx:absolute hx:-mt-20" id="-الأهداف-الرئيسية-للرؤساء-التنفيذيين-والمديرين-التنفيذيين"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%a7%d9%84%d8%a3%d9%87%d8%af%d8%a7%d9%81-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9-%d9%84%d9%84%d8%b1%d8%a4%d8%b3%d8%a7%d8%a1-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0%d9%8a%d9%8a%d9%86-%d9%88%d8%a7%d9%84%d9%85%d8%af%d9%8a%d8%b1%d9%8a%d9%86-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0%d9%8a%d9%8a%d9%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;الأهداف الاستراتيجية التي تريد تحقيقها&lt;span class="hx:absolute hx:-mt-20" id="الأهداف-الاستراتيجية-التي-تريد-تحقيقها"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a3%d9%87%d8%af%d8%a7%d9%81-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d9%8a-%d8%aa%d8%b1%d9%8a%d8%af-%d8%aa%d8%ad%d9%82%d9%8a%d9%82%d9%87%d8%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain"&gt;
+&lt;div class="hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800"&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-0" aria-selected="true" tabindex="0" data-state="selected"&gt;الرؤية الاستراتيجية&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-1"&gt;إدارة النمو&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-2"&gt;التحكّم في المخاطر&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-3"&gt;التميّز في الأداء&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-4"&gt;الميزة التنافسية&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-0"
+role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;p&gt;&lt;strong&gt;الرؤية والتخطيط الاستراتيجي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;رؤية أداء الأعمال في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;التخطيط الاستراتيجي المدفوع بالبيانات&lt;/li&gt;
+&lt;li&gt;تحديد فرص السوق&lt;/li&gt;
+&lt;li&gt;تحليل الموقع التنافسي&lt;/li&gt;
+&lt;li&gt;تخطيط النمو طويل المدى&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-1"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;إدارة النمو&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تتبّع نمو الإيرادات&lt;/li&gt;
+&lt;li&gt;تحليلات توسّع السوق&lt;/li&gt;
+&lt;li&gt;مقاييس اكتساب العملاء&lt;/li&gt;
+&lt;li&gt;تحليل أداء المنتجات/الخدمات&lt;/li&gt;
+&lt;li&gt;مراقبة العائد على الاستثمار&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-2"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;إدارة المخاطر والتحكّم&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;مراقبة المخاطر المالية&lt;/li&gt;
+&lt;li&gt;تنبيهات المخاطر التشغيلية&lt;/li&gt;
+&lt;li&gt;تتبّع حالة الامتثال&lt;/li&gt;
+&lt;li&gt;أمان التدفق النقدي&lt;/li&gt;
+&lt;li&gt;تخطيط استمرارية الأعمال&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-3"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;التميّز في الأداء&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تتبّع تحقيق مؤشرات الأداء الرئيسية&lt;/li&gt;
+&lt;li&gt;مقاييس الكفاءة المؤسسية&lt;/li&gt;
+&lt;li&gt;تحسين الإنتاجية&lt;/li&gt;
+&lt;li&gt;مؤشرات أداء الجودة&lt;/li&gt;
+&lt;li&gt;مراقبة رضا العملاء&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-4"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;الميزة التنافسية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تكامل ذكاء السوق&lt;/li&gt;
+&lt;li&gt;تحليل الأداء المرجعي&lt;/li&gt;
+&lt;li&gt;تتبّع مسار الابتكار&lt;/li&gt;
+&lt;li&gt;مقاييس التميّز التشغيلي&lt;/li&gt;
+&lt;li&gt;تقدّم التحوّل الرقمي&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;😰 تحديات صنع القرار التنفيذي التي نعالجها&lt;span class="hx:absolute hx:-mt-20" id="-تحديات-صنع-القرار-التنفيذي-التي-نعالجها"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%aa%d8%ad%d8%af%d9%8a%d8%a7%d8%aa-%d8%b5%d9%86%d8%b9-%d8%a7%d9%84%d9%82%d8%b1%d8%a7%d8%b1-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0%d9%8a-%d8%a7%d9%84%d8%aa%d9%8a-%d9%86%d8%b9%d8%a7%d9%84%d8%ac%d9%87%d8%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;نقاط الألم الحالية في الإدارة الاستراتيجية&lt;span class="hx:absolute hx:-mt-20" id="نقاط-الألم-الحالية-في-الإدارة-الاستراتيجية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%a3%d9%84%d9%85-%d8%a7%d9%84%d8%ad%d8%a7%d9%84%d9%8a%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-red-200 hx:bg-red-100 hx:text-red-900 hx:dark:border-red-200/30 hx:dark:bg-red-900/30 hx:dark:text-red-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;🚫&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;&lt;strong&gt;فجوة المعلومات التنفيذية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;قرارات حاسمة مبنية على بيانات قديمة&lt;/li&gt;
+&lt;li&gt;نقص رؤية الأعمال في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;معلومات أداء مجزّأة&lt;/li&gt;
+&lt;li&gt;إدارة تفاعلية بدلاً من استباقية&lt;/li&gt;
+&lt;li&gt;رؤى تنبؤية محدودة للتخطيط&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;المشكلات الاستراتيجية التي يحلّها BigLedger&lt;span class="hx:absolute hx:-mt-20" id="المشكلات-الاستراتيجية-التي-يحلها-bigledger"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d9%8a-%d9%8a%d8%ad%d9%84%d9%87%d8%a7-bigledger" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تأخّر المعلومات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: التقارير الشهرية تؤخّر القرارات الحاسمة لأسابيع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل&lt;/strong&gt;: لوحات معلومات تنفيذية في الوقت الفعلي مع رؤى أعمال فورية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تجزّؤ البيانات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: مؤشرات الأداء الرئيسية مبعثرة عبر أنظمة وتقارير متعددة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل&lt;/strong&gt;: منصة ذكاء أعمال موحّدة مع تحليلات متكاملة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;قدرة تنبؤية محدودة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: صنع قرار تفاعلي بسبب نقص التنبؤ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل&lt;/strong&gt;: تحليلات تنبؤية وتحليل اتجاهات مدعومان بالذكاء الاصطناعي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;فجوات رؤية الأداء&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: اكتشاف المشكلات بعد أن تؤثر على الأعمال&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل&lt;/strong&gt;: تنبيهات قائمة على الاستثناءات ومراقبة أداء استباقية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تحديات المواءمة الاستراتيجية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلة&lt;/strong&gt;: صعوبة قياس نجاح المبادرة الاستراتيجية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل&lt;/strong&gt;: تتبّع مؤشرات الأداء الرئيسية الاستراتيجية مع قياس النتائج&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2&gt;🎬 سيناريوهات العرض التوضيحي التنفيذي والنتائج الاستراتيجية&lt;span class="hx:absolute hx:-mt-20" id="-سيناريوهات-العرض-التوضيحي-التنفيذي-والنتائج-الاستراتيجية"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d8%b1%d8%b6-%d8%a7%d9%84%d8%aa%d9%88%d8%b6%d9%8a%d8%ad%d9%8a-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0%d9%8a-%d9%88%d8%a7%d9%84%d9%86%d8%aa%d8%a7%d8%a6%d8%ac-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;السيناريو 1: مركز القيادة التنفيذي في الوقت الفعلي&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-1-مركز-القيادة-التنفيذي-في-الوقت-الفعلي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-1-%d9%85%d8%b1%d9%83%d8%b2-%d8%a7%d9%84%d9%82%d9%8a%d8%a7%d8%af%d8%a9-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0%d9%8a-%d9%81%d9%8a-%d8%a7%d9%84%d9%88%d9%82%d8%aa-%d8%a7%d9%84%d9%81%d8%b9%d9%84%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;التحدي الاستراتيجي&lt;/strong&gt;: اجتماع مجلس الإدارة بعد ساعتين - بحاجة إلى نظرة عامة كاملة على أداء الأعمال&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;&lt;strong&gt;الوصول إلى العرض التوضيحي&lt;/strong&gt;: سجّل الدخول إلى &lt;a href="https://demo-v1.bigledger.com" target="_blank" rel="noopener"&gt;demo-v1.bigledger.com&lt;/a&gt; باستخدام:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;اسم المستخدم&lt;/strong&gt;: demo-admin&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;كلمة المرور&lt;/strong&gt;: Demo2025!&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;سير العمل التنفيذي خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;لوحة معلومات الأداء الاستراتيجي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;الوصول إلى مركز القيادة التنفيذي&lt;/li&gt;
+&lt;li&gt;راجع الإيرادات والأرباح والوضع النقدي في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;حلّل الأداء منذ بداية العام مقابل الأهداف الاستراتيجية&lt;/li&gt;
+&lt;li&gt;راقب مؤشرات صحة الأعمال الرئيسية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;عرض الذكاء التنافسي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;قارن الأداء بمعايير القطاع&lt;/li&gt;
+&lt;li&gt;راجع مقاييس حصة السوق والنمو&lt;/li&gt;
+&lt;li&gt;حلّل تكاليف اكتساب العملاء والقيمة الدائمة&lt;/li&gt;
+&lt;li&gt;تتبّع مؤشرات الموقع التنافسي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تتبّع المبادرة الاستراتيجية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;راقب تقدّم المشاريع الاستراتيجية الرئيسية&lt;/li&gt;
+&lt;li&gt;راجع العائد على الاستثمار في الاستثمارات الكبرى&lt;/li&gt;
+&lt;li&gt;تتبّع مقاييس التحوّل الرقمي&lt;/li&gt;
+&lt;li&gt;قيّم أداء توسّع السوق&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;النتيجة الاستراتيجية&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;سرعة القرار&lt;/strong&gt;: رؤى جاهزة لمجلس الإدارة في 5 دقائق مقابل 4 ساعات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الوضوح الاستراتيجي&lt;/strong&gt;: رؤية أعمال 360 درجة مع رؤى تنبؤية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الميزة التنافسية&lt;/strong&gt;: وعي بالموقع في السوق في الوقت الفعلي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;السيناريو 2: تحليلات النمو وذكاء توسّع السوق&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-2-تحليلات-النمو-وذكاء-توسع-السوق"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-2-%d8%aa%d8%ad%d9%84%d9%8a%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d9%86%d9%85%d9%88-%d9%88%d8%b0%d9%83%d8%a7%d8%a1-%d8%aa%d9%88%d8%b3%d8%b9-%d8%a7%d9%84%d8%b3%d9%88%d9%82" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;التحدي الاستراتيجي&lt;/strong&gt;: تقييم استثمار بقيمة 2 مليون رينغيت ماليزي في توسّع سوق جديد&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;سير عمل التحليل خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تحليل أداء السوق&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;انتقل إلى تحليلات النمو ← ذكاء السوق&lt;/li&gt;
+&lt;li&gt;حلّل مقاييس أداء السوق الحالية&lt;/li&gt;
+&lt;li&gt;راجع تقسيم العملاء وأنماط السلوك&lt;/li&gt;
+&lt;li&gt;قيّم ربحية خطوط المنتجات/الخدمات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;نمذجة سيناريو الاستثمار&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;نمذِج سيناريوهات استثمار مختلفة&lt;/li&gt;
+&lt;li&gt;حلّل العائد المتوقع على الاستثمار والجداول الزمنية لنقطة التعادل&lt;/li&gt;
+&lt;li&gt;قيّم متطلبات الموارد وآثار السعة&lt;/li&gt;
+&lt;li&gt;راجع عوامل المخاطر واستراتيجيات التخفيف&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;إنشاء التوصية الاستراتيجية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;أنشئ تحليلاً شاملاً للاستثمار&lt;/li&gt;
+&lt;li&gt;أنشئ ملخص التوصية الاستراتيجية&lt;/li&gt;
+&lt;li&gt;صدّر مواد الإحاطة التنفيذية&lt;/li&gt;
+&lt;li&gt;أعِد إطار مراقبة للتطبيق&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;النتيجة الاستراتيجية&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الثقة في الاستثمار&lt;/strong&gt;: قرار مدفوع بالبيانات بدقة 95%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تخفيف المخاطر&lt;/strong&gt;: تقييم شامل للمخاطر وتخطيط&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحسين الجدول الزمني&lt;/strong&gt;: قرار دخول السوق أسرع بستة أشهر&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;السيناريو 3: ذكاء الربحية وتحسين التكاليف&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-3-ذكاء-الربحية-وتحسين-التكاليف"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-3-%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%b1%d8%a8%d8%ad%d9%8a%d8%a9-%d9%88%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%84%d9%8a%d9%81" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;التحدي الاستراتيجي&lt;/strong&gt;: ضغط على الهامش يتطلب تحسيناً استراتيجياً للتكاليف&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;تحليل الربحية خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;لوحة معلومات الربحية الشاملة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;الوصول إلى تحليلات الربحية ← العرض التنفيذي&lt;/li&gt;
+&lt;li&gt;حلّل الهوامش الإجمالية حسب خط المنتج/الخدمة&lt;/li&gt;
+&lt;li&gt;راجع اتجاهات هيكل التكلفة والمعايير&lt;/li&gt;
+&lt;li&gt;حدّد فرص تحسين الربح&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تحليل التكاليف الاستراتيجي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;حلّل مراكز التكلفة وقيمتها الاستراتيجية&lt;/li&gt;
+&lt;li&gt;راجع مقاييس الكفاءة التشغيلية&lt;/li&gt;
+&lt;li&gt;حدّد فرص الأتمتة والرقمنة&lt;/li&gt;
+&lt;li&gt;قيّم فوائد تكلفة الاستعانة بمصادر خارجية مقابل التنفيذ الداخلي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تطوير استراتيجية التحسين&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;أنشئ توصيات لتحسين التكاليف&lt;/li&gt;
+&lt;li&gt;نمذِج أثر التغييرات المقترحة&lt;/li&gt;
+&lt;li&gt;أنشئ خارطة طريق للتطبيق&lt;/li&gt;
+&lt;li&gt;أعِد إطار مراقبة وتتبّع&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;النتيجة الاستراتيجية&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تحسين الهامش&lt;/strong&gt;: تحديد تحسين للهامش بنسبة 4%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التركيز الاستراتيجي&lt;/strong&gt;: فرصة تحسين تكاليف سنوية بقيمة 500 ألف رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الموقع التنافسي&lt;/strong&gt;: هيكل تكلفة مُحسَّن للريادة في السوق&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;السيناريو 4: ذكاء العملاء واستراتيجية الاحتفاظ&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-4-ذكاء-العملاء-واستراتيجية-الاحتفاظ"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-4-%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d8%a7%d8%a1-%d9%88%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%a7%d8%ad%d8%aa%d9%81%d8%a7%d8%b8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;التحدي الاستراتيجي&lt;/strong&gt;: ارتفاع تكاليف اكتساب العملاء مع انخفاض الاحتفاظ بهم&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;تحليلات العملاء خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;لوحة معلومات ذكاء العملاء&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;انتقل إلى تحليلات العملاء ← العرض الاستراتيجي&lt;/li&gt;
+&lt;li&gt;حلّل تكاليف اكتساب العملاء واتجاهاتها&lt;/li&gt;
+&lt;li&gt;راجع القيمة الدائمة للعميل حسب الشريحة&lt;/li&gt;
+&lt;li&gt;راقب معدلات الاحتفاظ وأنماط التسرّب&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تقسيم العملاء الاستراتيجي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;حدّد شرائح العملاء عالية القيمة&lt;/li&gt;
+&lt;li&gt;حلّل أنماط الشراء والتفضيلات&lt;/li&gt;
+&lt;li&gt;راجع اتجاهات رضا العملاء&lt;/li&gt;
+&lt;li&gt;قيّم فرص البيع المتقاطع والبيع الأعلى&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تحسين استراتيجية الاحتفاظ&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;طوّر استراتيجيات احتفاظ مُستهدَفة&lt;/li&gt;
+&lt;li&gt;نمذِج أثر تحسينات تجربة العميل&lt;/li&gt;
+&lt;li&gt;أنشئ أُطراً مخصصة للتفاعل&lt;/li&gt;
+&lt;li&gt;أرسِ مقاييس نجاح العملاء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;النتيجة الاستراتيجية&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;قيمة العميل&lt;/strong&gt;: زيادة بنسبة 25% في القيمة الدائمة للعميل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحسين الاحتفاظ&lt;/strong&gt;: انخفاض بنسبة 15% في تسرّب العملاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;نمو الإيرادات&lt;/strong&gt;: إيراد سنوي بقيمة 300 ألف رينغيت ماليزي من تحسينات الاحتفاظ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;السيناريو 5: التحوّل الرقمي والعائد على الاستثمار في التقنية&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-5-التحول-الرقمي-والعائد-على-الاستثمار-في-التقنية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-5-%d8%a7%d9%84%d8%aa%d8%ad%d9%88%d9%84-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%8a-%d9%88%d8%a7%d9%84%d8%b9%d8%a7%d8%a6%d8%af-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%ab%d9%85%d8%a7%d8%b1-%d9%81%d9%8a-%d8%a7%d9%84%d8%aa%d9%82%d9%86%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;التحدي الاستراتيجي&lt;/strong&gt;: قياس العائد على استثمار في التحوّل الرقمي بقيمة 1.5 مليون رينغيت ماليزي&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;تحليل العائد على الاستثمار خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;لوحة معلومات التحوّل الرقمي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;الوصول إلى العائد على الاستثمار في التقنية ← المقاييس الاستراتيجية&lt;/li&gt;
+&lt;li&gt;راجع تقدّم تطبيق الأتمتة&lt;/li&gt;
+&lt;li&gt;حلّل تحسينات الإنتاجية من التقنية&lt;/li&gt;
+&lt;li&gt;راقب معدلات الاعتماد الرقمي عبر المؤسسة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;قياس العائد على الاستثمار والتحليلات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;احسب العائد الشامل على الاستثمار في التقنية&lt;/li&gt;
+&lt;li&gt;حلّل مكاسب الكفاءة وتوفير التكاليف&lt;/li&gt;
+&lt;li&gt;راجع تحسينات إنتاجية الموظفين&lt;/li&gt;
+&lt;li&gt;قِس تحسينات تجربة العميل&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تخطيط التقنية المستقبلية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;حدّد فرص التقنية للمرحلة التالية&lt;/li&gt;
+&lt;li&gt;قيّم آثار التقنيات الناشئة&lt;/li&gt;
+&lt;li&gt;خطّط خارطة طريق تقنية استراتيجية&lt;/li&gt;
+&lt;li&gt;قيّم الموقع التقني التنافسي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;النتيجة الاستراتيجية&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تحقيق العائد على الاستثمار&lt;/strong&gt;: عائد بنسبة 240% على استثمار التحوّل الرقمي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مكاسب الكفاءة&lt;/strong&gt;: تحسّن بنسبة 35% في الكفاءة التشغيلية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الميزة التنافسية&lt;/strong&gt;: ريادة تقنية في القطاع&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;السيناريو 6: ذكاء إدارة المخاطر واستمرارية الأعمال&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-6-ذكاء-إدارة-المخاطر-واستمرارية-الأعمال"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-6-%d8%b0%d9%83%d8%a7%d8%a1-%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d9%85%d8%ae%d8%a7%d8%b7%d8%b1-%d9%88%d8%a7%d8%b3%d8%aa%d9%85%d8%b1%d8%a7%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d8%b9%d9%85%d8%a7%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;التحدي الاستراتيجي&lt;/strong&gt;: ضمان مرونة الأعمال وتخفيف المخاطر&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;تحليل المخاطر خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;لوحة معلومات المخاطر الاستراتيجية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;انتقل إلى إدارة المخاطر ← النظرة العامة التنفيذية&lt;/li&gt;
+&lt;li&gt;راقب مؤشرات المخاطر المالية&lt;/li&gt;
+&lt;li&gt;راجع عوامل المخاطر التشغيلية&lt;/li&gt;
+&lt;li&gt;حلّل مخاطر السوق والمخاطر التنافسية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تقييم استمرارية الأعمال&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;قيّم مرونة سلسلة التوريد&lt;/li&gt;
+&lt;li&gt;راجع مؤشرات الاستقرار المالي&lt;/li&gt;
+&lt;li&gt;قيّم تخفيف المخاطر التشغيلية&lt;/li&gt;
+&lt;li&gt;راقب حالة الامتثال التنظيمي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تخطيط المخاطر الاستراتيجي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;طوّر استراتيجيات شاملة لتخفيف المخاطر&lt;/li&gt;
+&lt;li&gt;أنشئ خطط استمرارية الأعمال&lt;/li&gt;
+&lt;li&gt;أرسِ أُطر مراقبة المخاطر&lt;/li&gt;
+&lt;li&gt;خطّط إجراءات الاستجابة للأزمات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;النتيجة الاستراتيجية&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;خفض المخاطر&lt;/strong&gt;: تحسّن بنسبة 60% في فعالية تخفيف المخاطر&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مرونة الأعمال&lt;/strong&gt;: قدرات معزّزة لاستمرارية الأعمال&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الأمان الاستراتيجي&lt;/strong&gt;: إطار استباقي لإدارة المخاطر&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;السيناريو 7: التخطيط الاستراتيجي والتنبؤ بالأداء&lt;span class="hx:absolute hx:-mt-20" id="السيناريو-7-التخطيط-الاستراتيجي-والتنبؤ-بالأداء"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d8%a7%d8%b1%d9%8a%d9%88-7-%d8%a7%d9%84%d8%aa%d8%ae%d8%b7%d9%8a%d8%b7-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a-%d9%88%d8%a7%d9%84%d8%aa%d9%86%d8%a8%d8%a4-%d8%a8%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;التحدي الاستراتيجي&lt;/strong&gt;: التخطيط الاستراتيجي السنوي مع تنبؤ دقيق بالأداء&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;التخطيط الاستراتيجي خطوة بخطوة:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تحليلات التخطيط الاستراتيجي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;الوصول إلى التخطيط الاستراتيجي ← مجموعة أدوات التنبؤ&lt;/li&gt;
+&lt;li&gt;راجع اتجاهات الأداء التاريخية&lt;/li&gt;
+&lt;li&gt;حلّل ظروف السوق والفرص&lt;/li&gt;
+&lt;li&gt;قيّم تغيّرات المشهد التنافسي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;التنبؤ بالأداء والنمذجة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;أنشئ توقعات أعمال مدعومة بالذكاء الاصطناعي&lt;/li&gt;
+&lt;li&gt;نمذِج سيناريوهات استراتيجية مختلفة&lt;/li&gt;
+&lt;li&gt;حلّل متطلبات الموارد واحتياجات السعة&lt;/li&gt;
+&lt;li&gt;قيّم أولويات الاستثمار وتوقيته&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تطوير الخطة الاستراتيجية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;أنشئ خطة استراتيجية شاملة&lt;/li&gt;
+&lt;li&gt;أرسِ مؤشرات الأداء الرئيسية ومقاييس النجاح&lt;/li&gt;
+&lt;li&gt;طوّر خارطة طريق للتطبيق&lt;/li&gt;
+&lt;li&gt;أعِد إطار مراقبة استراتيجية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;النتيجة الاستراتيجية&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;دقة التخطيط&lt;/strong&gt;: دقة تنبؤ بنسبة 92% مقابل 65% للطرق التقليدية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الوضوح الاستراتيجي&lt;/strong&gt;: خارطة طريق واضحة بنتائج قابلة للقياس&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التميّز في التنفيذ&lt;/strong&gt;: مراقبة وتعديل التقدّم في الوقت الفعلي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;📊 مؤشرات الأداء الرئيسية الاستراتيجية والمقاييس التنفيذية&lt;span class="hx:absolute hx:-mt-20" id="-مؤشرات-الأداء-الرئيسية-الاستراتيجية-والمقاييس-التنفيذية"&gt;&lt;/span&gt;
+&lt;a href="#-%d9%85%d8%a4%d8%b4%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d9%85%d9%82%d8%a7%d9%8a%d9%8a%d8%b3-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;لوحة معلومات الأداء التنفيذي&lt;span class="hx:absolute hx:-mt-20" id="لوحة-معلومات-الأداء-التنفيذي"&gt;&lt;/span&gt;
+&lt;a href="#%d9%84%d9%88%d8%ad%d8%a9-%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain"&gt;
+&lt;div class="hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800"&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-0" aria-selected="true" tabindex="0" data-state="selected"&gt;الأداء المالي&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-1"&gt;مقاييس النمو&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-2"&gt;التميّز التشغيلي&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-3"&gt;الموقع في السوق&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-4"&gt;المبادرات الاستراتيجية&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-0"
+role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;p&gt;&lt;strong&gt;الأداء المالي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;معدل نمو الإيرادات (شهرياً، فصلياً، منذ بداية العام)&lt;/li&gt;
+&lt;li&gt;الهوامش الإجمالية والصافية للربح&lt;/li&gt;
+&lt;li&gt;أداء EBITDA والعائد على الأصول (ROA)&lt;/li&gt;
+&lt;li&gt;نسب التدفق النقدي ورأس المال العامل&lt;/li&gt;
+&lt;li&gt;العائد على رأس المال المستثمر (ROIC)&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-1"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;مقاييس النمو والسوق&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;اتجاهات حصة السوق&lt;/li&gt;
+&lt;li&gt;تكلفة اكتساب العميل (CAC)&lt;/li&gt;
+&lt;li&gt;القيمة الدائمة للعميل (CLV)&lt;/li&gt;
+&lt;li&gt;معدلات اختراق السوق&lt;/li&gt;
+&lt;li&gt;معدلات اعتماد المنتج/الخدمة&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-2"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;التميّز التشغيلي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;الكفاءة التشغيلية الإجمالية&lt;/li&gt;
+&lt;li&gt;مؤشرات أداء الجودة&lt;/li&gt;
+&lt;li&gt;مقاييس إنتاجية الموظفين&lt;/li&gt;
+&lt;li&gt;معدلات استغلال الأصول&lt;/li&gt;
+&lt;li&gt;نجاح أتمتة العمليات&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-3"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;الموقع في السوق&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;مؤشر الموقع التنافسي&lt;/li&gt;
+&lt;li&gt;مقاييس الوعي بالعلامة التجارية&lt;/li&gt;
+&lt;li&gt;درجات رضا العملاء&lt;/li&gt;
+&lt;li&gt;صافي نقاط الترويج (NPS)&lt;/li&gt;
+&lt;li&gt;مؤشرات الريادة في السوق&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-4"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;المبادرات الاستراتيجية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;العائد على الاستثمار في المشاريع الاستراتيجية&lt;/li&gt;
+&lt;li&gt;تقدّم التحوّل الرقمي&lt;/li&gt;
+&lt;li&gt;قيمة مسار الابتكار&lt;/li&gt;
+&lt;li&gt;مقاييس الاستدامة&lt;/li&gt;
+&lt;li&gt;مؤشرات التطوير المؤسسي&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;قياسات الأثر الاستراتيجي لـ BigLedger&lt;span class="hx:absolute hx:-mt-20" id="قياسات-الأثر-الاستراتيجي-لـ-bigledger"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d9%8a%d8%a7%d8%b3%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%ab%d8%b1-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a-%d9%84%d9%80-bigledger" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;المقياس الاستراتيجي&lt;/th&gt;
+&lt;th&gt;قبل BigLedger&lt;/th&gt;
+&lt;th&gt;مع BigLedger&lt;/th&gt;
+&lt;th&gt;التحسّن الاستراتيجي&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;سرعة صنع القرار&lt;/td&gt;
+&lt;td&gt;2-4 أسابيع&lt;/td&gt;
+&lt;td&gt;في الوقت الفعلي&lt;/td&gt;
+&lt;td&gt;قرارات استراتيجية أسرع بنسبة 95%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;رؤية الأعمال&lt;/td&gt;
+&lt;td&gt;تقارير شهرية&lt;/td&gt;
+&lt;td&gt;لوحات معلومات حيّة&lt;/td&gt;
+&lt;td&gt;رؤية 100% في الوقت الفعلي&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;دقة التنبؤ&lt;/td&gt;
+&lt;td&gt;65%&lt;/td&gt;
+&lt;td&gt;92%&lt;/td&gt;
+&lt;td&gt;تحسّن بنسبة 42% في التخطيط&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;تتبّع العائد الاستراتيجي على الاستثمار&lt;/td&gt;
+&lt;td&gt;يدوي/فصلي&lt;/td&gt;
+&lt;td&gt;آلي/يومي&lt;/td&gt;
+&lt;td&gt;رؤية أفضل بنسبة 85% للعائد على الاستثمار&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;وقت الاستجابة للمخاطر&lt;/td&gt;
+&lt;td&gt;1-2 أسبوع&lt;/td&gt;
+&lt;td&gt;24 ساعة&lt;/td&gt;
+&lt;td&gt;استجابة أسرع بنسبة 90% للمخاطر&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;تحديد فرص السوق&lt;/td&gt;
+&lt;td&gt;تفاعلي&lt;/td&gt;
+&lt;td&gt;استباقي/تنبؤي&lt;/td&gt;
+&lt;td&gt;استجابة أسرع بثلاثة أضعاف للسوق&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔗 قدرات التكامل الاستراتيجي&lt;span class="hx:absolute hx:-mt-20" id="-قدرات-التكامل-الاستراتيجي"&gt;&lt;/span&gt;
+&lt;a href="#-%d9%82%d8%af%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;تكاملات النظام التنفيذي الحاسمة&lt;span class="hx:absolute hx:-mt-20" id="تكاملات-النظام-التنفيذي-الحاسمة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%83%d8%a7%d9%85%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d9%86%d8%b8%d8%a7%d9%85-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0%d9%8a-%d8%a7%d9%84%d8%ad%d8%a7%d8%b3%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;التكامل الاستراتيجي&lt;/strong&gt;: يُظهِر كل سيناريو كيف يدمج BigLedger بيانات المؤسسة للحصول على رؤى استراتيجية شاملة.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;منصات ذكاء الأعمال&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;التكامل مع Power BI وTableau&lt;/li&gt;
+&lt;li&gt;تطوير لوحات معلومات مخصصة&lt;/li&gt;
+&lt;li&gt;تغذيات بيانات في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;منصات التحليلات المتقدمة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;إدارة علاقات العملاء وأتمتة التسويق&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تكامل ذكاء العملاء&lt;/li&gt;
+&lt;li&gt;تحليلات أداء التسويق&lt;/li&gt;
+&lt;li&gt;التنبؤ بمسار المبيعات&lt;/li&gt;
+&lt;li&gt;تتبّع تجربة العميل&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;أنظمة الإدارة المالية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;التوحيد المالي للمؤسسة&lt;/li&gt;
+&lt;li&gt;العمليات متعددة العملات&lt;/li&gt;
+&lt;li&gt;أنظمة تتبّع الاستثمار&lt;/li&gt;
+&lt;li&gt;منصات إدارة المخاطر&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;خدمات ذكاء السوق&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تكامل المعايير القطاعية&lt;/li&gt;
+&lt;li&gt;تغذيات الذكاء التنافسي&lt;/li&gt;
+&lt;li&gt;منصات أبحاث السوق&lt;/li&gt;
+&lt;li&gt;تكامل المؤشرات الاقتصادية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;أدوات التخطيط الاستراتيجي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;أنظمة التخطيط المؤسسي&lt;/li&gt;
+&lt;li&gt;منصات نمذجة السيناريوهات&lt;/li&gt;
+&lt;li&gt;أنظمة إدارة الأداء&lt;/li&gt;
+&lt;li&gt;تتبّع المشاريع الاستراتيجية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2&gt;📈 التقارير التنفيذية ولوحات المعلومات الاستراتيجية&lt;span class="hx:absolute hx:-mt-20" id="-التقارير-التنفيذية-ولوحات-المعلومات-الاستراتيجية"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0%d9%8a%d8%a9-%d9%88%d9%84%d9%88%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;لوحة معلومات مركز قيادة الرئيس التنفيذي&lt;span class="hx:absolute hx:-mt-20" id="لوحة-معلومات-مركز-قيادة-الرئيس-التنفيذي"&gt;&lt;/span&gt;
+&lt;a href="#%d9%84%d9%88%d8%ad%d8%a9-%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d9%85%d8%b1%d9%83%d8%b2-%d9%82%d9%8a%d8%a7%d8%af%d8%a9-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;ملخص أداء الأعمال في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;حالة تحقيق مؤشرات الأداء الرئيسية الاستراتيجية&lt;/li&gt;
+&lt;li&gt;الموقع في السوق والذكاء التنافسي&lt;/li&gt;
+&lt;li&gt;الصحة المالية وحالة التدفق النقدي&lt;/li&gt;
+&lt;li&gt;تنبيهات المخاطر ومؤشرات استمرارية الأعمال&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;مجموعة أدوات التقارير الاستراتيجية&lt;span class="hx:absolute hx:-mt-20" id="مجموعة-أدوات-التقارير-الاستراتيجية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9-%d8%a3%d8%af%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain"&gt;
+&lt;div class="hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800"&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-0" aria-selected="true" tabindex="0" data-state="selected"&gt;تقارير مجلس الإدارة&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-1"&gt;التحليل الاستراتيجي&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-2"&gt;ذكاء السوق&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-3"&gt;مراجعات الأداء&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-0"
+role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;p&gt;&lt;strong&gt;تقارير مجلس الإدارة والمستثمرين&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;لوحات معلومات الملخص التنفيذي&lt;/li&gt;
+&lt;li&gt;تحليل الأداء المالي&lt;/li&gt;
+&lt;li&gt;تقدّم المبادرة الاستراتيجية&lt;/li&gt;
+&lt;li&gt;تقارير الموقع في السوق&lt;/li&gt;
+&lt;li&gt;ملخصات تقييم المخاطر&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-1"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;التحليل الاستراتيجي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تحليل الربحية حسب الشريحة&lt;/li&gt;
+&lt;li&gt;تقييمات فرص النمو&lt;/li&gt;
+&lt;li&gt;تحليلات توسّع السوق&lt;/li&gt;
+&lt;li&gt;تحليل الموقع التنافسي&lt;/li&gt;
+&lt;li&gt;تحليل العائد على الاستثمار في الاستثمارات الاستراتيجية&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-2"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;ذكاء السوق&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;مقارنات المعايير القطاعية&lt;/li&gt;
+&lt;li&gt;تحليل اتجاهات السوق&lt;/li&gt;
+&lt;li&gt;تحليلات سلوك العملاء&lt;/li&gt;
+&lt;li&gt;تقارير المشهد التنافسي&lt;/li&gt;
+&lt;li&gt;تحديد فرص السوق&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-3"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;مراجعات الأداء&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تتبّع تحقيق الأهداف الاستراتيجية&lt;/li&gt;
+&lt;li&gt;مقاييس الأداء المؤسسي&lt;/li&gt;
+&lt;li&gt;تحليلات تفاعل الموظفين&lt;/li&gt;
+&lt;li&gt;اتجاهات رضا العملاء&lt;/li&gt;
+&lt;li&gt;مؤشرات التميّز التشغيلي&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;التحليلات التنبؤية والتنبؤ&lt;span class="hx:absolute hx:-mt-20" id="التحليلات-التنبؤية-والتنبؤ"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%ad%d9%84%d9%8a%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%86%d8%a8%d8%a4%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d8%aa%d9%86%d8%a8%d8%a4" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;التنبؤ بالإيرادات والأرباح&lt;/li&gt;
+&lt;li&gt;توقّعات اتجاهات السوق&lt;/li&gt;
+&lt;li&gt;نمذجة سلوك العملاء&lt;/li&gt;
+&lt;li&gt;تحليل سيناريوهات المخاطر&lt;/li&gt;
+&lt;li&gt;تحديد الفرص الاستراتيجية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;💡 إطار التطبيق الاستراتيجي&lt;span class="hx:absolute hx:-mt-20" id="-إطار-التطبيق-الاستراتيجي"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%a5%d8%b7%d8%a7%d8%b1-%d8%a7%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;المرحلة 1: الأساس الاستراتيجي (الأسابيع 1-4)&lt;span class="hx:absolute hx:-mt-20" id="المرحلة-1-الأساس-الاستراتيجي-الأسابيع-1-4"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b1%d8%ad%d9%84%d8%a9-1-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%a8%d9%8a%d8%b9-1-4" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;تكوين لوحة المعلومات التنفيذية&lt;/li&gt;
+&lt;li&gt;تعريف وإعداد مؤشرات الأداء الرئيسية الاستراتيجية&lt;/li&gt;
+&lt;li&gt;تخطيط تكامل البيانات&lt;/li&gt;
+&lt;li&gt;تكوين وصول أصحاب المصلحة&lt;/li&gt;
+&lt;li&gt;إرساء الخط الأساسي الاستراتيجي الأولي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;المرحلة 2: نشر الذكاء (الأسابيع 5-8)&lt;span class="hx:absolute hx:-mt-20" id="المرحلة-2-نشر-الذكاء-الأسابيع-5-8"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b1%d8%ad%d9%84%d8%a9-2-%d9%86%d8%b4%d8%b1-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%a8%d9%8a%d8%b9-5-8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;تفعيل التحليلات المتقدمة&lt;/li&gt;
+&lt;li&gt;تطبيق النمذجة التنبؤية&lt;/li&gt;
+&lt;li&gt;تكامل ذكاء السوق&lt;/li&gt;
+&lt;li&gt;إعداد التتبّع التنافسي&lt;/li&gt;
+&lt;li&gt;أتمتة التقارير الاستراتيجية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;المرحلة 3: التحسين الاستراتيجي (الأسابيع 9-12)&lt;span class="hx:absolute hx:-mt-20" id="المرحلة-3-التحسين-الاستراتيجي-الأسابيع-9-12"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b1%d8%ad%d9%84%d8%a9-3-%d8%a7%d9%84%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%a8%d9%8a%d8%b9-9-12" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;تفعيل الرؤى المدعومة بالذكاء الاصطناعي&lt;/li&gt;
+&lt;li&gt;نشر التنبؤ المتقدم&lt;/li&gt;
+&lt;li&gt;تكامل التخطيط الاستراتيجي&lt;/li&gt;
+&lt;li&gt;أدوات تحسين الأداء&lt;/li&gt;
+&lt;li&gt;أنظمة دعم القرار الاستراتيجي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;المرحلة 4: التعزيز الاستراتيجي المستمر (مستمر)&lt;span class="hx:absolute hx:-mt-20" id="المرحلة-4-التعزيز-الاستراتيجي-المستمر-مستمر"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b1%d8%ad%d9%84%d8%a9-4-%d8%a7%d9%84%d8%aa%d8%b9%d8%b2%d9%8a%d8%b2-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%85%d8%b1-%d9%85%d8%b3%d8%aa%d9%85%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;تحسين الرؤى الاستراتيجية&lt;/li&gt;
+&lt;li&gt;توسّع ذكاء السوق&lt;/li&gt;
+&lt;li&gt;تحسين دقة التنبؤ&lt;/li&gt;
+&lt;li&gt;تطوّر التخطيط الاستراتيجي&lt;/li&gt;
+&lt;li&gt;تعزيز الميزة التنافسية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🎯 تحليل العائد الاستراتيجي على الاستثمار للرؤساء التنفيذيين&lt;span class="hx:absolute hx:-mt-20" id="-تحليل-العائد-الاستراتيجي-على-الاستثمار-للرؤساء-التنفيذيين"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%aa%d8%ad%d9%84%d9%8a%d9%84-%d8%a7%d9%84%d8%b9%d8%a7%d8%a6%d8%af-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%ab%d9%85%d8%a7%d8%b1-%d9%84%d9%84%d8%b1%d8%a4%d8%b3%d8%a7%d8%a1-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0%d9%8a%d9%8a%d9%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;خلق القيمة الاستراتيجية&lt;span class="hx:absolute hx:-mt-20" id="خلق-القيمة-الاستراتيجية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%ae%d9%84%d9%82-%d8%a7%d9%84%d9%82%d9%8a%d9%85%d8%a9-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;الفوائد الاستراتيجية السنوية:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;قيمة صنع القرار الاستراتيجي الأسرع: 800,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;اقتناص فرص السوق: 1,200,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;قيمة تخفيف المخاطر: 400,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;مكاسب الكفاءة التشغيلية: 600,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إجمالي القيمة الاستراتيجية السنوية: 3,000,000 رينغيت ماليزي&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;قيمة الميزة التنافسية:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;حماية/نمو حصة السوق: 2,000,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;تحسين الاحتفاظ بالعملاء: 500,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;قيمة تسريع الابتكار: 300,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;تعزيز قيمة العلامة التجارية: 200,000 رينغيت ماليزي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إجمالي قيمة الميزة التنافسية: 3,000,000 رينغيت ماليزي&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;إجمالي العائد الاستراتيجي السنوي على الاستثمار: 6,000,000 رينغيت ماليزي&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;تبرير الاستثمار الاستراتيجي&lt;span class="hx:absolute hx:-mt-20" id="تبرير-الاستثمار-الاستراتيجي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%a8%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%ab%d9%85%d8%a7%d8%b1-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تكلفة تأخّر القرارات:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;فرص السوق الضائعة: 1,500,000 رينغيت ماليزي/سنة&lt;/li&gt;
+&lt;li&gt;تكاليف العيب التنافسي: 800,000 رينغيت ماليزي/سنة&lt;/li&gt;
+&lt;li&gt;إخفاقات إدارة المخاطر: 600,000 رينغيت ماليزي/سنة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إجمالي تكلفة الوضع الراهن: 2,900,000 رينغيت ماليزي/سنة&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🚦 الخطوات التالية التنفيذية&lt;span class="hx:absolute hx:-mt-20" id="-الخطوات-التالية-التنفيذية"&gt;&lt;/span&gt;
+&lt;a href="#-%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%a7%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;جاهز لتحويل إدارتك الاستراتيجية؟&lt;span class="hx:absolute hx:-mt-20" id="جاهز-لتحويل-إدارتك-الاستراتيجية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%ac%d8%a7%d9%87%d8%b2-%d9%84%d8%aa%d8%ad%d9%88%d9%8a%d9%84-%d8%a5%d8%af%d8%a7%d8%b1%d8%aa%d9%83-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;a
+href="mailto:sales@bigledger.com?subject=CEO%20Executive%20Demo%20Request"
+class="not-prose hx:font-medium hx:cursor-pointer hx:px-6 hx:py-3 hx:rounded-full hx:text-center hx:text-white hx:inline-block hx:bg-primary-600 hx:hover:bg-primary-700 hx:focus:outline-hidden hx:focus:ring-4 hx:focus:ring-primary-300 hx:dark:bg-primary-600 hx:dark:hover:bg-primary-700 hx:dark:focus:ring-primary-800 hx:transition-all hx:ease-in hx:duration-200"
+&gt;جدوِل عرض الرئيس التنفيذي&lt;/a&gt;
+&lt;h3&gt;إجراءات سريعة استراتيجية&lt;span class="hx:absolute hx:-mt-20" id="إجراءات-سريعة-استراتيجية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%ac%d8%b1%d8%a7%d8%a1%d8%a7%d8%aa-%d8%b3%d8%b1%d9%8a%d8%b9%d8%a9-%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/demo/role-based/ceo-executive/#scenario-1-real-time-executive-command-center" &gt;ابدأ العرض التوضيحي التنفيذي&lt;/a&gt;&lt;/strong&gt; - ابدأ بنظرة عامة على مركز القيادة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="#strategic-roi-analysis-for-ceos" &gt;احسب العائد الاستراتيجي على الاستثمار&lt;/a&gt;&lt;/strong&gt; - قدّر خلق القيمة الاستراتيجية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="mailto:sales@bigledger.com" &gt;تواصل مع مستشار استراتيجي&lt;/a&gt;&lt;/strong&gt; - ناقش التحوّل الاستراتيجي&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;باقات العرض التوضيحي التنفيذي&lt;span class="hx:absolute hx:-mt-20" id="باقات-العرض-التوضيحي-التنفيذي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a8%d8%a7%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d8%b1%d8%b6-%d8%a7%d9%84%d8%aa%d9%88%d8%b6%d9%8a%d8%ad%d9%8a-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain"&gt;
+&lt;div class="hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800"&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-0" aria-selected="true" tabindex="0" data-state="selected"&gt;إحاطة سريعة للرئيس التنفيذي&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-1"&gt;عرض تقديمي لمجلس الإدارة&lt;/button&gt;&lt;button
+class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
+role="tab"
+type="button"
+aria-controls="tabs-panel-2"&gt;تعمّق استراتيجي&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-0"
+role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;p&gt;&lt;strong&gt;إحاطة الرئيس التنفيذي لمدة 30 دقيقة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;عرض نظرة عامة استراتيجية&lt;/li&gt;
+&lt;li&gt;أبرز نقاط العائد على الاستثمار&lt;/li&gt;
+&lt;li&gt;الجدول الزمني للتطبيق&lt;/li&gt;
+&lt;li&gt;تخطيط الخطوات التالية&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-1"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;باقة العرض التقديمي لمجلس الإدارة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;عرض توضيحي شامل لمدة 60 دقيقة&lt;/li&gt;
+&lt;li&gt;تحليل العائد على الاستثمار ودراسة الجدوى&lt;/li&gt;
+&lt;li&gt;خارطة طريق التطبيق&lt;/li&gt;
+&lt;li&gt;تحليل المخاطر/الفوائد&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-2"
+role="tabpanel"&gt;&lt;p&gt;&lt;strong&gt;التعمّق الاستراتيجي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;استكشاف تفصيلي لمدة 90 دقيقة&lt;/li&gt;
+&lt;li&gt;تطوير سيناريو مخصص&lt;/li&gt;
+&lt;li&gt;جلسة تخطيط استراتيجي&lt;/li&gt;
+&lt;li&gt;تخطيط شراكة التطبيق&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;الوصول ذو الأولوية التنفيذية&lt;/strong&gt;: اذكر &amp;ldquo;CEO-STRATEGIC&amp;rdquo; للحصول على جدولة ذات أولوية ودعم مخصص من مهندس حلول على مستوى الإدارة التنفيذية (C-level) مع تطوير دراسة جدوى أعمال استراتيجية.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;🤝 فرصة الشراكة الاستراتيجية&lt;span class="hx:absolute hx:-mt-20" id="-فرصة-الشراكة-الاستراتيجية"&gt;&lt;/span&gt;
+&lt;a href="#-%d9%81%d8%b1%d8%b5%d8%a9-%d8%a7%d9%84%d8%b4%d8%b1%d8%a7%d9%83%d8%a9-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;ما وراء البرمجيات - شراكة أعمال استراتيجية&lt;span class="hx:absolute hx:-mt-20" id="ما-وراء-البرمجيات---شراكة-أعمال-استراتيجية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%a7-%d9%88%d8%b1%d8%a7%d8%a1-%d8%a7%d9%84%d8%a8%d8%b1%d9%85%d8%ac%d9%8a%d8%a7%d8%aa---%d8%b4%d8%b1%d8%a7%d9%83%d8%a9-%d8%a3%d8%b9%d9%85%d8%a7%d9%84-%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;يقدّم BigLedger أكثر من مجرد تقنية - نحن نوفّر شراكة تحوّل أعمال استراتيجية:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الاستشارات الاستراتيجية&lt;/strong&gt;: تحسين عمليات الأعمال وتطوير الاستراتيجية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ذكاء السوق&lt;/strong&gt;: رؤى القطاع والتحليل التنافسي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الاستشارة في النمو&lt;/strong&gt;: تخطيط التوسّع واستراتيجيات دخول السوق&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحوّل الرقمي&lt;/strong&gt;: خارطة طريق كاملة لتحديث الأعمال&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الابتكار المستمر&lt;/strong&gt;: التقدّم المستمر في التقنية والعمليات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;تواصل مع فريق الاستشارة الاستراتيجية لدينا&lt;/strong&gt;: &lt;a href="mailto:strategy@bigledger.com" &gt;strategy@bigledger.com&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

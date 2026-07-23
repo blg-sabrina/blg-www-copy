@@ -1,4 +1,61 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>وثائق BigLedger – Applets</title><link>https://www.bigledger.com/ar/tags/applets/</link><description>Recent content in Applets on وثائق BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ar</language><atom:link href="https://www.bigledger.com/ar/tags/applets/index.xml" rel="self" type="application/rss+xml"/><item><title>نظرة عامة على المنصة</title><link>https://www.bigledger.com/ar/user-guide/getting-started/platform-overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/user-guide/getting-started/platform-overview/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>وثائق BigLedger – Applets</title><link>https://www.bigledger.com/ar/tags/applets/</link><description>Recent content in Applets on وثائق BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ar</language><atom:link href="https://www.bigledger.com/ar/tags/applets/index.xml" rel="self" type="application/rss+xml"/><item><title>التطبيقات وسير العمل</title><link>https://www.bigledger.com/ar/applets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/</guid><description>
+&lt;p&gt;إن البنية المعيارية لـ BigLedger مبنية على التطبيقات - وهي مكوّنات قابلة لإعادة الاستخدام توفّر وظائف أعمال محددة. يمكن استخدام كل تطبيق من قِبل وحدات متعددة، مما يضمن الاتساق عبر نظامك بالكامل.&lt;/p&gt;
+&lt;h2&gt;فهم التطبيقات&lt;span class="hx:absolute hx:-mt-20" id="فهم-التطبيقات"&gt;&lt;/span&gt;
+&lt;a href="#%d9%81%d9%87%d9%85-%d8%a7%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;مهم&lt;/strong&gt;: تربط التطبيقات علاقة متعدد إلى متعدد مع الوحدات. على سبيل المثال، يُستخدم تطبيق إعداد الضرائب من قِبل وحدات المحاسبة المالية والمبيعات والمشتريات والتجارة الإلكترونية. يقضي هذا التصميم على التكرار ويضمن سلوكًا متسقًا عبر النظام.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;الخصائص الرئيسية&lt;span class="hx:absolute hx:-mt-20" id="الخصائص-الرئيسية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ae%d8%b5%d8%a7%d8%a6%d8%b5-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;قابل لإعادة الاستخدام&lt;/strong&gt; - يخدم التطبيق الواحد وحدات متعددة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قابل للتهيئة&lt;/strong&gt; - خصّصه وفق احتياجات عملك&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;متكامل&lt;/strong&gt; - يعمل معًا بسلاسة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مستقل&lt;/strong&gt; - يمكن تحديثه دون التأثير على غيره&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;موارد التطبيقات&lt;span class="hx:absolute hx:-mt-20" id="موارد-التطبيقات"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%88%d8%a7%d8%b1%d8%af-%d8%a7%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;مرجع التطبيقات الكامل&lt;span class="hx:absolute hx:-mt-20" id="مرجع-التطبيقات-الكامل"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b1%d8%ac%d8%b9-%d8%a7%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d9%83%d8%a7%d9%85%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/applet-catalog/" &gt;كتالوج التطبيقات الكامل&lt;/a&gt;&lt;/strong&gt; - دليل شامل لجميع تطبيقات BigLedger منظَّم حسب الوحدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/applet-directory/" &gt;دليل التطبيقات&lt;/a&gt;&lt;/strong&gt; - سوق التطبيقات القابل للبحث ودليل التثبيت&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/applet-store/" &gt;متجر التطبيقات&lt;/a&gt;&lt;/strong&gt; - سوق للتطبيقات والإضافات الإضافية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;فئات التطبيقات المميّزة&lt;span class="hx:absolute hx:-mt-20" id="فئات-التطبيقات-المميزة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%81%d8%a6%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d9%85%d9%8a%d8%b2%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;الوحدة الأساسية (13 تطبيقًا أساسيًا)&lt;span class="hx:absolute hx:-mt-20" id="الوحدة-الأساسية-13-تطبيقا-أساسيا"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%88%d8%ad%d8%af%d8%a9-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9-13-%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7-%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;تطبيقات أساسية مطلوبة من قِبل جميع الوحدات الأخرى:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/tenant-admin-applet/" &gt;تطبيق إدارة المستأجر&lt;/a&gt;&lt;/strong&gt; - إدارة النظام والتهيئة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/chart-of-account-applet/" &gt;تطبيق دليل الحسابات&lt;/a&gt;&lt;/strong&gt; - هيكل الحسابات المالية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/organization-applet/" &gt;تطبيق المؤسسة&lt;/a&gt;&lt;/strong&gt; - الهيكل التنظيمي والشركة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/customer-maintenance-applet/" &gt;تطبيق صيانة العملاء&lt;/a&gt;&lt;/strong&gt; - البيانات الرئيسية للعملاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/supplier-maintenance-applet/" &gt;تطبيق صيانة الموردين&lt;/a&gt;&lt;/strong&gt; - البيانات الرئيسية للموردين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/employee-maintenance-applet/" &gt;تطبيق صيانة الموظفين&lt;/a&gt;&lt;/strong&gt; - سجلات الموظفين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/tax-configuration-applet/" &gt;تطبيق إعداد الضرائب&lt;/a&gt;&lt;/strong&gt; - إعداد الضرائب والامتثال&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/applet-catalog/#core-module-applets-13-applets" &gt;عرض جميع تطبيقات الوحدة الأساسية ←&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;المخزون والعمليات&lt;span class="hx:absolute hx:-mt-20" id="المخزون-والعمليات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%ae%d8%b2%d9%88%d9%86-%d9%88%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/stock-take-applet/" &gt;تطبيق جرد المخزون&lt;/a&gt;&lt;/strong&gt; - عدّ المخزون وإدارته رقميًا&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/stock-balance-applet/" &gt;تطبيق رصيد المخزون&lt;/a&gt;&lt;/strong&gt; - تتبّع المخزون في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/internal-stock-adjustment-applet/" &gt;تطبيق تعديل المخزون الداخلي&lt;/a&gt;&lt;/strong&gt; - تصحيحات المخزون&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/process-monitoring-applet/" &gt;تطبيق مراقبة العمليات&lt;/a&gt;&lt;/strong&gt; - تتبّع عمليات الأعمال&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;التفاعل مع العملاء&lt;span class="hx:absolute hx:-mt-20" id="التفاعل-مع-العملاء"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d9%81%d8%a7%d8%b9%d9%84-%d9%85%d8%b9-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d8%a7%d8%a1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/team-maintenance-applet/" &gt;تطبيق صيانة الفِرق&lt;/a&gt;&lt;/strong&gt; - هيكل الفِرق وإدارتها&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/membership-admin-console-applet/" &gt;تطبيق وحدة إدارة العضوية&lt;/a&gt;&lt;/strong&gt; - برامج ولاء العملاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/unified-contact-center-ucc-applet/" &gt;تطبيق مركز الاتصال الموحّد&lt;/a&gt;&lt;/strong&gt; - منصة خدمة العملاء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;التسعير والتجارة&lt;span class="hx:absolute hx:-mt-20" id="التسعير-والتجارة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%b3%d8%b9%d9%8a%d8%b1-%d9%88%d8%a7%d9%84%d8%aa%d8%ac%d8%a7%d8%b1%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/pricebook-applet/" &gt;تطبيق دفتر الأسعار&lt;/a&gt;&lt;/strong&gt; - إدارة التسعير المتقدمة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/90-ecomsync-related-applets/" &gt;تطبيقات EcomSync ذات الصلة&lt;/a&gt;&lt;/strong&gt; - مزامنة التجارة الإلكترونية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;تكامل الوحدات&lt;span class="hx:absolute hx:-mt-20" id="تكامل-الوحدات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d8%a7%d9%84%d9%88%d8%ad%d8%af%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;صُمِّمت التطبيقات بعلاقة متعدد إلى متعدد مع الوحدات:&lt;/p&gt;</description></item><item><title>كتالوج التطبيقات الكامل</title><link>https://www.bigledger.com/ar/applets/applet-catalog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/applet-catalog/</guid><description>
+&lt;p&gt;تُعرَض هذه الصفحة بواسطة &lt;code&gt;layouts/applets/applet-catalog.html&lt;/code&gt; من البيانات المنظَّمة
+في المقدمة (front matter) أعلاه. حرّر المقدمة لتغيير الكتالوج.&lt;/p&gt;</description></item><item><title>نظرة عامة على المنصة</title><link>https://www.bigledger.com/ar/user-guide/getting-started/platform-overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/user-guide/getting-started/platform-overview/</guid><description>
 &lt;h2&gt;باختصار (طويل جدًا؛ لم تقرأه)&lt;span class="hx:absolute hx:-mt-20" id="باختصار-طويل-جدا-لم-تقرأه"&gt;&lt;/span&gt;
 &lt;a href="#%d8%a8%d8%a7%d8%ae%d8%aa%d8%b5%d8%a7%d8%b1-%d8%b7%d9%88%d9%8a%d9%84-%d8%ac%d8%af%d8%a7-%d9%84%d9%85-%d8%aa%d9%82%d8%b1%d8%a3%d9%87" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;BigLedger هو نظام تشغيل الأعمال (BOS)&lt;/strong&gt; - فكّر فيه كنظام Android لعمليات عملك&lt;/li&gt;
@@ -383,7 +440,7 @@
 &lt;a href="#%d8%a7%d9%86%d8%b8%d8%b1-%d8%a3%d9%8a%d8%b6%d8%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;البدء&lt;span class="hx:absolute hx:-mt-20" id="البدء"&gt;&lt;/span&gt;
 &lt;a href="#%d8%a7%d9%84%d8%a8%d8%af%d8%a1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.bigledger.com/user-guide/implementation" &gt;دليل التنفيذ&lt;/a&gt; - دليل النشر خطوة بخطوة&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.bigledger.com/applets/applet-store" &gt;نظرة عامة على Applet Store&lt;/a&gt; - تصفّح الـ applets المتاحة&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ar/applets/applet-store/" &gt;نظرة عامة على Applet Store&lt;/a&gt; - تصفّح الـ applets المتاحة&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.bigledger.com/tutorials/quick-start" &gt;برنامج البدء السريع التعليمي&lt;/a&gt; - ابدأ التشغيل خلال 30 دقيقة&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;الوحدات الأساسية&lt;span class="hx:absolute hx:-mt-20" id="الوحدات-الأساسية"&gt;&lt;/span&gt;
@@ -396,7 +453,7 @@
 &lt;a href="#%d9%85%d9%88%d8%a7%d8%b6%d9%8a%d8%b9-%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.bigledger.com/developers/api-reference" &gt;توثيق API&lt;/a&gt; - دليل التكامل&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.bigledger.com/developers/applet-sdk" &gt;تطوير applet مخصّص&lt;/a&gt; - ابنِ الخاص بك&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.bigledger.com/ai-intelligence" &gt;الذكاء الاصطناعي والأتمتة&lt;/a&gt; - استفد من قدرات الذكاء الاصطناعي&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ar/ai-intelligence/" &gt;الذكاء الاصطناعي والأتمتة&lt;/a&gt; - استفد من قدرات الذكاء الاصطناعي&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;الأسئلة الشائعة&lt;span class="hx:absolute hx:-mt-20" id="الأسئلة-الشائعة"&gt;&lt;/span&gt;
 &lt;a href="#%d8%a7%d9%84%d8%a3%d8%b3%d8%a6%d9%84%d8%a9-%d8%a7%d9%84%d8%b4%d8%a7%d8%a6%d8%b9%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;details&gt;
@@ -432,4 +489,1120 @@
 &lt;li&gt;&lt;strong&gt;أكاديمية التدريب&lt;/strong&gt;: &lt;a href="https://academy.bigledger.com" target="_blank" rel="noopener"&gt;academy.bigledger.com&lt;/a&gt; - دورات مجانية&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;منتدى المجتمع&lt;/strong&gt;: &lt;a href="https://forum.bigledger.com" target="_blank" rel="noopener"&gt;forum.bigledger.com&lt;/a&gt; - مجتمع المستخدمين&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;دعم Telegram&lt;/strong&gt;: @leehongfay - أسئلة سريعة&lt;/li&gt;
-&lt;/ul&gt;</description></item></channel></rss>
+&lt;/ul&gt;</description></item><item><title>تطبيق جرد المخزون</title><link>https://www.bigledger.com/ar/applets/stock-take-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/stock-take-applet/</guid><description>
+&lt;p&gt;تطبيق جرد المخزون هو حل رقمي متطوّر مصمّم لإحداث ثورة في إدارة المخزون للشركات. في عصر التخزين الرقمي اليوم، يُعدّ الحفاظ على مستويات مخزون دقيقة أمرًا بالغ الأهمية لتقليل الخسائر وتحسين العمليات. يوفّر تطبيق جرد المخزون نهجًا مبسّطًا لجرد المخزون، ما يمكّن الشركات من إجراء جرد للمخزون في الوقت الفعلي دون مقاطعة العمليات اليومية، حتى أثناء ساعات العمل.
+ما يُتوقّع من القرّاء رؤيته:
+مقدمة إلى تطبيق جرد المخزون
+1.0 نظرة عامة على تطبيق جرد المخزون﻿
+2.0 جلسة جرد المخزون﻿
+3.0 أجهزة جرد المخزون﻿
+4.0 تقرير جرد المخزون﻿
+&lt;a href="https://bigledger.atlassian.net/wiki/spaces/AKAUN/pages/3316809818/Stocktake&amp;#43;Applet&amp;#43;Settings" target="_blank" rel="noopener"&gt;https://bigledger.atlassian.net/wiki/spaces/AKAUN/pages/3316809818/Stocktake+Applet+Settings&lt;/a&gt;
+6.0 تخصيص جرد المخزون&lt;/p&gt;</description></item><item><title>تطبيق صيانة الفِرق</title><link>https://www.bigledger.com/ar/applets/team-maintenance-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/team-maintenance-applet/</guid><description>
+&lt;p&gt;1&lt;/p&gt;</description></item><item><title>تطبيق دفتر الأسعار</title><link>https://www.bigledger.com/ar/applets/pricebook-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/pricebook-applet/</guid><description>
+&lt;h1&gt;1.0 مقدمة&lt;/h1&gt;&lt;p&gt;يُستخدم تطبيق دفتر الأسعار لإعداد العروض الترويجية والشراء مع الشراء (PWP) والحملة لبيع المنتجات بناءً على الشريحة والعميل والكيان والفترة والمزيد. في التطبيق، يُرجى النقر على أيقونة &amp;ldquo;القائمة&amp;rdquo; لعرض وحدات التطبيق. يوجد وحدتان في تطبيق دفتر الأسعار وهما &amp;ldquo;دفتر الأسعار&amp;rdquo; و&amp;quot;مجموعة الأسعار&amp;quot;.&lt;/p&gt;</description></item><item><title>أبلت صيانة المجموعات</title><link>https://www.bigledger.com/ar/applets/group-maintenance-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/group-maintenance-applet/</guid><description>
+&lt;p&gt;أبلت صيانة المجموعات هو لإضافة المستخدمين إلى مجموعة، وتعيين الصلاحية للمستخدم على مستوى المنصة. توجد وحدة واحدة فقط في أبلت صيانة المجموعات وهي قائمة المجموعات.&lt;/p&gt;</description></item><item><title>تطبيق مراقبة العمليات</title><link>https://www.bigledger.com/ar/applets/process-monitoring-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/process-monitoring-applet/</guid><description/></item><item><title>دليل التطبيقات</title><link>https://www.bigledger.com/ar/applets/applet-directory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/applet-directory/</guid><description>
+&lt;p&gt;متجر التطبيقات هو السوق المخصّص لتوزيع التطبيقات المصمّمة للاستخدام مع منتجات Akaun. فهو يتيح للمشتركين في منتجات Akaun تصفّح التطبيقات وتثبيتها. بعض التطبيقات في المتجر مجانية بينما يتطلب بعضها الآخر رسومًا محددة.
+الخطوات: قبول شروط استخدام السوق &amp;gt; تثبيت التطبيقات &amp;gt; فتح التطبيق
+إعدادات صلاحيات التطبيقات: إنشاء مجموعة صلاحيات &amp;gt; إنشاء دور وتعيينه
+تخصيص التطبيقات: تخصيص التطبيق&lt;/p&gt;
+&lt;h2&gt;هل تحتاج إلى إيجاد تطبيق؟&lt;span class="hx:absolute hx:-mt-20" id="هل-تحتاج-إلى-إيجاد-تطبيق"&gt;&lt;/span&gt;
+&lt;a href="#%d9%87%d9%84-%d8%aa%d8%ad%d8%aa%d8%a7%d8%ac-%d8%a5%d9%84%d9%89-%d8%a5%d9%8a%d8%ac%d8%a7%d8%af-%d8%aa%d8%b7%d8%a8%d9%8a%d9%82" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ابحث عن تطبيق
+true&lt;/p&gt;</description></item><item><title>أبلت تنظيم المواقع</title><link>https://www.bigledger.com/ar/applets/location-organization-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/location-organization-applet/</guid><description>
+&lt;p&gt;يمكن أن يكون لكل فرع مواقع متعددة
+هذه هي الأيقونة الثالثة في الشريط الجانبي، &amp;ldquo;الموقع.&amp;rdquo; يسرد هذا القسم جميع المواقع، ويمكن أن يكون لكل فرع مواقع متعددة. يمكن للمستخدمين إنشاء مواقع جديدة أو تعديل المواقع الموجودة هنا.
+علامات تبويب التعديل مشابهة لتلك الموجودة في &lt;a href="https://bigledger.atlassian.net/wiki/spaces/AKAUN/pages/3196191408/Branch&amp;#43;-&amp;#43;Organization&amp;#43;Applet#Edit-branch" target="_blank" rel="noopener"&gt;https://bigledger.atlassian.net/wiki/spaces/AKAUN/pages/3196191408/Branch+-+Organization+Applet#Edit-branch&lt;/a&gt;&lt;/p&gt;</description></item><item><title>إعدادات تطبيق المؤسسة</title><link>https://www.bigledger.com/ar/applets/settings-of-organization-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/settings-of-organization-applet/</guid><description>
+&lt;p&gt;﻿يغطّي هذا القسم جميع الإعدادات المستخدمة من قبل Wavelet.
+يتيح لك إذن الدور تعيين أذونات محددة عند الحاجة.&lt;/p&gt;</description></item><item><title>تطبيق تنظيم الفروع</title><link>https://www.bigledger.com/ar/applets/branch-organization-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/branch-organization-applet/</guid><description>
+&lt;p&gt;noneيغطي هذا القسم علامة التبويب الرئيسية الثانية في الشريط الجانبي، الفروع (Branches)، حيث يمكن للمستخدمين إنشاء تفاصيل فروعهم وتحريرها.
+يمكن أن يكون للشركة فروع متعددة
+يمكن للمستخدمين إما اختيار إنشاء فرعهم من الأيقونة الثانية في الشريط الجانبي الأيسر أو الانتقال إلى علامة تبويب تحرير قائمة الشركات لإنشاء فرع.
+كيفية إنشاء فرع من الشريط الجانبي
+إنشاء فرع من علامة تبويب قائمة الشركات﻿﻿
+يقدّم الموضوع الثاني في هذا القسم نظرة عامة عن كل علامة تبويب في قائمة تحرير الفرع، مع إبراز ميزاتها لتحسين تهيئة الفرع.&lt;/p&gt;
+&lt;h1&gt;إنشاء فرع﻿&lt;/h1&gt;&lt;p&gt;يمكن للمستخدمين إنشاء فروع متعددة، جميعها مرتبطة بشركة واحدة&lt;/p&gt;
+&lt;h2&gt;إنشاء فرع من الشريط الجانبي﻿&lt;span class="hx:absolute hx:-mt-20" id="إنشاء-فرع-من-الشريط-الجانبي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d9%81%d8%b1%d8%b9-%d9%85%d9%86-%d8%a7%d9%84%d8%b4%d8%b1%d9%8a%d8%b7-%d8%a7%d9%84%d8%ac%d8%a7%d9%86%d8%a8%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;الأيقونة الثانية في شريط القائمة الأيسر هي علامة تبويب الفرع (Branch Tab)، التي تتيح للمستخدمين إنشاء فرع جديد لشركة يدويًا. يمكن للمستخدمين الضغط على زر &amp;lsquo;+&amp;rsquo; لإنشاء فرع جديد.
+املأ جميع الحقول المطلوبة في علامة تبويب التفاصيل (Details Tab) على النحو المبيّن أدناه.
+بمجرد الانتهاء، انقر على &amp;lsquo;Save&amp;rsquo; لحفظ تفاصيل الفرع.
+يمكن للمستخدمين الاختيار بين &amp;lsquo;Create Default Location&amp;rsquo; أو &amp;lsquo;Choose From Existing Location&amp;rsquo; عند إعداد الفرع.
+إذا أنشأت الفرع قبل إعداد الموقع واخترت &amp;lsquo;Create Default Location&amp;rsquo;، سيُنشئ النظام تلقائيًا موقعًا افتراضيًا واحدًا.
+الحقول التي يجب ملؤها في علامة تبويب التفاصيل هي:
+رمز الفرع، اسم الفرع
+اسم الشركة: اربط الفرع بشركتك. سيُعرض هذا باسم الشركة المختارة
+رقم تسجيل الشركة: يُعرض كما ملأه المستخدم
+تاريخ بدء تشغيل الفرع
+العملة: يمكن اختيار عملات مختلفة من القائمة المنسدلة
+إذا أنشأ المستخدمون الموقع قبل الفرع، ثم اختاروا &amp;lsquo;Choose From Existing Location&amp;rsquo;، فإن الحقول الإضافية المطلوبة في علامة تبويب التفاصيل هي:
+رمز الموقع
+الموقع الافتراضي
+بعد ملء جميع التفاصيل الضرورية، انقر على &amp;lsquo;Save&amp;rsquo; لتخزين معلومات الفرع.
+املأ التفاصيل في علامة تبويب العنوان (Address Tab) كما هو موضّح سابقًا.
+بعد تأكيد جميع المعلومات، انقر على زر &amp;lsquo;Save&amp;rsquo; لتخزين تفاصيل الفرع.&lt;/p&gt;
+&lt;h2&gt;إنشاء فرع من علامة تبويب قائمة الشركات﻿﻿&lt;span class="hx:absolute hx:-mt-20" id="إنشاء-فرع-من-علامة-تبويب-قائمة-الشركات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d9%81%d8%b1%d8%b9-%d9%85%d9%86-%d8%b9%d9%84%d8%a7%d9%85%d8%a9-%d8%aa%d8%a8%d9%88%d9%8a%d8%a8-%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%a7%d9%84%d8%b4%d8%b1%d9%83%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;إذا اختار المستخدمون إنشاء فرع للشركة المختارة في صفحة قائمة الشركات، فإنهم يربطون الفرع مباشرةً بتلك الشركة. انقر على علامة &amp;lsquo;+&amp;rsquo; لبدء إنشاء الفرع.
+انتقل إلى علامة تبويب الفرع في تحرير الشركة وانقر على زر &amp;lsquo;+&amp;rsquo; لإنشاء فرع جديد.
+اختر الشركة التي ترغب في إنشاء فرع لها من القائمة المنسدلة. سيُملأ اسم الشركة ورقم تسجيل الشركة تلقائيًا بناءً على اختيارك.
+املأ الحقول الإلزامية التي يجب ملؤها في علامة تبويب التفاصيل والعنوان&lt;/p&gt;
+&lt;h1&gt;تحرير الفرع﻿&lt;/h1&gt;&lt;p&gt;من صفحة قائمة الفروع، انقر على الفرع الذي أنشأته لعرض جميع علامات التبويب المتاحة:
+التفاصيل (Details): يعرض هذا القسم تفاصيل الفرع الرئيسية التي أُنشئت في القسم 2.1، حيث يمكن للمستخدمين إضافة أي معلومات أو تحريرها عند الحاجة.
+التسعير الافتراضي (Default Pricing): هو تهيئة التسعير الافتراضي. يمكن تعيينه حسب الفرع أو الشركة. على سبيل المثال، إذا كان لديك مخططات تسعير مختلفة لشرق وغرب ماليزيا، يمكنك تطبيق تسعير فرع الشرق على الفروع في تلك المنطقة.
+العنوان (Address): عرض عناوين الفرع وتحريرها.
+الانتقاء والتعبئة (Pick Pack): يُستخدم لأوامر الموارد. في حال استخدامك لخيار التوصيل، املأه؛ وإلا يمكنك تركه فارغًا.
+السوق (Marketplace): مخصّص لمنتج EcomSync، وهو مرتبط بأسواقك مثل Shopee وLazada. هنا تُهيّئ الإعدادات.
+الموقع (Location): هنا يُعرض الموقع الافتراضي الذي أنشأه النظام للتو عند إعداد الفرع. بدلًا من ذلك، يمكنك الاختيار من المواقع الموجودة.
+التسوية (Settlement): هنا تحدّد نوع التسوية الذي يمكن لكل فرع رؤيته. يمكن أن يكون لكل فرع تسويات مختلفة
+على سبيل المثال: النقد أو بطاقة الائتمان أو Maybank.
+تُستخدم التسوية لدفتر النقدية أو نقطة البيع لديك، بما في ذلك خيارات الدفع مثل GrabPay أو ShopeePay. هنا تُهيّئها.
+التسميات (Labels): تُستخدم لوسم الفرع
+الامتداد (Extension): يُستخدم لـ CP Commerce
+العميل والمورد (Customer and Supplier): اربط الفرع بعميل/مورد معيّن. عند التهيئة هنا، ستُسجَّل المعاملات تلقائيًا. هذه الميزة جزء من تفاصيل التهيئة بين الشركات
+بين الشركات (Intercompany): حدّد ما إذا كان النظام يُنهي المعاملات بين الشركات تلقائيًا أو يتركها كمسودات للموافقة اليدوية. يمكنك أيضًا تهيئة ما إذا كان إنشاء فاتورة مبيعات ينبغي أن يُنشئ فاتورة الشراء تلقائيًا. هنا تُدار إعدادات التهيئة التلقائية.&lt;/p&gt;</description></item><item><title>تطبيق تنظيم الشركة</title><link>https://www.bigledger.com/ar/applets/company-organization-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/company-organization-applet/</guid><description>
+&lt;p&gt;noneعند تسجيل الدخول إلى تطبيق المؤسسة، الصفحة الأولى المعروضة للمستخدم هي صفحة قائمة الشركات (Company Listing) في الأيقونة الأولى على الشريط الجانبي الأيسر.
+في هذا القسم، سنغطي موضوعين رئيسيين:
+كيفية إنشاء شركة: دليل تفصيلي خطوة بخطوة لإعداد تفاصيل الشركة وإضافة العنوان.
+كيفية تحرير شركة: نظرة عامة عن كل علامة تبويب وميزاتها لتحسين تهيئة الشركة&lt;/p&gt;
+&lt;h1&gt;إنشاء شركة﻿&lt;/h1&gt;&lt;p&gt;يمكن أن يكون للشركة الواحدة فروع فرعية متعددة، ولا يوجد حد لهذه التهيئة
+لبدء إنشاء شركة، يمكن للمستخدمين النقر على زر &amp;lsquo;+&amp;rsquo; الموجود في الزاوية العلوية اليسرى.&lt;/p&gt;
+&lt;h2&gt;علامة تبويب الشركة﻿&lt;span class="hx:absolute hx:-mt-20" id="علامة-تبويب-الشركة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b9%d9%84%d8%a7%d9%85%d8%a9-%d8%aa%d8%a8%d9%88%d9%8a%d8%a8-%d8%a7%d9%84%d8%b4%d8%b1%d9%83%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;إنشاء شركة﻿&lt;span class="hx:absolute hx:-mt-20" id="إنشاء-شركة-1"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d8%b4%d8%b1%d9%83%d8%a9-1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;انقر على زر &amp;lsquo;+&amp;rsquo; في الزاوية العلوية اليسرى.
+املأ جميع الحقول المطلوبة بالمعلومات الضرورية. الحقول المميّزة بعلامة * إلزامية ولا يمكن تعديلها لاحقًا.
+بمجرد الانتهاء، انقر على &amp;lsquo;Save&amp;rsquo; في الزاوية العلوية اليمنى.
+يرجى الرجوع إلى لقطات الشاشة أدناه للإرشاد.
+الخطوة 1: انقر على زر &amp;lsquo;+&amp;rsquo; لإنشاء شركة.
+الخطوة 2 و3: املأ جميع الحقول المطلوبة وانقر على &amp;lsquo;Save&amp;rsquo;.
+في نموذج إنشاء الشركة، ستحتاج إلى ملء الحقول التالية:
+رمز الشركة، الاسم، رقم التسجيل: أدخل هذه التفاصيل
+تاريخ تأسيس الشركة: متى تأسست الشركة
+معرّف الضريبة، معرّف SST #: إن كان ذلك ينطبق
+رقم الفاكس: إن كان ذلك ينطبق
+رقم الهاتف: إلزامي
+العملة: اختر من القائمة المنسدلة.
+دليل الحسابات: أنشئ دليل الحسابات قبل إعداد الشركة. اتبع الخطوات هنا. بمجرد إعداد دليل الحسابات، اختر الدليل المناسب من القائمة المنسدلة.
+تقريب الخمس سنتات: عند الحاجة - اختر رمز العنصر الذي يملؤه النظام تلقائيًا للمعاملات.
+خصومات المجموعات: يمكنك تطبيق خصم على المعاملة بأكملها، أو يمكن للنظام اختيار رموز العناصر تلقائيًا.
+خيارات مرتجعات الشراء والبيع الافتراضية: لكل من مرتجعات الشراء ومرتجعات البيع، يمكنك اختيار خيارات تسعير متماثلة:
+سعر آخر شراء: اختر هذا الخيار لاستخدام سعر آخر عملية شراء للمرتجعات.
+تكلفة المتوسط المتحرك: اختر هذا الخيار إذا كنت تفضّل أن يستند التسعير إلى تكلفة المتوسط المتحرك.
+سعر الفاتورة: الخيار الأكثر استخدامًا، ويطبّق السعر من فاتورة الشراء أو البيع ذات الصلة للمرتجعات.
+شعار الشركة: يمكن للمستخدمين رفع شعار الشركة فورًا أو اختيار رفعه لاحقًا.&lt;/p&gt;
+&lt;h2&gt;علامة تبويب العنوان﻿&lt;span class="hx:absolute hx:-mt-20" id="علامة-تبويب-العنوان"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b9%d9%84%d8%a7%d9%85%d8%a9-%d8%aa%d8%a8%d9%88%d9%8a%d8%a8-%d8%a7%d9%84%d8%b9%d9%86%d9%88%d8%a7%d9%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;عند إنشاء شركة، يُطلب من المستخدمين ملء تفاصيل العنوان. هذه المعلومات ضرورية لدقة حفظ السجلات وأغراض المراسلات.&lt;/p&gt;
+&lt;h3&gt;ملء عنوان الشركة﻿&lt;span class="hx:absolute hx:-mt-20" id="ملء-عنوان-الشركة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%84%d8%a1-%d8%b9%d9%86%d9%88%d8%a7%d9%86-%d8%a7%d9%84%d8%b4%d8%b1%d9%83%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;انتقل إلى علامة تبويب العنوان.
+املأ جميع الحقول المطلوبة، بما في ذلك تفاصيل البريد ومعلومات الدولة. الحقول المميّزة بعلامة * إلزامية.
+بمجرد الانتهاء، انقر على &amp;lsquo;Save&amp;rsquo; في الزاوية العلوية اليمنى لتخزين معلومات العنوان.
+يرجى الرجوع إلى لقطة الشاشة أدناه للإرشاد.
+الخطوة 1، 2: املأ تفاصيل العنوان المطلوبة وانقر على &amp;lsquo;Save&amp;rsquo;.
+الحقول المطلوبة في علامة تبويب العنوان هي كما يلي:
+سطر العنوان 1: تفاصيل العنوان الأساسية
+سطر العنوان 2: تفاصيل عنوان إضافية
+سطر العنوان 3: سطر إضافي اختياري
+سطر العنوان 4: سطر إضافي اختياري
+سطر العنوان 5: سطر إضافي اختياري
+الرمز البريدي: الرمز البريدي أو ZIP
+المدينة: المدينة التي تقع فيها الشركة
+الدولة: يمكن اختيار دول مختلفة من القائمة المنسدلة
+العملة: اختر العملة المطبّقة من القائمة المنسدلة
+الولاية: اختر الولاية أو المنطقة ذات الصلة من القائمة المنسدلة&lt;/p&gt;
+&lt;h1&gt;تحرير الشركة﻿&lt;/h1&gt;&lt;p&gt;من صفحة قائمة الشركات، انقر على الشركة التي أنشأتها لعرض جميع علامات التبويب المتاحة:
+التفاصيل (Details): يعرض هذا القسم تفاصيل الشركة الرئيسية التي أُنشئت في القسم 1.1، حيث يمكن للمستخدمين إضافة أي معلومات أو تحريرها عند الحاجة.
+الفاتورة الإلكترونية (E-invoice): تهيئة الشركة للفوترة الإلكترونية إلى LHDN
+تهيئة Peppol: في حال استخدام Peppol، فإن علامة التبويب هذه مخصّصة لتهيئة الوسيط.
+الضريبة (Tax): إذا كان لدى الشركة SSD، تُستخدم علامة التبويب هذه لتهيئة الضرائب.
+العنوان (Address): يعرض العنوان الذي أُنشئ في القسم 1.2. يمكن للمستخدمين تحرير معلومات إضافية أو إضافتها عند الحاجة.
+الفرع (Branch): يُدرج جميع الفروع المُنشأة تحت الشركة المختارة.
+الموقع (Location): يعرض جميع المواقع تحت كل فرع للشركة.
+التسميات (Labels): تُستخدم لوسم الشركة، مثل التجميع حسب القسم.
+الموظف (Employee): يعرض قائمة الموظفين تحت الشركة. هذا مرتبط بتطبيق الموظفين.&lt;/p&gt;
+&lt;h2&gt;تهيئة المقاصة (Knock Off Config):﻿&lt;span class="hx:absolute hx:-mt-20" id="تهيئة-المقاصة-knock-off-config"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%87%d9%8a%d8%a6%d8%a9-%d8%a7%d9%84%d9%85%d9%82%d8%a7%d8%b5%d8%a9-knock-off-config" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;ما هو KO (المقاصة - Knock Off)؟&lt;span class="hx:absolute hx:-mt-20" id="ما-هو-ko-المقاصة---knock-off"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%a7-%d9%87%d9%88-ko-%d8%a7%d9%84%d9%85%d9%82%d8%a7%d8%b5%d8%a9---knock-off" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;تُستخدم تهيئة المقاصة (KO) عندما تحتاج الشركة إلى إدارة تتبّع إصدار المستندات للمعاملات المتعلقة بـ:
+✅ فواتير العملاء (مثل تتبّع ما إذا كانت الفاتورة قد سُدِّدت بالكامل).
+✅ فواتير الموردين (مثل ضمان تسجيل المدفوعات بشكل صحيح مقابل فواتير الموردين).
+في جوهرها، تساعد المقاصة (KO) على أتمتة التسوية بين الفواتير الصادرة والمدفوعات المستلمة، مما يمنع التباينات في السجلات المالية.&lt;/p&gt;
+&lt;h3&gt;متى ينبغي تهيئة المقاصة (KO)؟&lt;span class="hx:absolute hx:-mt-20" id="متى-ينبغي-تهيئة-المقاصة-ko"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%aa%d9%89-%d9%8a%d9%86%d8%a8%d8%ba%d9%8a-%d8%aa%d9%87%d9%8a%d8%a6%d8%a9-%d8%a7%d9%84%d9%85%d9%82%d8%a7%d8%b5%d8%a9-ko" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;تهيئة المقاصة (KO) اختيارية لكنها قد تكون ضرورية إذا:
+أرادت الشركة تتبّع المدفوعات مقابل الفواتير بطريقة آلية.
+تطلّب العمل التحقق من إصدار المستندات قبل وضع علامة على المعاملات كمكتملة.
+كانت هناك حاجة لربط إصدار الفاتورة بمعاملات الموردين/العملاء للمعالجة الداخلية.
+إعداد بالغ الأهمية للشركة لتهيئة سير العمل. انقر على زر &amp;lsquo;+&amp;rsquo; لبدء الإعداد.
+خيارات نوع مستند الخادم (Server Doc Type Options): ضرورية لإعداد سير عمل الشركة، مثل تهيئة عملية أوامر الشراء وتحويلها إلى إشعارات استلام بضاعة (GRN) أو فواتير شراء، أو إعداد عملية البيع (من أوامر البيع إلى فواتير البيع). تستند التهيئة إلى أنواع المستندات.
+يحتاج المستخدم إلى اختيار نوع الخادم. يشير Server Type 1 إلى المستند المصدر، بينما يشير Server Type 2 إلى المستند الهدف
+هذا مثال على تدفق إعداد مقاصة (KO) أساسي للعميل. على سبيل المثال، عندما ينشئ المستخدم فاتورة، سيكون هناك خياران للمقاصة: أمر بيع (Sales Order) وعرض سعر بيع (Sales Quotation).
+هذا يعني أنه في تطبيق فاتورة البيع، ضمن علامة تبويب المقاصة (KO)، سيرى المستخدم خيارين: أمر بيع وعرض سعر بيع.
+يمكن للمستخدمين تمكين إعدادات المقاصة أو تعطيلها من صفحة علامة التبويب الرئيسية.
+تعتمد خيارات المقاصة (KO) على تهيئة العميل واحتياجات المستخدم. يمكن للمستخدم إضافة المزيد من الخيارات عند الحاجة بتهيئتها في تطبيق المؤسسة عند إنشاء تفاصيل الشركة أو تحريرها.&lt;/p&gt;
+&lt;h2&gt;البحث بالتصفية المتقدمة﻿&lt;span class="hx:absolute hx:-mt-20" id="البحث-بالتصفية-المتقدمة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a8%d8%ad%d8%ab-%d8%a8%d8%a7%d9%84%d8%aa%d8%b5%d9%81%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;تتيح لك التصفية المتقدمة البحث حسب الشركة أو اسم الشركة أو رقم التسجيل أو الحالة. تتضمن كل وحدة فرعية خيار التصفية المتقدمة هذا.&lt;/p&gt;</description></item><item><title>أبلت وحدة تحكم إدارة العضوية</title><link>https://www.bigledger.com/ar/applets/membership-admin-console-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/membership-admin-console-applet/</guid><description>
+&lt;p&gt;1&lt;/p&gt;</description></item><item><title>برنامج العضوية</title><link>https://www.bigledger.com/ar/applets/membership-program/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/membership-program/</guid><description>
+&lt;p&gt;لاستخدام برنامج العضوية
+التطبيقات المصغّرة الإلزامية
+تطبيق المؤسسة
+تطبيق صيانة عناصر المستندات
+تطبيق دفتر الأسعار
+التطبيقات المصغّرة الاختيارية
+تطبيق إدارة cp-commerce، للسماح لعضوك بتسجيل الدخول والتحقق من نقاطك.
+تطبيق نقطة البيع&lt;/p&gt;</description></item><item><title>أبلت أمر التسليم الداخلي</title><link>https://www.bigledger.com/ar/applets/internal-delivery-order-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/internal-delivery-order-applet/</guid><description>
+&lt;p&gt;أبلت أمر التسليم الداخلي هو أداة متعددة الاستخدامات مصممة لتبسيط عملية إدارة أوامر التسليم. فهو يمكّن المستخدمين من تتبع العناصر المسلّمة وتسجيل تفاصيل العملاء وتخصيص معلومات إضافية مثل تفاصيل المركبة وشركة النقل. تعزّز هذه المرونة قابلية الأبلت للتكيف مع مختلف الاحتياجات التشغيلية، مما يجعله موردًا أساسيًا لإدارة التسليم الفعّالة.&lt;/p&gt;</description></item><item><title>تطبيق رصيد المخزون</title><link>https://www.bigledger.com/ar/applets/stock-balance-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/stock-balance-applet/</guid><description/></item><item><title>أبلت تسوية المخزون الداخلية</title><link>https://www.bigledger.com/ar/applets/internal-stock-adjustment-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/internal-stock-adjustment-applet/</guid><description>
+&lt;p&gt;يبسّط أبلت تسوية المخزون الداخلية إدارة المخزون من خلال السماح للمستخدمين بتسوية مستويات المخزون لتتطابق مع الكميات الفعلية. فهو يدعم إنشاء تسويات المخزون وعرضها واستيرادها بشكل مجمّع، مما يضمن تتبعًا دقيقًا للمخزون. ويتكامل مع أبلتات أخرى لتعزيز الكفاءة التشغيلية.&lt;/p&gt;</description></item><item><title>تطبيقات EcomSync ذات الصلة</title><link>https://www.bigledger.com/ar/applets/90-ecomsync-related-applets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/90-ecomsync-related-applets/</guid><description>
+&lt;p&gt;تطبيق المؤسسة في Ecomsync
+تطبيق المؤسسة في Ecomsync - إنشاء شركة
+تطبيق المؤسسة في Ecomsync: إنشاء فرع افتراضي (Marketplace)
+تطبيق المؤسسة في Ecomsync - Marketplace: إعداد المخزون وأوامر البيع حسب الفرع
+تطبيق صيانة عناصر المستندات في Ecomsync: إنشاء عنصر مفرد
+تطبيق صيانة عناصر المستندات في Ecomsync: إنشاء عنصر مُجمَّع (Bundle)
+تطبيق صيانة عناصر المستندات في Ecomsync: إنشاء عنصر مُصنَّف ضمن مجموعة
+تطبيق صيانة عناصر المستندات في Ecomsync: تهيئة العنصر المفرد/المُجمَّع إلى Marketplace
+تطبيق صيانة عناصر المستندات في Ecomsync: تهيئة العنصر المُصنَّف ضمن مجموعة إلى Marketplace
+تطبيق صيانة عناصر المستندات في Ecomsync: تهيئة رصيد المخزون وأمر البيع
+تطبيق أوامر البيع الداخلية في Ecomsync: تحديث حالة طلب Marketplace&lt;/p&gt;</description></item><item><title>أبلت Ingram Micro MS ESD</title><link>https://www.bigledger.com/ar/applets/ingram-micro-ms-esd-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/ingram-micro-ms-esd-applet/</guid><description/></item><item><title>تثبيت أبلت دفتر الأسعار</title><link>https://www.bigledger.com/ar/applets/installation-of-pricebook-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/installation-of-pricebook-applet/</guid><description>
+&lt;p&gt;يرجى الانتقال إلى Akaun.cloud والعثور على متجر الأبلتات.
+في متجر الأبلتات، يرجى البحث عن الأبلت الذي تريد تثبيته والنقر عليه.
+يرجى النقر على زر &amp;ldquo;Install&amp;rdquo; لتثبيت الأبلت.
+يرجى النقر على &amp;ldquo;akaun&amp;rdquo; للعودة إلى صفحة Akaun.cloud للبحث عن الأبلت المثبّت والنقر عليه.&lt;/p&gt;</description></item><item><title>تثبيت أبلت صيانة المجموعات</title><link>https://www.bigledger.com/ar/applets/installation-of-group-maintenance-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/installation-of-group-maintenance-applet/</guid><description>
+&lt;p&gt;1.التثبيت (Akaun Cloud): متجر الأبلتات &amp;gt; بحث &amp;gt; تثبيت &amp;gt; صفحة Akaun &amp;gt; بحث
+1.1. يرجى الانتقال إلى Akaun.cloud والعثور على متجر الأبلتات.
+1.2. في متجر الأبلتات، يرجى البحث عن الأبلت الذي تريد تثبيته والنقر عليه.
+1.3. يرجى النقر على زر &amp;lsquo;Install&amp;rsquo; لتثبيت الأبلت.
+1.4 يرجى النقر على &amp;lsquo;akaun&amp;rsquo; للعودة إلى صفحة Akaun.cloud للبحث عن الأبلت المثبّت والنقر عليه (كما في 1.1).&lt;/p&gt;</description></item><item><title>تثبيت أبلت صيانة الفرق</title><link>https://www.bigledger.com/ar/applets/installation-of-team-maintenance-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/installation-of-team-maintenance-applet/</guid><description>
+&lt;p&gt;1.التثبيت (Akaun Cloud): متجر الأبلتات &amp;gt; بحث &amp;gt; تثبيت &amp;gt; صفحة Akaun &amp;gt; بحث
+1.1. يرجى الانتقال إلى Akaun.cloud والعثور على متجر الأبلتات.
+1.2. في متجر الأبلتات، يرجى البحث عن الأبلت الذي تريد تثبيته والنقر عليه.
+1.3. يرجى النقر على زر &amp;lsquo;Install&amp;rsquo; لتثبيت الأبلت.
+1.4 يرجى النقر على &amp;lsquo;akaun&amp;rsquo; للعودة إلى صفحة Akaun.cloud للبحث عن الأبلت المثبّت والنقر عليه (كما في 1.1).&lt;/p&gt;</description></item><item><title>مقدمة إلى أبلت صيانة الفرق</title><link>https://www.bigledger.com/ar/applets/introduction-to-team-maintenance-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/introduction-to-team-maintenance-applet/</guid><description>
+&lt;p&gt;مقدمة
+أبلت صيانة الفرق هو لإدارة المستخدمين وصلاحيات الفريق. توجد وحدة واحدة فقط في الأبلت وهي &amp;lsquo;Team&amp;rsquo;.
+الخطوات: التثبيت&amp;gt; إنشاء فريق&amp;gt;تعديل الفريق(إضافة أعضاء، استيراد مستخدم، إضافة صلاحية)&lt;/p&gt;</description></item><item><title>مقدمة إلى أبلت وحدة تحكم إدارة العضوية</title><link>https://www.bigledger.com/ar/applets/introduction-to-membership-admin-console-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/introduction-to-membership-admin-console-applet/</guid><description>
+&lt;p&gt;مقدمة
+يُستخدم هذا الأبلت لتكوين وإدارة العضوية وعملة النقاط، مثل وضع العلامات وتصنيف الأعضاء وتعيين عملات نقاط مختلفة مع معدل التحويل. توجد سبع وحدات في الأبلت وهي قائمة الأعضاء، وفئة العضو، وعلامة العضو، وقائمة علامات الأعضاء، وعملة النقاط (PTS CCY)، وتكوين تحويل النقاط إلى النقاط (PTS to PTS)، وتكوين تحويل النقاط إلى العملة النقدية (PTS to CCY).
+الخطوات: التثبيت &amp;gt; إنشاء عضو &amp;gt; إنشاء فئة عضو &amp;gt; إنشاء قائمة علامات الأعضاء &amp;gt; إنشاء أو تعديل علامة عضو &amp;gt; إنشاء عملة نقاط &amp;gt; إنشاء تكوين تحويل النقاط إلى النقاط &amp;gt; إنشاء تكوين تحويل النقاط إلى العملة النقدية &amp;gt; تعديل العضو (الفئة والعلامة ومعاملة النقاط)&lt;/p&gt;</description></item><item><title>مقدمة إلى أبلت جرد المخزون</title><link>https://www.bigledger.com/ar/applets/introduction-to-stock-take-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/introduction-to-stock-take-applet/</guid><description>
+&lt;p&gt;يقدّم أبلت جرد المخزون حلًا شاملًا لجميع احتياجات إدارة المخزون لديك، حيث يوفر كل ما تحتاجه لإمكانية التتبع والتحكم الفعّال في المخزون.
+الميزات الرئيسية:
+حل مركزي: أدر جميع بيانات المخزون في مكان واحد، مما يقلل من تعقيد التعامل مع أنظمة متعددة.
+واجهة ملائمة للأجهزة المحمولة: نفّذ عمليات جرد المخزون وأدر المخزون أثناء التنقل، في أي وقت وأي مكان.
+قابل للتخصيص بالكامل: عالج بسهولة المنتجات متعددة وحدات القياس مع تتبع أكثر تفصيلًا لمستويات المخزون بوحدات مختلفة.
+تخزين ذكي: قلّل التدخل البشري وقلّل الأخطاء.
+تتبع الأرقام التسلسلية: تتبّع وتعقّب فروقات المخزون حسب الدفعة أو الأرقام التسلسلية.
+تقارير في الوقت الفعلي: تنعكس أي بيانات مُدخلة فورًا في التقارير في الوقت الفعلي.&lt;/p&gt;
+&lt;h3&gt;البدء مع أبلت جرد المخزون&lt;span class="hx:absolute hx:-mt-20" id="البدء-مع-أبلت-جرد-المخزون"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a8%d8%af%d8%a1-%d9%85%d8%b9-%d8%a3%d8%a8%d9%84%d8%aa-%d8%ac%d8%b1%d8%af-%d8%a7%d9%84%d9%85%d8%ae%d8%b2%d9%88%d9%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;للبدء في استخدام أبلت جرد المخزون، يُرجى التأكد من إكمال جميع خطوات إنشاء الكتالوجات وتثبيت الأبلتات وإدارة المستخدمين. للحصول على تعليمات مفصّلة، راجع دليل الإعداد العام.
+بمجرد التثبيت، يمكن للمستخدمين العثور على أبلت جرد المخزون على صفحتهم الرئيسية في Akaun والبدء في استخدامه لإدارة المخزون. فيما يلي أيقونة أبلت جرد المخزون.&lt;/p&gt;</description></item><item><title>التطبيقات ذات الصلة - رصيد المخزون</title><link>https://www.bigledger.com/ar/applets/related-applets-stock-balance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/related-applets-stock-balance/</guid><description>
+&lt;h3&gt;يمكن لتطبيق رصيد المخزون استيراد البنود من التطبيقات التالية:&lt;span class="hx:absolute hx:-mt-20" id="يمكن-لتطبيق-رصيد-المخزون-استيراد-البنود-من-التطبيقات-التالية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%8a%d9%85%d9%83%d9%86-%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82-%d8%b1%d8%b5%d9%8a%d8%af-%d8%a7%d9%84%d9%85%d8%ae%d8%b2%d9%88%d9%86-%d8%a7%d8%b3%d8%aa%d9%8a%d8%b1%d8%a7%d8%af-%d8%a7%d9%84%d8%a8%d9%86%d9%88%d8%af-%d9%85%d9%86-%d8%a7%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;تطبيق المؤسسة
+تطبيق صيانة العناصر (المخزون)
+تطبيق صيانة عناصر المستندات
+تطبيق فاتورة المبيعات
+تطبيق فاتورة المشتريات
+تطبيق مرتجعات المبيعات
+تطبيق مرتجعات المشتريات
+تطبيق تعديل المخزون
+تطبيق إشعار دائن للمبيعات
+تطبيق إشعار مدين للمبيعات
+تطبيق إشعار دائن للمشتريات
+تطبيق إشعار مدين للمشتريات
+تطبيق إشعار استلام البضائع الداخلي للمبيعات
+تطبيق إشعار استلام البضائع الداخلي للمشتريات
+تطبيق إشعار صرف البضائع الداخلي للمبيعات
+تطبيق إشعار صرف البضائع الداخلي للمشتريات&lt;/p&gt;
+&lt;h3&gt;المعلومات في تطبيق رصيد المخزون تُستخدم من قبل أي تطبيقات:&lt;span class="hx:absolute hx:-mt-20" id="المعلومات-في-تطبيق-رصيد-المخزون-تستخدم-من-قبل-أي-تطبيقات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d9%81%d9%8a-%d8%aa%d8%b7%d8%a8%d9%8a%d9%82-%d8%b1%d8%b5%d9%8a%d8%af-%d8%a7%d9%84%d9%85%d8%ae%d8%b2%d9%88%d9%86-%d8%aa%d8%b3%d8%aa%d8%ae%d8%af%d9%85-%d9%85%d9%86-%d9%82%d8%a8%d9%84-%d8%a3%d9%8a-%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;تطبيق توافر المخزون
+تطبيق إدارة المخزون
+تطبيق أمر المبيعات
+تطبيق أمر التعبئة
+تطبيق أمر التسليم
+تطبيق أمر الشراء
+تطبيق طلب الشراء
+تطبيق عرض الأسعار
+تطبيق إشعار دائن للمبيعات
+تطبيق إشعار مدين للمبيعات
+تطبيق إشعار دائن للمشتريات
+تطبيق إشعار مدين للمشتريات
+تطبيق مرتجعات المبيعات
+تطبيق مرتجعات المشتريات
+تطبيق تعديل المخزون
+تطبيق إشعار استلام البضائع الداخلي للمبيعات
+تطبيق إشعار استلام البضائع الداخلي للمشتريات
+تطبيق إشعار صرف البضائع الداخلي للمبيعات
+تطبيق إشعار صرف البضائع الداخلي للمشتريات&lt;/p&gt;</description></item><item><title>التطبيقات ذات الصلة - أمر العمل الداخلي</title><link>https://www.bigledger.com/ar/applets/related-applets-internal-job-order/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/related-applets-internal-job-order/</guid><description>
+&lt;h3&gt;يمكن لتطبيق أمر العمل الداخلي استيراد البنود من التطبيقات التالية:&lt;span class="hx:absolute hx:-mt-20" id="يمكن-لتطبيق-أمر-العمل-الداخلي-استيراد-البنود-من-التطبيقات-التالية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%8a%d9%85%d9%83%d9%86-%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82-%d8%a3%d9%85%d8%b1-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d8%a7%d9%84%d8%af%d8%a7%d8%ae%d9%84%d9%8a-%d8%a7%d8%b3%d8%aa%d9%8a%d8%b1%d8%a7%d8%af-%d8%a7%d9%84%d8%a8%d9%86%d9%88%d8%af-%d9%85%d9%86-%d8%a7%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;المعلومات في تطبيق أمر العمل الداخلي، تُستخدم من قبل أي تطبيقات:&lt;span class="hx:absolute hx:-mt-20" id="المعلومات-في-تطبيق-أمر-العمل-الداخلي-تستخدم-من-قبل-أي-تطبيقات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d9%81%d9%8a-%d8%aa%d8%b7%d8%a8%d9%8a%d9%82-%d8%a3%d9%85%d8%b1-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d8%a7%d9%84%d8%af%d8%a7%d8%ae%d9%84%d9%8a-%d8%aa%d8%b3%d8%aa%d8%ae%d8%af%d9%85-%d9%85%d9%86-%d9%82%d8%a8%d9%84-%d8%a3%d9%8a-%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;</description></item><item><title>التطبيقات ذات الصلة - تعديل المخزون الداخلي</title><link>https://www.bigledger.com/ar/applets/related-applets-internal-stock-adjustment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/related-applets-internal-stock-adjustment/</guid><description>
+&lt;h3&gt;يمكن لتطبيق تعديل المخزون الداخلي استيراد البنود من التطبيقات التالية:&lt;span class="hx:absolute hx:-mt-20" id="يمكن-لتطبيق-تعديل-المخزون-الداخلي-استيراد-البنود-من-التطبيقات-التالية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%8a%d9%85%d9%83%d9%86-%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82-%d8%aa%d8%b9%d8%af%d9%8a%d9%84-%d8%a7%d9%84%d9%85%d8%ae%d8%b2%d9%88%d9%86-%d8%a7%d9%84%d8%af%d8%a7%d8%ae%d9%84%d9%8a-%d8%a7%d8%b3%d8%aa%d9%8a%d8%b1%d8%a7%d8%af-%d8%a7%d9%84%d8%a8%d9%86%d9%88%d8%af-%d9%85%d9%86-%d8%a7%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;تطبيق المؤسسة
+تطبيق صيانة العناصر (المخزون)
+تطبيق صيانة عناصر المستندات
+تطبيق رصيد المخزون&lt;/p&gt;
+&lt;h3&gt;يُستخدم تطبيق تعديل المخزون الداخلي من قبل أي تطبيقات:&lt;span class="hx:absolute hx:-mt-20" id="يستخدم-تطبيق-تعديل-المخزون-الداخلي-من-قبل-أي-تطبيقات"&gt;&lt;/span&gt;
+&lt;a href="#%d9%8a%d8%b3%d8%aa%d8%ae%d8%af%d9%85-%d8%aa%d8%b7%d8%a8%d9%8a%d9%82-%d8%aa%d8%b9%d8%af%d9%8a%d9%84-%d8%a7%d9%84%d9%85%d8%ae%d8%b2%d9%88%d9%86-%d8%a7%d9%84%d8%af%d8%a7%d8%ae%d9%84%d9%8a-%d9%85%d9%86-%d9%82%d8%a8%d9%84-%d8%a3%d9%8a-%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;تطبيق رصيد المخزون&lt;/p&gt;</description></item><item><title>التطبيقات ذات الصلة - مراقبة العمليات</title><link>https://www.bigledger.com/ar/applets/related-applets-process-monitoring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/related-applets-process-monitoring/</guid><description>
+&lt;h3&gt;يمكن لتطبيق مراقبة العمليات استيراد البنود من التطبيقات التالية:&lt;span class="hx:absolute hx:-mt-20" id="يمكن-لتطبيق-مراقبة-العمليات-استيراد-البنود-من-التطبيقات-التالية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%8a%d9%85%d9%83%d9%86-%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82-%d9%85%d8%b1%d8%a7%d9%82%d8%a8%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa-%d8%a7%d8%b3%d8%aa%d9%8a%d8%b1%d8%a7%d8%af-%d8%a7%d9%84%d8%a8%d9%86%d9%88%d8%af-%d9%85%d9%86-%d8%a7%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;المعلومات في تطبيق مراقبة العمليات، تُستخدم من قبل أي تطبيقات:&lt;span class="hx:absolute hx:-mt-20" id="المعلومات-في-تطبيق-مراقبة-العمليات-تستخدم-من-قبل-أي-تطبيقات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d9%81%d9%8a-%d8%aa%d8%b7%d8%a8%d9%8a%d9%82-%d9%85%d8%b1%d8%a7%d9%82%d8%a8%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa-%d8%aa%d8%b3%d8%aa%d8%ae%d8%af%d9%85-%d9%85%d9%86-%d9%82%d8%a8%d9%84-%d8%a3%d9%8a-%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;</description></item><item><title>تطبيق مركز الاتصال الموحّد (UCC)</title><link>https://www.bigledger.com/ar/applets/unified-contact-center-ucc-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/unified-contact-center-ucc-applet/</guid><description>
+&lt;h2&gt;نظرة عامة تنفيذية&lt;span class="hx:absolute hx:-mt-20" id="نظرة-عامة-تنفيذية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%86%d8%b8%d8%b1%d8%a9-%d8%b9%d8%a7%d9%85%d8%a9-%d8%aa%d9%86%d9%81%d9%8a%d8%b0%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;يُعدّ تطبيق مركز الاتصال الموحّد (UCC) حلّ BigLedger الرائد لتفاعل العملاء الذي يُحدث ثورة في طريقة تواصل الشركات مع عملائها. فمن خلال دمج جميع قنوات التواصل في منصة واحدة ذكية، يمكّن UCC الشركات من تقديم خدمة عملاء استثنائية مع تحسين الكفاءة التشغيلية تحسينًا كبيرًا.&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;حوّل خدمة العملاء لديك&lt;/strong&gt;: تعامل مع محادثات أكثر بعشرة أضعاف بالحجم نفسه من الفريق مع تحسين أوقات الاستجابة بنسبة 75%&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;لماذا يُعدّ UCC أساسيًا للأعمال الحديثة&lt;span class="hx:absolute hx:-mt-20" id="لماذا-يعد-ucc-أساسيا-للأعمال-الحديثة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%84%d9%85%d8%a7%d8%b0%d8%a7-%d9%8a%d8%b9%d8%af-ucc-%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a7-%d9%84%d9%84%d8%a3%d8%b9%d9%85%d8%a7%d9%84-%d8%a7%d9%84%d8%ad%d8%af%d9%8a%d8%ab%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;التحدي&lt;span class="hx:absolute hx:-mt-20" id="التحدي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%ad%d8%af%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;يتوقّع العملاء استجابات فورية عبر قنوات متعددة&lt;/li&gt;
+&lt;li&gt;إدارة تطبيقات منفصلة لـ WhatsApp وFacebook والبريد الإلكتروني غير فعّالة&lt;/li&gt;
+&lt;li&gt;فقدان المحادثات والسياق عند التبديل بين المنصات&lt;/li&gt;
+&lt;li&gt;صعوبة تتبّع أداء خدمة العملاء&lt;/li&gt;
+&lt;li&gt;معالجة الطلبات يدويًا عبر الدردشة تستغرق وقتًا طويلاً&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;حل UCC&lt;span class="hx:absolute hx:-mt-20" id="حل-ucc"&gt;&lt;/span&gt;
+&lt;a href="#%d8%ad%d9%84-ucc" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;منصة واحدة، جميع القنوات&lt;/strong&gt;: إدارة كل محادثة من واجهة واحدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التوجيه الذكي&lt;/strong&gt;: توزيع المحادثات تلقائيًا على الوكلاء المناسبين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تجارة متكاملة&lt;/strong&gt;: معالجة الطلبات والمدفوعات مباشرةً في الدردشة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحليلات في الوقت الفعلي&lt;/strong&gt;: مراقبة الأداء وتحسينه فورًا&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أدوات الأتمتة&lt;/strong&gt;: تقليل وقت الاستجابة باستخدام القوالب الذكية والروبوتات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;القدرات الأساسية&lt;span class="hx:absolute hx:-mt-20" id="القدرات-الأساسية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%82%d8%af%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;قنوات التواصل المدعومة&lt;span class="hx:absolute hx:-mt-20" id="قنوات-التواصل-المدعومة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d9%86%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%88%d8%a7%d8%b5%d9%84-%d8%a7%d9%84%d9%85%d8%af%d8%b9%d9%88%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;منصات المراسلة الفورية&lt;span class="hx:absolute hx:-mt-20" id="منصات-المراسلة-الفورية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%86%d8%b5%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b1%d8%a7%d8%b3%d9%84%d8%a9-%d8%a7%d9%84%d9%81%d9%88%d8%b1%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;WhatsApp Business API&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إرسال/استقبال الرسائل والصور والفيديوهات والمستندات&lt;/li&gt;
+&lt;li&gt;بث الرسائل إلى جهات اتصال متعددة&lt;/li&gt;
+&lt;li&gt;تكامل كتالوج WhatsApp&lt;/li&gt;
+&lt;li&gt;أزرار وقوائم الرد السريع&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Facebook Messenger&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إدارة صندوق وارد الصفحة&lt;/li&gt;
+&lt;li&gt;تكامل روبوت Messenger&lt;/li&gt;
+&lt;li&gt;دعم الوسائط الغنية&lt;/li&gt;
+&lt;li&gt;خيارات القائمة الدائمة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Telegram Business&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إدارة الروبوتات والقنوات&lt;/li&gt;
+&lt;li&gt;دعم الدردشة الجماعية&lt;/li&gt;
+&lt;li&gt;مشاركة الملفات حتى 2 غيغابايت&lt;/li&gt;
+&lt;li&gt;خيارات لوحة المفاتيح المخصصة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;WeChat Work&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تكامل الحساب الرسمي&lt;/li&gt;
+&lt;li&gt;دعم البرامج المصغّرة (Mini-program)&lt;/li&gt;
+&lt;li&gt;التفاعل عبر رمز QR&lt;/li&gt;
+&lt;li&gt;تكامل الحزمة الحمراء (Red packet)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;LINE Official Account&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;الرسائل والبطاقات الغنية&lt;/li&gt;
+&lt;li&gt;تكامل LINE Pay&lt;/li&gt;
+&lt;li&gt;توزيع القسائم&lt;/li&gt;
+&lt;li&gt;إدارة بطاقات الأعضاء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Instagram Direct&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إدارة الردود على القصص&lt;/li&gt;
+&lt;li&gt;الردود على تعليقات المنشورات&lt;/li&gt;
+&lt;li&gt;دعم علامات التسوّق&lt;/li&gt;
+&lt;li&gt;معالجة التفاعل عبر IGTV&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;القنوات التقليدية&lt;span class="hx:absolute hx:-mt-20" id="القنوات-التقليدية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%82%d9%86%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%82%d9%84%d9%8a%d8%af%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تكامل البريد الإلكتروني&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;دعم POP3/IMAP&lt;/li&gt;
+&lt;li&gt;قوالب بريد إلكتروني HTML&lt;/li&gt;
+&lt;li&gt;معالجة المرفقات&lt;/li&gt;
+&lt;li&gt;الردود التلقائية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;بوابة الرسائل النصية (SMS)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إرسال رسائل نصية جماعية&lt;/li&gt;
+&lt;li&gt;المراسلة ثنائية الاتجاه&lt;/li&gt;
+&lt;li&gt;دعم الرموز القصيرة&lt;/li&gt;
+&lt;li&gt;تقارير التسليم&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;أداة الدردشة المباشرة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;التضمين في الموقع الإلكتروني&lt;/li&gt;
+&lt;li&gt;محفّزات دردشة استباقية&lt;/li&gt;
+&lt;li&gt;قدرة التصفّح المشترك (Co-browsing)&lt;/li&gt;
+&lt;li&gt;دعم نقل الملفات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;بنية الوحدات&lt;span class="hx:absolute hx:-mt-20" id="بنية-الوحدات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a8%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d9%88%d8%ad%d8%af%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. وحدة صندوق الوارد - مركز محادثات مركزي&lt;span class="hx:absolute hx:-mt-20" id="1-وحدة-صندوق-الوارد---مركز-محادثات-مركزي"&gt;&lt;/span&gt;
+&lt;a href="#1-%d9%88%d8%ad%d8%af%d8%a9-%d8%b5%d9%86%d8%af%d9%88%d9%82-%d8%a7%d9%84%d9%88%d8%a7%d8%b1%d8%af---%d9%85%d8%b1%d9%83%d8%b2-%d9%85%d8%ad%d8%a7%d8%af%d8%ab%d8%a7%d8%aa-%d9%85%d8%b1%d9%83%d8%b2%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;عرض الرسائل الموحّد&lt;span class="hx:absolute hx:-mt-20" id="عرض-الرسائل-الموحد"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b9%d8%b1%d8%b6-%d8%a7%d9%84%d8%b1%d8%b3%d8%a7%d8%a6%d9%84-%d8%a7%d9%84%d9%85%d9%88%d8%ad%d8%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;واجهة الكل في واحد&lt;/strong&gt;: عرض جميع الرسائل من جميع القنوات في شاشة واحدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مؤشرات القنوات&lt;/strong&gt;: علامات مرئية تُظهر مصدر الرسالة (WhatsApp، FB، إلخ)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تسلسل المحادثات&lt;/strong&gt;: الحفاظ على السياق بسجل رسائل كامل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المزامنة في الوقت الفعلي&lt;/strong&gt;: تحديثات رسائل فورية عبر جميع شاشات الوكلاء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;إدارة المحادثات الذكية&lt;span class="hx:absolute hx:-mt-20" id="إدارة-المحادثات-الذكية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d9%85%d8%ad%d8%a7%d8%af%d8%ab%d8%a7%d8%aa-%d8%a7%d9%84%d8%b0%d9%83%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الطابور حسب الأولوية&lt;/strong&gt;: الرسائل العاجلة تظهر أولاً&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تتبّع الحالة&lt;/strong&gt;: جديدة، قيد التنفيذ، محلولة، معلّقة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تخصيص الوكيل&lt;/strong&gt;: توزيع يدوي أو تلقائي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;نقل المحادثة&lt;/strong&gt;: تسليم سلس بين الوكلاء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;معالجة الوسائط الغنية&lt;span class="hx:absolute hx:-mt-20" id="معالجة-الوسائط-الغنية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b9%d8%a7%d9%84%d8%ac%d8%a9-%d8%a7%d9%84%d9%88%d8%b3%d8%a7%d8%a6%d8%b7-%d8%a7%d9%84%d8%ba%d9%86%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;معرض الصور&lt;/strong&gt;: عرض وإرسال الصور مع خيارات الضغط&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;دعم الفيديو&lt;/strong&gt;: بث الفيديوهات حتى 100 ميغابايت&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مشاركة المستندات&lt;/strong&gt;: دعم PDF وExcel وWord وPowerPoint&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الملاحظات الصوتية&lt;/strong&gt;: تشغيل وإرسال الرسائل الصوتية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مشاركة الموقع&lt;/strong&gt;: تكامل الخرائط للعناوين&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;شريط أدوات الإجراءات السريعة&lt;span class="hx:absolute hx:-mt-20" id="شريط-أدوات-الإجراءات-السريعة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b4%d8%b1%d9%8a%d8%b7-%d8%a3%d8%af%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%a5%d8%ac%d8%b1%d8%a7%d8%a1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b3%d8%b1%d9%8a%d8%b9%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;القوالب&lt;/strong&gt;: ردود بنقرة واحدة للاستفسارات الشائعة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الترجمة&lt;/strong&gt;: ترجمة الرسائل في الوقت الفعلي (أكثر من 50 لغة)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الملاحظات&lt;/strong&gt;: تعليقات داخلية غير مرئية للعملاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;العلامات&lt;/strong&gt;: تصنيف المحادثات لأغراض الإبلاغ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الاختصارات&lt;/strong&gt;: أوامر لوحة المفاتيح للمستخدمين المتمكّنين&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. وحدة لوحة المعلومات - مراقبة الأداء في الوقت الفعلي&lt;span class="hx:absolute hx:-mt-20" id="2-وحدة-لوحة-المعلومات---مراقبة-الأداء-في-الوقت-الفعلي"&gt;&lt;/span&gt;
+&lt;a href="#2-%d9%88%d8%ad%d8%af%d8%a9-%d9%84%d9%88%d8%ad%d8%a9-%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa---%d9%85%d8%b1%d8%a7%d9%82%d8%a8%d8%a9-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1-%d9%81%d9%8a-%d8%a7%d9%84%d9%88%d9%82%d8%aa-%d8%a7%d9%84%d9%81%d8%b9%d9%84%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;مؤشرات الأداء الرئيسية (KPIs)&lt;span class="hx:absolute hx:-mt-20" id="مؤشرات-الأداء-الرئيسية-kpis"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%a4%d8%b4%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9-kpis" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;مقاييس الاستجابة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;متوسط وقت الاستجابة الأولى&lt;/li&gt;
+&lt;li&gt;متوسط وقت الحل&lt;/li&gt;
+&lt;li&gt;عدد الرسائل لكل محادثة&lt;/li&gt;
+&lt;li&gt;درجات رضا العملاء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;أداء الوكيل&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;المحادثات التي عالجها كل وكيل&lt;/li&gt;
+&lt;li&gt;وقت الاستجابة حسب الوكيل&lt;/li&gt;
+&lt;li&gt;تقييمات العملاء حسب الوكيل&lt;/li&gt;
+&lt;li&gt;تتبّع وقت النشاط/الخمول&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تحليلات القنوات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;حجم الرسائل حسب القناة&lt;/li&gt;
+&lt;li&gt;خريطة حرارية لساعات الذروة&lt;/li&gt;
+&lt;li&gt;اتجاهات تفضيل القنوات&lt;/li&gt;
+&lt;li&gt;معدلات التحويل حسب القناة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;التحليلات المرئية&lt;span class="hx:absolute hx:-mt-20" id="التحليلات-المرئية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%ad%d9%84%d9%8a%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b1%d8%a6%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;موجز النشاط المباشر&lt;/strong&gt;: تدفّق المحادثات في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مخططات الأداء&lt;/strong&gt;: تصوّر الرسوم البيانية والاتجاهات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تقارير المقارنة&lt;/strong&gt;: تحليل الفترة مقابل الفترة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خيارات التصدير&lt;/strong&gt;: تقارير PDF وExcel وCSV&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;3. وحدة جهات الاتصال - ذكاء عملاء كامل&lt;span class="hx:absolute hx:-mt-20" id="3-وحدة-جهات-الاتصال---ذكاء-عملاء-كامل"&gt;&lt;/span&gt;
+&lt;a href="#3-%d9%88%d8%ad%d8%af%d8%a9-%d8%ac%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d8%aa%d8%b5%d8%a7%d9%84---%d8%b0%d9%83%d8%a7%d8%a1-%d8%b9%d9%85%d9%84%d8%a7%d8%a1-%d9%83%d8%a7%d9%85%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;إدارة ملف العميل&lt;span class="hx:absolute hx:-mt-20" id="إدارة-ملف-العميل"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d9%85%d9%84%d9%81-%d8%a7%d9%84%d8%b9%d9%85%d9%8a%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;عرض العميل بزاوية 360°&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;معلومات الاتصال&lt;/li&gt;
+&lt;li&gt;سجل المحادثات&lt;/li&gt;
+&lt;li&gt;سجل المشتريات&lt;/li&gt;
+&lt;li&gt;تذاكر الدعم&lt;/li&gt;
+&lt;li&gt;الملاحظات والعلامات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;الحقول المخصصة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;بيانات خاصة بكل قطاع&lt;/li&gt;
+&lt;li&gt;تتبّع التفضيلات&lt;/li&gt;
+&lt;li&gt;تواريخ الميلاد/الذكرى السنوية&lt;/li&gt;
+&lt;li&gt;مؤشرات حالة كبار العملاء (VIP)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;أدوات التقسيم&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;قوائم ذكية بناءً على السلوك&lt;/li&gt;
+&lt;li&gt;مرشِّحات وعمليات بحث مخصصة&lt;/li&gt;
+&lt;li&gt;دعم الإجراءات الجماعية&lt;/li&gt;
+&lt;li&gt;قدرات الاستيراد/التصدير&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;نقاط التكامل&lt;span class="hx:absolute hx:-mt-20" id="نقاط-التكامل"&gt;&lt;/span&gt;
+&lt;a href="#%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;مزامنة CRM&lt;/strong&gt;: إنشاء سجل العميل تلقائيًا&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;بيانات المبيعات&lt;/strong&gt;: سجل الطلبات من وحدة المبيعات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;سجل الدعم&lt;/strong&gt;: التذاكر والحلول السابقة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قوائم التسويق&lt;/strong&gt;: التقسيم للحملات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;4. وحدة البث - مركز التواصل الجماعي&lt;span class="hx:absolute hx:-mt-20" id="4-وحدة-البث---مركز-التواصل-الجماعي"&gt;&lt;/span&gt;
+&lt;a href="#4-%d9%88%d8%ad%d8%af%d8%a9-%d8%a7%d9%84%d8%a8%d8%ab---%d9%85%d8%b1%d9%83%d8%b2-%d8%a7%d9%84%d8%aa%d9%88%d8%a7%d8%b5%d9%84-%d8%a7%d9%84%d8%ac%d9%85%d8%a7%d8%b9%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;إدارة الحملات&lt;span class="hx:absolute hx:-mt-20" id="إدارة-الحملات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%ad%d9%85%d9%84%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;حملات الرسائل&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;عمليات البث الترويجية&lt;/li&gt;
+&lt;li&gt;إعلانات الخدمة&lt;/li&gt;
+&lt;li&gt;دعوات الفعاليات&lt;/li&gt;
+&lt;li&gt;إطلاق المنتجات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;اختيار الجمهور&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;استهداف قائمة جهات الاتصال&lt;/li&gt;
+&lt;li&gt;التصفية القائمة على العلامات&lt;/li&gt;
+&lt;li&gt;شرائح مخصصة&lt;/li&gt;
+&lt;li&gt;قوائم الاستبعاد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;خيارات الجدولة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إرسال فوري&lt;/li&gt;
+&lt;li&gt;عمليات بث مجدولة&lt;/li&gt;
+&lt;li&gt;تحسين حسب المنطقة الزمنية&lt;/li&gt;
+&lt;li&gt;حملات متكررة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;مكتبة القوالب&lt;span class="hx:absolute hx:-mt-20" id="مكتبة-القوالب"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%83%d8%aa%d8%a8%d8%a9-%d8%a7%d9%84%d9%82%d9%88%d8%a7%d9%84%d8%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;قوالب معتمدة مسبقًا&lt;/strong&gt;: رسائل WhatsApp Business المعتمدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قوالب وسائط غنية&lt;/strong&gt;: صور وفيديوهات ومستندات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;العناصر النائبة المتغيّرة&lt;/strong&gt;: إدراج محتوى مخصص&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;دعم متعدد اللغات&lt;/strong&gt;: قوالب بلغات متعددة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;الامتثال والتسليم&lt;span class="hx:absolute hx:-mt-20" id="الامتثال-والتسليم"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a7%d9%85%d8%aa%d8%ab%d8%a7%d9%84-%d9%88%d8%a7%d9%84%d8%aa%d8%b3%d9%84%d9%8a%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;إدارة الاشتراك (Opt-in)&lt;/strong&gt;: تفضيلات الاشتراك&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تقارير التسليم&lt;/strong&gt;: إيصالات القراءة والتحليلات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;معالجة الرسائل الفاشلة&lt;/strong&gt;: منطق إعادة المحاولة التلقائية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الامتثال التنظيمي&lt;/strong&gt;: أدوات الامتثال لـ PDPA وGDPR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;5. وحدة طابور المهام - توزيع عمل ذكي&lt;span class="hx:absolute hx:-mt-20" id="5-وحدة-طابور-المهام---توزيع-عمل-ذكي"&gt;&lt;/span&gt;
+&lt;a href="#5-%d9%88%d8%ad%d8%af%d8%a9-%d8%b7%d8%a7%d8%a8%d9%88%d8%b1-%d8%a7%d9%84%d9%85%d9%87%d8%a7%d9%85---%d8%aa%d9%88%d8%b2%d9%8a%d8%b9-%d8%b9%d9%85%d9%84-%d8%b0%d9%83%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;إدارة الطابور&lt;span class="hx:absolute hx:-mt-20" id="إدارة-الطابور"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b7%d8%a7%d8%a8%d9%88%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;قواعد التوجيه الذكية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;التوجيه القائم على المهارات&lt;/li&gt;
+&lt;li&gt;تفضيلات اللغة&lt;/li&gt;
+&lt;li&gt;إعطاء الأولوية لكبار العملاء&lt;/li&gt;
+&lt;li&gt;التوزيع الدائري (Round-robin)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;مراقبة اتفاقية مستوى الخدمة (SLA)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;أهداف وقت الاستجابة&lt;/li&gt;
+&lt;li&gt;محفّزات التصعيد&lt;/li&gt;
+&lt;li&gt;إشعارات التنبيه&lt;/li&gt;
+&lt;li&gt;تتبّع الأداء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;موازنة عبء العمل&lt;span class="hx:absolute hx:-mt-20" id="موازنة-عبء-العمل"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%88%d8%a7%d8%b2%d9%86%d8%a9-%d8%b9%d8%a8%d8%a1-%d8%a7%d9%84%d8%b9%d9%85%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;إدارة السعة&lt;/strong&gt;: إعدادات توفّر الوكيل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;توزيع التحميل&lt;/strong&gt;: توزيع متساوٍ للعمل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;معالجة الفائض&lt;/strong&gt;: إدارة الطابور الاحتياطي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة الاستراحات&lt;/strong&gt;: فترات عدم اتصال مجدولة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;6. وحدة التهيئة - إعداد النظام والتكامل&lt;span class="hx:absolute hx:-mt-20" id="6-وحدة-التهيئة---إعداد-النظام-والتكامل"&gt;&lt;/span&gt;
+&lt;a href="#6-%d9%88%d8%ad%d8%af%d8%a9-%d8%a7%d9%84%d8%aa%d9%87%d9%8a%d8%a6%d8%a9---%d8%a5%d8%b9%d8%af%d8%a7%d8%af-%d8%a7%d9%84%d9%86%d8%b8%d8%a7%d9%85-%d9%88%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;تهيئة القنوات&lt;span class="hx:absolute hx:-mt-20" id="تهيئة-القنوات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%87%d9%8a%d8%a6%d8%a9-%d8%a7%d9%84%d9%82%d9%86%d9%88%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;إعداد WhatsApp Business&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;بيانات اعتماد API&lt;/li&gt;
+&lt;li&gt;التحقق من رقم الهاتف&lt;/li&gt;
+&lt;li&gt;إعداد الملف التجاري&lt;/li&gt;
+&lt;li&gt;تكامل الكتالوج&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تكامل Facebook&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ربط الصفحة&lt;/li&gt;
+&lt;li&gt;إعداد الأذونات&lt;/li&gt;
+&lt;li&gt;تهيئة webhook&lt;/li&gt;
+&lt;li&gt;عملية مراجعة التطبيق&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;قنوات أخرى&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;أدلة إعداد خطوة بخطوة&lt;/li&gt;
+&lt;li&gt;أدوات الاختبار&lt;/li&gt;
+&lt;li&gt;مساعدة استكشاف الأخطاء&lt;/li&gt;
+&lt;li&gt;مراقبة حالة الاتصال&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;قواعد العمل&lt;span class="hx:absolute hx:-mt-20" id="قواعد-العمل"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d8%b9%d9%85%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ساعات العمل&lt;/strong&gt;: جداول خاصة بكل قناة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الردود التلقائية&lt;/strong&gt;: رسائل خارج ساعات العمل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قواعد التوجيه&lt;/strong&gt;: منطق توزيع المحادثات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;سياسات التصعيد&lt;/strong&gt;: محفّزات تدخّل المشرف&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;7. تكامل التجارة الإلكترونية - البيع عبر الدردشة&lt;span class="hx:absolute hx:-mt-20" id="7-تكامل-التجارة-الإلكترونية---البيع-عبر-الدردشة"&gt;&lt;/span&gt;
+&lt;a href="#7-%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d8%a7%d9%84%d8%aa%d8%ac%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%a5%d9%84%d9%83%d8%aa%d8%b1%d9%88%d9%86%d9%8a%d8%a9---%d8%a7%d9%84%d8%a8%d9%8a%d8%b9-%d8%b9%d8%a8%d8%b1-%d8%a7%d9%84%d8%af%d8%b1%d8%af%d8%b4%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;مشاركة كتالوج المنتجات&lt;span class="hx:absolute hx:-mt-20" id="مشاركة-كتالوج-المنتجات"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d8%a7%d8%b1%d9%83%d8%a9-%d9%83%d8%aa%d8%a7%d9%84%d9%88%d8%ac-%d8%a7%d9%84%d9%85%d9%86%d8%aa%d8%ac%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;كتالوجات مرئية&lt;/strong&gt;: مشاركة صور المنتجات وتفاصيلها&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مخزون في الوقت الفعلي&lt;/strong&gt;: التحقق من توفّر المخزون&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قوائم الأسعار&lt;/strong&gt;: عرض تسعير ديناميكي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;البحث عن المنتجات&lt;/strong&gt;: مساعدة العملاء في العثور على المنتجات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;معالجة الطلبات&lt;span class="hx:absolute hx:-mt-20" id="معالجة-الطلبات"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b9%d8%a7%d9%84%d8%ac%d8%a9-%d8%a7%d9%84%d8%b7%d9%84%d8%a8%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;إدارة سلة التسوّق&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إضافة/إزالة الأصناف في الدردشة&lt;/li&gt;
+&lt;li&gt;تعديلات الكمية&lt;/li&gt;
+&lt;li&gt;تطبيق الخصم&lt;/li&gt;
+&lt;li&gt;حساب الشحن&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;معالجة الدفع&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إنشاء رابط الدفع&lt;/li&gt;
+&lt;li&gt;طرق دفع متعددة&lt;/li&gt;
+&lt;li&gt;تتبّع حالة الدفع&lt;/li&gt;
+&lt;li&gt;إنشاء الإيصال&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;إدارة الطلبات&lt;span class="hx:absolute hx:-mt-20" id="إدارة-الطلبات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b7%d9%84%d8%a8%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;إنشاء الطلب&lt;/strong&gt;: تحويل الدردشة إلى أمر مبيعات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحديثات الحالة&lt;/strong&gt;: إشعارات طلب آلية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;معلومات التتبّع&lt;/strong&gt;: تحديثات الشحن&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المرتجعات/الاستبدال&lt;/strong&gt;: المعالجة عبر الدردشة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;8. ميزات الأتمتة والذكاء الاصطناعي&lt;span class="hx:absolute hx:-mt-20" id="8-ميزات-الأتمتة-والذكاء-الاصطناعي"&gt;&lt;/span&gt;
+&lt;a href="#8-%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%aa%d9%85%d8%aa%d8%a9-%d9%88%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;تكامل الروبوت المحادث (Chatbot)&lt;span class="hx:absolute hx:-mt-20" id="تكامل-الروبوت-المحادث-chatbot"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d8%a7%d9%84%d8%b1%d9%88%d8%a8%d9%88%d8%aa-%d8%a7%d9%84%d9%85%d8%ad%d8%a7%d8%af%d8%ab-chatbot" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;أتمتة الأسئلة الشائعة&lt;/strong&gt;: إجابات فورية على الأسئلة الشائعة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تأهيل العملاء المحتملين&lt;/strong&gt;: جمع المعلومات آليًا&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;حجز المواعيد&lt;/strong&gt;: تكامل التقويم&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;روبوت حالة الطلب&lt;/strong&gt;: ردود تتبّع آلية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;الاقتراحات الذكية&lt;span class="hx:absolute hx:-mt-20" id="الاقتراحات-الذكية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b0%d9%83%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;توصيات الردود&lt;/strong&gt;: اقتراحات ردود مدعومة بالذكاء الاصطناعي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحليل المشاعر&lt;/strong&gt;: اكتشاف مشاعر العملاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اكتشاف اللغة&lt;/strong&gt;: التبديل التلقائي للغة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التعرّف على النية&lt;/strong&gt;: فهم احتياجات العملاء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;9. ملفي الشخصي والتخصيص&lt;span class="hx:absolute hx:-mt-20" id="9-ملفي-الشخصي-والتخصيص"&gt;&lt;/span&gt;
+&lt;a href="#9-%d9%85%d9%84%d9%81%d9%8a-%d8%a7%d9%84%d8%b4%d8%ae%d8%b5%d9%8a-%d9%88%d8%a7%d9%84%d8%aa%d8%ae%d8%b5%d9%8a%d8%b5" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;إعدادات الوكيل&lt;span class="hx:absolute hx:-mt-20" id="إعدادات-الوكيل"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%b9%d8%af%d8%a7%d8%af%d8%a7%d8%aa-%d8%a7%d9%84%d9%88%d9%83%d9%8a%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;التفضيلات الشخصية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إعدادات الإشعارات&lt;/li&gt;
+&lt;li&gt;لغة الواجهة&lt;/li&gt;
+&lt;li&gt;اختيار السمة&lt;/li&gt;
+&lt;li&gt;اختصارات لوحة المفاتيح&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;إدارة التوقيع&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;توقيعات البريد الإلكتروني&lt;/li&gt;
+&lt;li&gt;رسائل إغلاق الدردشة&lt;/li&gt;
+&lt;li&gt;القوالب الشخصية&lt;/li&gt;
+&lt;li&gt;الردود السريعة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;تتبّع الأداء&lt;span class="hx:absolute hx:-mt-20" id="تتبع-الأداء"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%aa%d8%a8%d8%b9-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;لوحة معلومات شخصية&lt;/strong&gt;: مقاييس فردية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تتبّع الأهداف&lt;/strong&gt;: الهدف مقابل الإنجاز&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;سجل التغذية الراجعة&lt;/strong&gt;: تقييمات العملاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;سجلات التدريب&lt;/strong&gt;: تطوير المهارات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;دليل التنفيذ&lt;span class="hx:absolute hx:-mt-20" id="دليل-التنفيذ"&gt;&lt;/span&gt;
+&lt;a href="#%d8%af%d9%84%d9%8a%d9%84-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;المرحلة 1: الإعداد الأولي (الأسبوع 1)&lt;span class="hx:absolute hx:-mt-20" id="المرحلة-1-الإعداد-الأولي-الأسبوع-1"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b1%d8%ad%d9%84%d8%a9-1-%d8%a7%d9%84%d8%a5%d8%b9%d8%af%d8%a7%d8%af-%d8%a7%d9%84%d8%a3%d9%88%d9%84%d9%8a-%d8%a7%d9%84%d8%a3%d8%b3%d8%a8%d9%88%d8%b9-1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;اليوم 1-2: تهيئة النظام&lt;span class="hx:absolute hx:-mt-20" id="اليوم-1-2-تهيئة-النظام"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%8a%d9%88%d9%85-1-2-%d8%aa%d9%87%d9%8a%d8%a6%d8%a9-%d8%a7%d9%84%d9%86%d8%b8%d8%a7%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;تفعيل تطبيق UCC&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;الوصول إلى متجر التطبيقات&lt;/li&gt;
+&lt;li&gt;البحث عن &amp;ldquo;Unified Contact Center&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;النقر على &amp;ldquo;تثبيت&amp;rdquo; وقبول الأذونات&lt;/li&gt;
+&lt;li&gt;معالج التهيئة الأولية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;إعداد هيكل الفريق&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إنشاء حسابات الوكلاء&lt;/li&gt;
+&lt;li&gt;تحديد الأدوار (وكيل، مشرف، مسؤول)&lt;/li&gt;
+&lt;li&gt;إعداد الفِرق والأقسام&lt;/li&gt;
+&lt;li&gt;تهيئة الأذونات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;اليوم 3-4: تكامل القنوات&lt;span class="hx:absolute hx:-mt-20" id="اليوم-3-4-تكامل-القنوات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%8a%d9%88%d9%85-3-4-%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d8%a7%d9%84%d9%82%d9%86%d9%88%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;إعداد القناة الأساسية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ابدأ بالقناة الأكثر استخدامًا (عادةً WhatsApp)&lt;/li&gt;
+&lt;li&gt;إكمال عملية التحقق&lt;/li&gt;
+&lt;li&gt;اختبار تدفّق الرسائل&lt;/li&gt;
+&lt;li&gt;تهيئة الملف التجاري&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;قنوات إضافية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إضافة قنوات ثانوية&lt;/li&gt;
+&lt;li&gt;تهيئة الإعدادات الخاصة بكل قناة&lt;/li&gt;
+&lt;li&gt;اختبار التوجيه بين القنوات&lt;/li&gt;
+&lt;li&gt;إعداد خيارات الاحتياط&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;اليوم 5-7: تهيئة العمليات&lt;span class="hx:absolute hx:-mt-20" id="اليوم-5-7-تهيئة-العمليات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%8a%d9%88%d9%85-5-7-%d8%aa%d9%87%d9%8a%d8%a6%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;قواعد العمل&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تحديد ساعات العمل&lt;/li&gt;
+&lt;li&gt;إنشاء الردود التلقائية&lt;/li&gt;
+&lt;li&gt;إعداد قواعد التوجيه&lt;/li&gt;
+&lt;li&gt;تهيئة سياسات التصعيد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;القوالب والموارد&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إنشاء قوالب الردود&lt;/li&gt;
+&lt;li&gt;رفع كتالوجات المنتجات&lt;/li&gt;
+&lt;li&gt;إعداد قاعدة المعرفة&lt;/li&gt;
+&lt;li&gt;إعداد المواد التدريبية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;المرحلة 2: تدريب الفريق (الأسبوع 2)&lt;span class="hx:absolute hx:-mt-20" id="المرحلة-2-تدريب-الفريق-الأسبوع-2"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b1%d8%ad%d9%84%d8%a9-2-%d8%aa%d8%af%d8%b1%d9%8a%d8%a8-%d8%a7%d9%84%d9%81%d8%b1%d9%8a%d9%82-%d8%a7%d9%84%d8%a3%d8%b3%d8%a8%d9%88%d8%b9-2" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;التدريب الأساسي (جميع الوكلاء)&lt;span class="hx:absolute hx:-mt-20" id="التدريب-الأساسي-جميع-الوكلاء"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%af%d8%b1%d9%8a%d8%a8-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a-%d8%ac%d9%85%d9%8a%d8%b9-%d8%a7%d9%84%d9%88%d9%83%d9%84%d8%a7%d8%a1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;التنقّل في المنصة&lt;/li&gt;
+&lt;li&gt;أساسيات معالجة الرسائل&lt;/li&gt;
+&lt;li&gt;استخدام القوالب&lt;/li&gt;
+&lt;li&gt;الوصول إلى بيانات العملاء&lt;/li&gt;
+&lt;li&gt;استكشاف الأخطاء الأساسية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;التدريب المتقدم (المستخدمون المتمكّنون)&lt;span class="hx:absolute hx:-mt-20" id="التدريب-المتقدم-المستخدمون-المتمكنون"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%af%d8%b1%d9%8a%d8%a8-%d8%a7%d9%84%d9%85%d8%aa%d9%82%d8%af%d9%85-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d8%ae%d8%af%d9%85%d9%88%d9%86-%d8%a7%d9%84%d9%85%d8%aa%d9%85%d9%83%d9%86%d9%88%d9%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;إعداد التوجيه المعقّد&lt;/li&gt;
+&lt;li&gt;إنشاء التقارير&lt;/li&gt;
+&lt;li&gt;تهيئة الروبوت&lt;/li&gt;
+&lt;li&gt;إدارة التكامل&lt;/li&gt;
+&lt;li&gt;تحسين الأداء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;المرحلة 3: الإطلاق التجريبي (الأسبوع 3)&lt;span class="hx:absolute hx:-mt-20" id="المرحلة-3-الإطلاق-التجريبي-الأسبوع-3"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b1%d8%ad%d9%84%d8%a9-3-%d8%a7%d9%84%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d8%aa%d8%ac%d8%b1%d9%8a%d8%a8%d9%8a-%d8%a7%d9%84%d8%a3%d8%b3%d8%a8%d9%88%d8%b9-3" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;استراتيجية الإطلاق التدريجي&lt;span class="hx:absolute hx:-mt-20" id="استراتيجية-الإطلاق-التدريجي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d8%aa%d8%af%d8%b1%d9%8a%d8%ac%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;طرح محدود&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ابدأ بقناة واحدة&lt;/li&gt;
+&lt;li&gt;اختر فريقًا تجريبيًا&lt;/li&gt;
+&lt;li&gt;تعامل مع أنواع استفسارات محددة&lt;/li&gt;
+&lt;li&gt;راقب عن كثب&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;جمع التغذية الراجعة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;جلسات مراجعة يومية للفريق&lt;/li&gt;
+&lt;li&gt;التغذية الراجعة من العملاء&lt;/li&gt;
+&lt;li&gt;أداء النظام&lt;/li&gt;
+&lt;li&gt;تحسين العمليات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;المرحلة 4: النشر الكامل (الأسبوع 4 وما بعده)&lt;span class="hx:absolute hx:-mt-20" id="المرحلة-4-النشر-الكامل-الأسبوع-4-وما-بعده"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b1%d8%ad%d9%84%d8%a9-4-%d8%a7%d9%84%d9%86%d8%b4%d8%b1-%d8%a7%d9%84%d9%83%d8%a7%d9%85%d9%84-%d8%a7%d9%84%d8%a3%d8%b3%d8%a8%d9%88%d8%b9-4-%d9%88%d9%85%d8%a7-%d8%a8%d8%b9%d8%af%d9%87" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;عملية التوسّع&lt;span class="hx:absolute hx:-mt-20" id="عملية-التوسع"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d9%88%d8%b3%d8%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;التوسّع التدريجي&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إضافة المزيد من القنوات&lt;/li&gt;
+&lt;li&gt;تضمين جميع الوكلاء&lt;/li&gt;
+&lt;li&gt;توسيع ساعات الخدمة&lt;/li&gt;
+&lt;li&gt;زيادة الأتمتة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;التحسين&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تحليل المقاييس&lt;/li&gt;
+&lt;li&gt;تحسين العمليات&lt;/li&gt;
+&lt;li&gt;تحديث القوالب&lt;/li&gt;
+&lt;li&gt;تعزيز التدريب&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;أفضل الممارسات والنصائح&lt;span class="hx:absolute hx:-mt-20" id="أفضل-الممارسات-والنصائح"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d9%81%d8%b6%d9%84-%d8%a7%d9%84%d9%85%d9%85%d8%a7%d8%b1%d8%b3%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d9%86%d8%b5%d8%a7%d8%a6%d8%ad" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;تحسين وقت الاستجابة&lt;span class="hx:absolute hx:-mt-20" id="تحسين-وقت-الاستجابة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d9%88%d9%82%d8%aa-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%ac%d8%a7%d8%a8%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;استراتيجيات المكاسب السريعة&lt;span class="hx:absolute hx:-mt-20" id="استراتيجيات-المكاسب-السريعة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d9%83%d8%a7%d8%b3%d8%a8-%d8%a7%d9%84%d8%b3%d8%b1%d9%8a%d8%b9%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;استخدام الردود الجاهزة&lt;/strong&gt;: توفير 70% من وقت الكتابة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تفعيل أزرار الرد السريع&lt;/strong&gt;: توجيه ردود العملاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تطبيق توجيه الدردشة&lt;/strong&gt;: الوكيل المناسب من المرة الأولى&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إعداد الإقرار التلقائي&lt;/strong&gt;: طمأنة فورية للعملاء&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;ضمان الجودة&lt;span class="hx:absolute hx:-mt-20" id="ضمان-الجودة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b6%d9%85%d8%a7%d9%86-%d8%a7%d9%84%d8%ac%d9%88%d8%af%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;الحفاظ على التميّز في الخدمة&lt;span class="hx:absolute hx:-mt-20" id="الحفاظ-على-التميز-في-الخدمة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ad%d9%81%d8%a7%d8%b8-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%aa%d9%85%d9%8a%d8%b2-%d9%81%d9%8a-%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;مراجعات القوالب المنتظمة&lt;/strong&gt;: إبقاء الردود محدّثة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مراقبة المحادثات&lt;/strong&gt;: فحوصات جودة عشوائية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;حلقة تغذية راجعة من العملاء&lt;/strong&gt;: التصرّف بناءً على درجات الرضا&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التدريب المستمر&lt;/strong&gt;: تحديثات مهارات أسبوعية&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;إدارة التوسّع&lt;span class="hx:absolute hx:-mt-20" id="إدارة-التوسع"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%aa%d9%88%d8%b3%d8%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;التعامل مع الحجم المتزايد&lt;span class="hx:absolute hx:-mt-20" id="التعامل-مع-الحجم-المتزايد"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d9%85%d9%84-%d9%85%d8%b9-%d8%a7%d9%84%d8%ad%d8%ac%d9%85-%d8%a7%d9%84%d9%85%d8%aa%d8%b2%d8%a7%d9%8a%d8%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;الأتمتة التدريجية&lt;/strong&gt;: ابدأ بالاستفسارات البسيطة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الدعم متعدد المستويات&lt;/strong&gt;: هيكل L1 وL2 وL3&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة ساعات الذروة&lt;/strong&gt;: توظيف مرن&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إعطاء الأولوية للقنوات&lt;/strong&gt;: التركيز على القنوات عالية القيمة&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;حالات الاستخدام حسب القطاع&lt;span class="hx:absolute hx:-mt-20" id="حالات-الاستخدام-حسب-القطاع"&gt;&lt;/span&gt;
+&lt;a href="#%d8%ad%d8%a7%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%ad%d8%b3%d8%a8-%d8%a7%d9%84%d9%82%d8%b7%d8%a7%d8%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;التجزئة والتجارة الإلكترونية&lt;span class="hx:absolute hx:-mt-20" id="التجزئة-والتجارة-الإلكترونية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%ac%d8%b2%d8%a6%d8%a9-%d9%88%d8%a7%d9%84%d8%aa%d8%ac%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%a5%d9%84%d9%83%d8%aa%d8%b1%d9%88%d9%86%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;استفسارات المنتجات&lt;/strong&gt;: مشاركة الكتالوج الفورية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;معالجة الطلبات&lt;/strong&gt;: إتمام المبيعات في الدردشة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحديثات التوصيل&lt;/strong&gt;: تتبّع آلي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة المرتجعات&lt;/strong&gt;: عملية RMA مبسّطة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;برامج الولاء&lt;/strong&gt;: تتبّع النقاط والمكافآت&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;الرعاية الصحية&lt;span class="hx:absolute hx:-mt-20" id="الرعاية-الصحية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b1%d8%b9%d8%a7%d9%8a%d8%a9-%d8%a7%d9%84%d8%b5%d8%ad%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;حجز المواعيد&lt;/strong&gt;: تكامل التقويم&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إعادة صرف الوصفات الطبية&lt;/strong&gt;: طلبات آلية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;نتائج الفحوصات&lt;/strong&gt;: مشاركة مستندات آمنة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تذكيرات صحية&lt;/strong&gt;: جداول الأدوية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الفرز الطارئ&lt;/strong&gt;: توجيه حسب الأولوية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;الخدمات المصرفية والمالية&lt;span class="hx:absolute hx:-mt-20" id="الخدمات-المصرفية-والمالية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%81%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;استفسارات الرصيد&lt;/strong&gt;: وصول آمن إلى المعلومات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تنبيهات المعاملات&lt;/strong&gt;: إشعارات في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;طلبات القروض&lt;/strong&gt;: جمع المستندات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تنبيهات الاحتيال&lt;/strong&gt;: استجابة فورية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحديثات الاستثمار&lt;/strong&gt;: معلومات المحفظة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;الضيافة&lt;span class="hx:absolute hx:-mt-20" id="الضيافة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b6%d9%8a%d8%a7%d9%81%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الحجوزات&lt;/strong&gt;: حجز الطاولات/الغرف&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خدمات الكونسيرج&lt;/strong&gt;: معالجة الطلبات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;جمع التغذية الراجعة&lt;/strong&gt;: استبيانات ما بعد الإقامة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة الولاء&lt;/strong&gt;: خدمات الأعضاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تنسيق الفعاليات&lt;/strong&gt;: الحجوزات الجماعية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;التعليم&lt;span class="hx:absolute hx:-mt-20" id="التعليم"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%8a%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;استفسارات القبول&lt;/strong&gt;: معلومات البرامج&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;دعم الطلاب&lt;/strong&gt;: المساعدة الأكاديمية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التواصل مع أولياء الأمور&lt;/strong&gt;: التحديثات والإشعارات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التسجيل في الفعاليات&lt;/strong&gt;: التسجيل في ورش العمل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تذكيرات الرسوم&lt;/strong&gt;: إشعارات الدفع&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;منظومة التكامل&lt;span class="hx:absolute hx:-mt-20" id="منظومة-التكامل"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%86%d8%b8%d9%88%d9%85%d8%a9-%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;تكامل وحدات BigLedger&lt;span class="hx:absolute hx:-mt-20" id="تكامل-وحدات-bigledger"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d9%88%d8%ad%d8%af%d8%a7%d8%aa-bigledger" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;المبيعات وإدارة علاقات العملاء&lt;span class="hx:absolute hx:-mt-20" id="المبيعات-وإدارة-علاقات-العملاء"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%a8%d9%8a%d8%b9%d8%a7%d8%aa-%d9%88%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%b9%d9%84%d8%a7%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d8%a7%d8%a1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;إنشاء العملاء المحتملين تلقائيًا من المحادثات&lt;/li&gt;
+&lt;li&gt;مزامنة سجل العملاء&lt;/li&gt;
+&lt;li&gt;تتبّع الفرص&lt;/li&gt;
+&lt;li&gt;إنشاء عروض الأسعار في الدردشة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;إدارة المخزون&lt;span class="hx:absolute hx:-mt-20" id="إدارة-المخزون"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d9%85%d8%ae%d8%b2%d9%88%d9%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;التحقق من المخزون في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;تحديثات توفّر المنتجات&lt;/li&gt;
+&lt;li&gt;حجز الأصناف أثناء الدردشة&lt;/li&gt;
+&lt;li&gt;تنبيهات انخفاض المخزون&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;المحاسبة&lt;span class="hx:absolute hx:-mt-20" id="المحاسبة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%ad%d8%a7%d8%b3%d8%a8%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;إنشاء الفواتير&lt;/li&gt;
+&lt;li&gt;تسوية المدفوعات&lt;/li&gt;
+&lt;li&gt;معالجة إشعارات الائتمان&lt;/li&gt;
+&lt;li&gt;إرسال كشوف الحساب&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;الموارد البشرية&lt;span class="hx:absolute hx:-mt-20" id="الموارد-البشرية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d9%88%d8%a7%d8%b1%d8%af-%d8%a7%d9%84%d8%a8%d8%b4%d8%b1%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;التواصل الداخلي&lt;/li&gt;
+&lt;li&gt;معالجة طلبات الإجازة&lt;/li&gt;
+&lt;li&gt;استفسارات السياسات&lt;/li&gt;
+&lt;li&gt;دعم الموظفين&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;تكاملات الطرف الثالث&lt;span class="hx:absolute hx:-mt-20" id="تكاملات-الطرف-الثالث"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%83%d8%a7%d9%85%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%b7%d8%b1%d9%81-%d8%a7%d9%84%d8%ab%d8%a7%d9%84%d8%ab" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;بوابات الدفع&lt;span class="hx:absolute hx:-mt-20" id="بوابات-الدفع"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a8%d9%88%d8%a7%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d8%af%d9%81%d8%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Stripe وPayPal وRazorpay&lt;/li&gt;
+&lt;li&gt;البنوك المحلية (Maybank، CIMB، إلخ)&lt;/li&gt;
+&lt;li&gt;المحافظ الإلكترونية (GrabPay، Touch&amp;rsquo;n&amp;rsquo;Go)&lt;/li&gt;
+&lt;li&gt;خيارات &amp;ldquo;اشترِ الآن، ادفع لاحقًا&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;شركاء الشحن&lt;span class="hx:absolute hx:-mt-20" id="شركاء-الشحن"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b4%d8%b1%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%b4%d8%ad%d9%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;تكامل خدمات البريد السريع&lt;/li&gt;
+&lt;li&gt;حساب الأسعار في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;طباعة الملصقات&lt;/li&gt;
+&lt;li&gt;تحديثات التتبّع&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;أدوات التسويق&lt;span class="hx:absolute hx:-mt-20" id="أدوات-التسويق"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%af%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b3%d9%88%d9%8a%d9%82" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;مزامنة Mailchimp&lt;/li&gt;
+&lt;li&gt;تتبّع Google Analytics&lt;/li&gt;
+&lt;li&gt;تكامل Facebook Pixel&lt;/li&gt;
+&lt;li&gt;منصات بيانات العملاء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;التسعير والباقات&lt;span class="hx:absolute hx:-mt-20" id="التسعير-والباقات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%b3%d8%b9%d9%8a%d8%b1-%d9%88%d8%a7%d9%84%d8%a8%d8%a7%d9%82%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;خطط الاشتراك&lt;span class="hx:absolute hx:-mt-20" id="خطط-الاشتراك"&gt;&lt;/span&gt;
+&lt;a href="#%d8%ae%d8%b7%d8%b7-%d8%a7%d9%84%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%d9%83" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;الميزة&lt;/th&gt;
+&lt;th&gt;Starter&lt;/th&gt;
+&lt;th&gt;Professional&lt;/th&gt;
+&lt;th&gt;Enterprise&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;القنوات&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;غير محدود&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;الوكلاء&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;غير محدود&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;الرسائل/الشهر&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;10,000&lt;/td&gt;
+&lt;td&gt;50,000&lt;/td&gt;
+&lt;td&gt;غير محدود&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;البث&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;1,000&lt;/td&gt;
+&lt;td&gt;10,000&lt;/td&gt;
+&lt;td&gt;غير محدود&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;الأتمتة&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;أساسية&lt;/td&gt;
+&lt;td&gt;متقدمة&lt;/td&gt;
+&lt;td&gt;ذكاء اصطناعي مخصص&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;الدعم&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;البريد الإلكتروني&lt;/td&gt;
+&lt;td&gt;ذو أولوية&lt;/td&gt;
+&lt;td&gt;مخصص&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;السعر&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;تواصل مع المبيعات&lt;/td&gt;
+&lt;td&gt;تواصل مع المبيعات&lt;/td&gt;
+&lt;td&gt;تواصل مع المبيعات&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;الخدمات الإضافية&lt;span class="hx:absolute hx:-mt-20" id="الخدمات-الإضافية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%a5%d8%b6%d8%a7%d9%81%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;WhatsApp Business API&lt;/strong&gt;: بناءً على حجم الرسائل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التكامل المخصص&lt;/strong&gt;: رسوم إعداد لمرة واحدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;باقة التدريب&lt;/strong&gt;: خيارات في الموقع أو افتراضية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التطوير المخصص&lt;/strong&gt;: طلبات ميزات محددة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;مقاييس النجاح والعائد على الاستثمار&lt;span class="hx:absolute hx:-mt-20" id="مقاييس-النجاح-والعائد-على-الاستثمار"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%82%d8%a7%d9%8a%d9%8a%d8%b3-%d8%a7%d9%84%d9%86%d8%ac%d8%a7%d8%ad-%d9%88%d8%a7%d9%84%d8%b9%d8%a7%d8%a6%d8%af-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%ab%d9%85%d8%a7%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;مؤشرات الأداء الرئيسية&lt;span class="hx:absolute hx:-mt-20" id="مؤشرات-الأداء-الرئيسية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%a4%d8%b4%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;مقاييس الكفاءة&lt;span class="hx:absolute hx:-mt-20" id="مقاييس-الكفاءة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%82%d8%a7%d9%8a%d9%8a%d8%b3-%d8%a7%d9%84%d9%83%d9%81%d8%a7%d8%a1%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;وقت الاستجابة&lt;/strong&gt;: خفض بنسبة 75%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;وقت الحل&lt;/strong&gt;: تحسين بنسبة 60%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إنتاجية الوكيل&lt;/strong&gt;: التعامل مع 3 أضعاف المحادثات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل من أول تواصل&lt;/strong&gt;: تحقيق أكثر من 85%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;الأثر التجاري&lt;span class="hx:absolute hx:-mt-20" id="الأثر-التجاري"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a3%d8%ab%d8%b1-%d8%a7%d9%84%d8%aa%d8%ac%d8%a7%d8%b1%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;رضا العملاء&lt;/strong&gt;: زيادة CSAT بنسبة 40%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحويل المبيعات&lt;/strong&gt;: تحسين بنسبة 25%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تكلفة التشغيل&lt;/strong&gt;: خفض بنسبة 50%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الإيراد لكل وكيل&lt;/strong&gt;: زيادة بنسبة 200%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;حاسبة العائد على الاستثمار&lt;span class="hx:absolute hx:-mt-20" id="حاسبة-العائد-على-الاستثمار"&gt;&lt;/span&gt;
+&lt;a href="#%d8%ad%d8%a7%d8%b3%d8%a8%d8%a9-%d8%a7%d9%84%d8%b9%d8%a7%d8%a6%d8%af-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%ab%d9%85%d8%a7%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;توفير التكاليف&lt;span class="hx:absolute hx:-mt-20" id="توفير-التكاليف"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%88%d9%81%d9%8a%d8%b1-%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%84%d9%8a%d9%81" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تقليل عدد الموظفين&lt;/strong&gt;: التعامل مع المزيد بأقل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;انخفاض تكاليف التدريب&lt;/strong&gt;: تدريب على منصة موحّدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;انخفاض تكلفة الأدوات&lt;/strong&gt;: استبدال تطبيقات متعددة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحسين الكفاءة&lt;/strong&gt;: توفير الوقت&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;توليد الإيرادات&lt;span class="hx:absolute hx:-mt-20" id="توليد-الإيرادات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%88%d9%84%d9%8a%d8%af-%d8%a7%d9%84%d8%a5%d9%8a%d8%b1%d8%a7%d8%af%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;زيادة المبيعات&lt;/strong&gt;: معدلات تحويل أفضل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;احتفاظ أعلى&lt;/strong&gt;: جودة خدمة محسّنة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;فرص البيع الإضافي (Upsell)&lt;/strong&gt;: تفاعل استباقي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قنوات جديدة&lt;/strong&gt;: الوصول إلى المزيد من العملاء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;الدعم والموارد&lt;span class="hx:absolute hx:-mt-20" id="الدعم-والموارد"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%af%d8%b9%d9%85-%d9%88%d8%a7%d9%84%d9%85%d9%88%d8%a7%d8%b1%d8%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;الحصول على المساعدة&lt;span class="hx:absolute hx:-mt-20" id="الحصول-على-المساعدة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ad%d8%b5%d9%88%d9%84-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%85%d8%b3%d8%a7%d8%b9%d8%af%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;التوثيق&lt;span class="hx:absolute hx:-mt-20" id="التوثيق"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d9%88%d8%ab%d9%8a%d9%82" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;أدلة الإعداد&lt;/strong&gt;: تعليمات خطوة بخطوة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;دروس الفيديو&lt;/strong&gt;: موارد تعلّم مرئية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;توثيق واجهة برمجة التطبيقات&lt;/strong&gt;: للمطوّرين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أفضل الممارسات&lt;/strong&gt;: أدلة خاصة بكل قطاع&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;قنوات الدعم&lt;span class="hx:absolute hx:-mt-20" id="قنوات-الدعم"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d9%86%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%af%d8%b9%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;مركز المساعدة&lt;/strong&gt;: مقالات قاعدة المعرفة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;منتدى المجتمع&lt;/strong&gt;: دعم الأقران&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;دعم البريد الإلكتروني&lt;/strong&gt;: &lt;a href="mailto:support@bigledger.com" &gt;support@bigledger.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;برامج التدريب&lt;/strong&gt;: دورات الاعتماد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;التعلّم المستمر&lt;span class="hx:absolute hx:-mt-20" id="التعلم-المستمر"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%85-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%85%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;ابقَ محدّثًا&lt;span class="hx:absolute hx:-mt-20" id="ابق-محدثا"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d8%a8%d9%82-%d9%85%d8%ad%d8%af%d8%ab%d8%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ملاحظات الإصدار&lt;/strong&gt;: ميزات وتحديثات جديدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الندوات عبر الإنترنت&lt;/strong&gt;: جلسات تدريب شهرية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مؤتمر المستخدمين&lt;/strong&gt;: فعالية سنوية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;النشرة الإخبارية&lt;/strong&gt;: نصائح وحيل&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;الأسئلة الشائعة&lt;span class="hx:absolute hx:-mt-20" id="الأسئلة-الشائعة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a3%d8%b3%d8%a6%d9%84%d8%a9-%d8%a7%d9%84%d8%b4%d8%a7%d8%a6%d8%b9%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;أسئلة عامة&lt;span class="hx:absolute hx:-mt-20" id="أسئلة-عامة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%b3%d8%a6%d9%84%d8%a9-%d8%b9%d8%a7%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;س: كم عدد القنوات التي يمكنني توصيلها؟&lt;/strong&gt;
+ج: يعتمد على خطتك. تدعم Starter 3 قنوات، وProfessional 5 قنوات، وEnterprise قنوات غير محدودة.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;س: هل يمكنني استخدام رقم WhatsApp الحالي لديّ؟&lt;/strong&gt;
+ج: نعم، لكن يجب ترقيته إلى WhatsApp Business API الذي يتطلب موافقة.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;س: هل يُوفَّر التدريب؟&lt;/strong&gt;
+ج: نعم، نقدّم برامج تدريب شاملة لجميع مستويات المستخدمين.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;س: هل يمكنني التكامل مع نظام CRM الحالي لديّ؟&lt;/strong&gt;
+ج: نعم، من خلال واجهة برمجة التطبيقات لدينا أو خدمات التكامل المخصص.&lt;/p&gt;
+&lt;h3&gt;أسئلة فنية&lt;span class="hx:absolute hx:-mt-20" id="أسئلة-فنية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%b3%d8%a6%d9%84%d8%a9-%d9%81%d9%86%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;س: ما حد الرسائل؟&lt;/strong&gt;
+ج: يختلف حسب الخطة. خطط Enterprise تتضمن مراسلة غير محدودة.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;س: ما مدى أمان المنصة؟&lt;/strong&gt;
+ج: تشفير على مستوى البنوك، معتمدة بشهادة ISO 27001، ممتثلة لـ GDPR.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;س: هل يمكنني تصدير بيانات المحادثات؟&lt;/strong&gt;
+ج: نعم، بتنسيقات متعددة تشمل CSV وPDF وعبر واجهة برمجة التطبيقات.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;س: هل تتوفّر واجهة برمجة تطبيقات؟&lt;/strong&gt;
+ج: نعم، واجهة REST API شاملة للتكاملات المخصصة.&lt;/p&gt;
+&lt;h3&gt;أسئلة تجارية&lt;span class="hx:absolute hx:-mt-20" id="أسئلة-تجارية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%b3%d8%a6%d9%84%d8%a9-%d8%aa%d8%ac%d8%a7%d8%b1%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;س: ما الجدول الزمني للعائد على الاستثمار؟&lt;/strong&gt;
+ج: تشهد معظم الشركات عائدًا إيجابيًا على الاستثمار خلال 3-6 أشهر.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;س: هل يمكنني استخدام الحل بعلامتي التجارية الخاصة (White-label)؟&lt;/strong&gt;
+ج: متاح لشركاء المؤسسات مع التزامات بالحجم.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;س: هل توجد فترة تجريبية؟&lt;/strong&gt;
+ج: نعم، تجربة مجانية لمدة 14 يومًا متاحة للشركات المؤهّلة.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;س: ما الدعم المتضمّن؟&lt;/strong&gt;
+ج: يختلف حسب الخطة من دعم البريد الإلكتروني إلى إدارة حساب مخصصة.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;هل أنت مستعد لتحويل خدمة العملاء لديك؟&lt;span class="hx:absolute hx:-mt-20" id="هل-أنت-مستعد-لتحويل-خدمة-العملاء-لديك"&gt;&lt;/span&gt;
+&lt;a href="#%d9%87%d9%84-%d8%a3%d9%86%d8%aa-%d9%85%d8%b3%d8%aa%d8%b9%d8%af-%d9%84%d8%aa%d8%ad%d9%88%d9%8a%d9%84-%d8%ae%d8%af%d9%85%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d8%a7%d8%a1-%d9%84%d8%af%d9%8a%d9%83" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;تطبيق UCC أكثر من مجرد منصة مراسلة - إنه حل تفاعل عملاء متكامل سيُحدث ثورة في طريقة تفاعلك مع العملاء.&lt;/p&gt;
+&lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 3;"&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ar/applications/unified-contact-center"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;اعرف المزيد&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;استكشف قدرات UCC&lt;/div&gt;&lt;/a&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ar/demos-resources"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;شاهد العرض التوضيحي&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;شاهد UCC أثناء العمل&lt;/div&gt;&lt;/a&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="mailto:sales@bigledger.com"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;تواصل مع المبيعات&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;احصل على تسعير مخصص&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;آخر تحديث: نوفمبر 2024 | الإصدار 3.0&lt;/em&gt;&lt;/p&gt;</description></item><item><title>تطبيق طلبات VSTECS MS ESD</title><link>https://www.bigledger.com/ar/applets/vstecs-ms-esd-order-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/vstecs-ms-esd-order-applet/</guid><description>
+&lt;h2&gt;نظرة عامة&lt;span class="hx:absolute hx:-mt-20" id="نظرة-عامة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%86%d8%b8%d8%b1%d8%a9-%d8%b9%d8%a7%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;يربط تطبيق طلبات VSTECS MS ESD منصة BigLedger بشركة VSTECS لطلبات التسليم الإلكتروني للبرمجيات (ESD) من Microsoft. فهو يتيح لفريقك التحقق من أحدث أسعار منتجات Microsoft وتقديم طلبات ESD لدى الموزّع مباشرةً من BigLedger، دون إعادة إدخال تفاصيل الطلب في بوابة منفصلة.&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;التكامل مطلوب&lt;/strong&gt;: يحتاج هذا التطبيق إلى تكامل نشط من BigLedger إلى EMP، ومن BigLedger إلى نظام الموزّع، قبل أن يتمكن من العمل.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;قدرات واجهة برمجة التطبيقات&lt;span class="hx:absolute hx:-mt-20" id="قدرات-واجهة-برمجة-التطبيقات"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d8%af%d8%b1%d8%a7%d8%aa-%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d8%a8%d8%b1%d9%85%d8%ac%d8%a9-%d8%a7%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;يستخدم التطبيق واجهتَي برمجة تطبيقات من الموزّع:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التحقق من السعر&lt;/strong&gt; - يسترجع أحدث سعر لأي رمز SKU لمنتج Microsoft ESD، بحيث تستخدم عروض الأسعار والطلبات دائمًا تسعير الموزّع الحالي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إنشاء الطلب&lt;/strong&gt; - ينشئ طلبًا لدى الموزّع لاسترجاع منتج Microsoft ESD، ويعيد تفاصيل التنفيذ إلى BigLedger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;سير عمليات التكامل&lt;span class="hx:absolute hx:-mt-20" id="سير-عمليات-التكامل"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b3%d9%8a%d8%b1-%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;توجد حاليًا طريقتان لإعداد هذا التكامل. اختر الطريقة التي تناسب عملية النشر لديك.&lt;/p&gt;
+&lt;h3&gt;طريقة الاختصار&lt;span class="hx:absolute hx:-mt-20" id="طريقة-الاختصار"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b7%d8%b1%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d8%a7%d8%ae%d8%aa%d8%b5%d8%a7%d8%b1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;تكامل EMP المباشر مع BigLedger، دون تطبيق T2T Admin.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;أسرع طريقة للاتصال&lt;/li&gt;
+&lt;li&gt;مناسبة عندما لا تكون الاتصالية بين المستأجرين مطلوبة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;الطريقة القياسية&lt;span class="hx:absolute hx:-mt-20" id="الطريقة-القياسية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b7%d8%b1%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d9%82%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;إعداد كامل بين المستأجرين باستخدام التطبيقات الداعمة:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/t2t-admin-applet/" &gt;تطبيق T2T Admin&lt;/a&gt;&lt;/strong&gt; - يتيح اتصالية المستأجر الضيف والمضيف&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/doc-item-maintenance-applet/" &gt;تطبيق صيانة عناصر المستندات&lt;/a&gt;&lt;/strong&gt; - يربط رموز العناصر بين الأنظمة المتصلة&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;استخدم هذه الطريقة عندما يتبع نشرك النموذج القياسي للتكامل بين المستأجرين في BigLedger.&lt;/p&gt;
+&lt;h2&gt;ملاحظات التنفيذ&lt;span class="hx:absolute hx:-mt-20" id="ملاحظات-التنفيذ"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%84%d8%a7%d8%ad%d8%b8%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;يتوفّر دليل مستخدم لطلبات MS ESD وتفصيل لهيكل العمل الخاص بالتنفيذ من فريق BigLedger - تواصل مع &lt;a href="mailto:support@bigledger.com" &gt;support@bigledger.com&lt;/a&gt; لطلبهما&lt;/li&gt;
+&lt;li&gt;تأكّد مع مدير حسابك لدى الموزّع من تفعيل الوصول إلى واجهة برمجة التطبيقات قبل بدء الإعداد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;التطبيقات ذات الصلة&lt;span class="hx:absolute hx:-mt-20" id="التطبيقات-ذات-الصلة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa-%d8%b0%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d9%84%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 3;"&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ar/applets/ingram-micro-ms-esd-applet/"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;تطبيق Ingram Micro MS ESD&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;تكامل Microsoft ESD المكافئ لشركة Ingram Micro&lt;/div&gt;&lt;/a&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ar/applets/t2t-admin-applet/"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;تطبيق T2T Admin&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;الاتصالية بين المستأجرين المستخدمة في الطريقة القياسية&lt;/div&gt;&lt;/a&gt;
+&lt;a
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://www.bigledger.com/ar/applets/doc-item-maintenance-applet/"
+&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;تطبيق صيانة عناصر المستندات&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;ربط رموز العناصر بين الأنظمة المتصلة&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;</description></item></channel></rss>

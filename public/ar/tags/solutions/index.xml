@@ -1,0 +1,1094 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>وثائق BigLedger – Solutions</title><link>https://www.bigledger.com/ar/tags/solutions/</link><description>Recent content in Solutions on وثائق BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ar</language><atom:link href="https://www.bigledger.com/ar/tags/solutions/index.xml" rel="self" type="application/rss+xml"/><item><title>دليل القطاعات</title><link>https://www.bigledger.com/ar/user-guide/industry-solutions/industry-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/user-guide/industry-solutions/industry-guide/</guid><description>
+&lt;p&gt;&lt;strong&gt;معرّف الصفحة&lt;/strong&gt;: 3153822073
+&lt;strong&gt;آخر تحديث&lt;/strong&gt;: 2024-11-15T01:56:59.787Z
+كان لتبعات جائحة كوفيد تأثير غير مسبوق على الأعمال في جميع أنحاء العالم. وللبقاء والنمو، كان على الشركات مواجهة الواقع الجديد المتمثل في الإغلاقات والتباعد الاجتماعي، وتبنّي الفضاء الإلكتروني باعتباره السبيل الوحيد للبقاء على تواصل مع عملائها. ومع تأثّر أكثر من 150 عميلًا بالجائحة، أثبت فريق Wavelet قدرته على الإرشاد وتنفيذ حلول سحابية قابلة للتوسع بوتيرة سريعة - &amp;ldquo;منقذ للحياة&amp;rdquo; للأعمال في زمن الجائحة.
+تأسست Wavelet Solutions عام 2003، وعُرفت بأنها أحد أكثر مزوّدي برمجيات تخطيط موارد المؤسسات (ERP) القائمة على الويب نضجًا في ماليزيا، حيث تتولى المحاسبة الموحّدة وإدارة المخزون للمؤسسات الصغيرة والمتوسطة. غير أن الفريق لم يتوقف عند هذا الحد. فبرؤية أن يصبح أحد اللاعبين الرئيسيين في سوق التطبيقات السحابية الأصلية، وُلدت منصة Akaun لبحيرة البيانات. وبناءً على بنية سحابية أصلية متعددة القنوات، تتمتع بقابلية التوسع، والعمل عبر المنصات، والتشغيل على الأجهزة المحمولة، وواجهة REST-API، فقد هدفت إلى إعادة تشكيل مستقبل الأعمال، مانحةً فرصة لتحقيق ميزة تنافسية كبيرة على المنافسين.
+يختلف نهج Wavelet عن مزوّدي البرمجيات الآخرين. فمدفوعًا برؤية إحداث ثورة في طريقة استهلاك الأعمال لخدمات البرمجيات، يهدف الفريق إلى أن يصبح شريكًا تقنيًا ومستشارًا موثوقًا (بدلًا من مجرد مورّد) للأعمال المحلية والخارجية. ويأخذ التحول الرقمي المدعوم بحلولهم في الاعتبار احتياجات العمل وسير العمل والنمو المستقبلي والأهداف، والأهم من ذلك - ماهية رؤية عملك.
+وبخدمته لعملاء بأحجام متنوعة، بما في ذلك المؤسسات الصغيرة والمتوسطة والمؤسسات الكبيرة، من 20 قطاعًا مختلفًا عبر 5 دول، يوفر فريق Wavelet العمود الفقري والبنية التحتية لتكنولوجيا المعلومات الضرورية لدعم أعمالهم المتنامية.&lt;/p&gt;
+&lt;h2&gt;بحيرة البيانات التشغيلية | في قلب العمل﻿&lt;span class="hx:absolute hx:-mt-20" id="بحيرة-البيانات-التشغيلية--في-قلب-العمل"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a8%d8%ad%d9%8a%d8%b1%d8%a9-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b4%d8%ba%d9%8a%d9%84%d9%8a%d8%a9--%d9%81%d9%8a-%d9%82%d9%84%d8%a8-%d8%a7%d9%84%d8%b9%d9%85%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;في عام 2015، بدأ الفريق بتطوير منصة التطبيقات من الجيل التالي. وبناءً على بنية سحابية أصلية متعددة القنوات، تتمتع بقابلية التوسع، والعمل عبر المنصات، والتشغيل على الأجهزة المحمولة، وواجهة REST-API، فقد أعادت تشكيل مستقبل مجموعة من الشركات من خلال تزويدها بحلول تطبيقات سحابية أصلية فريدة. وتشمل فوائد بحيرة البيانات التشغيلية، على سبيل المثال لا الحصر:&lt;/p&gt;
+&lt;h2&gt;1. إمكانيات التكامل﻿&lt;span class="hx:absolute hx:-mt-20" id="1-إمكانيات-التكامل"&gt;&lt;/span&gt;
+&lt;a href="#1-%d8%a5%d9%85%d9%83%d8%a7%d9%86%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;مع ظهور السحابة، أصبحت الأعمال غارقة في خيارات من تطبيقات البرمجيات في السوق، الهادفة إلى أتمتة عملياتها التجارية، والوصول إلى عملائها عبر قنوات متعددة، واستبدال تطبيقاتها القديمة بتطبيقات ويب جديدة كليًا. غير أنه وفقًا لتقرير Gartner (2020)، أصبح التكامل أكبر تكلفة وتحدٍ منفرد للأعمال لتشغيل هذه الأنظمة المتباينة بسلاسة. مخطط النظام النموذجي قبل استخدام بحيرة البيانات التشغيلية:
+مخطط النظام بعد استخدام بحيرة البيانات التشغيلية:
+أحدثت منصة Akaun المقترحة من فريق Wavelet ثورة في طريقة استهلاك الأعمال لخدمات البرمجيات، موفّرةً لها العمود الفقري الضروري لتكنولوجيا المعلومات بجزء بسيط من التكلفة، مع مرونة وقابلية توسع فائقتين. تقع بحيرة البيانات - مصدر الحقيقة الوحيد لبياناتك - في قلب تطبيقات Wavelet، رابطةً أنظمة منفصلة متعددة في حل واحد متكامل بسلاسة من طرف إلى طرف.&lt;/p&gt;
+&lt;h2&gt;2. التنوع والثراء في محفظة تطبيقات Akaun﻿&lt;span class="hx:absolute hx:-mt-20" id="2-التنوع-والثراء-في-محفظة-تطبيقات-akaun"&gt;&lt;/span&gt;
+&lt;a href="#2-%d8%a7%d9%84%d8%aa%d9%86%d9%88%d8%b9-%d9%88%d8%a7%d9%84%d8%ab%d8%b1%d8%a7%d8%a1-%d9%81%d9%8a-%d9%85%d8%ad%d9%81%d8%b8%d8%a9-%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa-akaun" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;تتولى Wavelet تعقيدات نظام تخطيط موارد المؤسسات (ERP)، وإدارة علاقات العملاء (CRM)، ونقاط البيع، والمحاسبة المالية، وإدارة المستودعات، واللوجستيات والتوصيل، ومركز الاتصال، والتسويق الرقمي، وإدارة المخزون، وبرنامج العضوية، وتطبيقات أعمال متنوعة أخرى، وتحوّلها إلى تطبيقات قابلة للإدارة (تُعرف باسم &amp;ldquo;التطبيقات المصغّرة&amp;rdquo;). وتستطيع الأعمال المزج والمطابقة بين تطبيقات مصغّرة متنوعة مصممة خصيصًا لاحتياجاتها دون شراء نظام ضخم ومعقد. تغطي محفظة Akaun الحالية مجموعة واسعة من الحلول، بما في ذلك:
+نظام تخطيط موارد المؤسسات (ERP)
+تطبيقات إعداد التقارير المالية المصغّرة
+تطبيقات إدارة المخزون المصغّرة
+تطبيقات نقاط البيع (POS) المصغّرة
+برنامج العضوية وإدارة القسائم
+إدارة التوصيل
+التسوية البنكية والتكامل مع البنوك
+متتبّع المشكلات
+وحدة B2B
+التجارة الإلكترونية
+التكامل مع الأسواق الإلكترونية
+بوابة الدفع
+وحدة جرد المخزون
+ذكاء الأعمال (BI)
+التسويق متعدد المستويات
+التتبّع واللوجستيات
+جميع التطبيقات متصلة ببحيرة البيانات التي تعمل كمصدر حقيقة وحيد لعملك، مما يقضي على متاعب الإدخال المزدوج والبيانات المكررة. تتيح قاعدة البيانات دون خادم في بحيرة البيانات تخزين ومعالجة كميات ضخمة من البيانات مركزيًا، وتعمل كوسيط لتبادل البيانات عبر أنظمة متعددة.&lt;/p&gt;
+&lt;h2&gt;3. منصة لمجتمع المطورين:﻿&lt;span class="hx:absolute hx:-mt-20" id="3-منصة-لمجتمع-المطورين"&gt;&lt;/span&gt;
+&lt;a href="#3-%d9%85%d9%86%d8%b5%d8%a9-%d9%84%d9%85%d8%ac%d8%aa%d9%85%d8%b9-%d8%a7%d9%84%d9%85%d8%b7%d9%88%d8%b1%d9%8a%d9%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;تتيح المنصة لأي مطوّر الانطلاق على Akaun للاستفادة من البنية التحتية لبحيرة البيانات لتطوير تطبيقاته لمختلف استخدامات الأعمال. ومع واجهة Akaun API الشاملة، تستطيع الأعمال اختيار استهلاك خدمات بحيرة البيانات التشغيلية ضمن تطبيقاتها القديمة الحالية، أو تطوير تطبيق ويب أو محمول أو سطح مكتب جديد كليًا دون أي نظام خلفي قائم على الخادم.
+لاستكشاف المزيد حول حلول Wavelet EMP وتطبيقات Bigledger وخيارات التكامل، يمكنك زيارة &lt;a href="https://wavelet.net/" target="_blank" rel="noopener"&gt;https://wavelet.net/&lt;/a&gt; و &lt;a href="https://bigledger.com/" target="_blank" rel="noopener"&gt;https://bigledger.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;شراكة AWS | قوة AWS في قلب الحلول﻿&lt;span class="hx:absolute hx:-mt-20" id="شراكة-aws--قوة-aws-في-قلب-الحلول"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b4%d8%b1%d8%a7%d9%83%d8%a9-aws--%d9%82%d9%88%d8%a9-aws-%d9%81%d9%8a-%d9%82%d9%84%d8%a8-%d8%a7%d9%84%d8%ad%d9%84%d9%88%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;تُعد خدمات أمازون ويب (AWS) المنصة السحابية الأكثر شمولًا والأوسع اعتمادًا في العالم، إذ تقدّم أكثر من 200 خدمة كاملة الميزات من مراكز بيانات في جميع أنحاء العالم. وعلاوةً على ذلك، صُممت AWS لتكون واحدة من أكثر بيئات الحوسبة السحابية مرونةً وأمانًا المتاحة اليوم: المعروفة بأنها البنية التحتية البرمجية الأكثر أمانًا في السوق الحديثة.
+وبالاستفادة من حلول AWS وكونها في طريقها لتصبح أول شريك ISV Accelerate في ماليزيا، تستطيع Wavelet توفير أفضل قيمة للشركات الناشئة الأسرع نموًا والمؤسسات المتوسطة والكبيرة في ماليزيا وما بعدها - لخفض التكاليف وتحقيق المرونة والابتكار بشكل أسرع.&lt;/p&gt;</description></item><item><title>قطاع الأغذية والمشروبات (F&amp;B)</title><link>https://www.bigledger.com/ar/user-guide/industry-solutions/food-and-beverage-fb-industry/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/user-guide/industry-solutions/food-and-beverage-fb-industry/</guid><description>
+&lt;p&gt;&lt;strong&gt;معرّف الصفحة&lt;/strong&gt;: 3153854852
+&lt;strong&gt;آخر تحديث&lt;/strong&gt;: 2024-11-15T01:58:35.705Z&lt;/p&gt;
+&lt;h2&gt;قصة نجاح 2: قطاع الأغذية والمشروبات (F&amp;amp;B)﻿&lt;span class="hx:absolute hx:-mt-20" id="قصة-نجاح-2-قطاع-الأغذية-والمشروبات-fb"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d8%b5%d8%a9-%d9%86%d8%ac%d8%a7%d8%ad-2-%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%a3%d8%ba%d8%b0%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d9%85%d8%b4%d8%b1%d9%88%d8%a8%d8%a7%d8%aa-fb" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;بفضل سنوات من الخبرة الواسعة في السوق الماليزية، يخدم فريق Wavelet إحدى أكبر العلامات التجارية للأغذية والمشروبات في جنوب شرق آسيا، والتي تمتلك أكثر من مئة منفذ في جميع أنحاء البلاد. وبقدرته القوية على تلبية احتياجات الأعمال متعددة الفروع ومتعددة الامتيازات التي تواجه حجمًا كبيرًا من المعاملات اليومية، ظل نظام Wavelet ERP يخدم أعمالها المتنامية كنظام خلفي لإدارة بيانات المخزون والمحاسبة لفروعها المباشرة وأعمال الامتياز لسنوات عديدة.
+يُعد إعداد التقارير الموحّدة من كيانات منفصلة متعددة أحد القيم الرئيسية التي توفرها Wavelet، مما يتيح للإدارة اتخاذ قرارات استراتيجية شاملة للأعمال بسهولة وراحة. وقد تم دمج نظام ERP مع نظام نقاط البيع (POS) لمزامنة البيانات في الوقت الفعلي بين النظامين البرمجيين.
+بالإضافة إلى ذلك، ساعد فريق Wavelet في توفير حلول موحّدة شاملة لتسوية الحسابات البنكية للعميل، مما يتيح مطابقة المعاملات المتوافقة تلقائيًا وتحديد حالات عدم التطابق. غطّى تنفيذ المشروع أكثر من مجرد أتمتة بسيطة لأنشطة التسوية البنكية، وشمل التكامل المباشر مع أحد أكبر البنوك الماليزية. ومع التكامل السلس عبر الحلول المُقدّمة، تمت أتمتة دورة العملية بالكامل، مما أفاد العميل بتوفير الوقت والجهد في الأنشطة المستهلكة للموارد.&lt;/p&gt;</description></item><item><title>قطاع السيارات وورش العمل</title><link>https://www.bigledger.com/ar/user-guide/industry-solutions/automotive-and-workshop-industry/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/user-guide/industry-solutions/automotive-and-workshop-industry/</guid><description>
+&lt;p&gt;&lt;strong&gt;معرّف الصفحة&lt;/strong&gt;: 3153985855
+&lt;strong&gt;آخر تحديث&lt;/strong&gt;: 2024-11-15T01:57:55.733Z&lt;/p&gt;
+&lt;h2&gt;قصة نجاح 3: قطاع السيارات وورش العمل﻿&lt;span class="hx:absolute hx:-mt-20" id="قصة-نجاح-3-قطاع-السيارات-وورش-العمل"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d8%b5%d8%a9-%d9%86%d8%ac%d8%a7%d8%ad-3-%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d9%88%d9%88%d8%b1%d8%b4-%d8%a7%d9%84%d8%b9%d9%85%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;تُعد Wavelet مزوّد حلول موثوقًا لأحد أشهر اللاعبين في السوق الأوروبية في قطاع السيارات (بمقرات تخدمها حاليًا في سنغافورة وماليزيا). كان أحد التحديات الرئيسية التي واجهها العميل هو غياب تفاعل العملاء و&amp;quot;اللمسة&amp;quot; الشخصية عند تنفيذ أنشطتهم التسويقية. لم تكن هناك أي برمجيات مُهيّأة للبقاء على تواصل مع العملاء وتوفير الراحة لاحتياجاتهم التمويلية.
+شمل نطاق المشروع تطبيق إدارة علاقات العملاء (CRM) الذي يتكوّن من تطبيق للهاتف المحمول وواجهة إدارية (Admin Console) معًا. يعمل تطبيق الهاتف المحمول على أنظمة Android وiOS ويلبي احتياجات علامات سيارات متعددة. أما نظام الواجهة الإدارية الخلفية فهو حزمة متكاملة تدير الفعاليات التسويقية والعروض الترويجية وامتيازات بطاقات الأعضاء والرسائل المخصصة. كما يتضمن ميزات متعددة الاستخدامات أخرى مثل إدارة الفواتير وتقارير سجل التدقيق وإدارة الفئات المستهدفة وتحديث الشروط والأحكام والصفحات المقصودة.
+بالإضافة إلى تحسين تبادل البيانات بين شركة السيارات والعملاء النهائيين عبر تطبيق CRM المُنفّذ، قامت Wavelet بدمج البرمجيات مع نظام تخطيط موارد المؤسسات (ERP) الخلفي الحالي لأتمتة الوحدة المالية وإدارة الفواتير. يتيح النظام لمالك السيارة سداد قرض سيارته مباشرةً عبر التطبيق، مع دفع البيانات مباشرةً إلى النظام الخلفي لمزيد من المعالجة.
+علاوةً على ذلك، تخدم Wavelet العديد من أكبر اللاعبين في سوق صيانة السيارات وورش العمل في ماليزيا. أحد العملاء الذين تخدمهم منذ مدة طويلة هو مركز صيانة سيارات مرموق، تأسّس في ثمانينيات القرن الماضي، وله شبكة واسعة في جميع أنحاء البلاد. وبصيانة أكثر من 15,000 مركبة شهريًا، يمتلك العميل 20 فرعًا في وادي كلانج وما بعده.&lt;/p&gt;
+&lt;h3&gt;التحديات الرئيسية التي واجهها العميل مع نظامه السابق كانت:﻿&lt;span class="hx:absolute hx:-mt-20" id="التحديات-الرئيسية-التي-واجهها-العميل-مع-نظامه-السابق-كانت"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%ad%d8%af%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d9%8a-%d9%88%d8%a7%d8%ac%d9%87%d9%87%d8%a7-%d8%a7%d9%84%d8%b9%d9%85%d9%8a%d9%84-%d9%85%d8%b9-%d9%86%d8%b8%d8%a7%d9%85%d9%87-%d8%a7%d9%84%d8%b3%d8%a7%d8%a8%d9%82-%d9%83%d8%a7%d9%86%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;بطء نشر المنافذ الجديدة.
+عدم وجود دعم من مورّد البرمجيات.
+إدخال البيانات يدويًا.
+عدم التوحيد القياسي وتكرار رموز الأصناف.
+مع الأنظمة المُنفّذة حديثًا، حصلت الإدارة على قدرة متزايدة للتحكم في الأنشطة والحصول على رؤية شاملة لأعمالها مع وصول فوري إلى البيانات الحيوية في أي وقت ومن أي مكان، مع اكتساب تحكّم كامل في شركات وفروع متعددة عبر واجهة واحدة. إضافةً إلى ذلك، وفّرت البرمجيات دعمًا فعّالًا لتحسين التدفق النقدي والمخزون، وتقليل تكاليف المناولة وتحسين السرعة، مع القضاء على إدخالات البيانات المكررة وتقليل الخطأ البشري.&lt;/p&gt;</description></item><item><title>استكشاف الأخطاء وإصلاحها</title><link>https://www.bigledger.com/ar/user-guide/troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/user-guide/troubleshooting/</guid><description>
+&lt;p&gt;حلول سريعة لمشكلات BigLedger الشائعة وأدلة شاملة لحل المشكلات. يساعدك هذا القسم على حل المشكلات بسرعة والعودة إلى العمل المنتج.&lt;/p&gt;
+&lt;h2&gt;حل المشكلات السريع&lt;span class="hx:absolute hx:-mt-20" id="حل-المشكلات-السريع"&gt;&lt;/span&gt;
+&lt;a href="#%d8%ad%d9%84-%d8%a7%d9%84%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%b3%d8%b1%d9%8a%d8%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;أكثر المشكلات شيوعًا&lt;span class="hx:absolute hx:-mt-20" id="أكثر-المشكلات-شيوعا"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d9%83%d8%ab%d8%b1-%d8%a7%d9%84%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%b4%d9%8a%d9%88%d8%b9%d8%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;يتناول دليل استكشاف الأخطاء وإصلاحها الشامل هذا أكثر مشكلات BigLedger شيوعًا مع رموز أخطاء محددة وحلول خطوة بخطوة وتدابير وقائية.&lt;/p&gt;
+&lt;h4&gt;مشكلات تسجيل الدخول والوصول&lt;span class="hx:absolute hx:-mt-20" id="مشكلات-تسجيل-الدخول-والوصول"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%aa%d8%b3%d8%ac%d9%8a%d9%84-%d8%a7%d9%84%d8%af%d8%ae%d9%88%d9%84-%d9%88%d8%a7%d9%84%d9%88%d8%b5%d9%88%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تعذّر تسجيل الدخول&lt;/strong&gt;: إعادة تعيين كلمة المرور وحالة الحساب ومشكلات المتصفح&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ميزات مفقودة&lt;/strong&gt;: مشكلات الصلاحيات وتوفّر التطبيقات المصغّرة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أداء بطيء&lt;/strong&gt;: تحسين المتصفح ومشكلات الشبكة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;انتهاء مهلة الجلسة&lt;/strong&gt;: إعدادات الأمان وتهيئة المتصفح&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;مشكلات إدخال البيانات&lt;span class="hx:absolute hx:-mt-20" id="مشكلات-إدخال-البيانات"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%a5%d8%af%d8%ae%d8%a7%d9%84-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تعذّر حفظ السجلات&lt;/strong&gt;: أخطاء التحقق والحقول المطلوبة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خيارات القائمة المنسدلة مفقودة&lt;/strong&gt;: إعداد البيانات الرئيسية والصلاحيات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;فشل الاستيراد&lt;/strong&gt;: تنسيق البيانات وأخطاء التعيين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;سجلات مكررة&lt;/strong&gt;: التحقق من البيانات وإجراءات الدمج&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;مشكلات المعاملات&lt;span class="hx:absolute hx:-mt-20" id="مشكلات-المعاملات"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b9%d8%a7%d9%85%d9%84%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;أخطاء معالجة الطلبات&lt;/strong&gt;: مشكلات سير العمل وسلاسل الموافقة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مشكلات التسعير&lt;/strong&gt;: تهيئة نظام الأسعار وإعدادات العملاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تناقضات المخزون&lt;/strong&gt;: تعديلات المخزون ومشكلات الموقع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أخطاء التقارير&lt;/strong&gt;: الوصول إلى البيانات وإعدادات المعاملات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;استكشاف الأخطاء وإصلاحها خطوة بخطوة&lt;span class="hx:absolute hx:-mt-20" id="استكشاف-الأخطاء-وإصلاحها-خطوة-بخطوة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d8%b3%d8%aa%d9%83%d8%b4%d8%a7%d9%81-%d8%a7%d9%84%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-%d9%88%d8%a5%d8%b5%d9%84%d8%a7%d8%ad%d9%87%d8%a7-%d8%ae%d8%b7%d9%88%d8%a9-%d8%a8%d8%ae%d8%b7%d9%88%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. تحديد المشكلة&lt;span class="hx:absolute hx:-mt-20" id="1-تحديد-المشكلة"&gt;&lt;/span&gt;
+&lt;a href="#1-%d8%aa%d8%ad%d8%af%d9%8a%d8%af-%d8%a7%d9%84%d9%85%d8%b4%d9%83%d9%84%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;توثيق الأعراض&lt;/strong&gt; - ما الذي يحدث بالضبط؟&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إعادة إنتاج المشكلة&lt;/strong&gt; - هل يمكنك جعلها تحدث مرة أخرى؟&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحقق من التوقيت&lt;/strong&gt; - متى بدأ حدوث هذا؟&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;جمع السياق&lt;/strong&gt; - ما الذي كنت تحاول إنجازه؟&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. جمع المعلومات&lt;span class="hx:absolute hx:-mt-20" id="2-جمع-المعلومات"&gt;&lt;/span&gt;
+&lt;a href="#2-%d8%ac%d9%85%d8%b9-%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;رسائل الخطأ&lt;/strong&gt; - انسخ نص الخطأ ورموزه بدقة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;لقطات الشاشة&lt;/strong&gt; - دليل مرئي على المشكلة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تفاصيل حساب المستخدم&lt;/strong&gt; - معلومات الصلاحيات والدور&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;بيئة النظام&lt;/strong&gt; - معلومات المتصفح والجهاز والشبكة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;3. تجربة الحلول الأساسية&lt;span class="hx:absolute hx:-mt-20" id="3-تجربة-الحلول-الأساسية"&gt;&lt;/span&gt;
+&lt;a href="#3-%d8%aa%d8%ac%d8%b1%d8%a8%d8%a9-%d8%a7%d9%84%d8%ad%d9%84%d9%88%d9%84-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التحديث/إعادة التحميل&lt;/strong&gt; - تحديث بسيط للمتصفح&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مسح التخزين المؤقت&lt;/strong&gt; - التخزين المؤقت للمتصفح وملفات تعريف الارتباط&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;متصفح مختلف&lt;/strong&gt; - الاختبار بمتصفح آخر&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحقق من الصلاحيات&lt;/strong&gt; - التحقق من حقوق الوصول&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;4. التشخيصات المتقدمة&lt;span class="hx:absolute hx:-mt-20" id="4-التشخيصات-المتقدمة"&gt;&lt;/span&gt;
+&lt;a href="#4-%d8%a7%d9%84%d8%aa%d8%b4%d8%ae%d9%8a%d8%b5%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التحقق من حالة النظام&lt;/strong&gt; - هل يعمل النظام بشكل طبيعي؟&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مراجعة التغييرات الأخيرة&lt;/strong&gt; - ما الذي تغيّر مؤخرًا؟&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الاختبار ببيانات مختلفة&lt;/strong&gt; - هل المشكلة خاصة بالبيانات؟&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الرجوع إلى التوثيق&lt;/strong&gt; - راجع أدلة المستخدم ذات الصلة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;رموز أخطاء BigLedger وحلولها&lt;span class="hx:absolute hx:-mt-20" id="رموز-أخطاء-bigledger-وحلولها"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b1%d9%85%d9%88%d8%b2-%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-bigledger-%d9%88%d8%ad%d9%84%d9%88%d9%84%d9%87%d8%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;رموز أخطاء النظام (ERR-SYS-XXXX)&lt;span class="hx:absolute hx:-mt-20" id="رموز-أخطاء-النظام-err-sys-xxxx"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b1%d9%85%d9%88%d8%b2-%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-%d8%a7%d9%84%d9%86%d8%b8%d8%a7%d9%85-err-sys-xxxx" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;ERR-SYS-0001: تم رفض الوصول&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: يفتقر المستخدم إلى الصلاحيات اللازمة للعملية المطلوبة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التفاصيل التقنية&lt;/strong&gt;: فشل التحقق من الصلاحيات على مستوى الوحدة أو الميزة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل الفوري&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;اتصل بمسؤول النظام&lt;/li&gt;
+&lt;li&gt;تحقق من تعيينات دور المستخدم في إدارة المستخدمين&lt;/li&gt;
+&lt;li&gt;تحقق من الصلاحيات الخاصة بالوحدة&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الوقاية طويلة الأجل&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;نفّذ عمليات تدقيق منتظمة للصلاحيات (ربع سنوية)&lt;/li&gt;
+&lt;li&gt;استخدم التحكم في الوصول القائم على الأدوار (RBAC) باستمرار&lt;/li&gt;
+&lt;li&gt;وثّق متطلبات الصلاحيات لكل وظيفة عمل&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ERR-SYS-0002: انتهت الجلسة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: انتهاء مهلة الأمان بسبب عدم النشاط (الافتراضي: 60 دقيقة)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التفاصيل التقنية&lt;/strong&gt;: تجاوز رمز الجلسة الحد الأقصى لمدة الصلاحية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل الفوري&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;سجّل الخروج بالكامل ثم سجّل الدخول مرة أخرى&lt;/li&gt;
+&lt;li&gt;امسح التخزين المؤقت للمتصفح وملفات تعريف الارتباط&lt;/li&gt;
+&lt;li&gt;عطّل الحفظ التلقائي للمتصفح للبيانات الحساسة&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خيارات التهيئة&lt;/strong&gt;:
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Session Settings (Admin &amp;gt; Security):
+• Timeout Period: 30-480 minutes
+• Idle Warning: 5 minutes before expiry
+• Concurrent Sessions: Allow/Restrict
+• Remember Me: Enable/Disable&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ERR-SYS-0003: فشل الاتصال بقاعدة البيانات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: انقطاع الشبكة أو عدم توفّر خادم قاعدة البيانات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التفاصيل التقنية&lt;/strong&gt;: استنفاد مجمّع الاتصالات أو صيانة قاعدة البيانات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل الفوري&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;انتظر 2-3 دقائق ثم أعد المحاولة&lt;/li&gt;
+&lt;li&gt;تحقق من حالة النظام على status.bigledger.com&lt;/li&gt;
+&lt;li&gt;اتصل بالدعم إذا استمرت المشكلة أكثر من 5 دقائق&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الوقاية&lt;/strong&gt;: راقب صحة قاعدة البيانات واستخدام مجمّع الاتصالات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;أخطاء التحقق من البيانات (ERR-VAL-XXXX)&lt;span class="hx:absolute hx:-mt-20" id="أخطاء-التحقق-من-البيانات-err-val-xxxx"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-%d8%a7%d9%84%d8%aa%d8%ad%d9%82%d9%82-%d9%85%d9%86-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-err-val-xxxx" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;ERR-VAL-1001: حقل مطلوب مفقود&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: ترك حقل إلزامي فارغًا أثناء إدخال البيانات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أنواع الحقول&lt;/strong&gt;: رمز العميل، اسم المنتج، مبلغ المعاملة، إلخ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خطوات الحل&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;راجع النموذج بحثًا عن الحقول المميّزة بعلامة نجمية حمراء (*)&lt;/li&gt;
+&lt;li&gt;املأ جميع المعلومات المطلوبة&lt;/li&gt;
+&lt;li&gt;تحقق من تنسيق البيانات (التواريخ والأرقام والبريد الإلكتروني)&lt;/li&gt;
+&lt;li&gt;احفظ السجل مرة أخرى&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحقول المفقودة الشائعة&lt;/strong&gt;:
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Customer Records: Name, Tax ID, Contact Info
+Product Records: Code, Name, Unit of Measure
+Transactions: Date, Amount, Account Code&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ERR-VAL-1002: تنسيق بيانات غير صالح&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: البيانات لا تطابق التنسيق المتوقع أو قواعد العمل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;السيناريوهات الشائعة&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;تنسيق بريد إلكتروني غير صالح (رمز @ مفقود)&lt;/li&gt;
+&lt;li&gt;تنسيق تاريخ غير صحيح (مطلوب DD/MM/YYYY)&lt;/li&gt;
+&lt;li&gt;تنسيق رقم هاتف غير صالح (+60-XXX-XXXXXXX)&lt;/li&gt;
+&lt;li&gt;تنسيق الرقم الضريبي لا يطابق المعايير الماليزية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;تحقق من تلميحات تنسيق الحقل وأمثلته&lt;/li&gt;
+&lt;li&gt;استخدم أدوات التحقق من التنسيق حيثما توفّرت&lt;/li&gt;
+&lt;li&gt;انسخ والصق من مصادر موثّقة&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;أخطاء المعاملات (ERR-TXN-XXXX)&lt;span class="hx:absolute hx:-mt-20" id="أخطاء-المعاملات-err-txn-xxxx"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d8%b9%d8%a7%d9%85%d9%84%d8%a7%d8%aa-err-txn-xxxx" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;ERR-TXN-2001: مخزون غير كافٍ&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: محاولة بيع/تخصيص مخزون أكثر من المتوفر&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التفاصيل التقنية&lt;/strong&gt;: فشل فحص المخزون الفوري&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحل المفصّل&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;تحقق من مستويات المخزون الحالية: &lt;strong&gt;Inventory &amp;gt; Stock Inquiry&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;تحقق من موقع المخزون وتوفّره&lt;/li&gt;
+&lt;li&gt;فكّر في هذه الخيارات:
+&lt;ul&gt;
+&lt;li&gt;تقليل الكمية إلى المخزون المتوفر&lt;/li&gt;
+&lt;li&gt;نقل المخزون من مواقع أخرى&lt;/li&gt;
+&lt;li&gt;إنشاء طلب مؤجّل للكمية المتبقية&lt;/li&gt;
+&lt;li&gt;تحديث المخزون إذا كان جرد المخزون غير صحيح&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أفضل ممارسات إدارة المخزون&lt;/strong&gt;:
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;• Set reorder points for all active items
+• Monitor stock levels daily
+• Implement automatic reorder notifications
+• Regular cycle counting for accuracy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ERR-TXN-2002: السعر غير موجود&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: لا يوجد سعر صالح مُهيّأ لمجموعة الصنف/العميل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;فحص التسلسل الهرمي للأسعار&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;التسعير الخاص بالعميل&lt;/li&gt;
+&lt;li&gt;تسعير مجموعة العملاء&lt;/li&gt;
+&lt;li&gt;التسعير الترويجي&lt;/li&gt;
+&lt;li&gt;قائمة الأسعار القياسية&lt;/li&gt;
+&lt;li&gt;سعر التكلفة الأساسي&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خطوات التهيئة&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;انتقل إلى &lt;strong&gt;Sales &amp;gt; Price Management&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;أعدّ أنظمة الأسعار حسب نوع العميل&lt;/li&gt;
+&lt;li&gt;هيّئ فترات التسعير الترويجي&lt;/li&gt;
+&lt;li&gt;اضبط الأسعار الافتراضية للمنتجات الجديدة&lt;/li&gt;
+&lt;li&gt;اختبر التسعير بمعاملات عينة&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;أخطاء الامتثال الماليزي (ERR-MYS-XXXX)&lt;span class="hx:absolute hx:-mt-20" id="أخطاء-الامتثال-الماليزي-err-mys-xxxx"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d9%85%d8%aa%d8%ab%d8%a7%d9%84-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%b2%d9%8a-err-mys-xxxx" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;ERR-MYS-4001: خطأ في حساب ضريبة SST&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: مشكلة في حساب أو تهيئة ضريبة المبيعات والخدمات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قواعد SST&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;المعدل القياسي: 6% (معظم السلع والخدمات)&lt;/li&gt;
+&lt;li&gt;المعدل الصفري: 0% (الصادرات والسلع المعفاة)&lt;/li&gt;
+&lt;li&gt;معفى: لا تنطبق ضريبة SST&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;فحص التهيئة&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;إعداد المنتج&lt;/strong&gt;: تحقق من تعيين رمز SST&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إعداد العميل&lt;/strong&gt;: تحقق من حالة الإعفاء من SST&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إعدادات الضريبة&lt;/strong&gt;: راجع قواعد حساب SST&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحديثات المعدلات&lt;/strong&gt;: تأكد من تحميل معدلات SST الحالية&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ERR-MYS-4002: فشل إنشاء الفاتورة الإلكترونية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: خطأ في التكامل مع MyInvois أو فشل التحقق&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;متطلبات الفاتورة الإلكترونية لدى LHDN&lt;/strong&gt;:
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Mandatory Fields:
+• Supplier TIN (Tax Identification Number)
+• Buyer TIN (for B2B transactions)
+• Invoice date and time
+• Unique invoice number
+• Product/service description
+• SST details&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أخطاء التحقق&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;تنسيق TIN&lt;/strong&gt;: يجب أن يكون بتنسيق TIN ماليزي صالح&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التاريخ/الوقت&lt;/strong&gt;: يجب أن يكون ضمن الإطار الزمني لتقديم MyInvois&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;العملة&lt;/strong&gt;: MYR والعملات الأجنبية المعتمدة فقط&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;نوع المستند&lt;/strong&gt;: يجب أن يطابق الأنواع المعتمدة من LHDN&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;أخطاء التكامل (ERR-INT-XXXX)&lt;span class="hx:absolute hx:-mt-20" id="أخطاء-التكامل-err-int-xxxx"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84-err-int-xxxx" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;ERR-INT-3001: فشل المزامنة - الخدمات المصرفية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: فشل اتصال التكامل المصرفي أو انتهاء صلاحية المصادقة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;البنوك المحددة المدعومة&lt;/strong&gt;: Maybank وCIMB وPublic Bank وRHB وHong Leong&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خطوات استكشاف الأخطاء وإصلاحها&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;تحقق من بيانات الاعتماد&lt;/strong&gt;: تحقق من تفاصيل تسجيل الدخول المصرفي في &lt;strong&gt;Finance &amp;gt; Bank Integration&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اختبر الاتصال&lt;/strong&gt;: استخدم زر &amp;ldquo;Test Connection&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;حدّث الرموز&lt;/strong&gt;: أعد المصادقة إذا كنت تستخدم OAuth&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;فحص الشبكة&lt;/strong&gt;: تأكد من أن جدار الحماية يسمح بالاتصالات المصرفية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;حالة البنك&lt;/strong&gt;: تحقق مما إذا كان نظام البنك متوقفًا للصيانة&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ERR-INT-3002: خطأ مزامنة التجارة الإلكترونية&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السبب&lt;/strong&gt;: مشكلات اتصال مع منصات المتاجر الإلكترونية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المنصات المدعومة&lt;/strong&gt;: Shopee وLazada وWooCommerce وMagento وShopify&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الأنواع الفرعية للخطأ&lt;/strong&gt;:
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;3002-A: Authentication failure
+3002-B: Product catalog sync failed
+3002-C: Order download error
+3002-D: Inventory update failed
+3002-E: Pricing sync error&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الحلول الخاصة بكل منصة&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Shopee&lt;/strong&gt;: تحقق من مفتاح API والسر في Seller Center&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lazada&lt;/strong&gt;: تحقق من تفويض التطبيق في Seller Center&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;WooCommerce&lt;/strong&gt;: اختبر بيانات اعتماد REST API&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shopify&lt;/strong&gt;: حدّث صلاحيات التطبيق الخاص&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;السلامة أولًا&lt;/strong&gt;: قبل إجراء أي تغييرات على النظام لحل المشكلات، تأكد من وجود نسخ احتياطية مناسبة وفهم تأثير تغييراتك.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;المشكلات الخاصة بالمتصفح&lt;span class="hx:absolute hx:-mt-20" id="المشكلات-الخاصة-بالمتصفح"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%ae%d8%a7%d8%b5%d8%a9-%d8%a8%d8%a7%d9%84%d9%85%d8%aa%d8%b5%d9%81%d8%ad" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;مشكلات Chrome&lt;span class="hx:absolute hx:-mt-20" id="مشكلات-chrome"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-chrome" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;مشكلات التخزين المؤقت&lt;/strong&gt;: امسح بيانات التصفح، وأعد ضبط إعدادات Chrome&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تعارضات الإضافات&lt;/strong&gt;: عطّل الإضافات، واختبر في وضع التصفح المتخفي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مشكلات الذاكرة&lt;/strong&gt;: أغلق علامات التبويب غير المستخدمة، وأعد تشغيل المتصفح&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;مشكلات Firefox&lt;span class="hx:absolute hx:-mt-20" id="مشكلات-firefox"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-firefox" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;إعدادات الأمان&lt;/strong&gt;: اضبط تفضيلات الأمان لـ BigLedger&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تعارضات الإضافات&lt;/strong&gt;: اختبر مع تعطيل الإضافات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إعدادات ملفات تعريف الارتباط&lt;/strong&gt;: تأكد من تمكين ملفات تعريف الارتباط لـ BigLedger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;مشكلات Safari&lt;span class="hx:absolute hx:-mt-20" id="مشكلات-safari"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-safari" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;إعدادات JavaScript&lt;/strong&gt;: مكّن JavaScript لنطاق BigLedger&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إعدادات الخصوصية&lt;/strong&gt;: اضبط إعدادات الخصوصية لتطبيقات الأعمال&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مشكلات التخزين المؤقت&lt;/strong&gt;: امسح بيانات الموقع لـ BigLedger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;مشكلات متصفح الهاتف المحمول&lt;span class="hx:absolute hx:-mt-20" id="مشكلات-متصفح-الهاتف-المحمول"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b4%d9%83%d9%84%d8%a7%d8%aa-%d9%85%d8%aa%d8%b5%d9%81%d8%ad-%d8%a7%d9%84%d9%87%d8%a7%d8%aa%d9%81-%d8%a7%d9%84%d9%85%d8%ad%d9%85%d9%88%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التصميم المتجاوب&lt;/strong&gt;: استخدم الوضع الأفقي للشاشات المعقّدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;واجهة اللمس&lt;/strong&gt;: استخدم الإيماءات المناسبة للتنقل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اتصال البيانات&lt;/strong&gt;: تأكد من استقرار اتصال الإنترنت&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;تحسين الأداء&lt;span class="hx:absolute hx:-mt-20" id="تحسين-الأداء"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;أداء النظام&lt;span class="hx:absolute hx:-mt-20" id="أداء-النظام"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d9%86%d8%b8%d8%a7%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;تحسين الأداء المفصّل&lt;span class="hx:absolute hx:-mt-20" id="تحسين-الأداء-المفصل"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d9%81%d8%b5%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;تحديد اختناقات الأداء&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;لوحة معلومات أداء النظام&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;انتقل إلى &lt;strong&gt;Admin &amp;gt; System Health&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;راقب أداء وحدة المعالجة المركزية والذاكرة وقاعدة البيانات&lt;/li&gt;
+&lt;li&gt;تحقق من جلسات المستخدمين النشطة والعمليات المتزامنة&lt;/li&gt;
+&lt;li&gt;راجع سجلات النظام بحثًا عن أنماط الأخطاء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;مراقبة تجربة المستخدم&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تتبّع أوقات تحميل الصفحات عبر الوحدات المختلفة&lt;/li&gt;
+&lt;li&gt;راقب سرعات إنشاء التقارير&lt;/li&gt;
+&lt;li&gt;حلّل مدد جلسات المستخدمين وانتهاء المهل&lt;/li&gt;
+&lt;li&gt;حدّد الميزات بطيئة الأداء المستخدمة بكثرة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;تحسين الأداء على جانب المتصفح&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Recommended Browser Settings:
+✓ Enable JavaScript and cookies
+✓ Disable unnecessary browser extensions
+✓ Clear cache weekly
+✓ Update to latest browser version
+✓ Allow pop-ups for BigLedger domain
+✓ Set sufficient memory allocation&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;تحسين الشبكة&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;متطلبات النطاق الترددي&lt;/strong&gt;: 10 ميجابت/ثانية كحد أدنى للأداء الأمثل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اعتبارات زمن الاستجابة&lt;/strong&gt;: زمن استجابة أقل من 100 مللي ثانية إلى خوادم BigLedger&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;استقرار الاتصال&lt;/strong&gt;: تُفضّل الاتصالات السلكية على WiFi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تأثير VPN&lt;/strong&gt;: اختبر الأداء مع/بدون VPN&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تهيئة جدار الحماية&lt;/strong&gt;: أضف نطاقات ومنافذ BigLedger إلى القائمة البيضاء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ضبط أداء قاعدة البيانات&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تحسين الاستعلامات&lt;/strong&gt;: استخدم المرشحات والنطاقات الزمنية المناسبة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة الفهارس&lt;/strong&gt;: تأكد من الفهرسة الصحيحة للحقول المستعلَم عنها بكثرة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أرشفة البيانات&lt;/strong&gt;: أرشف البيانات القديمة لتحسين أداء الاستعلامات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المستخدمون المتزامنون&lt;/strong&gt;: راقب حدود اتصال قاعدة البيانات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;نوافذ الصيانة&lt;/strong&gt;: جدول صيانة قاعدة بيانات منتظمة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;التحسين على جانب العميل&lt;span class="hx:absolute hx:-mt-20" id="التحسين-على-جانب-العميل"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%b9%d9%84%d9%89-%d8%ac%d8%a7%d9%86%d8%a8-%d8%a7%d9%84%d8%b9%d9%85%d9%8a%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;صيانة المتصفح&lt;/strong&gt;: مسح التخزين المؤقت بانتظام، وتحديث المتصفح&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحسين الشبكة&lt;/strong&gt;: اتصال إنترنت مستقر، وتجنّب ساعات الذروة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;أداء الجهاز&lt;/strong&gt;: ذاكرة وصول عشوائي كافية، وإغلاق التطبيقات غير الضرورية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;دقة الشاشة&lt;/strong&gt;: حسّن إعدادات العرض لـ BigLedger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;العوامل على جانب الخادم&lt;span class="hx:absolute hx:-mt-20" id="العوامل-على-جانب-الخادم"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b9%d9%88%d8%a7%d9%85%d9%84-%d8%b9%d9%84%d9%89-%d8%ac%d8%a7%d9%86%d8%a8-%d8%a7%d9%84%d8%ae%d8%a7%d8%af%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;أوقات الاستخدام في الذروة&lt;/strong&gt;: افهم أنماط حمل النظام&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;حجم البيانات&lt;/strong&gt;: التقارير والاستعلامات الكبيرة تؤثر على الأداء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;حمل التكامل&lt;/strong&gt;: عمليات التكامل المتزامنة المتعددة تؤثر على السرعة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;نوافذ الصيانة&lt;/strong&gt;: الصيانة المجدولة تؤثر على التوفّر&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;أداء البيانات&lt;span class="hx:absolute hx:-mt-20" id="أداء-البيانات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تحسين الاستعلامات&lt;/strong&gt;: استخدم المرشحات والنطاقات الزمنية المناسبة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;كفاءة التقارير&lt;/strong&gt;: قيّد نطاق البيانات للتقارير الكبيرة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المعالجة الدفعية&lt;/strong&gt;: اجمع العمليات المتشابهة معًا&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;استراتيجية الأرشفة&lt;/strong&gt;: أرشف البيانات القديمة لتحسين الأداء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;إجراءات التصعيد&lt;span class="hx:absolute hx:-mt-20" id="إجراءات-التصعيد"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%ac%d8%b1%d8%a7%d8%a1%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b5%d8%b9%d9%8a%d8%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;متى تصعّد&lt;span class="hx:absolute hx:-mt-20" id="متى-تصعد"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%aa%d9%89-%d8%aa%d8%b5%d8%b9%d8%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الحوادث الأمنية&lt;/strong&gt;: تصعيد فوري لخروقات الأمان&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;انقطاعات النظام&lt;/strong&gt;: عندما يكون النظام غير متاح تمامًا&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تلف البيانات&lt;/strong&gt;: أي مشكلات مشتبهة في سلامة البيانات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التأثير التجاري الحرج&lt;/strong&gt;: المشكلات التي تؤثر على عمليات العمل الأساسية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;كيفية التصعيد&lt;span class="hx:absolute hx:-mt-20" id="كيفية-التصعيد"&gt;&lt;/span&gt;
+&lt;a href="#%d9%83%d9%8a%d9%81%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d8%b5%d8%b9%d9%8a%d8%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;وثّق المشكلة&lt;/strong&gt;: وصف شامل للمشكلة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اجمع الأدلة&lt;/strong&gt;: لقطات الشاشة ورسائل الخطأ والسجلات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قيّم التأثير&lt;/strong&gt;: مستوى التأثير التجاري والإلحاح&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اتصل بالدعم المناسب&lt;/strong&gt;: استخدم قناة الدعم الصحيحة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تابع&lt;/strong&gt;: راقب الحل وأبلغ عن الحالة&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;موارد الخدمة الذاتية&lt;span class="hx:absolute hx:-mt-20" id="موارد-الخدمة-الذاتية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%88%d8%a7%d8%b1%d8%af-%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a9-%d8%a7%d9%84%d8%b0%d8%a7%d8%aa%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;قاعدة المعرفة&lt;span class="hx:absolute hx:-mt-20" id="قاعدة-المعرفة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d8%a7%d8%b9%d8%af%d8%a9-%d8%a7%d9%84%d9%85%d8%b9%d8%b1%d9%81%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;قسم الأسئلة الشائعة&lt;/strong&gt; - إجابات على الأسئلة المتكررة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الدروس المرئية&lt;/strong&gt; - أدلة مرئية خطوة بخطوة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;منتديات المستخدمين&lt;/strong&gt; - دعم مدفوع من المجتمع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التوثيق&lt;/strong&gt; - أدلة مستخدم شاملة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;أدوات التشخيص&lt;span class="hx:absolute hx:-mt-20" id="أدوات-التشخيص"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%af%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b4%d8%ae%d9%8a%d8%b5" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;فحص صحة النظام&lt;/strong&gt; - تشخيصات نظام مدمجة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;اختبار الاتصال&lt;/strong&gt; - اختبار الشبكة والتكامل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مدقق الصلاحيات&lt;/strong&gt; - التحقق من حقوق وصول المستخدم&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مراقب الأداء&lt;/strong&gt; - مقاييس أداء النظام&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;نصيحة للكفاءة&lt;/strong&gt;: احتفظ بسجل لاستكشاف الأخطاء وإصلاحها لتتبّع المشكلات المتكررة وحلولها. يبني هذا خبرتك ويساعد في تحديد فرص تحسين النظام.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;استراتيجيات الوقاية&lt;span class="hx:absolute hx:-mt-20" id="استراتيجيات-الوقاية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d9%88%d9%82%d8%a7%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;الصيانة الاستباقية&lt;span class="hx:absolute hx:-mt-20" id="الصيانة-الاستباقية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b5%d9%8a%d8%a7%d9%86%d8%a9-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%a8%d8%a7%d9%82%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التحديثات المنتظمة&lt;/strong&gt;: أبقِ المتصفح والنظام محدّثين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;برامج التدريب&lt;/strong&gt;: تعليم وتدريب مستمر للمستخدمين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مراقبة النظام&lt;/strong&gt;: فحوصات صحة منتظمة ومراقبة الأداء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;النسخ الاحتياطي للبيانات&lt;/strong&gt;: حافظ على نسخ احتياطية حالية وإجراءات استرداد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;أفضل الممارسات&lt;span class="hx:absolute hx:-mt-20" id="أفضل-الممارسات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d9%81%d8%b6%d9%84-%d8%a7%d9%84%d9%85%d9%85%d8%a7%d8%b1%d8%b3%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;التوثيق&lt;/strong&gt;: أبقِ الإجراءات موثّقة وحديثة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الاختبار&lt;/strong&gt;: اختبر التغييرات في بيئة التجهيز قبل الإنتاج&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التواصل&lt;/strong&gt;: أبلغ المستخدمين بتغييرات النظام وتحديثاته&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المراقبة&lt;/strong&gt;: أعدّ تنبيهات لمقاييس النظام الحرجة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;الحصول على المساعدة&lt;span class="hx:absolute hx:-mt-20" id="الحصول-على-المساعدة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ad%d8%b5%d9%88%d9%84-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%85%d8%b3%d8%a7%d8%b9%d8%af%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;قنوات الدعم&lt;span class="hx:absolute hx:-mt-20" id="قنوات-الدعم"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d9%86%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%af%d8%b9%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;📧 دعم البريد الإلكتروني&lt;/strong&gt;: &lt;a href="mailto:vincent@bigledger.com" &gt;vincent@bigledger.com&lt;/a&gt; للمشكلات التقنية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;💬 دردشة سريعة&lt;/strong&gt;: تيليجرام @leehongfay للأسئلة الفورية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;📞 الدعم الهاتفي&lt;/strong&gt;: متاح خلال ساعات العمل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🌐 بوابة الدعم&lt;/strong&gt;: نظام تذاكر عبر الإنترنت وقاعدة معرفة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;معلومات الدعم التي يجب تقديمها&lt;span class="hx:absolute hx:-mt-20" id="معلومات-الدعم-التي-يجب-تقديمها"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d8%aa%d9%8a-%d9%8a%d8%ac%d8%a8-%d8%aa%d9%82%d8%af%d9%8a%d9%85%d9%87%d8%a7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;وصف المشكلة&lt;/strong&gt;: شرح واضح للمشكلة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;خطوات إعادة الإنتاج&lt;/strong&gt;: كيفية إعادة إنشاء المشكلة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;رسائل الخطأ&lt;/strong&gt;: النص الدقيق لأي رسائل خطأ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;معلومات المستخدم&lt;/strong&gt;: تفاصيل الحساب والصلاحيات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تفاصيل النظام&lt;/strong&gt;: معلومات المتصفح والجهاز والشبكة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التأثير التجاري&lt;/strong&gt;: كيف تؤثر المشكلة على عملياتك&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;توقعات وقت الاستجابة&lt;span class="hx:absolute hx:-mt-20" id="توقعات-وقت-الاستجابة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%88%d9%82%d8%b9%d8%a7%d8%aa-%d9%88%d9%82%d8%aa-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%ac%d8%a7%d8%a8%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;المشكلات الحرجة&lt;/strong&gt;: وقت استجابة 1-2 ساعة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الأولوية العالية&lt;/strong&gt;: وقت استجابة 4-8 ساعات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المشكلات العادية&lt;/strong&gt;: وقت استجابة 1-2 يوم عمل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;طلبات التحسين&lt;/strong&gt;: تُراجَع في دورات التخطيط الشهرية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;نجاح الحل&lt;/strong&gt;: يمكن حل معظم مشكلات المستخدمين بسرعة من خلال التحديد الصحيح للمشكلة واستخدام الموارد وقنوات الدعم المناسبة.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>حلول القطاعات</title><link>https://www.bigledger.com/ar/user-guide/industry-solutions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/user-guide/industry-solutions/</guid><description>
+&lt;h1&gt;حلول BigLedger الخاصة بكل قطاع&lt;/h1&gt;&lt;p&gt;يخدم BigLedger الأعمال عبر قطاعات متعددة بحلول مصممة خصيصًا وسير عمل متخصص. يعرض هذا الدليل الشامل التطبيقات الخاصة بكل قطاع، وقصص النجاح، والمنهجيات المثبتة التي تحقق نتائج أعمال قابلة للقياس.&lt;/p&gt;
+&lt;h2&gt;نظرة عامة&lt;span class="hx:absolute hx:-mt-20" id="نظرة-عامة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%86%d8%b8%d8%b1%d8%a9-%d8%b9%d8%a7%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;يثق أكثر من 5,000 عمل ماليزي بـ BigLedger لتشغيل عملياتهم عبر قطاعات متنوعة. تتيح مرونة منصتنا تخصيصًا عميقًا مع الحفاظ على الفوائد الأساسية لنظام تشغيل أعمال متكامل.&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;الخبرة القطاعية&lt;/strong&gt;: نجح BigLedger في تنفيذ حلول عبر أكثر من 15 قطاعًا رأسيًا في ماليزيا، من الأعمال العائلية الصغيرة إلى المؤسسات الكبيرة التي تضم أكثر من 1000 موظف.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;قطاع السيارات&lt;span class="hx:absolute hx:-mt-20" id="قطاع-السيارات"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;ورش العمل ومراكز الخدمة&lt;span class="hx:absolute hx:-mt-20" id="ورش-العمل-ومراكز-الخدمة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%88%d8%b1%d8%b4-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d9%88%d9%85%d8%b1%d8%a7%d9%83%d8%b2-%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحديات القطاع:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;سير عمل خدمة معقّد من الحجز حتى التسليم&lt;/li&gt;
+&lt;li&gt;إدارة مخزون قطع الغيار بخيارات المُصنّع الأصلي (OEM) وما بعد البيع&lt;/li&gt;
+&lt;li&gt;تاريخ مركبة العميل وجدولة الصيانة&lt;/li&gt;
+&lt;li&gt;إنتاجية الفنيين وتتبّع مهاراتهم&lt;/li&gt;
+&lt;li&gt;معالجة مطالبات الضمان وتوثيقها&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;حلول BigLedger:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;نظام إدارة الخدمة&lt;span class="hx:absolute hx:-mt-20" id="نظام-إدارة-الخدمة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%86%d8%b8%d8%a7%d9%85-%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;سير عمل ورشة العمل الكامل:
+1. حجز العميل ← تعيين مستشار الخدمة
+2. تسجيل دخول المركبة ← فحص رقمي
+3. تقدير الخدمة ← موافقة العميل
+4. أمر العمل ← تعيين الفني
+5. تخصيص قطع الغيار ← خصم المخزون
+6. مراقبة الجودة ← الفحص النهائي
+7. إشعار العميل ← تسليم المركبة
+8. الفوترة والدفع ← تحديث سجل الخدمة&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;ميزات متخصصة&lt;span class="hx:absolute hx:-mt-20" id="ميزات-متخصصة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d9%85%d8%aa%d8%ae%d8%b5%d8%b5%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;قاعدة بيانات المركبات&lt;/strong&gt;: ملفات تعريف كاملة لمركبات العملاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;جدولة الخدمة&lt;/strong&gt;: حجز المواعيد وتخصيص الفنيين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;كتالوج قطع الغيار&lt;/strong&gt;: إدارة قطع الغيار الأصلية (OEM) وما بعد البيع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;معايير أوقات العمالة&lt;/strong&gt;: تقديرات أوقات العمالة وفق معايير القطاع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تتبّع الضمان&lt;/strong&gt;: إدارة ضمان المُصنّع الأصلي وضمان ورشة العمل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التواصل مع العملاء&lt;/strong&gt;: تحديثات آلية عبر SMS/WhatsApp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;دراسة حالة: Ahmad Auto Service&lt;span class="hx:absolute hx:-mt-20" id="دراسة-حالة-ahmad-auto-service"&gt;&lt;/span&gt;
+&lt;a href="#%d8%af%d8%b1%d8%a7%d8%b3%d8%a9-%d8%ad%d8%a7%d9%84%d8%a9-ahmad-auto-service" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;الخلفية&lt;/strong&gt;: ورشة عمل عائلية في جوهور بهرو تخدم أكثر من 200 عميل شهريًا
+&lt;strong&gt;التحدي&lt;/strong&gt;: عمليات يدوية تؤدي إلى تعارضات في الجدولة ونقص في المخزون
+&lt;strong&gt;التنفيذ&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;نظام حجز خدمة رقمي&lt;/li&gt;
+&lt;li&gt;تتبّع مخزون قطع الغيار في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;أتمتة التواصل مع العملاء&lt;/li&gt;
+&lt;li&gt;مراقبة إنتاجية الفنيين&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;النتائج بعد 6 أشهر:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;انخفاض بنسبة 40% في أوقات انتظار العملاء&lt;/li&gt;
+&lt;li&gt;زيادة بنسبة 25% في معدل دوران مخزون قطع الغيار&lt;/li&gt;
+&lt;li&gt;تحسّن بنسبة 60% في درجات رضا العملاء&lt;/li&gt;
+&lt;li&gt;زيادة بنسبة 30% في تكرار تعامل العملاء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;قصة نجاح&lt;/strong&gt;: &amp;ldquo;حوّل BigLedger ورشتنا من الفوضى إلى الانتظام. نخدم الآن عملاء أكثر بنسبة 50% بنفس الفريق.&amp;rdquo; - أحمد، المالك&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;قطاع الأغذية والمشروبات&lt;span class="hx:absolute hx:-mt-20" id="قطاع-الأغذية-والمشروبات"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%a3%d8%ba%d8%b0%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d9%85%d8%b4%d8%b1%d9%88%d8%a8%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;سلاسل المطاعم والمقاهي&lt;span class="hx:absolute hx:-mt-20" id="سلاسل-المطاعم-والمقاهي"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b3%d9%84%d8%a7%d8%b3%d9%84-%d8%a7%d9%84%d9%85%d8%b7%d8%a7%d8%b9%d9%85-%d9%88%d8%a7%d9%84%d9%85%d9%82%d8%a7%d9%87%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحديات القطاع:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;مزامنة المخزون متعدد المواقع&lt;/li&gt;
+&lt;li&gt;إدارة تكلفة الوصفات والتسعير&lt;/li&gt;
+&lt;li&gt;سلامة الأغذية وتتبّع الصلاحية&lt;/li&gt;
+&lt;li&gt;جدولة الموظفين عبر المنافذ&lt;/li&gt;
+&lt;li&gt;برامج ولاء العملاء والحملات التسويقية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;حلول BigLedger:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;الإدارة متعددة المواقع&lt;span class="hx:absolute hx:-mt-20" id="الإدارة-متعددة-المواقع"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d9%85%d8%aa%d8%b9%d8%af%d8%af%d8%a9-%d8%a7%d9%84%d9%85%d9%88%d8%a7%d9%82%d8%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;نظام التحكم المركزي:
+• لوحة معلومات المكتب الرئيسي ← نظرة عامة على جميع المواقع
+• مراقبة المبيعات في الوقت الفعلي ← مقارنة الأداء
+• الشراء المركزي ← خصومات الكميات
+• وصفات موحّدة ← جودة متسقة
+• التحويلات بين الفروع ← تحسين المخزون&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;ميزات خاصة بخدمة الأغذية&lt;span class="hx:absolute hx:-mt-20" id="ميزات-خاصة-بخدمة-الأغذية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d8%ae%d8%a7%d8%b5%d8%a9-%d8%a8%d8%ae%d8%af%d9%85%d8%a9-%d8%a7%d9%84%d8%a3%d8%ba%d8%b0%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;إدارة الوصفات&lt;/strong&gt;: تكلفة المكونات والتحكم في الحصص&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تتبّع الصلاحية&lt;/strong&gt;: تدوير المخزون بنظام FIFO مع تنبيهات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المعلومات الغذائية&lt;/strong&gt;: الحساب والتوسيم التلقائي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة الطاولات&lt;/strong&gt;: تتبّع الحجوزات والطلبات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;نظام عرض المطبخ&lt;/strong&gt;: ترتيب أولويات الطلبات والتوقيت&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;دراسة حالة: سلسلة Warung Pak Man&lt;span class="hx:absolute hx:-mt-20" id="دراسة-حالة-سلسلة-warung-pak-man"&gt;&lt;/span&gt;
+&lt;a href="#%d8%af%d8%b1%d8%a7%d8%b3%d8%a9-%d8%ad%d8%a7%d9%84%d8%a9-%d8%b3%d9%84%d8%b3%d9%84%d8%a9-warung-pak-man" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;الخلفية&lt;/strong&gt;: سلسلة مأكولات ملايوية تقليدية بـ 8 منافذ عبر وادي كلانج
+&lt;strong&gt;التحدي&lt;/strong&gt;: عدم اتساق جودة الطعام وارتفاع تكاليف الأغذية عبر الفروع
+&lt;strong&gt;التنفيذ&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;قاعدة بيانات وصفات موحّدة مع ضوابط الحصص&lt;/li&gt;
+&lt;li&gt;شراء مركزي مع نقاط إعادة طلب آلية&lt;/li&gt;
+&lt;li&gt;تتبّع تكلفة الأغذية في الوقت الفعلي لكل طبق&lt;/li&gt;
+&lt;li&gt;وحدات تدريب الموظفين لتحقيق الاتساق&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;النتائج بعد 12 شهرًا:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;انخفاض بنسبة 18% في هدر الأغذية من خلال تحسين التحكم في الحصص&lt;/li&gt;
+&lt;li&gt;تحسّن بنسبة 22% في إجمالي الهامش من خلال تحسين الشراء&lt;/li&gt;
+&lt;li&gt;درجة اتساق 95% عبر جميع المنافذ&lt;/li&gt;
+&lt;li&gt;زيادة بنسبة 35% في المشاركة في برنامج ولاء العملاء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;ميزات الامتثال للحلال&lt;span class="hx:absolute hx:-mt-20" id="ميزات-الامتثال-للحلال"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d9%85%d8%aa%d8%ab%d8%a7%d9%84-%d9%84%d9%84%d8%ad%d9%84%d8%a7%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تتبّع شهادات الحلال&lt;/strong&gt;: مراقبة شهادات المورّدين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;فصل المكونات&lt;/strong&gt;: المناولة المنفصلة للأصناف الحلال وغير الحلال&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحقق من سلسلة التوريد&lt;/strong&gt;: توثيق الامتثال للحلال من طرف إلى طرف&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مسار التدقيق&lt;/strong&gt;: تتبّع كامل لعمليات تدقيق شهادات الحلال&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;قطاع التصنيع&lt;span class="hx:absolute hx:-mt-20" id="قطاع-التصنيع"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%aa%d8%b5%d9%86%d9%8a%d8%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;عمليات الإنتاج والتجميع&lt;span class="hx:absolute hx:-mt-20" id="عمليات-الإنتاج-والتجميع"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%a5%d9%86%d8%aa%d8%a7%d8%ac-%d9%88%d8%a7%d9%84%d8%aa%d8%ac%d9%85%d9%8a%d8%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحديات القطاع:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إدارة قوائم المواد (BOM) المعقّدة&lt;/li&gt;
+&lt;li&gt;جدولة الإنتاج وتخطيط الطاقة الإنتاجية&lt;/li&gt;
+&lt;li&gt;مراقبة الجودة وتتبّع الدفعات&lt;/li&gt;
+&lt;li&gt;إدارة العلاقات مع المورّدين&lt;/li&gt;
+&lt;li&gt;الامتثال التنظيمي والتوثيق&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;حلول BigLedger:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;منصة التصنيع الذكي&lt;span class="hx:absolute hx:-mt-20" id="منصة-التصنيع-الذكي"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%86%d8%b5%d8%a9-%d8%a7%d9%84%d8%aa%d8%b5%d9%86%d9%8a%d8%b9-%d8%a7%d9%84%d8%b0%d9%83%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;تدفّق التحكم في الإنتاج:
+1. توقّعات المبيعات ← تخطيط الإنتاج
+2. متطلبات المواد ← أوامر الشراء
+3. أوامر العمل ← التحكم في أرضية الإنتاج
+4. عمليات فحص الجودة ← توثيق الدفعات
+5. البضائع الجاهزة ← تحديث المخزون
+6. تسليم العميل ← تلبية طلب المبيعات&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;وحدات خاصة بالتصنيع&lt;span class="hx:absolute hx:-mt-20" id="وحدات-خاصة-بالتصنيع"&gt;&lt;/span&gt;
+&lt;a href="#%d9%88%d8%ad%d8%af%d8%a7%d8%aa-%d8%ae%d8%a7%d8%b5%d8%a9-%d8%a8%d8%a7%d9%84%d8%aa%d8%b5%d9%86%d9%8a%d8%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;قائمة مواد متعددة المستويات&lt;/strong&gt;: هياكل تجميع معقّدة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تخطيط الطاقة الإنتاجية&lt;/strong&gt;: تحسين الموارد والجدولة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحكم في أرضية الإنتاج&lt;/strong&gt;: مراقبة الإنتاج في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة الجودة&lt;/strong&gt;: التحكم الإحصائي في العمليات (SPC) وسير عمل الفحص&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة الصيانة&lt;/strong&gt;: الصيانة الوقائية والتصحيحية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;دراسة حالة: Precision Parts Manufacturing&lt;span class="hx:absolute hx:-mt-20" id="دراسة-حالة-precision-parts-manufacturing"&gt;&lt;/span&gt;
+&lt;a href="#%d8%af%d8%b1%d8%a7%d8%b3%d8%a9-%d8%ad%d8%a7%d9%84%d8%a9-precision-parts-manufacturing" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;الخلفية&lt;/strong&gt;: شركة تصنيع بالتحكم العددي الحاسوبي (CNC) تنتج مكونات السيارات
+&lt;strong&gt;التحدي&lt;/strong&gt;: تلبية متطلبات ISO 9001 مع تحسين الكفاءة
+&lt;strong&gt;التنفيذ&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;نظام مراقبة جودة رقمي مع التحكم الإحصائي في العمليات&lt;/li&gt;
+&lt;li&gt;جدولة الصيانة الوقائية لآلات CNC&lt;/li&gt;
+&lt;li&gt;تتبّع الإنتاج في الوقت الفعلي مع مراقبة الفعالية الكلية للمعدات (OEE)&lt;/li&gt;
+&lt;li&gt;نظام تقييم جودة المورّدين&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;النتائج بعد 18 شهرًا:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تحسّن بنسبة 15% في الفعالية الكلية للمعدات (OEE)&lt;/li&gt;
+&lt;li&gt;انخفاض بنسبة 50% في شكاوى العملاء المتعلقة بالجودة&lt;/li&gt;
+&lt;li&gt;انخفاض بنسبة 30% في تعطّل الآلات غير المخطط له&lt;/li&gt;
+&lt;li&gt;تجديد ناجح لشهادة ISO 9001:2015&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;تكامل الصناعة 4.0&lt;span class="hx:absolute hx:-mt-20" id="تكامل-الصناعة-40"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d9%83%d8%a7%d9%85%d9%84-%d8%a7%d9%84%d8%b5%d9%86%d8%a7%d8%b9%d8%a9-40" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الاتصال بإنترنت الأشياء (IoT)&lt;/strong&gt;: جمع بيانات الآلات وتحليلها&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;الصيانة التنبؤية&lt;/strong&gt;: التنبؤ بالأعطال بالذكاء الاصطناعي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التوأم الرقمي&lt;/strong&gt;: نمذجة خط الإنتاج الافتراضي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحليلات الذكية&lt;/strong&gt;: تحسين الأداء في الوقت الفعلي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;قطاع التجزئة&lt;span class="hx:absolute hx:-mt-20" id="قطاع-التجزئة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%aa%d8%ac%d8%b2%d8%a6%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;عمليات التجزئة متعددة القنوات&lt;span class="hx:absolute hx:-mt-20" id="عمليات-التجزئة-متعددة-القنوات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%ac%d8%b2%d8%a6%d8%a9-%d9%85%d8%aa%d8%b9%d8%af%d8%af%d8%a9-%d8%a7%d9%84%d9%82%d9%86%d9%88%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحديات القطاع:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إدارة المخزون متعدد القنوات&lt;/li&gt;
+&lt;li&gt;اتساق تجربة العميل&lt;/li&gt;
+&lt;li&gt;تخطيط الطلب الموسمي&lt;/li&gt;
+&lt;li&gt;التكامل مع التجارة الإلكترونية&lt;/li&gt;
+&lt;li&gt;إدارة برامج الولاء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;حلول BigLedger:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;منصة التجارة الموحّدة&lt;span class="hx:absolute hx:-mt-20" id="منصة-التجارة-الموحدة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%86%d8%b5%d8%a9-%d8%a7%d9%84%d8%aa%d8%ac%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d9%85%d9%88%d8%ad%d8%af%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;تكامل رحلة العميل:
+• التصفح عبر الإنترنت ← الاستلام من المتجر متاح
+• الشراء من المتجر ← رصيد حساب عبر الإنترنت
+• تطبيق الهاتف المحمول ← تتبّع نقاط الولاء
+• وسائل التواصل الاجتماعي ← رابط شراء مباشر
+• خدمة العملاء ← سجل شراء موحّد&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;ميزات خاصة بالتجزئة&lt;span class="hx:absolute hx:-mt-20" id="ميزات-خاصة-بالتجزئة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d8%ae%d8%a7%d8%b5%d8%a9-%d8%a8%d8%a7%d9%84%d8%aa%d8%ac%d8%b2%d8%a6%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;مخزون موحّد&lt;/strong&gt;: رؤية المخزون في الوقت الفعلي عبر القنوات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التسعير الديناميكي&lt;/strong&gt;: تحسين الأسعار بالذكاء الاصطناعي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;رؤية 360 للعميل&lt;/strong&gt;: تتبّع رحلة العميل الكاملة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة البضائع&lt;/strong&gt;: إدارة الفئات وتحسين مخطط عرض المنتجات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;محرّك العروض الترويجية&lt;/strong&gt;: إدارة قواعد ترويجية معقّدة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;دراسة حالة: FashionHub Boutiques&lt;span class="hx:absolute hx:-mt-20" id="دراسة-حالة-fashionhub-boutiques"&gt;&lt;/span&gt;
+&lt;a href="#%d8%af%d8%b1%d8%a7%d8%b3%d8%a9-%d8%ad%d8%a7%d9%84%d8%a9-fashionhub-boutiques" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;الخلفية&lt;/strong&gt;: متجر أزياء بـ 12 متجرًا فعليًا وحضور عبر الإنترنت
+&lt;strong&gt;التحدي&lt;/strong&gt;: اختلالات المخزون وضعف التكامل بين الإنترنت والمتجر
+&lt;strong&gt;التنفيذ&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;نظام مخزون موحّد عبر جميع القنوات&lt;/li&gt;
+&lt;li&gt;تنفيذ خدمة الطلب والاستلام (Click-and-Collect)&lt;/li&gt;
+&lt;li&gt;تكامل برنامج ولاء العملاء&lt;/li&gt;
+&lt;li&gt;لوحة معلومات تحليلات المبيعات في الوقت الفعلي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;النتائج بعد 9 أشهر:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تحسّن بنسبة 28% في معدل دوران المخزون&lt;/li&gt;
+&lt;li&gt;زيادة بنسبة 45% في تحويل المبيعات عبر الإنترنت&lt;/li&gt;
+&lt;li&gt;نمو بنسبة 60% في المشاركة في برنامج ولاء العملاء&lt;/li&gt;
+&lt;li&gt;انخفاض بنسبة 20% في نفاد الأصناف الشائعة&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;اعتبارات التجزئة الماليزية&lt;span class="hx:absolute hx:-mt-20" id="اعتبارات-التجزئة-الماليزية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d8%b9%d8%aa%d8%a8%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%ac%d8%b2%d8%a6%d8%a9-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%b2%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;الامتثال لـ GST/SST&lt;/strong&gt;: حساب الضرائب وإعداد التقارير تلقائيًا&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تعدد العملات&lt;/strong&gt;: دعم مشتريات السياح&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التفضيلات الثقافية&lt;/strong&gt;: عروض ترويجية ومنتجات خاصة بالأعياد&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;طرق الدفع المحلية&lt;/strong&gt;: التكامل مع المحافظ الإلكترونية المحلية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;الرعاية الصحية والطب&lt;span class="hx:absolute hx:-mt-20" id="الرعاية-الصحية-والطب"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b1%d8%b9%d8%a7%d9%8a%d8%a9-%d8%a7%d9%84%d8%b5%d8%ad%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d8%b7%d8%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;العيادات والمراكز الطبية&lt;span class="hx:absolute hx:-mt-20" id="العيادات-والمراكز-الطبية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%b9%d9%8a%d8%a7%d8%af%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d9%85%d8%b1%d8%a7%d9%83%d8%b2-%d8%a7%d9%84%d8%b7%d8%a8%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحديات القطاع:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إدارة سجلات المرضى والخصوصية&lt;/li&gt;
+&lt;li&gt;جدولة المواعيد وتخصيص الموارد&lt;/li&gt;
+&lt;li&gt;المخزون الطبي مع تتبّع الصلاحية&lt;/li&gt;
+&lt;li&gt;معالجة مطالبات التأمين&lt;/li&gt;
+&lt;li&gt;الامتثال التنظيمي وإعداد التقارير&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;حلول BigLedger:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;نظام إدارة الرعاية الصحية&lt;span class="hx:absolute hx:-mt-20" id="نظام-إدارة-الرعاية-الصحية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%86%d8%b8%d8%a7%d9%85-%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b1%d8%b9%d8%a7%d9%8a%d8%a9-%d8%a7%d9%84%d8%b5%d8%ad%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;سير عمل رعاية المرضى:
+1. حجز الموعد ← تخصيص الموارد
+2. تسجيل دخول المريض ← مراجعة التاريخ الطبي
+3. الاستشارة ← تخطيط العلاج
+4. الوصفة الطبية ← التكامل مع الصيدلية
+5. الفوترة ← معالجة التأمين
+6. المتابعة ← جدولة المواعيد&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;ميزات خاصة بالطب&lt;span class="hx:absolute hx:-mt-20" id="ميزات-خاصة-بالطب"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d8%ae%d8%a7%d8%b5%d8%a9-%d8%a8%d8%a7%d9%84%d8%b7%d8%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;السجلات الطبية الإلكترونية&lt;/strong&gt;: إدارة آمنة لبيانات المرضى&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;جدولة المواعيد&lt;/strong&gt;: إدارة تقويم متعددة المزوّدين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المخزون الطبي&lt;/strong&gt;: تتبّع صلاحية الأدوية والدفعات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التكامل مع التأمين&lt;/strong&gt;: التحقق من المطالبات في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إعداد تقارير الامتثال&lt;/strong&gt;: إعداد التقارير لوزارة الصحة (MOH) والجهات التنظيمية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;دراسة حالة: Klinik Kesihatan Utama&lt;span class="hx:absolute hx:-mt-20" id="دراسة-حالة-klinik-kesihatan-utama"&gt;&lt;/span&gt;
+&lt;a href="#%d8%af%d8%b1%d8%a7%d8%b3%d8%a9-%d8%ad%d8%a7%d9%84%d8%a9-klinik-kesihatan-utama" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;الخلفية&lt;/strong&gt;: عيادة متعددة التخصصات بـ 15 طبيبًا و3 مواقع
+&lt;strong&gt;التحدي&lt;/strong&gt;: سجلات ورقية وإدارة مواعيد غير فعّالة
+&lt;strong&gt;التنفيذ&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;سجلات مرضى رقمية مع وصول عبر الهاتف المحمول&lt;/li&gt;
+&lt;li&gt;نظام حجز مواعيد عبر الإنترنت&lt;/li&gt;
+&lt;li&gt;إدارة آلية للوصفات الطبية والمخزون&lt;/li&gt;
+&lt;li&gt;أتمتة معالجة مطالبات التأمين&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;النتائج بعد 12 شهرًا:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;انخفاض بنسبة 70% في أوقات انتظار المرضى&lt;/li&gt;
+&lt;li&gt;انخفاض بنسبة 90% في فقدان سجلات المرضى&lt;/li&gt;
+&lt;li&gt;تحسّن بنسبة 50% في استغلال المواعيد&lt;/li&gt;
+&lt;li&gt;دقة 99.8% في معالجة مطالبات التأمين&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;قطاع التعليم&lt;span class="hx:absolute hx:-mt-20" id="قطاع-التعليم"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%8a%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;المدارس ومراكز التدريب&lt;span class="hx:absolute hx:-mt-20" id="المدارس-ومراكز-التدريب"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%af%d8%a7%d8%b1%d8%b3-%d9%88%d9%85%d8%b1%d8%a7%d9%83%d8%b2-%d8%a7%d9%84%d8%aa%d8%af%d8%b1%d9%8a%d8%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحديات القطاع:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;إدارة معلومات الطلاب&lt;/li&gt;
+&lt;li&gt;تحصيل الرسوم والمحاسبة&lt;/li&gt;
+&lt;li&gt;تتبّع الأداء الأكاديمي&lt;/li&gt;
+&lt;li&gt;إدارة الموظفين والرواتب&lt;/li&gt;
+&lt;li&gt;إدارة المرافق والموارد&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;حلول BigLedger:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;منصة إدارة التعليم&lt;span class="hx:absolute hx:-mt-20" id="منصة-إدارة-التعليم"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%86%d8%b5%d8%a9-%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%8a%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;الإدارة الأكاديمية:
+• تسجيل الطلاب ← تقييم الرسوم
+• جدولة الفصول ← تعيين المعلمين
+• تتبّع الحضور ← إشعار أولياء الأمور
+• تسجيل التقييمات ← إنشاء التقارير
+• تحصيل الرسوم ← إعداد التقارير المالية&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;ميزات خاصة بالتعليم&lt;span class="hx:absolute hx:-mt-20" id="ميزات-خاصة-بالتعليم"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d8%ae%d8%a7%d8%b5%d8%a9-%d8%a8%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%8a%d9%85" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;نظام معلومات الطلاب&lt;/strong&gt;: سجلات أكاديمية كاملة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة الرسوم&lt;/strong&gt;: هياكل رسوم مرنة وخطط سداد&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة الجداول الزمنية&lt;/strong&gt;: تحسين الجدولة تلقائيًا&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;بوابة أولياء الأمور&lt;/strong&gt;: الوصول إلى التقدم الأكاديمي في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إنشاء الشهادات&lt;/strong&gt;: طباعة تلقائية للكشوف والشهادات&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;الخدمات المهنية&lt;span class="hx:absolute hx:-mt-20" id="الخدمات-المهنية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d9%87%d9%86%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;شركات الاستشارات والخدمات الاستشارية&lt;span class="hx:absolute hx:-mt-20" id="شركات-الاستشارات-والخدمات-الاستشارية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b4%d8%b1%d9%83%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b4%d8%a7%d8%b1%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحديات القطاع:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;الفوترة القائمة على المشاريع وتتبّع الوقت&lt;/li&gt;
+&lt;li&gt;تخصيص الموارد عبر مشاريع متعددة&lt;/li&gt;
+&lt;li&gt;إدارة علاقات العملاء&lt;/li&gt;
+&lt;li&gt;إدارة المعرفة والتعاون&lt;/li&gt;
+&lt;li&gt;قياس الأداء وتحليل الربحية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;حلول BigLedger:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;أتمتة الخدمات المهنية&lt;span class="hx:absolute hx:-mt-20" id="أتمتة-الخدمات-المهنية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a3%d8%aa%d9%85%d8%aa%d8%a9-%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d9%87%d9%86%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;إدارة دورة حياة المشروع:
+1. توليد العملاء المحتملين ← إنشاء العروض
+2. إعداد المشروع ← تخطيط الموارد
+3. تتبّع الوقت ← تسجيل المصروفات
+4. مراقبة التقدم ← تحديثات العميل
+5. إنشاء الفوترة ← تحصيل المدفوعات
+6. إغلاق المشروع ← التقاط المعرفة&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;ميزات خاصة بالخدمات&lt;span class="hx:absolute hx:-mt-20" id="ميزات-خاصة-بالخدمات"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d8%ae%d8%a7%d8%b5%d8%a9-%d8%a8%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;تتبّع الوقت والمصروفات&lt;/strong&gt;: تسجيل مفصّل لتكاليف المشروع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;محاسبة المشاريع&lt;/strong&gt;: تحليل الربحية في الوقت الفعلي&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة الموارد&lt;/strong&gt;: تخصيص الموظفين على أساس المهارات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;بوابة العميل&lt;/strong&gt;: شفافية المشروع والتواصل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قاعدة المعرفة&lt;/strong&gt;: التقاط المعرفة المؤسسية&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;البناء والعقارات&lt;span class="hx:absolute hx:-mt-20" id="البناء-والعقارات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a8%d9%86%d8%a7%d8%a1-%d9%88%d8%a7%d9%84%d8%b9%d9%82%d8%a7%d8%b1%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;تطوير العقارات والبناء&lt;span class="hx:absolute hx:-mt-20" id="تطوير-العقارات-والبناء"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%b7%d9%88%d9%8a%d8%b1-%d8%a7%d9%84%d8%b9%d9%82%d8%a7%d8%b1%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%a8%d9%86%d8%a7%d8%a1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;تحديات القطاع:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;التحكم في تكاليف المشروع وإدارة الميزانية&lt;/li&gt;
+&lt;li&gt;تنسيق المقاولين من الباطن ومدفوعاتهم&lt;/li&gt;
+&lt;li&gt;شراء المواد وإدارة الموقع&lt;/li&gt;
+&lt;li&gt;تتبّع التقدم وإدارة مراحل الإنجاز&lt;/li&gt;
+&lt;li&gt;الامتثال للوائح البناء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;حلول BigLedger:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;إدارة مشاريع البناء&lt;span class="hx:absolute hx:-mt-20" id="إدارة-مشاريع-البناء"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d9%85%d8%b4%d8%a7%d8%b1%d9%8a%d8%b9-%d8%a7%d9%84%d8%a8%d9%86%d8%a7%d8%a1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;نظام التحكم في المشروع:
+• تخطيط المشروع ← تقدير الموارد
+• شراء المواد ← إدارة المورّدين
+• إدارة المقاولين من الباطن ← تتبّع التقدم
+• مراقبة الجودة ← مراقبة الامتثال
+• التحكم في التكاليف ← تحليل الميزانية&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;منهجية التنفيذ&lt;span class="hx:absolute hx:-mt-20" id="منهجية-التنفيذ"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%86%d9%87%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;عملية التنفيذ الخاصة بكل قطاع&lt;span class="hx:absolute hx:-mt-20" id="عملية-التنفيذ-الخاصة-بكل-قطاع"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0-%d8%a7%d9%84%d8%ae%d8%a7%d8%b5%d8%a9-%d8%a8%d9%83%d9%84-%d9%82%d8%b7%d8%a7%d8%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;المرحلة 1: تحليل القطاع (الأسبوعان 1-2)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;توثيق العمليات الحالية&lt;/li&gt;
+&lt;li&gt;بحث أفضل ممارسات القطاع&lt;/li&gt;
+&lt;li&gt;تحديد متطلبات الامتثال&lt;/li&gt;
+&lt;li&gt;تحليل الفجوات وتصميم الحلول&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;المرحلة 2: تهيئة الحل (الأسبوعان 3-4)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;نشر قوالب القطاع&lt;/li&gt;
+&lt;li&gt;تهيئة سير العمل المخصص&lt;/li&gt;
+&lt;li&gt;إعداد التكامل واختباره&lt;/li&gt;
+&lt;li&gt;إعداد مواد تدريب المستخدمين&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;المرحلة 3: التنفيذ التجريبي (الأسبوعان 5-6)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;اختيار المجموعة التجريبية وتدريبها&lt;/li&gt;
+&lt;li&gt;ترحيل البيانات والتحقق منها&lt;/li&gt;
+&lt;li&gt;اختبار العمليات وتحسينها&lt;/li&gt;
+&lt;li&gt;جمع ملاحظات المستخدمين&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;المرحلة 4: النشر الكامل (الأسبوعان 7-8)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;الطرح على مستوى المؤسسة&lt;/li&gt;
+&lt;li&gt;تقديم التدريب النهائي للمستخدمين&lt;/li&gt;
+&lt;li&gt;تفعيل نظام الدعم&lt;/li&gt;
+&lt;li&gt;إعداد مراقبة الأداء&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;المرحلة 5: التحسين (الأسابيع 9-12)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;تحليل الأداء وضبطه&lt;/li&gt;
+&lt;li&gt;تهيئة ميزات إضافية&lt;/li&gt;
+&lt;li&gt;مشاركة أفضل الممارسات&lt;/li&gt;
+&lt;li&gt;قياس النجاح وإعداد التقارير&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;مقاييس النجاح حسب القطاع&lt;span class="hx:absolute hx:-mt-20" id="مقاييس-النجاح-حسب-القطاع"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%82%d8%a7%d9%8a%d9%8a%d8%b3-%d8%a7%d9%84%d9%86%d8%ac%d8%a7%d8%ad-%d8%ad%d8%b3%d8%a8-%d8%a7%d9%84%d9%82%d8%b7%d8%a7%d8%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;القطاع&lt;/th&gt;
+&lt;th&gt;مؤشرات الأداء الرئيسية&lt;/th&gt;
+&lt;th&gt;التحسينات النموذجية&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;السيارات&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;معدل إنجاز الخدمة، رضا العملاء&lt;/td&gt;
+&lt;td&gt;+40% كفاءة، +25% رضا&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;الأغذية والمشروبات&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;نسبة تكلفة الطعام، معدل دوران الطاولات&lt;/td&gt;
+&lt;td&gt;-18% هدر، +22% هامش&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;التصنيع&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;الفعالية الكلية للمعدات، درجات الجودة&lt;/td&gt;
+&lt;td&gt;+15% OEE، -50% شكاوى&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;التجزئة&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;معدل دوران المخزون، معدل التحويل&lt;/td&gt;
+&lt;td&gt;+28% دوران، +45% تحويل&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;الرعاية الصحية&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;وقت انتظار المريض، دقة المطالبات&lt;/td&gt;
+&lt;td&gt;-70% وقت انتظار، +99.8% دقة&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;البدء بحلول القطاعات&lt;span class="hx:absolute hx:-mt-20" id="البدء-بحلول-القطاعات"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a8%d8%af%d8%a1-%d8%a8%d8%ad%d9%84%d9%88%d9%84-%d8%a7%d9%84%d9%82%d8%b7%d8%a7%d8%b9%d8%a7%d8%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;التقييم والتخطيط&lt;span class="hx:absolute hx:-mt-20" id="التقييم-والتخطيط"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d9%82%d9%8a%d9%8a%d9%85-%d9%88%d8%a7%d9%84%d8%aa%d8%ae%d8%b7%d9%8a%d8%b7" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;تقييم القطاع&lt;/strong&gt;: افهم تحديات قطاعك المحددة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;رسم خرائط العمليات&lt;/strong&gt;: وثّق سير العمل الحالي ونقاط الألم&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تصميم الحل&lt;/strong&gt;: اختر قالب القطاع المناسب والتخصيصات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تخطيط التنفيذ&lt;/strong&gt;: طوّر استراتيجية طرح على مراحل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قياس النجاح&lt;/strong&gt;: حدّد مؤشرات الأداء الرئيسية وإطار القياس&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;الدعم والموارد&lt;span class="hx:absolute hx:-mt-20" id="الدعم-والموارد"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%af%d8%b9%d9%85-%d9%88%d8%a7%d9%84%d9%85%d9%88%d8%a7%d8%b1%d8%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;خبراء القطاع&lt;/strong&gt;: مستشارون متخصصون بخبرة قطاعية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مكتبة أفضل الممارسات&lt;/strong&gt;: تهيئات وسير عمل مثبتة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مجتمع المستخدمين&lt;/strong&gt;: مجموعات ومنتديات مستخدمين خاصة بكل قطاع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحديثات مستمرة&lt;/strong&gt;: تحديثات ميزات منتظمة بناءً على احتياجات القطاع&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;البدء&lt;/strong&gt;: تواصل مع متخصصي القطاعات لدينا على &lt;a href="mailto:industry@bigledger.com" &gt;industry@bigledger.com&lt;/a&gt; لمناقشة متطلباتك المحددة ومعرفة كيف يمكن لـ BigLedger أن يحوّل عمليات عملك.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;الخطوات التالية&lt;span class="hx:absolute hx:-mt-20" id="الخطوات-التالية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%a7%d9%84%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;بعد مراجعة حلول القطاعات:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/implementation/" &gt;دليل التنفيذ&lt;/a&gt;&lt;/strong&gt; - ابدأ رحلتك مع BigLedger&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/user-guide/best-practices/" &gt;أفضل الممارسات&lt;/a&gt;&lt;/strong&gt; - نصائح تحسين خاصة بكل قطاع&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://bigledger.com/case-studies/" target="_blank" rel="noopener"&gt;دراسات الحالة&lt;/a&gt;&lt;/strong&gt; - قصص نجاح مفصّلة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://bigledger.com/demo/" target="_blank" rel="noopener"&gt;طلب عرض توضيحي&lt;/a&gt;&lt;/strong&gt; - شاهد حلول القطاعات قيد التطبيق&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-orange-100 hx:bg-orange-50 hx:text-orange-800 hx:dark:border-orange-400/30 hx:dark:bg-orange-400/20 hx:dark:text-orange-300"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;نجاح القطاعات&lt;/strong&gt;: ساعدت حلول BigLedger الخاصة بكل قطاع آلاف الأعمال الماليزية على تحقيق تحسينات تشغيلية بنسبة 20-40% خلال العام الأول من التنفيذ.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

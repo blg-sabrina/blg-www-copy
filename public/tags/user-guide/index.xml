@@ -4822,20 +4822,9 @@ title="Copy code"
 &lt;li&gt;&lt;a href="https://www.bigledger.com/guides/accounting-guides/financial-reporting/" &gt;Financial Reporting Guide&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.bigledger.com/guides/accounting-guides/bank-reconciliation-guide/" &gt;Bank Reconciliation Step-by-Step&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>API Reference</title><link>https://www.bigledger.com/api-reference/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/api-reference/</guid><description>
-&lt;p&gt;Complete API reference for BigLedger services.&lt;/p&gt;
-&lt;h2&gt;Available APIs&lt;span class="hx:absolute hx:-mt-20" id="available-apis"&gt;&lt;/span&gt;
-&lt;a href="#available-apis" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Core APIs&lt;span class="hx:absolute hx:-mt-20" id="core-apis"&gt;&lt;/span&gt;
-&lt;a href="#core-apis" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Transaction API&lt;/strong&gt; - Create, query, and manage transactions&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Account API&lt;/strong&gt; - Account management and authentication&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Wallet API&lt;/strong&gt; - Wallet operations and balance queries&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Advanced APIs&lt;span class="hx:absolute hx:-mt-20" id="advanced-apis"&gt;&lt;/span&gt;
-&lt;a href="#advanced-apis" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Smart Contract API&lt;/strong&gt; - Deploy and interact with smart contracts&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Analytics API&lt;/strong&gt; - Access transaction analytics and reports&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Webhook API&lt;/strong&gt; - Configure and manage webhooks&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Customer Relationship Management (CRM)</title><link>https://www.bigledger.com/modules/crm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/modules/crm/</guid><description>
+&lt;p&gt;BigLedger provides a REST API and SDKs for building on the platform. Access to
+the full reference is granted to customers and approved integration partners on
+request.&lt;/p&gt;</description></item><item><title>Customer Relationship Management (CRM)</title><link>https://www.bigledger.com/modules/crm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/modules/crm/</guid><description>
 &lt;h2&gt;Overview&lt;span class="hx:absolute hx:-mt-20" id="overview"&gt;&lt;/span&gt;
 &lt;a href="#overview" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The BigLedger CRM module provides a comprehensive solution for managing customer relationships, sales pipelines, and marketing campaigns. Built to help businesses understand, engage, and retain customers more effectively, it integrates seamlessly with all other BigLedger modules.&lt;/p&gt;
 &lt;h2&gt;Key Features&lt;span class="hx:absolute hx:-mt-20" id="key-features"&gt;&lt;/span&gt;

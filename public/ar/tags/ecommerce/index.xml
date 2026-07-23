@@ -1,0 +1,245 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>وثائق BigLedger – Ecommerce</title><link>https://www.bigledger.com/ar/tags/ecommerce/</link><description>Recent content in Ecommerce on وثائق BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ar</language><atom:link href="https://www.bigledger.com/ar/tags/ecommerce/index.xml" rel="self" type="application/rss+xml"/><item><title>2.0 تكوين الموقع الإلكتروني﻿</title><link>https://www.bigledger.com/ar/modules/ecommerce/20-website-configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/modules/ecommerce/20-website-configuration/</guid><description>
+&lt;h1&gt;2.0 تكوين الموقع الإلكتروني﻿&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3187343370
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2024-11-17T11:07:01.283Z&lt;/p&gt;
+&lt;h2&gt;2.1 إعداد موقعك الإلكتروني﻿&lt;span class="hx:absolute hx:-mt-20" id="21-إعداد-موقعك-الإلكتروني"&gt;&lt;/span&gt;
+&lt;a href="#21-%d8%a5%d8%b9%d8%af%d8%a7%d8%af-%d9%85%d9%88%d9%82%d8%b9%d9%83-%d8%a7%d9%84%d8%a5%d9%84%d9%83%d8%aa%d8%b1%d9%88%d9%86%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;يوفر CP-Commerce واجهة سهلة الاستخدام لتكوين موقعك الإلكتروني. راجع قسم تكوين الموقع الإلكتروني للحصول على تعليمات مفصلة حول إعداد موقعك وتخصيصه.&lt;/p&gt;
+&lt;h2&gt;2.2 تخصيص محتوى الموقع الإلكتروني﻿&lt;span class="hx:absolute hx:-mt-20" id="22-تخصيص-محتوى-الموقع-الإلكتروني"&gt;&lt;/span&gt;
+&lt;a href="#22-%d8%aa%d8%ae%d8%b5%d9%8a%d8%b5-%d9%85%d8%ad%d8%aa%d9%88%d9%89-%d8%a7%d9%84%d9%85%d9%88%d9%82%d8%b9-%d8%a7%d9%84%d8%a5%d9%84%d9%83%d8%aa%d8%b1%d9%88%d9%86%d9%8a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;تعلّم كيفية تخصيص محتوى موقعك الإلكتروني، بما في ذلك قوائم المنتجات والصور والأوصاف والتسعير، لإنشاء تجربة تسوق إلكترونية جذابة لعملائك.&lt;/p&gt;</description></item><item><title>B2B</title><link>https://www.bigledger.com/ar/modules/ecommerce/b2b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/modules/ecommerce/b2b/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3153822181
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-06-05T09:01:05.690Z&lt;/p&gt;</description></item><item><title>CP-Commerce</title><link>https://www.bigledger.com/ar/modules/ecommerce/cp-commerce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/modules/ecommerce/cp-commerce/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3153887626
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2024-11-17T11:04:53.671Z
+وحدة CP-Commerce هي حل قوي مصمم لمساعدة الأعمال على تقديم المنتجات والخدمات عبر الإنترنت. تعمل كمنصة متكاملة تجمع بين إمكانات التجارة الإلكترونية وإدارة البيانات المركزية والتكامل السلس مع أنظمة أعمال أخرى متنوعة. من خلال إلغاء الإدخال المكرر للبيانات وتوفير وظيفة بحيرة البيانات التشغيلية، يمكّن CP-Commerce الأعمال من إنشاء حضور قوي عبر الإنترنت وتنمية عملياتها.&lt;/p&gt;</description></item><item><title>Create Single Tab</title><link>https://www.bigledger.com/ar/modules/ecommerce/create-single-tab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/modules/ecommerce/create-single-tab/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3196191946
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-06-18T06:09:58.079Z
+الإنشاء - يُستخدم لمزامنة الصنف المختار في متجر بالسوق الإلكتروني. يتكوّن الإنشاء من نوعين:
+الإنشاء الفردي - يُستخدم عندما يريد المستخدم مزامنة صنف واحد (1) في السوق الإلكتروني
+يتكوّن إنشاء صنف فردي من تبويبين:
+تبويب المتجر - يُستخدم لاختيار المتجر الذي يريد المستخدم المزامنة إليه، حيث يمكن للمستخدمين اختيار متاجر متعددة.
+بمجرد اختيار المتجر، سيتعيّن على المستخدم اختيار الفئة:
+2. تبويب الصنف - يُستخدم لاختيار الصنف الحالي الذي تقوم بتحريره وتريد مزامنته مع السوق الإلكتروني:
+بمجرد اختيار المتجر والفئة، على المستخدم الضغط على زر &amp;ldquo;start listing&amp;rdquo; الذي سينقله إلى صفحة الملخص:
+يجب على المستخدم النقر على الصنف وملء جميع تفاصيل السمات:
+بمجرد إكمال المستخدم لملء تفاصيل السمات، يمكنه النقر على زر &amp;ldquo;Submit&amp;rdquo; للمزامنة مع السوق الإلكتروني.&lt;/p&gt;</description></item><item><title>EcomSync Applet</title><link>https://www.bigledger.com/ar/modules/ecommerce/ecomsync-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/modules/ecommerce/ecomsync-applet/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3259346357
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-07-23T05:51:22.732Z
+جدول المحتويات
+مقدمة إلى Ecomsync
+ميزات Ecomsync
+صيانة الأصناف
+الطلب
+قائمة الطلبات
+تصفية الطلبات
+تفاصيل الطلب
+لوحة المعلومات
+لوحة المعلومات الرئيسية
+لوحة معلومات المبيعات
+لوحة معلومات الطلبات
+الإعدادات
+التكامل مع Shopify&lt;/p&gt;</description></item><item><title>Ecomsync Features</title><link>https://www.bigledger.com/ar/modules/ecommerce/ecomsync-features/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/modules/ecommerce/ecomsync-features/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3299247174
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-07-19T02:40:30.908Z
+حالة الجاهزية: 5 - الأفضل الممكنأخضر 4 - الأمثلأصفر 3 - متوسطأزرق 2 - دون الأمثلبنفسجي 1 - الأسوأ الممكنأحمر
+المرحلة 1
+1الوحدة
+الوحدة الفرعية
+الأبلت ذو الصلة
+الجاهزية
+2تكامل Lazada
+أبلت المؤسسة
+4 - الأمثلأصفر
+3إدارة المنتجات
+اختيار رمز دفتر الأستاذ العام
+صيانة أصناف المستند
+4 - الأمثلأصفر
+4تتبع المخزون
+4 - الأمثلأصفر
+5إضافة تفاصيل الأبعاد
+4 - الأمثلأصفر
+6إضافة صورة المنتج
+4 - الأمثلأصفر
+7اختيار فئة الصورة
+4 - الأمثلأصفر
+8إدارة السوق الإلكتروني
+إضافة سوق إلكتروني
+أبلت المؤسسة
+4 - الأمثلأصفر
+9اختيار فئة الصنف كمجمّع أو فردي
+4 - الأمثلأصفر
+10اختيار الصنف ليُنشر في السوق الإلكتروني
+4 - الأمثلأصفر
+11مزامنة EMP كأمر بيع (نظام ERP)
+مزامنة EMP
+4 - الأمثلأصفر
+12مزامنة سمات Lazada
+اختيار فئة صنف Lazada
+4 - الأمثلأصفر
+13ملء حقول سمات Lazada وفقًا للفئة المختارة
+4 - الأمثلأصفر
+14إضافة مزيد من الصور في صفحة السمات
+4 - الأمثلأصفر
+15توافر المخزون / إدارة المخزون
+تكوين المخزون التلقائي
+4 - الأمثلأصفر
+16تكوين المخزون اليدوي
+4 - الأمثلأصفر
+17تعيين كمية احتياطي المخزون
+4 - الأمثلأصفر
+18إدارة أوامر البيع
+تكوين أمر البيع النشط
+4 - الأمثلأصفر
+19تكوين أمر البيع غير النشط
+4 - الأمثلأصفر
+20تكوين انتقائي لأمر البيع النشط
+4 - الأمثلأصفر
+21مزامنة طلبات Lazada من حساب البائع
+4 - الأمثلأصفر
+22تصفية الحالة
+4 - الأمثلأصفر
+23تحديد متعدد للطلبات لطباعة الفاتورة
+4 - الأمثلأصفر
+24طباعة ملصق الشحن
+4 - الأمثلأصفر
+25طباعة قائمة الانتقاء
+4 - الأمثلأصفر
+26تصدير الطلب إلى Excel
+4 - الأمثلأصفر
+27إنشاء بيان الشحن
+4 - الأمثلأصفر
+28عرض تفاصيل الطلب (الصنف، الشحن، تفاصيل العميل)
+4 - الأمثلأصفر
+29لوحة المعلومات / التقارير
+تصفية لوحة المعلومات حسب 30 يومًا
+4 - الأمثلأصفر
+30تصفية لوحة المعلومات حسب 7 أيام
+4 - الأمثلأصفر
+31إدخال تقرير بتاريخ مخصص
+4 - الأمثلأصفر
+32عرض تقرير إجمالي المبيعات
+4 - الأمثلأصفر
+33عرض تقرير المبيعات اليومية حسب المتجر
+4 - الأمثلأصفر
+34عرض إجمالي الطلبات
+4 - الأمثلأصفر
+35عرض الطلبات الملغاة
+4 - الأمثلأصفر
+36تكامل CP Commerce
+دمج الطلبات من CP Commerce في Ecomsync
+4 - الأمثلأصفر
+37إدارة رصيد المخزون في Ecomsync
+4 - الأمثلأصفر
+38المرحلة 2
+39تكامل Shopee
+تتم مزامنة أمر البيع ورصيد المخزون مع EMP
+إدارة السمات والفئات من Shopee إلى Ecomsync
+تنفيذ المخزون / الطلب
+إدارة الطلبات (إنشاء إشعار الشحنة، الفاتورة، إلخ)
+40تكامل Shopify
+تتم مزامنة أمر البيع ورصيد المخزون مع EMP
+إدارة السمات والفئات من Shopify إلى Ecomsync
+تنفيذ المخزون / الطلب
+إدارة الطلبات (إنشاء إشعار الشحنة، الفاتورة، إلخ)
+41تكامل Zalora
+تتم مزامنة أمر البيع ورصيد المخزون مع EMP
+إدارة السمات والفئات من Zalora إلى Ecomsync
+تنفيذ المخزون / الطلب
+إدارة الطلبات (إنشاء إشعار الشحنة، الفاتورة، إلخ)
+42تكامل OpenCart
+تتم مزامنة أمر البيع ورصيد المخزون مع EMP
+إدارة السمات والفئات من OpenCart إلى Ecomsync
+تنفيذ المخزون / الطلب
+إدارة الطلبات (إنشاء إشعار الشحنة، الفاتورة، إلخ)
+43تكامل Magento
+تتم مزامنة أمر البيع ورصيد المخزون مع EMP
+إدارة السمات والفئات من Magento إلى Ecomsync
+تنفيذ المخزون / الطلب
+إدارة الطلبات (إنشاء إشعار الشحنة، الفاتورة، إلخ)
+44سجل التدقيق
+45تنفيذ المخزون&lt;/p&gt;</description></item><item><title>Integration with Shopify</title><link>https://www.bigledger.com/ar/modules/ecommerce/integration-with-shopify/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/modules/ecommerce/integration-with-shopify/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3292758065
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-07-15T07:56:28.266Z
+الخطوات،..&lt;/p&gt;</description></item><item><title>Introduction to EcomSync</title><link>https://www.bigledger.com/ar/modules/ecommerce/introduction-to-ecomsync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/modules/ecommerce/introduction-to-ecomsync/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3196485958
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-06-18T01:46:53.953Z&lt;/p&gt;
+&lt;h2&gt;مقدمة&lt;span class="hx:absolute hx:-mt-20" id="مقدمة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%82%d8%af%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;أبلت EcomSync هو أبلت يمكن للمستخدمين من خلاله تنظيم وإدارة أصنافهم/منتجاتهم وطلباتهم وعرض أداء أسواقهم الإلكترونية. يهدف أبلت EcomSync إلى تزويد المستخدمين بفهم كيفية إدارة جوانب أسواقهم الإلكترونية.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.bigledger.com/diagrams/ecomsync-integration-flow.svg" alt="EcomSync Integration Flow" loading="lazy" /&gt;
+&lt;em&gt;الشكل 1: بنية تكامل EcomSync - ربط BigLedger بأبرز الأسواق الإلكترونية الماليزية&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;يمكنك الاستفادة من العديد من المزايا عبر الأبلت، فمن منظور الإدارة على سبيل المثال، يوفر EcomSync تحكمًا أفضل وأكثر جدوى في متاجر البائع الخاصة بك. يمكنك مزامنة الأصناف في آنٍ واحد إلى حسابات بائعين متعددة. وإلى جانب ذلك، يعمل EcomSync كمنظّم يمكنك من خلاله إدارة الطلب وحالته، ويمكن ربطه ببوابة إدارة المؤسسة (EMP) الخاصة بك مما يسهّل عملية إدارة منتجاتك.&lt;/p&gt;
+&lt;h2&gt;المتطلبات المسبقة&lt;span class="hx:absolute hx:-mt-20" id="المتطلبات-المسبقة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d8%aa%d8%b7%d9%84%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b3%d8%a8%d9%82%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;للمتابعة والبدء في أبلت EcomSync، يُرجى التأكد من أنك قد أنشأت تفاصيل المؤسسة والفرع في أبلت المؤسسة.&lt;/p&gt;
+&lt;h3&gt;الميزات الرئيسية&lt;span class="hx:absolute hx:-mt-20" id="الميزات-الرئيسية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;إدارة الأسواق الإلكترونية المتعددة&lt;/strong&gt;: الاتصال بـ Shopee وLazada والمتاجر المخصصة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;المزامنة في الوقت الفعلي&lt;/strong&gt;: تتم مزامنة المخزون والأسعار والطلبات تلقائيًا&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;دعم التجارة الإلكترونية الماليزية&lt;/strong&gt;: مصمم لطرق الدفع والشحن المحلية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;التحكم المركزي&lt;/strong&gt;: إدارة جميع مبيعاتك عبر الإنترنت من لوحة معلومات واحدة&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Listing</title><link>https://www.bigledger.com/ar/modules/ecommerce/listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/modules/ecommerce/listing/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3196846319
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-06-18T02:06:35.534Z
+تعرض القائمة جميع الأصناف الخاصة بك التي تمت مزامنتها من EMP والسوق الإلكتروني. داخل القائمة، يمكن أن يكون الصنف على مستويين، حيث يكون المستوى الأول هو الصنف الذي تمت مزامنته من EMP أو الذي أنشأه المستخدم بنفسه، ويعرض المستوى الثاني الأصناف التي تمت مزامنتها إلى السوق الإلكتروني:
+يمكن للمستخدم تخصيص قائمة AG-Grid، حيث يمكنه تحريك رؤوس القائمة وتصفيتها.&lt;/p&gt;</description></item><item><title>Marketplace Tab</title><link>https://www.bigledger.com/ar/modules/ecommerce/marketplace-tab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/modules/ecommerce/marketplace-tab/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3196191832
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-07-23T05:24:07.943Z
+يُستخدم تبويب السوق الإلكتروني لتمكين المستخدمين من إنشاء الأصناف وتحريرها وتحديثها وحذفها لمزامنتها في السوق الإلكتروني. سيتيح لك هذا القسم اختيار نوع الصنف المراد عرضه في السوق الإلكتروني.
+انقر على حفظ. - في هذه الوحدة، في كل مرة تحرّر فيها تفاصيل الصنف عبر التبويبات &amp;ldquo;يجب النقر على حفظ&amp;rdquo;.&lt;/p&gt;</description></item><item><title>Update and Delete Item</title><link>https://www.bigledger.com/ar/modules/ecommerce/update-and-delete-item/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/modules/ecommerce/update-and-delete-item/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3196191957
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-06-18T06:15:40.294Z
+تحديث/حذف الصنف - عندما يريد المستخدم تحديث أو حذف الصنف الذي تمت مزامنته إلى السوق الإلكتروني، سيتعيّن عليه الانتقال إلى &amp;ldquo;Marketplace Tab&amp;rdquo; واختيار المتجر من القائمة الحالية وتحديث/حذف الصنف:&lt;/p&gt;</description></item><item><title>تطبيقات EcomSync ذات الصلة</title><link>https://www.bigledger.com/ar/applets/90-ecomsync-related-applets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/90-ecomsync-related-applets/</guid><description>
+&lt;p&gt;تطبيق المؤسسة في Ecomsync
+تطبيق المؤسسة في Ecomsync - إنشاء شركة
+تطبيق المؤسسة في Ecomsync: إنشاء فرع افتراضي (Marketplace)
+تطبيق المؤسسة في Ecomsync - Marketplace: إعداد المخزون وأوامر البيع حسب الفرع
+تطبيق صيانة عناصر المستندات في Ecomsync: إنشاء عنصر مفرد
+تطبيق صيانة عناصر المستندات في Ecomsync: إنشاء عنصر مُجمَّع (Bundle)
+تطبيق صيانة عناصر المستندات في Ecomsync: إنشاء عنصر مُصنَّف ضمن مجموعة
+تطبيق صيانة عناصر المستندات في Ecomsync: تهيئة العنصر المفرد/المُجمَّع إلى Marketplace
+تطبيق صيانة عناصر المستندات في Ecomsync: تهيئة العنصر المُصنَّف ضمن مجموعة إلى Marketplace
+تطبيق صيانة عناصر المستندات في Ecomsync: تهيئة رصيد المخزون وأمر البيع
+تطبيق أوامر البيع الداخلية في Ecomsync: تحديث حالة طلب Marketplace&lt;/p&gt;</description></item><item><title>تطبيق كتالوج التجارة الإلكترونية</title><link>https://www.bigledger.com/ar/applets/ecommerce-catalog-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/ecommerce-catalog-applet/</guid><description>
+&lt;h2&gt;الغرض والنظرة العامة&lt;span class="hx:absolute hx:-mt-20" id="الغرض-والنظرة-العامة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%ba%d8%b1%d8%b6-%d9%88%d8%a7%d9%84%d9%86%d8%b8%d8%b1%d8%a9-%d8%a7%d9%84%d8%b9%d8%a7%d9%85%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;قيد الإنجاز&lt;/strong&gt;: يحتاج توثيق هذا التطبيق إلى توسيع مفصّل. هذا هيكل مبدئي يتضمّن البنية الأساسية والمعلومات الرئيسية.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;تطبيق كتالوج التجارة الإلكترونية مكوّن متخصص من وحدة CP-Commerce في BigLedger، إذ يوفّر إدارة شاملة لكتالوج المنتجات عبر الإنترنت، وتحسين محركات البحث، وقدرات التجارة الرقمية لعمليات التجارة الإلكترونية.&lt;/p&gt;
+&lt;h3&gt;الوظائف الأساسية&lt;span class="hx:absolute hx:-mt-20" id="الوظائف-الأساسية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%88%d8%b8%d8%a7%d8%a6%d9%81-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;إدارة كتالوج المنتجات&lt;/strong&gt; - عرض المنتجات عبر الإنترنت وتنظيمها&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;تحسين محركات البحث&lt;/strong&gt; - تحسين محركات البحث للمنتجات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة الفئات&lt;/strong&gt; - تصنيف المنتجات والتنقّل بينها&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة المحتوى&lt;/strong&gt; - محتوى منتجات غني ووسائط متعددة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;إدارة التسعير&lt;/strong&gt; - استراتيجيات التسعير والعروض الترويجية عبر الإنترنت&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;الميزات الرئيسية&lt;span class="hx:absolute hx:-mt-20" id="الميزات-الرئيسية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;قيد الإنجاز: توسيع قسم الميزات الرئيسية&lt;span class="hx:absolute hx:-mt-20" id="قيد-الإنجاز-توسيع-قسم-الميزات-الرئيسية"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d9%8a%d8%af-%d8%a7%d9%84%d8%a5%d9%86%d8%ac%d8%a7%d8%b2-%d8%aa%d9%88%d8%b3%d9%8a%d8%b9-%d9%82%d8%b3%d9%85-%d8%a7%d9%84%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;إدارة محتوى منتجات غني&lt;/li&gt;
+&lt;li&gt;دعم كتالوج متعدد اللغات&lt;/li&gt;
+&lt;li&gt;عناوين URL وبيانات وصفية ملائمة لمحركات البحث&lt;/li&gt;
+&lt;li&gt;محرّك توصيات المنتجات&lt;/li&gt;
+&lt;li&gt;بحث وتصفية متقدمان&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;نقاط التكامل&lt;span class="hx:absolute hx:-mt-20" id="نقاط-التكامل"&gt;&lt;/span&gt;
+&lt;a href="#%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%aa%d9%83%d8%a7%d9%85%d9%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;تبعيات الوحدة الأساسية&lt;span class="hx:absolute hx:-mt-20" id="تبعيات-الوحدة-الأساسية"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%a8%d8%b9%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d9%88%d8%ad%d8%af%d8%a9-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/inv-item-maintenance-applet/" &gt;تطبيق صيانة عناصر المخزون&lt;/a&gt;&lt;/strong&gt; - البيانات الرئيسية للمنتجات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/tax-configuration-applet/" &gt;تطبيق إعداد الضرائب&lt;/a&gt;&lt;/strong&gt; - إعدادات ضرائب المنتجات&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.bigledger.com/ar/applets/organization-applet/" &gt;تطبيق المؤسسة&lt;/a&gt;&lt;/strong&gt; - دعم متعدد المتاجر&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;التطبيقات ذات الصلة&lt;span class="hx:absolute hx:-mt-20" id="التطبيقات-ذات-الصلة"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa-%d8%b0%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d9%84%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;قيد الإنجاز: توثيق التطبيقات ذات الصلة&lt;span class="hx:absolute hx:-mt-20" id="قيد-الإنجاز-توثيق-التطبيقات-ذات-الصلة"&gt;&lt;/span&gt;
+&lt;a href="#%d9%82%d9%8a%d8%af-%d8%a7%d9%84%d8%a5%d9%86%d8%ac%d8%a7%d8%b2-%d8%aa%d9%88%d8%ab%d9%8a%d9%82-%d8%a7%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa-%d8%b0%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d9%84%d8%a9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;تطبيق سلة التسوق&lt;/li&gt;
+&lt;li&gt;تطبيق الدفع عبر الإنترنت&lt;/li&gt;
+&lt;li&gt;تطبيق بوابة العملاء&lt;/li&gt;
+&lt;li&gt;تطبيق التسويق الرقمي&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;حالة التوثيق&lt;/strong&gt;: يتطلب هذا التطبيق توثيقًا شاملًا يتضمّن ميزات مفصّلة وتهيئة تحسين محركات البحث وأدلة إدارة المحتوى وأمثلة تنفيذ للتجارة الإلكترونية.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

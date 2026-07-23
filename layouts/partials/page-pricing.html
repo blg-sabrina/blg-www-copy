@@ -91,6 +91,18 @@
           (i18n "pr_p4_f2" | default "5 man-days of Cloud Architect consultation")
           (i18n "pr_p4_f3" | default "Dedicated environment"))
         "best" (i18n "pr_p4_best" | default "High-volume merchants that need dedicated environments."))
+  (dict "name" (i18n "pr_p5_name" | default "Customization & Bespoke")
+        "tag"  (i18n "pr_p5_tag"  | default "The build-your-own tier.")
+        "setup" (i18n "pr_custom_quote" | default "Custom Quote") "sub" (i18n "pr_custom_quote" | default "Custom Quote")
+        "rate" "RM1,500"
+        "custom" true
+        "pop" false
+        "feats" (slice
+          (i18n "pr_p5_f1" | default "Bespoke workflows and custom Applets")
+          (i18n "pr_p5_f2" | default "Complex WMS routing")
+          (i18n "pr_p5_f3" | default "Shopify, Magento and WooCommerce integrations")
+          (i18n "pr_p5_f4" | default "Accounting API bridges"))
+        "best" (i18n "pr_p5_best" | default "Businesses with highly unique requirements."))
 -}}
 <section class="bl-page-section bl-section-alt">
   <div class="bl-container">
@@ -115,12 +127,19 @@
         <div class="pr-rows">
           <div class="pr-row">
             <span class="pr-row-k">{{ i18n "pr_row_sub" | default "Software subscription" }}</span>
-            <span class="pr-row-v">{{ .sub }}<em>{{ i18n "pr_per_month" | default "/mo" }}</em></span>
+            <span class="pr-row-v">{{ .sub }}{{ if not .custom }}<em>{{ i18n "pr_per_month" | default "/mo" }}</em>{{ end }}</span>
           </div>
+          {{ if .rate }}
+          <div class="pr-row">
+            <span class="pr-row-k">{{ i18n "pr_row_rate" | default "Custom development" }}</span>
+            <span class="pr-row-v">{{ .rate }}<em>{{ i18n "pr_per_manday" | default "/man-day" }}</em></span>
+          </div>
+          {{ else }}
           <div class="pr-row">
             <span class="pr-row-k">{{ i18n "pr_row_cloud" | default "Est. cloud infrastructure" }}</span>
             <span class="pr-row-v pr-row-est">{{ .cloud }}<em>{{ i18n "pr_per_month" | default "/mo" }}</em></span>
           </div>
+          {{ end }}
         </div>
 
         <ul class="pr-feats">

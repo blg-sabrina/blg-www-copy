@@ -1,0 +1,1027 @@
+<!doctype html><html lang=ar dir=rtl class=dark style=color-scheme:dark><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=color-scheme content="dark"><title>المخزون والتصنيع المتقدم | وثائق BigLedger</title><meta name=description content="إدارة المخزون المعقدة وعمليات التصنيع"><link rel=icon href="https://www.bigledger.com/favicon.ico?v=2" sizes=32x32><link rel=icon type=image/svg+xml href="https://www.bigledger.com/favicon.svg?v=2"><link rel=icon type=image/png sizes=16x16 href="https://www.bigledger.com/favicon-16x16.png?v=2"><link rel=icon type=image/png sizes=32x32 href="https://www.bigledger.com/favicon-32x32.png?v=2"><link rel=icon type=image/png sizes=48x48 href="https://www.bigledger.com/favicon-48x48.png?v=2"><link rel=icon type=image/png sizes=96x96 href="https://www.bigledger.com/favicon-96x96.png?v=2"><link rel=apple-touch-icon sizes=180x180 href="https://www.bigledger.com/apple-touch-icon.png?v=2"><link rel=manifest href="https://www.bigledger.com/site.webmanifest?v=2"><meta name=theme-color content="#DC143C"><link rel=canonical href=https://www.bigledger.com/ar/guides/advanced/advanced-inventory-manufacturing/><link rel=alternate hreflang=en href=https://www.bigledger.com/guides/advanced/advanced-inventory-manufacturing/><link rel=alternate hreflang=x-default href=https://www.bigledger.com/guides/advanced/advanced-inventory-manufacturing/><link rel=alternate hreflang=zh href=https://www.bigledger.com/zh/guides/advanced/advanced-inventory-manufacturing/><link rel=alternate hreflang=ms href=https://www.bigledger.com/ms/guides/advanced/advanced-inventory-manufacturing/><link rel=alternate hreflang=ar href=https://www.bigledger.com/ar/guides/advanced/advanced-inventory-manufacturing/><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel=stylesheet><link rel=stylesheet href="https://www.bigledger.com/css/custom.css?v=86d84368a3"><link rel=stylesheet href=https://www.bigledger.com/css/hextra-compiled.min.5d2dbdb70c3803b0d71728ea5cc6030458068b9403f56a32fd63eedcc5ed7bc2.css integrity="sha256-XS29tww4A7DXFyjqXMYDBFgGi5QD9Woy/WPu3MXte8I="><meta property="og:title" content="المخزون والتصنيع المتقدم"><meta property="og:description" content="إدارة المخزون المعقدة وعمليات التصنيع"><meta property="og:type" content="website"><meta property="og:url" content="https://www.bigledger.com/ar/guides/advanced/advanced-inventory-manufacturing/"><meta property="og:image" content="https://www.bigledger.com/images/bigledger-logo.png"><meta property="og:site_name" content="وثائق BigLedger"><meta property="og:locale" content="ar"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="المخزون والتصنيع المتقدم"><meta name=twitter:description content="إدارة المخزون المعقدة وعمليات التصنيع"><meta name=twitter:image content="https://www.bigledger.com/images/bigledger-logo.png"></head><body><canvas id=bl-network-bg class=bl-network-bg aria-hidden=true></canvas><header class=bl-header><div class=bl-header-inner><nav class=bl-nav><a href=https://www.bigledger.com/ar/ class=bl-nav-logo aria-label="وثائق BigLedger"><img src=https://www.bigledger.com/images/bigledger-logo-cropped.png alt="وثائق BigLedger" height=36 class=bl-logo-img></a><div class=bl-nav-links><a href=https://www.bigledger.com/ar/about/ class=bl-nav-link>من نحن</a><div class="bl-nav-item bl-has-mega" data-mega=solutions><button type=button class="bl-nav-link bl-nav-link-btn" aria-haspopup=true aria-expanded=false>
+الحلول
+<svg class="bl-nav-caret" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg></button><div class=bl-mega-panel role=menu><div class=bl-mega-inner><div class=bl-mega-col><span class=bl-mega-label>حسب القطاع</span><ul class=bl-mega-list><li><a href=https://www.bigledger.com/ar/solutions/retail-ecommerce/ class=bl-mega-link>التجزئة والتجارة الإلكترونية</a></li><li><a href=https://www.bigledger.com/ar/solutions/wholesale-distribution/ class=bl-mega-link>الجملة والتوزيع</a></li><li><a href=https://www.bigledger.com/ar/solutions/manufacturing/ class=bl-mega-link>التصنيع</a></li><li><a href=https://www.bigledger.com/ar/solutions/services-professional/ class=bl-mega-link>الخدمات والمهن</a></li><li><a href=https://www.bigledger.com/ar/solutions/construction/ class=bl-mega-link>الإنشاءات</a></li><li><a href=https://www.bigledger.com/ar/solutions/automotive/ class=bl-mega-link>السيارات</a></li><li><a href=https://www.bigledger.com/ar/solutions/healthcare/ class=bl-mega-link>الرعاية الصحية</a></li><li><a href=https://www.bigledger.com/ar/solutions/it-consumer-electronics/ class=bl-mega-link>تقنية المعلومات والإلكترونيات</a></li><li><a href=https://www.bigledger.com/ar/solutions/franchise/ class=bl-mega-link>الامتياز التجاري</a></li><li><a href=https://www.bigledger.com/ar/solutions/drop-shipping/ class=bl-mega-link>الشحن المباشر</a></li></ul></div><div class=bl-mega-col><span class=bl-mega-label>حسب حجم الأعمال</span><ul class=bl-mega-list><li><a href=https://www.bigledger.com/ar/solutions/startups/ class=bl-mega-link>الشركات الناشئة</a></li><li><a href=https://www.bigledger.com/ar/solutions/sme/ class=bl-mega-link>المنشآت الصغيرة والمتوسطة</a></li><li><a href=https://www.bigledger.com/ar/solutions/mid-market/ class=bl-mega-link>الشركات المتوسطة</a></li><li><a href=https://www.bigledger.com/ar/solutions/multi-entity/ class=bl-mega-link>الكيانات المتعددة</a></li><li><a href=https://www.bigledger.com/ar/solutions/enterprise/ class=bl-mega-link>المؤسسات الكبرى</a></li></ul></div><div class=bl-mega-col><span class=bl-mega-label>حسب الدور</span><ul class=bl-mega-list><li><a href=https://www.bigledger.com/ar/solutions/business-owners/ class=bl-mega-link>أصحاب الأعمال</a></li><li><a href=https://www.bigledger.com/ar/solutions/finance-teams/ class=bl-mega-link>فرق المالية</a></li><li><a href=https://www.bigledger.com/ar/solutions/sales-ops/ class=bl-mega-link>عمليات المبيعات</a></li><li><a href=https://www.bigledger.com/ar/solutions/hr-teams/ class=bl-mega-link>فرق الموارد البشرية</a></li><li><a href=https://www.bigledger.com/ar/developers/ class=bl-mega-link>المطورون</a></li><li><a href=https://www.bigledger.com/ar/partners/ class=bl-mega-link>الشركاء</a></li></ul></div><div class=bl-mega-col><span class=bl-mega-label>الامتثال والثقة</span><ul class=bl-mega-list><li><a href=https://www.bigledger.com/ar/e-invoice-peppol/ class=bl-mega-link>الفاتورة الإلكترونية وPEPPOL</a></li><li><a href=https://www.bigledger.com/ar/mdec-e-invoice-promotion/ class=bl-mega-link>مبادرة MDEC للفاتورة الإلكترونية</a></li><li><a href=https://www.bigledger.com/ar/compliance/sst-epf-socso/ class=bl-mega-link>SST وEPF وSOCSO</a></li><li><a href=https://www.bigledger.com/ar/security/ class=bl-mega-link>الأمان</a></li></ul></div><div class=bl-mega-col><span class=bl-mega-label>الانتقال إلى BigLedger</span><ul class=bl-mega-list><li><a href=https://www.bigledger.com/ar/switch/autocount/ class=bl-mega-link>من AutoCount</a></li><li><a href=https://www.bigledger.com/ar/switch/sql-account/ class=bl-mega-link>من SQL Account</a></li><li><a href=https://www.bigledger.com/ar/switch/excel/ class=bl-mega-link>من Excel</a></li><li><a href=https://www.bigledger.com/ar/switch/quickbooks/ class=bl-mega-link>من QuickBooks</a></li><li><a href=https://www.bigledger.com/ar/switch/onboarding/ class=bl-mega-link>التهيئة والانطلاق</a></li></ul></div><div class="bl-mega-col bl-mega-col-wide"><span class=bl-mega-label>حسب الوظيفة</span><ul class="bl-mega-list bl-mega-list-grid"><li><a href=https://www.bigledger.com/ar/functions/financial-accounting/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 2h9l3 3v15H5z"/><path d="M14 2v3h3M8 10h6M8 13h6M8 16h4"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>المحاسبة المالية</span>
+<span class=bl-mega-tile-count>25 تطبيقًا في الكتالوج</span></span></a></li><li><a href=https://www.bigledger.com/ar/functions/e-invoice-peppol/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 2h12v18l-2.5-1.5L12 20l-2.5-1.5L7 20l-2-1.5V2z"/><path d="M8 7h6M8 11h6"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>الفاتورة الإلكترونية وPEPPOL</span>
+<span class=bl-mega-tile-count>8 تطبيقًا في الكتالوج</span></span></a></li><li><a href=https://www.bigledger.com/ar/functions/sales-crm/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 4h16l-6 8v6l-4 2v-8L3 4z"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>المبيعات وإدارة العملاء</span>
+<span class=bl-mega-tile-count>3 تطبيقًا في الكتالوج</span></span></a></li><li><a href=https://www.bigledger.com/ar/functions/point-of-sale/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M11 2h8v8L9 20l-8-8L11 2z"/><circle cx="14.5" cy="6.5" r="1.3"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>نقاط البيع</span>
+<span class=bl-mega-tile-count>6 تطبيقًا في الكتالوج</span></span></a></li><li><a href=https://www.bigledger.com/ar/functions/e-commerce/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M6 17h10a4 4 0 000-8A6 6 0 004.7 7 4.5 4.5.0 006 17z"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>التجارة الإلكترونية</span>
+<span class=bl-mega-tile-count>20 تطبيقًا في الكتالوج</span></span></a></li><li><a href=https://www.bigledger.com/ar/functions/inventory-warehouse/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 9l9-6 9 6v10a1 1 0 01-1 1H3a1 1 0 01-1-1V9z"/><path d="M8 20v-7h6v7"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>المخزون والمستودعات</span>
+<span class=bl-mega-tile-count>41 تطبيقًا في الكتالوج</span></span></a></li><li><a href=https://www.bigledger.com/ar/functions/purchasing/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 5h11v10H2zM13 9h4l3 3v3h-7z"/><circle cx="6" cy="17" r="1.6"/><circle cx="17" cy="17" r="1.6"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>المشتريات</span>
+<span class=bl-mega-tile-count>41 تطبيقًا في الكتالوج</span></span></a></li><li><a href=https://www.bigledger.com/ar/functions/manufacturing/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="3"/><path d="M11 2v3m0 12v3M2 11h3m12 0h3M4.5 4.5l2.1 2.1m8.8 8.8 2.1 2.1m-13 0 2.1-2.1m8.8-8.8 2.1-2.1"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>التصنيع</span>
+<span class=bl-mega-tile-count>41 تطبيقًا في الكتالوج</span></span></a></li><li><a href=https://www.bigledger.com/ar/functions/hr-payroll/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="8" cy="7" r="3.2"/><path d="M2 19c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="16.5" cy="8" r="2.6"/><path d="M14.5 13.2c2.5.3 4.5 2.6 4.5 5.8"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>الموارد البشرية والرواتب</span></span></a></li><li><a href=https://www.bigledger.com/ar/modules/claims/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 5a1 1 0 011-1h5l2 2h9a1 1 0 011 1v10a1 1 0 01-1 1H3a1 1 0 01-1-1V5z"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>المطالبات</span></span></a></li><li><a href=https://www.bigledger.com/ar/modules/membership/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M11 2l2.6 5.9 6.4.6-4.8 4.3 1.4 6.3L11 15.9 5.4 19.1l1.4-6.3L2 8.5l6.4-.6L11 2z"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>العضوية والولاء</span></span></a></li><li><a href=https://www.bigledger.com/ar/functions/projects/ class=bl-mega-tile><span class=bl-mega-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 19V9m8 10V3m8 16v-7"/><path d="M2 19h18"/></svg></span>
+<span class=bl-mega-tile-text><span class=bl-mega-tile-name>المشاريع</span></span></a></li></ul></div></div><div class=bl-mega-footer><div class=bl-mega-footer-left><a href=https://www.bigledger.com/ar/solutions/ class=bl-mega-overview>نظرة عامة على الحلول
+<span class=bl-mega-overview-desc>شاهد الصورة الكاملة — جميع القطاعات والوحدات والأحجام في خريطة واحدة.</span>
+</a><a href=https://www.bigledger.com/ar/applets/ class=bl-mega-browse-all><span class=bl-mega-browse-all-icon><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M11 2l9 4.5L11 11 2 6.5 11 2z"/><path d="M2 11l9 4.5 9-4.5M2 15.5 11 20l9-4.5"/></svg></span>
+<span class=bl-mega-browse-all-text><span class=bl-mega-browse-all-label>تصفح الكتالوج الكامل</span>
+<span class=bl-mega-browse-all-desc>أكثر من 100 وحدة وتطبيق، كلها قابلة لإعادة الاستخدام عبر نظامك</span></span></a></div><a href=https://www.bigledger.com/ar/contact/ class="bl-btn-primary bl-mega-cta">اطلب عرضًا تجريبيًا</a></div></div></div><a href=https://www.bigledger.com/ar/pricing/ class=bl-nav-link>الأسعار</a>
+<a href=https://www.bigledger.com/ar/contact/ class=bl-nav-link>اتصل بنا</a>
+<a href=https://www.bigledger.com/ar/developers/ class=bl-nav-link>المطورون</a></div><div class=bl-nav-actions><div class=bl-lang-switch data-lang-switch><button type=button class=bl-lang-btn aria-haspopup=true aria-expanded=false>
+<svg class="bl-lang-globe" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="10" cy="10" r="8"/><path d="M2 10h16M10 2c2.2 2.2 3.5 5.2 3.5 8s-1.3 5.8-3.5 8c-2.2-2.2-3.5-5.2-3.5-8S7.8 4.2 10 2z"/></svg>
+<span class=bl-lang-current>AR</span>
+<svg class="bl-nav-caret" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg></button><div class=bl-lang-menu role=menu><a href=https://www.bigledger.com/guides/advanced/advanced-inventory-manufacturing/ data-no-langify class=bl-lang-option>English
+</a><a href=https://www.bigledger.com/zh/guides/advanced/advanced-inventory-manufacturing/ data-no-langify class=bl-lang-option>中文
+</a><a href=https://www.bigledger.com/ms/guides/advanced/advanced-inventory-manufacturing/ data-no-langify class=bl-lang-option>Bahasa Malaysia
+</a><a href=https://www.bigledger.com/ar/guides/advanced/advanced-inventory-manufacturing/ data-no-langify class="bl-lang-option active">العربية
+<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8.5l3 3 7-7"/></svg></a></div></div><a href=https://www.bigledger.com/ar/contact/ class=bl-btn-nav>اطلب عرضًا تجريبيًا</a>
+<button type=button class=bl-nav-burger aria-label="افتح القائمة" aria-expanded=false>
+<span></span><span></span><span></span></button></div></nav></div><div class=bl-mobile-drawer aria-hidden=true><div class=bl-mobile-drawer-scroll><a href=https://www.bigledger.com/ar/about/ class=bl-mobile-link>من نحن</a><div class=bl-mobile-accordion><button type=button class=bl-mobile-accordion-trigger aria-expanded=false>
+الحلول
+<svg class="bl-nav-caret" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg></button><div class=bl-mobile-accordion-panel><a href=https://www.bigledger.com/ar/solutions/ class=bl-mobile-overview-link>نظرة عامة على الحلول →</a><div class=bl-mobile-group><span class=bl-mobile-group-label>حسب القطاع</span>
+<a href=https://www.bigledger.com/ar/solutions/retail-ecommerce/ class=bl-mobile-group-link>التجزئة والتجارة الإلكترونية
+</a><a href=https://www.bigledger.com/ar/solutions/wholesale-distribution/ class=bl-mobile-group-link>الجملة والتوزيع
+</a><a href=https://www.bigledger.com/ar/solutions/manufacturing/ class=bl-mobile-group-link>التصنيع
+</a><a href=https://www.bigledger.com/ar/solutions/services-professional/ class=bl-mobile-group-link>الخدمات والمهن
+</a><a href=https://www.bigledger.com/ar/solutions/construction/ class=bl-mobile-group-link>الإنشاءات
+</a><a href=https://www.bigledger.com/ar/solutions/automotive/ class=bl-mobile-group-link>السيارات
+</a><a href=https://www.bigledger.com/ar/solutions/healthcare/ class=bl-mobile-group-link>الرعاية الصحية
+</a><a href=https://www.bigledger.com/ar/solutions/it-consumer-electronics/ class=bl-mobile-group-link>تقنية المعلومات والإلكترونيات
+</a><a href=https://www.bigledger.com/ar/solutions/franchise/ class=bl-mobile-group-link>الامتياز التجاري
+</a><a href=https://www.bigledger.com/ar/solutions/drop-shipping/ class=bl-mobile-group-link>الشحن المباشر</a></div><div class=bl-mobile-group><span class=bl-mobile-group-label>حسب حجم الأعمال</span>
+<a href=https://www.bigledger.com/ar/solutions/startups/ class=bl-mobile-group-link>الشركات الناشئة
+</a><a href=https://www.bigledger.com/ar/solutions/sme/ class=bl-mobile-group-link>المنشآت الصغيرة والمتوسطة
+</a><a href=https://www.bigledger.com/ar/solutions/mid-market/ class=bl-mobile-group-link>الشركات المتوسطة
+</a><a href=https://www.bigledger.com/ar/solutions/multi-entity/ class=bl-mobile-group-link>الكيانات المتعددة
+</a><a href=https://www.bigledger.com/ar/solutions/enterprise/ class=bl-mobile-group-link>المؤسسات الكبرى</a></div><div class=bl-mobile-group><span class=bl-mobile-group-label>حسب الدور</span>
+<a href=https://www.bigledger.com/ar/solutions/business-owners/ class=bl-mobile-group-link>أصحاب الأعمال
+</a><a href=https://www.bigledger.com/ar/solutions/finance-teams/ class=bl-mobile-group-link>فرق المالية
+</a><a href=https://www.bigledger.com/ar/solutions/sales-ops/ class=bl-mobile-group-link>عمليات المبيعات
+</a><a href=https://www.bigledger.com/ar/solutions/hr-teams/ class=bl-mobile-group-link>فرق الموارد البشرية
+</a><a href=https://www.bigledger.com/ar/developers/ class=bl-mobile-group-link>المطورون
+</a><a href=https://www.bigledger.com/ar/partners/ class=bl-mobile-group-link>الشركاء</a></div><div class=bl-mobile-group><span class=bl-mobile-group-label>الامتثال والثقة</span>
+<a href=https://www.bigledger.com/ar/e-invoice-peppol/ class=bl-mobile-group-link>الفاتورة الإلكترونية وPEPPOL
+</a><a href=https://www.bigledger.com/ar/mdec-e-invoice-promotion/ class=bl-mobile-group-link>مبادرة MDEC للفاتورة الإلكترونية
+</a><a href=https://www.bigledger.com/ar/compliance/sst-epf-socso/ class=bl-mobile-group-link>SST وEPF وSOCSO
+</a><a href=https://www.bigledger.com/ar/security/ class=bl-mobile-group-link>الأمان</a></div><div class=bl-mobile-group><span class=bl-mobile-group-label>الانتقال إلى BigLedger</span>
+<a href=https://www.bigledger.com/ar/switch/autocount/ class=bl-mobile-group-link>من AutoCount
+</a><a href=https://www.bigledger.com/ar/switch/sql-account/ class=bl-mobile-group-link>من SQL Account
+</a><a href=https://www.bigledger.com/ar/switch/excel/ class=bl-mobile-group-link>من Excel
+</a><a href=https://www.bigledger.com/ar/switch/quickbooks/ class=bl-mobile-group-link>من QuickBooks
+</a><a href=https://www.bigledger.com/ar/switch/onboarding/ class=bl-mobile-group-link>التهيئة والانطلاق</a></div><div class=bl-mobile-group><span class=bl-mobile-group-label>حسب الوظيفة</span>
+<a href=https://www.bigledger.com/ar/functions/financial-accounting/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 2h9l3 3v15H5z"/><path d="M14 2v3h3M8 10h6M8 13h6M8 16h4"/></svg></span>
+المحاسبة المالية
+</a><a href=https://www.bigledger.com/ar/functions/e-invoice-peppol/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 2h12v18l-2.5-1.5L12 20l-2.5-1.5L7 20l-2-1.5V2z"/><path d="M8 7h6M8 11h6"/></svg></span>
+الفاتورة الإلكترونية وPEPPOL
+</a><a href=https://www.bigledger.com/ar/functions/sales-crm/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 4h16l-6 8v6l-4 2v-8L3 4z"/></svg></span>
+المبيعات وإدارة العملاء
+</a><a href=https://www.bigledger.com/ar/functions/point-of-sale/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M11 2h8v8L9 20l-8-8L11 2z"/><circle cx="14.5" cy="6.5" r="1.3"/></svg></span>
+نقاط البيع
+</a><a href=https://www.bigledger.com/ar/functions/e-commerce/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M6 17h10a4 4 0 000-8A6 6 0 004.7 7 4.5 4.5.0 006 17z"/></svg></span>
+التجارة الإلكترونية
+</a><a href=https://www.bigledger.com/ar/functions/inventory-warehouse/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 9l9-6 9 6v10a1 1 0 01-1 1H3a1 1 0 01-1-1V9z"/><path d="M8 20v-7h6v7"/></svg></span>
+المخزون والمستودعات
+</a><a href=https://www.bigledger.com/ar/functions/purchasing/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 5h11v10H2zM13 9h4l3 3v3h-7z"/><circle cx="6" cy="17" r="1.6"/><circle cx="17" cy="17" r="1.6"/></svg></span>
+المشتريات
+</a><a href=https://www.bigledger.com/ar/functions/manufacturing/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="3"/><path d="M11 2v3m0 12v3M2 11h3m12 0h3M4.5 4.5l2.1 2.1m8.8 8.8 2.1 2.1m-13 0 2.1-2.1m8.8-8.8 2.1-2.1"/></svg></span>
+التصنيع
+</a><a href=https://www.bigledger.com/ar/functions/hr-payroll/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="8" cy="7" r="3.2"/><path d="M2 19c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="16.5" cy="8" r="2.6"/><path d="M14.5 13.2c2.5.3 4.5 2.6 4.5 5.8"/></svg></span>
+الموارد البشرية والرواتب
+</a><a href=https://www.bigledger.com/ar/modules/claims/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 5a1 1 0 011-1h5l2 2h9a1 1 0 011 1v10a1 1 0 01-1 1H3a1 1 0 01-1-1V5z"/></svg></span>
+المطالبات
+</a><a href=https://www.bigledger.com/ar/modules/membership/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M11 2l2.6 5.9 6.4.6-4.8 4.3 1.4 6.3L11 15.9 5.4 19.1l1.4-6.3L2 8.5l6.4-.6L11 2z"/></svg></span>
+العضوية والولاء
+</a><a href=https://www.bigledger.com/ar/functions/projects/ class=bl-mobile-group-link><span class=bl-mobile-link-ico><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 19V9m8 10V3m8 16v-7"/><path d="M2 19h18"/></svg></span>
+المشاريع</a></div><a href=https://www.bigledger.com/ar/applets/ class=bl-mobile-browse-all><span class=bl-mega-browse-all-icon><svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M11 2l9 4.5L11 11 2 6.5 11 2z"/><path d="M2 11l9 4.5 9-4.5M2 15.5 11 20l9-4.5"/></svg></span>
+<span class=bl-mega-browse-all-text><span class=bl-mega-browse-all-label>تصفح الكتالوج الكامل</span>
+<span class=bl-mega-browse-all-desc>أكثر من 100 وحدة وتطبيق، كلها قابلة لإعادة الاستخدام عبر نظامك</span></span></a></div></div><a href=https://www.bigledger.com/ar/pricing/ class=bl-mobile-link>الأسعار</a>
+<a href=https://www.bigledger.com/ar/contact/ class=bl-mobile-link>اتصل بنا</a>
+<a href=https://www.bigledger.com/ar/developers/ class=bl-mobile-link>المطورون</a>
+<a href=https://www.bigledger.com/ar/contact/ class="bl-btn-primary bl-mobile-cta">اطلب عرضًا تجريبيًا</a></div></div><div class=bl-mobile-drawer-backdrop></div></header><main><article class=corporate-page><div class=container><div class="page-content content"><p><em>ثلاثة عقود من تنفيذ أنظمة التصنيع والمخزون عبر بيئات منفصلة وعملية ومختلطة الأنماط. من ورش العمل الصغيرة إلى عمليات التصنيع في شركات Fortune 500.</em></p><h2>جدول المحتويات<span class="hx:absolute hx:-mt-20" id=جدول-المحتويات></span>
+<a href=#%d8%ac%d8%af%d9%88%d9%84-%d8%a7%d9%84%d9%85%d8%ad%d8%aa%d9%88%d9%8a%d8%a7%d8%aa class=subheading-anchor aria-label="Permalink for this section"></a></h2><ol><li><a href=#material-requirements-planning-mrp-mastery>إتقان تخطيط متطلبات المواد (MRP)</a></li><li><a href=#bill-of-materials-bom-management-excellence>التميز في إدارة قائمة المواد (BOM)</a></li><li><a href=#production-planning-and-scheduling>تخطيط الإنتاج والجدولة</a></li><li><a href=#work-in-progress-tracking>تتبع العمل قيد التنفيذ</a></li><li><a href=#lotserial-number-tracking-for-compliance>تتبع رقم الدفعة/الرقم التسلسلي للامتثال</a></li><li><a href=#inventory-valuation-methods-deep-dive>غوص عميق في طرق تقييم المخزون</a></li><li><a href=#cycle-counting-and-physical-inventory-excellence>التميز في الجرد الدوري والجرد المادي</a></li></ol><hr><h2>إتقان تخطيط متطلبات المواد (MRP)<span class="hx:absolute hx:-mt-20" id=إتقان-تخطيط-متطلبات-المواد-mrp></span>
+<a href=#%d8%a5%d8%aa%d9%82%d8%a7%d9%86-%d8%aa%d8%ae%d8%b7%d9%8a%d8%b7-%d9%85%d8%aa%d8%b7%d9%84%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d9%88%d8%a7%d8%af-mrp class=subheading-anchor aria-label="Permalink for this section"></a></h2><p>بعد تنفيذ أنظمة MRP من الأيام الأولى لـ MRP I إلى أنظمة MRP II وERP المتقدمة اليوم، تعلمت أن نجاح MRP هو 20% تكوين برمجي و80% دقة بيانات وانضباط.</p><h3>إعداد أساس MRP<span class="hx:absolute hx:-mt-20" id=إعداد-أساس-mrp></span>
+<a href=#%d8%a5%d8%b9%d8%af%d8%a7%d8%af-%d8%a3%d8%b3%d8%a7%d8%b3-mrp class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>تكوين جدول الإنتاج الرئيسي (MPS)</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>MPS Parameters in BigLedger</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Planning Horizon</span>: <span style=color:#ae81ff>52</span> <span style=color:#ae81ff>weeks</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Frozen Period</span>: <span style=color:#ae81ff>4</span> <span style=color:#ae81ff>weeks (no changes allowed)</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Firm Period</span>: <span style=color:#ae81ff>8</span> <span style=color:#ae81ff>weeks (changes require approval)</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Planning Period</span>: <span style=color:#ae81ff>12</span> <span style=color:#ae81ff>weeks (flexible planning)</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Time Buckets</span>:
+</span></span><span style=display:flex><span>- <span style=color:#f92672>Weeks 1-4</span>: <span style=color:#ae81ff>Daily buckets</span>
+</span></span><span style=display:flex><span>- <span style=color:#f92672>Weeks 5-12</span>: <span style=color:#ae81ff>Weekly buckets  </span>
+</span></span><span style=display:flex><span>- <span style=color:#f92672>Weeks 13-52</span>: <span style=color:#ae81ff>Monthly buckets</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>منطق حساب MRP</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Net Requirements = Gross Requirements - On Hand - Scheduled Receipts &#43; Safety Stock
+
+Example Product A:
+Gross Requirements (Week 5): 1,000 units
+On Hand Inventory: 150 units
+Scheduled Receipts: 300 units (Week 3)
+Safety Stock: 100 units
+
+Net Requirements = 1,000 - 150 - 300 &#43; 100 = 650 units</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>معاملات MRP المتقدمة<span class="hx:absolute hx:-mt-20" id=معاملات-mrp-المتقدمة></span>
+<a href=#%d9%85%d8%b9%d8%a7%d9%85%d9%84%d8%a7%d8%aa-mrp-%d8%a7%d9%84%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9 class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>إدارة المهلة الزمنية</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Lead Time Components</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Manufacturing Lead Time</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Queue Time</span>: <span style=color:#ae81ff>2</span> <span style=color:#ae81ff>days (waiting for production)</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Setup Time</span>: <span style=color:#ae81ff>0.5</span> <span style=color:#ae81ff>days (machine setup)</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Run Time</span>: <span style=color:#ae81ff>3</span> <span style=color:#ae81ff>days (actual production)</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Wait Time</span>: <span style=color:#ae81ff>1</span> <span style=color:#ae81ff>day (cooling/drying)</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Move Time</span>: <span style=color:#ae81ff>0.5</span> <span style=color:#ae81ff>days (transportation)</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Total</span>: <span style=color:#ae81ff>7</span> <span style=color:#ae81ff>days</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Purchase Lead Time</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Processing Time</span>: <span style=color:#ae81ff>1</span> <span style=color:#ae81ff>day (PO creation/approval)</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Vendor Lead Time</span>: <span style=color:#ae81ff>14</span> <span style=color:#ae81ff>days (supplier delivery)</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Receiving Time</span>: <span style=color:#ae81ff>1</span> <span style=color:#ae81ff>day (inspection/put-away)</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Total</span>: <span style=color:#ae81ff>16</span> <span style=color:#ae81ff>days</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>حساب مخزون الأمان</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Statistical Safety Stock Formula:
+SS = Z × σ × √LT
+
+Where:
+Z = Service level factor (95% = 1.645)
+σ = Standard deviation of demand
+LT = Lead time in periods
+
+Example:
+Service Level: 95% (Z = 1.645)
+Demand Std Dev: 50 units/week
+Lead Time: 3 weeks
+
+Safety Stock = 1.645 × 50 × √3 = 142 units</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>رسائل إجراءات MRP<span class="hx:absolute hx:-mt-20" id=رسائل-إجراءات-mrp></span>
+<a href=#%d8%b1%d8%b3%d8%a7%d8%a6%d9%84-%d8%a5%d8%ac%d8%b1%d8%a7%d8%a1%d8%a7%d8%aa-mrp class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>أنواع رسائل الإجراءات الحاسمة</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Action Messages in BigLedger:
+1. &#34;Expedite&#34; - Move in planned order receipt
+2. &#34;De-expedite&#34; - Move out planned order receipt
+3. &#34;Increase Qty&#34; - Increase planned order quantity
+4. &#34;Decrease Qty&#34; - Decrease planned order quantity
+5. &#34;Cancel&#34; - Cancel planned order
+6. &#34;Release&#34; - Convert planned order to firm order</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>سير عمل معالجة رسائل الإجراءات</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Daily MRP Review Process:
+1. Run MRP regeneration (overnight batch)
+2. Generate exception reports
+3. Review action messages by planner
+4. Validate capacity constraints
+5. Process high-priority actions first
+6. Update planning parameters if needed
+7. Communicate changes to production</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>تفكيك قائمة المواد متعددة المستويات<span class="hx:absolute hx:-mt-20" id=تفكيك-قائمة-المواد-متعددة-المستويات></span>
+<a href=#%d8%aa%d9%81%d9%83%d9%8a%d9%83-%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%a7%d9%84%d9%85%d9%88%d8%a7%d8%af-%d9%85%d8%aa%d8%b9%d8%af%d8%af%d8%a9-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%88%d9%8a%d8%a7%d8%aa class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>مثال على تفكيك قائمة المواد</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Product: Bicycle (End Item)
+Level 0: Bicycle (1 each)
+├── Level 1: Frame Assembly (1 each)
+│   ├── Level 2: Frame Tubing (1 each)
+│   ├── Level 2: Welding Materials (0.5 kg)
+│   └── Level 2: Paint (0.2 liters)
+├── Level 1: Wheel Assembly (2 each)
+│   ├── Level 2: Rim (1 each)
+│   ├── Level 2: Spokes (36 each)
+│   ├── Level 2: Hub (1 each)
+│   └── Level 2: Tire (1 each)
+└── Level 1: Component Kit (1 each)
+    ├── Level 2: Chain (1 each)
+    ├── Level 2: Gears (21 each)
+    └── Level 2: Brake Assembly (2 each)
+
+MRP Explosion Calculation:
+If planning 100 bicycles:
+- Frame Tubing: 100 × 1 = 100 each
+- Spokes: 100 × 2 × 36 = 7,200 each
+- Gears: 100 × 1 × 21 = 2,100 each</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>تخطيط متطلبات السعة (CRP)<span class="hx:absolute hx:-mt-20" id=تخطيط-متطلبات-السعة-crp></span>
+<a href=#%d8%aa%d8%ae%d8%b7%d9%8a%d8%b7-%d9%85%d8%aa%d8%b7%d9%84%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d8%b3%d8%b9%d8%a9-crp class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>تعريف سعة مركز العمل</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Work Center</span>: <span style=color:#ae81ff>CNC Machine Center</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Available Capacity</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Shifts</span>: <span style=color:#ae81ff>2</span> <span style=color:#ae81ff>shifts/day</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Hours per Shift</span>: <span style=color:#ae81ff>8</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Days per Week</span>: <span style=color:#ae81ff>5</span> <span style=color:#ae81ff>days</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Efficiency</span>: <span style=color:#ae81ff>85</span><span style=color:#ae81ff>%</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Utilization</span>: <span style=color:#ae81ff>90</span><span style=color:#ae81ff>%</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Theoretical Capacity</span>: <span style=color:#ae81ff>2</span> <span style=color:#ae81ff>× 8 × 5 = 80 hours/week</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Available Capacity</span>: <span style=color:#ae81ff>80</span> <span style=color:#ae81ff>× 0.85 × 0.90 = 61.2 hours/week</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>حساب حمل السعة</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Load Calculation Example:
+Work Order WO-001:
+- Quantity: 500 units
+- Setup Time: 2 hours
+- Run Time: 0.5 hours/unit
+- Total Load: 2 &#43; (500 × 0.5) = 252 hours
+
+Weekly Capacity Planning:
+Week 15: Available 61.2 hours, Loaded 58.5 hours ✓ OK
+Week 16: Available 61.2 hours, Loaded 75.2 hours ✗ Overload
+Week 17: Available 61.2 hours, Loaded 45.3 hours ✓ OK</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><hr><h2>التميز في إدارة قائمة المواد (BOM)<span class="hx:absolute hx:-mt-20" id=التميز-في-إدارة-قائمة-المواد-bom></span>
+<a href=#%d8%a7%d9%84%d8%aa%d9%85%d9%8a%d8%b2-%d9%81%d9%8a-%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%a7%d9%84%d9%85%d9%88%d8%a7%d8%af-bom class=subheading-anchor aria-label="Permalink for this section"></a></h2><p>دقة قائمة المواد هي أساس نجاح التصنيع. من واقع خبرتي، تعاني الشركات التي تقل دقة قائمة المواد لديها عن 95% من نقص المواد وفائض المخزون وتأخيرات الإنتاج.</p><h3>تصميم بنية قائمة المواد<span class="hx:absolute hx:-mt-20" id=تصميم-بنية-قائمة-المواد></span>
+<a href=#%d8%aa%d8%b5%d9%85%d9%8a%d9%85-%d8%a8%d9%86%d9%8a%d8%a9-%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%a7%d9%84%d9%85%d9%88%d8%a7%d8%af class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>التسلسل الهرمي لقائمة المواد متعددة المستويات</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>BOM Structure Types:
+1. Manufacturing BOM (M-BOM)
+   - Used for production planning
+   - Includes manufacturing steps
+   - Reflects assembly sequence
+
+2. Engineering BOM (E-BOM)
+   - Design-centric view
+   - Component specifications
+   - Engineering change control
+
+3. Service BOM (S-BOM)
+   - Field service parts
+   - Replacement components
+   - Maintenance items</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>قوائم المواد الوهمية مقابل العادية</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Regular BOM - Wheel Assembly</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Item</span>: <span style=color:#ae81ff>WHEEL-001</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Make/Buy</span>: <span style=color:#ae81ff>Make</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Lead Time</span>: <span style=color:#ae81ff>3</span> <span style=color:#ae81ff>days</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Components</span>:
+</span></span><span style=display:flex><span>    - <span style=color:#f92672>Rim</span>: <span style=color:#ae81ff>1</span> <span style=color:#ae81ff>each</span>
+</span></span><span style=display:flex><span>    - <span style=color:#f92672>Spokes</span>: <span style=color:#ae81ff>36</span> <span style=color:#ae81ff>each</span>
+</span></span><span style=display:flex><span>    - <span style=color:#f92672>Hub</span>: <span style=color:#ae81ff>1</span> <span style=color:#ae81ff>each</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Phantom BOM - Paint Kit</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Item</span>: <span style=color:#ae81ff>PAINT-KIT (Phantom)</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Make/Buy</span>: <span style=color:#ae81ff>Phantom</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Lead Time</span>: <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>days</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Components</span>:
+</span></span><span style=display:flex><span>    - <span style=color:#f92672>Base Paint</span>: <span style=color:#ae81ff>0.8</span> <span style=color:#ae81ff>liters</span>
+</span></span><span style=display:flex><span>    - <span style=color:#f92672>Hardener</span>: <span style=color:#ae81ff>0.2</span> <span style=color:#ae81ff>liters</span>
+</span></span><span style=display:flex><span>    - <span style=color:#f92672>Thinner</span>: <span style=color:#ae81ff>0.1</span> <span style=color:#ae81ff>liters</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>إصدار قائمة المواد والتحكم في التغيير<span class="hx:absolute hx:-mt-20" id=إصدار-قائمة-المواد-والتحكم-في-التغيير></span>
+<a href=#%d8%a5%d8%b5%d8%af%d8%a7%d8%b1-%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%a7%d9%84%d9%85%d9%88%d8%a7%d8%af-%d9%88%d8%a7%d9%84%d8%aa%d8%ad%d9%83%d9%85-%d9%81%d9%8a-%d8%a7%d9%84%d8%aa%d8%ba%d9%8a%d9%8a%d8%b1 class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>عملية أمر التغيير الهندسي (ECO)</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>ECO Workflow:
+1. Change Request Initiated
+   - Requestor: Engineering/Quality/Production
+   - Reason: Design improvement/Cost reduction/Regulatory
+   - Impact Analysis: Cost/Schedule/Quality
+
+2. Change Evaluation
+   - Technical review
+   - Cost analysis
+   - Implementation timing
+   - Obsolete inventory handling
+
+3. Approval Process
+   - Engineering approval
+   - Manufacturing approval
+   - Quality approval
+   - Customer approval (if required)
+
+4. Implementation
+   - BOM version update
+   - Effectivity date setting
+   - Training execution
+   - System updates</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>إدارة سريان قائمة المواد</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>BOM Version Control Example:
+Product: Widget A
+Current Version: Rev C (Effective: 01-Jan-2024)
+Previous Version: Rev B (Effective: 01-Jun-2023 to 31-Dec-2023)
+
+Revision Changes:
+Rev B to Rev C:
+- Component X123: Removed
+- Component Y456: Added (Replacement for X123)
+- Component Z789: Quantity changed from 2 to 3
+- Labor Operation 30: Time reduced from 15 to 12 minutes</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>المكونات البديلة والاستبدالات<span class="hx:absolute hx:-mt-20" id=المكونات-البديلة-والاستبدالات></span>
+<a href=#%d8%a7%d9%84%d9%85%d9%83%d9%88%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d8%a8%d8%af%d9%8a%d9%84%d8%a9-%d9%88%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%a8%d8%af%d8%a7%d9%84%d8%a7%d8%aa class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>إعداد المكون البديل</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Primary Component</span>: <span style=color:#ae81ff>Screw-A-001</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Alternatives</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Substitute 1</span>:
+</span></span><span style=display:flex><span>      <span style=color:#f92672>Item</span>: <span style=color:#ae81ff>Screw-B-002</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>Substitution Ratio</span>: <span style=color:#ae81ff>1</span>:<span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>Priority</span>: <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>Effectivity</span>: <span style=color:#ae81ff>Always</span>
+</span></span><span style=display:flex><span>  
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Substitute 2</span>:
+</span></span><span style=display:flex><span>      <span style=color:#f92672>Item</span>: <span style=color:#ae81ff>Screw-C-003</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>Substitution Ratio</span>: <span style=color:#ae81ff>1</span>:<span style=color:#ae81ff>2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>Priority</span>: <span style=color:#ae81ff>2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>Effectivity</span>: <span style=color:#ae81ff>When Primary unavailable</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Automatic Substitution Rules</span>:
+</span></span><span style=display:flex><span>- <span style=color:#ae81ff>Use primary component if available</span>
+</span></span><span style=display:flex><span>- <span style=color:#ae81ff>If primary &lt; safety stock, check substitute 1</span>
+</span></span><span style=display:flex><span>- <span style=color:#ae81ff>If substitute 1 unavailable, use substitute 2</span>
+</span></span><span style=display:flex><span>- <span style=color:#ae81ff>Alert planner of substitution</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>المنتجات المشتركة والمنتجات الثانوية<span class="hx:absolute hx:-mt-20" id=المنتجات-المشتركة-والمنتجات-الثانوية></span>
+<a href=#%d8%a7%d9%84%d9%85%d9%86%d8%aa%d8%ac%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b4%d8%aa%d8%b1%d9%83%d8%a9-%d9%88%d8%a7%d9%84%d9%85%d9%86%d8%aa%d8%ac%d8%a7%d8%aa-%d8%a7%d9%84%d8%ab%d8%a7%d9%86%d9%88%d9%8a%d8%a9 class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>مثال على قائمة مواد التصنيع العملي</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Process</span>: <span style=color:#ae81ff>Chemical Reaction A</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Input Materials</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Chemical A</span>: <span style=color:#ae81ff>100</span> <span style=color:#ae81ff>kg</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Chemical B</span>: <span style=color:#ae81ff>50</span> <span style=color:#ae81ff>kg</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Catalyst</span>: <span style=color:#ae81ff>2</span> <span style=color:#ae81ff>kg</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Output Products</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Main Product</span>: <span style=color:#ae81ff>120</span> <span style=color:#ae81ff>kg (80% yield)</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Co-Product</span>: <span style=color:#ae81ff>25</span> <span style=color:#ae81ff>kg (valuable secondary product)</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>By-Product</span>: <span style=color:#ae81ff>5</span> <span style=color:#ae81ff>kg (minimal value)</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Waste</span>: <span style=color:#ae81ff>2</span> <span style=color:#ae81ff>kg (disposal cost)</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Cost Allocation</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Main Product</span>: <span style=color:#ae81ff>75</span><span style=color:#ae81ff>% of total cost</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Co-Product</span>: <span style=color:#ae81ff>20</span><span style=color:#ae81ff>% of total cost</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>By-Product</span>: <span style=color:#ae81ff>3</span><span style=color:#ae81ff>% of total cost</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Waste</span>: <span style=color:#ae81ff>2</span><span style=color:#ae81ff>% of total cost</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>تكلفة قائمة المواد وتحليلها<span class="hx:absolute hx:-mt-20" id=تكلفة-قائمة-المواد-وتحليلها></span>
+<a href=#%d8%aa%d9%83%d9%84%d9%81%d8%a9-%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%a7%d9%84%d9%85%d9%88%d8%a7%d8%af-%d9%88%d8%aa%d8%ad%d9%84%d9%8a%d9%84%d9%87%d8%a7 class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>حساب تجميع التكلفة</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>BOM Cost Analysis - Assembly A:
+Material Costs:
+  Component 1: MYR 25.00
+  Component 2: MYR 15.50
+  Component 3: MYR 8.75
+  Total Material: MYR 49.25
+
+Labor Costs:
+  Operation 10: 0.5 hours × MYR 30/hour = MYR 15.00
+  Operation 20: 0.3 hours × MYR 25/hour = MYR 7.50
+  Total Labor: MYR 22.50
+
+Overhead Costs:
+  Variable Overhead: 1.5 hours × MYR 20/hour = MYR 30.00
+  Fixed Overhead: 1.5 hours × MYR 15/hour = MYR 22.50
+  Total Overhead: MYR 52.50
+
+Total Standard Cost: MYR 124.25</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><hr><h2>تخطيط الإنتاج والجدولة<span class="hx:absolute hx:-mt-20" id=تخطيط-الإنتاج-والجدولة></span>
+<a href=#%d8%aa%d8%ae%d8%b7%d9%8a%d8%b7-%d8%a7%d9%84%d8%a5%d9%86%d8%aa%d8%a7%d8%ac-%d9%88%d8%a7%d9%84%d8%ac%d8%af%d9%88%d9%84%d8%a9 class=subheading-anchor aria-label="Permalink for this section"></a></h2><p>يوازن تخطيط الإنتاج الفعال بين طلب العملاء وسعة التصنيع مع تقليل التكاليف وتعظيم الكفاءة.</p><h3>جدول الإنتاج الرئيسي (MPS)<span class="hx:absolute hx:-mt-20" id=جدول-الإنتاج-الرئيسي-mps></span>
+<a href=#%d8%ac%d8%af%d9%88%d9%84-%d8%a7%d9%84%d8%a5%d9%86%d8%aa%d8%a7%d8%ac-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a-mps class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>عملية تخطيط MPS</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>MPS Development Steps:
+1. Demand Aggregation
+   - Sales forecasts
+   - Customer orders
+   - Service parts demand
+   - Inter-plant transfers
+
+2. Resource Validation
+   - Capacity constraints
+   - Material availability
+   - Tooling requirements
+   - Skilled labor availability
+
+3. Schedule Optimization
+   - Lot sizing optimization
+   - Setup minimization
+   - Capacity utilization
+   - Due date performance</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>مثال على جدول MPS</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Master Production Schedule - Product Family A
+Week:     1    2    3    4    5    6    7    8
+Forecast: 100  120  110  130  125  140  135  150
+Orders:   95   85   65   45   25   10   5    0
+MPS:      100  120  110  130  125  140  135  150
+
+Available to Promise (ATP):
+Week 1: 100 - 95 = 5 units
+Week 2: 120 - 85 = 35 units
+Week 3: 110 - 65 = 45 units</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>الجدولة بالسعة المحدودة مقابل غير المحدودة<span class="hx:absolute hx:-mt-20" id=الجدولة-بالسعة-المحدودة-مقابل-غير-المحدودة></span>
+<a href=#%d8%a7%d9%84%d8%ac%d8%af%d9%88%d9%84%d8%a9-%d8%a8%d8%a7%d9%84%d8%b3%d8%b9%d8%a9-%d8%a7%d9%84%d9%85%d8%ad%d8%af%d9%88%d8%af%d8%a9-%d9%85%d9%82%d8%a7%d8%a8%d9%84-%d8%ba%d9%8a%d8%b1-%d8%a7%d9%84%d9%85%d8%ad%d8%af%d9%88%d8%af%d8%a9 class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>الجدولة بالسعة غير المحدودة</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Characteristics:
+- Assumes unlimited capacity
+- Schedules based on lead times
+- Identifies capacity overloads
+- Requires manual capacity adjustment
+
+Example Output:
+Work Center A (Week 5):
+Required Hours: 120
+Available Hours: 80
+Overload: 40 hours (50% over capacity)</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>الجدولة بالسعة المحدودة</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Characteristics:
+- Considers actual capacity constraints
+- Automatically reschedules when overloaded
+- Provides realistic completion dates
+- Optimizes resource utilization
+
+Scheduling Logic:
+1. Sort orders by priority
+2. Schedule highest priority first
+3. Check capacity availability
+4. If capacity available, schedule
+5. If not available, move to next period
+6. Continue until all orders scheduled</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>تقنيات الجدولة المتقدمة<span class="hx:absolute hx:-mt-20" id=تقنيات-الجدولة-المتقدمة></span>
+<a href=#%d8%aa%d9%82%d9%86%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d8%af%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9 class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>جدولة نظرية القيود (TOC)</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>TOC Implementation Steps:
+1. Identify the Constraint (Bottleneck)
+   - Work center with highest utilization
+   - Resource limiting overall throughput
+
+2. Exploit the Constraint
+   - Maximize constraint utilization
+   - Minimize setup time on constraint
+   - Ensure constraint never starved
+
+3. Subordinate Everything Else
+   - Non-constraints support the constraint
+   - Buffer before constraint
+   - Manage flow to constraint
+
+4. Elevate the Constraint
+   - Add capacity to constraint
+   - Improve constraint efficiency
+   - Offload work from constraint
+
+Example:
+Constraint: Heat Treatment (40 hours/week capacity)
+Non-Constraint: Machining (80 hours/week capacity)
+
+Schedule machining to always feed heat treatment
+Maintain 2-day buffer before heat treatment
+Never let heat treatment sit idle</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>إنتاج الحملات والدفعات<span class="hx:absolute hx:-mt-20" id=إنتاج-الحملات-والدفعات></span>
+<a href=#%d8%a5%d9%86%d8%aa%d8%a7%d8%ac-%d8%a7%d9%84%d8%ad%d9%85%d9%84%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%af%d9%81%d8%b9%d8%a7%d8%aa class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>تخطيط الحملات للصناعات العملية</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Campaign Schedule - Chemical Plant</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Product A Campaign</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Duration</span>: <span style=color:#ae81ff>2</span> <span style=color:#ae81ff>weeks</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Batch Size</span>: <span style=color:#ae81ff>5</span>,<span style=color:#ae81ff>000</span> <span style=color:#ae81ff>kg</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Batches</span>: <span style=color:#ae81ff>4</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Setup Time</span>: <span style=color:#ae81ff>8</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Cleaning Time</span>: <span style=color:#ae81ff>16</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Product B Campaign</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Duration</span>: <span style=color:#ae81ff>1</span> <span style=color:#ae81ff>week</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Batch Size</span>: <span style=color:#ae81ff>3</span>,<span style=color:#ae81ff>000</span> <span style=color:#ae81ff>kg</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Batches</span>: <span style=color:#ae81ff>3</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Setup Time</span>: <span style=color:#ae81ff>4</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Cleaning Time</span>: <span style=color:#ae81ff>12</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Campaign Sequence Optimization</span>:
+</span></span><span style=display:flex><span><span style=color:#ae81ff>1</span><span style=color:#ae81ff>. Minimize changeover times</span>
+</span></span><span style=display:flex><span><span style=color:#ae81ff>2</span><span style=color:#ae81ff>. Group similar products</span>
+</span></span><span style=display:flex><span><span style=color:#ae81ff>3</span><span style=color:#ae81ff>. Consider shelf life constraints</span>
+</span></span><span style=display:flex><span><span style=color:#ae81ff>4</span><span style=color:#ae81ff>. Balance inventory levels</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>تحسين جدولة الإنتاج<span class="hx:absolute hx:-mt-20" id=تحسين-جدولة-الإنتاج></span>
+<a href=#%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%ac%d8%af%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d8%a5%d9%86%d8%aa%d8%a7%d8%ac class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>الخوارزمية الجينية لجدولة ورشة العمل</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Optimization Parameters:
+Objectives:
+  1. Minimize total completion time (makespan)
+  2. Minimize total tardiness
+  3. Maximize resource utilization
+  4. Minimize work-in-process inventory
+
+Constraints:
+  1. Precedence constraints (operation sequence)
+  2. Resource capacity constraints
+  3. Due date constraints
+  4. Material availability constraints
+
+Example Results:
+Original Schedule: 15 days completion
+Optimized Schedule: 12 days completion
+Improvement: 20% reduction in makespan</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><hr><h2>تتبع العمل قيد التنفيذ<span class="hx:absolute hx:-mt-20" id=تتبع-العمل-قيد-التنفيذ></span>
+<a href=#%d8%aa%d8%aa%d8%a8%d8%b9-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d9%82%d9%8a%d8%af-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0 class=subheading-anchor aria-label="Permalink for this section"></a></h2><p>يُعد التتبع الدقيق للعمل قيد التنفيذ أمرًا أساسيًا للتحكم في التكاليف وتخطيط السعة والوفاء بوعود التسليم للعملاء.</p><h3>طرق تقييم العمل قيد التنفيذ<span class="hx:absolute hx:-mt-20" id=طرق-تقييم-العمل-قيد-التنفيذ></span>
+<a href=#%d8%b7%d8%b1%d9%82-%d8%aa%d9%82%d9%8a%d9%8a%d9%85-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d9%82%d9%8a%d8%af-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0 class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>تقييم العمل قيد التنفيذ بالتكلفة المعيارية</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Work Order: WO-2024-001
+Product: Assembly X
+Quantity: 100 units
+
+Standard Costs:
+Material: MYR 50/unit
+Labor: MYR 30/unit
+Overhead: MYR 40/unit
+Total Standard: MYR 120/unit
+
+WIP Calculation by Operation:
+Operation 10 (50% complete): MYR 25/unit
+Operation 20 (100% complete): MYR 30/unit
+Operation 30 (75% complete): MYR 30/unit
+Operation 40 (0% complete): MYR 0/unit
+Total WIP Value: MYR 85/unit × 100 units = MYR 8,500</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>تقييم العمل قيد التنفيذ بالتكلفة الفعلية</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Actual Costs Incurred:
+Materials Issued: MYR 5,200
+Labor Hours: 80 hours × MYR 32/hour = MYR 2,560
+Overhead Applied: 80 hours × MYR 38/hour = MYR 3,040
+Total Actual WIP: MYR 10,800
+
+Completion Percentage: 70%
+Expected Total Cost: MYR 10,800 ÷ 0.70 = MYR 15,429
+Variance from Standard: MYR 15,429 - MYR 12,000 = MYR 3,429 unfavorable</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>التتبع على مستوى العملية<span class="hx:absolute hx:-mt-20" id=التتبع-على-مستوى-العملية></span>
+<a href=#%d8%a7%d9%84%d8%aa%d8%aa%d8%a8%d8%b9-%d8%b9%d9%84%d9%89-%d9%85%d8%b3%d8%aa%d9%88%d9%89-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a9 class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>إعداد التوجيه والعملية</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Product</span>: <span style=color:#ae81ff>Widget A</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Routing</span>: <span style=color:#ae81ff>RT-001</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Operations</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>010 - Cut Raw Material</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Work Center</span>: <span style=color:#ae81ff>Cutting Center</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Setup Time</span>: <span style=color:#ae81ff>30</span> <span style=color:#ae81ff>minutes</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Run Time</span>: <span style=color:#ae81ff>2.5</span> <span style=color:#ae81ff>minutes/unit</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Queue Time</span>: <span style=color:#ae81ff>8</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Move Time</span>: <span style=color:#ae81ff>0.5</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>020 - Machine Parts</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Work Center</span>: <span style=color:#ae81ff>CNC Center</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Setup Time</span>: <span style=color:#ae81ff>45</span> <span style=color:#ae81ff>minutes</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Run Time</span>: <span style=color:#ae81ff>8.0</span> <span style=color:#ae81ff>minutes/unit</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Queue Time</span>: <span style=color:#ae81ff>16</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Move Time</span>: <span style=color:#ae81ff>1.0</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>030 - Assembly</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Work Center</span>: <span style=color:#ae81ff>Assembly Line</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Setup Time</span>: <span style=color:#ae81ff>15</span> <span style=color:#ae81ff>minutes</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Run Time</span>: <span style=color:#ae81ff>12.0</span> <span style=color:#ae81ff>minutes/unit</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Queue Time</span>: <span style=color:#ae81ff>4</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Move Time</span>: <span style=color:#ae81ff>0.5</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>040 - Test &amp; Pack</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Work Center</span>: <span style=color:#ae81ff>Test Center</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Setup Time</span>: <span style=color:#ae81ff>10</span> <span style=color:#ae81ff>minutes</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Run Time</span>: <span style=color:#ae81ff>5.0</span> <span style=color:#ae81ff>minutes/unit</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Queue Time</span>: <span style=color:#ae81ff>2</span> <span style=color:#ae81ff>hours</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>Move Time</span>: <span style=color:#ae81ff>0.5</span> <span style=color:#ae81ff>hours</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>جمع بيانات أرضية المصنع<span class="hx:absolute hx:-mt-20" id=جمع-بيانات-أرضية-المصنع></span>
+<a href=#%d8%ac%d9%85%d8%b9-%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d8%a3%d8%b1%d8%b6%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%b5%d9%86%d8%b9 class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>طرق جمع البيانات في الوقت الفعلي</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Data Collection Technologies:
+1. Barcode Scanning
+   - Employee badges
+   - Work order numbers
+   - Operation codes
+   - Quantity reporting
+
+2. RFID Technology
+   - Automatic identification
+   - Location tracking
+   - Batch/lot tracking
+   - Temperature monitoring
+
+3. Mobile Devices
+   - Touch screen interfaces
+   - Voice recognition
+   - Digital forms
+   - Photo capture
+
+4. Machine Integration
+   - PLC connections
+   - Sensor data
+   - Automatic counts
+   - Quality metrics</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>أنواع معاملات أرضية المصنع</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Transaction Categories</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Labor Transactions</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Clock In/Out</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Operation Start/Complete</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Quantity Reporting</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Scrap Reporting</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Rework Reporting</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Material Transactions</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Component Issue</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Component Return</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Lot/Serial Consumption</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Scrap Material</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Additional Material</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Quality Transactions</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Inspection Results</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Non-conformance Reports</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Rework Instructions</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Quality Hold</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Quality Release</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>تتبع حركة العمل قيد التنفيذ وحالته<span class="hx:absolute hx:-mt-20" id=تتبع-حركة-العمل-قيد-التنفيذ-وحالته></span>
+<a href=#%d8%aa%d8%aa%d8%a8%d8%b9-%d8%ad%d8%b1%d9%83%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d9%82%d9%8a%d8%af-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0-%d9%88%d8%ad%d8%a7%d9%84%d8%aa%d9%87 class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>تقدم حالة أمر العمل</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Work Order Lifecycle:
+1. Created → Planned quantities and dates
+2. Released → Materials allocated, ready to start
+3. In Process → Production started
+4. On Hold → Temporary stop (quality, material, etc.)
+5. Completed → All operations finished
+6. Closed → Financial and inventory transactions complete
+
+Status Change Triggers:
+Created → Released: Material availability confirmed
+Released → In Process: First operation started
+In Process → On Hold: Quality issue identified
+On Hold → In Process: Issue resolved
+In Process → Completed: Final operation finished
+Completed → Closed: Month-end closing process</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>تحليل انحرافات العمل قيد التنفيذ<span class="hx:absolute hx:-mt-20" id=تحليل-انحرافات-العمل-قيد-التنفيذ></span>
+<a href=#%d8%aa%d8%ad%d9%84%d9%8a%d9%84-%d8%a7%d9%86%d8%ad%d8%b1%d8%a7%d9%81%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d9%82%d9%8a%d8%af-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0 class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>تحليل المعياري مقابل الفعلي</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Work Order Variance Report - WO-2024-001:
+
+Material Variances:
+Standard Material Cost: MYR 5,000
+Actual Material Cost: MYR 5,200
+Material Price Variance: MYR 150 unfavorable
+Material Usage Variance: MYR 50 unfavorable
+Total Material Variance: MYR 200 unfavorable
+
+Labor Variances:
+Standard Labor Cost: MYR 3,000
+Actual Labor Cost: MYR 3,200
+Labor Rate Variance: MYR 100 unfavorable
+Labor Efficiency Variance: MYR 100 unfavorable
+Total Labor Variance: MYR 200 unfavorable
+
+Overhead Variances:
+Standard Overhead: MYR 4,000
+Actual Overhead: MYR 4,100
+Overhead Spending Variance: MYR 100 unfavorable
+Total Overhead Variance: MYR 100 unfavorable
+
+Total Work Order Variance: MYR 500 unfavorable</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><hr><h2>تتبع رقم الدفعة/الرقم التسلسلي للامتثال<span class="hx:absolute hx:-mt-20" id=تتبع-رقم-الدفعةالرقم-التسلسلي-للامتثال></span>
+<a href=#%d8%aa%d8%aa%d8%a8%d8%b9-%d8%b1%d9%82%d9%85-%d8%a7%d9%84%d8%af%d9%81%d8%b9%d8%a9%d8%a7%d9%84%d8%b1%d9%82%d9%85-%d8%a7%d9%84%d8%aa%d8%b3%d9%84%d8%b3%d9%84%d9%8a-%d9%84%d9%84%d8%a7%d9%85%d8%aa%d8%ab%d8%a7%d9%84 class=subheading-anchor aria-label="Permalink for this section"></a></h2><p>حاسم للصناعات المنظمة مثل الأدوية والأغذية والسيارات والطيران.</p><h3>تنفيذ التحكم في الدفعات<span class="hx:absolute hx:-mt-20" id=تنفيذ-التحكم-في-الدفعات></span>
+<a href=#%d8%aa%d9%86%d9%81%d9%8a%d8%b0-%d8%a7%d9%84%d8%aa%d8%ad%d9%83%d9%85-%d9%81%d9%8a-%d8%a7%d9%84%d8%af%d9%81%d8%b9%d8%a7%d8%aa class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>بنية البيانات الرئيسية للدفعة</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Lot Number</span>: <span style=color:#ae81ff>L2024-001-A</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Product</span>: <span style=color:#ae81ff>Raw Material X</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Supplier</span>: <span style=color:#ae81ff>ABC Chemicals</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Receipt Date</span>: <span style=color:#e6db74>2024-01-15</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Expiry Date</span>: <span style=color:#e6db74>2024-07-15</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Status</span>: <span style=color:#ae81ff>Active</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Quality Attributes</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Purity</span>: <span style=color:#ae81ff>99.5</span><span style=color:#ae81ff>%</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Moisture Content</span>: <span style=color:#ae81ff>0.2</span><span style=color:#ae81ff>%</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>pH Level</span>: <span style=color:#ae81ff>7.2</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Test Date</span>: <span style=color:#e6db74>2024-01-16</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Certificate Number</span>: <span style=color:#ae81ff>QC-2024-0156</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Traceability Links</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Supplier Lot</span>: <span style=color:#ae81ff>SC-789456</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Production Lots</span>: [<span style=color:#ae81ff>P2024-025, P2024-026, P2024-027]</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Customer Shipments</span>: [<span style=color:#ae81ff>SH-001234, SH-001235]</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>تتبع استهلاك الدفعة</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Production Lot Consumption:
+Work Order: WO-2024-100
+Product: Finished Good A
+Quantity: 1,000 units
+
+Input Lots:
+  Raw Material X:
+    Lot L2024-001-A: 250 kg (consumed)
+    Lot L2024-002-B: 150 kg (consumed)
+  
+  Raw Material Y:
+    Lot L2024-010-C: 100 kg (consumed)
+
+Output Lot:
+  Finished Good A:
+    Lot FG-2024-050: 1,000 units (produced)
+    
+Genealogy Established:
+FG-2024-050 ← L2024-001-A, L2024-002-B, L2024-010-C</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>تنفيذ الرقم التسلسلي<span class="hx:absolute hx:-mt-20" id=تنفيذ-الرقم-التسلسلي></span>
+<a href=#%d8%aa%d9%86%d9%81%d9%8a%d8%b0-%d8%a7%d9%84%d8%b1%d9%82%d9%85-%d8%a7%d9%84%d8%aa%d8%b3%d9%84%d8%b3%d9%84%d9%8a class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>تصميم بنية الرقم التسلسلي</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Serial Number Format: PPPP-YYYY-NNNNN-CC
+Where:
+PPPP = Product Code (4 characters)
+YYYY = Year of manufacture
+NNNNN = Sequential number (5 digits)
+CC = Check digits (mod 97)
+
+Example: PUMP-2024-00001-23
+
+Serial Number Generation Rules:
+1. Unique across all products and time
+2. Meaningful to manufacturing and service
+3. Includes check digits for validation
+4. Barcode/QR code compatible
+5. Customer requirements compliant</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>تتبع دورة حياة الرقم التسلسلي</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Serial Number</span>: <span style=color:#ae81ff>PUMP-2024-00001-23</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Product</span>: <span style=color:#ae81ff>Industrial Pump Model X</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Manufacturing History</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Work Order</span>: <span style=color:#ae81ff>WO-2024-500</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Production Date</span>: <span style=color:#e6db74>2024-03-15</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Work Center</span>: <span style=color:#ae81ff>Final Assembly</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Operator</span>: <span style=color:#ae81ff>John Smith</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Quality Inspector</span>: <span style=color:#ae81ff>Mary Johnson</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Test Results</span>: <span style=color:#ae81ff>PASS</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Component Serial Numbers</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Motor</span>: <span style=color:#ae81ff>MOT-2024-01234-56</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Impeller</span>: <span style=color:#ae81ff>IMP-2024-05678-90</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Casing</span>: <span style=color:#ae81ff>CAS-2024-09876-54</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Field Service History</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Installation Date</span>: <span style=color:#e6db74>2024-04-20</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Customer</span>: <span style=color:#ae81ff>XYZ Manufacturing</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Location</span>: <span style=color:#ae81ff>Plant A, Building 2</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Service Records</span>: [<span style=color:#ae81ff>SR-001, SR-002, SR-003]</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>Warranty Status</span>: <span style=color:#ae81ff>Active until 2026-04-20</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>عملية إدارة الاستدعاء<span class="hx:absolute hx:-mt-20" id=عملية-إدارة-الاستدعاء></span>
+<a href=#%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%af%d8%b9%d8%a7%d8%a1 class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>تنفيذ إجراء الاستدعاء</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Recall Process Steps:
+1. Recall Initiation
+   - Identify affected lot/serial numbers
+   - Determine recall scope
+   - Assess risk level
+   - Form recall team
+
+2. Traceability Analysis
+   - Forward traceability (where did it go?)
+   - Backward traceability (where did it come from?)
+   - Generate affected item list
+   - Identify customer locations
+
+3. Customer Notification
+   - Prepare recall notice
+   - Contact affected customers
+   - Provide return instructions
+   - Track acknowledgments
+
+4. Product Recovery
+   - Coordinate returns
+   - Track return quantities
+   - Quarantine returned products
+   - Verify recall effectiveness
+
+5. Root Cause Analysis
+   - Investigate cause
+   - Implement corrective actions
+   - Update procedures
+   - Train personnel</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>مثال على استعلام تتبع الاستدعاء</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sql data-lang=sql><span style=display:flex><span><span style=color:#75715e>-- BigLedger recall query example
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>SELECT</span> <span style=color:#66d9ef>DISTINCT</span> 
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>c</span>.customer_name,
+</span></span><span style=display:flex><span>    s.shipment_number,
+</span></span><span style=display:flex><span>    s.shipment_date,
+</span></span><span style=display:flex><span>    p.product_code,
+</span></span><span style=display:flex><span>    lt.lot_number,
+</span></span><span style=display:flex><span>    sn.serial_number,
+</span></span><span style=display:flex><span>    sl.quantity_shipped
+</span></span><span style=display:flex><span><span style=color:#66d9ef>FROM</span> 
+</span></span><span style=display:flex><span>    shipment_lines sl
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>JOIN</span> shipments s <span style=color:#66d9ef>ON</span> sl.shipment_id <span style=color:#f92672>=</span> s.shipment_id
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>JOIN</span> customers <span style=color:#66d9ef>c</span> <span style=color:#66d9ef>ON</span> s.customer_id <span style=color:#f92672>=</span> <span style=color:#66d9ef>c</span>.customer_id
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>JOIN</span> products p <span style=color:#66d9ef>ON</span> sl.product_id <span style=color:#f92672>=</span> p.product_id
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>LEFT</span> <span style=color:#66d9ef>JOIN</span> lot_tracking lt <span style=color:#66d9ef>ON</span> sl.lot_id <span style=color:#f92672>=</span> lt.lot_id
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>LEFT</span> <span style=color:#66d9ef>JOIN</span> serial_numbers sn <span style=color:#66d9ef>ON</span> sl.serial_id <span style=color:#f92672>=</span> sn.serial_id
+</span></span><span style=display:flex><span><span style=color:#66d9ef>WHERE</span> 
+</span></span><span style=display:flex><span>    lt.lot_number <span style=color:#66d9ef>IN</span> (<span style=color:#e6db74>&#39;L2024-001-A&#39;</span>, <span style=color:#e6db74>&#39;L2024-002-B&#39;</span>)
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>OR</span> sn.serial_number <span style=color:#66d9ef>LIKE</span> <span style=color:#e6db74>&#39;PUMP-2024-00001%&#39;</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>ORDER</span> <span style=color:#66d9ef>BY</span> 
+</span></span><span style=display:flex><span>    s.shipment_date <span style=color:#66d9ef>DESC</span>;</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>ميزات الامتثال التنظيمي<span class="hx:absolute hx:-mt-20" id=ميزات-الامتثال-التنظيمي></span>
+<a href=#%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d9%85%d8%aa%d8%ab%d8%a7%d9%84-%d8%a7%d9%84%d8%aa%d9%86%d8%b8%d9%8a%d9%85%d9%8a class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>امتثال FDA 21 CFR Part 11</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Electronic Records Requirements:
+1. Electronic Signatures
+   - Unique user identification
+   - Biometric or password authentication
+   - Electronic signature linking
+   - Non-repudiation controls
+
+2. Audit Trails
+   - Record creation timestamp
+   - User identification
+   - Original and changed values
+   - Reason for change
+   - Secure, time-stamped entries
+
+3. System Controls
+   - Access controls and permissions
+   - Data backup and recovery
+   - System validation documentation
+   - Change control procedures</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>متطلبات التتبع حسب ISO 9001</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Quality Management System Integration</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Document Control</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Traceability procedures</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Work instructions</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Record retention policies</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Document version control</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Monitoring and Measurement</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Product identification</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Traceability records</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Non-conformance tracking</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Corrective action linkage</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Management Review</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Traceability effectiveness</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Customer complaints analysis</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Recall frequency and scope</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>System improvement opportunities</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><hr><h2>غوص عميق في طرق تقييم المخزون<span class="hx:absolute hx:-mt-20" id=غوص-عميق-في-طرق-تقييم-المخزون></span>
+<a href=#%d8%ba%d9%88%d8%b5-%d8%b9%d9%85%d9%8a%d9%82-%d9%81%d9%8a-%d8%b7%d8%b1%d9%82-%d8%aa%d9%82%d9%8a%d9%8a%d9%85-%d8%a7%d9%84%d9%85%d8%ae%d8%b2%d9%88%d9%86 class=subheading-anchor aria-label="Permalink for this section"></a></h2><p>يؤثر تقييم المخزون بشكل كبير على البيانات المالية والالتزامات الضريبية والقرارات التشغيلية.</p><h3>تنفيذ FIFO (الوارد أولاً، صادر أولاً)<span class="hx:absolute hx:-mt-20" id=تنفيذ-fifo-الوارد-أولا-صادر-أولا></span>
+<a href=#%d8%aa%d9%86%d9%81%d9%8a%d8%b0-fifo-%d8%a7%d9%84%d9%88%d8%a7%d8%b1%d8%af-%d8%a3%d9%88%d9%84%d8%a7-%d8%b5%d8%a7%d8%af%d8%b1-%d8%a3%d9%88%d9%84%d8%a7 class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>مثال على حساب FIFO</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Inventory Transactions - Product A:
+Jan 1:  Beginning balance: 100 units @ MYR 10 = MYR 1,000
+Jan 5:  Purchase: 200 units @ MYR 12 = MYR 2,400
+Jan 10: Sale: 150 units
+Jan 15: Purchase: 100 units @ MYR 15 = MYR 1,500
+Jan 20: Sale: 180 units
+Jan 25: Purchase: 50 units @ MYR 16 = MYR 800
+
+FIFO Cost of Goods Sold:
+Jan 10 Sale (150 units):
+  100 units @ MYR 10 = MYR 1,000
+  50 units @ MYR 12 = MYR 600
+  Total COGS: MYR 1,600
+
+Jan 20 Sale (180 units):
+  150 units @ MYR 12 = MYR 1,800
+  30 units @ MYR 15 = MYR 450
+  Total COGS: MYR 2,250
+
+Ending Inventory:
+  70 units @ MYR 15 = MYR 1,050
+  50 units @ MYR 16 = MYR 800
+  Total Ending Inventory: MYR 1,850</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>تنفيذ التكلفة المتوسطة المرجحة<span class="hx:absolute hx:-mt-20" id=تنفيذ-التكلفة-المتوسطة-المرجحة></span>
+<a href=#%d8%aa%d9%86%d9%81%d9%8a%d8%b0-%d8%a7%d9%84%d8%aa%d9%83%d9%84%d9%81%d8%a9-%d8%a7%d9%84%d9%85%d8%aa%d9%88%d8%b3%d8%b7%d8%a9-%d8%a7%d9%84%d9%85%d8%b1%d8%ac%d8%ad%d8%a9 class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>حساب المتوسط المتحرك</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Moving Average Method - Product B:
+Date    Transaction    Qty   Unit Cost   Total    Avg Cost
+Jan 1   Beginning      50    MYR 20     MYR 1,000  MYR 20.00
+Jan 3   Purchase       30    MYR 22     MYR 660    
+        New Average:   80               MYR 1,660  MYR 20.75
+Jan 8   Issue         (25)   MYR 20.75  MYR 518.75
+        Balance:       55               MYR 1,141.25 MYR 20.75
+Jan 12  Purchase       40    MYR 24     MYR 960
+        New Average:   95               MYR 2,101.25 MYR 22.12
+Jan 18  Issue         (60)   MYR 22.12  MYR 1,327.20
+        Balance:       35               MYR 774.05  MYR 22.12</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>تنفيذ التكلفة المعيارية<span class="hx:absolute hx:-mt-20" id=تنفيذ-التكلفة-المعيارية></span>
+<a href=#%d8%aa%d9%86%d9%81%d9%8a%d8%b0-%d8%a7%d9%84%d8%aa%d9%83%d9%84%d9%81%d8%a9-%d8%a7%d9%84%d9%85%d8%b9%d9%8a%d8%a7%d8%b1%d9%8a%d8%a9 class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>تحليل انحراف التكلفة المعيارية</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Standard Cost System - Product C:
+Standard Cost: MYR 25.00/unit
+
+Actual Purchases:
+Date      Qty    Unit Cost   Total      Variance
+Jan 5     100    MYR 24.50   MYR 2,450  MYR 50 favorable
+Jan 12    150    MYR 25.80   MYR 3,870  MYR 120 unfavorable
+Jan 20    80     MYR 24.20   MYR 1,936  MYR 64 favorable
+
+Inventory Valuation:
+All inventory carried at standard cost: MYR 25.00/unit
+Purchase price variances recorded separately
+Variance analysis for management reporting
+
+Variance Journal Entries:
+Jan 5 Purchase:
+Dr. Inventory (100 × MYR 25.00)        MYR 2,500
+    Cr. Accounts Payable                      MYR 2,450
+    Cr. Purchase Price Variance               MYR 50
+
+Jan 12 Purchase:
+Dr. Inventory (150 × MYR 25.00)        MYR 3,750
+Dr. Purchase Price Variance             MYR 120
+    Cr. Accounts Payable                      MYR 3,870</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>تنفيذ التكلفة أو السوق أيهما أقل (LCM)<span class="hx:absolute hx:-mt-20" id=تنفيذ-التكلفة-أو-السوق-أيهما-أقل-lcm></span>
+<a href=#%d8%aa%d9%86%d9%81%d9%8a%d8%b0-%d8%a7%d9%84%d8%aa%d9%83%d9%84%d9%81%d8%a9-%d8%a3%d9%88-%d8%a7%d9%84%d8%b3%d9%88%d9%82-%d8%a3%d9%8a%d9%87%d9%85%d8%a7-%d8%a3%d9%82%d9%84-lcm class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>عملية تقييم LCM</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>LCM Analysis - Product D</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Historical Cost</span>: <span style=color:#ae81ff>MYR 50/unit</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Current Market Price</span>: <span style=color:#ae81ff>MYR 45/unit</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Replacement Cost</span>: <span style=color:#ae81ff>MYR 43/unit</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Net Realizable Value</span>: <span style=color:#ae81ff>MYR 48/unit</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Net Realizable Value - Normal Profit</span>: <span style=color:#ae81ff>MYR 42/unit</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>LCM Calculation</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Market Value = Middle value of</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Replacement Cost</span>: <span style=color:#ae81ff>MYR 43</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>Net Realizable Value</span>: <span style=color:#ae81ff>MYR 48</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>NRV - Normal Profit</span>: <span style=color:#ae81ff>MYR 42</span>
+</span></span><span style=display:flex><span>  <span style=color:#ae81ff>Market Value = MYR 43</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#ae81ff>LCM = Lower of Cost (MYR 50) or Market (MYR 43)</span>
+</span></span><span style=display:flex><span><span style=color:#ae81ff>LCM = MYR 43/unit</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Inventory Write-down</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Write-down per unit</span>: <span style=color:#ae81ff>MYR 50 - MYR 43 = MYR 7</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Inventory on hand</span>: <span style=color:#ae81ff>200</span> <span style=color:#ae81ff>units</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Total write-down</span>: <span style=color:#ae81ff>MYR 1,400</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Journal Entry</span>:
+</span></span><span style=display:flex><span><span style=color:#ae81ff>Dr. Inventory Write-down Expense       MYR 1,400</span>
+</span></span><span style=display:flex><span>    <span style=color:#ae81ff>Cr. Inventory Valuation Allowance        MYR 1,400</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>طريقة التحديد النوعي<span class="hx:absolute hx:-mt-20" id=طريقة-التحديد-النوعي></span>
+<a href=#%d8%b7%d8%b1%d9%8a%d9%82%d8%a9-%d8%a7%d9%84%d8%aa%d8%ad%d8%af%d9%8a%d8%af-%d8%a7%d9%84%d9%86%d9%88%d8%b9%d9%8a class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>تتبع العناصر عالية القيمة</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Specific Identification - Luxury Watches:
+Item      Serial Number    Cost      Sale Price   Margin
+Watch A   W001234         MYR 5,000  MYR 8,000   MYR 3,000
+Watch B   W001235         MYR 4,500  MYR 7,500   MYR 3,000
+Watch C   W001236         MYR 5,500  MYR 9,000   MYR 3,500
+
+Sale Transaction - Watch B:
+Dr. Cash/Accounts Receivable           MYR 7,500
+    Cr. Sales Revenue                         MYR 7,500
+
+Dr. Cost of Goods Sold                 MYR 4,500
+    Cr. Inventory                             MYR 4,500
+
+Remaining Inventory:
+Watch A: MYR 5,000
+Watch C: MYR 5,500
+Total: MYR 10,500</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><hr><h2>التميز في الجرد الدوري والجرد المادي<span class="hx:absolute hx:-mt-20" id=التميز-في-الجرد-الدوري-والجرد-المادي></span>
+<a href=#%d8%a7%d9%84%d8%aa%d9%85%d9%8a%d8%b2-%d9%81%d9%8a-%d8%a7%d9%84%d8%ac%d8%b1%d8%af-%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a-%d9%88%d8%a7%d9%84%d8%ac%d8%b1%d8%af-%d8%a7%d9%84%d9%85%d8%a7%d8%af%d9%8a class=subheading-anchor aria-label="Permalink for this section"></a></h2><p>دقة المخزون هي أساس العمليات الفعالة. هدفي هو دقة 95%+، وهو قابل للتحقيق مع إجراءات الجرد الدوري المناسبة.</p><h3>تصميم برنامج الجرد الدوري<span class="hx:absolute hx:-mt-20" id=تصميم-برنامج-الجرد-الدوري></span>
+<a href=#%d8%aa%d8%b5%d9%85%d9%8a%d9%85-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d8%a7%d9%84%d8%ac%d8%b1%d8%af-%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>تصنيف ABC للجرد الدوري</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>ABC Analysis Based on Annual Usage Value:
+Class A Items (70% of value, 20% of items):
+  - Count frequency: Weekly or bi-weekly
+  - Tolerance: ±2%
+  - Immediate investigation of variances
+  - Root cause analysis required
+
+Class B Items (20% of value, 30% of items):
+  - Count frequency: Monthly
+  - Tolerance: ±5%
+  - Variance investigation if significant
+  - Quarterly trend analysis
+
+Class C Items (10% of value, 50% of items):
+  - Count frequency: Quarterly
+  - Tolerance: ±10%
+  - Focus on major variances only
+  - Annual procedure review</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>تخطيط جدول الجرد الدوري</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>Daily Cycle Count Plan</span>:
+</span></span><span style=display:flex><span><span style=color:#f92672>Monday</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>A items</span>: <span style=color:#ae81ff>Locations A001-A050</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>High-velocity items</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Previous variance follow-up</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Tuesday</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>A items</span>: <span style=color:#ae81ff>Locations A051-A100</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>B items</span>: <span style=color:#ae81ff>Locations B001-B025</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Customer return areas</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Wednesday</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>A items</span>: <span style=color:#ae81ff>Locations A101-A150</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>B items</span>: <span style=color:#ae81ff>Locations B026-B050</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Work-in-process areas</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Thursday</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>A items</span>: <span style=color:#ae81ff>Locations A151-A200</span>
+</span></span><span style=display:flex><span>  - <span style=color:#f92672>C items</span>: <span style=color:#ae81ff>Locations C001-C100</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Consignment inventory</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>Friday</span>:
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Variance resolution</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Root cause analysis</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Process improvements</span>
+</span></span><span style=display:flex><span>  - <span style=color:#ae81ff>Next week planning</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>إجراءات العد والضوابط<span class="hx:absolute hx:-mt-20" id=إجراءات-العد-والضوابط></span>
+<a href=#%d8%a5%d8%ac%d8%b1%d8%a7%d8%a1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d8%af-%d9%88%d8%a7%d9%84%d8%b6%d9%88%d8%a7%d8%a8%d8%b7 class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>التحضير قبل العد</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Preparation Checklist:
+□ Freeze inventory transactions during count
+□ Complete all pending receipts and issues
+□ Organize counting areas
+□ Prepare count sheets/mobile devices
+□ Assign counting teams
+□ Review procedures with counters
+□ Verify scales and measuring equipment
+□ Identify problem areas from previous counts</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>ضوابط عملية العد</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Blind Count Procedures:
+1. Generate count sheets without quantities
+2. Assign counters to unfamiliar areas
+3. Require independent second counts for variances
+4. Use different teams for recounts
+5. Supervisor spot checks of 10% of counts
+6. Document all unusual situations
+
+Count Team Structure:
+Primary Counter: Physical counting
+Secondary Counter: Independent verification  
+Recorder: Data entry and documentation
+Supervisor: Quality control and exception handling</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>عملية التحقيق في الانحرافات<span class="hx:absolute hx:-mt-20" id=عملية-التحقيق-في-الانحرافات></span>
+<a href=#%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d8%ad%d9%82%d9%8a%d9%82-%d9%81%d9%8a-%d8%a7%d9%84%d8%a7%d9%86%d8%ad%d8%b1%d8%a7%d9%81%d8%a7%d8%aa class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>سير عمل تحليل الانحرافات</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Variance Investigation Steps:
+1. Immediate Verification
+   - Recount suspected variances
+   - Check for recent transactions
+   - Verify unit of measure
+   - Confirm product identification
+
+2. Transaction Review
+   - Review recent receipts/issues
+   - Check for timing differences
+   - Verify posting dates
+   - Investigate unposted transactions
+
+3. Physical Investigation
+   - Check alternate locations
+   - Look for damaged products
+   - Verify lot/serial numbers
+   - Check for misidentified items
+
+4. Root Cause Analysis
+   - Identify cause category
+   - Document contributing factors
+   - Assign responsibility
+   - Develop corrective actions
+
+5. Adjustment Processing
+   - Supervisor approval required
+   - Document business justification
+   - Process inventory adjustment
+   - Update cycle count results</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>الأسباب الجذرية الشائعة للانحرافات</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Root Cause Categories:
+Transaction Errors (40%):
+  - Incorrect quantities posted
+  - Wrong location updates
+  - Timing differences
+  - Missed transactions
+
+Physical Handling (30%):
+  - Damaged goods not recorded
+  - Theft or shrinkage
+  - Incorrect put-away location
+  - Product deterioration
+
+System Issues (20%):
+  - Unit of measure errors
+  - Product code mix-ups
+  - BOM errors
+  - System processing errors
+
+Process Gaps (10%):
+  - Inadequate training
+  - Poor procedures
+  - Insufficient controls
+  - Communication breakdowns</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>مراقبة دقة المخزون الدائم<span class="hx:absolute hx:-mt-20" id=مراقبة-دقة-المخزون-الدائم></span>
+<a href=#%d9%85%d8%b1%d8%a7%d9%82%d8%a8%d8%a9-%d8%af%d9%82%d8%a9-%d8%a7%d9%84%d9%85%d8%ae%d8%b2%d9%88%d9%86-%d8%a7%d9%84%d8%af%d8%a7%d8%a6%d9%85 class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>مؤشرات الأداء الرئيسية</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Inventory Accuracy Metrics:
+1. Overall Accuracy Rate
+   Target: &gt;95%
+   Calculation: (Items within tolerance ÷ Total items counted) × 100
+
+2. Value Accuracy Rate
+   Target: &gt;98%
+   Calculation: (Value within tolerance ÷ Total value counted) × 100
+
+3. Location Accuracy Rate
+   Target: &gt;99%
+   Calculation: (Correct locations ÷ Total locations) × 100
+
+4. Record Accuracy Rate
+   Target: &gt;95%
+   Calculation: (Records with no errors ÷ Total records) × 100
+
+Monthly Accuracy Trending:
+Month     Overall   Value    Location   Record
+January   94.2%     97.8%    98.9%      93.5%
+February  95.1%     98.2%    99.1%      94.8%
+March     95.8%     98.6%    99.3%      95.2%
+Target    &gt;95%      &gt;98%     &gt;99%       &gt;95%</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><h3>عملية الجرد المادي<span class="hx:absolute hx:-mt-20" id=عملية-الجرد-المادي></span>
+<a href=#%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%ac%d8%b1%d8%af-%d8%a7%d9%84%d9%85%d8%a7%d8%af%d9%8a class=subheading-anchor aria-label="Permalink for this section"></a></h3><p><strong>إجراءات الجرد المادي السنوي</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Physical Inventory Timeline:
+Week -4: Planning and Preparation
+  - Form inventory committee
+  - Develop count procedures
+  - Train count teams
+  - Prepare count materials
+
+Week -2: Pre-Inventory Activities
+  - Complete cycle count corrections
+  - Clean and organize warehouse
+  - Update location codes
+  - Freeze purchase orders
+
+Week -1: Final Preparations
+  - Final transaction processing
+  - Inventory cut-off procedures
+  - Team assignments
+  - Equipment testing
+
+Count Day: Execution
+  - Morning briefing
+  - First count completion
+  - Variance identification
+  - Second count (variances only)
+  - Supervisor reviews
+
+Week &#43;1: Post-Count Activities
+  - Final variance resolution
+  - Inventory adjustments
+  - Financial reporting
+  - Process improvement review</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p><strong>التحقق من دقة العد</strong></p><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><pre><code>Multi-Stage Verification Process:
+Stage 1: Initial Count
+  - Blind count by assigned team
+  - Document quantities and conditions
+  - Note any discrepancies or issues
+
+Stage 2: Verification Count
+  - Independent team recounts
+  - Compare to initial count
+  - Flag variances &gt;±5%
+
+Stage 3: Supervisor Review
+  - Review all variances
+  - Authorize additional recounts
+  - Approve final quantities
+
+Stage 4: Final Validation
+  - Management approval for significant adjustments
+  - Financial impact assessment
+  - Audit trail documentation</code></pre></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"><button class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50" title="Copy code"><div class="copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div><div class="success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div></button></div></div><p>يمثل هذا الدليل الشامل ثلاثة عقود من الخبرة العملية في تنفيذ وتحسين عمليات المخزون والتصنيع. يكمن مفتاح النجاح في إنشاء بيانات رئيسية قوية، وتنفيذ عمليات منضبطة، والاستفادة من قدرات الأتمتة في BigLedger مع الحفاظ على التركيز على الدقة والتحسين المستمر.</p><p>يقدم كل قسم إجراءات تفصيلية قابلة للتنفيذ اختُبرت عبر صناعات متعددة وعمليات تنفيذ لأنظمة تخطيط موارد المؤسسات. ينصب التركيز على إنشاء أنظمة توفر معلومات دقيقة وفي الوقت المناسب لاتخاذ القرارات التشغيلية مع الحفاظ على الامتثال للمعايير واللوائح المعمول بها.</p></div></div></article></main><footer class=bl-footer><div class=bl-container><div class=bl-footer-grid><div class=bl-footer-brand><img src=https://www.bigledger.com/images/bigledger-logo-cropped.png alt="وثائق BigLedger" height=20 class=bl-logo-img><p class=bl-footer-tagline>نظام تخطيط موارد المؤسسات (ERP) القابل للتركيب والمستند إلى السحابة للمؤسسات الحديثة، معتمد من MDEC PEPPOL في جميع أنحاء جنوب شرق آسيا.</p><div class=bl-footer-badges><span class=bl-footer-badge>PEPPOL</span>
+<span class=bl-footer-badge>ISO 27001</span>
+<span class=bl-footer-badge>الفاتورة الإلكترونية الماليزية</span></div></div><div class=bl-footer-col><span class=bl-footer-col-title>المنصة</span><ul class=bl-footer-links><li><a href=https://www.bigledger.com/solutions>الحلول</a></li><li><a href=https://www.bigledger.com/pricing>الأسعار</a></li><li><a href=https://www.bigledger.com/developers>المطورون</a></li><li><a href=https://www.bigledger.com/e-invoice-peppol>الفاتورة الإلكترونية</a></li></ul></div><div class=bl-footer-col><span class=bl-footer-col-title>الشركة</span><ul class=bl-footer-links><li><a href=https://www.bigledger.com/about>من نحن</a></li><li><a href=https://www.bigledger.com/contact>اتصل بنا</a></li><li><a href=https://www.bigledger.com/demos-resources>الموارد</a></li></ul></div><div class=bl-footer-col><span class=bl-footer-col-title>الامتثال</span><ul class=bl-footer-links><li><a href=https://www.bigledger.com/e-invoice-peppol>اعتماد PEPPOL</a></li><li><a href=https://www.bigledger.com/mdec-e-invoice-promotion>مبادرة MDEC</a></li><li><a href=https://www.bigledger.com/solutions>الامتثال لضريبة SST</a></li></ul></div></div><div class=bl-footer-bottom><span class=bl-footer-copy>&copy; 2026 BigLedger. جميع الحقوق محفوظة.</span><div class=bl-footer-legal><a href=https://www.bigledger.com/privacy-policy>سياسة الخصوصية</a>
+<a href=https://www.bigledger.com/terms-of-service>شروط الخدمة</a></div></div></div></footer><script>window.__blLang="ar",window.__blUrls=["/ar/applets/","/ar/business-operations/","/ar/applets/applet-catalog/","/ar/applets/tenant-admin-applet/","/ar/applets/inv-item-maintenance-applet/","/ar/applets/customer-maintenance-applet/","/ar/user-guide/getting-started/navigation/","/ar/support/beginner-guide/","/ar/applets/supplier-maintenance-applet/","/ar/applets/employee-maintenance-applet/","/ar/e-invoice-peppol/","/ar/applets/tax-configuration-applet/","/ar/applets-workflows/","/ar/applets/cashbook-applet/","/ar/modules/ecommerce/20-website-configuration/","/ar/modules/ecommerce/b2b/","/ar/modules/ecommerce/cp-commerce/","/ar/modules/ecommerce/create-single-tab/","/ar/modules/ecommerce/ecomsync-applet/","/ar/modules/ecommerce/ecomsync-features/","/ar/modules/ecommerce/integration-with-shopify/","/ar/modules/ecommerce/introduction-to-ecomsync/","/ar/modules/ecommerce/listing/","/ar/modules/ecommerce/marketplace-tab/","/ar/modules/ecommerce/update-and-delete-item/","/ar/support/beginner-guide/getting-started/","/ar/user-guide/basic-operations/document-item-types/","/ar/user-guide/daily-tasks/price-book/","/ar/tutorials/first-invoice/","/ar/support/faqs/","/ar/business-operations/order/","/ar/user-guide/getting-started/","/ar/user-guide/demo/getting-started-demo/","/ar/developer-docs/installation/","/ar/business-operations/account-receivable/","/ar/user-guide/administration/team/","/ar/business-operations/accounting/","/ar/modules/core/","/ar/business-operations/order-filtering/","/ar/business-operations/order-details/","/ar/guides/inventory-guides/stock-management/","/ar/guides/einvoice-guides/myinvois-setup/","/ar/guides/accounting-guides/chart-of-accounts-setup/","/ar/user-guide/industry-solutions/industry-guide/","/ar/guides/roles/branch-manager/","/ar/user-guide/demo/role-based/finance-manager/","/ar/user-guide/demo/common-workflows/","/ar/user-guide/demo/retail/","/ar/business-operations/sales-order-tab/","/ar/guides/advanced/accounting-workflows/","/ar/user-guide/administration/member-listing/","/ar/business-operations/order-listing/","/ar/user-guide/administration/member-label-list/","/ar/user-guide/industry-solutions/food-and-beverage-fb-industry/","/ar/user-guide/industry-solutions/automotive-and-workshop-industry/","/ar/business-operations/dashboard/","/ar/business-operations/main-dashboard/","/ar/business-operations/order-dashboard/","/ar/business-operations/sales-dashboard/","/ar/user-guide/getting-started/introduction/","/ar/user-guide/getting-started/platform-overview/","/ar/applets/webhook-applet/","/ar/applets/t2t-admin-applet/","/ar/user-guide/demo/apparel/","/ar/applets/organization-applet/","/ar/applets/stock-take-applet/","/ar/user-guide/demo/role-based/","/ar/user-guide/demo/distributors/","/ar/ai-intelligence/","/ar/guides/inventory-guides/stock-transfer/","/ar/user-guide/basic-operations/creating-an-item/","/ar/demos-resources/","/ar/user-guide/basic-operations/","/ar/support/beginner-guide/basic-business-operations/","/ar/guides/advanced/advanced-inventory-manufacturing/","/ar/applets/team-maintenance-applet/","/ar/guides/roles/cashier/","/ar/guides/einvoice-guides/peppol-configuration/","/ar/guides/accounting-guides/journal-entries/","/ar/user-guide/demo/role-based/operations-manager/","/ar/user-guide/demo/manufacturing/","/ar/tutorials/month-end-closing/","/ar/developer-docs/","/ar/modules/financial-accounting/","/ar/modules/pos/","/ar/guides/","/ar/applications/","/ar/user-guide/basic-operations/editing-an-item/","/ar/modules/ecommerce/cp-commerce-menu-pages/","/ar/user-guide/demo/education/","/ar/applets/applet-store/","/ar/user-guide/demo/","/ar/modules/cp-commerce/","/ar/modules/sales-crm/","/ar/guides/accounting-guides/","/ar/modules/crm/","/ar/modules/inventory/category-groups/","/ar/support/beginner-guide/day-to-day-usage/","/ar/guides/advanced/financial-reporting-excellence/","/ar/user-guide/daily-tasks/","/ar/applets/pricebook-applet/","/ar/guides/roles/ecommerce-specialist/","/ar/guides/accounting-guides/financial-reporting/","/ar/user-guide/","/ar/user-guide/demo/role-based/ceo-executive/","/ar/user-guide/basic-operations/item-maintenance/","/ar/user-guide/demo/services/","/ar/guides/einvoice-guides/einvoice-validation/","/ar/api-reference/","/ar/modules/","/ar/modules/accounting/","/ar/guides/einvoice-guides/","/ar/guides/inventory-guides/","/ar/applets/group-maintenance-applet/","/ar/user-guide/basic-operations/document-item-maintenance/","/ar/modules/e-invoice/","/ar/modules/purchasing/","/ar/guides/roles/","/ar/user-guide/administration/","/ar/guides/accounting-guides/bank-reconciliation-guide/","/ar/tutorials/","/ar/support/beginner-guide/malaysian-specific-questions/","/ar/user-guide/administration/member-class/","/ar/applets/process-monitoring-applet/","/ar/guides/roles/finance-manager/","/ar/user-guide/demo/food-beverage/","/ar/guides/advanced/compliance-audit/","/ar/modules/inventory/","/ar/modules/erp/","/ar/applets/applet-directory/","/ar/user-guide/administration/group-listing/","/ar/modules/it-ce/","/ar/modules/inventory-warehouse/","/ar/user-guide/administration/member-label/","/ar/applets/location-organization-applet/","/ar/user-guide/daily-tasks/pricing-scheme/","/ar/guides/advanced/","/ar/user-guide/reports-analytics/","/ar/modules/procurement/","/ar/support/beginner-guide/growth-and-scaling/","/ar/guides/roles/internal-audit/","/ar/guides/advanced/industry-specific-workflows/","/ar/modules/digital-crm/","/ar/modules/manufacturing/","/ar/applets/settings-of-organization-applet/","/ar/modules/service-industry/","/ar/guides/advanced/integration-best-practices/","/ar/user-guide/troubleshooting/","/ar/support/beginner-guide/technical-concerns/","/ar/applets/branch-organization-applet/","/ar/user-guide/daily-tasks/price-set/","/ar/guides/roles/merchandising-manager/","/ar/modules/drop-shipping/","/ar/modules/hr-payroll/","/ar/applets/company-organization-applet/","/ar/applets/membership-admin-console-applet/","/ar/user-guide/best-practices/","/ar/support/beginner-guide/cost-and-roi-questions/","/ar/modules/hr/","/ar/guides/advanced/performance-optimization/","/ar/guides/roles/procurement-manager/","/ar/modules/ecommerce/","/ar/applets/membership-program/","/ar/applets/internal-delivery-order-applet/","/ar/modules/projects/","/ar/user-guide/industry-solutions/","/ar/guides/roles/warehouse-manager/","/ar/applications/unified-contact-center/","/ar/applets/stock-balance-applet/","/ar/applets/internal-stock-adjustment-applet/","/ar/support/","/ar/privacy-policy/","/ar/terms-of-service/","/ar/applets/90-ecomsync-related-applets/","/ar/applets/accounts-receivable-applet/","/ar/applets/ingram-micro-ms-esd-applet/","/ar/applets/installation-of-pricebook-applet/","/ar/applets/installation-of-group-maintenance-applet/","/ar/applets/installation-of-team-maintenance-applet/","/ar/applets/introduction-to-team-maintenance-applet/","/ar/applets/introduction-to-membership-admin-console-applet/","/ar/applets/introduction-to-stock-take-applet/","/ar/applets/related-applets-stock-balance/","/ar/applets/related-applets-internal-job-order/","/ar/applets/related-applets-internal-stock-adjustment/","/ar/applets/related-applets-process-monitoring/","/ar/applets/membership-points-currency/","/ar/applets/unified-contact-center-ucc-applet/","/ar/applets/workflow-design-applet/","/ar/applets/general-ledger-applet/","/ar/applets/vstecs-ms-esd-order-applet/","/ar/applets/chart-of-account-applet/","/ar/applets/doc-item-maintenance-applet/","/ar/applets/pos-terminal-applet/","/ar/applets/ecommerce-catalog-applet/","/ar/applets/einvoice-generation-applet/","/ar/applets/ai-customer-analytics-applet/","/ar/tags/accounting-module/","/ar/tags/accounts-receivable/","/ar/tags/administration/","/ar/tags/advanced-configuration/","/ar/tags/analytics/","/ar/tags/api-integration/","/ar/tags/applet-marketplace/","/ar/tags/applets/","/ar/tags/application-management/","/ar/tags/approval-workflows/","/ar/tags/architecture/","/ar/tags/artificial-intelligence/","/ar/tags/automation/","/ar/tags/bank-accounts/","/ar/tags/basic-operations/","/ar/tags/best-practices/","/ar/tags/bos/","/ar/tags/branch-administration/","/ar/tags/branch-management/","/ar/tags/bulk-import/","/ar/tags/business/","/ar/tags/business-intelligence/","/ar/tags/business-operations/","/ar/tags/business-process/","/ar/tags/business-processes/","/ar/tags/business-rules/","/ar/tags/case-studies/","/ar/tags/cash-flow/","/ar/tags/cash-management/","/ar/tags/cashier-operations/","/ar/tags/catalog/","/ar/tags/catalog-maintenance/","/ar/tags/catalog-management/","/ar/categories/","/ar/tags/chart-of-accounts/","/ar/tags/collections/","/ar/tags/communication/","/ar/tags/company-management/","/ar/tags/company-setup/","/ar/tags/compliance/","/ar/tags/configuration/","/ar/tags/core-module/","/ar/tags/cp-commerce-module/","/ar/tags/credit-management/","/ar/tags/crm/","/ar/tags/customer-analytics/","/ar/tags/customer-billing/","/ar/tags/customer-management/","/ar/tags/customer-service/","/ar/tags/daily-tasks/","/ar/tags/dashboards/","/ar/tags/data-management/","/ar/tags/delivery/","/ar/tags/digital-commerce/","/ar/tags/digital-crm-module/","/ar/tags/digital-transformation/","/ar/tags/directory/","/ar/tags/discovery/","/ar/tags/document-items/","/ar/tags/document-management/","/ar/tags/ecommerce/","/ar/tags/efficiency/","/ar/tags/einvoice-module/","/ar/tags/electronic-invoicing/","/ar/tags/employee-management/","/ar/tags/enterprise-administration/","/ar/tags/enterprise-architecture/","/ar/tags/enterprise-pricing/","/ar/tags/esd/","/ar/tags/esd-orders/","/ar/tags/expert-tips/","/ar/tags/financial-accounting/","/ar/tags/financial-management/","/ar/tags/financial-reporting/","/ar/tags/fundamentals/","/ar/tags/general-ledger/","/ar/tags/getting-started/","/ar/tags/group-maintenance/","/ar/tags/group-management/","/ar/tags/gst/","/ar/tags/hr/","/ar/tags/industry/","/ar/tags/ingram-micro/","/ar/tags/installation/","/ar/tags/integration/","/ar/tags/introduction/","/ar/tags/inventory/","/ar/tags/inventory-management/","/ar/tags/item-management/","/ar/tags/item-types/","/ar/tags/job-order/","/ar/tags/labeling/","/ar/tags/location-management/","/ar/tags/logistics/","/ar/tags/loyalty-program/","/ar/tags/machine-learning/","/ar/tags/marketplace/","/ar/tags/master-data/","/ar/tags/membership/","/ar/tags/microsoft/","/ar/tags/modules/","/ar/tags/multi-tenant/","/ar/tags/notifications/","/ar/tags/omnichannel/","/ar/tags/onboarding/","/ar/tags/online-retail/","/ar/tags/operations/","/ar/tags/optimization/","/ar/tags/order-management/","/ar/tags/organization/","/ar/tags/organization-management/","/ar/tags/organizational-structure/","/ar/tags/overview/","/ar/tags/permissions/","/ar/tags/platform/","/ar/tags/point-of-sale/","/ar/tags/points-management/","/ar/tags/points-system/","/ar/tags/pos-module/","/ar/tags/predictive-analytics/","/ar/tags/pricebook/","/ar/tags/pricing/","/ar/tags/problems/","/ar/tags/process-design/","/ar/tags/process-monitoring/","/ar/tags/procurement/","/ar/tags/product-catalog/","/ar/tags/product-master/","/ar/tags/promotions/","/ar/tags/real-time/","/ar/tags/reference/","/ar/tags/regulatory/","/ar/tags/related-applets/","/ar/tags/reports/","/ar/tags/retail/","/ar/tags/sales/","/ar/tags/search/","/ar/tags/security/","/ar/tags/services/","/ar/tags/settings/","/ar/tags/setup/","/ar/tags/setup-guide/","/ar/tags/solutions/","/ar/tags/sst/","/ar/tags/stock-adjustment/","/ar/tags/stock-balance/","/ar/tags/stock-control/","/ar/tags/stock-management/","/ar/tags/stock-take/","/ar/tags/supplier-management/","/ar/tags/support/","/ar/tags/synchronization/","/ar/tags/system-admin/","/ar/tags/system-administration/","/ar/tags/t2t-integration/","/ar/tags/","/ar/tags/tax-management/","/ar/tags/team-maintenance/","/ar/tags/team-management/","/ar/tags/tenant-management/","/ar/tags/terminal-management/","/ar/tags/transaction-processing/","/ar/tags/transactions/","/ar/tags/troubleshooting/","/ar/tags/tutorial/","/ar/tags/user-administration/","/ar/tags/user-guide/","/ar/tags/user-interface/","/ar/tags/user-management/","/ar/tags/vat/","/ar/tags/vendor-management/","/ar/tags/warehouse-management/","/ar/tags/webhooks/","/ar/tags/workflow/","/ar/tags/workflow-automation/","/ar/tags/workflows/","/ar/switch/quickbooks/","/ar/solutions/sme/","/ar/solutions/finance-teams/","/ar/security/","/ar/solutions/startups/","/ar/contact/","/ar/functions/purchasing/","/ar/solutions/construction/","/ar/functions/projects/","/ar/solutions/it-consumer-electronics/","/ar/compliance/sst-epf-socso/","/ar/search/","/ar/pricing/","/ar/solutions/","/ar/developers/","/ar/solutions/automotive/","/ar/functions/hr-payroll/","/ar/solutions/hr-teams/","/ar/solutions/drop-shipping/","/ar/solutions/retail-ecommerce/","/ar/functions/e-commerce/","/ar/switch/sql-account/","/ar/about/","/ar/modules/membership/","/ar/functions/manufacturing/","/ar/solutions/manufacturing/","/ar/switch/onboarding/","/ar/functions/financial-accounting/","/ar/functions/sales-crm/","/ar/solutions/sales-ops/","/ar/solutions/business-owners/","/ar/mdec-e-invoice-promotion/","/ar/solutions/franchise/","/ar/solutions/healthcare/","/ar/functions/e-invoice-peppol/","/ar/solutions/services-professional/","/ar/solutions/mid-market/","/ar/switch/autocount/","/ar/functions/inventory-warehouse/","/ar/solutions/wholesale-distribution/","/ar/modules/claims/","/ar/preview-modules-1/","/ar/preview-datalake-1/","/ar/preview-modules-3/","/ar/preview-modules-2/","/ar/preview-modules-4/","/ar/preview-datalake-3/","/ar/preview-datalake-4/","/ar/preview-datalake-2/","/ar/switch/excel/","/ar/functions/point-of-sale/","/ar/solutions/enterprise/","/ar/partners/","/ar/","/ar/solutions/multi-entity/"]</script><script src="https://www.bigledger.com/js/main.js?v=3b0cf3c037" defer></script><script defer src=https://www.bigledger.com/js/main.min.de62c3c776571ae1c2fd466a19b76ec8414384843f70634ec90a85352c1dfdc2.js integrity="sha256-3mLDx3ZXGuHC/UZqGbduyEFDhIQ/cGNOyQqFNSwd/cI="></script></body></html>

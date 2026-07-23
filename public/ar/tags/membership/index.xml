@@ -1,0 +1,13 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>وثائق BigLedger – Membership</title><link>https://www.bigledger.com/ar/tags/membership/</link><description>Recent content in Membership on وثائق BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ar</language><atom:link href="https://www.bigledger.com/ar/tags/membership/index.xml" rel="self" type="application/rss+xml"/><item><title>أبلت وحدة تحكم إدارة العضوية</title><link>https://www.bigledger.com/ar/applets/membership-admin-console-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/membership-admin-console-applet/</guid><description>
+&lt;p&gt;1&lt;/p&gt;</description></item><item><title>برنامج العضوية</title><link>https://www.bigledger.com/ar/applets/membership-program/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/membership-program/</guid><description>
+&lt;p&gt;لاستخدام برنامج العضوية
+التطبيقات المصغّرة الإلزامية
+تطبيق المؤسسة
+تطبيق صيانة عناصر المستندات
+تطبيق دفتر الأسعار
+التطبيقات المصغّرة الاختيارية
+تطبيق إدارة cp-commerce، للسماح لعضوك بتسجيل الدخول والتحقق من نقاطك.
+تطبيق نقطة البيع&lt;/p&gt;</description></item><item><title>مقدمة إلى أبلت وحدة تحكم إدارة العضوية</title><link>https://www.bigledger.com/ar/applets/introduction-to-membership-admin-console-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/introduction-to-membership-admin-console-applet/</guid><description>
+&lt;p&gt;مقدمة
+يُستخدم هذا الأبلت لتكوين وإدارة العضوية وعملة النقاط، مثل وضع العلامات وتصنيف الأعضاء وتعيين عملات نقاط مختلفة مع معدل التحويل. توجد سبع وحدات في الأبلت وهي قائمة الأعضاء، وفئة العضو، وعلامة العضو، وقائمة علامات الأعضاء، وعملة النقاط (PTS CCY)، وتكوين تحويل النقاط إلى النقاط (PTS to PTS)، وتكوين تحويل النقاط إلى العملة النقدية (PTS to CCY).
+الخطوات: التثبيت &amp;gt; إنشاء عضو &amp;gt; إنشاء فئة عضو &amp;gt; إنشاء قائمة علامات الأعضاء &amp;gt; إنشاء أو تعديل علامة عضو &amp;gt; إنشاء عملة نقاط &amp;gt; إنشاء تكوين تحويل النقاط إلى النقاط &amp;gt; إنشاء تكوين تحويل النقاط إلى العملة النقدية &amp;gt; تعديل العضو (الفئة والعلامة ومعاملة النقاط)&lt;/p&gt;</description></item></channel></rss>

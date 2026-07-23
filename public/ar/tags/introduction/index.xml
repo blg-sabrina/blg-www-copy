@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>وثائق BigLedger – Introduction</title><link>https://www.bigledger.com/ar/tags/introduction/</link><description>Recent content in Introduction on وثائق BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ar</language><atom:link href="https://www.bigledger.com/ar/tags/introduction/index.xml" rel="self" type="application/rss+xml"/><item><title>مقدمة إلى أبلت صيانة الفرق</title><link>https://www.bigledger.com/ar/applets/introduction-to-team-maintenance-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/introduction-to-team-maintenance-applet/</guid><description>
+&lt;p&gt;مقدمة
+أبلت صيانة الفرق هو لإدارة المستخدمين وصلاحيات الفريق. توجد وحدة واحدة فقط في الأبلت وهي &amp;lsquo;Team&amp;rsquo;.
+الخطوات: التثبيت&amp;gt; إنشاء فريق&amp;gt;تعديل الفريق(إضافة أعضاء، استيراد مستخدم، إضافة صلاحية)&lt;/p&gt;</description></item><item><title>مقدمة إلى أبلت وحدة تحكم إدارة العضوية</title><link>https://www.bigledger.com/ar/applets/introduction-to-membership-admin-console-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/introduction-to-membership-admin-console-applet/</guid><description>
+&lt;p&gt;مقدمة
+يُستخدم هذا الأبلت لتكوين وإدارة العضوية وعملة النقاط، مثل وضع العلامات وتصنيف الأعضاء وتعيين عملات نقاط مختلفة مع معدل التحويل. توجد سبع وحدات في الأبلت وهي قائمة الأعضاء، وفئة العضو، وعلامة العضو، وقائمة علامات الأعضاء، وعملة النقاط (PTS CCY)، وتكوين تحويل النقاط إلى النقاط (PTS to PTS)، وتكوين تحويل النقاط إلى العملة النقدية (PTS to CCY).
+الخطوات: التثبيت &amp;gt; إنشاء عضو &amp;gt; إنشاء فئة عضو &amp;gt; إنشاء قائمة علامات الأعضاء &amp;gt; إنشاء أو تعديل علامة عضو &amp;gt; إنشاء عملة نقاط &amp;gt; إنشاء تكوين تحويل النقاط إلى النقاط &amp;gt; إنشاء تكوين تحويل النقاط إلى العملة النقدية &amp;gt; تعديل العضو (الفئة والعلامة ومعاملة النقاط)&lt;/p&gt;</description></item><item><title>مقدمة إلى أبلت جرد المخزون</title><link>https://www.bigledger.com/ar/applets/introduction-to-stock-take-applet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ar/applets/introduction-to-stock-take-applet/</guid><description>
+&lt;p&gt;يقدّم أبلت جرد المخزون حلًا شاملًا لجميع احتياجات إدارة المخزون لديك، حيث يوفر كل ما تحتاجه لإمكانية التتبع والتحكم الفعّال في المخزون.
+الميزات الرئيسية:
+حل مركزي: أدر جميع بيانات المخزون في مكان واحد، مما يقلل من تعقيد التعامل مع أنظمة متعددة.
+واجهة ملائمة للأجهزة المحمولة: نفّذ عمليات جرد المخزون وأدر المخزون أثناء التنقل، في أي وقت وأي مكان.
+قابل للتخصيص بالكامل: عالج بسهولة المنتجات متعددة وحدات القياس مع تتبع أكثر تفصيلًا لمستويات المخزون بوحدات مختلفة.
+تخزين ذكي: قلّل التدخل البشري وقلّل الأخطاء.
+تتبع الأرقام التسلسلية: تتبّع وتعقّب فروقات المخزون حسب الدفعة أو الأرقام التسلسلية.
+تقارير في الوقت الفعلي: تنعكس أي بيانات مُدخلة فورًا في التقارير في الوقت الفعلي.&lt;/p&gt;
+&lt;h3&gt;البدء مع أبلت جرد المخزون&lt;span class="hx:absolute hx:-mt-20" id="البدء-مع-أبلت-جرد-المخزون"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a7%d9%84%d8%a8%d8%af%d8%a1-%d9%85%d8%b9-%d8%a3%d8%a8%d9%84%d8%aa-%d8%ac%d8%b1%d8%af-%d8%a7%d9%84%d9%85%d8%ae%d8%b2%d9%88%d9%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;للبدء في استخدام أبلت جرد المخزون، يُرجى التأكد من إكمال جميع خطوات إنشاء الكتالوجات وتثبيت الأبلتات وإدارة المستخدمين. للحصول على تعليمات مفصّلة، راجع دليل الإعداد العام.
+بمجرد التثبيت، يمكن للمستخدمين العثور على أبلت جرد المخزون على صفحتهم الرئيسية في Akaun والبدء في استخدامه لإدارة المخزون. فيما يلي أيقونة أبلت جرد المخزون.&lt;/p&gt;</description></item></channel></rss>

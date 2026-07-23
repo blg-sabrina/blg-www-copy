@@ -1,0 +1,390 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dokumentasi BigLedger – Pentadbiran</title><link>https://www.bigledger.com/ms/user-guide/administration/</link><description>Recent content in Pentadbiran on Dokumentasi BigLedger</description><generator>Hugo -- gohugo.io</generator><language>ms</language><atom:link href="https://www.bigledger.com/ms/user-guide/administration/index.xml" rel="self" type="application/rss+xml"/><item><title>Pasukan</title><link>https://www.bigledger.com/ms/user-guide/administration/team/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/user-guide/administration/team/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3321069573
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-07-27T06:18:28.861Z
+2. Pasukan: Cipta Pasukan &amp;gt; Maklumat Wajib&amp;gt; Sunting (Maklumat umum, Ahli, Import Pengguna, Kebenaran)
+2.1 Sila klik butang &amp;lsquo;+&amp;rsquo; untuk menambah pasukan baharu.
+2.2 Sila isikan maklumat wajib (&lt;em&gt;) untuk mencipta pasukan. Maklumat wajib:
+Nama Pasukan
+Kod Pasukan
+E-mel Pasukan
+Sila pilih Keterlihatan Pasukan daripada senarai.
+Sila pilih Penyertaan Pasukan daripada senarai
+Selepas mengisi semua maklumat Wajib (&lt;/em&gt;), sila klik &amp;lsquo;Create&amp;rsquo; untuk menambah pasukan baharu.
+2.3 Selepas menambah pasukan, ia akan disenaraikan di halaman utama. Sila klik pada pasukan untuk menyuntingnya.
+2.4 Sila sunting maklumat umum Pasukan daripada tab &amp;lsquo;Edit general info&amp;rsquo;.
+Hanya medan berikut boleh disunting:
+Nama Pasukan
+Penerangan Pasukan
+Keterlihatan Pasukan
+Penyertaan Pasukan
+Status Pasukan
+2.5 Sila tambah atau sunting ahli pasukan daripada tab &amp;lsquo;Edit Members&amp;rsquo;.
+2.5.1.Sila klik butang &amp;lsquo;+&amp;rsquo; untuk menambah pengguna kepada pasukan.
+Sila cari e-mel pengguna-Setelah pengguna mendaftar di &lt;a href="http://akaun.com" target="_blank" rel="noopener"&gt;http://akaun.com&lt;/a&gt; , e-mel mereka akan disenaraikan dalam &amp;lsquo;Select Email&amp;rsquo;.
+Sila pilih pangkat-Sila &amp;lsquo;Select Rank&amp;rsquo; untuk membezakan peranan ahli.
+Sila pilih status
+Sila klik butang &amp;lsquo;Add&amp;rsquo; untuk menambah pengguna kepada pasukan.
+2.5.2. Selepas menambah ahli dalam pasukan, sila klik Ahli daripada senarai untuk menyunting atau Memadamkannya.
+2.6 Sila import Pengguna kepada Pasukan daripada tab &amp;lsquo;Import Users&amp;rsquo;.
+Sila ikut arahan atau muat turun &amp;lsquo;simple format&amp;rsquo; untuk memuat naik fail yang betul.
+Sila klik &amp;lsquo;Upload file&amp;rsquo; untuk mengimport pengguna dalam pasukan
+2.7 Sila tambah atau sunting kebenaran daripada tab &amp;lsquo;Edit Permission&amp;rsquo;.
+Anda boleh &amp;lsquo;Select permission&amp;rsquo; daripada senarai untuk Menambah kebenaran.
+Selepas menambah kebenaran, anda boleh Menyunting atau Memadamkannya daripada &amp;lsquo;Permission.&lt;/p&gt;</description></item><item><title>Penyenaraian Ahli</title><link>https://www.bigledger.com/ms/user-guide/administration/member-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/user-guide/administration/member-listing/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3317564816
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-07-26T04:28:05.761Z
+2. Penyenaraian Ahli: Cipta Ahli Baharu &amp;gt; Sunting Keahlian
+2.1. Sila klik butang &amp;lsquo;+&amp;rsquo; untuk Mencipta Ahli baharu.
+Sila isikan maklumat wajib (&lt;em&gt;) untuk mencipta Ahli. Selepas mengisi semua maklumat Wajib (&lt;/em&gt;), sila klik &amp;lsquo;Save&amp;rsquo; untuk menambah Ahli baharu. Maklumat wajib:
+Nama Ahli
+E-mel
+Kod Negara
+No. Telefon Bimbit
+Tarikh Tamat Keahlian
+2.2. Selepas menambah ahli, ia akan disenaraikan di halaman utama. Sila klik pada ahli untuk menyuntingnya.
+Anda boleh menyunting butiran, label dan transaksi mata ahli.
+2.2.1. Dalam tab butiran, maklumat berikut boleh disunting:
+Nama ahli
+Jantina
+Tarikh lahir
+Kod negara
+No. Telefon Bimbit
+Pasport
+Alamat e-mel
+Kelas ahli-Boleh ditambah atau disunting daripada modul kelas Ahli
+Status ahli
+Tarikh Tamat Keahlian
+Anda boleh klik butang &amp;lsquo;delete&amp;rsquo; untuk mengeluarkan ahli daripada penyenaraian ahli.
+2.2.2. Dalam tab Label, anda boleh menambah label kepada ahli. Sila ikut modul label Ahli.
+2.2.3. Dalam tab transaksi mata, anda boleh menambah pelarasan mata.
+Sila klik butang &amp;lsquo;+&amp;rsquo; untuk menambah pelarasan mata.
+Medan berikut adalah wajib:
+Cawangan
+Mata Wang Mata
+Kod &amp;amp; nama item&lt;/p&gt;</description></item><item><title>Senarai Label Ahli</title><link>https://www.bigledger.com/ms/user-guide/administration/member-label-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/user-guide/administration/member-label-list/</guid><description>
+&lt;p&gt;&lt;strong&gt;Page ID&lt;/strong&gt;: 3317499439
+&lt;strong&gt;Last Updated&lt;/strong&gt;: 2021-07-26T04:25:30.383Z
+5.Senarai label ahli: Cipta Senarai Label Ahli&amp;gt;Maklumat wajib&amp;gt;Sunting
+5.1. Sila klik &amp;lsquo;Senarai label ahli&amp;rsquo; daripada senarai modul dan klik butang &amp;lsquo;+&amp;rsquo; untuk mencipta senarai label ahli baharu.
+5.2. Sila isikan maklumat wajib (&lt;em&gt;) untuk mencipta senarai label ahli. Selepas mengisi semua maklumat Wajib (&lt;/em&gt;), sila klik &amp;lsquo;Create&amp;rsquo; untuk menambah Senarai label ahli baharu. Maklumat wajib:
+Kod senarai label
+Nama senarai label
+5.3. Selepas menambah senarai label ahli, ia akan disenaraikan di halaman utama. Sila klik pada ahli untuk menyuntingnya.
+Anda boleh menyunting butiran dan label senarai label ahli.
+5.3.1. Dalam tab butiran, maklumat berikut boleh disunting:
+Nama senarai label
+Status
+Selepas menukar butiran medan, sila klik &amp;lsquo;save&amp;rsquo;.
+Sila klik &amp;lsquo;delete&amp;rsquo; untuk mengeluarkan senarai label ahli daripada senarai.
+5.3.2. Dalam tab label, anda boleh menambah label ke senarai label.
+Sila klik butang &amp;lsquo;+&amp;rsquo; untuk menambah label.
+Sila isikan maklumat wajib untuk menambah label baharu. Sila ambil perhatian bahawa apabila anda mencipta label baharu dalam senarai label, label tersebut akan disenaraikan dalam modul label ahli.&lt;/p&gt;</description></item><item><title>Klasifikasi Ahli &amp; Kawalan Akses</title><link>https://www.bigledger.com/ms/user-guide/administration/member-class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/user-guide/administration/member-class/</guid><description>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;&lt;strong&gt;🚧 Kandungan Dalam Pembangunan&lt;/strong&gt;: Halaman ini mengandungi kandungan pemegang tempat dan memerlukan dokumentasi yang menyeluruh. Bidang keutamaan yang memerlukan pembangunan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Kawalan Akses Berasaskan Peranan (RBAC)&lt;/strong&gt;: Penjelasan terperinci tentang sistem kebenaran&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Strategi Klasifikasi Pengguna&lt;/strong&gt;: Amalan terbaik untuk menyusun ahli pasukan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pelaksanaan Keselamatan&lt;/strong&gt;: Panduan konfigurasi keselamatan langkah demi langkah&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contoh Integrasi&lt;/strong&gt;: Senario dunia sebenar dan kes penggunaan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Panduan Menyelesaikan Masalah&lt;/strong&gt;: Isu biasa dan penyelesaian&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Gambaran Keseluruhan&lt;span class="hx:absolute hx:-mt-20" id="gambaran-keseluruhan"&gt;&lt;/span&gt;
+&lt;a href="#gambaran-keseluruhan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Klasifikasi ahli dalam BigLedger menyediakan pendekatan berstruktur untuk mengurus akses pengguna, kebenaran, dan peranan organisasi. Sistem ini memastikan kawalan akses berasaskan peranan yang selamat sambil mengekalkan kecekapan operasi.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;TODO: Content Development Needed&lt;span class="hx:absolute hx:-mt-20" id="todo-content-development-needed"&gt;&lt;/span&gt;
+&lt;a href="#todo-content-development-needed" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Priority 1: Fungsi Teras&lt;span class="hx:absolute hx:-mt-20" id="priority-1-fungsi-teras"&gt;&lt;/span&gt;
+&lt;a href="#priority-1-fungsi-teras" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Sistem Definisi Peranan&lt;/strong&gt;: Cara mencipta dan mengurus pelbagai peranan pengguna&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Matriks Kebenaran&lt;/strong&gt;: Pecahan terperinci kebenaran yang tersedia dan kesannya&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Tahap Keselamatan&lt;/strong&gt;: Pelbagai tahap klasifikasi dan penggunaannya yang sesuai&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Integrasi Jabatan&lt;/strong&gt;: Menghubungkan kelas ahli kepada struktur organisasi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Priority 2: Panduan Pelaksanaan&lt;span class="hx:absolute hx:-mt-20" id="priority-2-panduan-pelaksanaan"&gt;&lt;/span&gt;
+&lt;a href="#priority-2-panduan-pelaksanaan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Panduan Persediaan&lt;/strong&gt;: Proses pelaksanaan langkah demi langkah&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Amalan Terbaik&lt;/strong&gt;: Strategi terbukti untuk klasifikasi ahli&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Senario Biasa&lt;/strong&gt;: Kes penggunaan perniagaan biasa dan konfigurasi&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Keperluan Pematuhan&lt;/strong&gt;: Memenuhi keperluan kawal selia dan audit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Priority 3: Ciri Lanjutan&lt;span class="hx:absolute hx:-mt-20" id="priority-3-ciri-lanjutan"&gt;&lt;/span&gt;
+&lt;a href="#priority-3-ciri-lanjutan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Kebenaran Dinamik&lt;/strong&gt;: Kawalan akses berdasarkan masa dan bersyarat&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Titik Integrasi&lt;/strong&gt;: Bagaimana kelas ahli berfungsi dengan modul BigLedger yang lain&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Pelaporan &amp;amp; Analitik&lt;/strong&gt;: Memantau corak akses dan metrik keselamatan&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Pengurusan Pukal&lt;/strong&gt;: Mengurus pasukan besar dan hierarki kompleks dengan cekap&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Fungsi Asas Semasa&lt;span class="hx:absolute hx:-mt-20" id="fungsi-asas-semasa"&gt;&lt;/span&gt;
+&lt;a href="#fungsi-asas-semasa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Mencipta Kelas Ahli&lt;span class="hx:absolute hx:-mt-20" id="mencipta-kelas-ahli"&gt;&lt;/span&gt;
+&lt;a href="#mencipta-kelas-ahli" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Navigasi ke &lt;strong&gt;Member Class&lt;/strong&gt; daripada senarai modul utama&lt;/li&gt;
+&lt;li&gt;Klik butang &lt;strong&gt;&amp;quot;+&amp;quot;&lt;/strong&gt; untuk mencipta kelas ahli baharu&lt;/li&gt;
+&lt;li&gt;Lengkapkan maklumat yang diperlukan:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Membership Class Code&lt;/strong&gt;: Pengecam yang dijana oleh sistem&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Membership Class Name&lt;/strong&gt;: Nama deskriptif untuk peranan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Mengurus Kelas Sedia Ada&lt;span class="hx:absolute hx:-mt-20" id="mengurus-kelas-sedia-ada"&gt;&lt;/span&gt;
+&lt;a href="#mengurus-kelas-sedia-ada" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sunting&lt;/strong&gt;: Ubah suai nama dan status kelas ahli&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Padam&lt;/strong&gt;: Keluarkan kelas ahli yang tidak digunakan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paparan Senarai&lt;/strong&gt;: Semak imbas semua klasifikasi ahli yang dikonfigurasikan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;Had Semasa&lt;/strong&gt;: Pelaksanaan asas ini perlu diperluaskan untuk merangkumi kawalan akses berasaskan peranan yang menyeluruh, dasar keselamatan, dan integrasi dengan sistem kebenaran lengkap BigLedger.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;Sumber Berkaitan&lt;span class="hx:absolute hx:-mt-20" id="sumber-berkaitan"&gt;&lt;/span&gt;
+&lt;a href="#sumber-berkaitan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sementara halaman ini dalam pembangunan, terokai topik berkaitan ini:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/member-listing/" &gt;Pengurusan Pengguna&lt;/a&gt; - Menambah dan mengurus akaun pengguna&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/team/" &gt;Konfigurasi Pasukan&lt;/a&gt; - Menyusun jabatan dan pasukan&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/navigation/" &gt;Panduan Navigasi&lt;/a&gt; - Kebenaran dan akses antara muka&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/platform-overview/" &gt;Gambaran Keseluruhan Platform&lt;/a&gt; - Gambaran keseluruhan seni bina keselamatan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Garis Masa Pembangunan&lt;span class="hx:absolute hx:-mt-20" id="garis-masa-pembangunan"&gt;&lt;/span&gt;
+&lt;a href="#garis-masa-pembangunan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Fasa 1&lt;/strong&gt; (Keutamaan): Dokumentasi kawalan akses berasaskan peranan teras&lt;br&gt;
+&lt;strong&gt;Fasa 2&lt;/strong&gt; (Susulan): Ciri keselamatan lanjutan dan panduan integrasi&lt;br&gt;
+&lt;strong&gt;Fasa 3&lt;/strong&gt; (Peningkatan): Strategi analitik, pelaporan, dan pengoptimuman&lt;/p&gt;
+&lt;p&gt;Untuk bantuan segera dengan persediaan klasifikasi ahli, hubungi sokongan teknikal di &lt;a href="mailto:vincent@bigledger.com" &gt;vincent@bigledger.com&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Penyenaraian Kumpulan &amp; Pengurusan Organisasi</title><link>https://www.bigledger.com/ms/user-guide/administration/group-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/user-guide/administration/group-listing/</guid><description>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;&lt;strong&gt;🚧 Kandungan Dalam Pembangunan&lt;/strong&gt;: Halaman ini mengandungi nota fungsi asas dan memerlukan dokumentasi yang menyeluruh. Bidang utama yang memerlukan pembangunan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Strategi &amp;amp; Perancangan Kumpulan&lt;/strong&gt;: Amalan terbaik untuk reka bentuk struktur organisasi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pengurusan Kebenaran&lt;/strong&gt;: Kawalan akses terperinci dan pelaksanaan keselamatan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aliran Kerja Integrasi&lt;/strong&gt;: Bagaimana kumpulan berfungsi merentasi modul BigLedger&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ciri Lanjutan&lt;/strong&gt;: Kumpulan berhierarki, keahlian dinamik, dan automasi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contoh Kes Penggunaan&lt;/strong&gt;: Senario dunia sebenar untuk pelbagai jenis perniagaan&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Gambaran Keseluruhan&lt;span class="hx:absolute hx:-mt-20" id="gambaran-keseluruhan"&gt;&lt;/span&gt;
+&lt;a href="#gambaran-keseluruhan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Penyenaraian kumpulan dalam BigLedger menyediakan pendekatan berstruktur untuk mengurus pasukan, mengurus kebenaran akses, dan mencipta pengelompokan logik untuk kerjasama dan pengurusan data yang lebih baik merentasi organisasi anda.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;TODO: Comprehensive Documentation Needed&lt;span class="hx:absolute hx:-mt-20" id="todo-comprehensive-documentation-needed"&gt;&lt;/span&gt;
+&lt;a href="#todo-comprehensive-documentation-needed" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Priority 1: Strategi &amp;amp; Seni Bina Kumpulan&lt;span class="hx:absolute hx:-mt-20" id="priority-1-strategi--seni-bina-kumpulan"&gt;&lt;/span&gt;
+&lt;a href="#priority-1-strategi--seni-bina-kumpulan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Reka Bentuk Organisasi&lt;/strong&gt;: Amalan terbaik untuk menyusun kumpulan dalam BigLedger&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Jenis Kumpulan&lt;/strong&gt;: Pelbagai jenis kumpulan dan senario penggunaan optimumnya&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Pengurusan Hierarki&lt;/strong&gt;: Hubungan induk-anak dan struktur kumpulan bersarang&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Perancangan Kebolehskalaan&lt;/strong&gt;: Mengurus kumpulan dalam organisasi besar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Priority 2: Keahlian &amp;amp; Kebenaran&lt;span class="hx:absolute hx:-mt-20" id="priority-2-keahlian--kebenaran"&gt;&lt;/span&gt;
+&lt;a href="#priority-2-keahlian--kebenaran" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Pengurusan Pengguna&lt;/strong&gt;: Menambah, mengeluarkan, dan mengurus ahli kumpulan&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Penetapan Peranan&lt;/strong&gt;: Pelbagai peranan ahli dan keupayaannya&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Matriks Kebenaran&lt;/strong&gt;: Pecahan terperinci kebenaran yang tersedia&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Amalan Terbaik Keselamatan&lt;/strong&gt;: Melaksanakan kawalan akses yang betul&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Priority 3: Integrasi &amp;amp; Automasi&lt;span class="hx:absolute hx:-mt-20" id="priority-3-integrasi--automasi"&gt;&lt;/span&gt;
+&lt;a href="#priority-3-integrasi--automasi" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Integrasi Modul&lt;/strong&gt;: Bagaimana kumpulan berfungsi dengan modul perakaunan, jualan, inventori&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Aliran Kerja Automatik&lt;/strong&gt;: Keahlian kumpulan dinamik berdasarkan kriteria&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Pelaporan &amp;amp; Analitik&lt;/strong&gt;: Analitik prestasi dan penggunaan kumpulan&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Operasi Pukal&lt;/strong&gt;: Mengurus perubahan kumpulan berskala besar dengan cekap&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Fungsi Asas Semasa&lt;span class="hx:absolute hx:-mt-20" id="fungsi-asas-semasa"&gt;&lt;/span&gt;
+&lt;a href="#fungsi-asas-semasa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Mencipta Kumpulan&lt;span class="hx:absolute hx:-mt-20" id="mencipta-kumpulan"&gt;&lt;/span&gt;
+&lt;a href="#mencipta-kumpulan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Maklumat Diperlukan&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nama Kumpulan&lt;/strong&gt;: Pengecam deskriptif untuk kumpulan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kod Kumpulan&lt;/strong&gt;: Pengecam sistem yang unik&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;E-mel Kumpulan&lt;/strong&gt;: E-mel hubungan untuk komunikasi kumpulan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keterlihatan Kumpulan&lt;/strong&gt;: Mengawal siapa yang boleh melihat kumpulan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Penyertaan Kumpulan&lt;/strong&gt;: Menentukan cara pengguna boleh menyertai kumpulan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Tab Pengurusan Kumpulan&lt;span class="hx:absolute hx:-mt-20" id="tab-pengurusan-kumpulan"&gt;&lt;/span&gt;
+&lt;a href="#tab-pengurusan-kumpulan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Sunting Maklumat Umum&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubah suai nama kumpulan, keterlihatan, dan tetapan penyertaan&lt;/li&gt;
+&lt;li&gt;Kawal status aktif/tidak aktif kumpulan&lt;/li&gt;
+&lt;li&gt;Kemas kini parameter konfigurasi kumpulan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sunting Ahli&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tambah pengguna dengan mencari alamat e-mel&lt;/li&gt;
+&lt;li&gt;Berikan pangkat dan peranan ahli&lt;/li&gt;
+&lt;li&gt;Uruskan status ahli (aktif/tidak aktif)&lt;/li&gt;
+&lt;li&gt;Keluarkan ahli daripada kumpulan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sunting Kebenaran&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pilih kebenaran daripada pilihan yang tersedia&lt;/li&gt;
+&lt;li&gt;Gunakan kawalan akses peringkat kumpulan&lt;/li&gt;
+&lt;li&gt;Uruskan pewarisan kebenaran&lt;/li&gt;
+&lt;li&gt;Keluarkan atau ubah suai kebenaran sedia ada&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Panduan Pelaksanaan Asas&lt;span class="hx:absolute hx:-mt-20" id="panduan-pelaksanaan-asas"&gt;&lt;/span&gt;
+&lt;a href="#panduan-pelaksanaan-asas" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sementara dokumentasi menyeluruh sedang dibangunkan:&lt;/p&gt;
+&lt;h3&gt;Langkah 1: Rancang Struktur Kumpulan Anda&lt;span class="hx:absolute hx:-mt-20" id="langkah-1-rancang-struktur-kumpulan-anda"&gt;&lt;/span&gt;
+&lt;a href="#langkah-1-rancang-struktur-kumpulan-anda" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Tentukan tujuan dan skop setiap kumpulan&lt;/li&gt;
+&lt;li&gt;Pertimbangkan bagaimana kumpulan akan berinteraksi dengan struktur organisasi sedia ada&lt;/li&gt;
+&lt;li&gt;Rancang tahap kebenaran dan keperluan akses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Langkah 2: Cipta Kumpulan Teras&lt;span class="hx:absolute hx:-mt-20" id="langkah-2-cipta-kumpulan-teras"&gt;&lt;/span&gt;
+&lt;a href="#langkah-2-cipta-kumpulan-teras" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Mulakan dengan kumpulan penting (jabatan, peranan, projek)&lt;/li&gt;
+&lt;li&gt;Gunakan konvensyen penamaan yang konsisten&lt;/li&gt;
+&lt;li&gt;Konfigurasikan tetapan keterlihatan dan penyertaan yang sesuai&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Langkah 3: Uruskan Keahlian&lt;span class="hx:absolute hx:-mt-20" id="langkah-3-uruskan-keahlian"&gt;&lt;/span&gt;
+&lt;a href="#langkah-3-uruskan-keahlian" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Tambah pengguna utama ke dalam kumpulan yang sesuai&lt;/li&gt;
+&lt;li&gt;Berikan pangkat dan kebenaran yang sesuai&lt;/li&gt;
+&lt;li&gt;Uji tahap akses dan kefungsian&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Langkah 4: Pantau dan Optimumkan&lt;span class="hx:absolute hx:-mt-20" id="langkah-4-pantau-dan-optimumkan"&gt;&lt;/span&gt;
+&lt;a href="#langkah-4-pantau-dan-optimumkan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Semakan berkala keahlian dan kebenaran kumpulan&lt;/li&gt;
+&lt;li&gt;Laraskan struktur apabila keperluan organisasi berubah&lt;/li&gt;
+&lt;li&gt;Kekalkan piawaian keselamatan dan kawalan akses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Sumber Berkaitan&lt;span class="hx:absolute hx:-mt-20" id="sumber-berkaitan"&gt;&lt;/span&gt;
+&lt;a href="#sumber-berkaitan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sementara halaman ini dalam pembangunan, terokai topik berkaitan ini:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/member-class/" &gt;Klasifikasi Ahli&lt;/a&gt; - Peranan pengguna dan kawalan akses&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/member-listing/" &gt;Pengurusan Pengguna&lt;/a&gt; - Pengurusan akaun pengguna individu&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/team/" &gt;Konfigurasi Pasukan&lt;/a&gt; - Persediaan jabatan dan pasukan&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/member-label-list/" &gt;Pengurusan Label&lt;/a&gt; - Sistem pelabelan organisasi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Garis Masa Pembangunan&lt;span class="hx:absolute hx:-mt-20" id="garis-masa-pembangunan"&gt;&lt;/span&gt;
+&lt;a href="#garis-masa-pembangunan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Fasa 1&lt;/strong&gt; (Keutamaan): Pengurusan kumpulan teras dan dokumentasi kebenaran&lt;br&gt;
+&lt;strong&gt;Fasa 2&lt;/strong&gt; (Susulan): Ciri lanjutan dan panduan integrasi&lt;br&gt;
+&lt;strong&gt;Fasa 3&lt;/strong&gt; (Peningkatan): Strategi automasi, analitik, dan pengoptimuman&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;Status Semasa&lt;/strong&gt;: Fungsi penciptaan dan pengurusan kumpulan asas tersedia. Untuk keperluan organisasi yang kompleks atau persediaan kebenaran lanjutan, hubungi sokongan teknikal di &lt;a href="mailto:vincent@bigledger.com" &gt;vincent@bigledger.com&lt;/a&gt; untuk panduan.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Konfigurasi &amp; Pengurusan Label Ahli</title><link>https://www.bigledger.com/ms/user-guide/administration/member-label/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.bigledger.com/ms/user-guide/administration/member-label/</guid><description>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;&lt;strong&gt;🚧 Kandungan Dalam Pembangunan&lt;/strong&gt;: Halaman ini mengandungi nota fungsi asas dan memerlukan dokumentasi yang menyeluruh. Bidang penting yang memerlukan pembangunan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Strategi Pelabelan&lt;/strong&gt;: Amalan terbaik untuk mencipta sistem pelabelan yang berkesan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kes Penggunaan Lanjutan&lt;/strong&gt;: Senario pelabelan kompleks dan aplikasi perniagaan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contoh Integrasi&lt;/strong&gt;: Bagaimana label berfungsi dengan kumpulan, kebenaran, dan modul&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ciri Automasi&lt;/strong&gt;: Pelabelan dinamik berdasarkan sifat atau tingkah laku pengguna&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analitik &amp;amp; Pelaporan&lt;/strong&gt;: Pelaporan berasaskan label dan wawasan organisasi&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Gambaran Keseluruhan&lt;span class="hx:absolute hx:-mt-20" id="gambaran-keseluruhan"&gt;&lt;/span&gt;
+&lt;a href="#gambaran-keseluruhan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Label ahli dalam BigLedger menyediakan sistem penandaan dan pengkategorian yang fleksibel untuk menyusun pengguna melangkaui struktur hierarki tradisional. Label membolehkan organisasi merentas fungsi, kebolehcarian yang lebih baik, dan keupayaan pengurusan pengguna yang canggih.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;TODO: Comprehensive Documentation Needed&lt;span class="hx:absolute hx:-mt-20" id="todo-comprehensive-documentation-needed"&gt;&lt;/span&gt;
+&lt;a href="#todo-comprehensive-documentation-needed" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Priority 1: Strategi &amp;amp; Reka Bentuk Pelabelan&lt;span class="hx:absolute hx:-mt-20" id="priority-1-strategi--reka-bentuk-pelabelan"&gt;&lt;/span&gt;
+&lt;a href="#priority-1-strategi--reka-bentuk-pelabelan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Seni Bina Label&lt;/strong&gt;: Merancang sistem pelabelan yang berkesan untuk pelbagai jenis organisasi&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Amalan Terbaik&lt;/strong&gt;: Konvensyen penamaan, pengekodan warna, dan strategi organisasi&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Perancangan Kebolehskalaan&lt;/strong&gt;: Mengurus label dalam organisasi besar dengan struktur kompleks&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Pertimbangan Prestasi&lt;/strong&gt;: Mengoptimumkan penggunaan label untuk kecekapan sistem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Priority 2: Fungsi Lanjutan&lt;span class="hx:absolute hx:-mt-20" id="priority-2-fungsi-lanjutan"&gt;&lt;/span&gt;
+&lt;a href="#priority-2-fungsi-lanjutan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Label Dinamik&lt;/strong&gt;: Label yang diberikan secara automatik berdasarkan sifat pengguna&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Hierarki Label&lt;/strong&gt;: Hubungan induk-anak dan struktur label bersarang&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Logik Bersyarat&lt;/strong&gt;: Penetapan dan pengurusan label berasaskan peraturan&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Operasi Pukal&lt;/strong&gt;: Pengurusan cekap label merentasi asas pengguna yang besar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Priority 3: Integrasi &amp;amp; Analitik&lt;span class="hx:absolute hx:-mt-20" id="priority-3-integrasi--analitik"&gt;&lt;/span&gt;
+&lt;a href="#priority-3-integrasi--analitik" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Integrasi Modul&lt;/strong&gt;: Bagaimana label berfungsi dengan modul perakaunan, jualan, dan lain-lain&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Sistem Pelaporan&lt;/strong&gt;: Analitik berasaskan label dan wawasan organisasi&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Penambahbaikan Carian&lt;/strong&gt;: Menggunakan label untuk meningkatkan penemuan pengguna dan data&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Integrasi Aliran Kerja&lt;/strong&gt;: Label dalam proses kelulusan dan aliran kerja perniagaan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Fungsi Asas Semasa&lt;span class="hx:absolute hx:-mt-20" id="fungsi-asas-semasa"&gt;&lt;/span&gt;
+&lt;a href="#fungsi-asas-semasa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Mencipta Label Ahli&lt;span class="hx:absolute hx:-mt-20" id="mencipta-label-ahli"&gt;&lt;/span&gt;
+&lt;a href="#mencipta-label-ahli" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Maklumat Diperlukan&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Senarai Label&lt;/strong&gt;: Kategori induk (mesti dicipta dalam modul Senarai Label Ahli dahulu)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nama Label&lt;/strong&gt;: Pengecam deskriptif untuk label&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kod Label&lt;/strong&gt;: Pengecam unik yang dijana oleh sistem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Pengurusan Label&lt;span class="hx:absolute hx:-mt-20" id="pengurusan-label"&gt;&lt;/span&gt;
+&lt;a href="#pengurusan-label" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Konfigurasi Tab Butiran&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Senarai Label&lt;/strong&gt;: Ubah suai penetapan kategori induk&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nama Label&lt;/strong&gt;: Kemas kini penamaan deskriptif&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt;: Kawal status aktif/tidak aktif&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simpan/Padam&lt;/strong&gt;: Uruskan kitaran hayat label&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Pengurusan Tab Ahli&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tambah Ahli&lt;/strong&gt;: Berikan pengguna kepada label menggunakan butang &amp;lsquo;+&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pilih Ahli&lt;/strong&gt;: Pilih daripada pengguna sedia ada atau tambah ahli baharu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pengurusan Ahli&lt;/strong&gt;: Lihat dan uruskan semua pengguna yang diberikan kepada label&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Aliran Kerja Pelaksanaan Asas&lt;span class="hx:absolute hx:-mt-20" id="aliran-kerja-pelaksanaan-asas"&gt;&lt;/span&gt;
+&lt;a href="#aliran-kerja-pelaksanaan-asas" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sementara dokumentasi menyeluruh sedang dibangunkan:&lt;/p&gt;
+&lt;h3&gt;Langkah 1: Rancang Sistem Pelabelan Anda&lt;span class="hx:absolute hx:-mt-20" id="langkah-1-rancang-sistem-pelabelan-anda"&gt;&lt;/span&gt;
+&lt;a href="#langkah-1-rancang-sistem-pelabelan-anda" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Tentukan tujuan dan skop label anda&lt;/li&gt;
+&lt;li&gt;Pertimbangkan bagaimana label melengkapkan struktur kumpulan sedia ada&lt;/li&gt;
+&lt;li&gt;Rancang konvensyen penamaan dan hierarki organisasi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Langkah 2: Cipta Senarai Label (Asas)&lt;span class="hx:absolute hx:-mt-20" id="langkah-2-cipta-senarai-label-asas"&gt;&lt;/span&gt;
+&lt;a href="#langkah-2-cipta-senarai-label-asas" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Sediakan kategori induk dalam modul Senarai Label Ahli&lt;/li&gt;
+&lt;li&gt;Wujudkan corak penamaan dan organisasi yang konsisten&lt;/li&gt;
+&lt;li&gt;Rancang untuk pengembangan masa depan dan perubahan organisasi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Langkah 3: Cipta Label Individu&lt;span class="hx:absolute hx:-mt-20" id="langkah-3-cipta-label-individu"&gt;&lt;/span&gt;
+&lt;a href="#langkah-3-cipta-label-individu" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Cipta label khusus dalam senarai yang telah diwujudkan&lt;/li&gt;
+&lt;li&gt;Gunakan penamaan yang konsisten dan deskriptif&lt;/li&gt;
+&lt;li&gt;Konfigurasikan tetapan status yang sesuai&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Langkah 4: Berikan Ahli&lt;span class="hx:absolute hx:-mt-20" id="langkah-4-berikan-ahli"&gt;&lt;/span&gt;
+&lt;a href="#langkah-4-berikan-ahli" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Tambah pengguna yang berkaitan kepada label yang sesuai&lt;/li&gt;
+&lt;li&gt;Uji fungsi carian dan penapisan&lt;/li&gt;
+&lt;li&gt;Sahkan integrasi dengan modul dan ciri lain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Perbezaan Label lwn Kumpulan&lt;span class="hx:absolute hx:-mt-20" id="perbezaan-label-lwn-kumpulan"&gt;&lt;/span&gt;
+&lt;a href="#perbezaan-label-lwn-kumpulan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Kumpulan&lt;/strong&gt;: Struktur organisasi berhierarki, berasaskan kebenaran, formal&lt;br&gt;
+&lt;strong&gt;Label&lt;/strong&gt;: Tag fleksibel, merentas fungsi, sifat yang boleh dicari&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Gunakan Kumpulan Untuk&lt;/strong&gt;: Jabatan, peranan, kebenaran formal&lt;br&gt;
+&lt;strong&gt;Gunakan Label Untuk&lt;/strong&gt;: Kemahiran, projek, lokasi, pengkhususan, pensijilan&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Sumber Berkaitan&lt;span class="hx:absolute hx:-mt-20" id="sumber-berkaitan"&gt;&lt;/span&gt;
+&lt;a href="#sumber-berkaitan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sementara halaman ini dalam pembangunan, terokai topik berkaitan ini:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/member-label-list/" &gt;Senarai Label Ahli&lt;/a&gt; - Mencipta kategori label dan struktur induk&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/member-listing/" &gt;Pengurusan Pengguna&lt;/a&gt; - Pengurusan akaun pengguna teras&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/group-listing/" &gt;Penyenaraian Kumpulan&lt;/a&gt; - Struktur kumpulan organisasi&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bigledger.com/ms/user-guide/member-class/" &gt;Klasifikasi Ahli&lt;/a&gt; - Kawalan akses berasaskan peranan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Garis Masa Pembangunan&lt;span class="hx:absolute hx:-mt-20" id="garis-masa-pembangunan"&gt;&lt;/span&gt;
+&lt;a href="#garis-masa-pembangunan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Fasa 1&lt;/strong&gt; (Segera): Dokumentasi strategi pelabelan dan amalan terbaik&lt;br&gt;
+&lt;strong&gt;Fasa 2&lt;/strong&gt; (Jangka pendek): Ciri lanjutan dan contoh integrasi&lt;br&gt;
+&lt;strong&gt;Fasa 3&lt;/strong&gt; (Jangka sederhana): Keupayaan analitik, pelaporan, dan automasi&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;Status Semasa&lt;/strong&gt;: Fungsi penciptaan label asas dan penetapan ahli tersedia. Untuk strategi pelabelan yang kompleks atau keperluan organisasi lanjutan, hubungi sokongan teknikal di &lt;a href="mailto:vincent@bigledger.com" &gt;vincent@bigledger.com&lt;/a&gt; untuk panduan dan perundingan amalan terbaik.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>
