@@ -18,40 +18,6 @@
   </div>
 </section>
 
-<!-- Pricing philosophy -->
-<section class="bl-page-section" style="padding-top:0">
-  <div class="bl-container">
-    <div class="bl-section-header">
-      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "pr_phil_label" | default "OUR PRICING PHILOSOPHY" }}</span>
-      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "pr_phil_title" | default "High setup. Low recurring." }}</h2>
-      <p class="bl-section-desc" data-reveal="up" data-delay="120">{{ i18n "pr_phil_desc" | default "Most ERP vendors do it the other way round: a low entry price, a subscription that climbs every year, and an implementation you are left to figure out on your own. We think that is backwards." }}</p>
-    </div>
-
-    <div class="pr-phil-body" data-reveal="up" data-delay="60">
-      <p>{{ i18n "pr_phil_p1" | default "BigLedger charges a higher one-time implementation fee because a successful launch is not a download. It is a dedicated project manager, a documented requirements study, careful data migration, and hands-on training for the people who will actually use the system. We do that work upfront so the platform fits your business from day one." }}</p>
-      <p>{{ i18n "pr_phil_p2" | default "Because setup is paid once, your recurring software fee stays low — and stays low. Over a three-to-five year horizon, that is where the real saving lands." }}</p>
-    </div>
-
-    {{ $pillars := slice
-      (dict "n" "01" "t" (i18n "pr_pil1_t" | default "One-time implementation")
-            "d" (i18n "pr_pil1_d" | default "A dedicated project manager, a documented requirements study, and hands-on training for your team. Paid once, at the start, so nothing has to be improvised later."))
-      (dict "n" "02" "t" (i18n "pr_pil2_t" | default "Low recurring subscription")
-            "d" (i18n "pr_pil2_d" | default "With the setup already covered, your monthly software fee stays modest — from RM150 a month. No per-seat creep, no annual escalation built into the contract."))
-      (dict "n" "03" "t" (i18n "pr_pil3_t" | default "Infinite customizability")
-            "d" (i18n "pr_pil3_d" | default "BigLedger is built on an Applet architecture — small, composable units of business logic. If your requirement does not exist yet, we build it as a module, a workflow, or an integration."))
-    -}}
-    <div class="pr-pillars" data-reveal="up" data-delay="80">
-      {{ range $pillars }}
-      <div class="pr-pillar">
-        <span class="pr-pillar-num">{{ .n }}</span>
-        <h3 class="pr-pillar-title">{{ .t }}</h3>
-        <p class="pr-pillar-desc">{{ .d }}</p>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-
 <!-- Bespoke customization -->
 {{ $caps := slice
   (dict "icon" "grid" "t" (i18n "pr_cap1_t" | default "Custom Applets")
