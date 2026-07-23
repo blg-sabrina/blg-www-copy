@@ -575,7 +575,7 @@ pr_faq_setup_a: "Because we do the work that other vendors leave to you. The fee
 pr_faq_cloud_q: "Is cloud infrastructure included in the subscription?"
 pr_faq_cloud_a: "No. Infrastructure is billed separately, at cost, based on what you actually use. The figures on this page are estimates for a typical deployment at each tier, so you can budget for the full picture rather than the software line alone."
 pr_faq_custom_q: "What if my requirement is not in the standard product?"
-pr_faq_custom_a: "We build it. BigLedger's Applet architecture means custom modules, workflows and integrations become a native part of your system rather than a bolt-on. Bespoke development is charged at RM1,500 per man-day, always scoped and quoted before work begins."
+pr_faq_custom_a: "We build it. BigLedger's Applet architecture means custom modules, workflows and integrations become a native part of your system rather than a bolt-on. Bespoke development is always scoped and quoted before work begins."
 pr_cta_label: "TALK TO US"
 pr_cta_h: "Let's scope it properly."
 pr_cta_sub: "Book a discovery call and we will walk through how your business actually runs, show you a demo configured for your industry, and put a clear number and timeline in front of you. If your requirements are unusual, that is exactly the conversation we want to have."

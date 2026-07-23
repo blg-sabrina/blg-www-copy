@@ -52,114 +52,6 @@
   </div>
 </section>
 
-<!-- Plans -->
-{{ $plans := slice
-  (dict "name" (i18n "pr_p1_name" | default "Starter")
-        "tag"  (i18n "pr_p1_tag"  | default "Standard BigLedger, properly launched.")
-        "setup" "RM5,000" "sub" "RM150" "cloud" "RM500 – RM600"
-        "pop" false
-        "feats" (slice
-          (i18n "pr_p1_f1" | default "5 man-days of expert implementation")
-          (i18n "pr_p1_f2" | default "Standard BigLedger feature set")
-          (i18n "pr_p1_f3" | default "Dedicated project manager for your launch"))
-        "best" (i18n "pr_p1_best" | default "Small businesses that need standard BigLedger features."))
-  (dict "name" (i18n "pr_p2_name" | default "Lite")
-        "tag"  (i18n "pr_p2_tag"  | default "Room to grow into.")
-        "setup" "RM10,000" "sub" "RM600" "cloud" "RM1,000"
-        "pop" false
-        "feats" (slice
-          (i18n "pr_p2_f1" | default "8 man-days of expert implementation")
-          (i18n "pr_p2_f2" | default "Headroom for increasing data volume")
-          (i18n "pr_p2_f3" | default "Configured for expanding day-to-day operations"))
-        "best" (i18n "pr_p2_best" | default "Growing businesses with increasing data and operational needs."))
-  (dict "name" (i18n "pr_p3_name" | default "Professional")
-        "tag"  (i18n "pr_p3_tag"  | default "For businesses running at pace.")
-        "setup" "RM15,000" "sub" "RM1,000" "cloud" "RM1,500"
-        "pop" true
-        "feats" (slice
-          (i18n "pr_p3_f1" | default "10 man-days of expert implementation")
-          (i18n "pr_p3_f2" | default "Higher API limits")
-          (i18n "pr_p3_f3" | default "Larger storage allocation")
-          (i18n "pr_p3_f4" | default "Advanced workflow configuration"))
-        "best" (i18n "pr_p3_best" | default "Established businesses needing higher API limits, larger storage and advanced workflows."))
-  (dict "name" (i18n "pr_p4_name" | default "Enterprise")
-        "tag"  (i18n "pr_p4_tag"  | default "Dedicated, and built around you.")
-        "setup" "RM30,000" "sub" "RM1,500" "cloud" "RM3,000 – RM4,000+"
-        "pop" false
-        "feats" (slice
-          (i18n "pr_p4_f1" | default "20 man-days of implementation")
-          (i18n "pr_p4_f2" | default "5 man-days of Cloud Architect consultation")
-          (i18n "pr_p4_f3" | default "Dedicated environment"))
-        "best" (i18n "pr_p4_best" | default "High-volume merchants that need dedicated environments."))
-  (dict "name" (i18n "pr_p5_name" | default "Customization & Bespoke")
-        "tag"  (i18n "pr_p5_tag"  | default "The build-your-own tier.")
-        "setup" (i18n "pr_custom_quote" | default "Custom Quote") "sub" (i18n "pr_custom_quote" | default "Custom Quote")
-        "rate" "RM1,500"
-        "custom" true
-        "pop" false
-        "feats" (slice
-          (i18n "pr_p5_f1" | default "Bespoke workflows and custom Applets")
-          (i18n "pr_p5_f2" | default "Complex WMS routing")
-          (i18n "pr_p5_f3" | default "Shopify, Magento and WooCommerce integrations")
-          (i18n "pr_p5_f4" | default "Accounting API bridges"))
-        "best" (i18n "pr_p5_best" | default "Businesses with highly unique requirements."))
--}}
-<section class="bl-page-section bl-section-alt">
-  <div class="bl-container">
-    <div class="bl-section-header">
-      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "pr_plans_label" | default "PLANS" }}</span>
-      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "pr_plans_title" | default "Four ways to start" }}</h2>
-      <p class="bl-section-desc" data-reveal="up" data-delay="120">{{ i18n "pr_plans_desc" | default "Every plan pairs a one-time implementation with a low monthly software subscription. Cloud infrastructure is billed separately, at cost." }}</p>
-    </div>
-
-    <div class="pr-grid" data-reveal="up" data-delay="80">
-      {{ range $plans }}
-      <div class="pr-card{{ if .pop }} pr-card-pop{{ end }}">
-        {{ if .pop }}<span class="pr-badge">{{ i18n "pr_popular" | default "MOST POPULAR" }}</span>{{ end }}
-        <h3 class="pr-name">{{ .name }}</h3>
-        <p class="pr-tag">{{ .tag }}</p>
-
-        <div class="pr-price">
-          <span class="pr-price-num">{{ .setup }}</span>
-          <span class="pr-price-lbl">{{ i18n "pr_setup_lbl" | default "one-time implementation" }}</span>
-        </div>
-
-        <div class="pr-rows">
-          <div class="pr-row">
-            <span class="pr-row-k">{{ i18n "pr_row_sub" | default "Software subscription" }}</span>
-            <span class="pr-row-v">{{ .sub }}{{ if not .custom }}<em>{{ i18n "pr_per_month" | default "/mo" }}</em>{{ end }}</span>
-          </div>
-          {{ if .rate }}
-          <div class="pr-row">
-            <span class="pr-row-k">{{ i18n "pr_row_rate" | default "Custom development" }}</span>
-            <span class="pr-row-v">{{ .rate }}<em>{{ i18n "pr_per_manday" | default "/man-day" }}</em></span>
-          </div>
-          {{ else }}
-          <div class="pr-row">
-            <span class="pr-row-k">{{ i18n "pr_row_cloud" | default "Est. cloud infrastructure" }}</span>
-            <span class="pr-row-v pr-row-est">{{ .cloud }}<em>{{ i18n "pr_per_month" | default "/mo" }}</em></span>
-          </div>
-          {{ end }}
-        </div>
-
-        <ul class="pr-feats">
-          {{ range .feats }}<li>{{ . }}</li>{{ end }}
-        </ul>
-
-        <div class="pr-best">
-          <span class="pr-best-k">{{ i18n "pr_best_for" | default "Best for" }}</span>
-          <span class="pr-best-v">{{ .best }}</span>
-        </div>
-
-        <a class="pr-cta {{ if .pop }}bl-btn-primary{{ else }}bl-btn-ghost{{ end }}" href="{{ partial "lurl.html" (dict "ctx" $ "url" "/contact/") }}">{{ i18n "pr_plan_cta" | default "Get a quote" }}</a>
-      </div>
-      {{ end }}
-    </div>
-
-    <p class="pr-note" data-reveal="up" data-delay="120">{{ i18n "pr_note" | default "All prices in Malaysian Ringgit (MYR). Cloud infrastructure figures are estimates for a typical deployment at each tier and are billed separately based on actual usage." }}</p>
-  </div>
-</section>
-
 <!-- Bespoke customization -->
 {{ $caps := slice
   (dict "icon" "grid" "t" (i18n "pr_cap1_t" | default "Custom Applets")
@@ -183,18 +75,6 @@
       <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "pr_bes_label" | default "BESPOKE DEVELOPMENT" }}</span>
       <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "pr_bes_title" | default "Need more? We build the difference." }}</h2>
       <p class="bl-section-desc" data-reveal="up" data-delay="120">{{ i18n "pr_bes_desc" | default "When the standard feature set genuinely does not cover your requirement, we do not ask you to change how you work. We develop against your specification and it becomes part of your system." }}</p>
-    </div>
-
-    <div class="pr-rate" data-reveal="up" data-delay="60">
-      <div class="pr-rate-price">
-        <span class="pr-rate-num">RM1,500</span>
-        <span class="pr-rate-unit">{{ i18n "pr_rate_unit" | default "per man-day" }}</span>
-      </div>
-      <div class="pr-rate-copy">
-        <h3 class="pr-rate-title">{{ i18n "pr_rate_title" | default "Custom development, scoped before it starts" }}</h3>
-        <p class="pr-rate-desc">{{ i18n "pr_rate_desc" | default "Every bespoke engagement begins with a documented scope and a man-day estimate, so you approve the cost before a line of code is written." }}</p>
-      </div>
-      <a class="bl-btn-ghost pr-rate-cta" href="{{ partial "lurl.html" (dict "ctx" . "url" "/contact/") }}">{{ i18n "pr_rate_cta" | default "Discuss a requirement" }}</a>
     </div>
 
     <div class="pr-cap-grid" data-reveal="up" data-delay="100">
@@ -381,7 +261,7 @@
       </div>
       <div class="bl-faq-item">
         <div class="bl-faq-q">{{ i18n "pr_faq_custom_q" | default "What if my requirement is not in the standard product?" }}</div>
-        <div class="bl-faq-a">{{ i18n "pr_faq_custom_a" | default "We build it. BigLedger's Applet architecture means custom modules, workflows and integrations become a native part of your system rather than a bolt-on. Bespoke development is charged at RM1,500 per man-day, always scoped and quoted before work begins." }}</div>
+        <div class="bl-faq-a">{{ i18n "pr_faq_custom_a" | default "We build it. BigLedger's Applet architecture means custom modules, workflows and integrations become a native part of your system rather than a bolt-on. Bespoke development is always scoped and quoted before work begins." }}</div>
       </div>
       <div class="bl-faq-item">
         <div class="bl-faq-q">{{ i18n "price_faq1_q" | default "Is there a free trial?" }}</div>
