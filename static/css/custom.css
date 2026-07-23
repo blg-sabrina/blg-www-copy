@@ -1338,7 +1338,21 @@ html[dir="rtl"] .bl-ak-amount { text-align: left; }
   animation: bl-marquee 38s linear infinite;
 }
 .bl-marquee-wrapper:hover .bl-marquee-content { animation-play-state: paused; }
-@keyframes bl-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+/* The track holds the item list twice over, so translating by exactly one
+   copy loops seamlessly. Under RTL the flex row starts at the right edge and
+   the overflow sits on the LEFT, so translating left drags the strip away and
+   leaves a growing blank gap — the scroll has to run the other way. */
+@keyframes bl-marquee     { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@keyframes bl-marquee-rtl { from { transform: translateX(0); } to { transform: translateX(50%); } }
+html[dir="rtl"] .bl-marquee-content { animation-name: bl-marquee-rtl; }
+
+/* The client strip uses gap: 20px, so one copy is (50% + half a gap) wide —
+   translating a plain 50% leaves a 10px stutter at each loop point. */
+@keyframes bl-clients     { from { transform: translateX(0); } to { transform: translateX(calc(-50% - 10px)); } }
+@keyframes bl-clients-rtl { from { transform: translateX(0); } to { transform: translateX(calc(50% + 10px)); } }
+.bl-clients-track { animation-name: bl-clients; }
+html[dir="rtl"] .bl-clients-track { animation-name: bl-clients-rtl; }
 
 .bl-marq-item {
   font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;
