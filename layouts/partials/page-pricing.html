@@ -18,8 +18,180 @@
   </div>
 </section>
 
-<!-- What's Included -->
+<!-- Pricing philosophy -->
 <section class="bl-page-section" style="padding-top:0">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "pr_phil_label" | default "OUR PRICING PHILOSOPHY" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "pr_phil_title" | default "High setup. Low recurring." }}</h2>
+      <p class="bl-section-desc" data-reveal="up" data-delay="120">{{ i18n "pr_phil_desc" | default "Most ERP vendors do it the other way round: a low entry price, a subscription that climbs every year, and an implementation you are left to figure out on your own. We think that is backwards." }}</p>
+    </div>
+
+    <div class="pr-phil-body" data-reveal="up" data-delay="60">
+      <p>{{ i18n "pr_phil_p1" | default "BigLedger charges a higher one-time implementation fee because a successful launch is not a download. It is a dedicated project manager, a documented requirements study, careful data migration, and hands-on training for the people who will actually use the system. We do that work upfront so the platform fits your business from day one." }}</p>
+      <p>{{ i18n "pr_phil_p2" | default "Because setup is paid once, your recurring software fee stays low — and stays low. Over a three-to-five year horizon, that is where the real saving lands." }}</p>
+    </div>
+
+    {{ $pillars := slice
+      (dict "n" "01" "t" (i18n "pr_pil1_t" | default "One-time implementation")
+            "d" (i18n "pr_pil1_d" | default "A dedicated project manager, a documented requirements study, and hands-on training for your team. Paid once, at the start, so nothing has to be improvised later."))
+      (dict "n" "02" "t" (i18n "pr_pil2_t" | default "Low recurring subscription")
+            "d" (i18n "pr_pil2_d" | default "With the setup already covered, your monthly software fee stays modest — from RM150 a month. No per-seat creep, no annual escalation built into the contract."))
+      (dict "n" "03" "t" (i18n "pr_pil3_t" | default "Infinite customizability")
+            "d" (i18n "pr_pil3_d" | default "BigLedger is built on an Applet architecture — small, composable units of business logic. If your requirement does not exist yet, we build it as a module, a workflow, or an integration."))
+    -}}
+    <div class="pr-pillars" data-reveal="up" data-delay="80">
+      {{ range $pillars }}
+      <div class="pr-pillar">
+        <span class="pr-pillar-num">{{ .n }}</span>
+        <h3 class="pr-pillar-title">{{ .t }}</h3>
+        <p class="pr-pillar-desc">{{ .d }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- Plans -->
+{{ $plans := slice
+  (dict "name" (i18n "pr_p1_name" | default "Starter")
+        "tag"  (i18n "pr_p1_tag"  | default "Standard BigLedger, properly launched.")
+        "setup" "RM5,000" "sub" "RM150" "cloud" "RM500 – RM600"
+        "pop" false
+        "feats" (slice
+          (i18n "pr_p1_f1" | default "5 man-days of expert implementation")
+          (i18n "pr_p1_f2" | default "Standard BigLedger feature set")
+          (i18n "pr_p1_f3" | default "Dedicated project manager for your launch"))
+        "best" (i18n "pr_p1_best" | default "Small businesses that need standard BigLedger features."))
+  (dict "name" (i18n "pr_p2_name" | default "Lite")
+        "tag"  (i18n "pr_p2_tag"  | default "Room to grow into.")
+        "setup" "RM10,000" "sub" "RM600" "cloud" "RM1,000"
+        "pop" false
+        "feats" (slice
+          (i18n "pr_p2_f1" | default "8 man-days of expert implementation")
+          (i18n "pr_p2_f2" | default "Headroom for increasing data volume")
+          (i18n "pr_p2_f3" | default "Configured for expanding day-to-day operations"))
+        "best" (i18n "pr_p2_best" | default "Growing businesses with increasing data and operational needs."))
+  (dict "name" (i18n "pr_p3_name" | default "Professional")
+        "tag"  (i18n "pr_p3_tag"  | default "For businesses running at pace.")
+        "setup" "RM15,000" "sub" "RM1,000" "cloud" "RM1,500"
+        "pop" true
+        "feats" (slice
+          (i18n "pr_p3_f1" | default "10 man-days of expert implementation")
+          (i18n "pr_p3_f2" | default "Higher API limits")
+          (i18n "pr_p3_f3" | default "Larger storage allocation")
+          (i18n "pr_p3_f4" | default "Advanced workflow configuration"))
+        "best" (i18n "pr_p3_best" | default "Established businesses needing higher API limits, larger storage and advanced workflows."))
+  (dict "name" (i18n "pr_p4_name" | default "Enterprise")
+        "tag"  (i18n "pr_p4_tag"  | default "Dedicated, and built around you.")
+        "setup" "RM30,000" "sub" "RM1,500" "cloud" "RM3,000 – RM4,000+"
+        "pop" false
+        "feats" (slice
+          (i18n "pr_p4_f1" | default "20 man-days of implementation")
+          (i18n "pr_p4_f2" | default "5 man-days of Cloud Architect consultation")
+          (i18n "pr_p4_f3" | default "Dedicated environment"))
+        "best" (i18n "pr_p4_best" | default "High-volume merchants that need dedicated environments."))
+-}}
+<section class="bl-page-section bl-section-alt">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "pr_plans_label" | default "PLANS" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "pr_plans_title" | default "Four ways to start" }}</h2>
+      <p class="bl-section-desc" data-reveal="up" data-delay="120">{{ i18n "pr_plans_desc" | default "Every plan pairs a one-time implementation with a low monthly software subscription. Cloud infrastructure is billed separately, at cost." }}</p>
+    </div>
+
+    <div class="pr-grid" data-reveal="up" data-delay="80">
+      {{ range $plans }}
+      <div class="pr-card{{ if .pop }} pr-card-pop{{ end }}">
+        {{ if .pop }}<span class="pr-badge">{{ i18n "pr_popular" | default "MOST POPULAR" }}</span>{{ end }}
+        <h3 class="pr-name">{{ .name }}</h3>
+        <p class="pr-tag">{{ .tag }}</p>
+
+        <div class="pr-price">
+          <span class="pr-price-num">{{ .setup }}</span>
+          <span class="pr-price-lbl">{{ i18n "pr_setup_lbl" | default "one-time implementation" }}</span>
+        </div>
+
+        <div class="pr-rows">
+          <div class="pr-row">
+            <span class="pr-row-k">{{ i18n "pr_row_sub" | default "Software subscription" }}</span>
+            <span class="pr-row-v">{{ .sub }}<em>{{ i18n "pr_per_month" | default "/mo" }}</em></span>
+          </div>
+          <div class="pr-row">
+            <span class="pr-row-k">{{ i18n "pr_row_cloud" | default "Est. cloud infrastructure" }}</span>
+            <span class="pr-row-v pr-row-est">{{ .cloud }}<em>{{ i18n "pr_per_month" | default "/mo" }}</em></span>
+          </div>
+        </div>
+
+        <ul class="pr-feats">
+          {{ range .feats }}<li>{{ . }}</li>{{ end }}
+        </ul>
+
+        <div class="pr-best">
+          <span class="pr-best-k">{{ i18n "pr_best_for" | default "Best for" }}</span>
+          <span class="pr-best-v">{{ .best }}</span>
+        </div>
+
+        <a class="pr-cta {{ if .pop }}bl-btn-primary{{ else }}bl-btn-ghost{{ end }}" href="{{ partial "lurl.html" (dict "ctx" $ "url" "/contact/") }}">{{ i18n "pr_plan_cta" | default "Get a quote" }}</a>
+      </div>
+      {{ end }}
+    </div>
+
+    <p class="pr-note" data-reveal="up" data-delay="120">{{ i18n "pr_note" | default "All prices in Malaysian Ringgit (MYR). Cloud infrastructure figures are estimates for a typical deployment at each tier and are billed separately based on actual usage." }}</p>
+  </div>
+</section>
+
+<!-- Bespoke customization -->
+{{ $caps := slice
+  (dict "icon" "grid" "t" (i18n "pr_cap1_t" | default "Custom Applets")
+        "d" (i18n "pr_cap1_d" | default "New business logic built to your specification and deployed straight into your BigLedger environment."))
+  (dict "icon" "box" "t" (i18n "pr_cap2_t" | default "Complex WMS workflows")
+        "d" (i18n "pr_cap2_d" | default "Warehouse processes modelled on how your operation actually runs — picking, putaway, cross-docking and more."))
+  (dict "icon" "cart" "t" (i18n "pr_cap3_t" | default "E-commerce integrations")
+        "d" (i18n "pr_cap3_d" | default "Shopify, Magento and WooCommerce, kept in sync with your inventory, pricing and orders."))
+  (dict "icon" "link" "t" (i18n "pr_cap4_t" | default "Specialized API bridges")
+        "d" (i18n "pr_cap4_d" | default "Purpose-built connections to your existing accounting systems and third-party platforms."))
+-}}
+{{ $capicons := dict
+  "grid" "M3 3h6v6H3zM11 3h6v6h-6zM3 11h6v6H3zM11 11h6v6h-6z"
+  "box"  "M10 3L4 7v6l6 4 6-4V7l-6-4zM4 7l6 4 6-4M10 11v6"
+  "cart" "M2 3h2.2l1.8 9.2a1.4 1.4 0 001.4 1.1h6.8a1.4 1.4 0 001.4-1.1L17 6H5.3M7.5 17h.01M14 17h.01"
+  "link" "M8.5 11.5a3 3 0 004.2 0l2.3-2.3a3 3 0 00-4.2-4.2l-.8.8M11.5 8.5a3 3 0 00-4.2 0L5 10.8a3 3 0 004.2 4.2l.8-.8"
+-}}
+<section class="bl-page-section">
+  <div class="bl-container">
+    <div class="bl-section-header">
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "pr_bes_label" | default "BESPOKE DEVELOPMENT" }}</span>
+      <h2 class="bl-section-title" data-reveal="up" data-delay="60">{{ i18n "pr_bes_title" | default "Need more? We build the difference." }}</h2>
+      <p class="bl-section-desc" data-reveal="up" data-delay="120">{{ i18n "pr_bes_desc" | default "When the standard feature set genuinely does not cover your requirement, we do not ask you to change how you work. We develop against your specification and it becomes part of your system." }}</p>
+    </div>
+
+    <div class="pr-rate" data-reveal="up" data-delay="60">
+      <div class="pr-rate-price">
+        <span class="pr-rate-num">RM1,500</span>
+        <span class="pr-rate-unit">{{ i18n "pr_rate_unit" | default "per man-day" }}</span>
+      </div>
+      <div class="pr-rate-copy">
+        <h3 class="pr-rate-title">{{ i18n "pr_rate_title" | default "Custom development, scoped before it starts" }}</h3>
+        <p class="pr-rate-desc">{{ i18n "pr_rate_desc" | default "Every bespoke engagement begins with a documented scope and a man-day estimate, so you approve the cost before a line of code is written." }}</p>
+      </div>
+      <a class="bl-btn-ghost pr-rate-cta" href="{{ partial "lurl.html" (dict "ctx" . "url" "/contact/") }}">{{ i18n "pr_rate_cta" | default "Discuss a requirement" }}</a>
+    </div>
+
+    <div class="pr-cap-grid" data-reveal="up" data-delay="100">
+      {{ range $caps }}
+      <div class="pr-cap">
+        <span class="pr-cap-icon"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="19" height="19"><path d="{{ index $capicons .icon }}"/></svg></span>
+        <h3 class="pr-cap-title">{{ .t }}</h3>
+        <p class="pr-cap-desc">{{ .d }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- What's Included -->
+<section class="bl-page-section">
   <div class="bl-container">
     <div class="bl-section-header">
       <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "price_incl_label" | default "EVERY PLAN INCLUDES" }}</span>
@@ -181,6 +353,18 @@
     </div>
     <div class="bl-faq-list" data-reveal="up" data-delay="80">
       <div class="bl-faq-item">
+        <div class="bl-faq-q">{{ i18n "pr_faq_setup_q" | default "Why is the implementation fee higher than other vendors?" }}</div>
+        <div class="bl-faq-a">{{ i18n "pr_faq_setup_a" | default "Because we do the work that other vendors leave to you. The fee covers a dedicated project manager, a documented requirements study, data migration and hands-on training. It is the reason our recurring subscription can stay as low as it is — and the reason our launches land." }}</div>
+      </div>
+      <div class="bl-faq-item">
+        <div class="bl-faq-q">{{ i18n "pr_faq_cloud_q" | default "Is cloud infrastructure included in the subscription?" }}</div>
+        <div class="bl-faq-a">{{ i18n "pr_faq_cloud_a" | default "No. Infrastructure is billed separately, at cost, based on what you actually use. The figures on this page are estimates for a typical deployment at each tier, so you can budget for the full picture rather than the software line alone." }}</div>
+      </div>
+      <div class="bl-faq-item">
+        <div class="bl-faq-q">{{ i18n "pr_faq_custom_q" | default "What if my requirement is not in the standard product?" }}</div>
+        <div class="bl-faq-a">{{ i18n "pr_faq_custom_a" | default "We build it. BigLedger's Applet architecture means custom modules, workflows and integrations become a native part of your system rather than a bolt-on. Bespoke development is charged at RM1,500 per man-day, always scoped and quoted before work begins." }}</div>
+      </div>
+      <div class="bl-faq-item">
         <div class="bl-faq-q">{{ i18n "price_faq1_q" | default "Is there a free trial?" }}</div>
         <div class="bl-faq-a">{{ i18n "price_faq1_a" | default "Yes. We offer a full-featured trial period so you can validate BigLedger against your real workflows before committing. Contact our team to arrange access." }}</div>
       </div>
@@ -208,16 +392,21 @@
 <section class="bl-cta-section">
   <div class="bl-container">
     <div class="bl-cta-inner">
-      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "price_cta_label" | default "GET YOUR QUOTE" }}</span>
-      <h2 class="bl-cta-headline" data-reveal="up" data-delay="80">{{ i18n "price_cta_h" | default "Get a personalized quote<br>within 24 hours." | safeHTML }}</h2>
-      <p class="bl-cta-sub" data-reveal="up" data-delay="160">{{ i18n "price_cta_sub" | default "Talk to our team. We'll configure a plan around your industry, your modules, and your scale — and give you a clear number." }}</p>
+      <span class="bl-label" data-reveal="up" data-delay="0">{{ i18n "pr_cta_label" | default "TALK TO US" }}</span>
+      <h2 class="bl-cta-headline" data-reveal="up" data-delay="80">{{ i18n "pr_cta_h" | default "Let's scope it properly." | safeHTML }}</h2>
+      <p class="bl-cta-sub" data-reveal="up" data-delay="160">{{ i18n "pr_cta_sub" | default "Book a discovery call and we will walk through how your business actually runs, show you a demo configured for your industry, and put a clear number and timeline in front of you. If your requirements are unusual, that is exactly the conversation we want to have." }}</p>
       <div class="bl-cta-actions" data-reveal="up" data-delay="240">
-        <a href="/contact" class="bl-btn-primary bl-btn-lg">
-          {{ i18n "price_cta_btn" | default "Contact Sales" }}
+        <a href="{{ partial "lurl.html" (dict "ctx" . "url" "/contact/") }}" class="bl-btn-primary bl-btn-lg">
+          {{ i18n "pr_cta_btn" | default "Book a discovery call" }}
           <svg class="bl-btn-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
         </a>
-        <a href="/solutions" class="bl-btn-outline">{{ i18n "price_cta_btn2" | default "See all modules" }}</a>
+        <a href="{{ partial "lurl.html" (dict "ctx" . "url" "/demos-resources/") }}" class="bl-btn-outline">{{ i18n "pr_cta_btn2" | default "Request a custom demo" }}</a>
       </div>
+      <p class="pr-cta-note" data-reveal="up" data-delay="300">
+        <a href="mailto:sales@bigledger.com">sales@bigledger.com</a>
+        <span aria-hidden="true">·</span>
+        <a href="tel:+60108399393">+60 10-839 9393</a>
+      </p>
     </div>
   </div>
 </section>

@@ -3627,3 +3627,136 @@ a.ug-step-link:hover { color: var(--tx-1); }
 @media (hover: none) {
   .bl-mod-card::before { --mx: 20%; --my: 0%; opacity: 0.5; }
 }
+
+/* ── Pricing plans & bespoke development (/pricing/) ──────────── */
+.pr-phil-body { max-width: 780px; margin: -18px auto 46px; text-align: center; }
+.pr-phil-body p { font-size: 15px; color: var(--tx-2); line-height: 1.78; margin-bottom: 16px; }
+.pr-phil-body p:last-child { margin-bottom: 0; }
+
+.pr-pillars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.pr-pillar {
+  padding: 28px 26px; border-radius: 16px;
+  background: var(--gl1); border: 1px solid var(--bd);
+}
+.pr-pillar-num {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 34px; height: 34px; border-radius: 50%; margin-bottom: 16px;
+  background: linear-gradient(135deg, var(--cr), #7A0F26); color: #fff;
+  font-family: var(--fm); font-size: 12px; font-weight: 800;
+  box-shadow: 0 6px 16px rgba(220,20,60,0.28);
+}
+.pr-pillar-title { font-size: 17px; font-weight: 700; color: var(--tx-1); margin-bottom: 9px; }
+.pr-pillar-desc { font-size: 13.5px; color: var(--tx-2); line-height: 1.62; }
+
+/* Plan cards */
+.pr-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; align-items: stretch; }
+.pr-card {
+  display: flex; flex-direction: column; position: relative;
+  padding: 30px 24px 26px; border-radius: 18px;
+  background: var(--gl1); border: 1px solid var(--bd);
+  transition: transform 0.2s var(--ease), border-color 0.2s, box-shadow 0.2s;
+}
+.pr-card:hover { transform: translateY(-4px); border-color: rgba(220,20,60,0.35); box-shadow: 0 18px 40px rgba(0,0,0,0.45); }
+.pr-card-pop {
+  background: linear-gradient(160deg, rgba(220,20,60,0.10), rgba(220,20,60,0.02) 50%), var(--gl1);
+  border-color: rgba(220,20,60,0.42);
+  box-shadow: 0 0 34px rgba(220,20,60,0.08);
+}
+.pr-badge {
+  position: absolute; top: -10px; inset-inline-start: 24px;
+  padding: 4px 11px; border-radius: 999px;
+  background: var(--cr); color: #fff;
+  font-family: var(--fm); font-size: 9.5px; font-weight: 800; letter-spacing: 0.1em;
+}
+.pr-name { font-size: 19px; font-weight: 800; color: var(--tx-1); margin-bottom: 6px; }
+.pr-tag { font-size: 12.5px; color: var(--tx-3); line-height: 1.5; margin-bottom: 22px; min-height: 38px; }
+
+.pr-price { padding-bottom: 20px; border-bottom: 1px solid var(--bd); margin-bottom: 18px; }
+.pr-price-num { display: block; font-size: 32px; font-weight: 800; color: var(--tx-1); letter-spacing: -0.8px; line-height: 1.1; }
+.pr-price-lbl {
+  display: block; margin-top: 6px;
+  font-family: var(--fm); font-size: 10px; font-weight: 700;
+  letter-spacing: 0.09em; text-transform: uppercase; color: var(--cr-b);
+}
+
+/* min-height keeps the feature lists aligned across cards even when a longer
+   cloud-cost range forces its label onto a second line */
+.pr-rows { display: flex; flex-direction: column; gap: 11px; margin-bottom: 22px; min-height: 78px; }
+.pr-row { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.pr-row-k { font-size: 12px; color: var(--tx-3); line-height: 1.4; }
+.pr-row-v { font-size: 15px; font-weight: 700; color: var(--tx-1); white-space: nowrap; }
+.pr-row-v em { font-style: normal; font-size: 11px; font-weight: 500; color: var(--tx-3); margin-inline-start: 1px; }
+.pr-row-est .pr-row-v, .pr-row-est { font-size: 13.5px; font-weight: 600; color: var(--tx-2); }
+
+.pr-feats { list-style: none; margin: 0 0 20px; padding: 0; display: flex; flex-direction: column; gap: 9px; }
+.pr-feats li { font-size: 13px; color: var(--tx-2); line-height: 1.5; padding-inline-start: 24px; position: relative; }
+.pr-feats li::before {
+  /* physical border-left so the tick keeps its shape in RTL */
+  content: ''; position: absolute; inset-inline-start: 3px; top: 5px;
+  width: 9px; height: 5px; border-left: 1.5px solid var(--cr-b);
+  border-bottom: 1.5px solid var(--cr-b); transform: rotate(-45deg);
+}
+
+.pr-best { margin-top: auto; padding: 14px 0 20px; border-top: 1px solid var(--bd-faint); }
+.pr-best-k {
+  display: block; margin-bottom: 5px;
+  font-family: var(--fm); font-size: 9.5px; font-weight: 700;
+  letter-spacing: 0.11em; text-transform: uppercase; color: var(--tx-3);
+}
+.pr-best-v { font-size: 12.5px; color: var(--tx-2); line-height: 1.55; }
+.pr-cta { width: 100%; text-align: center; justify-content: center; }
+
+/* Keep price values as one LTR run in RTL, otherwise the trailing "+" in a
+   range like "RM3,000 – RM4,000+" is reordered to the front of the number. */
+html[dir="rtl"] .pr-row-v,
+html[dir="rtl"] .pr-price-num,
+html[dir="rtl"] .pr-rate-num { direction: ltr; unicode-bidi: isolate; }
+
+.pr-note {
+  max-width: 760px; margin: 32px auto 0; text-align: center;
+  font-size: 12.5px; color: var(--tx-3); line-height: 1.7;
+}
+
+/* Bespoke development */
+.pr-rate {
+  display: flex; align-items: center; gap: 30px; flex-wrap: wrap;
+  padding: 30px 32px; border-radius: 18px; margin-bottom: 26px;
+  background: linear-gradient(135deg, rgba(220,20,60,0.10), rgba(220,20,60,0.02) 55%), var(--gl1);
+  border: 1px solid rgba(220,20,60,0.30);
+}
+.pr-rate-price { flex-shrink: 0; }
+.pr-rate-num { display: block; font-size: 34px; font-weight: 800; color: var(--tx-1); letter-spacing: -0.8px; line-height: 1.1; }
+.pr-rate-unit {
+  display: block; margin-top: 5px;
+  font-family: var(--fm); font-size: 10px; font-weight: 700;
+  letter-spacing: 0.09em; text-transform: uppercase; color: var(--cr-b);
+}
+.pr-rate-copy { flex: 1 1 320px; }
+.pr-rate-title { font-size: 17px; font-weight: 700; color: var(--tx-1); margin-bottom: 7px; }
+.pr-rate-desc { font-size: 13.5px; color: var(--tx-2); line-height: 1.62; }
+.pr-rate-cta { flex-shrink: 0; }
+
+.pr-cap-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.pr-cap { padding: 24px 22px; border-radius: 14px; background: var(--gl1); border: 1px solid var(--bd); }
+.pr-cap-icon {
+  width: 34px; height: 34px; border-radius: 9px; margin-bottom: 14px;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(220,20,60,0.12); border: 1px solid rgba(220,20,60,0.3); color: var(--cr-b);
+}
+.pr-cap-title { font-size: 15px; font-weight: 700; color: var(--tx-1); margin-bottom: 8px; }
+.pr-cap-desc { font-size: 13px; color: var(--tx-2); line-height: 1.6; }
+
+.pr-cta-note { margin-top: 24px; font-size: 13px; color: var(--tx-3); }
+.pr-cta-note a { color: var(--tx-2); }
+.pr-cta-note a:hover { color: var(--cr-b); }
+.pr-cta-note span { margin: 0 10px; opacity: 0.5; }
+
+@media (max-width: 1100px) {
+  .pr-grid, .pr-cap-grid { grid-template-columns: repeat(2, 1fr); }
+  .pr-tag { min-height: 0; }
+}
+@media (max-width: 720px) {
+  .pr-pillars, .pr-grid, .pr-cap-grid { grid-template-columns: 1fr; }
+  .pr-rate { gap: 20px; }
+  .pr-rate-cta { width: 100%; text-align: center; }
+}
