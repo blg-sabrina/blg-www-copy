@@ -40,4 +40,4 @@ To satisfy Section 82 of the Malaysian Income Tax Act 1967, transactional record
 
 ## 5. Your Legal Rights
 
-Under the PDPA, you maintain the right to access your stored data, correct processing errors, or limit data processing. To exercise these rights, submit a formal request to our Data Protection Officer at [support@bigledger.com](mailto:support@bigledger.com).
+Under the PDPA, you maintain the right to access your stored data, correct processing errors, or limit data processing. To exercise these rights, submit a formal request to our Data Protection Officer at [blg-account@bigledger.com](mailto:blg-account@bigledger.com).

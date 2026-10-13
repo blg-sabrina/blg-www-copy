@@ -40,4 +40,4 @@ Untuk memenuhi Seksyen 82 Akta Cukai Pendapatan Malaysia 1967, rekod transaksi, 
 
 ## 5. Hak Undang-undang Anda
 
-Di bawah PDPA, anda mengekalkan hak untuk mengakses data anda yang disimpan, membetulkan ralat pemprosesan, atau menghadkan pemprosesan data. Untuk melaksanakan hak-hak ini, kemukakan permintaan rasmi kepada Pegawai Perlindungan Data kami di [support@bigledger.com](mailto:support@bigledger.com).
+Di bawah PDPA, anda mengekalkan hak untuk mengakses data anda yang disimpan, membetulkan ralat pemprosesan, atau menghadkan pemprosesan data. Untuk melaksanakan hak-hak ini, kemukakan permintaan rasmi kepada Pegawai Perlindungan Data kami di [blg-account@bigledger.com](mailto:blg-account@bigledger.com).

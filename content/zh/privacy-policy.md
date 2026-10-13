@@ -40,4 +40,4 @@ Bigledger Sdn Bhd（"我们"或"本公司"）运营本平台。我们尊重您�
 
 ## 5. 您的法律权利
 
-根据 PDPA，您有权访问所存储的数据、更正处理错误或限制数据处理。要行使这些权利，请向我们的数据保护官提交正式请求，电子邮件地址为 [support@bigledger.com](mailto:support@bigledger.com)。
+根据 PDPA，您有权访问所存储的数据、更正处理错误或限制数据处理。要行使这些权利，请向我们的数据保护官提交正式请求，电子邮件地址为 [blg-account@bigledger.com](mailto:blg-account@bigledger.com)。
