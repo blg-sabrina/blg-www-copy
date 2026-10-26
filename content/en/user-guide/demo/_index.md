@@ -49,7 +49,12 @@ Welcome to BigLedger's Interactive Demo Platform! This hands-on learning environ
   **Need Help?**
   - 💬 Live Chat: Available during demo
   - 📧 Email: demo@bigledger.com
-  - 📱 Telegram: @leehongfay
+
+  <div class="bl-cc-chat-row">
+    <a href="https://t.me/leehongfay" target="_blank" rel="noopener" class="bl-cc-chat-btn">Telegram @leehongfay</a>
+    <a href="whatsapp://send?phone=60126018838" class="bl-cc-chat-btn">WhatsApp @leehongfay</a>
+    <a href="weixin://" class="bl-cc-chat-btn">WeChat ID leehongfay</a>
+  </div>
   {{< /tab >}}
 {{< /tabs >}}
 
