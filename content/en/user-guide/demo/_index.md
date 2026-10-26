@@ -156,20 +156,11 @@ Master essential business processes that apply across all industries:
 
 Our demo platform provides a unique hands-on learning experience:
 
-1. **Scenario-Based Learning**
-   - Real business situations
-   - Industry-specific challenges
-   - Step-by-step solutions
-
-2. **Guided Workflows**
-   - Clear instructions with screenshots
-   - Expected outcomes at each step
-   - Tips and best practices
-
-3. **Safe Testing Environment**
-   - Experiment without consequences
-   - Pre-loaded sample data
-   - Daily environment reset
+{{< cards >}}
+  {{< card title="1️⃣ Scenario-Based Learning" subtitle="Real business situations, industry-specific challenges, step-by-step solutions" >}}
+  {{< card title="2️⃣ Guided Workflows" subtitle="Clear instructions with screenshots, expected outcomes at each step, tips and best practices" >}}
+  {{< card title="3️⃣ Safe Testing Environment" subtitle="Experiment without consequences, pre-loaded sample data, daily environment reset" >}}
+{{< /cards >}}
 
 ### Demo Structure
 
@@ -213,60 +204,32 @@ Each industry demo includes:
 
 ### Best Practices
 
-1. **Follow the Sequence**
-   - Start with Getting Started Guide
-   - Complete common workflows
-   - Explore industry-specific scenarios
-
-2. **Take Notes**
-   - Document questions as you go
-   - Note features relevant to your business
-   - Track workflows you want to implement
-
-3. **Experiment Freely**
-   - Try different approaches
-   - Test edge cases
-   - Explore all menu options
+{{< cards >}}
+  {{< card title="📋 Follow the Sequence" subtitle="Start with Getting Started Guide, complete common workflows, explore industry-specific scenarios" >}}
+  {{< card title="📝 Take Notes" subtitle="Document questions as you go, note features relevant to your business, track workflows you want to implement" >}}
+  {{< card title="🧪 Experiment Freely" subtitle="Try different approaches, test edge cases, explore all menu options" >}}
+{{< /cards >}}
 
 ### What You'll Learn
 
-- **System Navigation** - Master the interface and find features quickly
-- **Data Flow** - Understand how information moves through the system
-- **Integration Points** - See how modules work together seamlessly
-- **Best Practices** - Learn optimal ways to use BigLedger
-- **Industry Solutions** - Discover features specific to your sector
+{{< cards >}}
+  {{< card title="🧭 System Navigation" subtitle="Master the interface and find features quickly" >}}
+  {{< card title="🔄 Data Flow" subtitle="Understand how information moves through the system" >}}
+  {{< card title="🔗 Integration Points" subtitle="See how modules work together seamlessly" >}}
+  {{< card title="✅ Best Practices" subtitle="Learn optimal ways to use BigLedger" >}}
+  {{< card title="🏭 Industry Solutions" subtitle="Discover features specific to your sector" >}}
+{{< /cards >}}
 
 ---
 
 ## 🎬 Demo Scenarios by Business Function
 
-### Financial Management
-- Month-end closing procedures
-- Bank reconciliation workflow
-- Multi-currency transactions
-- Budget vs actual analysis
-- Cash flow management
-
-### Sales & Customer Management
-- Quote to cash cycle
-- Customer onboarding
-- Pricing strategies
-- Commission calculation
-- Customer retention workflows
-
-### Inventory & Supply Chain
-- Stock replenishment
-- Multi-location transfers
-- Batch/serial tracking
-- Supplier evaluation
-- Cost analysis
-
-### Human Resources
-- Employee onboarding
-- Leave management
-- Payroll processing
-- Performance tracking
-- Training records
+{{< cards >}}
+  {{< card title="💰 Financial Management" subtitle="Month-end closing, bank reconciliation, multi-currency transactions, budget vs actual analysis, cash flow management" >}}
+  {{< card title="🤝 Sales & Customer Management" subtitle="Quote to cash cycle, customer onboarding, pricing strategies, commission calculation, retention workflows" >}}
+  {{< card title="📦 Inventory & Supply Chain" subtitle="Stock replenishment, multi-location transfers, batch/serial tracking, supplier evaluation, cost analysis" >}}
+  {{< card title="👥 Human Resources" subtitle="Employee onboarding, leave management, payroll processing, performance tracking, training records" >}}
+{{< /cards >}}
 
 ---
 
@@ -309,20 +272,11 @@ As you work through the demos, use this checklist to track your learning:
 
 After exploring our demo, here are your next steps:
 
-1. **Schedule a Personalized Demo**
-   - One-on-one walkthrough
-   - Focus on your specific needs
-   - Q&A with product experts
-
-2. **Request a Trial**
-   - Your own trial environment
-   - Import your actual data
-   - Full feature access
-
-3. **Get a Quote**
-   - Customized pricing
-   - Implementation timeline
-   - Training options
+{{< cards >}}
+  {{< card title="🎥 Schedule a Personalized Demo" subtitle="One-on-one walkthrough, focused on your specific needs, with Q&A from product experts" >}}
+  {{< card title="🔑 Request a Trial" subtitle="Your own trial environment, import your actual data, full feature access" >}}
+  {{< card title="💬 Get a Quote" subtitle="Customized pricing, implementation timeline, training options" >}}
+{{< /cards >}}
 
 ### Contact Our Team
 
