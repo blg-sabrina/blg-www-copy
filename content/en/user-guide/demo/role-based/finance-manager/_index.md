@@ -2,25 +2,14 @@
 title: "Finance Manager Demo Journey"
 description: "Comprehensive financial management demonstration: reporting, cash flow, compliance, audit trails, and multi-company consolidation"
 weight: 10
+layout: article
 ---
 
 Experience how BigLedger transforms financial management through automation, real-time visibility, and comprehensive compliance capabilities. This demo addresses the critical challenges Finance Managers face daily.
 
-{{< hextra/hero-badge >}}
-  💰 Finance Management Excellence
-{{< /hextra/hero-badge >}}
-
-{{< hextra/hero-headline >}}
-  Streamline Financial Operations & Compliance
-{{< /hextra/hero-headline >}}
-
-{{< hextra/hero-subtitle >}}
-  Real-time Reporting • Cash Flow Management • Compliance Automation • Audit Trails • Multi-Company Consolidation
-{{< /hextra/hero-subtitle >}}
-
 ---
 
-## 🎯 Key Objectives for Finance Managers
+## Key Objectives for Finance Managers
 
 ### Primary Goals You Want to Achieve
 
@@ -64,7 +53,7 @@ Experience how BigLedger transforms financial management through automation, rea
 
 ---
 
-## 😰 Common Pain Points We Address
+## Common Pain Points We Address
 
 ### Current Challenges Finance Managers Face
 
@@ -101,15 +90,13 @@ Experience how BigLedger transforms financial management through automation, rea
 
 ---
 
-## 🎬 Demo Scenarios & Business Outcomes
+## Demo Scenarios & Business Outcomes
 
 ### Scenario 1: Real-Time Financial Dashboard
 **Business Challenge**: CEO needs current financial position for board meeting in 2 hours
 
 {{< callout type="info" >}}
-**Demo Access**: Log into [demo-v1.bigledger.com](https://demo-v1.bigledger.com) with:
-- **Username**: demo-acc
-- **Password**: Demo2025!
+**Demo Access**: Go to [demo-v1.bigledger.com](https://demo-v1.bigledger.com) — the dashboard loads directly with sample data, no sign-in required.
 {{< /callout >}}
 
 **Step-by-Step Workflow:**
@@ -298,7 +285,7 @@ Experience how BigLedger transforms financial management through automation, rea
 
 ---
 
-## 📊 Key Metrics Finance Managers Track
+## Key Metrics Finance Managers Track
 
 ### Financial Performance Metrics
 
@@ -353,7 +340,7 @@ Experience how BigLedger transforms financial management through automation, rea
 
 ---
 
-## 🔗 Critical Integration Points
+## Critical Integration Points
 
 ### Essential Financial System Integrations
 
@@ -393,7 +380,7 @@ Experience how BigLedger transforms financial management through automation, rea
 
 ---
 
-## 📈 Reports & Dashboards for Finance Managers
+## Reports & Dashboards for Finance Managers
 
 ### Executive Financial Dashboard
 - Real-time P&L summary
@@ -451,7 +438,7 @@ Experience how BigLedger transforms financial management through automation, rea
 
 ---
 
-## 💡 Implementation Roadmap for Finance Teams
+## Implementation Roadmap for Finance Teams
 
 ### Phase 1: Foundation (Weeks 1-4)
 - Chart of accounts setup and mapping
@@ -483,7 +470,7 @@ Experience how BigLedger transforms financial management through automation, rea
 
 ---
 
-## 🎯 ROI Calculator for Finance Teams
+## ROI Calculator for Finance Teams
 
 ### Cost Savings Analysis
 
@@ -504,7 +491,7 @@ Experience how BigLedger transforms financial management through automation, rea
 
 ---
 
-## 🚦 Next Steps
+## Next Steps
 
 ### Ready to Transform Your Financial Management?
 
@@ -515,6 +502,6 @@ Experience how BigLedger transforms financial management through automation, rea
 2. **[Calculate Your ROI](#roi-calculator-for-finance-teams)** - Estimate savings for your organization
 3. **[Contact Finance Specialist](mailto:sales@bigledger.com)** - Discuss specific requirements
 
-{{< callout type="success" >}}
+{{< callout type="info" >}}
 **Finance Manager Package**: Mention "FINANCE-DEMO" for specialized demonstration focusing on your specific financial management challenges.
 {{< /callout >}}

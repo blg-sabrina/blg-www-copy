@@ -2,25 +2,14 @@
 title: "Operations Manager Demo Journey"
 description: "Comprehensive operations management demonstration: process optimization, inventory management, supply chain, performance metrics, resource allocation"
 weight: 20
+layout: article
 ---
 
 Experience how BigLedger transforms operations management through intelligent automation, real-time visibility, and data-driven optimization. This demo addresses the critical operational challenges that drive efficiency and growth.
 
-{{< hextra/hero-badge >}}
-  ⚙️ Operations Excellence
-{{< /hextra/hero-badge >}}
-
-{{< hextra/hero-headline >}}
-  Optimize Operations for Maximum Efficiency
-{{< /hextra/hero-headline >}}
-
-{{< hextra/hero-subtitle >}}
-  Process Automation • Inventory Optimization • Supply Chain Management • Performance Analytics • Resource Allocation
-{{< /hextra/hero-subtitle >}}
-
 ---
 
-## 🎯 Key Objectives for Operations Managers
+## Key Objectives for Operations Managers
 
 ### Primary Goals You Want to Achieve
 
@@ -73,7 +62,7 @@ Experience how BigLedger transforms operations management through intelligent au
 
 ---
 
-## 😰 Common Operational Pain Points We Address
+## Common Operational Pain Points We Address
 
 ### Current Challenges Operations Managers Face
 
@@ -110,15 +99,13 @@ Experience how BigLedger transforms operations management through intelligent au
 
 ---
 
-## 🎬 Demo Scenarios & Business Outcomes
+## Demo Scenarios & Business Outcomes
 
 ### Scenario 1: Automated Procurement Workflow
 **Business Challenge**: Purchase requisitions take 5 days from request to PO approval, causing supplier delays
 
 {{< callout type="info" >}}
-**Demo Access**: Log into [demo-v1.bigledger.com](https://demo-v1.bigledger.com) with:
-- **Username**: demo-admin
-- **Password**: Demo2025!
+**Demo Access**: Go to [demo-v1.bigledger.com](https://demo-v1.bigledger.com) — the dashboard loads directly with sample data, no sign-in required.
 {{< /callout >}}
 
 **Step-by-Step Workflow:**
@@ -316,7 +303,7 @@ Experience how BigLedger transforms operations management through intelligent au
 
 ---
 
-## 📊 Key Metrics Operations Managers Track
+## Key Metrics Operations Managers Track
 
 ### Operational Performance Metrics
 
@@ -380,7 +367,7 @@ Experience how BigLedger transforms operations management through intelligent au
 
 ---
 
-## 🔗 Critical Integration Points
+## Critical Integration Points
 
 ### Essential Operations System Integrations
 
@@ -420,7 +407,7 @@ Experience how BigLedger transforms operations management through intelligent au
 
 ---
 
-## 📈 Reports & Dashboards for Operations Managers
+## Reports & Dashboards for Operations Managers
 
 ### Executive Operations Dashboard
 - Real-time operational KPIs
@@ -478,7 +465,7 @@ Experience how BigLedger transforms operations management through intelligent au
 
 ---
 
-## 💡 Implementation Roadmap for Operations Teams
+## Implementation Roadmap for Operations Teams
 
 ### Phase 1: Foundation (Weeks 1-6)
 - Core master data setup (items, suppliers, locations)
@@ -510,7 +497,7 @@ Experience how BigLedger transforms operations management through intelligent au
 
 ---
 
-## 🎯 ROI Calculator for Operations Teams
+## ROI Calculator for Operations Teams
 
 ### Operational Efficiency Gains
 
@@ -532,7 +519,7 @@ Experience how BigLedger transforms operations management through intelligent au
 
 ---
 
-## 🚦 Next Steps
+## Next Steps
 
 ### Ready to Optimize Your Operations?
 
@@ -543,6 +530,6 @@ Experience how BigLedger transforms operations management through intelligent au
 2. **[Calculate Your ROI](#roi-calculator-for-operations-teams)** - Estimate operational savings
 3. **[Contact Operations Specialist](mailto:sales@bigledger.com)** - Discuss specific operational challenges
 
-{{< callout type="success" >}}
+{{< callout type="info" >}}
 **Operations Excellence Package**: Mention "OPS-DEMO" for specialized demonstration focusing on your specific operational optimization needs.
 {{< /callout >}}

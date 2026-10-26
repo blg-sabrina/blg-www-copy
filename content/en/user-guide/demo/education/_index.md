@@ -2,24 +2,13 @@
 title: "University & Education Demo"
 description: "Complete educational institution workflows: student fee management, department procurement, campus operations, grant tracking, asset management, board reporting"
 weight: 25
+layout: article
 bookCollapseSection: false
 ---
 
 Transform your educational institution with BigLedger's comprehensive academic and administrative management system. This demo showcases real-world scenarios for universities, colleges, schools, and educational organizations covering student services, academic operations, and institutional management.
 
-{{< hextra/hero-badge >}}
-  🎓 Education Institution Focused
-{{< /hextra/hero-badge >}}
-
-{{< hextra/hero-headline >}}
-  Complete Educational Institution Management
-{{< /hextra/hero-headline >}}
-
-{{< hextra/hero-subtitle >}}
-  Student Fee Management • Department Procurement • Campus Operations • Grant Tracking • Asset Management • Financial Reporting
-{{< /hextra/hero-subtitle >}}
-
-## 🎯 Demo Overview
+## Demo Overview
 
 This education demo simulates "Metro State University," a mid-sized public university with diverse academic programs, extensive research activities, and comprehensive student services. You'll master the complex administrative and financial challenges unique to higher education institutions.
 
@@ -80,14 +69,12 @@ This education demo simulates "Metro State University," a mid-sized public unive
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Demo Environment Setup
 
 {{< callout type="info" >}}
-**Access**: Log into [demo-v1.bigledger.com](https://demo-v1.bigledger.com) with the credentials:
-- **Username**: demo-university
-- **Password**: Demo2025!
+**Access**: Go to [demo-v1.bigledger.com](https://demo-v1.bigledger.com) — the dashboard loads directly with sample data, no sign-in required.
 {{< /callout >}}
 
 ### Sample Institution Profile
@@ -103,7 +90,7 @@ This education demo simulates "Metro State University," a mid-sized public unive
 
 ---
 
-## 📋 Core University Operations
+## Core University Operations
 
 ### 1. Student Fee Management and Billing
 
@@ -458,7 +445,7 @@ This education demo simulates "Metro State University," a mid-sized public unive
 
 ---
 
-## 📊 Educational Institution Analytics
+## Educational Institution Analytics
 
 ### University Performance Dashboard
 
@@ -508,7 +495,7 @@ This education demo simulates "Metro State University," a mid-sized public unive
 
 ---
 
-## 🎯 Education Institution Success Metrics & ROI
+## Education Institution Success Metrics & ROI
 
 ### Expected Business Outcomes
 
@@ -558,7 +545,7 @@ This education demo simulates "Metro State University," a mid-sized public unive
 
 ---
 
-## 🚀 Implementation Roadmap
+## Implementation Roadmap
 
 ### Phase 1: Core Student Services (Weeks 1-6)
 - **Student Billing Setup**: Fee structures, financial aid integration
@@ -580,7 +567,7 @@ This education demo simulates "Metro State University," a mid-sized public unive
 
 ---
 
-## 📞 Get Started with Education Excellence
+## Get Started with Education Excellence
 
 ### Demo Environment Access
 
@@ -588,7 +575,7 @@ This education demo simulates "Metro State University," a mid-sized public unive
 
 ### Higher Education Expertise
 
-{{< callout type="success" >}}
+{{< callout type="info" >}}
 **Education Institution Package**
 
 Transform your institution with our comprehensive solution designed specifically for higher education:
@@ -616,7 +603,7 @@ Transform your institution with our comprehensive solution designed specifically
 
 ---
 
-## 📚 Continue Learning
+## Continue Learning
 
 ### Related Education Resources
 

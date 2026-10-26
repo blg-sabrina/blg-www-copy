@@ -2,36 +2,25 @@
 title: "Role-Based Demo Journeys"
 description: "Executive-focused demonstrations tailored to Finance Managers, Operations Managers, and CEOs showing strategic value and ROI"
 weight: 15
+layout: article
 bookCollapseSection: false
 ---
 
 Experience BigLedger's strategic value through executive-focused demo journeys designed for key decision makers. Each journey demonstrates specific business outcomes, ROI metrics, and integration capabilities relevant to your role.
 
-{{< hextra/hero-badge >}}
-  🎯 Executive Decision-Maker Focus
-{{< /hextra/hero-badge >}}
-
-{{< hextra/hero-headline >}}
-  Strategic Demos for Business Leaders
-{{< /hextra/hero-headline >}}
-
-{{< hextra/hero-subtitle >}}
-  Finance Management • Operations Excellence • Executive Dashboards • Strategic Analytics
-{{< /hextra/hero-subtitle >}}
-
-## 🎯 Choose Your Role
+## Choose Your Role
 
 Select your role below to access tailored demo scenarios focusing on your specific objectives, pain points, and success metrics:
 
 {{< cards >}}
-  {{< card link="/user-guide/demo/role-based/finance-manager/" title="💰 Finance Manager" subtitle="Financial reporting, cash flow management, compliance, audit trails, multi-company consolidation" >}}
-  {{< card link="/user-guide/demo/role-based/operations-manager/" title="⚙️ Operations Manager" subtitle="Process optimization, inventory management, supply chain, performance metrics, resource allocation" >}}
-  {{< card link="/user-guide/demo/role-based/ceo-executive/" title="📊 CEO & Executives" subtitle="Strategic dashboards, KPIs, business intelligence, growth analytics, profitability analysis" >}}
+  {{< card link="/user-guide/demo/role-based/finance-manager/" title="Finance Manager" subtitle="Financial reporting, cash flow management, compliance, audit trails, multi-company consolidation" >}}
+  {{< card link="/user-guide/demo/role-based/operations-manager/" title="Operations Manager" subtitle="Process optimization, inventory management, supply chain, performance metrics, resource allocation" >}}
+  {{< card link="/user-guide/demo/role-based/ceo-executive/" title="CEO & Executives" subtitle="Strategic dashboards, KPIs, business intelligence, growth analytics, profitability analysis" >}}
 {{< /cards >}}
 
 ---
 
-## 🎓 How Role-Based Demos Work
+## How Role-Based Demos Work
 
 ### Executive-Focused Approach
 
@@ -90,7 +79,7 @@ Each role-based demo includes:
 
 ---
 
-## 💡 Demo Best Practices for Executives
+## Demo Best Practices for Executives
 
 ### Before Starting Your Demo
 
@@ -121,7 +110,7 @@ Each role-based demo includes:
 
 ---
 
-## 🎯 Quick Role Assessment
+## Quick Role Assessment
 
 Not sure which role demo to start with? Answer these questions:
 
@@ -142,7 +131,7 @@ Not sure which role demo to start with? Answer these questions:
 
 ---
 
-## 📊 Expected Demo Outcomes
+## Expected Demo Outcomes
 
 By completing your role-based demo journey, you'll understand:
 
@@ -166,19 +155,13 @@ By completing your role-based demo journey, you'll understand:
 
 ---
 
-## 🚦 Ready to Begin?
+## Ready to Begin?
 
 {{< hextra/hero-button text="Access Demo Environment" link="https://demo-v1.bigledger.com" >}}
 
-### Quick Access Links
-
-- 💰 [Finance Manager Journey](/user-guide/demo/role-based/finance-manager/) - Financial management and compliance focus
-- ⚙️ [Operations Manager Journey](/user-guide/demo/role-based/operations-manager/) - Process optimization and efficiency focus
-- 📊 [CEO/Executive Journey](/user-guide/demo/role-based/ceo-executive/) - Strategic dashboards and analytics focus
-
 ---
 
-## 🤝 Executive Demo Support
+## Executive Demo Support
 
 ### Personalized Executive Demos
 
@@ -191,6 +174,6 @@ For a customized demonstration focusing on your specific business:
 
 **Schedule**: [sales@bigledger.com](mailto:sales@bigledger.com) or call +60 3-2382 3188
 
-{{< callout type="success" >}}
+{{< callout type="info" >}}
 **Executive Package**: Mention "EXEC-DEMO" for priority scheduling and dedicated solution architect support.
 {{< /callout >}}

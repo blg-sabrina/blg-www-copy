@@ -2,26 +2,15 @@
 title: "Food & Beverage Industry Demo"
 description: "Complete restaurant operations demo - table management, kitchen workflows, recipe costing, and multi-outlet management"
 weight: 40
+layout: article
 bookCollapseSection: false
 ---
 
 Experience BigLedger's comprehensive Food & Beverage management capabilities through real restaurant scenarios. This demo covers everything from table reservations to kitchen operations, recipe costing, and multi-outlet management.
 
-{{< hextra/hero-badge >}}
-  🍽️ Restaurant Operations Demo
-{{< /hextra/hero-badge >}}
-
-{{< hextra/hero-headline >}}
-  Master Restaurant Management
-{{< /hextra/hero-headline >}}
-
-{{< hextra/hero-subtitle >}}
-  Complete F&B workflows from front-of-house to back-of-house operations
-{{< /hextra/hero-subtitle >}}
-
 ---
 
-## 🎯 Demo Overview
+## Demo Overview
 
 This comprehensive demo simulates "Bella Vista Restaurant" - a mid-size restaurant with café operations, delivery services, and plans for a second outlet. You'll experience how BigLedger handles the complexity of modern F&B operations.
 
@@ -32,32 +21,32 @@ This comprehensive demo simulates "Bella Vista Restaurant" - a mid-size restaura
 - **Planned Expansion**: Second outlet opening soon
 
 {{< callout type="info" >}}
-**Demo Access**: Use account `demo-fnb` with password `Demo2025!` at [demo-v1.bigledger.com](https://demo-v1.bigledger.com) to follow along.
+**Demo Access**: Go to [demo-v1.bigledger.com](https://demo-v1.bigledger.com) to follow along — the dashboard loads directly with sample data, no sign-in required.
 {{< /callout >}}
 
 ---
 
-## 🍽️ Core F&B Workflows
+## Core F&B Workflows
 
 Master the essential operations that keep your restaurant running smoothly:
 
 {{< cards >}}
-  {{< card link="#table-management" title="🪑 Table Management" subtitle="Reservations, seating, table turnover optimization" >}}
-  {{< card link="#kitchen-operations" title="👨‍🍳 Kitchen Operations" subtitle="Order flow, kitchen display, prep management" >}}
-  {{< card link="#recipe-costing" title="📊 Recipe & Costing" subtitle="Menu engineering, food cost control, profit analysis" >}}
-  {{< card link="#inventory-control" title="📦 Inventory Control" subtitle="Ingredient tracking, wastage, automated reordering" >}}
+  {{< card link="#table-management" title="Table Management" subtitle="Reservations, seating, table turnover optimization" >}}
+  {{< card link="#kitchen-operations" title="Kitchen Operations" subtitle="Order flow, kitchen display, prep management" >}}
+  {{< card link="#recipe-costing" title="Recipe & Costing" subtitle="Menu engineering, food cost control, profit analysis" >}}
+  {{< card link="#inventory-control" title="Inventory Control" subtitle="Ingredient tracking, wastage, automated reordering" >}}
 {{< /cards >}}
 
 {{< cards >}}
-  {{< card link="#multi-outlet" title="🏪 Multi-Outlet Management" subtitle="Central kitchen, outlet transfers, consolidated reporting" >}}
-  {{< card link="#pos-operations" title="💰 POS & Payments" subtitle="Order taking, bill splitting, multiple payment methods" >}}
-  {{< card link="#delivery-takeaway" title="🚗 Delivery & Takeaway" subtitle="Online orders, delivery tracking, third-party integration" >}}
-  {{< card link="#loyalty-programs" title="🎁 Customer Loyalty" subtitle="Membership programs, rewards, customer analytics" >}}
+  {{< card link="#multi-outlet" title="Multi-Outlet Management" subtitle="Central kitchen, outlet transfers, consolidated reporting" >}}
+  {{< card link="#pos-operations" title="POS & Payments" subtitle="Order taking, bill splitting, multiple payment methods" >}}
+  {{< card link="#delivery-takeaway" title="Delivery & Takeaway" subtitle="Online orders, delivery tracking, third-party integration" >}}
+  {{< card link="#loyalty-programs" title="Customer Loyalty" subtitle="Membership programs, rewards, customer analytics" >}}
 {{< /cards >}}
 
 ---
 
-## 🪑 Table Management Workflow {#table-management}
+## Table Management Workflow {#table-management}
 
 Learn how to manage reservations, optimize seating, and track table turnover effectively.
 
@@ -174,7 +163,7 @@ Learn how to manage reservations, optimize seating, and track table turnover eff
 
 ### Tips & Best Practices
 
-{{< callout type="tip" >}}
+{{< callout type="info" >}}
 **Pro Tips**:
 - Use color-coded table status for quick visual management
 - Set up automatic SMS reminders for reservations
@@ -184,7 +173,7 @@ Learn how to manage reservations, optimize seating, and track table turnover eff
 
 ---
 
-## 👨‍🍳 Kitchen Operations Workflow {#kitchen-operations}
+## Kitchen Operations Workflow {#kitchen-operations}
 
 Experience seamless kitchen management from order receipt to food service.
 
@@ -324,7 +313,7 @@ Experience seamless kitchen management from order receipt to food service.
 
 ---
 
-## 📊 Recipe & Costing Workflow {#recipe-costing}
+## Recipe & Costing Workflow {#recipe-costing}
 
 Master menu engineering and food cost control for maximum profitability.
 
@@ -458,7 +447,7 @@ Master menu engineering and food cost control for maximum profitability.
 
 ### Profitability Analysis Tools
 
-{{< callout type="success" >}}
+{{< callout type="info" >}}
 **Key Performance Indicators**:
 - **Food Cost %**: Target 28-32% of revenue
 - **Labor Cost %**: Target 25-30% of revenue
@@ -468,7 +457,7 @@ Master menu engineering and food cost control for maximum profitability.
 
 ---
 
-## 📦 Inventory Control Workflow {#inventory-control}
+## Inventory Control Workflow {#inventory-control}
 
 Master ingredient tracking, wastage control, and automated reordering for optimal inventory management.
 
@@ -611,7 +600,7 @@ Master ingredient tracking, wastage control, and automated reordering for optima
 
 ---
 
-## 🏪 Multi-Outlet Management {#multi-outlet}
+## Multi-Outlet Management {#multi-outlet}
 
 Experience centralized management of multiple restaurant locations with central kitchen operations.
 
@@ -754,7 +743,7 @@ Experience centralized management of multiple restaurant locations with central 
 
 ---
 
-## 💰 POS & Payment Operations {#pos-operations}
+## POS & Payment Operations {#pos-operations}
 
 Master point-of-sale operations including order taking, bill splitting, and multiple payment processing.
 
@@ -894,7 +883,7 @@ Master point-of-sale operations including order taking, bill splitting, and mult
 
 ### POS Performance Metrics
 
-{{< callout type="success" >}}
+{{< callout type="info" >}}
 **Daily POS Targets**:
 - **Transaction Speed**: Average < 3 minutes per order
 - **Payment Success Rate**: > 99.5%
@@ -904,7 +893,7 @@ Master point-of-sale operations including order taking, bill splitting, and mult
 
 ---
 
-## 🚗 Delivery & Takeaway Operations {#delivery-takeaway}
+## Delivery & Takeaway Operations {#delivery-takeaway}
 
 Manage online orders, delivery coordination, and third-party platform integration.
 
@@ -1058,7 +1047,7 @@ Manage online orders, delivery coordination, and third-party platform integratio
 
 ---
 
-## 🎁 Customer Loyalty Programs {#loyalty-programs}
+## Customer Loyalty Programs {#loyalty-programs}
 
 Implement and manage comprehensive customer loyalty and membership programs.
 
@@ -1205,7 +1194,7 @@ Implement and manage comprehensive customer loyalty and membership programs.
 
 ### Loyalty Program ROI
 
-{{< callout type="success" >}}
+{{< callout type="info" >}}
 **Program Performance Metrics**:
 - **Member Retention Rate**: Target >80% annual retention
 - **Average Order Value**: 40% higher for members
@@ -1215,7 +1204,7 @@ Implement and manage comprehensive customer loyalty and membership programs.
 
 ---
 
-## 📈 Food Cost Analysis & Control
+## Food Cost Analysis & Control
 
 Master comprehensive food cost management and profit optimization techniques.
 
@@ -1370,7 +1359,7 @@ Master comprehensive food cost management and profit optimization techniques.
 
 ---
 
-## 🎯 Demo Completion & Next Steps
+## Demo Completion & Next Steps
 
 Congratulations! You've completed the comprehensive Food & Beverage industry demo for BigLedger. You've experienced how our integrated Business Operating System handles the complexity of modern restaurant operations.
 
@@ -1440,7 +1429,7 @@ Congratulations! You've completed the comprehensive Food & Beverage industry dem
 
 ### Ready to Transform Your F&B Business?
 
-{{< callout type="success" >}}
+{{< callout type="info" >}}
 **Special F&B Package Available**: Contact our team and mention "F&B-DEMO-2025" for exclusive restaurant industry pricing and implementation support!
 {{< /callout >}}
 
@@ -1476,10 +1465,10 @@ Congratulations! You've completed the comprehensive Food & Beverage industry dem
 
 ### Additional Resources
 
-- 📚 [F&B Best Practices Guide](/user-guide/industries/food-beverage/)
-- 🎓 [Training Materials](/user-guide/training/)
-- 📞 [Support Documentation](/support/)
-- 💡 [F&B Case Studies](/success-stories/food-beverage/)
+- [F&B Best Practices Guide](/user-guide/industries/food-beverage/)
+- [Training Materials](/user-guide/training/)
+- [Support Documentation](/support/)
+- [F&B Case Studies](/success-stories/food-beverage/)
 
 {{< callout type="info" >}}
 **Remember**: This demo environment resets daily. Save any configurations or notes you want to reference for your implementation planning.

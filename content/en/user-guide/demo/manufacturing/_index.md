@@ -2,24 +2,13 @@
 title: "Manufacturing Industry Demo"
 description: "Comprehensive manufacturing workflows including BOM management, production planning, quality control, and cost analysis"
 weight: 20
+layout: article
 bookCollapseSection: false
 ---
 
 Experience BigLedger's manufacturing capabilities through realistic production scenarios. This demo covers the complete manufacturing lifecycle from BOM setup to finished goods delivery.
 
-{{< hextra/hero-badge >}}
-  🏭 Manufacturing-Focused Scenarios
-{{< /hextra/hero-badge >}}
-
-{{< hextra/hero-headline >}}
-  Master Production Operations with BigLedger
-{{< /hextra/hero-headline >}}
-
-{{< hextra/hero-subtitle >}}
-  Production planning, BOM management, quality control, and cost optimization workflows
-{{< /hextra/hero-subtitle >}}
-
-## 🎯 Manufacturing Demo Overview
+## Manufacturing Demo Overview
 
 This comprehensive demo guides you through key manufacturing processes using realistic scenarios from **AcmeMfg Industries**, a mid-sized manufacturer producing electronic components and assemblies.
 
@@ -34,7 +23,7 @@ This comprehensive demo guides you through key manufacturing processes using rea
 
 ---
 
-## 🔧 Manufacturing Workflows Covered
+## Manufacturing Workflows Covered
 
 {{< cards >}}
   {{< card link="#bom-setup" title="BOM Management" subtitle="Multi-level BOMs, version control, and material planning" >}}
@@ -47,20 +36,18 @@ This comprehensive demo guides you through key manufacturing processes using rea
 
 ---
 
-## 📋 Prerequisites and Setup
+## Prerequisites and Setup
 
 ### Demo Account Access
 
-{{< tabs items="Login Details,Test Data,Sample Products" >}}
+{{< tabs items="Access Details,Test Data,Sample Products" >}}
   {{< tab >}}
   **Access the Demo Environment**
 
-  - **URL**: demo-v1.bigledger.com
-  - **Username**: demo-mfg (Manufacturing Manager)
-  - **Password**: Demo2025!
+  - **URL**: demo-v1.bigledger.com — the dashboard loads directly with sample data, no sign-in required
   - **Company**: AcmeMfg Industries
 
-  This account has full access to manufacturing modules and pre-configured sample data.
+  This environment has full access to manufacturing modules and pre-configured sample data.
   {{< /tab >}}
 
   {{< tab >}}
@@ -97,7 +84,7 @@ This comprehensive demo guides you through key manufacturing processes using rea
 
 ---
 
-## 🔨 Workflow 1: BOM Management {#bom-setup}
+## Workflow 1: BOM Management {#bom-setup}
 
 Learn to create and manage multi-level Bills of Materials with version control and engineering change management.
 
@@ -183,7 +170,7 @@ Learn to create and manage multi-level Bills of Materials with version control a
 
 ### Tips and Best Practices
 
-{{< callout type="tip" >}}
+{{< callout type="info" >}}
 **BOM Management Tips**:
 - Use descriptive component descriptions including specifications
 - Maintain component substitution lists for flexibility
@@ -203,7 +190,7 @@ Learn to create and manage multi-level Bills of Materials with version control a
 
 ---
 
-## 📊 Workflow 2: Production Planning and MRP {#production-planning}
+## Workflow 2: Production Planning and MRP {#production-planning}
 
 Master Materials Requirements Planning (MRP) to optimize production schedules and inventory levels.
 
@@ -319,7 +306,7 @@ Master Materials Requirements Planning (MRP) to optimize production schedules an
 
 ---
 
-## 🏗️ Workflow 3: Work Order Management {#work-orders}
+## Workflow 3: Work Order Management {#work-orders}
 
 Learn to create, track, and complete production work orders with material and labor tracking.
 
@@ -433,7 +420,7 @@ Learn to create, track, and complete production work orders with material and la
 
 ### Production Monitoring Dashboard
 
-{{< callout type="tip" >}}
+{{< callout type="info" >}}
 **Real-time Production Metrics**:
 - Work order completion percentage
 - Current operation status
@@ -445,7 +432,7 @@ Learn to create, track, and complete production work orders with material and la
 
 ---
 
-## 🔍 Workflow 4: Quality Control Management {#quality-control}
+## Workflow 4: Quality Control Management {#quality-control}
 
 Implement comprehensive quality management including incoming inspection, in-process testing, and final inspection.
 
@@ -581,7 +568,7 @@ Implement comprehensive quality management including incoming inspection, in-pro
 
 ---
 
-## 💰 Workflow 5: Inventory Valuation and Cost Analysis {#inventory-valuation}
+## Workflow 5: Inventory Valuation and Cost Analysis {#inventory-valuation}
 
 Master inventory costing methods and production cost analysis for accurate financial reporting.
 
@@ -732,7 +719,7 @@ Master inventory costing methods and production cost analysis for accurate finan
 
 ---
 
-## 🤝 Workflow 6: Subcontracting Operations {#subcontracting}
+## Workflow 6: Subcontracting Operations {#subcontracting}
 
 Manage outsourced manufacturing operations including material supply and service procurement.
 
@@ -890,7 +877,7 @@ Manage outsourced manufacturing operations including material supply and service
 
 ### Subcontracting Best Practices
 
-{{< callout type="tip" >}}
+{{< callout type="info" >}}
 **Subcontracting Success Factors**:
 - Clear specifications and quality requirements
 - Regular vendor performance reviews
@@ -902,7 +889,7 @@ Manage outsourced manufacturing operations including material supply and service
 
 ---
 
-## 📈 Manufacturing KPIs and Analytics
+## Manufacturing KPIs and Analytics
 
 Monitor key performance indicators to optimize manufacturing operations.
 
@@ -1004,7 +991,7 @@ Monitor key performance indicators to optimize manufacturing operations.
 
 ---
 
-## 🎓 Advanced Manufacturing Features
+## Advanced Manufacturing Features
 
 ### Continuous Improvement Tools
 
@@ -1028,7 +1015,7 @@ Monitor key performance indicators to optimize manufacturing operations.
 
 ---
 
-## 🚀 Next Steps and Implementation
+## Next Steps and Implementation
 
 ### Manufacturing Module Rollout Plan
 
@@ -1101,7 +1088,7 @@ Monitor key performance indicators to optimize manufacturing operations.
 
 ### Training and Support Resources
 
-{{< callout type="success" >}}
+{{< callout type="info" >}}
 **Available Resources**:
 - **Video Tutorials**: Step-by-step manufacturing workflows
 - **User Manuals**: Comprehensive documentation
@@ -1112,7 +1099,7 @@ Monitor key performance indicators to optimize manufacturing operations.
 
 ---
 
-## 📞 Get Expert Manufacturing Guidance
+## Get Expert Manufacturing Guidance
 
 Ready to implement BigLedger for your manufacturing operations?
 

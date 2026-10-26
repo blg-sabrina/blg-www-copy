@@ -2,24 +2,13 @@
 title: "Apparel & Fashion Retail Demo"
 description: "Complete fashion retail workflows: size/color matrix management, seasonal planning, trend analytics, consignment, visual merchandising, returns processing"
 weight: 12
+layout: article
 bookCollapseSection: false
 ---
 
 Master BigLedger's specialized apparel and fashion retail capabilities through realistic scenarios that address the unique challenges of fashion retailers. This comprehensive demo covers size/color matrix management, seasonal inventory planning, trend analytics, and complex fashion-specific business processes.
 
-{{< hextra/hero-badge >}}
-  👗 Fashion Industry Focused
-{{< /hextra/hero-badge >}}
-
-{{< hextra/hero-headline >}}
-  Complete Fashion Retail Management
-{{< /hextra/hero-headline >}}
-
-{{< hextra/hero-subtitle >}}
-  Size/Color Matrix • Seasonal Planning • Trend Analytics • Consignment • Visual Merchandising • Fashion-Specific Operations
-{{< /hextra/hero-subtitle >}}
-
-## 🎯 Demo Overview
+## Demo Overview
 
 This apparel demo simulates "StyleHub Fashion," a multi-brand fashion retailer with physical stores, online presence, and consignment operations. You'll master industry-specific challenges including size/color matrix management, seasonal buying, trend analysis, and complex inventory dynamics unique to fashion retail.
 
@@ -80,14 +69,12 @@ This apparel demo simulates "StyleHub Fashion," a multi-brand fashion retailer w
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Demo Environment Setup
 
 {{< callout type="info" >}}
-**Access**: Log into [demo-v1.bigledger.com](https://demo-v1.bigledger.com) with the credentials:
-- **Username**: demo-fashion
-- **Password**: Demo2025!
+**Access**: Go to [demo-v1.bigledger.com](https://demo-v1.bigledger.com) — the dashboard loads directly with sample data, no sign-in required.
 {{< /callout >}}
 
 ### Sample Business Profile
@@ -103,7 +90,7 @@ This apparel demo simulates "StyleHub Fashion," a multi-brand fashion retailer w
 
 ---
 
-## 📋 Core Apparel Retail Workflows
+## Core Apparel Retail Workflows
 
 ### 1. Size/Color Matrix Management
 
@@ -483,7 +470,7 @@ This apparel demo simulates "StyleHub Fashion," a multi-brand fashion retailer w
 
 ---
 
-## 📊 Fashion Retail Analytics & Insights
+## Fashion Retail Analytics & Insights
 
 ### Apparel-Specific Performance Dashboard
 
@@ -533,7 +520,7 @@ This apparel demo simulates "StyleHub Fashion," a multi-brand fashion retailer w
 
 ---
 
-## 🎯 Fashion Retail Success Metrics & ROI
+## Fashion Retail Success Metrics & ROI
 
 ### Expected Business Outcomes
 
@@ -585,7 +572,7 @@ This apparel demo simulates "StyleHub Fashion," a multi-brand fashion retailer w
 
 ---
 
-## 🚀 Implementation Roadmap
+## Implementation Roadmap
 
 ### Phase 1: Core Fashion Operations (Weeks 1-6)
 - **Product Matrix Setup**: Size/color management and SKU structure
@@ -607,7 +594,7 @@ This apparel demo simulates "StyleHub Fashion," a multi-brand fashion retailer w
 
 ---
 
-## 📞 Get Started with Fashion Excellence
+## Get Started with Fashion Excellence
 
 ### Demo Environment Access
 
@@ -615,7 +602,7 @@ This apparel demo simulates "StyleHub Fashion," a multi-brand fashion retailer w
 
 ### Fashion Retail Expertise
 
-{{< callout type="success" >}}
+{{< callout type="info" >}}
 **Fashion Retail Master Package**
 
 Transform your fashion business with our specialized solution designed for apparel retailers:
@@ -643,7 +630,7 @@ Transform your fashion business with our specialized solution designed for appar
 
 ---
 
-## 📚 Continue Learning
+## Continue Learning
 
 ### Related Fashion Resources
 

@@ -2,24 +2,13 @@
 title: "Distributors B2B Demo"
 description: "Complete wholesale and distribution workflows: multi-tier pricing, B2B order management, credit limits, logistics optimization, vendor management"
 weight: 15
+layout: article
 bookCollapseSection: false
 ---
 
 Master BigLedger's comprehensive distribution management capabilities through realistic B2B scenarios that address the complex challenges of wholesale operations. This demo covers multi-tier pricing, credit management, logistics optimization, and advanced vendor relationships.
 
-{{< hextra/hero-badge >}}
-  🚚 B2B Distribution Focused
-{{< /hextra/hero-badge >}}
-
-{{< hextra/hero-headline >}}
-  Complete B2B Distribution Management
-{{< /hextra/hero-headline >}}
-
-{{< hextra/hero-subtitle >}}
-  Multi-Tier Pricing • Credit Management • Drop-Shipping • Logistics Optimization • Vendor Portal Integration
-{{< /hextra/hero-subtitle >}}
-
-## 🎯 Demo Overview
+## Demo Overview
 
 This distribution demo simulates "MegaDistro Solutions," a multi-regional wholesale distributor serving retailers, resellers, and online businesses. You'll master complex B2B challenges including tiered pricing, credit management, logistics optimization, and vendor relationship management.
 
@@ -79,14 +68,12 @@ This distribution demo simulates "MegaDistro Solutions," a multi-regional wholes
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Demo Environment Setup
 
 {{< callout type="info" >}}
-**Access**: Log into [demo-v1.bigledger.com](https://demo-v1.bigledger.com) with the credentials:
-- **Username**: demo-distribution
-- **Password**: Demo2025!
+**Access**: Go to [demo-v1.bigledger.com](https://demo-v1.bigledger.com) — the dashboard loads directly with sample data, no sign-in required.
 {{< /callout >}}
 
 ### Sample Business Profile
@@ -101,7 +88,7 @@ This distribution demo simulates "MegaDistro Solutions," a multi-regional wholes
 
 ---
 
-## 📋 Core Distribution Workflows
+## Core Distribution Workflows
 
 ### 1. Multi-Tier Pricing and Customer Management
 
@@ -485,7 +472,7 @@ This distribution demo simulates "MegaDistro Solutions," a multi-regional wholes
 
 ---
 
-## 📊 Distribution Analytics & Intelligence
+## Distribution Analytics & Intelligence
 
 ### B2B Performance Dashboard
 
@@ -535,7 +522,7 @@ This distribution demo simulates "MegaDistro Solutions," a multi-regional wholes
 
 ---
 
-## 🎯 Distribution Success Metrics & ROI
+## Distribution Success Metrics & ROI
 
 ### Expected Business Outcomes
 
@@ -573,7 +560,7 @@ This distribution demo simulates "MegaDistro Solutions," a multi-regional wholes
 
 ---
 
-## 🚀 Implementation Roadmap
+## Implementation Roadmap
 
 ### Phase 1: Foundation (Weeks 1-4)
 - **Customer and Vendor Setup**: Master data migration and validation
@@ -595,7 +582,7 @@ This distribution demo simulates "MegaDistro Solutions," a multi-regional wholes
 
 ---
 
-## 📞 Get Started with Distribution Excellence
+## Get Started with Distribution Excellence
 
 ### Demo Environment Access
 
@@ -603,7 +590,7 @@ This distribution demo simulates "MegaDistro Solutions," a multi-regional wholes
 
 ### Specialized Distribution Support
 
-{{< callout type="success" >}}
+{{< callout type="info" >}}
 **Distribution Enterprise Package**
 
 Transform your distribution operations with our comprehensive solution designed specifically for B2B wholesalers and distributors:
@@ -627,7 +614,7 @@ Transform your distribution operations with our comprehensive solution designed 
 
 ---
 
-## 📚 Continue Learning
+## Continue Learning
 
 ### Related Resources
 

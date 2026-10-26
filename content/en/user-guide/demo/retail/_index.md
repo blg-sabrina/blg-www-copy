@@ -2,24 +2,13 @@
 title: "Consumer Electronics Retail Demo"
 description: "Complete consumer electronics retail workflows: multi-channel operations, serial number tracking, warranty management, service centers, bundle promotions"
 weight: 10
+layout: article
 bookCollapseSection: false
 ---
 
 Experience BigLedger's specialized consumer electronics retail capabilities through realistic scenarios that address the unique challenges of electronics retailers. This comprehensive demo covers serial number tracking, warranty management, service center operations, and complex pricing strategies.
 
-{{< hextra/hero-badge >}}
-  📱 Consumer Electronics Focused
-{{< /hextra/hero-badge >}}
-
-{{< hextra/hero-headline >}}
-  Master Electronics Retail with BigLedger
-{{< /hextra/hero-headline >}}
-
-{{< hextra/hero-subtitle >}}
-  Serial Number Tracking • Warranty Management • Service Centers • Bundle Promotions • Multi-Channel Integration
-{{< /hextra/hero-subtitle >}}
-
-## 🎯 Demo Overview
+## Demo Overview
 
 This consumer electronics demo simulates "TechZone Electronics," a multi-location electronics retailer with physical stores, online presence, and authorized service centers. You'll master industry-specific challenges including warranty tracking, technical support, and complex product configurations.
 
@@ -79,14 +68,12 @@ This consumer electronics demo simulates "TechZone Electronics," a multi-locatio
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Demo Environment Setup
 
 {{< callout type="info" >}}
-**Access**: Log into [demo-v1.bigledger.com](https://demo-v1.bigledger.com) with the credentials:
-- **Username**: demo-sales
-- **Password**: Demo2025!
+**Access**: Go to [demo-v1.bigledger.com](https://demo-v1.bigledger.com) — the dashboard loads directly with sample data, no sign-in required.
 {{< /callout >}}
 
 ### Sample Business Profile
@@ -102,7 +89,7 @@ This consumer electronics demo simulates "TechZone Electronics," a multi-locatio
 
 ---
 
-## 📋 Core Electronics Retail Workflows
+## Core Electronics Retail Workflows
 
 ### 1. Electronics POS Operations with Serial Number Tracking
 
@@ -747,7 +734,7 @@ This consumer electronics demo simulates "TechZone Electronics," a multi-locatio
 
 ---
 
-## 📊 Electronics Retail Analytics & KPIs
+## Electronics Retail Analytics & KPIs
 
 ### Consumer Electronics Dashboard
 
@@ -820,7 +807,7 @@ This consumer electronics demo simulates "TechZone Electronics," a multi-locatio
 
 ---
 
-## 🔧 Common Troubleshooting
+## Common Troubleshooting
 
 ### POS Issues
 
@@ -869,7 +856,7 @@ This consumer electronics demo simulates "TechZone Electronics," a multi-locatio
 
 ---
 
-## 🎯 Electronics Retail ROI & Business Outcomes
+## Electronics Retail ROI & Business Outcomes
 
 ### Expected ROI from BigLedger Implementation
 
@@ -913,7 +900,7 @@ This consumer electronics demo simulates "TechZone Electronics," a multi-locatio
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 
 ### Mastery Checklist
 
@@ -942,7 +929,7 @@ Complete these scenarios to master BigLedger's retail capabilities:
 
 ### Ready for Implementation?
 
-{{< callout type="success" >}}
+{{< callout type="info" >}}
 **Schedule Your Electronics Retail Implementation**
 
 Ready to transform your electronics retail operations? Our specialized implementation team will help you:
@@ -959,7 +946,7 @@ Ready to transform your electronics retail operations? Our specialized implement
 
 ---
 
-## 📞 Support & Resources
+## Support & Resources
 
 ### Get Help
 

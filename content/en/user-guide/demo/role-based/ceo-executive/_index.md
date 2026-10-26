@@ -2,25 +2,14 @@
 title: "CEO & Executive Demo Journey"
 description: "Strategic business intelligence demonstration: executive dashboards, KPIs, growth analytics, profitability analysis, and strategic decision support"
 weight: 30
+layout: article
 ---
 
 Experience how BigLedger transforms executive decision-making through comprehensive business intelligence, real-time strategic insights, and predictive analytics. This demo focuses on the strategic visibility and control CEOs need to drive growth.
 
-{{< hextra/hero-badge >}}
-  📊 Strategic Business Intelligence
-{{< /hextra/hero-badge >}}
-
-{{< hextra/hero-headline >}}
-  Transform Data into Strategic Advantage
-{{< /hextra/hero-headline >}}
-
-{{< hextra/hero-subtitle >}}
-  Executive Dashboards • Strategic KPIs • Business Intelligence • Growth Analytics • Profitability Analysis • Market Intelligence
-{{< /hextra/hero-subtitle >}}
-
 ---
 
-## 🎯 Key Objectives for CEOs & Executives
+## Key Objectives for CEOs & Executives
 
 ### Strategic Goals You Want to Achieve
 
@@ -73,7 +62,7 @@ Experience how BigLedger transforms executive decision-making through comprehens
 
 ---
 
-## 😰 Executive Decision-Making Challenges We Address
+## Executive Decision-Making Challenges We Address
 
 ### Current Strategic Management Pain Points
 
@@ -110,15 +99,13 @@ Experience how BigLedger transforms executive decision-making through comprehens
 
 ---
 
-## 🎬 Executive Demo Scenarios & Strategic Outcomes
+## Executive Demo Scenarios & Strategic Outcomes
 
 ### Scenario 1: Real-Time Executive Command Center
 **Strategic Challenge**: Board meeting in 2 hours - need complete business performance overview
 
 {{< callout type="info" >}}
-**Demo Access**: Log into [demo-v1.bigledger.com](https://demo-v1.bigledger.com) with:
-- **Username**: demo-admin
-- **Password**: Demo2025!
+**Demo Access**: Go to [demo-v1.bigledger.com](https://demo-v1.bigledger.com) — the dashboard loads directly with sample data, no sign-in required.
 {{< /callout >}}
 
 **Step-by-Step Executive Workflow:**
@@ -316,7 +303,7 @@ Experience how BigLedger transforms executive decision-making through comprehens
 
 ---
 
-## 📊 Strategic KPIs & Executive Metrics
+## Strategic KPIs & Executive Metrics
 
 ### Executive Performance Dashboard
 
@@ -380,7 +367,7 @@ Experience how BigLedger transforms executive decision-making through comprehens
 
 ---
 
-## 🔗 Strategic Integration Capabilities
+## Strategic Integration Capabilities
 
 ### Critical Executive System Integrations
 
@@ -420,7 +407,7 @@ Experience how BigLedger transforms executive decision-making through comprehens
 
 ---
 
-## 📈 Executive Reports & Strategic Dashboards
+## Executive Reports & Strategic Dashboards
 
 ### CEO Command Center Dashboard
 - Real-time business performance summary
@@ -478,7 +465,7 @@ Experience how BigLedger transforms executive decision-making through comprehens
 
 ---
 
-## 💡 Strategic Implementation Framework
+## Strategic Implementation Framework
 
 ### Phase 1: Strategic Foundation (Weeks 1-4)
 - Executive dashboard configuration
@@ -510,7 +497,7 @@ Experience how BigLedger transforms executive decision-making through comprehens
 
 ---
 
-## 🎯 Strategic ROI Analysis for CEOs
+## Strategic ROI Analysis for CEOs
 
 ### Strategic Value Creation
 
@@ -540,7 +527,7 @@ Experience how BigLedger transforms executive decision-making through comprehens
 
 ---
 
-## 🚦 Executive Next Steps
+## Executive Next Steps
 
 ### Ready to Transform Your Strategic Management?
 
@@ -579,13 +566,13 @@ Experience how BigLedger transforms executive decision-making through comprehens
   {{< /tab >}}
 {{< /tabs >}}
 
-{{< callout type="success" >}}
+{{< callout type="info" >}}
 **Executive Priority Access**: Mention "CEO-STRATEGIC" for priority scheduling and dedicated C-level solution architect support with strategic business case development.
 {{< /callout >}}
 
 ---
 
-## 🤝 Strategic Partnership Opportunity
+## Strategic Partnership Opportunity
 
 ### Beyond Software - Strategic Business Partnership
 

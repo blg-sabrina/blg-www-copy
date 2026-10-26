@@ -2,24 +2,13 @@
 title: "Professional Services Demo"
 description: "Complete demo workflows for consulting, IT services, agencies, and professional service businesses"
 weight: 30
+layout: article
 bookCollapseSection: false
 ---
 
 Transform your professional services business with BigLedger's comprehensive project-based workflow system. This demo showcases real-world scenarios for consulting firms, IT service providers, marketing agencies, and other professional service organizations.
 
-{{< hextra/hero-badge >}}
-  🎯 Service Business Focused
-{{< /hextra/hero-badge >}}
-
-{{< hextra/hero-headline >}}
-  Project-Based Business Management
-{{< /hextra/hero-headline >}}
-
-{{< hextra/hero-subtitle >}}
-  Complete workflows for project management, time tracking, service billing, and client delivery
-{{< /hextra/hero-subtitle >}}
-
-## 🚀 Demo Environment Setup
+## Demo Environment Setup
 
 ### Prerequisites
 
@@ -28,9 +17,7 @@ Before starting this demo, ensure you have:
 {{< tabs items="Access,Sample Data,User Roles" >}}
   {{< tab >}}
   **Demo Environment Access**
-  - Demo URL: demo-v1.bigledger.com
-  - Username: demo-admin
-  - Password: Demo2025!
+  - Demo URL: demo-v1.bigledger.com — the dashboard loads directly with sample data, no sign-in required
   - Company: ProServ Solutions Ltd.
   {{< /tab >}}
 
@@ -44,37 +31,37 @@ Before starting this demo, ensure you have:
   {{< /tab >}}
 
   {{< tab >}}
-  **Available Demo Roles**
-  - Project Manager (demo-pm / Demo2025!)
-  - Consultant (demo-consultant / Demo2025!)
-  - Billing Admin (demo-billing / Demo2025!)
-  - Client Portal (demo-client / Demo2025!)
+  **Available Demo Views**
+  - Project Manager
+  - Consultant
+  - Billing Admin
+  - Client Portal
   {{< /tab >}}
 {{< /tabs >}}
 
 ---
 
-## 🎯 Professional Services Workflows
+## Professional Services Workflows
 
 Choose your workflow based on your role and business focus:
 
 {{< cards >}}
-  {{< card link="#project-setup" title="🗂️ Project Setup & Management" subtitle="Create projects, define milestones, allocate resources" >}}
+  {{< card link="#project-setup" title="Project Setup & Management" subtitle="Create projects, define milestones, allocate resources" >}}
   {{< card link="#time-tracking" title="⏰ Time Sheet Management" subtitle="Log billable hours, track project progress" >}}
-  {{< card link="#service-billing" title="💰 Service & Milestone Billing" subtitle="Invoice time, materials, and fixed-fee projects" >}}
-  {{< card link="#resource-management" title="👥 Resource Allocation" subtitle="Schedule consultants, manage capacity planning" >}}
+  {{< card link="#service-billing" title="Service & Milestone Billing" subtitle="Invoice time, materials, and fixed-fee projects" >}}
+  {{< card link="#resource-management" title="Resource Allocation" subtitle="Schedule consultants, manage capacity planning" >}}
 {{< /cards >}}
 
 {{< cards >}}
-  {{< card link="#expense-tracking" title="📋 Expense & Reimbursement" subtitle="Track project expenses, client reimbursables" >}}
-  {{< card link="#client-portal" title="🌐 Client Portal Setup" subtitle="Configure client access, project visibility" >}}
-  {{< card link="#recurring-billing" title="🔄 Recurring Services" subtitle="Set up monthly retainers, SLA billing" >}}
-  {{< card link="#analytics" title="📊 Profitability Analysis" subtitle="Project P&L, consultant utilization" >}}
+  {{< card link="#expense-tracking" title="Expense & Reimbursement" subtitle="Track project expenses, client reimbursables" >}}
+  {{< card link="#client-portal" title="Client Portal Setup" subtitle="Configure client access, project visibility" >}}
+  {{< card link="#recurring-billing" title="Recurring Services" subtitle="Set up monthly retainers, SLA billing" >}}
+  {{< card link="#analytics" title="Profitability Analysis" subtitle="Project P&L, consultant utilization" >}}
 {{< /cards >}}
 
 ---
 
-## 🗂️ Project Setup & Management {#project-setup}
+## Project Setup & Management {#project-setup}
 
 ### Scenario: New IT Consulting Project
 
@@ -157,7 +144,7 @@ Choose your workflow based on your role and business focus:
 
 ---
 
-## ⏰ Time Sheet Management {#time-tracking}
+## Time Sheet Management {#time-tracking}
 
 ### Scenario: Weekly Time Entry for Multiple Projects
 
@@ -174,7 +161,7 @@ Choose your workflow based on your role and business focus:
   {{< tab >}}
   **1. Daily Time Logging**
 
-  1. Login as consultant: demo-consultant / Demo2025!
+  1. Switch to the Consultant view
   2. Navigate to **Time Tracking → My Timesheet**
   3. For Monday entry:
      - Project: TECH-ERP-2025
@@ -234,7 +221,7 @@ Choose your workflow based on your role and business focus:
 
 ### Advanced Time Tracking Features
 
-{{< callout type="success" >}}
+{{< callout type="info" >}}
 **Pro Features Demonstrated**:
 - Timer integration for real-time tracking
 - Mobile app synchronization
@@ -245,7 +232,7 @@ Choose your workflow based on your role and business focus:
 
 ---
 
-## 💰 Service & Milestone Billing {#service-billing}
+## Service & Milestone Billing {#service-billing}
 
 ### Scenario: Mixed Billing - Time & Materials + Fixed Milestones
 
@@ -326,7 +313,7 @@ Choose your workflow based on your role and business focus:
 
 ---
 
-## 👥 Resource Allocation & Scheduling {#resource-management}
+## Resource Allocation & Scheduling {#resource-management}
 
 ### Scenario: Capacity Planning for Q2 Projects
 
@@ -390,7 +377,7 @@ Choose your workflow based on your role and business focus:
 
   **Expected Result**: Conflicts resolved with minimal impact on project delivery.
 
-  {{< callout type="success" >}}
+  {{< callout type="info" >}}
   **Smart Features**: The system automatically suggests optimal resource allocation based on skills, availability, and project priorities.
   {{< /callout >}}
   {{< /tab >}}
@@ -405,7 +392,7 @@ Choose your workflow based on your role and business focus:
 
 ---
 
-## 📋 Expense Tracking & Reimbursement {#expense-tracking}
+## Expense Tracking & Reimbursement {#expense-tracking}
 
 ### Scenario: Project Expenses and Client Reimbursables
 
@@ -495,7 +482,7 @@ Choose your workflow based on your role and business focus:
 
 ---
 
-## 🌐 Client Portal Setup {#client-portal}
+## Client Portal Setup {#client-portal}
 
 ### Scenario: Configure Client Self-Service Portal
 
@@ -565,7 +552,7 @@ Choose your workflow based on your role and business focus:
 
   **Expected Result**: Client portal configured with appropriate project visibility and automated communications.
 
-  {{< callout type="success" >}}
+  {{< callout type="info" >}}
   **Client Benefits**: Portal access reduces email communications, improves transparency, and enables faster approvals and payments.
   {{< /callout >}}
   {{< /tab >}}
@@ -582,7 +569,7 @@ Choose your workflow based on your role and business focus:
 
 ---
 
-## 🔄 Recurring Service Billing {#recurring-billing}
+## Recurring Service Billing {#recurring-billing}
 
 ### Scenario: Monthly Retainer and SLA-Based Billing
 
@@ -678,7 +665,7 @@ Choose your workflow based on your role and business focus:
 
 ---
 
-## 📊 Project Profitability Analysis {#analytics}
+## Project Profitability Analysis {#analytics}
 
 ### Scenario: Comprehensive Project and Business Performance Analysis
 
@@ -769,7 +756,7 @@ Choose your workflow based on your role and business focus:
 
   **Expected Result**: Comprehensive business performance dashboard with key performance indicators.
 
-  {{< callout type="success" >}}
+  {{< callout type="info" >}}
   **Strategic Insights**: Use these analytics to make data-driven decisions about pricing, resource allocation, and business growth strategies.
   {{< /callout >}}
   {{< /tab >}}
@@ -797,7 +784,7 @@ Choose your workflow based on your role and business focus:
 
 ---
 
-## 🎓 Advanced Service Business Features
+## Advanced Service Business Features
 
 ### Additional Capabilities Demonstrated
 
@@ -832,7 +819,7 @@ Choose your workflow based on your role and business focus:
 
 ---
 
-## 🚦 Next Steps & Best Practices
+## Next Steps & Best Practices
 
 ### Implementation Roadmap
 
@@ -866,7 +853,7 @@ Choose your workflow based on your role and business focus:
 
 ---
 
-## 📞 Get Started with Your Service Business
+## Get Started with Your Service Business
 
 ### Demo Environment Access
 
@@ -879,6 +866,6 @@ Choose your workflow based on your role and business focus:
 - **Technical Support**: support@bigledger.com
 - **Sales Consultation**: sales@bigledger.com
 
-{{< callout type="success" >}}
+{{< callout type="info" >}}
 **Professional Services Package**: Ask about our specialized implementation package designed specifically for consulting firms, agencies, and professional service providers.
 {{< /callout >}}
