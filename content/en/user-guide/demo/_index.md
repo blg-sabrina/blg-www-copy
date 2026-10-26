@@ -8,7 +8,7 @@ bookCollapseSection: false
 
 Welcome to BigLedger's Interactive Demo Platform! This hands-on learning environment lets you explore our Business Operating System through real-world scenarios tailored to your industry.
 
-## 🚀 Quick Start with Demo
+## Quick Start with Demo
 
 ### Demo Access Credentials
 
@@ -40,8 +40,8 @@ Welcome to BigLedger's Interactive Demo Platform! This hands-on learning environ
 
   {{< tab >}}
   **Need Help?**
-  - 💬 Live Chat: Available during demo
-  - 📧 Email: demo@bigledger.com
+  - Live Chat: Available during demo
+  - Email: demo@bigledger.com
 
   <div class="bl-cc-chat-row">
     <a href="https://t.me/leehongfay" target="_blank" rel="noopener" class="bl-cc-chat-btn">Telegram @leehongfay</a>
@@ -53,19 +53,19 @@ Welcome to BigLedger's Interactive Demo Platform! This hands-on learning environ
 
 ---
 
-## 🎯 Choose Your Industry Path
+## Choose Your Industry Path
 
 Select your industry below to access tailored demo scenarios and workflows designed specifically for your business sector. Each demo addresses industry-specific challenges with practical, executive-focused workflows that demonstrate clear ROI and business outcomes.
 
-### 🏆 Featured Industry Demos
+### Featured Industry Demos
 
 **NEW: Comprehensive industry-specific journeys with detailed workflows, key pain points, expected ROI, and success metrics:**
 
 {{< cards >}}
-  {{< card link="/user-guide/demo/retail/" title="📱 Consumer Electronics Retail" subtitle="Serial number tracking, warranty management, service centers, bundle pricing" >}}
-  {{< card link="/user-guide/demo/distributors/" title="🚚 Distributors & Wholesalers" subtitle="B2B order management, multi-tier pricing, credit limits, logistics optimization" >}}
-  {{< card link="/user-guide/demo/apparel/" title="👗 Apparel & Fashion Retail" subtitle="Size/color matrix, seasonal planning, trend analytics, visual merchandising" >}}
-  {{< card link="/user-guide/demo/education/" title="🎓 Universities & Education" subtitle="Student fee management, department procurement, grant tracking, campus operations" >}}
+  {{< card link="/user-guide/demo/retail/" title="Consumer Electronics Retail" subtitle="Serial number tracking, warranty management, service centers, bundle pricing" >}}
+  {{< card link="/user-guide/demo/distributors/" title="Distributors & Wholesalers" subtitle="B2B order management, multi-tier pricing, credit limits, logistics optimization" >}}
+  {{< card link="/user-guide/demo/apparel/" title="Apparel & Fashion Retail" subtitle="Size/color matrix, seasonal planning, trend analytics, visual merchandising" >}}
+  {{< card link="/user-guide/demo/education/" title="Universities & Education" subtitle="Student fee management, department procurement, grant tracking, campus operations" >}}
 {{< /cards >}}
 
 ### Industry-Specific Benefits Summary
@@ -111,24 +111,24 @@ Select your industry below to access tailored demo scenarios and workflows desig
 ### Additional Industry Demos
 
 {{< cards >}}
-  {{< card link="/user-guide/demo/manufacturing/" title="🏭 Manufacturing" subtitle="Production planning, BOM management, quality control" >}}
-  {{< card link="/user-guide/demo/services/" title="💼 Professional Services" subtitle="Project management, time tracking, service billing" >}}
-  {{< card link="/user-guide/demo/food-beverage/" title="🍽️ Food & Beverage" subtitle="Restaurant operations, multi-outlet management, recipe costing" >}}
+  {{< card link="/user-guide/demo/manufacturing/" title="Manufacturing" subtitle="Production planning, BOM management, quality control" >}}
+  {{< card link="/user-guide/demo/services/" title="Professional Services" subtitle="Project management, time tracking, service billing" >}}
+  {{< card link="/user-guide/demo/food-beverage/" title="Food & Beverage" subtitle="Restaurant operations, multi-outlet management, recipe costing" >}}
 {{< /cards >}}
 
 ---
 
-## 🎯 Role-Based Executive Demos
+## Role-Based Executive Demos
 
 Strategic demonstrations designed for key decision makers focusing on business outcomes and ROI:
 
 {{< cards >}}
-  {{< card link="/user-guide/demo/role-based/" title="🎯 Executive Demo Journeys" subtitle="Finance managers, operations managers, CEOs - strategic focus" >}}
+  {{< card link="/user-guide/demo/role-based/" title="Executive Demo Journeys" subtitle="Finance managers, operations managers, CEOs - strategic focus" >}}
 {{< /cards >}}
 
 ---
 
-## 📚 Common Business Workflows
+## Common Business Workflows
 
 Master essential business processes that apply across all industries:
 
@@ -139,16 +139,16 @@ Master essential business processes that apply across all industries:
 
 ---
 
-## 🎓 How This Demo Works
+## How This Demo Works
 
 ### Interactive Learning Approach
 
 Our demo platform provides a unique hands-on learning experience:
 
 {{< cards >}}
-  {{< card title="1️⃣ Scenario-Based Learning" subtitle="Real business situations, industry-specific challenges, step-by-step solutions" >}}
-  {{< card title="2️⃣ Guided Workflows" subtitle="Clear instructions with screenshots, expected outcomes at each step, tips and best practices" >}}
-  {{< card title="3️⃣ Safe Testing Environment" subtitle="Experiment without consequences, pre-loaded sample data, daily environment reset" >}}
+  {{< card title="1. Scenario-Based Learning" subtitle="Real business situations, industry-specific challenges, step-by-step solutions" >}}
+  {{< card title="2. Guided Workflows" subtitle="Clear instructions with screenshots, expected outcomes at each step, tips and best practices" >}}
+  {{< card title="3. Safe Testing Environment" subtitle="Experiment without consequences, pre-loaded sample data, daily environment reset" >}}
 {{< /cards >}}
 
 ### Demo Structure
@@ -180,100 +180,3 @@ Each industry demo includes:
   - Advanced analytics
   {{< /tab >}}
 {{< /tabs >}}
-
----
-
-## 💡 Tips for Maximum Benefit
-
-### Before You Start
-
-{{< callout type="info" >}}
-**Recommended Approach**: Open this guide in one browser tab and the demo environment in another tab. This allows you to follow instructions while performing actions in the system.
-{{< /callout >}}
-
-### Best Practices
-
-{{< cards >}}
-  {{< card title="📋 Follow the Sequence" subtitle="Start with Getting Started Guide, complete common workflows, explore industry-specific scenarios" >}}
-  {{< card title="📝 Take Notes" subtitle="Document questions as you go, note features relevant to your business, track workflows you want to implement" >}}
-  {{< card title="🧪 Experiment Freely" subtitle="Try different approaches, test edge cases, explore all menu options" >}}
-{{< /cards >}}
-
-### What You'll Learn
-
-{{< cards >}}
-  {{< card title="🧭 System Navigation" subtitle="Master the interface and find features quickly" >}}
-  {{< card title="🔄 Data Flow" subtitle="Understand how information moves through the system" >}}
-  {{< card title="🔗 Integration Points" subtitle="See how modules work together seamlessly" >}}
-  {{< card title="✅ Best Practices" subtitle="Learn optimal ways to use BigLedger" >}}
-  {{< card title="🏭 Industry Solutions" subtitle="Discover features specific to your sector" >}}
-{{< /cards >}}
-
----
-
-## 🎬 Demo Scenarios by Business Function
-
-{{< cards >}}
-  {{< card title="💰 Financial Management" subtitle="Month-end closing, bank reconciliation, multi-currency transactions, budget vs actual analysis, cash flow management" >}}
-  {{< card title="🤝 Sales & Customer Management" subtitle="Quote to cash cycle, customer onboarding, pricing strategies, commission calculation, retention workflows" >}}
-  {{< card title="📦 Inventory & Supply Chain" subtitle="Stock replenishment, multi-location transfers, batch/serial tracking, supplier evaluation, cost analysis" >}}
-  {{< card title="👥 Human Resources" subtitle="Employee onboarding, leave management, payroll processing, performance tracking, training records" >}}
-{{< /cards >}}
-
----
-
-## 🚦 Ready to Start?
-
-{{< hextra/hero-button text="Launch Demo Environment" link="https://demo-v1.bigledger.com" >}}
-
----
-
-## 📊 Track Your Progress
-
-As you work through the demos, use this checklist to track your learning:
-
-### Essential Tasks
-- [ ] Complete Getting Started Guide
-- [ ] Set up user preferences
-- [ ] Navigate main modules
-- [ ] Create sample transaction
-- [ ] Generate first report
-
-### Industry Workflows
-- [ ] Complete your industry demo
-- [ ] Test key business processes
-- [ ] Explore integration points
-- [ ] Review analytics dashboards
-- [ ] Document questions for sales team
-
-### Advanced Features
-- [ ] Configure automation rules
-- [ ] Set up approval workflows
-- [ ] Customize reports
-- [ ] Test API integration
-- [ ] Explore AI features
-
----
-
-## 🤝 Next Steps After Demo
-
-### Ready to Move Forward?
-
-After exploring our demo, here are your next steps:
-
-{{< cards >}}
-  {{< card title="🎥 Schedule a Personalized Demo" subtitle="One-on-one walkthrough, focused on your specific needs, with Q&A from product experts" >}}
-  {{< card title="🔑 Request a Trial" subtitle="Your own trial environment, import your actual data, full feature access" >}}
-  {{< card title="💬 Get a Quote" subtitle="Customized pricing, implementation timeline, training options" >}}
-{{< /cards >}}
-
-### Contact Our Team
-
-- **Sales**: sales@bigledger.com
-- **Technical**: vincent@bigledger.com
-- **Support**: support@bigledger.com
-- **Website**: [www.bigledger.com](https://www.bigledger.com)
-
-{{< callout type="info" emoji="🎉" >}}
-**Special Offer**: Mention "DEMO2025" when contacting our sales team for exclusive demo-to-customer benefits!
-{{< /callout >}}
