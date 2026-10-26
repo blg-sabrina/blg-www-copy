@@ -134,7 +134,6 @@ Master essential business processes that apply across all industries:
 
 {{< cards >}}
   {{< card link="/user-guide/demo/common-workflows/" title="Core Financial Processes" subtitle="Accounting, reconciliation, financial reporting" >}}
-  {{< card link="/user-guide/demo/getting-started-demo/" title="Getting Started Guide" subtitle="First steps, navigation, basic setup" >}}
 {{< /cards >}}
 
 ---
