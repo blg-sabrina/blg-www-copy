@@ -36,13 +36,17 @@ Welcome to BigLedger's Interactive Demo Platform! This hands-on learning environ
   {{< tab >}}
   **Role-Based Demo Accounts**:
 
-  | Role | Username | Password | Access Level |
-  |------|----------|----------|--------------|
-  | Admin | demo-admin | Demo2025! | Full System |
-  | Accountant | demo-acc | Demo2025! | Financial |
-  | Sales Manager | demo-sales | Demo2025! | Sales & CRM |
-  | Warehouse | demo-wh | Demo2025! | Inventory |
-  | Cashier | demo-pos | Demo2025! | POS Only |
+  | Role | Username | Access Level |
+  |------|----------|--------------|
+  | Admin | demo-admin | Full System |
+  | Accountant | demo-acc | Financial |
+  | Sales Manager | demo-sales | Sales & CRM |
+  | Warehouse | demo-wh | Inventory |
+  | Cashier | demo-pos | POS Only |
+
+  {{< callout type="info" >}}
+  **Password**: Request the current demo password from our team via [Live Chat](#demo-access-credentials), demo@bigledger.com, or the support tab — we rotate it regularly and don't publish it here.
+  {{< /callout >}}
   {{< /tab >}}
 
   {{< tab >}}
@@ -270,18 +274,6 @@ Each industry demo includes:
 
 {{< hextra/hero-button text="Launch Demo Environment" link="https://demo-v1.bigledger.com" >}}
 
-### Quick Links
-
-- 🎯 [Getting Started Guide](/user-guide/demo/getting-started-demo/) - Begin here for orientation
-- 💰 [Common Financial Workflows](/user-guide/demo/common-workflows/) - Essential accounting processes
-- 📱 [Consumer Electronics Demo](/user-guide/demo/retail/) - Electronics retail workflows
-- 🚚 [Distributors Demo](/user-guide/demo/distributors/) - B2B wholesale operations
-- 👗 [Apparel Retail Demo](/user-guide/demo/apparel/) - Fashion retail workflows
-- 🎓 [University Demo](/user-guide/demo/education/) - Higher education management
-- 🏭 [Manufacturing Demo](/user-guide/demo/manufacturing/) - Production workflows
-- 💼 [Professional Services Demo](/user-guide/demo/services/) - Service business processes
-- 🍽️ [Food & Beverage Demo](/user-guide/demo/food-beverage/) - Restaurant operations
-
 ---
 
 ## 📊 Track Your Progress
@@ -339,6 +331,6 @@ After exploring our demo, here are your next steps:
 - **Support**: support@bigledger.com
 - **Website**: [www.bigledger.com](https://www.bigledger.com)
 
-{{< callout type="success" >}}
+{{< callout type="info" emoji="🎉" >}}
 **Special Offer**: Mention "DEMO2025" when contacting our sales team for exclusive demo-to-customer benefits!
 {{< /callout >}}
