@@ -25,7 +25,15 @@ jobs:
           hugo version
 
       - name: Build Hugo site
-        run: hugo --minify
+        # --cleanDestinationDir removes anything in public/ that the current
+        # build didn't (re)generate. Without it, a page deleted from content/
+        # leaves its old output sitting in public/ (which is committed to this
+        # repo), so hugo deploy's remote-vs-local diff never sees it as
+        # removed and never deletes it from S3 — a real-world case of this:
+        # /user-guide/demo/getting-started-demo/ kept serving stale content
+        # on the live site for two full deploys after its content file was
+        # deleted, until this flag was added.
+        run: hugo --minify --cleanDestinationDir
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4

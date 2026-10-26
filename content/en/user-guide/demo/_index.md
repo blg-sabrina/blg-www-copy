@@ -4,6 +4,8 @@ description: "Guided workflows, industry scenarios, and live testing with demo a
 weight: 25
 layout: article
 bookCollapseSection: false
+aliases:
+  - /user-guide/demo/getting-started-demo/
 ---
 
 Welcome to BigLedger's Interactive Demo Platform! This hands-on learning environment lets you explore our Business Operating System through real-world scenarios tailored to your industry.
