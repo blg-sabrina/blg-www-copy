@@ -49,6 +49,8 @@ Our support team is ready to assist you with any questions or guidance you need.
 ### Contact Information
 - **📧 Email**: vincent@bigledger.com / sales@bigledger.com
 - **💬 Telegram**: @leehongfay
+- **💚 WhatsApp**: [@leehongfay](https://wa.me/60126018838)
+- **🟢 WeChat**: ID leehongfay
 - **🌐 Website**: [www.bigledger.com](https://www.bigledger.com)
 
 ### Additional Support Resources

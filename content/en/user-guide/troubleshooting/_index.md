@@ -367,6 +367,8 @@ Recommended Browser Settings:
 ### Support Channels
 - **📧 Email Support**: vincent@bigledger.com for technical issues
 - **💬 Quick Chat**: Telegram @leehongfay for immediate questions
+- **💚 WhatsApp**: [@leehongfay](https://wa.me/60126018838)
+- **🟢 WeChat**: ID leehongfay
 - **📞 Phone Support**: Available during business hours
 - **🌐 Support Portal**: Online ticket system and knowledge base
 
