@@ -2,27 +2,16 @@
 title: "Getting Started with Demo"
 description: "Your first steps with BigLedger's demo environment - orientation, navigation, and basic setup"
 weight: 10
+layout: article
 ---
 
 Welcome to your BigLedger demo journey! This guide will help you get comfortable with the platform before exploring industry-specific workflows.
 
-{{< hextra/hero-badge >}}
-  🚀 15-Minute Quick Start
-{{< /hextra/hero-badge >}}
-
-{{< hextra/hero-headline >}}
-  Master BigLedger Basics
-{{< /hextra/hero-headline >}}
-
-{{< hextra/hero-subtitle >}}
-  Essential orientation for first-time users
-{{< /hextra/hero-subtitle >}}
-
-## 🎯 Before You Begin
+## Before You Begin
 
 ### Setting Up Your Demo Session
 
-{{< callout type="tip" >}}
+{{< callout type="info" >}}
 **Pro Tip**: Open two browser tabs side-by-side:
 - **Tab 1**: This guide (keep it open for reference)
 - **Tab 2**: [Demo Environment](https://demo-v1.bigledger.com) (for hands-on practice)
@@ -30,15 +19,19 @@ Welcome to your BigLedger demo journey! This guide will help you get comfortable
 
 ### Your Demo Credentials
 
-| Role | Username | Password | Best For |
-|------|----------|----------|----------|
-| Admin | demo-admin | Demo2025! | Full exploration |
-| Accountant | demo-acc | Demo2025! | Financial workflows |
-| Sales | demo-sales | Demo2025! | Sales processes |
+| Role | Username | Best For |
+|------|----------|----------|
+| Admin | demo-admin | Full exploration |
+| Accountant | demo-acc | Financial workflows |
+| Sales | demo-sales | Sales processes |
+
+{{< callout type="info" >}}
+**Password**: Request the current demo password from our team via [Live Chat](/user-guide/demo/#demo-access-credentials), demo@bigledger.com, or the support tab — we rotate it regularly and don't publish it here.
+{{< /callout >}}
 
 ---
 
-## 📚 Part 1: First Login & Navigation
+## Part 1: First Login & Navigation
 
 ### Step 1: Access the Demo Environment
 
@@ -50,7 +43,7 @@ Welcome to your BigLedger demo journey! This guide will help you get comfortable
 
   **2. Enter Credentials**
   - Username: `demo-admin`
-  - Password: `Demo2025!`
+  - Password: (request from our team — see above)
   - Click "Sign In"
 
   **3. First Login Success**
@@ -103,7 +96,7 @@ Welcome to your BigLedger demo journey! This guide will help you get comfortable
 
 ---
 
-## 🎨 Part 2: Understanding the Dashboard
+## Part 2: Understanding the Dashboard
 
 ### Dashboard Components
 
@@ -123,7 +116,7 @@ Welcome to your BigLedger demo journey! This guide will help you get comfortable
 
 ---
 
-## 🔧 Part 3: Basic Configuration
+## Part 3: Basic Configuration
 
 ### Step 2: Set Your Preferences
 
@@ -188,7 +181,7 @@ Welcome to your BigLedger demo journey! This guide will help you get comfortable
 
 ---
 
-## 💡 Part 4: Core Concepts
+## Part 4: Core Concepts
 
 ### Understanding BigLedger Architecture
 
@@ -209,7 +202,7 @@ Welcome to your BigLedger demo journey! This guide will help you get comfortable
 
 ---
 
-## 🚀 Part 5: Your First Transaction
+## Part 5: Your First Transaction
 
 ### Creating a Sample Sales Order
 
@@ -278,7 +271,7 @@ Welcome to your BigLedger demo journey! This guide will help you get comfortable
 
 ---
 
-## 📊 Part 6: Basic Reporting
+## Part 6: Basic Reporting
 
 ### Generating Your First Report
 
@@ -302,7 +295,7 @@ Welcome to your BigLedger demo journey! This guide will help you get comfortable
 
 ---
 
-## 🎯 Part 7: Practice Exercises
+## Part 7: Practice Exercises
 
 ### Essential Skills Checklist
 
@@ -348,7 +341,7 @@ Complete these exercises to build confidence:
 
 ---
 
-## 🚦 Part 8: Common Tasks Quick Reference
+## Part 8: Common Tasks Quick Reference
 
 ### Frequently Used Features
 
@@ -371,11 +364,11 @@ Complete these exercises to build confidence:
 
 ---
 
-## 💡 Tips for Demo Success
+## Tips for Demo Success
 
 ### Best Practices
 
-{{< callout type="success" >}}
+{{< callout type="info" >}}
 **Demo Success Tips**:
 1. **Start simple** - Master basics before advanced features
 2. **Use sample data** - Don't worry about making mistakes
@@ -397,7 +390,7 @@ A: Click the (?) icon on any page or press F1 for contextual help.
 
 ---
 
-## 🎓 Next Steps
+## Next Steps
 
 ### You've Completed the Basics!
 
@@ -420,7 +413,7 @@ Now you're ready to explore:
 
 ---
 
-## 📝 Quick Reference Card
+## Quick Reference Card
 
 ### Essential Information
 
@@ -428,7 +421,7 @@ Now you're ready to explore:
   {{< tab >}}
   **Demo Access**
   - URL: https://demo-v1.bigledger.com
-  - Admin: demo-admin / Demo2025!
+  - Admin username: demo-admin (request password from our team)
   - Reset: Daily at midnight
   {{< /tab >}}
 
@@ -455,7 +448,7 @@ Now you're ready to explore:
 
 ---
 
-## ✅ Completion Checklist
+## Completion Checklist
 
 Track your progress:
 
