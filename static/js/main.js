@@ -605,8 +605,13 @@ function initScrollReveal() {
          1 once it has climbed a full band above it */
       const arriving = clamp01(((vh - offset) - r.top) / band);
       /* leaving past the top: 1 while the bottom is well below the top
-         edge, easing to 0 as it exits */
-      const leaving  = clamp01(r.bottom / band);
+         edge, easing to 0 as it exits. Only applies once the element has
+         actually started scrolling past the top (r.top < 0) — otherwise
+         a short element sitting near the top of a tall page (e.g. a hero
+         title on initial load, before any scrolling) has a small r.bottom
+         relative to a large band and gets wrongly read as "already
+         leaving", making it invisible even though nothing has scrolled. */
+      const leaving  = r.top >= 0 ? 1 : clamp01(r.bottom / band);
 
       const p = easeOut(Math.min(arriving, leaving));
       el.style.opacity   = (MIN_OPACITY + (1 - MIN_OPACITY) * p).toFixed(3);

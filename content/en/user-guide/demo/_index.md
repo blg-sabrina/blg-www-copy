@@ -1,23 +1,12 @@
 ---
 title: "Interactive Demo Platform"
-description: "Experience BigLedger's capabilities through hands-on guided workflows tailored to your industry"
+description: "Guided workflows, industry scenarios, and live testing with demo accounts"
 weight: 25
+layout: article
 bookCollapseSection: false
 ---
 
 Welcome to BigLedger's Interactive Demo Platform! This hands-on learning environment lets you explore our Business Operating System through real-world scenarios tailored to your industry.
-
-{{< hextra/hero-badge >}}
-  🎯 Live Demo Environment Available
-{{< /hextra/hero-badge >}}
-
-{{< hextra/hero-headline >}}
-  Experience BigLedger in Action
-{{< /hextra/hero-headline >}}
-
-{{< hextra/hero-subtitle >}}
-  Guided workflows, industry scenarios, and live testing with demo accounts
-{{< /hextra/hero-subtitle >}}
 
 ## 🚀 Quick Start with Demo
 

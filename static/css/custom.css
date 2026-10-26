@@ -3212,6 +3212,23 @@ a.ug-step-link:hover { color: var(--tx-1); }
 /* horizontal rule */
 .doc-content hr { border: none; border-top: 1px solid var(--bd); margin: 34px 0; }
 
+/* ---- Hextra tabs, restyled as a segmented control ---- */
+.doc-content .hextra-tabs-toggle {
+  cursor: pointer; padding: 8px 18px; margin-inline-end: 8px;
+  border: 1px solid var(--bd-m) !important; border-radius: 999px !important;
+  background: var(--gl1); color: var(--tx-2) !important;
+  font-size: 13.5px; font-weight: 600; transition: all 0.18s ease;
+}
+.doc-content .hextra-tabs-toggle:hover { color: var(--tx-1) !important; border-color: var(--bd-cm) !important; }
+.doc-content .hextra-tabs-toggle[data-state="selected"] {
+  background: var(--cr-g); color: var(--cr-b) !important;
+  border-color: var(--bd-cm) !important;
+}
+.doc-content .hextra-tabs-toggle + .hextra-tabs-toggle { margin-inline-start: 0; }
+.doc-content [role="tablist"], .doc-content .hextra-tabs-toggle { border-bottom: none; }
+.doc-content .hextra-tabs-panel { display: none; padding-top: 18px; }
+.doc-content .hextra-tabs-panel[data-state="selected"] { display: block; }
+
 /* ---- Same dark-themed callout treatment for plain corporate pages ---- */
 .page-content div[class*="hx:bg-blue-100"],
 .page-content div[class*="hx:bg-green-100"],
