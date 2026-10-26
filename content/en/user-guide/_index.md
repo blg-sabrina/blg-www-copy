@@ -217,8 +217,6 @@ Optimize your inventory levels and streamline supply chain operations:
 - **📧 General Support**: sales@bigledger.com for inquiries and sales questions
 - **💬 Technical Support**: vincent@bigledger.com for technical assistance
 - **📱 Quick Chat**: Telegram @leehongfay for immediate questions
-- **💚 WhatsApp**: [@leehongfay](https://wa.me/60126018838)
-- **🟢 WeChat**: ID leehongfay
 - **🌐 Website**: [www.bigledger.com](https://www.bigledger.com) for latest updates
 
 ### Learning Resources
