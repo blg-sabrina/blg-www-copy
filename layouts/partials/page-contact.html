@@ -32,13 +32,16 @@
                 <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
               </svg>
             </div>
-            <span class="bl-cc-type">{{ i18n "contact_sales_type" | default "Sales Inquiry" }}</span>
+            <span class="bl-cc-type">{{ i18n "contact_sales_type" | default "General Inquiries" }}</span>
           </div>
           <div class="bl-cc-body">
             <div class="bl-cc-person">Sabrina</div>
             <a href="mailto:fatimah@bigledger.com" class="bl-cc-link">fatimah@bigledger.com</a>
           </div>
           <a href="mailto:fatimah@bigledger.com" class="bl-cc-cta">{{ i18n "contact_send_msg" | default "Send a message" }} &rarr;</a>
+          <div class="bl-cc-chat-row">
+            <a href="whatsapp://send?phone=60108399393" class="bl-cc-chat-btn">WhatsApp @S_Farr</a>
+          </div>
         </div>
 
         <div class="bl-contact-card" data-reveal="left" data-delay="80">
@@ -67,7 +70,7 @@
 
       <!-- Right: Office + Hours -->
       <div class="bl-contact-right" data-reveal="right" data-delay="80">
-        <div class="bl-office-card">
+        <a href="https://www.google.com/maps/search/?api=1&query=Bigledger+Sdn+Bhd%2C+UNIT+3C%264C%2C+Jalan+USJ+10%2F1j%2C+UEP+SUBANG+JAYA%2C+47620+Subang+Jaya%2C+Selangor" target="_blank" rel="noopener" class="bl-office-card">
           <div class="bl-office-map">
             <div class="bl-map-visual">
               <div class="bl-map-grid"></div>
@@ -83,11 +86,11 @@
               <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" width="14" height="14">
                 <path d="M8 2C5.24 2 3 4.24 3 7c0 3.5 5 9 5 9s5-5.5 5-9c0-2.76-2.24-5-5-5zm0 6.5a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/>
               </svg>
-              BigLedger Malaysia
+              Bigledger Sdn Bhd
             </div>
-            <div class="bl-office-city">{{ i18n "contact_office_city" | default "Kuala Lumpur, Malaysia" }}</div>
+            <div class="bl-office-city">{{ i18n "contact_office_city" | default "UNIT 3C & 4C, Jalan USJ 10/1j, UEP Subang Jaya, 47620 Subang Jaya, Selangor" }}</div>
           </div>
-        </div>
+        </a>
 
         <div class="bl-hours-card">
           <div class="bl-hours-title">{{ i18n "contact_hours_title" | default "Business Hours" }}</div>
