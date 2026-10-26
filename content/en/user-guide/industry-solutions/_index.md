@@ -3,13 +3,12 @@ title: Industry Solutions
 description: Industry-specific implementations and success stories with BigLedger
 weight: 80
 bookCollapseSection: false
+layout: article
 tags:
 - industry
 - solutions
 - case-studies
 ---
-
-# Industry-Specific BigLedger Solutions
 
 BigLedger serves businesses across multiple industries with tailored solutions and specialized workflows. This comprehensive guide showcases industry-specific implementations, success stories, and proven methodologies that deliver measurable business results.
 

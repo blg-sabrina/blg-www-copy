@@ -4,6 +4,7 @@ description: System administration, user management, and advanced configuration 
 tags: [administration, system-admin, user-management, configuration]
 weight: 40
 bookCollapseSection: false
+layout: article
 ---
 
 Comprehensive system administration and configuration tools for BigLedger administrators. This section covers user management, system settings, security, and organizational structure.

@@ -4,6 +4,7 @@ description: Business intelligence, reporting, and data analysis tools to drive 
 tags: [reports, analytics, business-intelligence, dashboards]
 weight: 50
 bookCollapseSection: false
+layout: article
 ---
 
 Harness the power of your business data with BigLedger's comprehensive reporting and analytics capabilities. Transform raw data into actionable insights that drive better business decisions.

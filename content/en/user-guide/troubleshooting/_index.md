@@ -4,6 +4,7 @@ description: Common issues, solutions, and problem-solving techniques for BigLed
 tags: [troubleshooting, support, problems, solutions]
 weight: 60
 bookCollapseSection: false
+layout: article
 ---
 
 Quick solutions to common BigLedger issues and comprehensive problem-solving guides. This section helps you resolve problems quickly and get back to productive work.
