@@ -35,7 +35,6 @@ Experience BigLedger hands-on with our comprehensive demo environment.
 
 {{< cards >}}
 {{< card link="/user-guide/demo/" title="Interactive Demo Platform" subtitle="Hands-on guided workflows tailored to your industry" >}}
-{{< card link="/user-guide/demo/getting-started-demo/" title="Demo Quick Start" subtitle="15-minute orientation to get you started" >}}
 {{< card link="/user-guide/demo/common-workflows/" title="Common Workflows" subtitle="Essential business processes for all industries" >}}
 {{< /cards >}}
 
