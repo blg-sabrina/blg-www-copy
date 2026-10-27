@@ -157,7 +157,7 @@ By completing your role-based demo journey, you'll understand:
 
 ## Ready to Begin?
 
-{{< hextra/hero-button text="Access Demo Environment" link="https://demo-v1.bigledger.com" >}}
+{{< hextra/hero-button text="Talk to Our Team" link="/user-guide/demo/#contact-our-team" >}}
 
 ---
 
